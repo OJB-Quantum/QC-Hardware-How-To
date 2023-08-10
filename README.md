@@ -2,3 +2,4 @@
 Everything you need for quantum hardware engineering in the field. Curated by Onri Jay Benally, an Indigenous American quantum hardware engineer.
 __________________________________________________________________________________________________________________________________________________
 
+https://www.overleaf.com/read/xmrssbbxhsxy
