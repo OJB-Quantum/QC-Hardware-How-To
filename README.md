@@ -9,6 +9,14 @@ ________________________________________________________________________________
 ## Below is a link to the LaTeX document available on Overleaf:
 - https://www.overleaf.com/read/xmrssbbxhsxy
 
-![Screenshot 2023-08-09 233949](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/e8c8e544-3aad-4234-a939-087746001ffa)
+## 3 Critical Quantum Hardware Videos – Explanation of the Physical System:
 
-![quantum hardware everything-1](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a01deb0a-55b0-4457-85e2-950dd7aad35f)
+[Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL)
+
+[Superconducting qubits for analogue quantum simulation](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9)
+
+[Quantum Control Technologies: Pulses for Quantum Control](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4)
+
+[Screenshot 2023-08-09 233949](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/e8c8e544-3aad-4234-a939-087746001ffa)
+
+[quantum hardware everything-1](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a01deb0a-55b0-4457-85e2-950dd7aad35f)
