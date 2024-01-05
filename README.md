@@ -9,13 +9,16 @@ ________________________________________________________________________________
 ## Below is a link to the LaTeX document available on Overleaf:
 - https://www.overleaf.com/read/xmrssbbxhsxy
 
-## 3 Critical Quantum Hardware Videos – Explanation of the Physical System:
+## 4 Critical Quantum Hardware Videos – Explanation of the Physical System:
 
 [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL)
 
-[Superconducting qubits for analogue quantum simulation](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9)
+[Build Your Own Quantum Computer @ Home, Yann Allain](https://media.ccc.de/v/36c3-10808-build_you_own_quantum_computer_home_-_99_of_discount_-_hacker_style#t=1105)
 
-[Quantum Control Technologies: Pulses for Quantum Control](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4)
+[Superconducting Qubits for Analogue Quantum Simulation, Gerhard Kirchmair](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9)
+
+[Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4)
+
 
 ![Screenshot 2023-08-09 233949](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/e8c8e544-3aad-4234-a939-087746001ffa)
 
