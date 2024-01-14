@@ -6,8 +6,7 @@ Everything you need for quantum hardware engineering in the field. Curated by On
 __________________________________________________________________________________________________________________________________________________
 ## To download a copy of the quantum hardware engineering PDF document, you can find it in [this file](https://github.com/OJB-Quantum/QC-Hardware-How-to/blob/main/Everything_You_Need_for_Quantum_Hardware_Engineering.pdf) I uploaded on GitHub.
 
-## Below is a link to the LaTeX document available on Overleaf:
-- https://www.overleaf.com/read/xmrssbbxhsxy
+## [Click here to access the LaTeX document available on Overleaf](https://www.overleaf.com/read/xmrssbbxhsxy).
 
 ## 4 Critical Quantum Hardware Videos – Explanation of the Physical System:
 
