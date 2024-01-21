@@ -9,9 +9,11 @@ ________________________________________________________________________________
 
 ## [Click here to access the LaTeX document available on Overleaf](https://www.overleaf.com/read/xmrssbbxhsxy).
 
-## 4 Critical Quantum Hardware Videos – Explanation of the Physical System:
+## 5 Critical Quantum Hardware Videos – Explanation of the Physical System:
 
 [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL)
+
+[Inside the IBM Quantum Lab with Olivia Lanes](https://youtu.be/4gpPHWCoWPs?si=x8kpvJoQHqtbs6ht)
 
 [Build Your Own Quantum Computer @ Home, Yann Allain](https://media.ccc.de/v/36c3-10808-build_you_own_quantum_computer_home_-_99_of_discount_-_hacker_style#t=1105)
 
