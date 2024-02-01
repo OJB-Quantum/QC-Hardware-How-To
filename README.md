@@ -13,6 +13,8 @@ ________________________________________________________________________________
 
 [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL)
 
+[UNSW Quantum Computer Lab Visit (with Andre Morello)](https://youtu.be/yT0Znr0Et4w?si=ucoo3kUXrxwFk_ao)
+
 [Inside the IBM Quantum Lab with Olivia Lanes](https://youtu.be/4gpPHWCoWPs?si=x8kpvJoQHqtbs6ht)
 
 [Build Your Own Quantum Computer @ Home, Yann Allain](https://media.ccc.de/v/36c3-10808-build_you_own_quantum_computer_home_-_99_of_discount_-_hacker_style#t=1105)
