@@ -28,12 +28,11 @@ ________________________________________________________________________________
 
 ![quantum hardware everything-1](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a01deb0a-55b0-4457-85e2-950dd7aad35f)
 
+![Everything You Need for Quantum Hardware Engineering-11](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/9db20944-d0e0-4efc-ab85-70b008e69e46)
+
 ![Everything You Need for Quantum Hardware Engineering-12](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/0d1d790e-aed3-4198-9bc9-44c738453b63)
 
 ![Everything You Need for Quantum Hardware Engineering-13](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/0f564df8-fa16-47e4-a992-2c1eab01c0a2)
 
 ![Everything You Need for Quantum Hardware Engineering-15](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/3b400af6-dd8e-45aa-b6f2-c842e110b32d)
-
-
-
 
