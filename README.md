@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 ## [Click here to access the LaTeX document available on Overleaf](https://www.overleaf.com/read/xmrssbbxhsxy).
 
-## 5 Critical Quantum Hardware Videos – Explanation of the Physical System:
+## 6 Critical Quantum Hardware Videos – Explanation of the Physical System:
 
 [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL)
 
