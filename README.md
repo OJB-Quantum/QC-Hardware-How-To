@@ -13,7 +13,7 @@ ________________________________________________________________________________
 
 [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL)
 
-[UNSW Quantum Computer Lab Visit (with Andre Morello)](https://youtu.be/yT0Znr0Et4w?si=ucoo3kUXrxwFk_ao)
+[UNSW Quantum Computer Lab Visit [with Andrea Morello]](https://youtu.be/yT0Znr0Et4w?si=ucoo3kUXrxwFk_ao)
 
 [Inside the IBM Quantum Lab with Olivia Lanes](https://youtu.be/4gpPHWCoWPs?si=x8kpvJoQHqtbs6ht)
 
