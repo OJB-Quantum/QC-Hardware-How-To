@@ -24,9 +24,9 @@ ________________________________________________________________________________
 [Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4)
 
 __________________________________________________________________________________________________________________________________________________
-![Screenshot 2023-08-09 233949](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/e8c8e544-3aad-4234-a939-087746001ffa)
+![Everything You Need for Quantum Hardware Engineering-01](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a163df11-513d-4228-b126-50ea0e40e6f0)
 
-![quantum hardware everything-1](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a01deb0a-55b0-4457-85e2-950dd7aad35f)
+![Everything You Need for Quantum Hardware Engineering-02](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/f3a34eaf-ea91-4f8f-bf10-c77c916a1bcb)
 
 ![Everything You Need for Quantum Hardware Engineering-11](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/9db20944-d0e0-4efc-ab85-70b008e69e46)
 
