@@ -5,7 +5,7 @@
 Everything you need for quantum hardware engineering in the field. Curated by Onri Jay Benally, an Indigenous American quantum hardware engineer.
 __________________________________________________________________________________________________________________________________________________
 
-## To download a copy of the quantum hardware engineering PDF document, you can find it in [this file](https://github.com/OJB-Quantum/QC-Hardware-How-to/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf) I uploaded on GitHub.
+## To download a copy of the full quantum hardware engineering PDF document, you can find it in [this file](https://github.com/OJB-Quantum/QC-Hardware-How-to/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf) I uploaded on GitHub.
 
 ## [Click here to access the LaTeX document available on Overleaf](https://www.overleaf.com/read/xmrssbbxhsxy).
 
