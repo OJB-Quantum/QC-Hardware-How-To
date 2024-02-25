@@ -9,11 +9,11 @@ ________________________________________________________________________________
 
 ## [Click here to access the LaTeX document available on Overleaf](https://www.overleaf.com/read/xmrssbbxhsxy).
 
-## 6 Critical Quantum Hardware Videos – Explanation of the Physical System:
+| ## 6 Critical Quantum Hardware Videos – Explanation of the Physical System: |
+|-----------------------------------------------------------------------------|
+| [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL) |
 
-[Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL)
-
-[UNSW Quantum Computer Lab Visit [with Andrea Morello]](https://youtu.be/yT0Znr0Et4w?si=ucoo3kUXrxwFk_ao)
+| [UNSW Quantum Computer Lab Visit [with Andrea Morello]](https://youtu.be/yT0Znr0Et4w?si=ucoo3kUXrxwFk_ao) |
 
 [Inside the IBM Quantum Lab with Olivia Lanes](https://youtu.be/4gpPHWCoWPs?si=x8kpvJoQHqtbs6ht)
 
