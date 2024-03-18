@@ -25,6 +25,7 @@ ________________________________________________________________________________
 | Click Below To Access Quantum Chip Gallery - TU Delft|
 | - |
 | [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
+| [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
 __________________________________________________________________________________________________________________________________________________
 ![Everything You Need for Quantum Hardware Engineering-01](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a163df11-513d-4228-b126-50ea0e40e6f0)
 
