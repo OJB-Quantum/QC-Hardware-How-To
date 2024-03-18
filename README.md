@@ -18,7 +18,7 @@ ________________________________________________________________________________
 | [Superconducting Qubits for Analogue Quantum Simulation, Gerhard Kirchmair](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9) |
 | [Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4) |
 
-| Click Below To Access QuTech Academy - School of Quantum |
+| Click Below To Access School of Quantum - QuTech Academy|
 | - |
 | [School of Quantum](https://www.qutube.nl) |
 
