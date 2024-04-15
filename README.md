@@ -7,6 +7,8 @@ ________________________________________________________________________________
 
 ## To download a copy of the full quantum hardware engineering PDF document, you can find it in [this file](https://github.com/OJB-Quantum/QC-Hardware-How-to/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf) I uploaded on GitHub.
 
+## To download a copy of the nanofabrication for quantum engineering PDF document, you can find it in [this file](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
+
 ## [Click here to access the LaTeX document available on Overleaf](https://www.overleaf.com/read/xmrssbbxhsxy).
 
 | 6 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
