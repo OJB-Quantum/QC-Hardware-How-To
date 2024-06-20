@@ -20,11 +20,15 @@ ________________________________________________________________________________
 | [Superconducting Qubits for Analogue Quantum Simulation, Gerhard Kirchmair](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9) |
 | [Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4) |
 
-| Click Below To Access School of Quantum - QuTech Academy|
+| Click Below To Access School of Quantum - QuTech Academy |
 | - |
 | [School of Quantum](https://www.qutube.nl) |
 
-| Click Below To Access Quantum Chip Gallery - TU Delft|
+| Click Below To Access IQM Academy - IQM |
+| - |
+| [IQM Academy](https://www.iqmacademy.com) |
+
+| Click Below To Access Quantum Chip Gallery - TU Delft |
 | - |
 | [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
 | [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
