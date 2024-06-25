@@ -20,11 +20,12 @@ ________________________________________________________________________________
 | [Superconducting Qubits for Analogue Quantum Simulation, Gerhard Kirchmair](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9) |
 | [Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4) |
 
-| 4 Quantum Hardware Videos on Qubit Control/ Readout Equipment |
+| 5 Quantum Hardware Videos on Qubit Control/ Readout Equipment |
 | - |
 | [High Speed Qubit Control, Tabor Electronics](https://youtu.be/QrF09wmr_Do?si=442JoJ5fjMSwXkcd) |
 | [Hands-on Superconducting Qubit Characterization, Zurich Instruments](https://youtu.be/rKkR4m1DaiY?si=Or1PIUAnjAsmmLSV) |
 | [Qubit Control and Measurement Solutions, Zurich Instruments](https://youtu.be/0cXPZLExSqk?si=Lx-p_w1cDOR1YUdr) |
+| [Interfacing Superconducting Quantum Circuits with an RF Photonic Link, Qiskit](https://www.youtube.com/live/_Ea3ZuPG5lA?si=4y04FwFNK50rZp1u) |
 | [Silicon Photonic Quantum Computing – Towards Large-Scale Systems, PsiQuantum](https://youtu.be/at9Ust3tZ74?si=P3k1jc9a5sfdcAy6) |
 
 | Click Below To Access School of Quantum - QuTech Academy |
