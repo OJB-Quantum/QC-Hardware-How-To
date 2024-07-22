@@ -19,12 +19,14 @@ ________________________________________________________________________________
 | [Superconducting Qubits for Analogue Quantum Simulation, Gerhard Kirchmair](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9) |
 | [Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4) |
 
-| 8 Quantum Hardware Videos on Qubit Control/ Readout Equipment |
+| 10 Quantum Hardware Videos on Qubit Control/ Readout Equipment |
 | - |
 | [High Speed Qubit Control, Tabor Electronics](https://youtu.be/QrF09wmr_Do?si=442JoJ5fjMSwXkcd) |
+| [Characterization to Resonator Measurements, Zurich Instruments](https://youtu.be/DiK9WyYDwRw?si=HSQMBFTarK0hx3sQ&t=62) |
 | [Advanced Microwave Topics for Quantum Physicists, Tabor Electronics](https://youtu.be/k7O8dEVtUcY?si=fo_ZIqWvgdIcHii7) |
 | [Cryogenics Electronics, Quantum Technologies Innovation Network & Innovate UK Business Connect](https://youtu.be/htv_iNAEvTU?si=Cg18-WXJVNnoCvJ1) |
 | [Introduction to TR Multicoax Series, Amphenol Ardent Concepts](https://youtu.be/hDhkEZ_Z-ck?si=OL7bqaJ24LXK4O2s) |
+| [Quantum Applications in the Bluefors Measurement System, Bluefors](https://youtu.be/EOOiZvfQhyA?si=zmLb0TUzaLv9oDpo&t=45) |
 | [Hands-on Superconducting Qubit Characterization, Zurich Instruments](https://youtu.be/rKkR4m1DaiY?si=Or1PIUAnjAsmmLSV) |
 | [Qubit Control and Measurement Solutions, Zurich Instruments](https://youtu.be/0cXPZLExSqk?si=Lx-p_w1cDOR1YUdr) |
 | [Interfacing Superconducting Quantum Circuits with an RF Photonic Link, Qiskit](https://www.youtube.com/live/_Ea3ZuPG5lA?si=4y04FwFNK50rZp1u) |
