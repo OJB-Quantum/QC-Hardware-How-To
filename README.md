@@ -57,4 +57,4 @@ ________________________________________________________________________________
 
 ![Everything You Need for Quantum Hardware Engineering-15](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/3b400af6-dd8e-45aa-b6f2-c842e110b32d)
 
-![Shortcut into Quantum Hardware Engineering_Onri Jay Benally-1](https://github.com/user-attachments/assets/2dcc9557-56ee-4a35-9092-4450130fb2a3)
+![Shortcut into Quantum Hardware Engineering_Onri Jay Benally-1](https://github.com/user-attachments/assets/a2474525-45c0-4098-bee5-ac47473e15c6)
