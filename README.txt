@@ -19,10 +19,12 @@ ________________________________________________________________________________
 | [Superconducting Qubits for Analogue Quantum Simulation, Gerhard Kirchmair](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9) |
 | [Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4) |
 
-| 10 Quantum Hardware Videos on Qubit Control/ Readout Equipment |
+| 12 Quantum Hardware Videos on Qubit Control/ Readout Equipment |
 | - |
 | [High Speed Qubit Control, Tabor Electronics](https://youtu.be/QrF09wmr_Do?si=442JoJ5fjMSwXkcd) |
 | [Characterization to Resonator Measurements, Zurich Instruments](https://youtu.be/DiK9WyYDwRw?si=HSQMBFTarK0hx3sQ&t=62) |
+| [What is a Mixer? Modern RF & Microwave Mixers Explained, Marki Microwave](https://youtu.be/WwJKxvz7qbs?si=VoxFj6tJFgtqRAmL) |
+| [RF Isolator Teardown & Explanation](https://youtu.be/Whn3QjHUgIw?si=dG09vL56J8y3ndPZ) |
 | [Advanced Microwave Topics for Quantum Physicists, Tabor Electronics](https://youtu.be/k7O8dEVtUcY?si=fo_ZIqWvgdIcHii7) |
 | [Cryogenics Electronics, Quantum Technologies Innovation Network & Innovate UK Business Connect](https://youtu.be/htv_iNAEvTU?si=Cg18-WXJVNnoCvJ1) |
 | [Introduction to TR Multicoax Series, Amphenol Ardent Concepts](https://youtu.be/hDhkEZ_Z-ck?si=OL7bqaJ24LXK4O2s) |
@@ -57,3 +59,4 @@ ________________________________________________________________________________
 
 ![Everything You Need for Quantum Hardware Engineering-15](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/3b400af6-dd8e-45aa-b6f2-c842e110b32d)
 
+![Shortcut into Quantum Hardware Engineering_Onri Jay Benally-1](https://github.com/user-attachments/assets/a2474525-45c0-4098-bee5-ac47473e15c6)
