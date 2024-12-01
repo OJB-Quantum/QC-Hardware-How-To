@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 ## To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
-
+## An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 | 6 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
 |-----------------------------------------------------------------------------|
 | [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL) |
