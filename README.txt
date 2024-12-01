@@ -5,7 +5,7 @@
 Everything you need for quantum hardware engineering in the field. Curated by Onri Jay Benally, an Indigenous American quantum hardware engineer.
 __________________________________________________________________________________________________________________________________________________
 
-## To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-to/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf).
+## To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything_You_Need_for_Quantum_Hardware_Engineering%20by%20Onri%20Jay%20Benally.pdf).
 
 ## To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
@@ -46,6 +46,60 @@ ________________________________________________________________________________
 | - |
 | [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
 | [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
+
+
+### Shortcut into Quantum Hardware Engineering (Quantum Hardware Education Insights by Onri)
+
+#### Quantum Hardware Topics
+
+| Insights/Topics                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|
+| Start with a 3D modeling & linguistics framework, may involve a custom keywords glossary.                     |
+| Know that this specialty involves learning to probe something without necessarily having to physically contact its surface. This is what spectroscopy or "scatterometry" is about. |
+| Typically, topics covered under quantum hardware engineering are combinations of materials science & engineering, quantum metrology, quantum transport, quantum optics, & quantum electronic design automation. |
+| Know how electronic filters are configured or set up.                                                         |
+| Know how electronic filters are designed & what they look like.                                               |
+| Know what components various filters are made of.                                                             |
+| Know the difference between passive & active filters.                                                         |
+| Know the difference between optical, microwave, & radio frequency (RF) isolators, circulators, & mixers.      |
+| Be aware of different room temperature & cryogenic amplifiers.                                                |
+| Know what room temperature & cryogenic amplifiers are made of.                                                |
+| Know the different types/hierarchy of amplifier noise (thermal, shot, external, quantum).                     |
+| Know how a signal curve or response is manipulated.                                                           |
+| Know how signals are triggered.                                                                               |
+| Know what impedance matching is (how many ohms is required).                                                  |
+| Know how a Smith chart works.                                                                                 |
+| Know the many purposes of a resistor (there's a whole list).                                                  |
+| Know what multiphase power means.                                                                             |
+| Know what a resonator & resonator cavity is.                                                                  |
+| Know what vector network & spectrum analyzers, arbitrary waveform generators, & signal generators do.         |
+| Know what an oscillator circuit does (voltage fluctuation or AC).                                             |
+| Know what an inverter circuit does (DC to AC conversion).                                                     |
+| Know what a rectifier circuit does (AC to DC conversion).                                                     |
+| Know what high-pass, low-pass, band-pass, band-stop filter circuits/crossover networks do (signal filtering). |
+| Know what a comparator circuit does (threshold indicator).                                                    |
+| Know what a few basic logic gates can do (calculator).                                                        |
+| Know what a PID [closed-loop] controller does (electronic-based self-balancing).                              |
+| Know what a feed forward [open-loop] controller does (electronic-based self-balancing alternative).           |
+| Bonus: Know how to build a simple electronic audio amplifier device (it has many components similar to quantum computing systems). |
+
+---
+
+### Common Coding Topics for Hardware Engineers
+| Coding Topics                                                                 |
+|-------------------------------------------------------------------------------|
+| Library installation                                                          |
+| Syntax & commenting                                                           |
+| Curve fitting, direct parameterization, & mesh parameterization               |
+| Automation scripting                                                          |
+| Data management & data structures                                             |
+| Parallel processing & accelerated computing techniques                        |
+| Interpolation & extrapolation                                                 |
+| Linear regression                                                             |
+| Signal processing                                                             |
+| Noise plots                                                                   |
+| Manual debugging                                                              |
+
 __________________________________________________________________________________________________________________________________________________
 ![Everything You Need for Quantum Hardware Engineering-01](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a163df11-513d-4228-b126-50ea0e40e6f0)
 
