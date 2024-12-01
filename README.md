@@ -85,8 +85,7 @@ ________________________________________________________________________________
 
 ---
 
-### Most Useful Coding Topics for Hardware Engineers by Onri
-
+### Common Coding Topics for Hardware Engineers
 | Coding Topics                                                                 |
 |-------------------------------------------------------------------------------|
 | Library installation                                                          |
