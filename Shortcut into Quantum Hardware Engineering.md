@@ -5,11 +5,11 @@
 | Start with a 3D modeling & linguistics framework | May involve a custom keywords glossary. |
 | Spectroscopy or "scatterometry" | Involves probing something without physical contact. |
 | Topics covered | Materials science & engineering, quantum metrology, quantum transport, quantum optics, quantum electronic design automation. |
-| Electronic filters | Know how they are configured, designed, and what they look like. |
+| Electronic filters | Know how they are configured, designed, & what they look like. |
 | Filter components | Understand what they are made of. |
 | Passive vs active filters | Know the difference. |
-| Optical, microwave, & RF isolators | Understand the differences among isolators, circulators, and mixers. |
-| Amplifiers | Be aware of room temperature & cryogenic amplifiers and their materials. |
+| Optical, microwave, & RF isolators | Understand the differences among isolators, circulators, & mixers. |
+| Amplifiers | Be aware of room temperature & cryogenic amplifiers & their materials. |
 | Amplifier noise types | Thermal, shot, external, quantum. |
 | Signal manipulation | Know how a signal curve or response is manipulated. |
 | Signal triggering | Know how signals are triggered. |
@@ -35,14 +35,14 @@
 
 | **Topic** | **Description** |
 |-----------|-----------------|
-| Library installation | Understand how to install and manage libraries. |
-| Syntax & commenting | Proper code structuring and documentation. |
+| Library installation | Understand how to install & manage libraries. |
+| Syntax & commenting | Proper code structuring & documentation. |
 | Curve fitting | Learn direct parameterization & mesh parameterization. |
 | Automation scripting | Write scripts for automation tasks. |
 | Data management | Work with data structures efficiently. |
 | Parallel processing | Leverage accelerated computing techniques. |
 | Interpolation & extrapolation | Learn data estimation techniques. |
-| Linear regression | Perform linear modeling and prediction. |
-| Signal processing | Process and analyze signals effectively. |
-| Noise plots | Visualize and interpret noise in data. |
-| Manual debugging | Practice troubleshooting and resolving errors. |
+| Linear regression | Perform linear modeling & prediction. |
+| Signal processing | Process & analyze signals effectively. |
+| Noise plots | Visualize & interpret noise in data. |
+| Manual debugging | Practice troubleshooting & resolving errors. |
