@@ -8,11 +8,15 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 __________________________________________________________________________________________________________________________________________________
 
-## To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf).
+### Serious quantum courses available online, up to the graduate level: 
+[1st List](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/1st%20List%20for%20Serious%20Quantum%20Courses%20Online.pdf)
+[2nd List, based on MIT OCW](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/2nd%20List%20of%20Serious%20Quantum%20Courses%20Online%20-%20(From%20MIT).pdf)
 
-## To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
+### To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf).
 
-## An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+### To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
+
+### An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
 |-----------------------------------------------------------------------------|
