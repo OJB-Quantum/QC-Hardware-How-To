@@ -320,16 +320,17 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 ## Quantum-Applicable Degrees: BS to PhD
 
-**Non-Exhaustive List:**
-
-| Physics (Experimental or Applied) | Computer Engineering     |
-| Quantum Science & Engineering     | Chemistry                |
-| Quantum Technology                | Chemical Engineering     |
-| Engineering Physics               | Physical Chemistry       |
-| Electrical Engineering            | Systems Engineering      |
-| Electrical & Computer Engineering | Mechanical Engineering   |
-| Materials Science                 | Nanoscience             |
-| Materials Science & Engineering   | Nanoengineering         |
+| Non-Exhaustive List: |  |
+| :--- | :--- |
+| Physics (Experimental or Applied) | Computer Engineering |
+| Quantum Science & Engineering | Chemistry |
+| Quantum Technology | Chemical Engineering |
+| Engineering Physics | Physical Chemistry |
+| Electrical Engineering | Systems Engineering |
+| Electrical & Computer Engineering | Mechanical Engineering |
+| Materials Science | Nanoscience |
+| Materials Science & Engineering | Nanoengineering |
+|  |  |
 
 ---
 
