@@ -278,7 +278,7 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | **Title**                                                          | **Link**                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Olivier Ezratty's "Understanding Quantum Technologies"             | [https://doi.org/10.48550/arXiv.2111.15352](https://doi.org/10.48550/arXiv.2111.15352) |
-| Olivier Ezratty's "Where are we heading with NISQ?"                | [https://doi.org/10.48550/arXiv.2305.09518](https://doi.org/10.48550/arXiv.2305.09518)                                                                                                                                                                        |
+| Olivier Ezratty's "Where are we heading with NISQ?"                | [https://doi.org/10.48550/arXiv.2305.09518](https://doi.org/10.48550/arXiv.2305.09518) |
 | Computer-Inspired Quantum Experiments                              | [https://doi.org/10.48550/arXiv.2002.09970](https://doi.org/10.48550/arXiv.2002.09970)                                                                                                                                                                        |
 | Open Hardware in Quantum Technology                                | [https://doi.org/10.48550/arXiv.2309.17233](https://doi.org/10.48550/arXiv.2309.17233)                                                                                                                                                                        |
 | The Transmon Qubit for Electromagnetics Engineers                  | [https://doi.org/10.48550/arXiv.2106.11352](https://doi.org/10.48550/arXiv.2106.11352)                                                                                                                                                                  |
@@ -334,7 +334,7 @@ Free or Open Access Literature & More (Up to Graduate Level):
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | IBM Research     | [https://www.flickr.com/photos/ibm_research_zurich/albums](https://www.flickr.com/photos/ibm_research_zurich/albums)                  |
 | ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/responsive/?q=gallery)                                  |
-| UWaterloo        | [https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility;virtual-tours](https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility;virtual-tours) |
+| UWaterloo        | [https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours](https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours) |
 
 ---
 
