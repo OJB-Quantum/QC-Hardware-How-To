@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-### To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf).
+### To download a copy of the Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). [Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy)
 
 ### To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
@@ -113,23 +113,137 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________
 
+![Nanofabrication Technology Used for Quantum Chips by Onri_-01](https://github.com/user-attachments/assets/55d27227-8e87-42e2-8cb9-1bedee26813f)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-02](https://github.com/user-attachments/assets/32c60493-24b6-496b-9777-1f3dfc1296f1)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-03](https://github.com/user-attachments/assets/e397423f-7c67-407f-80d1-226b71356080)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-04](https://github.com/user-attachments/assets/d10ada2a-7b27-4d96-bc30-0aa6faa554e3)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-05](https://github.com/user-attachments/assets/24468354-19d7-4592-89e8-aa725ad3f796)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-06](https://github.com/user-attachments/assets/ccb57c32-50d8-4ecc-8c14-46f940b09254)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-07](https://github.com/user-attachments/assets/da8600e1-b7a8-4ef3-946c-82b8f0b8ddb2)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-08](https://github.com/user-attachments/assets/5e1c1512-98a7-4e35-a2e9-c184a670cd26)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-09](https://github.com/user-attachments/assets/a785ca64-1e46-4d42-a12d-6e92b222eaf7)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-10](https://github.com/user-attachments/assets/1574b154-9592-4467-a9d4-219b444601b8)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-11](https://github.com/user-attachments/assets/8a057f6a-6d65-4fbe-85d4-8db09887a082)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-12](https://github.com/user-attachments/assets/4ba2557f-f738-4aa5-82a3-b516ec40de65)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-13](https://github.com/user-attachments/assets/b0510c65-03cd-42c6-8ffb-d20756e68d07)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-14](https://github.com/user-attachments/assets/5ed75448-e909-406c-851e-3b815454abe1)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-15](https://github.com/user-attachments/assets/67292044-3c3c-40d3-b635-52f0a68d246d)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-16](https://github.com/user-attachments/assets/2af2a3e9-4a16-4213-86b4-bebf233ef8cc)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-17](https://github.com/user-attachments/assets/f652d043-3bfe-470a-aee9-0837dc93ae60)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-18](https://github.com/user-attachments/assets/630dc586-6f23-4a17-947c-56602e99cdbb)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-19](https://github.com/user-attachments/assets/41f5f9a2-9d04-495b-ae5e-67d0dcaceb85)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-20](https://github.com/user-attachments/assets/71aabc31-8743-4683-9094-ae10fcc07779)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-21](https://github.com/user-attachments/assets/28174fd0-467f-4f32-bd0b-a485b238c436)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-22](https://github.com/user-attachments/assets/75e5770d-618a-4d1c-86a1-43e5f207e0e7)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-23](https://github.com/user-attachments/assets/f68b9954-0dc3-48b6-92ac-16a7e7b08442)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-24](https://github.com/user-attachments/assets/d53f20c0-3584-4520-b8fb-8ad9e4549305)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-25](https://github.com/user-attachments/assets/be247e49-d922-457a-bb3e-aae2d7c352de)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-26](https://github.com/user-attachments/assets/643a58dd-30ce-41b7-895b-d2cfd87cfc2a)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-27](https://github.com/user-attachments/assets/138cdb23-fe7a-4351-8ca5-9471143870d5)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-28](https://github.com/user-attachments/assets/2d2c8f6f-fa90-4ebe-b290-753fe77e72af)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-29](https://github.com/user-attachments/assets/d6de180a-e873-4871-b1f6-77800d9f7a10)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-30](https://github.com/user-attachments/assets/0dac40b8-77b1-4597-abbc-8f41fa9f2e91)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-31](https://github.com/user-attachments/assets/cbdf4142-a18d-4648-a756-d18a692d5af1)
+
+___________________________________________________________________________________________________________________________________________
+
+![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
+
+![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
+
+![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
+
+![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
+
+![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
+
+![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
+
+![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
+
+![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
+
+![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
+
+![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
+
+![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
+
+![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
+
+![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
+
+![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
+
+![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
+
+![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
+
+![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
+
+![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
+
+![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
+
+![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
+
+![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
+
+![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
+
+![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
+
+![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
+
+![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
+
+![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
+
+![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
+
+![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
+
+![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
+
+![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
+
+![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
+
+___________________________________________________________________________________________________________________________________________
+
+
 ## Critical Equations & Formulas for Noise Types in a Dilution Refrigerator
 
-| **Noise Type**              | **Equation**                                                                                   | **Description**                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| **Thermal Noise**           | \(P_{\text{thermal}} = k_B T\)                                                                | Thermal energy per mode due to temperature.                                     |
-|                             | \(k_B T \ll \hbar \omega\)                                                                    | Mitigation condition: Thermal noise is negligible below the energy splitting.   |
-| **Phonon Noise**            | \(n_{\text{phonon}} = \frac{1}{e^{\hbar \omega / k_B T} - 1}\)                                | Average number of thermal phonons.                                             |
-|                             | \(n_{\text{phonon}} \to 0\) at low \(T\)                                                     | Mitigation condition: Phonon noise is suppressed as temperature decreases.      |
-| **Resistive Noise**         | \(S_V = 4 k_B T R\)                                                                           | Voltage noise power spectral density due to resistance.                        |
-|                             | \(R = 0\) (superconductors) \(\Rightarrow S_V = 0\)                                           | Mitigation condition: Resistive noise is eliminated in superconducting states.  |
-| **Blackbody Radiation**     | \(I(\nu, T) = \frac{2 h \nu^3}{c^2} \frac{1}{e^{h \nu / k_B T} - 1}\)                         | Spectral radiance of blackbody radiation.                                       |
-|                             | \(I(\nu, T) \to 0\) at low \(T\)                                                             | Mitigation condition: Blackbody radiation intensity is suppressed at low \(T\). |
-| **Magnetic Noise**          | \(M_T \propto \sqrt{k_B T}\)                                                                 | Thermal magnetization fluctuation.                                             |
-|                             | \(M_T \to 0\) at low \(T\)                                                                   | Mitigation condition: Magnetic noise is minimized by reducing temperature.      |
-| **Quasiparticle Noise**     | \(n_{\text{qp}} \propto e^{-\Delta / k_B T}\)                                                | Quasiparticle density decreases exponentially with lower temperature.           |
-|                             | \(n_{\text{qp}} \to 0\) at low \(T\)                                                         | Mitigation condition: Quasiparticles are suppressed at ultra-low temperatures.  |
-| **Vibration-Induced Noise** | \(F = m a\)                                                                                  | Force due to mechanical vibrations.                                            |
-|                             | Vibration isolation minimizes \(a\)                                                         | Mitigation strategy: Reduces mechanical noise effects.                          |
-| **Residual Gas Noise**      | \(\lambda = \frac{k_B T}{\sqrt{2} \pi d^2 P}\)                                               | Mean free path of gas molecules.                                               |
-|                             | \(P \to 0\) at low \(T\)                                                                     | Mitigation condition: Residual gas noise is eliminated as pressure drops.       |
+![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
+
+___________________________________________________________________________________________________________________________________________
