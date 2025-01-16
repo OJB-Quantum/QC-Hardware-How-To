@@ -91,8 +91,9 @@ ________________________________________________________________________________
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
+________________________________________________________________________________________________________________________________
 
-### An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+### An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
@@ -219,8 +220,8 @@ Related Open Access Lectures & Tutorials (Up to Graduate Level):
 | Josephson Junctions & SQUIDs (Prof. Kevin F. Kelly)                    | [https://youtu.be/sNOpmTW1Mwk](https://youtu.be/sNOpmTW1Mwk)                                                                                                                                              |
 | Silicon Photonics & Photonic Integrated Circuits Overview (Ghent)      | [https://youtube.com/playlist?list=PLuNPwP_PUkFRcW4apwKHC7oXSTyV3zPbv](https://youtube.com/playlist?list=PLuNPwP_PUkFRcW4apwKHC7oXSTyV3zPbv)                                                               |
 | Photonic Integrated Circuit Design (Ghent University)                  | [https://youtu.be/Zcle3hNmblg](https://youtu.be/Zcle3hNmblg)                                                                                                                                              |
-| Virtual Hands-On (Dr. Jorg Scholvin)                                   | [https://youtu.be/01J8qKjcp0M](https://youtu.be/01J8qKjcp0M)                                                                                                                                              |
-| Micro & Nanofabrication (Prof. Chris Mack)                             | [https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo](https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo)                                                                 |
+| Virtual Hands-On Fabrication at MIT.nano (Dr. Jorg Scholvin)               | [https://youtu.be/01J8qKjcp0M](https://youtu.be/01J8qKjcp0M)                                                                                                                                              |
+| Micro & Nanofabrication (Prof. Chris Mack)                             | [https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo](https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo)                                                                |
 | Nanotechnology [Tools] (Duke University)                               | [https://youtube.com/playlist?list=PLQcKpS4i0cAHESOsjJTXDZnWa3wtuixQ1](https://youtube.com/playlist?list=PLQcKpS4i0cAHESOsjJTXDZnWa3wtuixQ1)                                                               |
 
 | **Title**                                                                                             | **URL**                                                                                                                                                                                 |
@@ -270,12 +271,6 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Open Hardware in Quantum Technology                                | [https://doi.org/10.48550/arXiv.2309.17233](https://doi.org/10.48550/arXiv.2309.17233)                                                                                                                                                                        |
 | The Transmon Qubit for Electromagnetics Engineers                  | [https://ieeexplore.ieee.org/document/9789946](https://ieeexplore.ieee.org/document/9789946)                                                                                                                                                                  |
 | Thomas Wong's "Introduction to Classical & Quantum Computing"      | [https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf)                                                                                  |
-| Engineering Cryogenic Setups for 100-Qubit Scale Superconducting Circuit Systems  | [https://doi.org/10.1140/epjqt/s40507-019-0072-0](https://doi.org/10.1140/epjqt/s40507-019-0072-0) |
-| Probing Quantum Devices with Radio-Frequency Reflectometry         | [https://doi.org/10.48550/arXiv.2202.10516](https://doi.org/10.48550/arXiv.2202.10516)                                                                                                                                                                        |
-| Micromachined Quantum Circuits (Teresa Brecht) | [https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf](https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf) |
-| High Fidelity Two-Qubit Gates on Fluxoniums Using a Tunable Coupler | [https://doi.org/10.1038/s41534-022-00644-x](https://doi.org/10.1038/s41534-022-00644-x) |
-| Universal Fast-Flux Control of a Coherent, Low-Frequency Qubit | [https://doi.org/10.1103/PhysRevX.11.011010](https://doi.org/10.1103/PhysRevX.11.011010) |
-| Resonant and Traveling-Wave Parametric Amplification Near the Quantum Limit (Luca Planat) | [https://theses.hal.science/tel-03137118v1](https://theses.hal.science/tel-03137118v1)                                                                                      |
 | [Quantum] Transport in Semiconductor Mesoscopic Devices            | [https://iopscience.iop.org/book/mono/978-0-7503-1103-8/chapter/bk978-0-7503-1103-8ch8](https://iopscience.iop.org/book/mono/978-0-7503-1103-8/chapter/bk978-0-7503-1103-8ch8)                                                                                 |
 | Quantum Materials Roadmap                                         | [https://doi.org/10.1088/2515-7639/abb74e](https://doi.org/10.1088/2515-7639/abb74e)                                                                                                                                                                          |
 | Quantum Nanostructures                                            | [https://doi.org/10.1016/B978-0-08-101975-7.00003-8](https://doi.org/10.1016/B978-0-08-101975-7.00003-8)                                                                                                                                                       |
@@ -289,7 +284,6 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Coplanar Waveguide Resonators                                     | [https://doi.org/10.1007/s10948-018-4959-2](https://doi.org/10.1007/s10948-018-4959-2)                                                                                                                                                                        |
 | When to Use Coplanar Waveguide Routing                            | [https://blog.upverter.com/2019/10/15/when-to-use-coplanar-waveguide-routing-for-hf-boards](https://blog.upverter.com/2019/10/15/when-to-use-coplanar-waveguide-routing-for-hf-boards)                                                                        |
 | Basic Qubit Characterization by Zurich Instruments                | [https://docs.zhinst.com/hdawg_user_manual/tutorials/qubit_characterization.html?h=basic+qubit](https://docs.zhinst.com/hdawg_user_manual/tutorials/qubit_characterization.html?h=basic+qubit)                                                                |
-| Qubit Spectroscopy: Microwave Control of Superconducting Cavity & Qubit | [https://qt5201.org/index.php/Microwave_control_of_superconducting_cavity_and_qubit](https://qt5201.org/index.php/Microwave_control_of_superconducting_cavity_and_qubit)                                                                                      |
 | Quantum Control Documentation by Qblox Instruments                | [https://qblox-qblox-instruments.readthedocs-hosted.com/en/master](https://qblox-qblox-instruments.readthedocs-hosted.com/en/master)                                                                                                                          |
 | Overview of Quantum Control Equipment by Qblox Instruments         | [https://www.qblox.com](https://www.qblox.com)                                                                                                                                                                                                               |
 | Control & Readout of a Superconducting Qubit Using a Photonic Link | [https://rdcu.be/dhLr3](https://rdcu.be/dhLr3)                                                                                                                                                                                                                |
@@ -298,11 +292,15 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Cryo-CMOS Interfaces for Large-Scale Quantum Computers            | [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9372075](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9372075)                                                                                                                         |
 | Spiderweb Array: A Sparse Spin-Qubit Array                        | [https://doi.org/10.1103/PhysRevApplied.18.024053](https://doi.org/10.1103/PhysRevApplied.18.024053)                                                                                                                                                           |
 | A Cryogenic Interface for Controlling Many Qubits                 | [https://doi.org/10.48550/arXiv.1912.01299](https://doi.org/10.48550/arXiv.1912.01299)                                                                                                                                                                        |
+| Engineering Cryogenic Setups for 100-Qubit Scale Superconducting Circuit Systems  | [https://doi.org/10.1140/epjqt/s40507-019-0072-0](https://doi.org/10.1140/epjqt/s40507-019-0072-0) |
+| Probing Quantum Devices with Radio-Frequency Reflectometry         | [https://doi.org/10.48550/arXiv.2202.10516](https://doi.org/10.48550/arXiv.2202.10516)                                                                                                                                                                        |
+| Micromachined Quantum Circuits (Teresa Brecht) | [https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf](https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf) |
+| High Fidelity Two-Qubit Gates on Fluxoniums Using a Tunable Coupler | [https://doi.org/10.1038/s41534-022-00644-x](https://doi.org/10.1038/s41534-022-00644-x) |
+| Universal Fast-Flux Control of a Coherent, Low-Frequency Qubit | [https://doi.org/10.1103/PhysRevX.11.011010](https://doi.org/10.1103/PhysRevX.11.011010) |
+| Resonant and Traveling-Wave Parametric Amplification Near the Quantum Limit (Luca Planat) | [https://theses.hal.science/tel-03137118v1](https://theses.hal.science/tel-03137118v1)                                                                                      |
 | Cryogenic Memory Technologies                                     | [https://doi.org/10.48550/arXiv.2111.09436](https://doi.org/10.48550/arXiv.2111.09436)                                                                                                                                                                        |
 
 **Miscellaneous:**
-
-Here is the markdown table with clickable URLs:
 
 | Title | URL |
 | :---- | :--- |
