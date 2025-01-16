@@ -71,6 +71,14 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
+| Some Example Google Colab Notebooks |  |
+| ----------- | ----------------- |
+| Josephson Junction Tunneling Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Quantum_Tunneling_Prediction.ipynb) |
+| Josephson Junction Fraunhofer Pattern | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Fraunhofer_Pattern.ipynb) |
+| Coulomb Diamonds & Blockade Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Coulomb_Blockades_and_Coulomb_Diamonds.ipynb) |
+
+__________________________________________________________________________________________________________________________________________________
+
 ### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally:
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
