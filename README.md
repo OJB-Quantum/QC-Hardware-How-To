@@ -343,8 +343,8 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.edu/education)
 
-| **Courses**                                  |                       |                                               |
-|---------------------------------------------|------------------------|-----------------------------------------------|
+| **Courses**                                 |                                                             |
+|---------------------------------------------|-------------------------------------------------------------|
 | AEP 1200                                    | Introduction to Nanoscience & Nanoengineering               |
 | AEP 2550                                    | Engineering Quantum Information Hardware                    |
 | AEP 3100                                    | Introductory Quantum Computing                              |
@@ -459,6 +459,8 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ---
 
+<div align="center">
+
 ### Rough Zoology of All Physical Qubits:
 
 ![](https://cdn.mathpix.com/cropped/2025_01_16_d72777393d0d68fddefcg-17.jpg?height=1256&width=1630&top_left_y=369&top_left_x=253)
@@ -467,7 +469,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, p. 355,
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-
+</div>
 
 
 
