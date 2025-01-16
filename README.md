@@ -135,10 +135,11 @@ ________________________________________________________________________________
 
 ![Everything You Need for Quantum Hardware Engineering-03](https://github.com/user-attachments/assets/d184884f-8023-4f59-af40-a7e4a96087c1)
 
-Everything You Need for Experimental Quantum Hardware Engineering <br> University of Minnesota 
+# Everything You Need for Experimental Quantum Hardware Engineering
+## University of Minnesota 
 
-Onri Jay Benally
-July 2023
+## Onri Jay Benally
+## July 2023
 
 This document is meant to provide some level of consolidation for those desiring to be involved with quantum hardware engineering. By doing one's best to maintain familiarity with these topics, it is possible to become one who designs, builds, tests, operates, and maintains real quantum machines - a quantum mechanic. Another possibility is to begin working on a doctorate degree in the associated field with these training resources on hand. There are many clickable links in this document, so it might be best to view it using a browser or PDF viewer.
 
