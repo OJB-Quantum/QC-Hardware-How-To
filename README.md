@@ -8,57 +8,59 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 __________________________________________________________________________________________________________________________________________________
 
-## Serious Quantum Information Science & Technology Courses Online, Up to the Graduate Level:
+### Serious Quantum Information Science & Technology Courses Online, Up to the Graduate Level:
 
-| **Course Name**                                           | **Cost**      | **Link**                            |
-|-----------------------------------------------------------|---------------|-------------------------------------|
-| QuTech Academy, School of Quantum                         | Free          | [QuTech Academy](https://www.qutube.nl)                                                                                                                |
-| IQM Academy                                               | Free          | [IQM Academy](https://www.iqmacademy.com)                                                                                                                |
-| Quantum (Course List)                                     | Free          | [IBM Quantum Learning](https://learning.quantum.ibm.com)                                                            |
-| Variational Algorithm Design                              | Free          | [Variational Algorithm Design](https://learning.quantum.ibm.com/course/variational-algorithm-design)                                                   |
-| Quantum Computing for Natural Sciences                   | Free          | [Quantum Computing for Natural Sciences](https://open.hpi.de/courses/qc-nature2023)                                                                    |
-| Quantum Machine Learning                                  | Free          | [Quantum Machine Learning](https://open.hpi.de/courses/qc-machineLearning2023)                                                                         |
-| Topology in Condensed Matter                              | Free          | [Topology in Condensed Matter](https://topocondmat.org/index.html)                                                                                     |
+| **Name or Title**                      | **Cost** | **Link**                                                                 |
+|----------------------------------------|----------|--------------------------------------------------------------------------|
+| School of Quantum, QuTech, TU Delft    | Free     | [QuTech Academy](https://www.qutube.nl)                                  |
+| IQM Academy, IQM                       | Free     | [IQM Academy](https://www.iqmacademy.com)                                |
+| IBM Quantum Learning, IBM              | Free     | [IBM Quantum Learning](https://learning.quantum.ibm.com)                 |
+| Quantum Computing for Natural Sciences, Open HPI, IBM Quantum | Free     | [Quantum Computing for Natural Sciences](https://open.hpi.de/courses/qc-nature2023) |
+| Quantum Machine Learning, Open HPI, IBM Quantum               | Free     | [Quantum Machine Learning](https://open.hpi.de/courses/qc-machineLearning2023) |
+| Topology in Condensed Matter, TU Delft | Free     | [Topology in Condensed Matter](https://topocondmat.org/index.html)       |
+
 
 ### Paid Quantum Programs (Can Be Audited for Free)
 
-| **Course Name**                                           | **Cost**      | **Link**                             |
-|-----------------------------------------------------------|---------------|--------------------------------------|
-| Hardware of a Quantum Computer                            | Paid/Audit    | [Hardware of a Quantum Computer](https://www.edx.org/learn/quantum-computing/delft-university-of-technology-the-hardware-of-a-quantum-computer)         |
-| Machine Learning for Semiconductor Quantum Devices        | Paid/Audit    | [Machine Learning for Semiconductor Quantum Devices](https://www.edx.org/learn/machine-learning/delft-university-of-technology-machine-learning-for-semiconductor-quantum-devices) |
-| Professional Certificate, Quantum 301: Quantum Computing with Semiconductor Technology | Paid/Audit    | [Quantum 301](https://www.edx.org/certificates/professional-certificate/delftx-quantum-301-quantum-computing-with-semiconductor-technology)             |
-| Quantum Optics 1                                          | Paid/Audit    | [Quantum Optics 1](https://www.coursera.org/learn/quantum-optics-single-photon)                                                                         |
-| Quantum Optics 2                                          | Paid/Audit    | [Quantum Optics 2](https://www.coursera.org/learn/quantum-optics-two-photons)                                                                           |
-| Introduction to Quantum Transport                         | Paid/Audit    | [Introduction to Quantum Transport](https://www.edx.org/learn/electronics/purdue-university-introduction-to-quantum-transport)                         |
-| Quantum Transport                                         | Paid/Audit    | [Quantum Transport](https://www.edx.org/learn/nanotechnology/purdue-university-fundamentals-of-nanoelectronics-part-b-quantum-transport)               |
-| Nanoscience and Technology, MicroMasters Program         | Paid/Audit    | [Nanoscience and Technology](https://www.edx.org/masters/micromasters/purduex-nano-science-technology)                                                 |
-| Quantum Espresso Training                                | Paid          | [Quantum Espresso Training](https://www.udemy.com/course/quantum-espresso-softwaretraining)                                                            |
+| **Course Name**                              | **Cost**   | **Link**                                                                 |
+|---------------------------------------------|------------|--------------------------------------------------------------------------|
+| Hardware of a Quantum Computer              | Paid/Audit | [Hardware of a Quantum Computer](https://www.edx.org/learn/quantum-computing/delft-university-of-technology-the-hardware-of-a-quantum-computer) |
+| Machine Learning for Semiconductor Devices  | Paid/Audit | [Machine Learning for Semiconductor Quantum Devices](https://www.edx.org/learn/machine-learning/delft-university-of-technology-machine-learning-for-semiconductor-quantum-devices) |
+| Professional Certificate, Quantum 301       | Paid/Audit | [Quantum 301](https://www.edx.org/certificates/professional-certificate/delftx-quantum-301-quantum-computing-with-semiconductor-technology) |
+| Quantum Optics 1                            | Paid/Audit | [Quantum Optics 1](https://www.coursera.org/learn/quantum-optics-single-photon)                                  |
+| Quantum Optics 2                            | Paid/Audit | [Quantum Optics 2](https://www.coursera.org/learn/quantum-optics-two-photons)                                    |
+| Introduction to Quantum Transport           | Paid/Audit | [Introduction to Quantum Transport](https://www.edx.org/learn/electronics/purdue-university-introduction-to-quantum-transport) |
+| Quantum Transport                           | Paid/Audit | [Quantum Transport](https://www.edx.org/learn/nanotechnology/purdue-university-fundamentals-of-nanoelectronics-part-b-quantum-transport) |
+| Nanoscience and Technology, MicroMasters    | Paid/Audit | [Nanoscience and Technology](https://www.edx.org/masters/micromasters/purduex-nano-science-technology)           |
+| Quantum Espresso Training                   | Paid       | [Quantum Espresso Training](https://www.udemy.com/course/quantum-espresso-softwaretraining)                     |
+
 
 ____________________________________________________________________________________________________________________________________________________________________________
 
 
-## 2nd List for Serious Quantum Courses Online, Up to the Graduate Level, Based on MIT OCW
+### 2nd List for Serious Quantum Courses Online, Up to the Graduate Level, Based on MIT OCW
 
-| **Course Name**                                              | **Link**                              |
-|--------------------------------------------------------------|---------------------------------------|
-| Quantum Computation                                          | [Quantum Computation](https://ocw.mit.edu/courses/18-435j-quantum-computation-fall-2003)                                                           |
-| Quantum Mechanics I                                          | [Quantum Mechanics I](https://ocw.mit.edu/courses/5-73-quantum-mechanics-i-fall-2018)                                                              |
-| Quantum Physics I                                            | [Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016)                                                                |
-| Quantum Physics II                                           | [Quantum Physics II](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013)                                                                |
-| Quantum Physics III                                          | [Quantum Physics III](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018)                                                            |
-| Quantum Information Science                                  | [Quantum Information Science](https://ocw.mit.edu/courses/mas-865j-quantum-information-science-spring-2006)                                        |
-| Quantum Information Science I                                | [Quantum Information Science I](https://ocw.mit.edu/courses/8-370x-quantum-information-science-i-spring-2018)                                      |
-| Quantum Information Science II                               | [Quantum Information Science II](https://ocw.mit.edu/courses/8-371x-quantum-information-science-ii-spring-2018)                                    |
-| Quantum Electronics                                          | [Quantum Electronics](https://ocw.mit.edu/courses/6-974-fundamentals-of-photonics-quantum-electronics-spring-2006)                                 |
-| Physics of Microfabrication                                  | [Physics of Microfabrication](https://ocw.mit.edu/courses/6-774-physics-of-microfabrication-front-end-processing-fall-2004)                        |
-| Magnetic Materials                                           | [Magnetic Materials](https://ocw.mit.edu/courses/3-45-magnetic-materials-spring-2004)                                                              |
-| Superconducting Magnets                                      | [Superconducting Magnets](https://ocw.mit.edu/courses/22-68j-superconducting-magnets-spring-2003)                                                  |
-| Applied Superconductivity                                    | [Applied Superconductivity](https://ocw.mit.edu/courses/6-763-applied-superconductivity-fall-2005)                                                 |
-| Quantum Theory I                                             | [Quantum Theory I](https://ocw.mit.edu/courses/8-321-quantum-theory-i-fall-2017)                                                                   |
-| Quantum Theory II                                            | [Quantum Theory II](https://ocw.mit.edu/courses/8-322-quantum-theory-ii-spring-2003)                                                               |
-| Quantum Complexity Theory                                    | [Quantum Complexity Theory](https://ocw.mit.edu/courses/6-845-quantum-complexity-theory-fall2010)                                                  |
-| Relativistic Quantum Field Theory III                       | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-325-relativistic-quantum-field-theory-iii-spring-2007)                       |
-| Modern Quantum Many-Body Physics for Condensed Matter Systems | [Modern Quantum Many-Body Physics](https://ocw.mit.edu/courses/8-513-modern-quantum-many-body-physics-for-condensed-matter-systems-fall-2021)      |
+| **Course Name**                                   | **Link**                                                                 |
+|---------------------------------------------------|--------------------------------------------------------------------------|
+| Quantum Computation                               | [Quantum Computation](https://ocw.mit.edu/courses/18-435j-quantum-computation-fall-2003)                       |
+| Quantum Mechanics I                               | [Quantum Mechanics I](https://ocw.mit.edu/courses/5-73-quantum-mechanics-i-fall-2018)                          |
+| Quantum Physics I                                 | [Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016)                            |
+| Quantum Physics II                                | [Quantum Physics II](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013)                            |
+| Quantum Physics III                               | [Quantum Physics III](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018)                        |
+| Quantum Information Science                       | [Quantum Information Science](https://ocw.mit.edu/courses/mas-865j-quantum-information-science-spring-2006)    |
+| Quantum Information Science I                    | [Quantum Information Science I](https://ocw.mit.edu/courses/8-370x-quantum-information-science-i-spring-2018)  |
+| Quantum Information Science II                   | [Quantum Information Science II](https://ocw.mit.edu/courses/8-371x-quantum-information-science-ii-spring-2018)|
+| Quantum Electronics                               | [Quantum Electronics](https://ocw.mit.edu/courses/6-974-fundamentals-of-photonics-quantum-electronics-spring-2006) |
+| Physics of Microfabrication                       | [Physics of Microfabrication](https://ocw.mit.edu/courses/6-774-physics-of-microfabrication-front-end-processing-fall-2004) |
+| Magnetic Materials                                | [Magnetic Materials](https://ocw.mit.edu/courses/3-45-magnetic-materials-spring-2004)                          |
+| Superconducting Magnets                           | [Superconducting Magnets](https://ocw.mit.edu/courses/22-68j-superconducting-magnets-spring-2003)              |
+| Applied Superconductivity                         | [Applied Superconductivity](https://ocw.mit.edu/courses/6-763-applied-superconductivity-fall-2005)             |
+| Quantum Theory I                                  | [Quantum Theory I](https://ocw.mit.edu/courses/8-321-quantum-theory-i-fall-2017)                               |
+| Quantum Theory II                                 | [Quantum Theory II](https://ocw.mit.edu/courses/8-322-quantum-theory-ii-spring-2003)                           |
+| Quantum Complexity Theory                         | [Quantum Complexity Theory](https://ocw.mit.edu/courses/6-845-quantum-complexity-theory-fall2010)              |
+| Relativistic Quantum Field Theory III            | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-325-relativistic-quantum-field-theory-iii-spring-2007) |
+| Modern Quantum Many-Body Physics for Condensed Matter Systems | [Modern Quantum Many-Body Physics](https://ocw.mit.edu/courses/8-513-modern-quantum-many-body-physics-for-condensed-matter-systems-fall-2021) |
+
 
 __________________________________________________________________________________________________________________________________________________
 
