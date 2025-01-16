@@ -3,6 +3,9 @@
 [![License](https://img.shields.io/badge/Creative_Commons-License-green)](https://choosealicense.com/licenses/cc-by-4.0) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OJB-Quantum/QC-Hardware-How-to/main)
 
 Everything you need for quantum hardware engineering in the field. Curated by Onri Jay Benally, an Indigenous American quantum hardware engineer.
+
+Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
+
 __________________________________________________________________________________________________________________________________________________
 
 ## To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything_You_Need_for_Quantum_Hardware_Engineering%20by%20Onri%20Jay%20Benally.pdf).
@@ -10,6 +13,7 @@ ________________________________________________________________________________
 ## To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
 ## An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+
 | 6 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
 |-----------------------------------------------------------------------------|
 | [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL) |
@@ -99,6 +103,7 @@ ________________________________________________________________________________
 | Signal processing                                                             |
 | Noise plots                                                                   |
 | Manual debugging                                                              |
+
 
 ## Critical Equations & Formulas for Noise Types in a Dilution Refrigerator
 
