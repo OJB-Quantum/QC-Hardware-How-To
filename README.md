@@ -476,7 +476,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ### Rough Zoology of All Physical Qubits:
 
-![](https://cdn.mathpix.com/cropped/2025_01_16_d72777393d0d68fddefcg-17.jpg?height=1256&width=1630&top_left_y=369&top_left_x=253)
+![image](https://github.com/user-attachments/assets/479a64ff-7595-417a-b239-84bd50bb4200)
 
 Borrowed from: Ezratty, *Understanding Quantum Technologies*, p. 355,  
 <https://doi.org/10.48550/arXiv.2111.15352>  
