@@ -322,8 +322,8 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 | **Lab**          | **Gallery Link**                                                                                                                     |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| IBM Research     | [https://www.flickr.com/photos/ibm_research_zurich/albums](https://www.flickr.com/photos/ibm_research_zurich/albums)                                                     |
-| ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/responsive/?q=gallery)                                                                       |
+| IBM Research     | [https://www.flickr.com/photos/ibm_research_zurich/albums](https://www.flickr.com/photos/ibm_research_zurich/albums)                  |
+| ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/responsive/?q=gallery)                                  |
 | UWaterloo        | [https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility;virtual-tours](https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility;virtual-tours) |
 
 ---
@@ -467,6 +467,16 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | [Global Quantum Leap Opportunities](https://www.globalquantumleap.org/quantum-opportunities-1)                          |
 | [Chicago Quantum Internships](https://chicagoquantum.org/education-and-training/internships)                            |
 | [QuantumGrad.com Jobs](https://www.quantumgrad.com/jobs)                                                                |
+
+---
+
+### 1st & 2nd Quantum Revolution:
+
+![unnamed (3)](https://github.com/user-attachments/assets/408ffd80-ea3c-4b19-bca7-2028e5dc4d04)
+
+Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ---
 
