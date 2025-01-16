@@ -343,8 +343,8 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.edu/education)
 
-| **Courses**                                  | **Code**               | **Description**                                              |
-|---------------------------------------------|------------------------|--------------------------------------------------------------|
+| **Courses**                                  |                       |                                               |
+|---------------------------------------------|------------------------|-----------------------------------------------|
 | AEP 1200                                    | Introduction to Nanoscience & Nanoengineering               |
 | AEP 2550                                    | Engineering Quantum Information Hardware                    |
 | AEP 3100                                    | Introductory Quantum Computing                              |
