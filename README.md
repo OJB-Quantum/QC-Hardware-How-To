@@ -441,7 +441,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | Data management & data structures                                 |
 | Parallel processing & accelerated computing techniques            |
 | Interpolation & extrapolation                                     |
-| Linear regression                                                 |
+| Linear regression, polynomial regression, moving average regression, & other regression models  |
 | Signal processing                                                 |
 | Noise plots                                                       |
 | Manual debugging                                                  |
