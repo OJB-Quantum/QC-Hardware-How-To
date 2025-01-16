@@ -8,7 +8,7 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 __________________________________________________________________________________________________________________________________________________
 
-## To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything_You_Need_for_Quantum_Hardware_Engineering%20by%20Onri%20Jay%20Benally.pdf).
+## To download a copy of the full Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf).
 
 ## To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
