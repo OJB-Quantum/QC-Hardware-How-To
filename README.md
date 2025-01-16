@@ -135,7 +135,7 @@ ________________________________________________________________________________
 
 ![Everything You Need for Quantum Hardware Engineering-03](https://github.com/user-attachments/assets/d184884f-8023-4f59-af40-a7e4a96087c1)
 
-# Everything You Need for Experimental Quantum Hardware Engineering <br> University of Minnesota 
+Everything You Need for Experimental Quantum Hardware Engineering <br> University of Minnesota 
 
 Onri Jay Benally
 July 2023
