@@ -177,6 +177,244 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________
 
+
+# Marker-Free Direct-Write Patterning of Quantum Chips <br> Onri Jay Benally <br> University of Minnesota <br> Department of Electrical \& Computer Engineering <br> Principal Investigator: Prof. Jian-Ping Wang 
+
+## Background \& Motivation
+
+- Reminder that it is generally agreed that $\mathbf{1 0 0} \mathbf{n m}$ or less is considered nanoscale.
+- <100 nanometers vertically + micrometer(s) laterally.
+- <100 nanometer dimensions vertically + laterally.
+- Making quantum devices involves a balance between:
+- Building up.
+- Tearing down.
+- Inspecting for desired or undesired defects.
+- Focus can be on:
+- (Metals $\& \underline{\text { insulators }) ~ o r ~(m e t a l s, ~ i n s u l a t o r s, ~ \& ~ s e m i c o n d u c t o r s) . ~}$
+
+
+## Background \& Motivation
+
+- Conventional optical lithography = ultraviolet photon exposure.
+- Electron beam lithography = electron beam exposure.
+- Ultimately, the wavelength of the energy being applied to a resist coating determines the feature size.
+- It's possible to obtain 3-5 nm resolution with electron-beam lithography
+- Depends on your skill level (abstract).
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-03.jpg?height=751&width=1976&top_left_y=882&top_left_x=21)
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-03.jpg?height=835&width=609&top_left_y=884&top_left_x=2000)
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-03.jpg?height=584&width=596&top_left_y=882&top_left_x=2662)
+
+Maskless Electron-Beam Lithography
+
+## Quantum Devices Can Come in Basic Shapes
+
+- In manufacturing, building quantum devices are continuously shaped to achieve desired size.
+- A bulk material is selected $\rightarrow$ nano scale structure $\rightarrow$ quantum properties exploited.
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-04.jpg?height=861&width=3183&top_left_y=739&top_left_x=80)
+
+
+## Key Ingredients for Thin Films
+
+- Adhesion layer = "glue" between 2 different materials.
+- Ex: For every interface of SiO2 and Au, a metal "glue" layer must be added between.
+- Common adhesion metals: Ti, Cr, Al, Ta, Mo, Nb, V, Hf.
+- 5-10 nm thickness is used to get good adhesion.
+- Diffusion barrier = prevents material or impurities from "melting" into nearby layers.
+- Coulomb blockade = filters or blocks out charge type.
+- Pauli spin blockade = filters or blocks out spin orientation.
+- Phonon blockade = filters or blocks out excitation/ lattice vibration.
+- Bonus 1: seed layer = help with crystalline growth.
+- Bonus 2: thermal annealing = reorganizing atoms using heat.
+
+
+## Material Deposition \& Etching
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-06.jpg?height=783&width=1021&top_left_y=574&top_left_x=136)
+
+For depositing or growing materials
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-06.jpg?height=775&width=1009&top_left_y=578&top_left_x=1299)
+
+For removing or etching materials
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-06.jpg?height=1055&width=754&top_left_y=438&top_left_x=2434)
+
+Result
+
+## Reactive Ion Etching System vs. Ion Beam Etching System
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-07.jpg?height=1547&width=682&top_left_y=192&top_left_x=535)
+
+1. Corial-Plasma-Therm.
+2. Intl Vac
+
+## Extreme Ultraviolet Lithography System vs. Electron-Beam Lithography System
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-08.jpg?height=1167&width=1566&top_left_y=403&top_left_x=76)
+
+ASML NXE 3300B (EUV)
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-08.jpg?height=1167&width=1566&top_left_y=403&top_left_x=1688)
+
+Raith EBPG-5000+ (EBL)
+
+## E-Beam Equipment Advantages \& Disadvantages
+
+- Advantages:
+- Relatively high-resolution lithography.
+- Maskless procedure allows for indirectly importing AutoCAD drawings.
+- Fast design modification.
+- Vacuum environment leads to better control of contamination.
+- Markers can be avoided.
+- Disadvantages:
+- Vacuum environment required.
+- Charge build-up, even during SEM inspection.
+- Low throughput.
+- Proximity effects.
+
+
+## Equipment Advantages \& Disadvantages
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-10.jpg?height=1636&width=2782&top_left_y=195&top_left_x=119)
+
+Crystalline vs. Polycrystalline vs. Amorphous Layers
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-11.jpg?height=861&width=916&top_left_y=403&top_left_x=180)
+
+Polycrystalline
+Amorphous
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-11.jpg?height=888&width=1888&top_left_y=539&top_left_x=1209)
+
+## Diffusion vs. Diffusion Barrier
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-12.jpg?height=1429&width=3201&top_left_y=170&top_left_x=112)
+
+Transistor Level
+
+## Cryogenic Effects on Electronics
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-13.jpg?height=1259&width=2709&top_left_y=272&top_left_x=321)
+
+## Quantum Stack
+
+## Software <br> Hardware
+
+## How to Build a Superconducting Quantum Computer
+
+- 300 K: Classical computer interface (desktop).
+- 4 K : [High gain, low noise semiconductor amplifier] << digital I/O (assembly) <> interconnects <> quantum control/ readout (cryogenic CMOS array, DAC, ADC, mixers, isolators, circulators, etc.).
+- 10 mK : Interconnects + filters + thermal isolation <> quantum-limited amplifiers <> directional coupler <> isolator <> quantum processor.
+
+Analog starting from the bottom, slowly turns to digital on the way up!
+Key: Conversion, conversion, conversion...
+
+## Some Common Planar Transmission Lines Rendered in Blender
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-16.jpg?height=1018&width=3329&top_left_y=469&top_left_x=0)
+
+## The Beauty of Abstractions in Superconducting Circuits
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-17.jpg?height=940&width=3330&top_left_y=474&top_left_x=2)
+
+The Beauty of Abstractions in Superconducting Circuits
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-18.jpg?height=1120&width=3330&top_left_y=367&top_left_x=2)
+
+## The Beauty of Abstractions in Superconducting Circuits
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-19.jpg?height=1299&width=1307&top_left_y=201&top_left_x=367)
+(b)
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-19.jpg?height=1230&width=1328&top_left_y=236&top_left_x=1722)
+
+Figure 2. (a) Optical microscope photo of the chip. (b) Microscope photo of Transmon qubit.
+
+## The Beauty of Abstractions in Superconducting Circuits
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-20.jpg?height=1303&width=3097&top_left_y=182&top_left_x=123)
+
+Figure 15. Superconducting qubits. Left: transmon qubit in its 3D version in an aluminum cavity. Centre: flux qubit with capacitive shunt developed at MIT, shown with its measurement resonator. Fluxonium qubit with its Josephson junction array acting as superinductor.
+
+## The Beauty of Abstractions in Superconducting Circuits
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-21.jpg?height=1566&width=1707&top_left_y=165&top_left_x=805)
+
+## Stack Composition
+
+| E-Beam Resist |
+| :---: |
+| Hardmask $(1.5 \mathrm{~nm})$ |
+| Metal Stack $(\mathrm{X} \mathrm{nm})$ |
+| Substrate |
+
+## Sample can contain any stack (deposited on substrate) for hardmask testing purposes
+
+Hardmask layer can help reduce dimension size or increase the density of device drive lines \& other fine features as needed.
+
+## Generic E-Beam Patterning Flow for Tunnel Junction
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-23.jpg?height=809&width=3109&top_left_y=531&top_left_x=104)
+
+Here, the seed layer doubles as an adhesion layer
+
+## Example of NbN-Based Flux Qubit Patterning Flow
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-24.jpg?height=1532&width=660&top_left_y=199&top_left_x=350)
+
+## Example of NbN-Based Flux Qubit Patterning Flow
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-25.jpg?height=1538&width=661&top_left_y=196&top_left_x=350)
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-25.jpg?height=824&width=2074&top_left_y=165&top_left_x=1101)
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-25.jpg?height=990&width=1103&top_left_y=533&top_left_x=1117)
+(j)
+$\pi$
+)
+
+1. Kim et al., Commun Mater 5, 216 (2024).
+
+## E-Beam vs. 3D Printing vs. CNC Machining
+
+- Similarities:
+- Uses of a type of G-CODE or coordinate system.
+- Initial preparation procedure (pick reference points).
+- CAD DWG $\rightarrow$ DXF $\rightarrow$ "the G-CODE".
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-26.jpg?height=1579&width=3038&top_left_y=170&top_left_x=24)
+
+University of Minnesota
+*E-Beam = Electron-Beam
+*3D = 3 Dimensional
+
+1. Taken from: howtomechatronics.com
+
+## Design Process Flow to Test Pattern Quality
+
+- Design file conversion is a bit extensive.
+- GDS II $\rightarrow$ CAD DXF $\rightarrow$ GDS II $\rightarrow$ BEAMER $\rightarrow$ GPF $\rightarrow$ CJOB $\rightarrow$ JOB File
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-27.jpg?height=1192&width=3286&top_left_y=403&top_left_x=24)
+
+
+## Maskless Direct Writing Using "Joyplus"
+
+- Doses:
+- For relatively larger features (pads \& stripes): $450 \mu \mathrm{C} / \mathrm{cm}^{2}$.
+- For smaller features (pillars \& junctions): 825-875 $\mu \mathrm{C} / \mathrm{cm}^{2}$.
+- Basically:
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-28.jpg?height=1039&width=1957&top_left_y=718&top_left_x=114)
+
+Driven to Discover
+
+## Basic Flow Summary of "Joyplus" for E-Beam
+
+- Enter relative coordinates >> locate desired marker reference points >> record real coordinates found >> enter (pg move position) of real coordinates >> type (joyplus) >> confirm real coordinates of marker locations by inspecting SEM scan >> press Enter.
+- You may now continue with job file locations and other parameters for stage selection >> copy-paste job command into teminal >> press Enter >> watch 1st few steps of exposure >> Done!
+
+
+## Results
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-30.jpg?height=1065&width=3214&top_left_y=403&top_left_x=48)
+
+On the sample holder, conductive carbon tape is used to stick sample to grounded metal to prevent charge build-up. Charge build-up deflects the electron-beam \& causes undesired patterns on the chip.
+
+Results (Continued)
+![](https://cdn.mathpix.com/cropped/2025_01_16_92104d5a36c646d5fa01g-31.jpg?height=1668&width=1634&top_left_y=174&top_left_x=846)
+
+___________________________________________________________________________________________________________________________________________
+
+
 ## Critical Equations & Formulas for Noise Types in a Dilution Refrigerator
 
 ![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
