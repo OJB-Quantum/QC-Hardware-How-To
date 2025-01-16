@@ -177,383 +177,67 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________
 
-\title{
-Everything You Need for Experimental Quantum Hardware Engineering \\ University of Minnesota
-}
+![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
 
-Onri Jay Benally
-July 2023
+![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
 
-This document is meant to provide some level of consolidation for those desiring to be involved with quantum hardware engineering. By doing one's best to maintain familiarity with these topics, it is possible to become one who designs, builds, tests, operates, and maintains real quantum machines - a quantum mechanic. Another possibility is to begin working on a doctorate degree in the associated field with these training resources on hand. There are many clickable links in this document, so it might be best to view it using a browser or PDF viewer.
+![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
 
-My decision to share these resources is because they have been useful to me in my PhD work. This has been a very interesting path for me as an tribesman from the Navaho Nation. Here is the path: carpenter \(\Longrightarrow\) electric vehicle researcher \(\Longrightarrow\) nanotechnologist \(\Longrightarrow\) quantum mechanic.
+![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
 
-Please note that open access is a key theme held herein. Enjoy. -Onri
-![](https://cdn.mathpix.com/cropped/2025_01_16_4f3991301a0223db7d7fg-02.jpg?height=633&width=643&top_left_y=990&top_left_x=741)
+![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
 
-Scan QR code to access digital downloadable version.
+![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
 
-\section*{Creative Commons License}
+![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
 
-This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-![](https://cdn.mathpix.com/cropped/2025_01_16_4f3991301a0223db7d7fg-02.jpg?height=129&width=342&top_left_y=2055&top_left_x=889)
+![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
 
-\section*{Contents}
+![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
 
-1 Open Access Quantum Device Tools 3
-2 Training Videos 4
-3 Books \& References 7
-4 Quantum Hardware Lab Galleries 10
-5 Quantum-Applicable Degrees: BS to PhD 11
-6 Quantum Science Curriculum Example 12
-7 Shortcut into Quantum Hardware Engineering 13
-8 Most Useful Coding Topics for Hardware Engineers 14
-9 Quantum Career Opportunities 15
+![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
 
-\section*{Chapter 1}
+![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
 
-\section*{Open Access Quantum Device Tools}
+![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
 
-Free tools for designing, simulating, \& analyzing quantum/ nano devices:
-\begin{tabular}{|c|c|}
-\hline Tool & URL \\
-\hline Semiconductor Process \& Device Simulation (SILVACO, browser-based) & https://nanohub.org/resources/silvacotcad \\
-\hline KLayout, Pattern Generation \& Layout, Direct-Download & https://www.klayout.de/build.html \\
-\hline Elmer FEM, Multiphysics Simulation Tool, Direct-Download & https://www.csc.fi/web/elmer/binaries \\
-\hline COMSOL Superconducting Simulation Tool, Browser-Based & https://aurora.epfl.ch/app-lib \\
-\hline scQubits, Superconducting Qubit Simulation Tool, Python-Based & https://scqubits.readthedocs.io/en/v3.2/
-index.html \\
-\hline QTCAD, Spin Qubit Design/ Simulation/ Analysis, Python-Based & https://docs.nanoacademic.com/qtcad/ introduction \\
-\hline Qiskit Metal, Qubit Design/ Analysis, Python-Based & \[
-\begin{aligned}
-& \hline \text { https://github.com/qiskit-community/ } \\
-& \hline \text { qiskit-metal\#qiskit-metal } \\
-& \hline
-\end{aligned}
-\] \\
-\hline Quantum Photonic Gate Array Simulation, Python-Based & https://github.com/fancompute/qpga\# quantum-programmable-gate-arrays \\
-\hline Quantum Photonics Design/ Simulation/ Fabrication, Analysis, PythonBased & \[
-\begin{aligned}
-& \text { https://github.com/SiEPIC/SiEPIC-Tools\# } \\
-& \hline \text { siepic-tools }
-\end{aligned}
-\] \\
-\hline Qubit Design \& Fabrication Example (applies codes to run lithography machines in the lab after pattern generation with Qiskit Metal) & https://github.com/OJB-Quantum/ Qiskit-Metal-to-Litho\# qiskit-metal-to-litho \\
-\hline GitHub Usage Tutorial & https://github.com/OJB-Quantum/ How-to-GitHub\#how-to-use-github \\
-\hline
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
 
-\section*{Chapter 2}
+![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
 
-\section*{Training Videos}
+![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
 
-Related Open Access Lectures \& Tutorials (Up to Graduate Level):
-\begin{tabular}{|c|c|}
-\hline Title & URL \\
-\hline Quantum Hardware Engineering & https://youtube.com/playlist?list= PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL\&si= WJYi6-7LaOHWTeUe \\
-\hline Quantum Transport (Prof. Sergey
-Frolov) & https://youtube.com/playlist?list= PLtTPtV8SRcxjedf1XwNPSI_fxvxwUCjsd \\
-\hline Quantum Many-Body Physics (Prof. Luis Gregório Dias) & https://youtube.com/playlist?list= PL6FyrZIBwD8LMWizZW1FUN2dS_144yuiy \\
-\hline Quantum Matter (Prof. Steven Simon) & https://youtube.com/playlist?list= PLrNpJOaBSWSCrLUO_tuKa515YJ10JNr1z \\
-\hline Quantum Computing Hardware \& Architecture (Prof. Hiu Yung Wong) & https://youtube.com/playlist?list= PLnK6MrIqGXsL1KShnocSdwNSiKnBodpie \\
-\hline Quantum Hardware Series (Onri Jay Benally, QuantumGrad \& UMN) & https://youtube.com/playlist?list= PLD9iE8dbH_2WOww1HL1gSskSYPcSlf6cd \\
-\hline Circuit Quantum Electrodynamics \& Qubit Hamiltonian (Prof. Gerhard Kirchmair) & https://youtu.be/BAt2PFVQE3w \\
-\hline Josephson Junctions \& SQUIDs (Prof. Kevin F. Kelly) & https://youtu.be/sNOpmTW1Mwk \\
-\hline Silicon Photonics \& Photonic Integrated Circuits Overview (Ghent University) & https://youtube.com/playlist?list=PLuNPwP_ PUkFRcW4apwKHC7oXSTyV3zPbv \\
-\hline Photonic Integrated Circuit Design (Ghent University) & https://youtu.be/Zcle3hNmblg \\
-\hline Virtual Hands-On
-(Dr. Jorg Scholvin) & https://youtu.be/01J8qKjcp0M \\
-\hline Micro \& Nanofabrication (Prof. Chris Mack) & https://youtube.com/playlist?list=PLM2eE_ hI4gSDjK4SiDbhpmpjw31Xyqfo \\
-\hline Nanotechnology [Tools] (Duke University) & https://youtube.com/playlist?list= PLQcKpS4i0cAHESOsjJTXDZnWa3wtuixQ1 \\
-\hline
-\end{tabular}
-\begin{tabular}{|c|c|}
-\hline Qiskit Metal Overview, Gmsh \&
-ElmerFEM [Open-Source] (Diego
-Emilio Serrano \& Abeer Vaishnav) & https://youtu.be/84j31_9fHko \\
-\hline Pulse Sequence
-Alexander, IBM) & https://www.youtube.com/watch?v= sMUPL8SR2oE\&t=665s \\
-\hline Physical Sciences \& Engineering Lectures (Dr. Jordan Edmunds) & https://www.youtube.com/@JordanEdmundsEECS/ playlists \\
-\hline Animated Physics Lectures (ZAP
-Physics) & https://www.youtube.com/@zapphysics/ playlists \\
-\hline More Animated Physics Lectures (Alexander Fufaev) & https://www.youtube.com/@universaldenker/ playlists \\
-\hline Even More Animated Physics Lectures (Dr. Elliot Schneider) & https://www.youtube.com/@PhysicswithElliot/ playlists \\
-\hline Oscillator Tutorial (Afrotechmods) & https://youtu.be/aJAZHPqEUKU?si= a180KNZBRZaG564o \\
-\hline The Beauty of LC Oscillations! (Sabin Mathew) & https://youtu.be/2_y_3_3V-so?si= viKn72TnpgGTPhfu \\
-\hline Electronic Circuits (Julio Gonzalez) & https://youtube.com/playlist?list=PLOo_ Zxa4K1BV9E-N8tSExU1djL6slnjbL \\
-\hline
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
 
-Miscellaneous:
-\begin{tabular}{|c|c|}
-\hline Title & URL \\
-\hline A Homemade Trapped Ion Quantum Computer (Yann Allain) & https://tinyurl.com/homemade-tr-ion \\
-\hline Heidelberg DWL66+ LASER Lithography Training (University of Pennsylvania) & https://youtube.com/playlist?list= PLiihbHV9HgpWAcmgdpMGBkejcBhEzoKJO \\
-\hline Electron-Beam Lithography
-(MIT.nano) & https://youtu.be/yJF9s2MJLLM \\
-\hline Layout Editor Training (University of Pennsylvania) & https://youtube.com/playlist?list= PLiihbHV9HgpX_9m5Khz2wn-XaxM5-yErU \\
-\hline KLayout Training (University of Waterloo) & https://youtube.com/playlist?list= PL12BCN5zxKhysQPbloFy0a6x0fiCPJZB- \\
-\hline Oscilloscope Usage (GreatScottLab) & https://youtu.be/d58GzhXKKG8 \\
-\hline Harvard Architecture vs. von Neumann Architecture (Computer Science) & https://youtu.be/4nY7mNHLrLk \\
-\hline Analog vs. Digital Computing (Derek Muller) & https://youtu.be/IgF30X8nT0w?si= hWCan3S5Mx5NsdfE \\
-\hline Flipper Zero Transceiver Hardware (Securiosity) & https://youtu.be/eYCMIYsP23k?si= U8L04s7Jun-RQV-L \\
-\hline Understanding Radio Signals with Flipper Zero (TechAndFun) & https://youtu.be/zhg41DbxIEc?si= SGOjI6vYYOd1tfip \\
-\hline Software Defined Radio (SDR) Tutorial (Andreas Spiess) & https://youtu.be/xQVm-YTKR9s?si= fD03k6WQYokeyx0- \\
-\hline The Fetch-Execute Cycle (Tom Scott) & https://youtu.be/Z5JC9Ve1sfI \\
-\hline Blender Basics for Scientists (Dr. Joseph G. Manion) & https://youtube.com/playlist?list= PLcKSD7dOT-HBmOH-NYYgMgVX1LZF72K-3 \\
-\hline Quantum Chip Rendering Tutorials (Onri Jay Benally) & https://www.youtube.com/playlist?list= PLbW5jviv4ckwvvhSjwONc6pa-g1NdI6vg \\
-\hline
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
 
-\section*{Chapter 3}
+![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
 
-\section*{Books \& References}
+![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
 
-Free or Open Access Literature \& More (Up to Graduate Level):
-\begin{tabular}{|c|c|}
-\hline Title & Link \\
-\hline Olivier Ezratty's "Understanding Quantum Technologies" (Research, Manufacturing, \& More) & https://www.oezratty.net/wordpress/wp-content/themes/ Ezratty5/forcedownload.php?file=/Files/Publications/ Understanding\%20Quantum\%20Technologies\%2001ivier\% 20Ezratty\%202024\%20Letter.pdf \\
-\hline Olivier Ezratty's "Where are we heading with NISQ?" & https://arxiv.org/abs/2305.09518 \\
-\hline Computer-Inspired Quantum Experiments & https://arxiv.org/abs/2002.09970 \\
-\hline Open Hardware in Quantum Technology & https://arxiv.org/abs/2309.17233 \\
-\hline The Transmon Qubit for Electromagnetics Engineers & https://ieeexplore.ieee.org/document/9789946 \\
-\hline Thomas Wong's "Introduction to Classical \& Quantum Computing" & \begin{tabular}{l}
-https://www.thomaswong.net/ \\
-introduction-to-classical-and-quantum-computing-1e3p. pdf
-\end{tabular} \\
-\hline Probing Quantum Devices with Radio-Frequency Reflectometry & https://arxiv.org/abs/2202.10516 \\
-\hline Microwave Control of Superconducting Cavity \& Qubit (MediaWiki) & https://qt5201.org/index.php/Microwave_control_of_ superconducting_cavity_and_qubit \\
-\hline [Quantum] Transport in Semiconductor Mesoscopic Devices & \begin{tabular}{l}
-https://iopscience.iop.org/book/mono/ \\
-978-0-7503-1103-8/chapter/bk978-0-7503-1103-8ch8
-\end{tabular} \\
-\hline Quantum Materials
-Roadmap & \begin{tabular}{l} 
-https://iopscience.iop.org/article/10.1088/2515-7639/ \\
-\hline abb74e
-\end{tabular} \\
-\hline Quantum Nanostructures & https://www.sciencedirect.com/science/article/pii/ B9780081019757000038 \\
-\hline
-\end{tabular}
-\begin{tabular}{|c|c|}
-\hline From Nanoelectronics to Future Technologies & https://link.springer.com/chapter/10.1007/ 978-3-030-44398-6_6\#Sec5 \\
-\hline Materials Challenges \& Opportunities for Quantum Computing Hardware & https://www.science.org/doi/epdf/10.1126/science. abb2823 \\
-\hline A Practical Guide for Building Superconducting Quantum Devices & https://arxiv.org/pdf/2106.06173.pdf \\
-\hline Handbook of Vacuum Science \& Technology & https://www.sciencedirect.com/book/9780123520654/ handbook-of-vacuum-science-and-technology \\
-\hline Practical Cryogenics & http://research.physics.illinois.edu/bezryadin/links/ practical\%20Cryogenics.pdf \\
-\hline Hitchhiker's Guide to the Dilution Refrigerator & https://www.roma1.infn.it/exp/cuore/pdfnew/Fridge.pdf \\
-\hline Dry Dilution Refrigerator with 4He-1 K-Loop & https://arxiv.org/ftp/arxiv/papers/1412/1412.3597.pdf \\
-\hline Coplanar Waveguide Resonators & \[
-\begin{aligned}
-& \text { https://link.springer.com/article/10.1007/ } \\
-& \hline \text { s10948-018-4959-2 }
-\end{aligned}
-\] \\
-\hline When to Use Coplanar Waveguide Routing & https://blog.upverter.com/2019/10/15/ when-to-use-coplanar-waveguide-routing-for-hf-boards \\
-\hline Basic Qubit Characterization by Zurich Instruments & https://docs.zhinst.com/hdawg_user_manual/tutorials/ qubit_characterization.html?h=basic+qubit \\
-\hline Qubit Spectroscopy: Microwave Control of Superconducting Cavity \& Qubit & https://qt5201.org/index.php/Microwave_control_of_ superconducting_cavity_and_qubit \\
-\hline Quantum Control Documentation by Qblox Instruments & ```
-https://qblox-qblox-instruments.readthedocs-hosted.
-com/en/master
-``` \\
-\hline Overview of Quantum Control Equipment by Qblox Instruments & https://www.qblox.com \\
-\hline Control \& Readout of a Superconducting Qubit Using a Photonic Link & https://rdcu.be/dhLr3 \\
-\hline Cryo-CMOS Qubit Control & https://ieeexplore.ieee.org/document/9895434 \\
-\hline The Electronic Interface for Quantum Processors & https://arxiv.org/pdf/1811.01693.pdf \\
-\hline Cryo-CMOS Interfaces for Large-Scale Quantum Computers & \[
-\begin{aligned}
-& \text { https://ieeexplore.ieee.org/stamp/stamp.jsp?tp= } \\
-& \text { \&arnumber=9372075 }
-\end{aligned}
-\] \\
-\hline Spiderweb Array: A Sparse Spin-Qubit Array & https://journals.aps.org/prapplied/pdf/10.1103/ PhysRevApplied.18.024053 \\
-\hline A Cryogenic Interface for Controlling Many Qubits & https://arxiv.org/abs/1912.01299 \\
-\hline
-\end{tabular}
-\begin{tabular}{|l|l|l|}
-\hline \begin{tabular}{l} 
-Cryogenic \\
-nologies
-\end{tabular} & Memory Tech- & https://arxiv.org/abs/2111.09436 \\
-\hline
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
 
-Miscellaneous:
-\begin{tabular}{|l|l|}
-\hline Title & URL \\
-\hline \begin{tabular}{l} 
-NASA Wire Bonding Stan- \\
-dards
-\end{tabular} & https://nepp.nasa.gov/index.cfm/20911 \\
-\hline \begin{tabular}{l} 
-NASA Soldering \& Work- \\
-manship Standards
-\end{tabular} & \begin{tabular}{l} 
-https://nepp.nasa.gov/docuploads/ \\
-06AA01BA-FC7E-4094-AE829CE371A7B05D/NASA-STD-8739. \\
-3.pdf, https://standards.nasa.gov/sites/default/files//
-\end{tabular} \\
-\hline \begin{tabular}{l} 
-standards/NASA/A/4/nasa-std-87394a_w_change_4_0.pdf
-\end{tabular} \\
-https://workmanship.nasa.gov/lib/insp/2\%20books/ \\
-frameset.htm1
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
 
-\section*{Chapter 4}
+![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
 
-\section*{Quantum Hardware Lab Galleries}
-\begin{tabular}{|l|l|}
-\hline \multicolumn{1}{|l|}{} \\
-\hline IBM Research & ETH Zurich \\
-\hline https://www.flickr.com/photos/ibm_ & https://qudev.phys.ethz.ch/ \\
-\hline research_zurich/albums & responsive/?q=gallery \\
-\hline UWaterloo & \\
-\hline https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility; \\
-virtual-tours
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
 
-\section*{Chapter 5}
+![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
 
-\section*{Quantum-Applicable Degrees: BS to PhD}
-\begin{tabular}{|l|l|}
-\hline \multicolumn{2}{|c|}{ Non-Exhaustive List: } \\
-\hline Physics (Experimental or Applied) & Computer Engineering \\
-Quantum Science \& Engineering & Chemistry \\
-Quantum Technology & Chemical Engineering \\
-Engineering Physics & Physical Chemistry \\
-Electrical Engineering & Systems Engineering \\
-Electrical \& Computer Engineering & Mechanical Engineering \\
-Materials Science & Nanoscience \\
-Materials Science \& Engineering & Nanoengineering \\
-& \\
-\hline
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
 
-\section*{Chapter 6}
+![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
 
-\section*{Quantum Science Curriculum Example}
-\begin{tabular}{|l||l|l|}
-\hline \multicolumn{2}{|c|}{ Courses: } \\
-\hline AEP & 1200 & \multicolumn{1}{c|}{ Introduction to Nanoscience \& Nanoengineering } \\
-AEP & 2550 & Engineering Quantum Information Hardware \\
-AEP & 3100 & Introductory Quantum Computing \\
-AEP & 3610 & Introductory Quantum Mechanics \\
-AEP & 3620 & Intermediate Quantum Mechanics \\
-AEP & 4400 & Nonlinear \& Quantum Optics \\
-AEP & 4500 / PHYS 4454 & Introductory Solid State Physics \\
-CHEM & 7870 & Mathematical Methods of Physical Chemistry \\
-CHEM & 7910 & Advanced Spectroscopy \\
-CHEM & 7930 & Quantum Mechanics I \\
-CHEME & 6860 / SYSEN 5860 & Quantum Computing \& Artificial Intelligence \\
-CS & 4812 / PHYS 4481 & Quantum Information Processing \\
-ECE & 4060 & Quantum Physics \& Engineering \\
-ECE & 4070 & Physics of Semiconductors \& Nanostructures \\
-ECE & 5310 & Quantum Optics for Photonics \& Optoelectronics \\
-ECE & 5330 & Semiconductor Optoelectronics \\
-MSE & 5720 & Computational Materials Science \\
-MSE & 6050 & Physics of Semiconductors \& Nanostructures \\
-PHYS & 2214 & Physics III: Oscillations, Waves, \& Quantum Physics \\
-PHYS & 3316 & Basics of Quantum Mechanics \\
-PHYS & 3317 & Applications of Quantum Mechanics \\
-PHYS & 4443 & Intermediate Quantum Mechanics \\
-PHYS & 4444 & Introduction to Particle Physics \\
-PHYS & \(4410 /\) PHYS 6510 & Advanced Experimental Physics \\
-PHYS & 6572 & Quantum Mechanics I \\
-PHYS & 6574 & Applications of Quantum Mechanics II \\
-PHYS & 7636 & Solid-State Physics II \\
-PHYS & 7645 & An Introduction to the Standard Model of Particle Physics \\
-PHYS & 7651 & Relativistic Quantum Field Theory I \\
-PHYS & 7652 & Relativistic Quantum Field Theory II \\
-PHYS & 7654 & Basic Training in Condensed Matter Physics \\
-\hline & Adapted From: & https://quantum.cornell.edu/education \\
-\hline
-\end{tabular}
+![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
 
-\section*{Chapter 7}
+![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
 
-\section*{Shortcut into Quantum Hardware Engineering}
+![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
 
-Start with a 3D modeling \& linguistics framework, may involve a custom keywords glossary.
-Know that this specialty involves learning to probe something without necessarily having to physically contact its surface. This is what spectroscopy or "scatterometry" is about.
-Typically, topics covered under quantum hardware engineering are combinations of materials science \& engineering, quantum metrology, quantum transport, quantum optics, \& quantum electronic design automation.
-Know how electronic filters are configured or set up.
-Know how electronic filters are designed \& what they look like.
-Know what components various filters are made of.
-Know the difference between passive \& active filters.
-Know the difference between optical, microwave, \& radio frequency (RF) isolators, circulators, \& mixers.
-Be aware of different room temperature \& cryogenic amplifiers.
-Know what room temperature \& cryogenic amplifiers are made of.
-Know the different types/hierarchy of amplifier noise (thermal, shot, external, quantum).
-Know how a signal curve or response is manipulated.
-Know how signals are triggered.
-Know what impedance matching is (how many ohms is required).
-Know how a Smith chart works.
-Know the many purposes of a resistor (there's a whole list).
-Know what multiphase power means.
-Know what a resonator \& resonator cavity is.
-Know what vector network \& spectrum analyzers, arbitrary waveform generators, \& signal generators do.
-Know what an oscillator circuit does (voltage fluctuation or AC).
-Know what an inverter circuit does (DC to AC conversion).
-Know what a rectifier circuit does (AC to DC conversion).
-Know what high-pass, low-pass, band-pass, band-stop filter circuits/crossover networks do (signal filtering).
-Know what a comparator circuit does (threshold indicator).
-Know what a few basic logic gates can do (calculator).
-Know what a PID [closed-loop] controller does (electronic-based self-balancing).
-Know what a feed forward [open-loop] controller does (electronic-based self-balancing alternative).
-Bonus:
-- Know how to build a simple electronic audio amplifier device (many components similar to quantum computing systems).
-- Design a transmission line coupled to a resonator with optical or superconducting waveguides.
+![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
 
-\section*{Chapter 8}
-
-\section*{Most Useful Coding Topics for Hardware Engineers}
-\begin{tabular}{|l|}
-\hline Library installation \\
-\hline Syntax \& commenting \\
-\hline \begin{tabular}{l} 
-Curve fitting, direct parameterization, \& mesh parame- \\
-terization
-\end{tabular} \\
-\hline Automation scripting \\
-\hline Data management \& data structures \\
-\hline Parallel processing \& accelerated computing techniques \\
-\hline Interpolation \& extrapolation \\
-\hline Linear regression \\
-\hline Signal processing \\
-\hline Noise plots \\
-\hline Manual debugging \\
-\hline
-\end{tabular}
-
-\section*{Chapter 9}
-
-\section*{Quantum Career Opportunities}
-
-Quantum Job Resources (Hardware \& Software):
-\begin{tabular}{|l|l|}
-\hline & \begin{tabular}{l} 
-URLs \\
-\hline https://www.youtube.com/watch?v=7dfw8k2p1to \\
-\hline https://ieeexplore.ieee.org/document/9733176 \\
-\hline http://ibm.techtechpotato.com \\
-\hline https://chicagoquantum.org/resources \\
-\hline https://www.quantiki.org/jobs \\
-\hline https://medium.com/@russfein/quantum-computing-jobs-5e67f72fb113 \\
-\hline https://quantumconsortium.org/quantum-jobs \\
-\hline \hline https://www.globalquantumleap.org/quantum-opportunities-1 \\
-\hline https://chicagoquantum.org/education-and-training/internships \\
-\hline https://www.quantumgrad.com/jobs \\
-\hline
-\end{tabular} \\
-\hline
-\end{tabular}
-
-\section*{Rough Zoology of All Physical Qubits:}
-![](https://cdn.mathpix.com/cropped/2025_01_16_4f3991301a0223db7d7fg-17.jpg?height=1256&width=1630&top_left_y=369&top_left_x=253)
-
-Borrowed from: Ezratty, Understanding Quantum Technologies, p. 355,
-https://doi.org/10.48550/arXiv.2111.15352 https://creativecommons.org/licenses/by-nc-nd/4.0/
+![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
 ___________________________________________________________________________________________________________________________________________
 
