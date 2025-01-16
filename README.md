@@ -91,8 +91,9 @@ ________________________________________________________________________________
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
+________________________________________________________________________________________________________________________________
 
-### An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+### An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
@@ -219,8 +220,8 @@ Related Open Access Lectures & Tutorials (Up to Graduate Level):
 | Josephson Junctions & SQUIDs (Prof. Kevin F. Kelly)                    | [https://youtu.be/sNOpmTW1Mwk](https://youtu.be/sNOpmTW1Mwk)                                                                                                                                              |
 | Silicon Photonics & Photonic Integrated Circuits Overview (Ghent)      | [https://youtube.com/playlist?list=PLuNPwP_PUkFRcW4apwKHC7oXSTyV3zPbv](https://youtube.com/playlist?list=PLuNPwP_PUkFRcW4apwKHC7oXSTyV3zPbv)                                                               |
 | Photonic Integrated Circuit Design (Ghent University)                  | [https://youtu.be/Zcle3hNmblg](https://youtu.be/Zcle3hNmblg)                                                                                                                                              |
-| Virtual Hands-On (Dr. Jorg Scholvin)                                   | [https://youtu.be/01J8qKjcp0M](https://youtu.be/01J8qKjcp0M)                                                                                                                                              |
-| Micro & Nanofabrication (Prof. Chris Mack)                             | [https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo](https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo)                                                                 |
+| Virtual Hands-On Fabrication at MIT.nano (Dr. Jorg Scholvin)               | [https://youtu.be/01J8qKjcp0M](https://youtu.be/01J8qKjcp0M)                                                                                                                                              |
+| Micro & Nanofabrication (Prof. Chris Mack)                             | [https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo](https://youtube.com/playlist?list=PLM2eE_hI4gSDjK4SiDbhpmpjw31Xyqfo)                                                                |
 | Nanotechnology [Tools] (Duke University)                               | [https://youtube.com/playlist?list=PLQcKpS4i0cAHESOsjJTXDZnWa3wtuixQ1](https://youtube.com/playlist?list=PLQcKpS4i0cAHESOsjJTXDZnWa3wtuixQ1)                                                               |
 
 | **Title**                                                                                             | **URL**                                                                                                                                                                                 |
