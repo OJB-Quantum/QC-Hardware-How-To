@@ -129,24 +129,17 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-![Everything You Need for Quantum Hardware Engineering-01](https://github.com/user-attachments/assets/2170bd00-d85c-4576-8293-c9d8166ba684)
-
-![Everything You Need for Quantum Hardware Engineering-02](https://github.com/user-attachments/assets/3116c1b6-1d3e-47fd-86c7-f817dceb2bff)
-
-![Everything You Need for Quantum Hardware Engineering-03](https://github.com/user-attachments/assets/d184884f-8023-4f59-af40-a7e4a96087c1)
-
-
 # Everything You Need for Experimental Quantum Hardware Engineering  
 **University of Minnesota**
 
 **Onri Jay Benally**  
-**July 2023**
 
 This document is meant to provide some level of consolidation for those desiring to be involved with quantum hardware engineering. By doing one's best to maintain familiarity with these topics, it is possible to become one who designs, builds, tests, operates, and maintains real quantum machines - a quantum mechanic. Another possibility is to begin working on a doctorate degree in the associated field with these training resources on hand. There are many clickable links in this document, so it might be best to view it using a browser or PDF viewer.
 
 My decision to share these resources is because they have been useful to me in my PhD work. This has been a very interesting path for me as a tribesman from the Navaho Nation. Here is the path: carpenter → electric vehicle researcher → nanotechnologist → quantum mechanic.
 
 Please note that open access is a key theme held herein. Enjoy.  
+
 –Onri
 
 ![](https://cdn.mathpix.com/cropped/2025_01_16_d72777393d0d68fddefcg-02.jpg?height=633&width=643&top_left_y=990&top_left_x=741)
@@ -297,10 +290,20 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 **Miscellaneous:**
 
-| **Title**                                                      | **URL**                                                                                                                                                                                                                                                                   |
-|----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| NASA Wire Bonding Standards                                    | [https://nepp.nasa.gov/index.cfm/20911](https://nepp.nasa.gov/index.cfm/20911)                                                                                                                                                                                           |
-| NASA Soldering & Workmanship Standards                         | [NASA-STD-8739.3.pdf](https://nepp.nasa.gov/docuploads/06AA01BA-FC7E-4094-AE829CE371A7B05D/NASA-STD-8739.3.pdf), [Another NASA Standards PDF](https://standards.nasa.gov/sites/default/files//standards/NASA/A/4/nasa-std-87394a_w_change_4_0.pdf), [workmanship.nasa.gov](https://workmanship.nasa.gov/lib/insp/2%20books/frameset.htm1) |
+| Title | URL |
+| :---- | :--- |
+| NASA Wire Bonding Standards | https://nepp.nasa.gov/index.cfm/20911 |
+| NASA Soldering & Workmanship Standards | https://nepp.nasa.gov/docuploads/06AA01BA-FC7E-4094-AE829CE371A7B05D/NASA-STD-8739.3.pdf <br> https://standards.nasa.gov/sites/default/files/standards/NASA/A/4/nasa-std-87394a_w_change_4_0.pdf <br> https://workmanship.nasa.gov/lib/insp/2%20books/frameset.html |
+| Semiconductor Education Online, Browser-Based, No Installation Required | https://nanohub.org/groups/semiconductoreducation |
+| Quantum Mechanics Visualization, Browser-Based | https://www.st-andrews.ac.uk/physics/quvis |
+| Classical Physics Simulation, Browser-Based | https://phet.colorado.edu/en/simulations/browse |
+| Classical 2D Optics Simulation, Browser-Based | https://phydemo.app/ray-optics |
+| Math, Physics, & Engineering Visualization, Browser-Based | https://www.falstad.com/mathphysics.html |
+| Interactive Advanced Microscopy Simulations, Browser-Based | https://myscope.training |
+| Interactive Quantum State Visualization, Browser-Based | https://javafxpert.github.io/grok-bloch |
+| Interactive Quantum Computing Education Tools | https://www.iqmacademy.com/play |
+| Quantum Phenomena Visualization | https://toutestquantique.fr/en |
+
 
 ---
 
@@ -380,37 +383,38 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ## Shortcut into Quantum Hardware Engineering
 
-- Start with a 3D modeling & linguistics framework, may involve a custom keywords glossary.  
-- Know that this specialty involves learning to probe something without necessarily having to physically contact its surface. This is what spectroscopy or “scatterometry” is about.  
-- Typically, topics covered under quantum hardware engineering are combinations of materials science & engineering, quantum metrology, quantum transport, quantum optics, & quantum electronic design automation.  
-- Know how electronic filters are configured or set up.  
-- Know how electronic filters are designed & what they look like.  
-- Know what components various filters are made of.  
-- Know the difference between passive & active filters.  
-- Know the difference between optical, microwave, & radio frequency (RF) isolators, circulators, & mixers.  
-- Be aware of different room temperature & cryogenic amplifiers.  
-- Know what room temperature & cryogenic amplifiers are made of.  
-- Know the different types/hierarchy of amplifier noise (thermal, shot, external, quantum).  
-- Know how a signal curve or response is manipulated.  
-- Know how signals are triggered.  
-- Know what impedance matching is (how many ohms is required).  
-- Know how a Smith chart works.  
-- Know the many purposes of a resistor (there’s a whole list).  
-- Know what multiphase power means.  
-- Know what a resonator & resonator cavity is.  
-- Know what vector network & spectrum analyzers, arbitrary waveform generators, & signal generators do.  
-- Know what an oscillator circuit does (voltage fluctuation or AC).  
-- Know what an inverter circuit does (DC to AC conversion).  
-- Know what a rectifier circuit does (AC to DC conversion).  
-- Know what high-pass, low-pass, band-pass, band-stop filter circuits/crossover networks do (signal filtering).  
-- Know what a comparator circuit does (threshold indicator).  
-- Know what a few basic logic gates can do (calculator).  
-- Know what a PID [closed-loop] controller does (electronic-based self-balancing).  
-- Know what a feed forward [open-loop] controller does (electronic-based self-balancing alternative).  
+| Checklist |
+| -------------------------------------- |
+| Start with a 3D modeling & linguistics framework, may involve a custom keywords glossary. |
+| Know that this specialty involves learning to probe something without necessarily having to physically contact its surface. This is what spectroscopy or “scatterometry” is about. |
+| Typically, topics covered under quantum hardware engineering are combinations of materials science & engineering, quantum metrology, quantum transport, quantum optics, & quantum electronic design automation. |
+| Know how electronic filters are configured or set up. |
+| Know how electronic filters are designed & what they look like. |
+| Know what components various filters are made of. |
+| Know the difference between passive & active filters. |
+| Know the difference between optical, microwave, & radio frequency (RF) isolators, circulators, & mixers. |
+| Be aware of different room temperature & cryogenic amplifiers. |
+| Know what room temperature & cryogenic amplifiers are made of. |
+| Know the different types/hierarchy of amplifier noise (thermal, shot, external, quantum). |
+| Know how a signal curve or response is manipulated. |
+| Know how signals are triggered. |
+| Know what impedance matching is (how many ohms is required). |
+| Know how a Smith chart works. |
+| Know the many purposes of a resistor (there’s a whole list). |
+| Know what multiphase power means. |
+| Know what a resonator & resonator cavity is. |
+| Know what vector network & spectrum analyzers, arbitrary waveform generators, & signal generators do. |
+| Know what an oscillator circuit does (voltage fluctuation or AC). |
+| Know what an inverter circuit does (DC to AC conversion). |
+| Know what a rectifier circuit does (AC to DC conversion). |
+| Know what high-pass, low-pass, band-pass, band-stop filter circuits/crossover networks do (signal filtering). |
+| Know what a comparator circuit does (threshold indicator). |
+| Know what a few basic logic gates can do (calculator). |
+| Know what a PID [closed-loop] controller does (electronic-based self-balancing). |
+| Know what a feed forward [open-loop] controller does (electronic-based self-balancing alternative). |
+| **Bonus Project**: Know how to build a simple electronic audio amplifier device (many components similar to quantum computing systems). |
+| **Bonus Project**: Design a transmission line coupled to a resonator with optical or superconducting waveguides. |
 
-**Bonus:**
-- Know how to build a simple electronic audio amplifier device (many components similar to quantum computing systems).  
-- Design a transmission line coupled to a resonator with optical or superconducting waveguides.
 
 ---
 
