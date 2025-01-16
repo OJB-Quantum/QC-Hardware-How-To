@@ -471,10 +471,6 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, p. 355,
 
 </div>
 
-
-
-![Everything You Need for Quantum Hardware Engineering-17](https://github.com/user-attachments/assets/804a1980-7f5a-4e3d-9b14-e250fd4a21ea)
-
 ___________________________________________________________________________________________________________________________________________
 
 ![Nanofabrication Technology Used for Quantum Chips by Onri_-01](https://github.com/user-attachments/assets/55d27227-8e87-42e2-8cb9-1bedee26813f)
