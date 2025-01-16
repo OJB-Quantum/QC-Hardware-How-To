@@ -38,17 +38,17 @@ ________________________________________________________________________________
 | [Understanding Load Pull, Rohde and Schwarz](https://youtu.be/JtMeIdlEe40?si=DnJD9YWtTu9Zb-4x) |
 | [Understanding Material Measurements, Rohde and Schwarz](https://youtu.be/RlBp-paeAH8?si=3jgXGWeIWb8CYyhT) |
 | [What is a Mixer? Modern RF & Microwave Mixers Explained, Marki Microwave](https://youtu.be/WwJKxvz7qbs?si=VoxFj6tJFgtqRAmL) |
-| [RF Isolator Teardown & Explanation](https://youtu.be/Whn3QjHUgIw?si=dG09vL56J8y3ndPZ) |
+| [RF Isolator Teardown & Explanation, Analog Zeke](https://youtu.be/Whn3QjHUgIw?si=dG09vL56J8y3ndPZ) |
 | [Cryogenics Electronics, Quantum Technologies Innovation Network & Innovate UK Business Connect](https://youtu.be/htv_iNAEvTU?si=Cg18-WXJVNnoCvJ1) |
 | [Introduction to TR Multicoax Series, Amphenol Ardent Concepts](https://youtu.be/hDhkEZ_Z-ck?si=OL7bqaJ24LXK4O2s) |
 | [Control of Superconducting Qubits, Zurich Instruments, Prof. Stefan Phillips](https://youtu.be/zaHWs7Ukids?si=vEVFKt9LmfxiMHN4) |
-| [Quantum Applications in the Bluefors Measurement System, Bluefors](https://youtu.be/EOOiZvfQhyA?si=zmLb0TUzaLv9oDpo&t=45) |
+| [Quantum Applications in the Bluefors Measurement System, Bluefors, Dr. Russell Lake](https://youtu.be/EOOiZvfQhyA?si=zmLb0TUzaLv9oDpo&t=45) |
 | [Hands-on Superconducting Qubit Characterization, Zurich Instruments](https://youtu.be/rKkR4m1DaiY?si=Or1PIUAnjAsmmLSV) |
 | [High Speed Qubit Control, Tabor Electronics](https://youtu.be/QrF09wmr_Do?si=442JoJ5fjMSwXkcd) |
 | [Characterization to Resonator Measurements, Zurich Instruments](https://youtu.be/DiK9WyYDwRw?si=HSQMBFTarK0hx3sQ&t=62) |
 | [Qubit Control and Measurement Solutions, Zurich Instruments](https://youtu.be/0cXPZLExSqk?si=Lx-p_w1cDOR1YUdr) |
-| [Interfacing Superconducting Quantum Circuits with an RF Photonic Link, Qiskit](https://www.youtube.com/live/_Ea3ZuPG5lA?si=4y04FwFNK50rZp1u) |
-| [Silicon Photonic Quantum Computing – Towards Large-Scale Systems, PsiQuantum](https://youtu.be/at9Ust3tZ74?si=P3k1jc9a5sfdcAy6) |
+| [Interfacing Superconducting Quantum Circuits with an RF Photonic Link, Qiskit, Dr. John Teufel](https://www.youtube.com/live/_Ea3ZuPG5lA?si=4y04FwFNK50rZp1u) |
+| [Silicon Photonic Quantum Computing – Towards Large-Scale Systems, PsiQuantum, Dr. Peter Shadbolt](https://youtu.be/at9Ust3tZ74?si=P3k1jc9a5sfdcAy6) |
 | [Quantum Materials: from Characterization to Resonator Measurements, Zurich Instruments, Dr. Jim Phillips & Prof. Corey Rae McRae](https://youtu.be/DiK9WyYDwRw?si=lgbxOd7_mnRAC8XJ) |
 | [Advanced Microwave Topics for Quantum Physicists, Tabor Electronics](https://youtu.be/k7O8dEVtUcY?si=fo_ZIqWvgdIcHii7) |
 | [Supporting the Development of Quantum/Superconducting Applications, Amphenol Ardent Concepts](https://youtu.be/vf6BXr6CszM?si=AVSBA7o56DsQzpEY) |
