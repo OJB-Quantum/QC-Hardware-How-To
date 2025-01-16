@@ -366,40 +366,39 @@ Miscellaneous:
 
 ## Chapter 7
 
-## Shortcut into Quantum Hardware Engineering
+### **A Shortcut into Quantum Hardware Engineering: By Onri Jay Benally**
 
-Start with a 3D modeling \& linguistics framework, may involve a custom keywords glossary.
-Know that this specialty involves learning to probe something without necessarily having to physically contact its surface. This is what spectroscopy or "scatterometry" is about.
-Typically, topics covered under quantum hardware engineering are combinations of materials science \& engineering, quantum metrology, quantum transport, quantum optics, \& quantum electronic design automation.
-Know how electronic filters are configured or set up.
-Know how electronic filters are designed \& what they look like.
-Know what components various filters are made of.
-Know the difference between passive \& active filters.
-Know the difference between optical, microwave, \& radio frequency (RF) isolators, circulators, \& mixers.
-Be aware of different room temperature \& cryogenic amplifiers.
-Know what room temperature \& cryogenic amplifiers are made of.
-Know the different types/hierarchy of amplifier noise (thermal, shot, external, quantum).
-Know how a signal curve or response is manipulated.
-Know how signals are triggered.
-Know what impedance matching is (how many ohms is required).
-Know how a Smith chart works.
-Know the many purposes of a resistor (there's a whole list).
-Know what multiphase power means.
-Know what a resonator \& resonator cavity is.
-Know what vector network \& spectrum analyzers, arbitrary waveform generators, \& signal generators do.
-Know what an oscillator circuit does (voltage fluctuation or AC).
-Know what an inverter circuit does (DC to AC conversion).
-Know what a rectifier circuit does (AC to DC conversion).
-Know what high-pass, low-pass, band-pass, band-stop filter circuits/crossover networks do (signal filtering).
-Know what a comparator circuit does (threshold indicator).
-Know what a few basic logic gates can do (calculator).
-Know what a PID [closed-loop] controller does (electronic-based self-balancing).
-Know what a feed forward [open-loop] controller does (electronic-based self-balancing alternative).
-Bonus:
+| **Topic** | **Details** |
+|-----------|-------------|
+| Start with a 3D modeling & linguistics framework | May involve a custom keywords glossary. |
+| Spectroscopy or "scatterometry" | Involves probing something without physical contact. |
+| Topics covered | Materials science & engineering, quantum metrology, quantum transport, quantum optics, quantum electronic design automation. |
+| Electronic filters | Know how they are configured, designed, & what they look like. |
+| Filter components | Understand what they are made of. |
+| Passive vs active filters | Know the difference. |
+| Optical, microwave, & RF isolators | Understand the differences among isolators, circulators, & mixers. |
+| Amplifiers | Be aware of room temperature & cryogenic amplifiers & their materials. |
+| Amplifier noise types | Thermal, shot, external, quantum. |
+| Signal manipulation | Know how a signal curve or response is manipulated. |
+| Signal triggering | Know how signals are triggered. |
+| Impedance matching | Understand how many ohms are required. |
+| Smith chart | Know how it works. |
+| Resistors | Understand their many purposes. |
+| Multiphase power | Know what it means. |
+| Resonators | Understand what a resonator & resonator cavity is. |
+| Equipment | Vector network & spectrum analyzers, arbitrary waveform generators, signal generators. |
+| Oscillator circuit | Know its role in voltage fluctuation or AC. |
+| Inverter circuit | Understand DC to AC conversion. |
+| Rectifier circuit | Understand AC to DC conversion. |
+| Signal filtering | High-pass, low-pass, band-pass, band-stop filter circuits/crossover networks. |
+| Comparator circuit | Understand threshold indicators. |
+| Logic gates | Know their basic functions (e.g., calculator). |
+| PID controller | Understand closed-loop control for self-balancing. |
+| Feed forward controller | Understand open-loop control as a self-balancing alternative. |
+| - **Bonus Project Options** |  - Build a simple electronic audio amplifier (many components similar to quantum computing systems).
+  - Design a transmission line coupled to a resonator with optical or superconducting waveguides.  |
 
-- Know how to build a simple electronic audio amplifier device (many components similar to quantum computing systems).
-- Design a transmission line coupled to a resonator with optical or superconducting waveguides.
-
+---
 
 ## Chapter 8
 
@@ -408,12 +407,12 @@ Bonus:
 | Library installation |
 | :--- |
 | Syntax \& commenting |
-| Curve fitting, direct parameterization, \& mesh parame- <br> terization |
+| Curve fitting, direct parameterization, \& mesh parameterization |
 | Automation scripting |
 | Data management \& data structures |
 | Parallel processing \& accelerated computing techniques |
 | Interpolation \& extrapolation |
-| Linear regression |
+| Linear, polynomial, \& moving average regression |
 | Signal processing |
 | Noise plots |
 | Manual debugging |
