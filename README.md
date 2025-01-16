@@ -13,13 +13,14 @@ ________________________________________________________________________________
 | **Course Name**                                           | **Cost**      | **Link**                            |
 |-----------------------------------------------------------|---------------|-------------------------------------|
 | QuTech Academy, School of Quantum                         | Free          | [QuTech Academy](https://www.qutube.nl)                                                                                                                |
-| Quantum Information                                       | Free          | [Quantum Information](https://learning.quantum.ibm.com/course/basics-of-quantuminformation)                                                            |
+| IQM Academy                                               | Free          | [IQM Academy](https://www.iqmacademy.com)                                                                                                                |
+| Quantum (Course List)                                     | Free          | [IBM Quantum Learning](https://learning.quantum.ibm.com)                                                            |
 | Variational Algorithm Design                              | Free          | [Variational Algorithm Design](https://learning.quantum.ibm.com/course/variational-algorithm-design)                                                   |
 | Quantum Computing for Natural Sciences                   | Free          | [Quantum Computing for Natural Sciences](https://open.hpi.de/courses/qc-nature2023)                                                                    |
 | Quantum Machine Learning                                  | Free          | [Quantum Machine Learning](https://open.hpi.de/courses/qc-machineLearning2023)                                                                         |
 | Topology in Condensed Matter                              | Free          | [Topology in Condensed Matter](https://topocondmat.org/index.html)                                                                                     |
 
-### Paid Programs (Can be Audited for Free)
+### Paid Quantum Programs (Can Be Audited for Free)
 
 | **Course Name**                                           | **Cost**      | **Link**                             |
 |-----------------------------------------------------------|---------------|--------------------------------------|
@@ -36,7 +37,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________________________
 
 
-## 2nd List for Serious Quantum Courses Online - (From MIT OCW)
+## 2nd List for Serious Quantum Courses Online, Up to the Graduate Level, Based on MIT OCW
 
 | **Course Name**                                              | **Link**                              |
 |--------------------------------------------------------------|---------------------------------------|
@@ -61,7 +62,14 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-### A copy of the Experimental Quantum Hardware Engineering booklet:
+| Click Below To Access Quantum Chip Gallery, TU Delft |
+| - |
+| [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
+| [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
+
+__________________________________________________________________________________________________________________________________________________
+
+### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally:
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
 
@@ -69,7 +77,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-### A copy of the Nanofabrication Technology for Quantum Chips document: 
+### A copy of the Nanofabrication Technology for Quantum Chips document, written by Onri Jay Benally: 
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
@@ -116,19 +124,6 @@ ________________________________________________________________________________
 | [Advanced Microwave Topics for Quantum Physicists, Tabor Electronics](https://youtu.be/k7O8dEVtUcY?si=fo_ZIqWvgdIcHii7) |
 | [Supporting the Development of Quantum/Superconducting Applications, Amphenol Ardent Concepts](https://youtu.be/vf6BXr6CszM?si=AVSBA7o56DsQzpEY) |
 
-
-| Click Below To Access School of Quantum - QuTech Academy |
-| - |
-| [School of Quantum](https://www.qutube.nl) |
-
-| Click Below To Access IQM Academy - IQM |
-| - |
-| [IQM Academy](https://www.iqmacademy.com) |
-
-| Click Below To Access Quantum Chip Gallery - TU Delft |
-| - |
-| [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
-| [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
 
 __________________________________________________________________________________________________________________________________________________
 
