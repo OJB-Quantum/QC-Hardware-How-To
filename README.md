@@ -298,19 +298,21 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 **Miscellaneous:**
 
+Here is the markdown table with clickable URLs:
+
 | Title | URL |
 | :---- | :--- |
-| NASA Wire Bonding Standards | https://nepp.nasa.gov/index.cfm/20911 |
-| NASA Soldering & Workmanship Standards | https://nepp.nasa.gov/docuploads/06AA01BA-FC7E-4094-AE829CE371A7B05D/NASA-STD-8739.3.pdf <br> https://standards.nasa.gov/sites/default/files/standards/NASA/A/4/nasa-std-87394a_w_change_4_0.pdf <br> https://workmanship.nasa.gov/lib/insp/2%20books/frameset.html |
-| Semiconductor Education Online, Browser-Based, No Installation Required | https://nanohub.org/groups/semiconductoreducation |
-| Quantum Mechanics Visualization, Browser-Based | https://www.st-andrews.ac.uk/physics/quvis |
-| Classical Physics Simulation, Browser-Based | https://phet.colorado.edu/en/simulations/browse |
-| Classical 2D Optics Simulation, Browser-Based | https://phydemo.app/ray-optics |
-| Math, Physics, & Engineering Visualization, Browser-Based | https://www.falstad.com/mathphysics.html |
-| Interactive Advanced Microscopy Simulations, Browser-Based | https://myscope.training |
-| Interactive Quantum State Visualization, Browser-Based | https://javafxpert.github.io/grok-bloch |
-| Interactive Quantum Computing Education Tools | https://www.iqmacademy.com/play |
-| Quantum Phenomena Visualization | https://toutestquantique.fr/en |
+| NASA Wire Bonding Standards | [https://nepp.nasa.gov/index.cfm/20911](https://nepp.nasa.gov/index.cfm/20911) |
+| NASA Soldering & Workmanship Standards | [https://nepp.nasa.gov/docuploads/06AA01BA-FC7E-4094-AE829CE371A7B05D/NASA-STD-8739.3.pdf](https://nepp.nasa.gov/docuploads/06AA01BA-FC7E-4094-AE829CE371A7B05D/NASA-STD-8739.3.pdf) <br> [https://standards.nasa.gov/sites/default/files/standards/NASA/A/4/nasa-std-87394a_w_change_4_0.pdf](https://standards.nasa.gov/sites/default/files/standards/NASA/A/4/nasa-std-87394a_w_change_4_0.pdf) <br> [https://workmanship.nasa.gov/lib/insp/2%20books/frameset.html](https://workmanship.nasa.gov/lib/insp/2%20books/frameset.html) |
+| Semiconductor Education Online, Browser-Based, No Installation Required | [https://nanohub.org/groups/semiconductoreducation](https://nanohub.org/groups/semiconductoreducation) |
+| Quantum Mechanics Visualization, Browser-Based | [https://www.st-andrews.ac.uk/physics/quvis](https://www.st-andrews.ac.uk/physics/quvis) |
+| Classical Physics Simulation, Browser-Based | [https://phet.colorado.edu/en/simulations/browse](https://phet.colorado.edu/en/simulations/browse) |
+| Classical 2D Optics Simulation, Browser-Based | [https://phydemo.app/ray-optics](https://phydemo.app/ray-optics) |
+| Math, Physics, & Engineering Visualization, Browser-Based | [https://www.falstad.com/mathphysics.html](https://www.falstad.com/mathphysics.html) |
+| Interactive Advanced Microscopy Simulations, Browser-Based | [https://myscope.training](https://myscope.training) |
+| Interactive Quantum State Visualization, Browser-Based | [https://javafxpert.github.io/grok-bloch](https://javafxpert.github.io/grok-bloch) |
+| Interactive Quantum Computing Education Tools | [https://www.iqmacademy.com/play](https://www.iqmacademy.com/play) |
+| Quantum Phenomena Visualization | [https://toutestquantique.fr/en](https://toutestquantique.fr/en) |
 
 
 ---
