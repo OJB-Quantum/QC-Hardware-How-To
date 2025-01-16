@@ -16,11 +16,21 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-### To download a copy of the Experimental Quantum Hardware Engineering PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). [Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy)
+### A copy of the Experimental Quantum Hardware Engineering document I wrote:
 
-### To download a copy of the Nanofabrication Technology for Quantum Chips PDF I wrote, [click here](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
+[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
+
+[Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy)
+
+__________________________________________________________________________________________________________________________________________________
+
+### A copy of the Nanofabrication Technology for Quantum Chips document I wrote: 
+
+[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
+
 
 ### An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
 |-----------------------------------------------------------------------------|
@@ -242,7 +252,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________
 
 
-## Critical Equations & Formulas for Noise Types in a Dilution Refrigerator
+## A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
 
 ![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
 
