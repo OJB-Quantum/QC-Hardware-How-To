@@ -20,7 +20,7 @@ ________________________________________________________________________________
 | Topology in Condensed Matter, TU Delft | Free     | [Topology in Condensed Matter](https://topocondmat.org/index.html)       |
 
 
-### Paid Quantum Programs (Can Be Audited for Free)
+### Paid Quantum Programs (Can Be Audited for Free):
 
 | **Course Name**                              | **Cost**   | **Link**                                                                 |
 |---------------------------------------------|------------|--------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________________________
 
 
-### 2nd List for Serious Quantum Courses Online, Up to the Graduate Level, (Based on MIT OCW):
+### Another List for Serious Quantum Courses Online, Up to the Graduate Level, (Based on MIT OCW):
 
 | **Course Name**                                   | **Link**                                                                 |
 |---------------------------------------------------|--------------------------------------------------------------------------|
