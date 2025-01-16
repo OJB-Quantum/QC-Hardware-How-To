@@ -38,7 +38,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________________________
 
 
-### 2nd List for Serious Quantum Courses Online, Up to the Graduate Level, Based on MIT OCW
+### 2nd List for Serious Quantum Courses Online, Up to the Graduate Level, (Based on MIT OCW):
 
 | **Course Name**                                   | **Link**                                                                 |
 |---------------------------------------------------|--------------------------------------------------------------------------|
@@ -193,6 +193,7 @@ Free tools for designing, simulating, & analyzing quantum/nano devices:
 | Elmer FEM, Multiphysics Simulation Tool, Direct-Download                           | [https://www.csc.fi/web/elmer/binaries](https://www.csc.fi/web/elmer/binaries)                                                                                                                       |
 | COMSOL Superconducting Simulation Tool, Browser-Based                              | [https://aurora.epfl.ch/app-lib](https://aurora.epfl.ch/app-lib)                                                                                                                                     |
 | scQubits, Superconducting Qubit Simulation Tool, Python-Based                      | [https://scqubits.readthedocs.io/en/v3.2/index.html](https://scqubits.readthedocs.io/en/v3.2/index.html)                                                                                             |
+| JosephsonCircuits, Superconducting Circuit Simulation Tool, Juilia-Based |  [https://github.com/kpobrien/JosephsonCircuits.jl](https://github.com/kpobrien/JosephsonCircuits.jl) |
 | QTCAD, Spin Qubit Design/Simulation/Analysis, Python-Based                         | [https://docs.nanoacademic.com/qtcad/introduction](https://docs.nanoacademic.com/qtcad/introduction)                                                                                                   |
 | Qiskit Metal, Qubit Design/Analysis, Python-Based                                  | [https://github.com/qiskit-community/qiskit-metal#qiskit-metal](https://github.com/qiskit-community/qiskit-metal#qiskit-metal)                                                                         |
 | Quantum Photonic Gate Array Simulation, Python-Based                               | [https://github.com/fancompute/qpga#quantum-programmable-gate-arrays](https://github.com/fancompute/qpga#quantum-programmable-gate-arrays)                                                           |
