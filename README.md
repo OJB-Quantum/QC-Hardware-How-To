@@ -113,6 +113,72 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________
 
+![Nanofabrication Technology Used for Quantum Chips by Onri_-01](https://github.com/user-attachments/assets/55d27227-8e87-42e2-8cb9-1bedee26813f)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-02](https://github.com/user-attachments/assets/32c60493-24b6-496b-9777-1f3dfc1296f1)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-03](https://github.com/user-attachments/assets/e397423f-7c67-407f-80d1-226b71356080)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-04](https://github.com/user-attachments/assets/d10ada2a-7b27-4d96-bc30-0aa6faa554e3)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-05](https://github.com/user-attachments/assets/24468354-19d7-4592-89e8-aa725ad3f796)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-06](https://github.com/user-attachments/assets/ccb57c32-50d8-4ecc-8c14-46f940b09254)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-07](https://github.com/user-attachments/assets/da8600e1-b7a8-4ef3-946c-82b8f0b8ddb2)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-08](https://github.com/user-attachments/assets/5e1c1512-98a7-4e35-a2e9-c184a670cd26)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-09](https://github.com/user-attachments/assets/a785ca64-1e46-4d42-a12d-6e92b222eaf7)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-10](https://github.com/user-attachments/assets/1574b154-9592-4467-a9d4-219b444601b8)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-11](https://github.com/user-attachments/assets/8a057f6a-6d65-4fbe-85d4-8db09887a082)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-12](https://github.com/user-attachments/assets/4ba2557f-f738-4aa5-82a3-b516ec40de65)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-13](https://github.com/user-attachments/assets/b0510c65-03cd-42c6-8ffb-d20756e68d07)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-14](https://github.com/user-attachments/assets/5ed75448-e909-406c-851e-3b815454abe1)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-15](https://github.com/user-attachments/assets/67292044-3c3c-40d3-b635-52f0a68d246d)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-16](https://github.com/user-attachments/assets/2af2a3e9-4a16-4213-86b4-bebf233ef8cc)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-17](https://github.com/user-attachments/assets/f652d043-3bfe-470a-aee9-0837dc93ae60)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-18](https://github.com/user-attachments/assets/630dc586-6f23-4a17-947c-56602e99cdbb)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-19](https://github.com/user-attachments/assets/41f5f9a2-9d04-495b-ae5e-67d0dcaceb85)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-20](https://github.com/user-attachments/assets/71aabc31-8743-4683-9094-ae10fcc07779)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-21](https://github.com/user-attachments/assets/28174fd0-467f-4f32-bd0b-a485b238c436)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-22](https://github.com/user-attachments/assets/75e5770d-618a-4d1c-86a1-43e5f207e0e7)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-23](https://github.com/user-attachments/assets/f68b9954-0dc3-48b6-92ac-16a7e7b08442)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-24](https://github.com/user-attachments/assets/d53f20c0-3584-4520-b8fb-8ad9e4549305)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-25](https://github.com/user-attachments/assets/be247e49-d922-457a-bb3e-aae2d7c352de)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-26](https://github.com/user-attachments/assets/643a58dd-30ce-41b7-895b-d2cfd87cfc2a)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-27](https://github.com/user-attachments/assets/138cdb23-fe7a-4351-8ca5-9471143870d5)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-28](https://github.com/user-attachments/assets/2d2c8f6f-fa90-4ebe-b290-753fe77e72af)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-29](https://github.com/user-attachments/assets/d6de180a-e873-4871-b1f6-77800d9f7a10)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-30](https://github.com/user-attachments/assets/0dac40b8-77b1-4597-abbc-8f41fa9f2e91)
+
+![Nanofabrication Technology Used for Quantum Chips by Onri_-31](https://github.com/user-attachments/assets/cbdf4142-a18d-4648-a756-d18a692d5af1)
+
+___________________________________________________________________________________________________________________________________________
+
 ## Critical Equations & Formulas for Noise Types in a Dilution Refrigerator
 
 ![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
+
+___________________________________________________________________________________________________________________________________________
