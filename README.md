@@ -488,6 +488,8 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 355
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
+---
+
 ### Quantum Hardware Categories:
 
 | **Category** | **Functionality** | **Examples** |
