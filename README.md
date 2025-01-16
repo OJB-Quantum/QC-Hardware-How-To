@@ -43,6 +43,8 @@ ________________________________________________________________________________
 | **Course Name**                                   | **Link**                                                                 |
 |---------------------------------------------------|--------------------------------------------------------------------------|
 | Quantum Computation                               | [Quantum Computation](https://ocw.mit.edu/courses/18-435j-quantum-computation-fall-2003)                       |
+| Introductory Quantum Mechanics I                  | [Introductory Quantum Mechanics I](https://ocw.mit.edu/courses/5-73-introductory-quantum-mechanics-i-fall-2005) |
+| Introductory Quantum Mechanics II                 | [Introductory Quantum Mechanics II](https://ocw.mit.edu/courses/5-74-introductory-quantum-mechanics-ii-spring-2009) |
 | Quantum Mechanics I                               | [Quantum Mechanics I](https://ocw.mit.edu/courses/5-73-quantum-mechanics-i-fall-2018)                          |
 | Quantum Physics I                                 | [Quantum Physics I](https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016)                            |
 | Quantum Physics II                                | [Quantum Physics II](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013)                            |
@@ -50,14 +52,22 @@ ________________________________________________________________________________
 | Quantum Information Science                       | [Quantum Information Science](https://ocw.mit.edu/courses/mas-865j-quantum-information-science-spring-2006)    |
 | Quantum Information Science I                    | [Quantum Information Science I](https://ocw.mit.edu/courses/8-370x-quantum-information-science-i-spring-2018)  |
 | Quantum Information Science II                   | [Quantum Information Science II](https://ocw.mit.edu/courses/8-371x-quantum-information-science-ii-spring-2018)|
+| Computational Quantum Mechanics of Molecular & Extended Systems | [Computational Quantum Mechanics of Molecular & Extended Systems](https://ocw.mit.edu/courses/10-675j-computational-quantum-mechanics-of-molecular-and-extended-systems-fall-2004) |
+| Quantum Optical Communication                    | [Quantum Optical Communication](https://ocw.mit.edu/courses/6-453-quantum-optical-communication-fall-2016/) |
 | Quantum Electronics                               | [Quantum Electronics](https://ocw.mit.edu/courses/6-974-fundamentals-of-photonics-quantum-electronics-spring-2006) |
 | Physics of Microfabrication                       | [Physics of Microfabrication](https://ocw.mit.edu/courses/6-774-physics-of-microfabrication-front-end-processing-fall-2004) |
 | Magnetic Materials                                | [Magnetic Materials](https://ocw.mit.edu/courses/3-45-magnetic-materials-spring-2004)                          |
 | Superconducting Magnets                           | [Superconducting Magnets](https://ocw.mit.edu/courses/22-68j-superconducting-magnets-spring-2003)              |
 | Applied Superconductivity                         | [Applied Superconductivity](https://ocw.mit.edu/courses/6-763-applied-superconductivity-fall-2005)             |
+| Geometry & Quantum Field Theory                   | [Geometry & Quantum Field Theory](https://ocw.mit.edu/courses/18-238-geometry-and-quantum-field-theory-spring-2023) |
 | Quantum Theory I                                  | [Quantum Theory I](https://ocw.mit.edu/courses/8-321-quantum-theory-i-fall-2017)                               |
 | Quantum Theory II                                 | [Quantum Theory II](https://ocw.mit.edu/courses/8-322-quantum-theory-ii-spring-2003)                           |
+| Quantum Theory of Radiation Interactions          | [Quantum Theory of Radiation Interactions](https://ocw.mit.edu/courses/22-51-quantum-theory-of-radiation-interactions-fall-2012) |
+| Effective Field Theory                            | [Effective Field Theory](https://ocw.mit.edu/courses/8-851-effective-field-theory-spring-2013) |
+| Strong Interactions: Effective Field Theories of QCD | [Strong Interactions: Effective Field Theories of QCD](https://ocw.mit.edu/courses/8-851-strong-interactions-effective-field-theories-of-qcd-spring-2006) |
 | Quantum Complexity Theory                         | [Quantum Complexity Theory](https://ocw.mit.edu/courses/6-845-quantum-complexity-theory-fall2010)              |
+| Relativistic Quantum Field Theory I              | [Relativistic Quantum Field Theory I](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023) |
+| Relativistic Quantum Field Theory II             | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-324-relativistic-quantum-field-theory-ii-fall-2010) |
 | Relativistic Quantum Field Theory III            | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-325-relativistic-quantum-field-theory-iii-spring-2007) |
 | Modern Quantum Many-Body Physics for Condensed Matter Systems | [Modern Quantum Many-Body Physics](https://ocw.mit.edu/courses/8-513-modern-quantum-many-body-physics-for-condensed-matter-systems-fall-2021) |
 
