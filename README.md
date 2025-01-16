@@ -14,29 +14,45 @@ ________________________________________________________________________________
 
 ## An extended version of the video playlists is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
-| 6 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
+| 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
 |-----------------------------------------------------------------------------|
-| [Inside a Quantum Computer! with Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=M1-GYha-9GuKNYLL) |
-| [UNSW Quantum Computer Lab Visit [with Andrea Morello]](https://youtu.be/yT0Znr0Et4w?si=ucoo3kUXrxwFk_ao) |
-| [Inside the IBM Quantum Lab with Olivia Lanes](https://youtu.be/4gpPHWCoWPs?si=x8kpvJoQHqtbs6ht) |
-| [Build Your Own Quantum Computer @ Home, Yann Allain](https://media.ccc.de/v/36c3-10808-build_you_own_quantum_computer_home_-_99_of_discount_-_hacker_style#t=1105) |
+| [Inside a Quantum Computer, with Prof. Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=skksdh2KiRg0h7sZ) |
+| [UNSW Quantum Computer Lab Visit, with Prof. Andrea Morello](https://youtu.be/yT0Znr0Et4w?si=_lRrKN3tgBQTUE6i) |
+| [Inside MIT: The Making of a Quantum Chip in the Cleanroom & Cryostat Tour, Kendall On Air with Rhie Lim ](https://youtu.be/LkFAKsdbU-E?si=U7cQ7H5pW5Gp6dxf) |
+| [Exploring the IBM Quantum Lab with Dr. Olivia Lanes](https://youtu.be/4gpPHWCoWPs?si=x8kpvJoQHqtbs6ht) |
+| [RF & Microwave Engineering, Prof. Steve Ellingson](https://youtu.be/A9SNdF7UP18?si=T7BrQ7RRI3A1IGL9) |
+| [Coplanar Waveguides, An Informal Introduction, physgins](https://youtu.be/A7W22IhAr3s?si=OcDGR3gyaOikqwVz) |
+| [Resonance in High Quality Superconducting Circuits, physgins](https://youtu.be/dDQN-8_c4-k?si=x-iuOpkIIw38EGMO) |
+| [Superconducting Qubit Architecture and Chip Design, Prof. Hiu Yung Wong](https://youtu.be/kPrEJo60p5s?si=Rv4mgdSkPEoobSJ2) |
 | [Superconducting Qubits for Analogue Quantum Simulation, Gerhard Kirchmair](https://youtu.be/BAt2PFVQE3w?si=044mUesj0tcRSOl9) |
 | [Quantum Control Technologies: Pulses for Quantum Control, Prof. Christian Kurtsiefer](https://youtu.be/1S0EAnooQMc?si=CjhltpPrmBYW-sm4) |
+| [Build Your Own Quantum Computer @ Home, Yann Allain](https://media.ccc.de/v/36c3-10808-build_you_own_quantum_computer_home_-_99_of_discount_-_hacker_style#t=1105) |
+| [Measuring the Liquid Helium Level in a Dewar, Prof. Eduardo da Silva Neto](https://youtu.be/vi4y5qJ1QRI?si=nIsP1eHIpBcpkjPA) |
 
-| 12 Quantum Hardware Videos on Qubit Control/ Readout Equipment |
+| 21 Quantum Hardware Videos on Quantum Control/ Readout Equipment |
 | - |
-| [High Speed Qubit Control, Tabor Electronics](https://youtu.be/QrF09wmr_Do?si=442JoJ5fjMSwXkcd) |
-| [Characterization to Resonator Measurements, Zurich Instruments](https://youtu.be/DiK9WyYDwRw?si=HSQMBFTarK0hx3sQ&t=62) |
+| [Quality Factor Explained, Ralph Gable](https://youtu.be/M6Ip1qkc8EM?si=hgrQPIYun9LqGMOb) |
+| [Understanding S-Parameter Measurements, Rohde and Schwarz](https://youtu.be/-Pi0UbErHTY?si=Fac-mj5d9xx7Ih3m) |
+| [Understanding VSWR and Return Loss, Rohde and Schwarz](https://youtu.be/BijMGKbT0Wk?si=YLmMsov-jDya0zlj) |
+| [Understanding VNA Calibration Basics, Rohde and Schwarz](https://youtu.be/bLfbg2p7PaE?si=diji2KPJtcnxhXdg) |
+| [Understanding Load Pull, Rohde and Schwarz](https://youtu.be/JtMeIdlEe40?si=DnJD9YWtTu9Zb-4x) |
+| [Understanding Material Measurements, Rohde and Schwarz](https://youtu.be/RlBp-paeAH8?si=3jgXGWeIWb8CYyhT) |
 | [What is a Mixer? Modern RF & Microwave Mixers Explained, Marki Microwave](https://youtu.be/WwJKxvz7qbs?si=VoxFj6tJFgtqRAmL) |
 | [RF Isolator Teardown & Explanation](https://youtu.be/Whn3QjHUgIw?si=dG09vL56J8y3ndPZ) |
-| [Advanced Microwave Topics for Quantum Physicists, Tabor Electronics](https://youtu.be/k7O8dEVtUcY?si=fo_ZIqWvgdIcHii7) |
 | [Cryogenics Electronics, Quantum Technologies Innovation Network & Innovate UK Business Connect](https://youtu.be/htv_iNAEvTU?si=Cg18-WXJVNnoCvJ1) |
 | [Introduction to TR Multicoax Series, Amphenol Ardent Concepts](https://youtu.be/hDhkEZ_Z-ck?si=OL7bqaJ24LXK4O2s) |
+| [Control of Superconducting Qubits, Zurich Instruments, Prof. Stefan Phillips](https://youtu.be/zaHWs7Ukids?si=vEVFKt9LmfxiMHN4) |
 | [Quantum Applications in the Bluefors Measurement System, Bluefors](https://youtu.be/EOOiZvfQhyA?si=zmLb0TUzaLv9oDpo&t=45) |
 | [Hands-on Superconducting Qubit Characterization, Zurich Instruments](https://youtu.be/rKkR4m1DaiY?si=Or1PIUAnjAsmmLSV) |
+| [High Speed Qubit Control, Tabor Electronics](https://youtu.be/QrF09wmr_Do?si=442JoJ5fjMSwXkcd) |
+| [Characterization to Resonator Measurements, Zurich Instruments](https://youtu.be/DiK9WyYDwRw?si=HSQMBFTarK0hx3sQ&t=62) |
 | [Qubit Control and Measurement Solutions, Zurich Instruments](https://youtu.be/0cXPZLExSqk?si=Lx-p_w1cDOR1YUdr) |
 | [Interfacing Superconducting Quantum Circuits with an RF Photonic Link, Qiskit](https://www.youtube.com/live/_Ea3ZuPG5lA?si=4y04FwFNK50rZp1u) |
 | [Silicon Photonic Quantum Computing – Towards Large-Scale Systems, PsiQuantum](https://youtu.be/at9Ust3tZ74?si=P3k1jc9a5sfdcAy6) |
+| [Quantum Materials: from Characterization to Resonator Measurements, Zurich Instruments, Dr. Jim Phillips & Prof. Corey Rae McRae](https://youtu.be/DiK9WyYDwRw?si=lgbxOd7_mnRAC8XJ) |
+| [Advanced Microwave Topics for Quantum Physicists, Tabor Electronics](https://youtu.be/k7O8dEVtUcY?si=fo_ZIqWvgdIcHii7) |
+| [Supporting the Development of Quantum/Superconducting Applications, Amphenol Ardent Concepts](https://youtu.be/vf6BXr6CszM?si=AVSBA7o56DsQzpEY) |
+
 
 | Click Below To Access School of Quantum - QuTech Academy |
 | - |
@@ -51,59 +67,43 @@ ________________________________________________________________________________
 | [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
 | [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
 
+__________________________________________________________________________________________________________________________________________________
 
-### Shortcut into Quantum Hardware Engineering (Quantum Hardware Education Insights by Onri)
+![Everything You Need for Quantum Hardware Engineering-01](https://github.com/user-attachments/assets/2170bd00-d85c-4576-8293-c9d8166ba684)
 
-#### Quantum Hardware Topics
+![Everything You Need for Quantum Hardware Engineering-02](https://github.com/user-attachments/assets/3116c1b6-1d3e-47fd-86c7-f817dceb2bff)
 
-| Insights/Topics                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------|
-| Start with a 3D modeling & linguistics framework, may involve a custom keywords glossary.                     |
-| Know that this specialty involves learning to probe something without necessarily having to physically contact its surface. This is what spectroscopy or "scatterometry" is about. |
-| Typically, topics covered under quantum hardware engineering are combinations of materials science & engineering, quantum metrology, quantum transport, quantum optics, & quantum electronic design automation. |
-| Know how electronic filters are configured or set up.                                                         |
-| Know how electronic filters are designed & what they look like.                                               |
-| Know what components various filters are made of.                                                             |
-| Know the difference between passive & active filters.                                                         |
-| Know the difference between optical, microwave, & radio frequency (RF) isolators, circulators, & mixers.      |
-| Be aware of different room temperature & cryogenic amplifiers.                                                |
-| Know what room temperature & cryogenic amplifiers are made of.                                                |
-| Know the different types/hierarchy of amplifier noise (thermal, shot, external, quantum).                     |
-| Know how a signal curve or response is manipulated.                                                           |
-| Know how signals are triggered.                                                                               |
-| Know what impedance matching is (how many ohms is required).                                                  |
-| Know how a Smith chart works.                                                                                 |
-| Know the many purposes of a resistor (there's a whole list).                                                  |
-| Know what multiphase power means.                                                                             |
-| Know what a resonator & resonator cavity is.                                                                  |
-| Know what vector network & spectrum analyzers, arbitrary waveform generators, & signal generators do.         |
-| Know what an oscillator circuit does (voltage fluctuation or AC).                                             |
-| Know what an inverter circuit does (DC to AC conversion).                                                     |
-| Know what a rectifier circuit does (AC to DC conversion).                                                     |
-| Know what high-pass, low-pass, band-pass, band-stop filter circuits/crossover networks do (signal filtering). |
-| Know what a comparator circuit does (threshold indicator).                                                    |
-| Know what a few basic logic gates can do (calculator).                                                        |
-| Know what a PID [closed-loop] controller does (electronic-based self-balancing).                              |
-| Know what a feed forward [open-loop] controller does (electronic-based self-balancing alternative).           |
-| Bonus: Know how to build a simple electronic audio amplifier device (it has many components similar to quantum computing systems). |
+![Everything You Need for Quantum Hardware Engineering-03](https://github.com/user-attachments/assets/d184884f-8023-4f59-af40-a7e4a96087c1)
 
----
+![Everything You Need for Quantum Hardware Engineering-04](https://github.com/user-attachments/assets/e4919f52-9104-4335-9a61-e52625d7e784)
 
-### Common Coding Topics for Hardware Engineers
-| Coding Topics                                                                 |
-|-------------------------------------------------------------------------------|
-| Library installation                                                          |
-| Syntax & commenting                                                           |
-| Curve fitting, direct parameterization, & mesh parameterization               |
-| Automation scripting                                                          |
-| Data management & data structures                                             |
-| Parallel processing & accelerated computing techniques                        |
-| Interpolation & extrapolation                                                 |
-| Linear regression                                                             |
-| Signal processing                                                             |
-| Noise plots                                                                   |
-| Manual debugging                                                              |
+![Everything You Need for Quantum Hardware Engineering-05](https://github.com/user-attachments/assets/b684bb0b-0b43-481b-b675-cc43a882f7b7)
 
+![Everything You Need for Quantum Hardware Engineering-06](https://github.com/user-attachments/assets/90f2b0bd-9520-4e32-bd06-a68ef762d224)
+
+![Everything You Need for Quantum Hardware Engineering-07](https://github.com/user-attachments/assets/aa45161c-a618-45d5-aede-83be8cf0486c)
+
+![Everything You Need for Quantum Hardware Engineering-08](https://github.com/user-attachments/assets/ca515a20-6237-495f-ae15-63543be036a5)
+
+![Everything You Need for Quantum Hardware Engineering-09](https://github.com/user-attachments/assets/58280bc4-f283-47e1-93d5-ff15edb13565)
+
+![Everything You Need for Quantum Hardware Engineering-10](https://github.com/user-attachments/assets/530dfaaa-68ff-47ee-8df9-50d72282ac3f)
+
+![Everything You Need for Quantum Hardware Engineering-11](https://github.com/user-attachments/assets/65247241-b054-40da-9b30-34d32d3cc401)
+
+![Everything You Need for Quantum Hardware Engineering-12](https://github.com/user-attachments/assets/9f2df221-d385-4d91-a8ff-fc0712849a4d)
+
+![Everything You Need for Quantum Hardware Engineering-13](https://github.com/user-attachments/assets/0bc2f393-793b-4de7-b04f-a1a013faf81e)
+
+![Everything You Need for Quantum Hardware Engineering-14](https://github.com/user-attachments/assets/6790aa15-3801-42ae-9a4f-d7906f87ae27)
+
+![Everything You Need for Quantum Hardware Engineering-15](https://github.com/user-attachments/assets/56e603b8-fbdf-4807-9f42-21fc91e19e89)
+
+![Everything You Need for Quantum Hardware Engineering-16](https://github.com/user-attachments/assets/a3574e08-e17d-4a78-8033-d0356b685287)
+
+![Everything You Need for Quantum Hardware Engineering-17](https://github.com/user-attachments/assets/804a1980-7f5a-4e3d-9b14-e250fd4a21ea)
+
+___________________________________________________________________________________________________________________________________________
 
 ## Critical Equations & Formulas for Noise Types in a Dilution Refrigerator
 
@@ -125,19 +125,3 @@ ________________________________________________________________________________
 |                             | Vibration isolation minimizes \(a\)                                                         | Mitigation strategy: Reduces mechanical noise effects.                          |
 | **Residual Gas Noise**      | \(\lambda = \frac{k_B T}{\sqrt{2} \pi d^2 P}\)                                               | Mean free path of gas molecules.                                               |
 |                             | \(P \to 0\) at low \(T\)                                                                     | Mitigation condition: Residual gas noise is eliminated as pressure drops.       |
-
-
-__________________________________________________________________________________________________________________________________________________
-![Everything You Need for Quantum Hardware Engineering-01](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/a163df11-513d-4228-b126-50ea0e40e6f0)
-
-![Everything You Need for Quantum Hardware Engineering-02](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/f3a34eaf-ea91-4f8f-bf10-c77c916a1bcb)
-
-![Everything You Need for Quantum Hardware Engineering-11](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/9db20944-d0e0-4efc-ab85-70b008e69e46)
-
-![Everything You Need for Quantum Hardware Engineering-12](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/0d1d790e-aed3-4198-9bc9-44c738453b63)
-
-![Everything You Need for Quantum Hardware Engineering-13](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/0f564df8-fa16-47e4-a992-2c1eab01c0a2)
-
-![Everything You Need for Quantum Hardware Engineering-15](https://github.com/OJB-Quantum/QC-Hardware-How-to/assets/88035770/3b400af6-dd8e-45aa-b6f2-c842e110b32d)
-
-![Shortcut into Quantum Hardware Engineering_Onri Jay Benally-1](https://github.com/user-attachments/assets/a2474525-45c0-4098-bee5-ac47473e15c6)
