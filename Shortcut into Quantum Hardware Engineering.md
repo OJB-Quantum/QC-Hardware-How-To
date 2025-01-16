@@ -42,7 +42,7 @@
 | Data management | Work with data structures efficiently. |
 | Parallel processing | Leverage accelerated computing techniques. |
 | Interpolation & extrapolation | Learn data estimation techniques. |
-| Linear regression | Perform linear modeling & prediction. |
+| Linear regression, polynomial regression, moving average regression, & other regression models | Perform data modeling & prediction. |
 | Signal processing | Process & analyze signals effectively. |
 | Noise plots | Visualize & interpret noise in data. |
 | Manual debugging | Practice troubleshooting & resolving errors. |
