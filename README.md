@@ -290,7 +290,7 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | A Cryogenic On-Chip Microwave Pulse Generator for Large-Scale Superconducting Quantum Computing | [https://doi.org/10.1038/s41467-024-50333-w](https://doi.org/10.1038/s41467-024-50333-w)                                                 |
 | Spiderweb Array: A Sparse Spin-Qubit Array                        | [https://doi.org/10.1103/PhysRevApplied.18.024053](https://doi.org/10.1103/PhysRevApplied.18.024053)                                                                                                                                                           |
 | A Cryogenic Interface for Controlling Many Qubits                 | [https://www.microsoft.com/en-us/research/publication/a-cryogenic-interface-for-controlling-many-qubits](https://www.microsoft.com/en-us/research/publication/a-cryogenic-interface-for-controlling-many-qubits)                                                                                                                                                                        |
-| Probing Quantum Devices with Radio-Frequency Reflectometry         | [https://doi.org/10.48550/arXiv.2202.10516](https://doi.org/10.48550/arXiv.2202.10516)                                                                                                                                                                        |
+| Probing Quantum Devices with Radio-Frequency Reflectometry         | [https://doi.org/10.1063/5.0088229](https://doi.org/10.1063/5.0088229)                    |
 | Micromachined Quantum Circuits (Teresa Brecht) | [https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf](https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf) |
 | High Fidelity Two-Qubit Gates on Fluxoniums Using a Tunable Coupler | [https://doi.org/10.1038/s41534-022-00644-x](https://doi.org/10.1038/s41534-022-00644-x) |
 | Universal Fast-Flux Control of a Coherent, Low-Frequency Qubit | [https://doi.org/10.1103/PhysRevX.11.011010](https://doi.org/10.1103/PhysRevX.11.011010) |
@@ -322,8 +322,8 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 | **Lab**          | **Gallery Link**                                                                                                                     |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| IBM Research     | [https://www.flickr.com/photos/ibm_research_zurich/albums](https://www.flickr.com/photos/ibm_research_zurich/albums)                                                     |
-| ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/responsive/?q=gallery)                                                                       |
+| IBM Research     | [https://www.flickr.com/photos/ibm_research_zurich/albums](https://www.flickr.com/photos/ibm_research_zurich/albums)                  |
+| ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/responsive/?q=gallery)                                  |
 | UWaterloo        | [https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility;virtual-tours](https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility;virtual-tours) |
 
 ---
@@ -470,6 +470,16 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ---
 
+### 1st & 2nd Quantum Revolution:
+
+![unnamed (3)](https://github.com/user-attachments/assets/408ffd80-ea3c-4b19-bca7-2028e5dc4d04)
+
+Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+---
+
 ### Rough Zoology of All Physical Qubits:
 
 ![image](https://github.com/user-attachments/assets/479a64ff-7595-417a-b239-84bd50bb4200)
@@ -477,6 +487,8 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 355 (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+---
 
 ### Quantum Hardware Categories:
 
