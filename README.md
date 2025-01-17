@@ -252,17 +252,19 @@ Related Open Access Lectures & Tutorials (Up to Graduate Level):
 | A Homemade Trapped Ion Quantum Computer (Yann Allain)                          | [https://tinyurl.com/homemade-tr-ion](https://tinyurl.com/homemade-tr-ion)                                                               |
 | Heidelberg DWL66+ LASER Lithography Training (University of Pennsylvania)      | [https://youtube.com/playlist?list=PLiihbHV9HgpWAcmgdpMGBkejcBhEzoKJO](https://youtube.com/playlist?list=PLiihbHV9HgpWAcmgdpMGBkejcBhEzoKJO) |
 | Electron-Beam Lithography (MIT.nano)                                           | [https://youtu.be/yJF9s2MJLLM](https://youtu.be/yJF9s2MJLLM)                                                                              |
-| Layout Editor Training (University of Pennsylvania)                            | [https://youtube.com/playlist?list=PLiihbHV9HgpX_9m5Khz2wn-XaxM5-yErU](https://youtube.com/playlist?list=PLiihbHV9HgpX_9m5Khz2wn-XaxM5-yErU) |
-| KLayout Training (University of Waterloo)                                      | [https://youtube.com/playlist?list=PL12BCN5zxKhysQPbloFy0a6x0fiCPJZB-](https://youtube.com/playlist?list=PL12BCN5zxKhysQPbloFy0a6x0fiCPJZB-) |
-| Oscilloscope Usage (GreatScottLab)                                             | [https://youtu.be/d58GzhXKKG8](https://youtu.be/d58GzhXKKG8)                                                                              |
-| Harvard Architecture vs. von Neumann Architecture (Computer Science)           | [https://youtu.be/4nY7mNHLrLk](https://youtu.be/4nY7mNHLrLk)                                                                              |
-| Analog vs. Digital Computing (Derek Muller)                                    | [https://youtu.be/IgF30X8nT0w?si=hWCan3S5Mx5NsdfE](https://youtu.be/IgF30X8nT0w?si=hWCan3S5Mx5NsdfE)                                        |
-| Flipper Zero Transceiver Hardware (Securiosity)                                | [https://youtu.be/eYCMIYsP23k?si=U8L04s7Jun-RQV-L](https://youtu.be/eYCMIYsP23k?si=U8L04s7Jun-RQV-L)                                        |
-| Understanding Radio Signals with Flipper Zero (TechAndFun)                     | [https://youtu.be/zhg41DbxIEc?si=SGOjI6vYYOd1tfip](https://youtu.be/zhg41DbxIEc?si=SGOjI6vYYOd1tfip)                                        |
-| Software Defined Radio (SDR) Tutorial (Andreas Spiess)                         | [https://youtu.be/xQVm-YTKR9s?si=fD03k6WQYokeyx0-](https://youtu.be/xQVm-YTKR9s?si=fD03k6WQYokeyx0-)                                         |
-| The Fetch-Execute Cycle (Tom Scott)                                            | [https://youtu.be/Z5JC9Ve1sfI](https://youtu.be/Z5JC9Ve1sfI)                                                                              |
-| Blender Basics for Scientists (Dr. Joseph G. Manion)                           | [https://youtube.com/playlist?list=PLcKSD7dOT-HBmOH-NYYgMgVX1LZF72K-3](https://youtube.com/playlist?list=PLcKSD7dOT-HBmOH-NYYgMgVX1LZF72K-3) |
-| Quantum Chip Rendering Tutorials (Onri Jay Benally)                            | [https://www.youtube.com/playlist?list=PLbW5jviv4ckwvvhSjwONc6pa-g1NdI6vg](https://www.youtube.com/playlist?list=PLbW5jviv4ckwvvhSjwONc6pa-g1NdI6vg) |
+| Layout Editor Training (University of Pennsylvania)                            | [https://youtube.com/playlist?list=PLiihbHV9HgpX_9m5Khz2wn-XaxM5-yErU&si=0Ac--reoSsnjvabf](https://youtube.com/playlist?list=PLiihbHV9HgpX_9m5Khz2wn-XaxM5-yErU&si=0Ac--reoSsnjvabf) |
+| KLayout Training (University of Waterloo)                                      | [https://youtube.com/playlist?list=PL12BCN5zxKhysQPbl0Fy0a6x0fiCPJZB-&si=FyMEc9ANCNCAlLet](https://youtube.com/playlist?list=PL12BCN5zxKhysQPbl0Fy0a6x0fiCPJZB-&si=FyMEc9ANCNCAlLet) |
+| Introduction to KQCircuits | [https://youtube.com/playlist?list=PLZnE6Ohb-AKvK2ftKGBkKAellYGy7cUPR&si=aBGhPXxmBLSIghgE](https://youtube.com/playlist?list=PLZnE6Ohb-AKvK2ftKGBkKAellYGy7cUPR&si=aBGhPXxmBLSIghgE) |
+| Introduction to KQCircuits–Open-Source EDA Software for Designing Chips with Super Conducting Qubits | [https://youtu.be/FCrMdJdTVvY?si=mvxLbNz_ol5_KH2a](https://youtu.be/FCrMdJdTVvY?si=mvxLbNz_ol5_KH2a) |
+| Oscilloscope Usage (GreatScottLab)                                             | [https://youtu.be/d58GzhXKKG8?si=rdaIw9-qn7vyGCSk](https://youtu.be/d58GzhXKKG8?si=rdaIw9-qn7vyGCSk)                                                                              |
+| Harvard Architecture vs. von Neumann Architecture (Computer Science)           | [https://youtu.be/4nY7mNHLrLk?si=zztUmipDfU3tzg2E](https://youtu.be/4nY7mNHLrLk?si=zztUmipDfU3tzg2E)                                                                              |
+| Analog vs. Digital Computing (Derek Muller)                                    | [https://youtu.be/IgF3OX8nT0w?si=9N2xnFssc0bXfEVA](https://youtu.be/IgF3OX8nT0w?si=9N2xnFssc0bXfEVA)                                        |
+| Flipper Zero Transceiver Hardware (Securiosity)                                | [https://youtu.be/eYCMIYsP23k?si=bUO6aa7NB3P5c4Jn](https://youtu.be/eYCMIYsP23k?si=bUO6aa7NB3P5c4Jn)                                        |
+| Understanding Radio Signals with Flipper Zero (TechAndFun)                     | [https://youtu.be/zhg41DbxIEc?si=B0ceBRy1xi5Pr6bU](https://youtu.be/zhg41DbxIEc?si=B0ceBRy1xi5Pr6bU)                                        |
+| Software Defined Radio (SDR) Tutorial (Andreas Spiess)                         | [https://youtu.be/xQVm-YTKR9s?si=enSz492A77aX8WfK](https://youtu.be/xQVm-YTKR9s?si=enSz492A77aX8WfK)                                         |
+| The Fetch-Execute Cycle (Tom Scott)                                            | [https://youtu.be/Z5JC9Ve1sfI?si=ATYnKMuothp3gxIv](https://youtu.be/Z5JC9Ve1sfI?si=ATYnKMuothp3gxIv)                                                                              |
+| Blender Basics for Scientists (Dr. Joseph G. Manion)                           | [https://youtube.com/playlist?list=PLcKSD7d0T-HBmOH-NYYgMgVX1LZF72K-3&si=K-Q0r_ntgwmQmV0o](https://youtube.com/playlist?list=PLcKSD7d0T-HBmOH-NYYgMgVX1LZF72K-3&si=K-Q0r_ntgwmQmV0o) |
+| Quantum Chip Rendering Tutorials (Onri Jay Benally)                            | [https://youtube.com/playlist?list=PLbW5jviv4ckwvvhSjwONc6pa-glNdI6vg&si=k91iBjwjTF4Spp6z](https://youtube.com/playlist?list=PLbW5jviv4ckwvvhSjwONc6pa-glNdI6vg&si=k91iBjwjTF4Spp6z) |
 
 ---
 
@@ -645,7 +647,6 @@ ________________________________________________________________________________
 ![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
 ___________________________________________________________________________________________________________________________________________
-
 
 ## A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
 
