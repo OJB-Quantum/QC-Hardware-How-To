@@ -176,7 +176,7 @@ To view a copy of this license, visit [http://creativecommons.org/licenses/by/4.
 
 ---
 
-## Contents
+# Contents
 
 1. Open Access Quantum Device Tools  
 2. Training Videos  
