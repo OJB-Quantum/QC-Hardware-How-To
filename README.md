@@ -291,7 +291,8 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Hitchhiker's Guide to the Dilution Refrigerator                    | [https://www.roma1.infn.it/exp/cuore/pdfnew/Fridge.pdf](https://www.roma1.infn.it/exp/cuore/pdfnew/Fridge.pdf)                                                                                                                                               |
 | Dry Dilution Refrigerator with 4He-1 K-Loop                        | [https://doi.org/10.48550/arXiv.1412.3597](https://doi.org/10.48550/arXiv.1412.3597)          |
 | Engineering Cryogenic Setups for 100-Qubit Scale Superconducting Circuit Systems  | [https://doi.org/10.1140/epjqt/s40507-019-0072-0](https://doi.org/10.1140/epjqt/s40507-019-0072-0) |
-| When to Use Coplanar Waveguide Routing                            | [https://blog.upverter.com/2019/10/15/when-to-use-coplanar-waveguide-routing-for-hf-boards](https://blog.upverter.com/2019/10/15/when-to-use-coplanar-waveguide-routing-for-hf-boards)                                                                        |
+| Modeling of Coplanar Waveguides (COMSOL)                            | [https://www.comsol.com/blogs/modeling-coplanar-waveguides](https://www.comsol.com/blogs/modeling-coplanar-waveguides) |
+| CPW Resonator for Circuit Quantum Electrodynamics (COMSOL) | [https://www.comsol.jp/model/download/1402321/models.rf.cpw_resonator.pdf](https://www.comsol.jp/model/download/1402321/models.rf.cpw_resonator.pdf)|
 | Basic Qubit Characterization by Zurich Instruments                | [https://docs.zhinst.com/hdawg_user_manual/tutorials/qubit_characterization.html?h=basic+qubit](https://docs.zhinst.com/hdawg_user_manual/tutorials/qubit_characterization.html?h=basic+qubit)                                                                |
 | Quantum Control Documentation by Qblox Instruments                | [https://qblox-qblox-instruments.readthedocs-hosted.com/en/master](https://qblox-qblox-instruments.readthedocs-hosted.com/en/master)                                                                                                                          |
 | Overview of Quantum Control Equipment by Qblox Instruments         | [https://www.qblox.com](https://www.qblox.com)                                                                                                                                                                                                               |
@@ -647,6 +648,7 @@ ________________________________________________________________________________
 ![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
 ___________________________________________________________________________________________________________________________________________
+
 
 ## A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
 
