@@ -31,7 +31,7 @@ ________________________________________________________________________________
 | Quantum Optics 2                            | Paid/Audit | [Quantum Optics 2](https://www.coursera.org/learn/quantum-optics-two-photons)                                    |
 | Introduction to Quantum Transport           | Paid/Audit | [Introduction to Quantum Transport](https://www.edx.org/learn/electronics/purdue-university-introduction-to-quantum-transport) |
 | Quantum Transport                           | Paid/Audit | [Quantum Transport](https://www.edx.org/learn/nanotechnology/purdue-university-fundamentals-of-nanoelectronics-part-b-quantum-transport) |
-| Nanoscience & Technology, MicroMasters    | Paid/Audit | [Nanoscience & Technology](https://www.edx.org/masters/micromasters/purduex-nano-science-technology)           |
+| Quantum Technology: Computing & Sensing, MicroMasters    | Paid/Audit | [Quantum Technology: Computing & Sensing](https://www.edx.org/masters/micromasters/purduex-quantum-technology-computing-and-sensin)           |
 | Quantum Espresso Training                   | Paid       | [Quantum Espresso Training](https://www.udemy.com/course/quantum-espresso-softwaretraining)                     |
 
 
