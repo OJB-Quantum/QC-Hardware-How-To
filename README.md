@@ -2,7 +2,17 @@
 
 [![License](https://img.shields.io/badge/Creative_Commons-License-green)](https://choosealicense.com/licenses/cc-by-4.0) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OJB-Quantum/QC-Hardware-How-to/main)
 
-Everything you need for quantum hardware engineering in the field. Curated by Onri Jay Benally, an Indigenous American quantum hardware engineer.
+Everything you need for quantum hardware engineering in the field.
+
+"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates." - Onri Jay Benally
+
+---
+
+**scatter**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
+
+**-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
+
+__________________________________________________________________________________________________________________________________________________
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
@@ -87,6 +97,7 @@ ________________________________________________________________________________
 | Josephson Junction Tunneling Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Quantum_Tunneling_Prediction.ipynb) |
 | Josephson Junction Fraunhofer Pattern | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Fraunhofer_Pattern.ipynb) |
 | Coulomb Diamonds & Blockade Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Coulomb_Blockades_and_Coulomb_Diamonds.ipynb) |
+| Quantum-Limited Parametric Amplification Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Parametric_Amplification_Plot.ipynb) |
 
 __________________________________________________________________________________________________________________________________________________
 
