@@ -6,6 +6,13 @@ Everything you need for quantum hardware engineering in the field.
 
 "In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates." - Onri Jay Benally
 
+### Definitions
+
+**scatter**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
+
+**-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
+
+
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
 __________________________________________________________________________________________________________________________________________________
