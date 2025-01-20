@@ -7,6 +7,8 @@ ________________________________________________________________________________
 
 "In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates." - Onri Jay Benally
 
+---
+
 **scatter**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
 
 **-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
