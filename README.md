@@ -498,7 +498,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 Borrowed from: 
 Hughes et al., *Assessing the Needs of the Quantum Industry*, 2109.03601, p. 4 (2021)  
-<https://doi.org/10.48550/arXiv.2109.03601>
+<https://doi.org/10.48550/arXiv.2109.03601>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ---
@@ -539,7 +539,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 355
 \(^{c}) private company with support for Qiskit Metal
 
 Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, APL Quantum 1, 011501 (2024)  
-<https://doi.org/10.1063/5.0180987>
+<https://doi.org/10.1063/5.0180987>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ___________________________________________________________________________________________________________________________________________
