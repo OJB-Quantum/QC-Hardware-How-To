@@ -522,6 +522,15 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 355
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ---
+## Dilution Fridge Measurement System & Schematic:
+
+![image](https://github.com/user-attachments/assets/6e57a5c9-0f27-4e92-9552-5b37df7676f7)
+
+Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale Superconducting Circuit Systems*, EPJ Quantum Technol. 6, 2 (2019)  
+<https://doi.org/10.1140/epjqt/s40507-019-0072-0>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
 
 ### Quantum Hardware Categories:
 
