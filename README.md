@@ -76,7 +76,7 @@ ________________________________________________________________________________
 | Quantum Theory of Radiation Interactions          | [Quantum Theory of Radiation Interactions](https://ocw.mit.edu/courses/22-51-quantum-theory-of-radiation-interactions-fall-2012) |
 | Effective Field Theory                            | [Effective Field Theory](https://ocw.mit.edu/courses/8-851-effective-field-theory-spring-2013) |
 | Strong Interactions: Effective Field Theories of QCD | [Strong Interactions: Effective Field Theories of QCD](https://ocw.mit.edu/courses/8-851-strong-interactions-effective-field-theories-of-qcd-spring-2006) |
-| Quantum Complexity Theory                         | [Quantum Complexity Theory](https://ocw.mit.edu/courses/6-845-quantum-complexity-theory-fall2010)              |
+| Quantum Complexity Theory                         | [Quantum Complexity Theory](https://ocw.mit.edu/courses/6-845-quantum-complexity-theory-fall-2010)              |
 | Relativistic Quantum Field Theory I              | [Relativistic Quantum Field Theory I](https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023) |
 | Relativistic Quantum Field Theory II             | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-324-relativistic-quantum-field-theory-ii-fall-2010) |
 | Relativistic Quantum Field Theory III            | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-325-relativistic-quantum-field-theory-iii-spring-2007) |
