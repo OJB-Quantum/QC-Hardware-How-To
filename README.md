@@ -482,13 +482,24 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | [Youtube: "Quantum Jobs" overview video](https://www.youtube.com/watch?v=7dfw8k2p1to)                                   |
 | [IEEE Paper on Quantum Roles & Skills](https://ieeexplore.ieee.org/document/9733176)                                    |
 | [IBM Tech Tech Potato Quantum Jobs](http://ibm.techtechpotato.com)                                                      |
-| [Chicago Quantum Resources](https://chicagoquantum.org/resources)                                                        |
+| [Chicago Quantum Resources](https://chicagoquantum.org/resources)                                                       |
 | [Quantiki Jobs](https://www.quantiki.org/jobs)                                                                          |
 | [Quantum Computing Jobs (Russ Fein)](https://medium.com/@russfein/quantum-computing-jobs-5e67f72fb113)                  |
 | [Quantum Economic Development Consortium (QED-C) Jobs](https://quantumconsortium.org/quantum-jobs)                      |
 | [Global Quantum Leap Opportunities](https://www.globalquantumleap.org/quantum-opportunities-1)                          |
 | [Chicago Quantum Internships](https://chicagoquantum.org/education-and-training/internships)                            |
 | [QuantumGrad.com Jobs](https://www.quantumgrad.com/jobs)                                                                |
+
+---
+
+### The Quantum Workforce & Relevant Skills
+
+![image](https://github.com/user-attachments/assets/983672b5-2a26-4cd9-8abf-a0123a1d717d)
+
+Borrowed from: 
+Hughes et al., *Assessing the Needs of the Quantum Industry*, 2109.03601, 
+<https://doi.org/10.48550/arXiv.2109.03601>
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ---
 
