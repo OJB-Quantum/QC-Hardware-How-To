@@ -492,6 +492,10 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ---
 
+## Supplementary Figures
+
+_________________________________________________________________________________________________________________________
+
 ### The Quantum Workforce & Relevant Skills
 
 ![image](https://github.com/user-attachments/assets/983672b5-2a26-4cd9-8abf-a0123a1d717d)
@@ -503,7 +507,7 @@ Hughes et al., *Assessing the Needs of the Quantum Industry*, 2109.03601, p. 4 (
 
 ---
 
-### 1st & 2nd Quantum Revolution:
+### 1st & 2nd Quantum Revolution
 
 ![unnamed (3)](https://github.com/user-attachments/assets/408ffd80-ea3c-4b19-bca7-2028e5dc4d04)
 
@@ -513,7 +517,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 
 ---
 
-### Rough Zoology of All Physical Qubits:
+### Rough Zoology of All Physical Qubits
 
 ![image](https://github.com/user-attachments/assets/479a64ff-7595-417a-b239-84bd50bb4200)
 
@@ -522,7 +526,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 355
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ---
-## Dilution Fridge Measurement System & Schematic:
+## Dilution Fridge Measurement System & Schematic
 
 ![image](https://github.com/user-attachments/assets/6e57a5c9-0f27-4e92-9552-5b37df7676f7)
 
@@ -532,7 +536,7 @@ Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale 
 
 ---
 
-### Quantum Hardware Categories:
+### Quantum Hardware Categories
 
 | **Category** | **Functionality** | **Examples** |
 |:---:|:---|:---|
