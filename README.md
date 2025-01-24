@@ -8,7 +8,7 @@ Everything you need for quantum hardware engineering in the field.
 
 _________________________________________________________________________________________________________________________________________________
 
-**scatter**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
+**scatter - [physics]**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
 
 **-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
 
