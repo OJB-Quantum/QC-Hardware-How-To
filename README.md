@@ -98,6 +98,7 @@ ________________________________________________________________________________
 | Josephson Junction Fraunhofer Pattern | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Fraunhofer_Pattern.ipynb) |
 | Coulomb Diamonds & Blockade Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Coulomb_Blockades_and_Coulomb_Diamonds.ipynb) |
 | Quantum-Limited Parametric Amplification Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Parametric_Amplification_Plot.ipynb) |
+| Trilayer Patterning Process (Cross-Section) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Trilayer_Process_Render.ipynb)|
 
 __________________________________________________________________________________________________________________________________________________
 
