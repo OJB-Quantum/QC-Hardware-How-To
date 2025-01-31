@@ -120,7 +120,7 @@ ________________________________________________________________________________
 
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
-|-----------------------------------------------------------------------------|
+| - |
 | [Inside a Quantum Computer, with Prof. Andrea Morello](https://youtu.be/k_QeSOIDiEM?si=skksdh2KiRg0h7sZ) |
 | [UNSW Quantum Computer Lab Visit, with Prof. Andrea Morello](https://youtu.be/yT0Znr0Et4w?si=_lRrKN3tgBQTUE6i) |
 | [Inside MIT: The Making of a Quantum Chip in the Cleanroom & Cryostat Tour, Kendall On Air with Rhie Lim ](https://youtu.be/LkFAKsdbU-E?si=U7cQ7H5pW5Gp6dxf) |
@@ -134,9 +134,10 @@ ________________________________________________________________________________
 | [Build Your Own Quantum Computer @ Home, Yann Allain](https://media.ccc.de/v/36c3-10808-build_you_own_quantum_computer_home_-_99_of_discount_-_hacker_style#t=1105) |
 | [Measuring the Liquid Helium Level in a Dewar, Prof. Eduardo da Silva Neto](https://youtu.be/vi4y5qJ1QRI?si=nIsP1eHIpBcpkjPA) |
 
-| 21 Quantum Hardware Videos on Quantum Control/ Readout Equipment |
+| 22 Quantum Hardware Videos on Quantum Control/ Readout Equipment |
 | - |
 | [Quality Factor Explained, Ralph Gable](https://youtu.be/M6Ip1qkc8EM?si=hgrQPIYun9LqGMOb) |
+| [A Spinor Model for Cascading Two Port Networks, 810Labs, Dr. Alex Arsenovic](https://youtu.be/8abjGVw3pCI?si=bQduv2onMSFayXlb) |
 | [Understanding S-Parameter Measurements, Rohde and Schwarz](https://youtu.be/-Pi0UbErHTY?si=Fac-mj5d9xx7Ih3m) |
 | [Understanding VSWR and Return Loss, Rohde and Schwarz](https://youtu.be/BijMGKbT0Wk?si=YLmMsov-jDya0zlj) |
 | [Understanding VNA Calibration Basics, Rohde and Schwarz](https://youtu.be/bLfbg2p7PaE?si=diji2KPJtcnxhXdg) |
