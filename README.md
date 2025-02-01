@@ -297,6 +297,8 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Olivier Ezratty's "Where are we heading with NISQ?"                | [https://doi.org/10.48550/arXiv.2305.09518](https://doi.org/10.48550/arXiv.2305.09518) |
 | Computer-Inspired Quantum Experiments                              | [https://doi.org/10.48550/arXiv.2002.09970](https://doi.org/10.48550/arXiv.2002.09970) |
 | Open Hardware in Quantum Technology                                | [https://doi.org/10.48550/arXiv.2309.17233](https://doi.org/10.48550/arXiv.2309.17233) |
+| Microwaves in Quantum Computing                                    | [https://doi.org/10.1109/JMW.2020.3034071](https://doi.org/10.1109/JMW.2020.3034071) |
+| Microwave | <https://doi.org/10.1109/JMW.2020.3034071> |
 | Quasiparticle Tunneling as a Probe of Josephson junction Barrier & Capacitor Material in Superconducting Qubits [Qubit Design] | [https://doi.org/10.1038/s41534-022-00542-2](https://doi.org/10.1038/s41534-022-00542-2) |
 | 3D Integrated Superconducting Qubits | [https://doi.org/10.1038/s41534-017-0044-0](https://doi.org/10.1038/s41534-017-0044-0) |
 | Optimization of Shadow Evaporation & Oxidation for Reproducible Quantum Josephson Junction Circuits | [https://doi.org/10.1038/s41598-023-31003-1](https://doi.org/10.1038/s41598-023-31003-1) |
