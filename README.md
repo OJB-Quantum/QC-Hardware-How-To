@@ -600,14 +600,14 @@ Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit U
 |:---:|:---|:---|
 | Projects | Processor Design | DASQA, KQCircuits, PainterQubits/Devices.jl, pyEPR, Qiskit Metal, QuCAT |
 | Projects | Simulation and diagnostics | KQCircuits, Pulser, Qiskit Metal, QuTiP, QuTiP-QIP, sc-qubits, Strawberry Fields |
-| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua \(^{a}\), QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
-| Facilities | Remotely Accessible Labs \(^{b}\) | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
+| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua (^{a}), QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
+| Facilities | Remotely Accessible Labs (^{b}) | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
 | Facilities | Testing (Testbeds) | Lawrence Berkeley National Lab's AQT, Open Quantum Design, Sandia National Labs' QSCOUT, Sherbrooke's Distriq DevTeQ, NQCC |
-| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare \(^{c}\) |
+| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare (^{c}) |
 
-\(^{a}) partially open-source  
-\(^{b}) excluding commercial providers  
-\(^{c}) private company with support for Qiskit Metal
+>(^{a}) partially open-source  
+>(^{b}) excluding commercial providers  
+>(^{c}) private company with support for Qiskit Metal
 
 Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, APL Quantum 1, 011501 (2024)  
 <https://doi.org/10.1063/5.0180987>  
