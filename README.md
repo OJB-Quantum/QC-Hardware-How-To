@@ -573,14 +573,24 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 
 ![Screenshot 2025-02-01 031533](https://github.com/user-attachments/assets/644776d7-0761-4ab9-ac54-34c5c7ec43af)
 
-> *Corresponding colors*  
+> *Corresponding colors for figure*  
 > Green: readout line  
 > Blue: readout resonator  
 > Yellow: drive line or capacitor  
+> Note: Bolometer chip is shown on the lower right.  
 
 Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
 <https://doi.org/10.1038/s41928-024-01147-7>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+
+### Experimental Setup for the 6 Superconducting Transmon Chip
+
+![Screenshot 2025-02-01 042032](https://github.com/user-attachments/assets/f9dcb57c-fbe6-4d1d-844b-88d5467d245b)
+
+Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
+<https://doi.org/10.1038/s41928-024-01147-7>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
 ---
 
