@@ -549,9 +549,9 @@ Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale 
 
 |  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) |
 | :---: | :---: | :---: |
-| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns <br> \pi$-pulse P_av: -80 to -60 dBm <br> Shaped envelope | 1Q Z gates, 2Q gates <br> 0.01-1 ~mA static/pulsed <br> Pulse duration: 10-500 ns <br> Resolution: ~nA |
-| Semiconductor Spin | Single spin Q: 1Q XY gates <br> Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to 1 \mu \mathrm{~s} <br> \pi$-pulse P_av: -60 to +0 dBm <br> Shaped envelope | Single spin Q: 2Q gates <br> S-T Q: XY gates, 2Q gates <br> E-O Q: XY gates, 2Q gates <br> \mu V-mV level signals <br> Pulse duration: ns-ms <br> 1 ns rise/fall |
-| Trapped Ion | 1Q XY \& Z gates, 2Q gates <br> Carrier: 5-20 MHz, 1-12.6 GHz <br> Pulse duration: 1-500 \mu s <br> \pi-pulse P_av: 0 to 45 dBm <br> Rectangular envelope | Qubit state control typically not performed at baseband |
+| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns <br> 𝜋-pulse P_av: -80 to -60 dBm <br> Shaped envelope | 1Q Z gates, 2Q gates <br> 0.01-1 ~mA static/pulsed <br> Pulse duration: 10-500 ns <br> Resolution: ~nA |
+| Semiconductor Spin | Single spin Q: 1Q XY gates <br> Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to 1 𝜇s <br> 𝜋-pulse P_av: -60 to +0 dBm <br> Shaped envelope | Single spin Q: 2Q gates <br> S-T Q: XY gates, 2Q gates <br> E-O Q: XY gates, 2Q gates <br> 𝜇V-mV level signals <br> Pulse duration: ns-ms <br> 1 ns rise/fall |
+| Trapped Ion | 1Q XY & Z gates, 2Q gates <br> Carrier: 5-20 MHz, 1-12.6 GHz <br> Pulse duration: 1-500 𝜇s <br> 𝜋-pulse P_av: 0 to 45 dBm <br> Rectangular envelope | Qubit state control typically not performed at baseband | 
 
 Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
 <https://doi.org/10.1109/JMW.2020.3034071>  
