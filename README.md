@@ -297,15 +297,12 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Olivier Ezratty's "Where are we heading with NISQ?"                | [https://doi.org/10.48550/arXiv.2305.09518](https://doi.org/10.48550/arXiv.2305.09518) |
 | Computer-Inspired Quantum Experiments                              | [https://doi.org/10.48550/arXiv.2002.09970](https://doi.org/10.48550/arXiv.2002.09970) |
 | Open Hardware in Quantum Technology                                | [https://doi.org/10.48550/arXiv.2309.17233](https://doi.org/10.48550/arXiv.2309.17233) |
-| Quasiparticle Tunneling as a Probe of Josephson junction Barrier & Capacitor Material in Superconducting Qubits [Qubit Design] | [https://doi.org/10.1038/s41534-022-00542-2](https://doi.org/10.1038/s41534-022-00542-2) |
-| 3D Integrated Superconducting Qubits | [https://doi.org/10.1038/s41534-017-0044-0](https://doi.org/10.1038/s41534-017-0044-0) |
-| Optimization of Shadow Evaporation & Oxidation for Reproducible Quantum Josephson Junction Circuits | [https://doi.org/10.1038/s41598-023-31003-1](https://doi.org/10.1038/s41598-023-31003-1) |
-| Improving Josephson Junction Reproducibility for Superconducting Quantum Circuits: Junction Area Fluctuation | [https://doi.org/10.1038/s41598-023-34051-9](https://doi.org/10.1038/s41598-023-34051-9) |
+| Microwaves in Quantum Computing                                    | [https://doi.org/10.1109/JMW.2020.3034071](https://doi.org/10.1109/JMW.2020.3034071) |
 | The Transmon Qubit for Electromagnetics Engineers                  | [https://doi.org/10.48550/arXiv.2106.11352](https://doi.org/10.48550/arXiv.2106.11352) |
 | Thomas Wong's "Introduction to Classical & Quantum Computing"      | [https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf)        |
 | [Quantum] Transport in Semiconductor Mesoscopic Devices            | [https://iopscience.iop.org/book/mono/978-0-7503-1103-8/chapter/bk978-0-7503-1103-8ch8](https://iopscience.iop.org/book/mono/978-0-7503-1103-8/chapter/bk978-0-7503-1103-8ch8)    |
-| Quantum Materials Roadmap                                         | [https://doi.org/10.1088/2515-7639/abb74e](https://doi.org/10.1088/2515-7639/abb74e)                                                                                               |
-| Quantum Nanostructures                                            | [https://doi.org/10.1016/B978-0-08-101975-7.00003-8](https://doi.org/10.1016/B978-0-08-101975-7.00003-8)                                                                           |
+| Quantum Materials Roadmap                                         | [https://doi.org/10.1088/2515-7639/abb74e](https://doi.org/10.1088/2515-7639/abb74e)         |
+| Quantum Nanostructures                                            | [https://doi.org/10.1016/B978-0-08-101975-7.00003-8](https://doi.org/10.1016/B978-0-08-101975-7.00003-8)  |
 | A Practical Guide for Building Superconducting Quantum Devices     | [https://doi.org/10.1103/PRXQuantum.2.040202](https://doi.org/10.1103/PRXQuantum.2.040202) |
 | Handbook of Vacuum Science & Technology                            | [https://www.sciencedirect.com/book/9780123520654/handbook-of-vacuum-science-and-technology](https://www.sciencedirect.com/book/9780123520654/handbook-of-vacuum-science-and-technology)  |
 | Practical Cryogenics                                              | [http://research.physics.illinois.edu/bezryadin/links/practical%20Cryogenics.pdf](http://research.physics.illinois.edu/bezryadin/links/practical%20Cryogenics.pdf)                         |
@@ -314,19 +311,23 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Engineering Cryogenic Setups for 100-Qubit Scale Superconducting Circuit Systems  | [https://doi.org/10.1140/epjqt/s40507-019-0072-0](https://doi.org/10.1140/epjqt/s40507-019-0072-0) |
 | Modeling of Coplanar Waveguides (COMSOL)                            | [https://www.comsol.com/blogs/modeling-coplanar-waveguides](https://www.comsol.com/blogs/modeling-coplanar-waveguides) |
 | CPW Resonator for Circuit Quantum Electrodynamics (COMSOL) | [https://www.comsol.jp/model/download/1402321/models.rf.cpw_resonator.pdf](https://www.comsol.jp/model/download/1402321/models.rf.cpw_resonator.pdf)|
+| Quasiparticle Tunneling as a Probe of Josephson Junction Barrier & Capacitor Material in Superconducting Qubits [Qubit Design] | [https://doi.org/10.1038/s41534-022-00542-2](https://doi.org/10.1038/s41534-022-00542-2) |
+| 3D Integrated Superconducting Qubits | [https://doi.org/10.1038/s41534-017-0044-0](https://doi.org/10.1038/s41534-017-0044-0) |
+| Optimization of Shadow Evaporation & Oxidation for Reproducible Quantum Josephson Junction Circuits | [https://doi.org/10.1038/s41598-023-31003-1](https://doi.org/10.1038/s41598-023-31003-1) |
+| Improving Josephson Junction Reproducibility for Superconducting Quantum Circuits: Junction Area Fluctuation | [https://doi.org/10.1038/s41598-023-34051-9](https://doi.org/10.1038/s41598-023-34051-9) |
 | Basic Qubit Characterization by Zurich Instruments                | [https://docs.zhinst.com/hdawg_user_manual/tutorials/qubit_characterization.html?h=basic+qubit](https://docs.zhinst.com/hdawg_user_manual/tutorials/qubit_characterization.html?h=basic+qubit)  |
-| Quantum Control Documentation by Qblox Instruments                | [https://docs.qblox.com/en/main](https://docs.qblox.com/en/main/)                                                                                                                          |
-| Overview of Quantum Control Equipment by Qblox Instruments         | [https://www.qblox.com](https://www.qblox.com)                                                                                                                                                 |
-| Control & Readout of a Superconducting Qubit Using a Photonic Link | [https://rdcu.be/dhLr3](https://rdcu.be/dhLr3)                                                                                                                                                 |
+| Quantum Control Documentation by Qblox Instruments                | [https://docs.qblox.com/en/main](https://docs.qblox.com/en/main/)    |
+| Overview of Quantum Control Equipment by Qblox Instruments         | [https://www.qblox.com](https://www.qblox.com)                      |
+| Control & Readout of a Superconducting Qubit Using a Photonic Link | [https://rdcu.be/dhLr3](https://rdcu.be/dhLr3)                      |
 | A Cryogenic On-Chip Microwave Pulse Generator for Large-Scale Superconducting Quantum Computing | [https://doi.org/10.1038/s41467-024-50333-w](https://doi.org/10.1038/s41467-024-50333-w)                                                 |
-| Spiderweb Array: A Sparse Spin-Qubit Array                        | [https://doi.org/10.1103/PhysRevApplied.18.024053](https://doi.org/10.1103/PhysRevApplied.18.024053)                                                                                            |
+| Spiderweb Array: A Sparse Spin-Qubit Array                        | [https://doi.org/10.1103/PhysRevApplied.18.024053](https://doi.org/10.1103/PhysRevApplied.18.024053)  |
 | A Cryogenic Interface for Controlling Many Qubits                 | [https://www.microsoft.com/en-us/research/publication/a-cryogenic-interface-for-controlling-many-qubits](https://www.microsoft.com/en-us/research/publication/a-cryogenic-interface-for-controlling-many-qubits) |
 | Probing Quantum Devices with Radio-Frequency Reflectometry         | [https://doi.org/10.1063/5.0088229](https://doi.org/10.1063/5.0088229)                    |
 | Micromachined Quantum Circuits (Teresa Brecht) | [https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf](https://rsl.yale.edu/sites/default/files/2024-08/2017-RSL-Thesis-Teresa-Brecht-Final_ScreenVersion.pdf) |
 | High Fidelity Two-Qubit Gates on Fluxoniums Using a Tunable Coupler | [https://doi.org/10.1038/s41534-022-00644-x](https://doi.org/10.1038/s41534-022-00644-x) |
 | Universal Fast-Flux Control of a Coherent, Low-Frequency Qubit | [https://doi.org/10.1103/PhysRevX.11.011010](https://doi.org/10.1103/PhysRevX.11.011010) |
 | Resonant and Traveling-Wave Parametric Amplification Near the Quantum Limit (Luca Planat) | [https://theses.hal.science/tel-03137118v1](https://theses.hal.science/tel-03137118v1) |
-| Cryogenic Memory Technologies                                     | [https://doi.org/10.48550/arXiv.2111.09436](https://doi.org/10.48550/arXiv.2111.09436) |
+| Cryogenic Memory Technologies                                       | [https://doi.org/10.48550/arXiv.2111.09436](https://doi.org/10.48550/arXiv.2111.09436) |
 
 **Miscellaneous:**
 
