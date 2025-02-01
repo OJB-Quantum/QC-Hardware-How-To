@@ -549,12 +549,37 @@ Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale 
 
 |  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) |
 | :---: | :---: | :---: |
-| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns $\pi$-pulse Pav: -80 to -60 dBm Shaped envelope | 1Q Z gates, 2Q gates $0.01-1 \mathrm{~mA}$ static/pulsed <br> Pulse Duration: 10-500 ns <br> Resolution: ~nA |
-| Semiconductor Spin | Single spin Q: 1Q XY gates Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to $1 \mu \mathrm{~s}$ $\pi$-pulse Pav: -60 to +0 dBm Shaped envelope | Single spin Q: 2Q gates S-T Q: XY gates, 2Q gates E-O Q: XY gates, 2Q gates $\mu \mathrm{V}-\mathrm{mV}$ level signals Pulse Duration: ns-ms 1 ns rise/fall |
-| Trapped Ion | 1Q XY \& Z gates, 2Q gates Carrier: 5-20 MHz, 1-12.6 GHz Pulse duration: 1-500 $\mu \mathrm{s}$ $\pi$-pulse Pav: 0 to 45 dBm Rectangular envelope | Qubit state control typically not performed at baseband |
+| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns <br> $\pi$-pulse P_av: -80 to -60 dBm <br> Shaped envelope | 1Q Z gates, 2Q gates <br> $0.01-1 \mathrm{~mA}$ static/pulsed <br> Pulse Duration: 10-500 ns <br> Resolution: ~nA |
+| Semiconductor Spin | Single spin Q: 1Q XY gates <br> Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to $1 \mu \mathrm{~s}$ <br> $\pi$-pulse P_av: -60 to +0 dBm <br> Shaped envelope | Single spin Q: 2Q gates <br> S-T Q: XY gates, 2Q gates <br> E-O Q: XY gates, 2Q gates <br> $\mu \mathrm{V}-\mathrm{mV}$ level signals <br> Pulse Duration: ns-ms <br> 1 ns rise/fall |
+| Trapped Ion | 1Q XY \& Z gates, 2Q gates <br> Carrier: 5-20 MHz, 1-12.6 GHz <br> Pulse duration: 1-500 $\mu \mathrm{s}$ <br> $\pi$-pulse P_av: 0 to 45 dBm <br> Rectangular envelope | Qubit state control typically not performed at baseband |
 
 Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
 <https://doi.org/10.1109/JMW.2020.3034071>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### Typical Carrier Frequencies Used by Some of the Primary Qubit Technologies for Control & Readout
+
+![Carrier Frequencies](https://github.com/user-attachments/assets/f6a49b0f-2251-4d22-a72b-f05f05c2ace6)
+
+Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
+<https://doi.org/10.1109/JMW.2020.3034071>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators 
+
+![Screenshot 2025-02-01 031533](https://github.com/user-attachments/assets/644776d7-0761-4ab9-ac54-34c5c7ec43af)
+
+> *Corresponding colors*
+> Green: readout line
+> Blue: readout resonator
+> Yellow: drive line or capacitor
+
+Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
+<https://doi.org/10.1038/s41928-024-01147-7>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
