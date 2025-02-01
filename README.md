@@ -549,7 +549,7 @@ Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale 
 
 |  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) |
 | :---: | :---: | :---: |
-| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns $\pi$-pulse Pav: -80 to -60 dBm Shaped envelope | 1Q Z gates, 2Q gates $0.01-1 \mathrm{~mA}$ static/pulsed Pulse Duration: 10-500 ns Resolution: ~nA |
+| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns $\pi$-pulse Pav: -80 to -60 dBm Shaped envelope | 1Q Z gates, 2Q gates $0.01-1 \mathrm{~mA}$ static/pulsed <br> Pulse Duration: 10-500 ns <br> Resolution: ~nA |
 | Semiconductor Spin | Single spin Q: 1Q XY gates Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to $1 \mu \mathrm{~s}$ $\pi$-pulse Pav: -60 to +0 dBm Shaped envelope | Single spin Q: 2Q gates S-T Q: XY gates, 2Q gates E-O Q: XY gates, 2Q gates $\mu \mathrm{V}-\mathrm{mV}$ level signals Pulse Duration: ns-ms 1 ns rise/fall |
 | Trapped Ion | 1Q XY \& Z gates, 2Q gates Carrier: 5-20 MHz, 1-12.6 GHz Pulse duration: 1-500 $\mu \mathrm{s}$ $\pi$-pulse Pav: 0 to 45 dBm Rectangular envelope | Qubit state control typically not performed at baseband |
 
