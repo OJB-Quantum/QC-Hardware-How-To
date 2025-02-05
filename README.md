@@ -102,14 +102,6 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally:
-
-[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
-
-[Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy)
-
-__________________________________________________________________________________________________________________________________________________
-
 ### A copy of the Nanofabrication Technology for Quantum Chips document, written by Onri Jay Benally: 
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
