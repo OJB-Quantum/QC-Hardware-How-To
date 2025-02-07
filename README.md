@@ -102,6 +102,14 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
+### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally:
+
+[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
+
+[Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy)
+
+__________________________________________________________________________________________________________________________________________________
+
 ### A copy of the Nanofabrication Technology for Quantum Chips document, written by Onri Jay Benally: 
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
@@ -537,6 +545,17 @@ Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale 
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
+
+## Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware
+
+![image](https://github.com/user-attachments/assets/e525afbd-cd91-4301-b9b1-8803e8be0685)
+
+Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry*, Appl. Phys. Rev. 10, 021305 (2023)  
+<https://doi.org/10.1063/5.0088229>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
 ## Microwave & Baseband Control Requirements
 
 |  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) |
