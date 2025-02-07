@@ -597,7 +597,7 @@ Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit U
 
 ### Experimental Schematic for the 6 Superconducting Transmon Chip
 
-![Screenshot 2025-02-01 042032](https://github.com/user-attachments/assets/f9dcb57c-fbe6-4d1d-844b-88d5467d245b)
+![Screenshot 2025-02-01 042032](https://github.com/user-attachments/assets/f9dcb57c-fbe6-4d1d-844b-88d5467d245b) 
 
 Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
 <https://doi.org/10.1038/s41928-024-01147-7>  
@@ -607,7 +607,7 @@ Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit U
 
 ### A Simplified  Experimental Schematic for a Tunable 2 Superconducting Transmon Chip 
 
-![unnamed (5)](https://github.com/user-attachments/assets/41bf15d3-d9cb-42f6-bd6f-81c93cffbf58)
+![unnamed (5)](https://github.com/user-attachments/assets/41bf15d3-d9cb-42f6-bd6f-81c93cffbf58) 
 
 Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
 <https://doi.org/10.1109/JMW.2020.3034071>  
@@ -621,14 +621,14 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 |:---:|:---|:---|
 | Projects | Processor Design | DASQA, KQCircuits, PainterQubits/Devices.jl, pyEPR, Qiskit Metal, QuCAT |
 | Projects | Simulation and diagnostics | KQCircuits, Pulser, Qiskit Metal, QuTiP, QuTiP-QIP, sc-qubits, Strawberry Fields |
-| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua (^{a}), QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
-| Facilities | Remotely Accessible Labs (^{b}) | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
+| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua $^{a}$, QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
+| Facilities | Remotely Accessible Labs $^{b}$ | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
 | Facilities | Testing (Testbeds) | Lawrence Berkeley National Lab's AQT, Open Quantum Design, Sandia National Labs' QSCOUT, Sherbrooke's Distriq DevTeQ, NQCC |
-| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare (^{c}) |
+| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare $^{c}$ |
 
->(^{a}) partially open-source  
->(^{b}) excluding commercial providers  
->(^{c}) private company with support for Qiskit Metal
+>$^{a}$ partially open-source  
+>$^{b}$ excluding commercial providers  
+>$^{c}$ private company with support for Qiskit Metal
 
 Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, APL Quantum 1, 011501 (2024)  
 <https://doi.org/10.1063/5.0180987>  
