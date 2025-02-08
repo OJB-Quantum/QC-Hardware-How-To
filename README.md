@@ -531,7 +531,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 
 ![image](https://github.com/user-attachments/assets/479a64ff-7595-417a-b239-84bd50bb4200)
 
-Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 355 (2024)  
+Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 355 (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
@@ -542,6 +542,15 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 355
 
 Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale Superconducting Circuit Systems*, EPJ Quantum Technol. 6, 2 (2019)  
 <https://doi.org/10.1140/epjqt/s40507-019-0072-0>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+## Cryogenic Dewar-Based Measurement System Using a Dipstick
+
+![image](https://github.com/user-attachments/assets/8e356ae7-db5d-4d43-adaf-6649869f8918)
+
+Borrowed from: Kiene et al., *A 1-GS/s 6–8-b Cryo-CMOS SAR ADC for Quantum Computing*, IEEE J. Solid-State Circuits 58, 7 10036483 (2023)  
+<https://doi.org/10.1109/JSSC.2023.3237603>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
