@@ -549,8 +549,8 @@ Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale 
 
 ![image](https://github.com/user-attachments/assets/8e356ae7-db5d-4d43-adaf-6649869f8918)
 
-Borrowed from: Kiene et al., *A 1-GS/s 6–8-b Cryo-CMOS SAR ADC for Quantum Computing*, IEEE J. Solid-State Circuits 58, 7 10036483 (2023)
-<https://doi.org/10.1109/JSSC.2023.3237603> 
+Borrowed from: Kiene et al., *A 1-GS/s 6–8-b Cryo-CMOS SAR ADC for Quantum Computing*, IEEE J. Solid-State Circuits 58, 7 10036483 (2023)  
+<https://doi.org/10.1109/JSSC.2023.3237603>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
