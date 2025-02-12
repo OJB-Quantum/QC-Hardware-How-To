@@ -593,8 +593,8 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 
 ![image](https://github.com/user-attachments/assets/21906699-f307-4b34-84bb-398453ca107a)  
 
-Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*,  J Low Temp Phys 189, 60–75 (2017) 
-<https://doi.org/10.1007/s10909-017-1787-x> 
+Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*, J Low Temp Phys 189, 60–75 (2017)  
+<https://doi.org/10.1007/s10909-017-1787-x>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
