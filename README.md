@@ -589,12 +589,12 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 
 ---
 
-### Qubit Rabi Oscillations & Their Fourier Transform
+### Qubit Rabi Oscillations & Their Fourier Transform 
 
 ![image](https://github.com/user-attachments/assets/21906699-f307-4b34-84bb-398453ca107a)  
 
-Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*,  J Low Temp Phys 189, 60–75 (2017) 
-<https://doi.org/10.1007/s10909-017-1787-x>
+Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*, J Low Temp Phys 189, 60–75 (2017)  
+<https://doi.org/10.1007/s10909-017-1787-x>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
@@ -614,7 +614,7 @@ Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit U
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 
-### Experimental Schematic for the 6 Superconducting Transmon Chip
+### Experimental Schematic for the 6 Superconducting Transmon Chip 
 
 ![Screenshot 2025-02-01 042032](https://github.com/user-attachments/assets/f9dcb57c-fbe6-4d1d-844b-88d5467d245b) 
 
@@ -634,9 +634,9 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 
 ---
 
-### Quantum Hardware Categories
+### Quantum Hardware Categories 
 
-| **Category** | **Functionality** | **Examples** |
+| **Category** | **Functionality** | **Examples** | 
 |:---:|:---|:---|
 | Projects | Processor Design | DASQA, KQCircuits, PainterQubits/Devices.jl, pyEPR, Qiskit Metal, QuCAT |
 | Projects | Simulation and diagnostics | KQCircuits, Pulser, Qiskit Metal, QuTiP, QuTiP-QIP, sc-qubits, Strawberry Fields |
