@@ -599,7 +599,7 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
-### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Reasdout Architecture 
+### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture 
 
 <img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88" />
 
