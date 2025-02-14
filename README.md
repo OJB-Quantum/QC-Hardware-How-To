@@ -99,6 +99,7 @@ ________________________________________________________________________________
 | Coulomb Diamonds & Blockade Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Coulomb_Blockades_and_Coulomb_Diamonds.ipynb) |
 | Quantum-Limited Parametric Amplification Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Parametric_Amplification_Plot.ipynb) |
 | Transverse Electromagnetic Wave Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Transverse_Electromagnetic_Wave_Visualization.ipynb) |
+| Pulse Shapes and Envelopes Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Pulse_Shapes_and_Envelopes_Visualization.ipynb)
 
 __________________________________________________________________________________________________________________________________________________
 
@@ -596,6 +597,16 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*, J Low Temp Phys 189, 60–75 (2017)  
 <https://doi.org/10.1007/s10909-017-1787-x>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture 
+
+<img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88" />
+
+Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computing Applications*, IEEE J. Solid-State Circuits, 53, 1 (2018)  
+<https://doi.org/10.1109/JSSC.2017.2737549>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
 ---
 
