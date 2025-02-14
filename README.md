@@ -602,7 +602,7 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
-### Highlighted Quantum Noise Limits for Amplification 
+### Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit)
 
 ![image](https://github.com/user-attachments/assets/d30050cf-7f06-4788-b7c9-a904dfb76649)
 
