@@ -92,7 +92,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-| Some Example Google Colab Notebooks |  |
+| Some Example Google Colab Notebooks Authored by Onri |  |
 | ----------- | ----------------- |
 | Josephson Junction Tunneling Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Quantum_Tunneling_Prediction.ipynb) |
 | Josephson Junction Fraunhofer Pattern | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Fraunhofer_Pattern.ipynb) |
@@ -598,6 +598,16 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 
 Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*, J Low Temp Phys 189, 60–75 (2017)  
 <https://doi.org/10.1007/s10909-017-1787-x>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit)
+
+![image](https://github.com/user-attachments/assets/d30050cf-7f06-4788-b7c9-a904dfb76649)
+
+Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry* Appl. Phys. Rev. 10, 021305 (2023)  
+<https://doi.org/10.1063/5.0088229>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
