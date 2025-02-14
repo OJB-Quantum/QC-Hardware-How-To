@@ -599,6 +599,16 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
+### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Reasdout Architecture 
+
+<img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88" />
+
+Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computing Applications*, IEEE J. Solid-State Circuits, 53, 1 (2018)  
+<https://doi.org/10.1109/JSSC.2017.2737549>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+
+---
+
 ### A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators 
 
 ![Screenshot 2025-02-01 031533](https://github.com/user-attachments/assets/644776d7-0761-4ab9-ac54-34c5c7ec43af)
