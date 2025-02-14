@@ -109,7 +109,7 @@ ________________________________________________________________________________
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
 
-[Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy)
+[Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy).
 
 __________________________________________________________________________________________________________________________________________________
 
