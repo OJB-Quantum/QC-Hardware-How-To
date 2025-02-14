@@ -92,7 +92,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-| Some Example Google Colab Notebooks |  |
+| Some Example Google Colab Notebooks Authored by Onri |  |
 | ----------- | ----------------- |
 | Josephson Junction Tunneling Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Quantum_Tunneling_Prediction.ipynb) |
 | Josephson Junction Fraunhofer Pattern | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Fraunhofer_Pattern.ipynb) |
