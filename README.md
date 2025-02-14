@@ -602,6 +602,14 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
+![image](https://github.com/user-attachments/assets/d30050cf-7f06-4788-b7c9-a904dfb76649)
+
+Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry* Appl. Phys. Rev. 10, 021305 (2023)  
+<https://doi.org/10.1063/5.0088229>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
 ### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture 
 
 <img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88" />
