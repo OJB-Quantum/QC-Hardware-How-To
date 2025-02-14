@@ -602,6 +602,8 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
+### Highlighted Quantum Noise Limits for Amplification 
+
 ![image](https://github.com/user-attachments/assets/d30050cf-7f06-4788-b7c9-a904dfb76649)
 
 Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry* Appl. Phys. Rev. 10, 021305 (2023)  
