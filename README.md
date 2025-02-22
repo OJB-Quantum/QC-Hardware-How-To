@@ -568,7 +568,19 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
+--- 
+
+| **Category**                          | **Description**                                            |
+|---------------------------------------|------------------------------------------------------------|
+| **Requirements of Quantum Computing** | - Coherently Superpose or "Entangle" a large number of qubits <br> - Ability to address each qubit independently "local control" <br> - Fast gates "operations" before qubits decohere |
+| **Types of Qubits**                   | - **Stationary qubits**: Trapped/not in motion, easy to encode information, but hard to communicate <br> - **Flying qubits**: In motion by default, hard to encode information, but easy to communicate |
+| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson Junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond |
+| **Flying Qubits**                     | - Photons <br> - Phonons? <br> - Polaritons? <br> - Plasmons? <br> - Magnons?...etc |
+
+Adapted from: 
+
 ---
+
 ## Dilution Fridge Measurement System & Schematic
 
 ![image](https://github.com/user-attachments/assets/6e57a5c9-0f27-4e92-9552-5b37df7676f7) 
