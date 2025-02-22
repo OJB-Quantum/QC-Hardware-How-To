@@ -238,7 +238,7 @@ Free tools for designing, simulating, & analyzing quantum/nano devices:
 Related Open Access Lectures & Tutorials (Up to Graduate Level):
 
 | **Title**                                                               | **URL**                                                                                                                                                                                                    |
-|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Quantum Hardware Engineering                                           | [https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=WJYi6-7LaOHWTeUe](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=WJYi6-7LaOHWTeUe)                     |
 | Quantum Transport (Prof. Sergey Frolov)                                | [https://youtube.com/playlist?list=PLtTPtV8SRcxjedflXwNPSI_fxvxwUCjsd&si=uMYihHIpNzvr7frL](https://youtube.com/playlist?list=PLtTPtV8SRcxjedflXwNPSI_fxvxwUCjsd&si=uMYihHIpNzvr7frL)                                                               |
 | Quantum Many-Body Physics (Prof. Luis Gregório Dias)                   | [https://youtube.com/playlist?list=PL6FyrZIBwD8LMWizZW1FUN2dS_l44yuiy&si=RrbVfAicG2dTmc0G](https://youtube.com/playlist?list=PL6FyrZIBwD8LMWizZW1FUN2dS_l44yuiy&si=RrbVfAicG2dTmc0G)                                                               |
@@ -568,8 +568,37 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
+--- 
+
+### Stationary vs. Flying Qubits: 
+
+| **Category**                          | **Description**                                            |
+|---------------------------------------|------------------------------------------------------------|
+| **Requirements of Quantum Computing** | - Coherently Superpose or "Entangle" a large number of qubits <br> - Ability to address each qubit independently "local control" <br> - Fast gates "operations" before qubits decohere |
+| **Types of Qubits**                   | - **Stationary qubits**: Trapped/not in motion, easy to encode information, but hard to communicate <br> - **Flying qubits**: In motion by default, hard to encode information, but easy to communicate |
+| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, $\pi$-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
+| **Flying Qubits**                     | - Photons <br> - Domain walls <br> - Phonons? <br> - Polaritons? <br> - Plasmons? <br> - Magnons? |
+
+Adapted from: Reinke et al., *Phonon-Based Scalable Platform for Chip-Scale Quantum Computing*, AIP Advances 6, 122002 (2016)  
+<https://doi.org/10.1063/1.4972568>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+Adapted from: Zou et al., *Quantum Computing on Magnetic Racetracks with Flying Domain Wall Qubits*, Phys. Rev. Research 5, 033166 (2023)  
+<https://doi.org/10.1103/PhysRevResearch.5.033166>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+
+### Some Visualized Examples of Flying & Stationary Qubits: 
+
+![Flying vs  Stationary Qubits](https://github.com/user-attachments/assets/7cd9f9ee-07e8-4ded-a5c4-d8f4b272ed9c)
+
+Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
 ---
-## Dilution Fridge Measurement System & Schematic
+
+### Dilution Fridge Measurement System & Schematic
 
 ![image](https://github.com/user-attachments/assets/6e57a5c9-0f27-4e92-9552-5b37df7676f7) 
 
@@ -578,7 +607,8 @@ Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale 
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
-## Cryogenic Dewar-Based Measurement System Using a Dipstick
+
+### Cryogenic Dewar-Based Measurement System Using a Dipstick
 
 ![image](https://github.com/user-attachments/assets/8e356ae7-db5d-4d43-adaf-6649869f8918)
 
@@ -598,7 +628,7 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 ---
 
-## Microwave & Baseband Control Requirements
+### Microwave & Baseband Control Requirements
 
 |  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) |
 | :---: | :---: | :---: |
