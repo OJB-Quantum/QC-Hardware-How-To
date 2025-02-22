@@ -588,7 +588,7 @@ Adapted from: Zou et al., *Quantum Computing on Magnetic Racetracks with Flying 
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 
-### Some Visualized Examples of Flying & Stationary Qubits: 
+### Some Visualized Examples of Stationary & Flying Qubits: 
 
 ![Flying vs  Stationary Qubits](https://github.com/user-attachments/assets/7cd9f9ee-07e8-4ded-a5c4-d8f4b272ed9c)
 
