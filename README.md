@@ -507,7 +507,23 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ## Supplementary Figures
 
-_________________________________________________________________________________________________________________________
+---
+
+### Keywords & Terms To Look for When Reading a Technical Quantum-Related Article 
+
+| **Category**                  | **Keywords & Terms**                                      |
+|--------------------------------|----------------------------------------------------------|
+| **Quantum System Dynamics**    | Drive, Excite, Qubit, Resonance, Coherence, Transition, State Transition, Rabi Frequency, Rabi Osciilation |
+| **Measurement & Readout**      | Readout, Read Out, Read-out, Dependent, Reference, Convert, Converter, ADC, DAC |
+| **Signal Processing & Control** | Modulate, Pulse, Formulated |
+| **Quantum States & Behavior**  | Ground, Flying, Static, Stationary, State Classification |
+| **Fabrication & Manufacturing** | Fabrication, Yield, Manufacture, Foundry |
+| **Clarity & Verification**     | Clear, Correct |
+| **Quantum Interactions**       | Couple, Coupling, Entangle |
+| **Logical & Structural Concepts** | Prerequisite, Implement, Implemented, Implementation, Integrated |
+| **Analysis & Justification**   | Compare, Compared, Justification, Justified, Motivation |
+
+--- 
 
 ### Example of Linguistics Applied to Quantum Hardware Terminology
 
