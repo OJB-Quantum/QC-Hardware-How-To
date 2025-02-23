@@ -515,7 +515,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 |--------------------------------|----------------------------------------------------------|
 | **Quantum System Dynamics**    | Drive, Excite, Qubit, Resonance, Coherence, Transition, State Transition, Rabi Frequency, Rabi Osciilation |
 | **Measurement & Readout**      | Readout, Read Out, Read-out, Dependent, Reference, Convert, Converter, ADC, DAC |
-| **Signal Processing & Control** | Modulate, Pulse, Formulated |
+| **Signal Processing & Control** | Modulate, Pulse, Formulated, Power, Port |
 | **Quantum States & Behavior**  | Ground, Flying, Static, Stationary, State Classification |
 | **Fabrication & Manufacturing** | Fabrication, Yield, Manufacture, Foundry |
 | **Clarity & Verification**     | Clear, Correct |
