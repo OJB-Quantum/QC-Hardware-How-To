@@ -917,13 +917,13 @@ Example of a Multi-Step Lithography Pattern Layout of 6 Superconducting Qubits C
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-19.jpg?height=885&width=890&top_left_y=243&top_left_x=615)
 
 Example of a Generic Crossbar Array Layout Shown as an AutoCAD Drawing with Tiny Square Alignment Markers Near the Corners of the Chip (Onri Jay Benally).
-![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-19.jpg?height=936&width=1646&top_left_y=1256&top_left_x=234)
+![image](https://github.com/user-attachments/assets/be450cf2-fd71-4e93-b1ca-6d9501f0542a)
 
 Two Fully Fabricated Samples That Employ Electron Spin-Dependent Quantum Tunneling for Efficient Classical Memory in Spintronic Devices Called Spin-Orbit Torque Magnetic Tunnel Junctions (SOT-MTJs). Applications Include but are Not Limited to Magnetic Random-Access Memory, Spin Logic Arrays, \& Spin-Based Oscillators (Onri Jay Benally).
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-20.jpg?height=1069&width=1120&top_left_y=325&top_left_x=500)
 
 Example of a Superconducting Quantum Circuit Layout Prepared in KLayout and Subsequently Rendered with Raytracing Techniques in Blender (Onri Jay Benally).
-![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=936&width=1248&top_left_y=280&top_left_x=436)
+![image](https://github.com/user-attachments/assets/40c5d70c-1357-476e-a848-bbb56b71f720)
 
 3D Model Cross-Section of An Integrated Device Containing Many Layers Of Deposited, Lithographed, Etched, \& Polished Metal (Conductors), Oxides, Nitrides, \& Semiconductors (Wikimedia Commons - KAIST).
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=966&width=1273&top_left_y=1425&top_left_x=426)
