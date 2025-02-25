@@ -801,14 +801,14 @@ February 2024
 
 ## Table of Contents
 
-I. Background \& Motivation.
-II. Fabrication Tools vs. 3D Printing.
-III. The Lithography Design Process (Including 3D Modeling \& Simulation).
-IV. Masked vs. Maskless Lithography (with Brief Overview of Deposition).
-V. Application Methods in Lithography Used for Quantum Devices.
-VI. Brief Overview of Packaging.
-VII. Conclusion.
-VIII. Examples of Hardware (Supplementary Images).
+- I. Background \& Motivation.
+- II. Fabrication Tools vs. 3D Printing.
+- III. The Lithography Design Process (Including 3D Modeling \& Simulation).
+- IV. Masked vs. Maskless Lithography (with Brief Overview of Deposition).
+- V. Application Methods in Lithography Used for Quantum Devices.
+- VI. Brief Overview of Packaging.
+- VII. Conclusion.
+- VIII. Examples of Hardware (Supplementary Images).
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-02.jpg?height=933&width=1804&top_left_y=1127&top_left_x=155)
 
@@ -849,19 +849,21 @@ From here, the design can easily be converted into a machine code by exporting s
 When the initial lithography step is completed, the sample will be ready for etching, followed by deposition and planarization of required dielectrics, metals, or non-metal layers until the devices are finished and ready for testing. Sometimes, an extra step to add a device to a larger chip architecture or packaging is performed, including wire bonding. In the many pictures of quantum devices and processors you may find by means of the internet or in books, the exposed wire bonds and leads can be seen connecting the chip to its packaging. It is the typical appearance of a finished test sample. For industrial-scale quantum device samples that are being mass manufactured, wire bonded components are sealed within the packaging, like the case with classical semiconductor chips. For high-density quantum chips, the packaging interface may
 involve bump bonding with superconducting metal that remains malleable under cryogenic conditions, such as indium for example.
 
-Notice that the general process described above is very similar to the scenario for 3D printing or computer numerical control (CNC) machining. (It involves design files that are converted into G-codes, which guide the printer or milling heads to their locations on a printing or milling stage, using $\mathrm{X}-\mathrm{Y}-\mathrm{Z}$ coordinates. Coordinates are just the numerical values that are mapped out on a surface, layer-by-layer).
+Notice that the general process described above is very similar to the scenario for 3D printing or computer numerical control (CNC) machining. (It involves design files that are converted into G-codes, which guide the printer or milling heads to their locations on a printing or milling stage, using X-Y-Z coordinates. Coordinates are just the numerical values that are mapped out on a surface, layer-by-layer).
 
-A General Process Flow for Fabricating Quantum Chips Using a Top-Down Method Part 1: 
+#### A General Process Flow for Fabricating Quantum Chips Using a Top-Down Method 
+
+Part 1: 
 Idea for Device(s) $\rightarrow$ Hand Drawing of Device(s) (Top-Down/ Cross-Section View) $\rightarrow$ Layout Preparation ('Blueprint') $\rightarrow$ Design Inspection $\rightarrow$ Material Selection for Sample Layers $\rightarrow$ Deposit Sample Materials (Thin Films) on Substrate.
 
 Part 2: 
-Prepare Sample for Lithography $\rightarrow$ Import Layout File into Lithography Equipment Software $\rightarrow$ Load Sample into Equipment $\rightarrow$ Perform Lithography Alignment (X-Y Reference Points) $\rightarrow$ Expose Sample $\rightarrow$ Develop Lithography Resist on Sample $\rightarrow$ Dry Etch Sample $\rightarrow$ Prepare Sample for Additional Lithography \& Etching Steps by Repeating Part 2 as Needed. 
+Prepare Sample for Lithography -> Import Layout File into Lithography Equipment Software -> Load Sample into Equipment -> Perform Lithography Alignment (X-Y Reference Points) -> Expose Sample -> Develop Lithography Resist on Sample -> Dry Etch Sample -> Prepare Sample for Additional Lithography \& Etching Steps by Repeating Part 2 as Needed. 
 
 Part 3: 
-Electrode Contact Deposition $\rightarrow$ Post Processing, Wire Bonding, \& Packaging $\rightarrow$ Device Testing.
+Electrode Contact Deposition -> Post Processing, Wire Bonding, \& Packaging -> Device Testing.
 > (Note: an inspection process is typically implemented at the end of each step).
 
-If one wanted to visualize the engineering of atoms into nanostructures that can support quantum information systems, below are some ideas for intuition. The entire fabrication process is like preparing a multi-layered bakery item (e.g., cake), which gets sliced up into pieces and sculpted into arbitrary 3D shapes. (In the supplementary images, you can see an example of how a cake is formed into unique shapes by this description). Another analogy for the process of nanofabrication is the stacking of LEGO bricks, which too can be separated into groups of unique shapes. As a metaphor, each individual brick is the representation of an atom, some of which are slightly larger than others, yet still interlinkable overall.
+If one wanted to visualize the engineering of atoms into nanostructures that can support quantum information systems, below are some ideas for intuition. The entire fabrication process is like preparing a sculpture or multi-layered bakery item (e.g., cake), which gets sliced up into pieces and sculpted into arbitrary 3D shapes. (In the supplementary images, you can see an example of how a cake is formed into unique shapes by this description). Another analogy for the process of nanofabrication is the stacking of LEGO bricks, which too can be separated into groups of unique shapes. As a metaphor, each individual brick is the representation of an atom, some of which are slightly larger than others, yet still interlinkable overall.
 
 By examining a close-up of atoms through an imaging system that supports atomic resolution modes, one can observe arrangements of dots. These dots displayed on such a microscope (e.g., transmission electron microscope or scanning tunneling microscope) are more like representations of atoms, based on the interaction of electrons around each atom with the beam or probe being used to scan a sample. Although you cannot distinguish between individual electrons or components of the nuclei in each atom being scanned in the microscope, it is possible to measure things like interatomic spacing and crystallinity. In other words, one can choose to inspect nanostructures of fabricated samples using atomic resolution imaging techniques to check on how organized or unorganized its atoms are.
 
