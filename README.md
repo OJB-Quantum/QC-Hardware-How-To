@@ -664,7 +664,7 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 2. **Dispersive Readout (Superconducting)**  
    - The qubit–resonator system is designed so the qubit’s state modifies the resonator frequency slightly (the dispersive shift, $(\chi)$.  
-   - A microwave probe tone is sent through or reflected from the resonator, and the measured amplitude or phase shift reveals whether the qubit was $(\lvert 0\rangle)$ or $(\lvert 1\rangle)$.
+   - A microwave probe tone is sent through or reflected from the resonator, and the measured amplitude or phase shift reveals whether the qubit was $\lvert 0\rangle$ or $\lvert 1\rangle$.
 
 3. **Variety of Measurement Mechanisms**  
    - **Trapped Ions**: Laser-induced fluorescence, where one qubit state fluoresces strongly and the other does not.  
@@ -675,7 +675,7 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 4. **Outcome vs. Interpretation**  
    - Although each platform’s **physical outcome** is different (fluorescence photons, current pulses, microwave phase shift, etc.), the conceptual step of mapping a quantum state to a classical result is the same.
-   - Each row describes a distinct platform or approach, the typical **measurement mechanism**, and the **observable outcome** that corresponds to the qubit’s final state (often $(\lvert 0\rangle)$, $(\lvert 1\rangle)$, or some multi-qubit extension).   
+   - Each row describes a distinct platform or approach, the typical **measurement mechanism**, and the **observable outcome** that corresponds to the qubit’s final state (often $\lvert 0\rangle$, $\lvert 1\rangle$, or some multi-qubit extension).   
 
 5. **Measurement Fidelity & Qubit Readout**  
    - Designing a **high-fidelity measurement** is crucial for scalable quantum computing, ensuring that the classical outcome accurately reflects the qubit’s true state.  
@@ -793,68 +793,173 @@ Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, 
 
 ___________________________________________________________________________________________________________________________________________
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-01](https://github.com/user-attachments/assets/9074af3f-7da1-4009-895c-95508619893e)
+# Nanotechnology Used for Quantum Chips 
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-02](https://github.com/user-attachments/assets/548f3088-e855-4c5a-8dde-91cd676c2f61)
+Onri Jay Benally
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-03](https://github.com/user-attachments/assets/622fc7e4-7dff-4ac4-b1a7-4a7ec80c5961)
+February 2024
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-04](https://github.com/user-attachments/assets/752225a4-c2de-4998-ad82-46a51b1c0b59)
+## Table of Contents
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-05](https://github.com/user-attachments/assets/5961e1ba-fe61-4eca-bce0-a63db28813b9)
+I. Background \& Motivation.
+II. Fabrication Tools vs. 3D Printing.
+III. The Lithography Design Process (Including 3D Modeling \& Simulation).
+IV. Masked vs. Maskless Lithography (with Brief Overview of Deposition).
+V. Application Methods in Lithography Used for Quantum Devices.
+VI. Brief Overview of Packaging.
+VII. Conclusion.
+VIII. Examples of Hardware (Supplementary Images).
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-06](https://github.com/user-attachments/assets/7f3b3a5f-aa15-4569-8301-48300e342aa8)
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-02.jpg?height=933&width=1804&top_left_y=1127&top_left_x=155)
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-07](https://github.com/user-attachments/assets/dbcb14e0-a453-4d74-8a82-b706693dccce)
+> Layout of an IBM Quantum System 1 (IBM Research).
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-08](https://github.com/user-attachments/assets/6a9c93ad-42cc-4f40-9adb-e5bca4b24ef5)
+A quantum computing system can be described by the quantum stack, containing levels of abstraction. The software layer exists on the upper level, while the hardware layer is on the lower level. At the very bottom of this hardware level is the quantum chip, which comprises of a quantum processing unit (QPU). One may notice, in nearly every quantum computing platform, the processor comes in some form of a chip. It contains components that can exploit quantum effects depending on the material's physical properties. The overall control and conversion systems vary in size, however. Some can fit inside a desktop machine, while others take up the space of an entire building room, like early vacuum tube-based computers.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-09](https://github.com/user-attachments/assets/2bc27c86-d537-4c6e-a67b-eec3a81ad709)
+The DiVincenzo criteria is a guide that can be used to realize gate-based quantum computation, of which effects like quantum interference, entanglement, and superposition are highly important. Physical quantum bits (qubits) are primary components for making quantum logic gates, along with their controllers, converters, couplers, readout connectors, etc. To build these devices requires materials that are shapeable and can be patterned into useful objects, typically, a few nanometers thick. These are what we call nanoscale thin films. Many materials used in fabricating thin film devices for quantum are compatible with existing semiconductor fabrication tools (i.e., lithography, thin film deposition, and dry etching equipment).
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-10](https://github.com/user-attachments/assets/5e2ea0bb-ebb1-435e-a6bd-6a6b8667d475)
+DiVincenzo Criteria:
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-11](https://github.com/user-attachments/assets/8b4f0a52-8cb7-408c-a150-8b2dd2790764)
+1. Scalable architecture containing well-defined qubits.
+2. Distinct and reliable qubit state preparation.
+3. Decoherence times much longer than gate operation times.
+4. Universal set of quantum gates that perform accurate operations on the qubits.
+5. Well defined readout capability for each individual qubit.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-12](https://github.com/user-attachments/assets/9c60719d-05ad-4cc3-83b3-256b1c39eb8a)
+Physical qubits are a two-level system and can be made of solid-state or non-solid-state devices. This means that the single atoms or clusters of atoms or molecules being used to make a useful qubit can exist in either a solid form of matter or a non-solid (photons, in this case). Devices based on superconducting junctions, quantum dots, nitrogen vacancies, and topological systems are of the solid-state type. Here, solid-state quantum devices will be highlighted. (In the future, we can expect more quantum platforms made of different solid-state materials that are also compatible with the latest manufacturing techniques, so keep this in mind).
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-13](https://github.com/user-attachments/assets/321533fa-55a6-4781-9e37-2225b7e5de70)
+In recent decades, nanofabrication techniques have made controllable quantum devices a reality, although quantum devices are not necessarily a sub-field of nanotechnology. It is widely acknowledged that device sizes from 1 to 100 nanometers ( 10 to 1,000 Ångstroms) are of the nanoscale. In this range, it is widely known that quantum effects are more likely to occur and are more observable in measurement. (Measurement is usually performed physically or converted into an electronic signal that can be easily recorded for analysis to confirm quantum behavior). As a result, many fabricated quantum devices are made of nanometer structures, typically in the vertical direction. One can make a quantum device that uses $<100$ nanometers of individual layer thickness
+in the vertical direction while having micrometer dimensions in the lateral direction or one with $<100$ nanometer dimensions for both vertical and lateral directions.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-14](https://github.com/user-attachments/assets/9c5af684-f971-449d-8269-7e6706a89cd3)
+For nanoscale features, optical (light) microscopes have difficulty in imaging, physically limited by the wavelength of light. Thus, an electron microscope or other specialized imaging system which uses wavelengths shorter than light are needed to properly view nanoscale objects while engineering a device.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-15](https://github.com/user-attachments/assets/33ce3e12-b95a-4cd5-8f08-7a6d8909177c)
+The word "lithography" comes from the German word "lithographie," a combination of the ancient Greek words líthos, meaning "stone," and gráphein, meaning "to write." In the context of nanotechnology manufacturing, lithography is referred to as the development of so-called oneand two-dimensional structures. Here, at least one of its dimensions is in the nanometer range. Lithography allows one to copy patterns from computer generated designs onto an underlying substrate with a compatible adhesion layer. (A substrate is a type of supporting foundation, usually a wafer, while an adhesion layer promotes bonding between the substrate and film of interest). There are two sub-categories of lithography: masked and maskless. One may also hear the term direct-write, which refers to maskless exposure techniques. The masked exposure technique is basically like using a stencil, which allows one to draw designs repeatedly onto a surface by guiding a writing source through cut-out patterns.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-16](https://github.com/user-attachments/assets/73426de6-8ffc-4175-8e72-1742a9f826e0)
+General lithography is further divided into photolithography, electron-beam lithography, X-ray and extreme ultraviolet lithography, focused ion beam lithography and neutral atom beam lithography, soft lithography, colloidal lithography, nanopattern/ imprinting lithography, scanning (thermal) probe lithography, atomic force microscope lithography, etc. Each method involves energy exposure to a specific area with either the help of beam control systems or a patterned mask.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-17](https://github.com/user-attachments/assets/23f4d83b-704c-4596-af27-45c835f43738)
+The two approaches for general manufacturing are called top-down, which involves cutting away pieces of a bulk material, and bottom-up, which involves growing or assembling atoms and molecules into larger structures. These two methods are applied in nanofabrication. Since thin film etching is a top-down process, while thin film growth and nanomolding is a bottom-up process, lithography is considered to be a hybrid method since it can use either or both processes. Nanomanipulation and nanoimprinting are examples of mostly bottom-up fabrication techniques. Dry (physical) etching and wet (chemical) etching methods correlate to anisotropic and isotropic profiles, respectively. (A profile or side profile is referred to as a cross-sectional view).
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-18](https://github.com/user-attachments/assets/048cf8af-13c1-4ca8-a03c-d8e2df24146a)
+Vacuum deposition chambers, their support systems, and interfaces can be seen in fabrication laboratories virtually everywhere. The two main types of deposition chambers are physical vapor deposition and chemical vapor deposition. These systems support the growth of material multilayers on sample substrates, such as $\mathrm{SiO}_{2}$ or MgO wafers. Common deposition techniques include sputtering, molecular beam epitaxy, atomic layer deposition, electroplating, and electron-beam evaporation, just to name a few. Each has its own advantages and disadvantages in terms of cost, complexity, reliability, scalability, application, and deposition rates. One may also hear the term stack engineering, which refers to the research and development on the improvement of thin film performance. Additionally, lithography, deposition, and etching of thin films can be predicted or simulated with physics-informed modeling using premade paid software or a scientific programming language such as Python. (Examples can be found on the GitHub platform). The computed results can then be 3D animated and analyzed to help inform parameters used on real nanofabrication equipment, with the added benefit of cost-savings.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-19](https://github.com/user-attachments/assets/f911a932-73a5-4c55-9d27-5b2d563a9107)
+Improving nanotechnology manufacturing methods enables innovative approaches for solving quantum hardware problems every day. To develop quantum devices, it usually begins
+with an idea on paper, where a device circuit or cross-sectional diagram of one eventually will become a real chip. One may choose to hand draw the ideas. Then, once the overall device function is principally understood, it can be translated to a software design application, such as Autodesk AutoCAD. Geometries can be modified and drawn to-scale on the software so that layers of the chip can overlap, interface, or connect with each other as intended. In more complicated designs, the steps can be programmed and automated using layout processing software.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-20](https://github.com/user-attachments/assets/166c3757-6ddd-4ee8-a324-f732299380a6)
+From here, the design can easily be converted into a machine code by exporting specific file formats, with coordinates that a lithography machine can understand. The converted design file creates a virtually marked pathway to guide or control the beam or write head in a lithography machine. However, before it is uploaded for lithography, it should pass inspection for quality assurance and troubleshooting. Afterwards, the final machine code for patterning can be uploaded. From here, a prepared sample containing necessary (thin film) material layers for devices can be loaded for proper lithography alignment and exposure for polymerization.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-21](https://github.com/user-attachments/assets/5d35c361-0eda-42a8-9536-b75fce88d766)
+When the initial lithography step is completed, the sample will be ready for etching, followed by deposition and planarization of required dielectrics, metals, or non-metal layers until the devices are finished and ready for testing. Sometimes, an extra step to add a device to a larger chip architecture or packaging is performed, including wire bonding. In the many pictures of quantum devices and processors you may find by means of the internet or in books, the exposed wire bonds and leads can be seen connecting the chip to its packaging. It is the typical appearance of a finished test sample. For industrial-scale quantum device samples that are being mass manufactured, wire bonded components are sealed within the packaging, like the case with classical semiconductor chips. For high-density quantum chips, the packaging interface may
+involve bump bonding with superconducting metal that remains malleable under cryogenic conditions, such as indium for example.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-22](https://github.com/user-attachments/assets/d1fcd661-ae3d-4e3a-9cd4-ef3b70b25afa)
+Notice that the general process described above is very similar to the scenario for 3D printing or computer numerical control (CNC) machining. (It involves design files that are converted into G-codes, which guide the printer or milling heads to their locations on a printing or milling stage, using $\mathrm{X}-\mathrm{Y}-\mathrm{Z}$ coordinates. Coordinates are just the numerical values that are mapped out on a surface, layer-by-layer).
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-23](https://github.com/user-attachments/assets/c3bee862-62d2-4870-bb68-2afa3b6105a0)
+A General Process Flow for Fabricating Quantum Chips Using a Top-Down Method Part 1: 
+Idea for Device(s) $\rightarrow$ Hand Drawing of Device(s) (Top-Down/ Cross-Section View) $\rightarrow$ Layout Preparation ('Blueprint') $\rightarrow$ Design Inspection $\rightarrow$ Material Selection for Sample Layers $\rightarrow$ Deposit Sample Materials (Thin Films) on Substrate.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-24](https://github.com/user-attachments/assets/1c75ef56-4de5-473b-9b77-1ab450503222)
+Part 2: 
+Prepare Sample for Lithography $\rightarrow$ Import Layout File into Lithography Equipment Software $\rightarrow$ Load Sample into Equipment $\rightarrow$ Perform Lithography Alignment (X-Y Reference Points) $\rightarrow$ Expose Sample $\rightarrow$ Develop Lithography Resist on Sample $\rightarrow$ Dry Etch Sample $\rightarrow$ Prepare Sample for Additional Lithography \& Etching Steps by Repeating Part 2 as Needed. 
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-25](https://github.com/user-attachments/assets/8024e691-1837-42c8-8d93-efc0c22a2c14)
+Part 3: 
+Electrode Contact Deposition $\rightarrow$ Post Processing, Wire Bonding, \& Packaging $\rightarrow$ Device Testing.
+> (Note: an inspection process is typically implemented at the end of each step).
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-26](https://github.com/user-attachments/assets/79ab11a5-61d2-4d63-8463-ecfe7a3ea01b)
+If one wanted to visualize the engineering of atoms into nanostructures that can support quantum information systems, below are some ideas for intuition. The entire fabrication process is like preparing a multi-layered bakery item (e.g., cake), which gets sliced up into pieces and sculpted into arbitrary 3D shapes. (In the supplementary images, you can see an example of how a cake is formed into unique shapes by this description). Another analogy for the process of nanofabrication is the stacking of LEGO bricks, which too can be separated into groups of unique shapes. As a metaphor, each individual brick is the representation of an atom, some of which are slightly larger than others, yet still interlinkable overall.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-27](https://github.com/user-attachments/assets/ebe56327-7fa1-4114-a806-337eb2713e55)
+By examining a close-up of atoms through an imaging system that supports atomic resolution modes, one can observe arrangements of dots. These dots displayed on such a microscope (e.g., transmission electron microscope or scanning tunneling microscope) are more like representations of atoms, based on the interaction of electrons around each atom with the beam or probe being used to scan a sample. Although you cannot distinguish between individual electrons or components of the nuclei in each atom being scanned in the microscope, it is possible to measure things like interatomic spacing and crystallinity. In other words, one can choose to inspect nanostructures of fabricated samples using atomic resolution imaging techniques to check on how organized or unorganized its atoms are.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-28](https://github.com/user-attachments/assets/4dc5ad40-4c41-499b-99a6-25a368939793)
+It is useful to combine electron imaging with other surface analysis methods to doublecheck on how well atomic layers will adhere or interface with each other. Diffusion barriers, tunnel barriers, and blockades are also closely inspected using the above-mentioned techniques in solidstate nanostructures. These layers typically exist at device interfaces and serve the purpose of filtering out states or impurities that may move from region to region based on applied heat, voltage, current, field, etc. Therefore, it is worth performing a cross-sectional inspection of the multilayers before patterning and optionally after a prototype chip has been patterned.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-29](https://github.com/user-attachments/assets/1f25beab-de66-43d8-ad41-e56fdd56a9b5)
+In conclusion, nanotechnology is a highly interdisciplinary STEM field that is applicable to quantum technology yet does not contain quantum as a specific sub-category. It is an indispensable tool for realizing the platforms that host quantum information systems and processing. On the other hand, quantum technology as a field does contain a sub-category in hardware that covers nanotechnology and its related applications. This is where quantum chips and devices are discussed. To build the chip hardware at the bottom of the quantum stack requires an understanding of manufacturing at the atomic and nanoscale. Precision control and fine tuning of systems are key ideas of the intersection between both technologies. They can be leveraged to meet the sustainability needs of tomorrow and the distant future.
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-30](https://github.com/user-attachments/assets/7167ab62-f14f-4ee1-ba79-2036eb65b996)
+### Supplementary Images:
 
-![Nanofabrication Technology Used for Quantum Chips by Onri_-31](https://github.com/user-attachments/assets/68b393b6-a6ee-42a6-a18b-50610a5d6b80)
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-11.jpg?height=592&width=1605&top_left_y=344&top_left_x=260)
+Overview of the Full Quantum Stack vs. the Engineering Cycle of Circuit Quantum Electrodynamics (cQED) Device (Gao at al., PRX Quantum, 2021).
 
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-11.jpg?height=1232&width=1472&top_left_y=1086&top_left_x=321)
+Detailed Schematic of the Measurement Configuration for a Quantum Processor Containing Two Single-Electron Spin Qubits from Quantum Dots
+(Watson et al., Nature, 2018).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-12.jpg?height=849&width=1657&top_left_y=234&top_left_x=191)
+Stencil Cut-Out [Left] vs. Lithography Exposure Mask [Right] (Onri Jay Benally) \& (Kumar et al., Synthesis of Inorganic Nanomaterials, 2018).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-12.jpg?height=1055&width=1058&top_left_y=1202&top_left_x=531)
+Dark Field \& Light Field Images Taken Using a Scanning Transmission Electron Microscope (STEM). Shown is Crystalline Structure of Atoms From a SrTiO3 Thin Film Sample. The Colored Dots Represent Positions of Atoms. Green: Strontium, Red: Oxygen, \& Grey: Titanium. (Wikimedia Commons).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-13.jpg?height=952&width=1679&top_left_y=326&top_left_x=261)
+Example of G-Code Used in Both Top-Down and Bottom-Up Manufacturing. Application Includes But is Not Limited to LASER Cutting, CNC Machining, and 3D Printing (howtomechatronics.com).
+
+Reference Points Highlighted in Light Blue. Electron-Beam Lithography System [Left], Fused Deposition Modeling 3D Printer [Center], Computer Numerical Control Milling Machine [Right] (Onri Jay Benally) \& (Protolabs).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-13.jpg?height=581&width=2033&top_left_y=1469&top_left_x=42)
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=928&width=1963&top_left_y=254&top_left_x=73)
+Layout of a General Chipset Manufacturing Process (Ezratty, Understanding Quantum Technologies, 2022).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=778&width=1977&top_left_y=1324&top_left_x=69)
+Example of a Quantum Chip Design Process Flow in Preparation for Direct-Write Electron-Beam Lithography Exposure (Onri Jay Benally).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-15.jpg?height=969&width=2045&top_left_y=235&top_left_x=36)
+Collection of Unpatterned \& Patterned Spintronic Chips [Left]. Self-Portrait Containing a Raith EBPG 5000+ Maskless Electron-Beam Lithography System in the Background [Right] (Onri Jay Benally).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-16.jpg?height=1617&width=1630&top_left_y=254&top_left_x=253)
+Image Collection of Deposition, Etching, Lithography, and Testing Equipment From the (Nano Magnetism \& Quantum Spintronics Lab) \& (Minnesota Nano Center), Located at the University of Minnesota-Twin Cities, USA (Onri Jay Benally).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-17.jpg?height=809&width=1952&top_left_y=235&top_left_x=81)
+Wide Shot of the Cryogenic Lab within the Quantum Device Lab (Google Quantum AI).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-18.jpg?height=800&width=1639&top_left_y=237&top_left_x=213)
+Randomized Micropattern Example of a 2-Step Lithography Mask Drawing Performed in AutoCAD, Containing Rough \& Fine Alignment Markers (Onri Jay Benally).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-18.jpg?height=827&width=1010&top_left_y=1191&top_left_x=544)
+Example of a Multi-Step Lithography Pattern Layout of 6 Superconducting Qubits Converted from an Automated GDS Design File in Qiskit Metal to an AutoCAD Drawing for Inspection (Onri Jay Benally).
+
+![416465034-18b225b5-794a-4dae-8e5d-aaf4cfc6d73c](https://github.com/user-attachments/assets/5c2f1431-f005-4be9-9e6e-313cf2e21e57)
+Example of a Generic Crossbar Array Layout Shown as an AutoCAD Drawing with Tiny Square Alignment Markers Near the Corners of the Chip (Onri Jay Benally).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-19.jpg?height=936&width=1646&top_left_y=1256&top_left_x=234)
+Two Fully Fabricated Samples That Employ Electron Spin-Dependent Quantum Tunneling for Efficient Classical Memory in Spintronic Devices Called Spin-Orbit Torque Magnetic Tunnel Junctions (SOT-MTJs). Applications Include but are Not Limited to Magnetic Random-Access Memory, Spin Logic Arrays, \& Spin-Based Oscillators (Onri Jay Benally).
+
+![54160342209_9df8e2ae41_o](https://github.com/user-attachments/assets/70e0f76f-07ba-4c5c-869c-9cda288152ae)
+Example of a Superconducting Quantum Circuit Layout Prepared in KLayout and Subsequently Rendered with Raytracing Techniques in Blender (Onri Jay Benally).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=936&width=1248&top_left_y=280&top_left_x=436)
+3D Model Cross-Section of An Integrated Device Containing Many Layers Of Deposited, Lithographed, Etched, \& Polished Metal (Conductors), Oxides, Nitrides, \& Semiconductors (Wikimedia Commons - KAIST).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=966&width=1273&top_left_y=1425&top_left_x=426)
+A Multi-Layered Application Specific Integrated Circuit on Silicon (IBM Research).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-22.jpg?height=1307&width=1441&top_left_y=233&top_left_x=342)
+3D Model of a Quantum Integrated Circuit (Veldhorst et al., Nat Commun, 2017).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-23.jpg?height=1237&width=1253&top_left_y=262&top_left_x=393)
+A Portrait of Hans Christian Ørsted That Was Nanopatterned and Subsequently Scanned with an Atomic Force Microscope Probe on the Same Machine, a Heidelberg NanoFrazor ${ }^{\circledR}$ Scanning Thermal Probe Lithography System (Technical University of Denmark-Physics \& Heidelberg Instruments).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-24.jpg?height=882&width=1101&top_left_y=258&top_left_x=493)
+Schematic of a Scanning Tunneling Microscope Used to Image the Topology of a Material or Device Surface at the Atomic Level
+(Michael Schmid \& Grzegorz Pietrzak, CC BY-SA 2.0 at, https://commons.wikimedia.org/w/index.php?curid=89194170).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-24.jpg?height=993&width=1039&top_left_y=1387&top_left_x=565)
+A Desktop Scanning Tunneling Microscope (STM) Capable of Atomic-Level Resolution (Nanosurf).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-25.jpg?height=1115&width=1649&top_left_y=231&top_left_x=233)
+Setup of a Scanning Tunneling Microscope, Used to Capture Images of Single Atoms or Manipulate Their Position on a Substrate (IBM Research).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-26.jpg?height=1391&width=1519&top_left_y=237&top_left_x=300)
+Illustration and Images of a Nanoparticle-based Single-Electron Transistor (SET), with an Arrangement of Source, Drain, and Gate Electrodes. The Last Two Images on the Bottom Show Both Scanning \& Transmission Electron Micrographs of the Device (Bitton et al., Nat. Commun., 2017).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-27.jpg?height=1408&width=1586&top_left_y=338&top_left_x=264)
+Chip Layout \& Wafer Fabricated by Complementary Metal Oxide Semiconductor (CMOS) Processes for Quantum Photonic Circuits (Bao et al., Nature Photonics, 2023).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-28.jpg?height=765&width=1622&top_left_y=249&top_left_x=246)
+Example of Cascaded Mach-Zehnder Interferometers (MZIs) on a Cryogenically Compatible Quantum Photonics Chip. The Piezo-Optomechanical Components are Designed to Impart Strain on the Optical Waveguides for Chip Control. (Dong et al., Nat. Photon., 2021).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-28.jpg?height=955&width=1261&top_left_y=1371&top_left_x=432)
+A Close-Up of Gold Wire Bonds on an Oxford Surface Ion Trap Chip (Jeff Sherman, 2009).
+
+![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-29.jpg?height=1557&width=1133&top_left_y=241&top_left_x=496)
+A Modular Cryogenic Circuit Board Containing Digital-To-Analog Converters \& Analog-ToDigital Converters, for Interfacing Solid-State Qubits with Commercially Available FieldProgrammable Gate Arrays (FPGAs). Its Purpose is Qubit Readout \& Control (Reilly, npj Quantum Inf, 2015).
+
+![416463711-b38fc75a-c5b4-4ff9-8bf7-c634c6040223](https://github.com/user-attachments/assets/7a4f5462-d043-4d66-95d8-a0fe6004624d)
+Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
 
 ___________________________________________________________________________________________________________________________________________
 
