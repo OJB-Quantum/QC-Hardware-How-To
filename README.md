@@ -888,14 +888,12 @@ Dark Field \& Light Field Images Taken Using a Scanning Transmission Electron Mi
 
 Example of G-Code Used in Both Top-Down and Bottom-Up Manufacturing. Application Includes But is Not Limited to LASER Cutting, CNC Machining, and 3D Printing (howtomechatronics.com).
 
-Reference Points Highlighted in Light Blue. Electron-Beam Lithography System [Left], Fused
+Reference Points Highlighted in Light Blue. Electron-Beam Lithography System [Left], Fused Deposition Modeling 3D Printer [Center], Computer Numerical Control Milling Machine [Right] (Onri Jay Benally) \& (Protolabs).
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-13.jpg?height=581&width=2033&top_left_y=1469&top_left_x=42)
 
-Deposition Modeling 3D Printer [Center], Computer Numerical Control Milling Machine [Right] (Onri Jay Benally) \& (Protolabs).
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=928&width=1963&top_left_y=254&top_left_x=73)
 
-Layout of a General Chipset Manufacturing Process
-(Ezratty, Understanding Quantum Technologies, 2022).
+Layout of a General Chipset Manufacturing Process (Ezratty, Understanding Quantum Technologies, 2022).
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=778&width=1977&top_left_y=1324&top_left_x=69)
 
 Example of a Quantum Chip Design Process Flow in Preparation for Direct-Write Electron-Beam Lithography Exposure (Onri Jay Benally).
@@ -917,12 +915,14 @@ Example of a Multi-Step Lithography Pattern Layout of 6 Superconducting Qubits C
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-19.jpg?height=885&width=890&top_left_y=243&top_left_x=615)
 
 Example of a Generic Crossbar Array Layout Shown as an AutoCAD Drawing with Tiny Square Alignment Markers Near the Corners of the Chip (Onri Jay Benally).
+
 ![image](https://github.com/user-attachments/assets/18b225b5-794a-4dae-8e5d-aaf4cfc6d73c)
 
 Two Fully Fabricated Samples That Employ Electron Spin-Dependent Quantum Tunneling for Efficient Classical Memory in Spintronic Devices Called Spin-Orbit Torque Magnetic Tunnel Junctions (SOT-MTJs). Applications Include but are Not Limited to Magnetic Random-Access Memory, Spin Logic Arrays, \& Spin-Based Oscillators (Onri Jay Benally).
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-20.jpg?height=1069&width=1120&top_left_y=325&top_left_x=500)
 
-Example of a Superconducting Quantum Circuit Layout Prepared in KLayout and Subsequently Rendered with Raytracing Techniques in Blender (Onri Jay Benally). 
+Example of a Superconducting Quantum Circuit Layout Prepared in KLayout and Subsequently Rendered with Raytracing Techniques in Blender (Onri Jay Benally).
+
 ![54160342209_9df8e2ae41_o](https://github.com/user-attachments/assets/a669b4b3-cc06-4a45-8ac2-99ce967e6088) 
 
 3D Model Cross-Section of An Integrated Device Containing Many Layers Of Deposited, Lithographed, Etched, \& Polished Metal (Conductors), Oxides, Nitrides, \& Semiconductors (Wikimedia Commons - KAIST).
