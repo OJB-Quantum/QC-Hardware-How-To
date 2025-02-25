@@ -664,7 +664,7 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 2. **Dispersive Readout (Superconducting)**  
    - The qubit–resonator system is designed so the qubit’s state modifies the resonator frequency slightly (the dispersive shift, $(\chi)$.  
-   - A microwave probe tone is sent through or reflected from the resonator, and the measured amplitude or phase shift reveals whether the qubit was $(\lvert 0\rangle)$ or $(\lvert 1\rangle)$.
+   - A microwave probe tone is sent through or reflected from the resonator, and the measured amplitude or phase shift reveals whether the qubit was $\lvert 0\rangle$ or $\lvert 1\rangle$.
 
 3. **Variety of Measurement Mechanisms**  
    - **Trapped Ions**: Laser-induced fluorescence, where one qubit state fluoresces strongly and the other does not.  
@@ -675,7 +675,7 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 4. **Outcome vs. Interpretation**  
    - Although each platform’s **physical outcome** is different (fluorescence photons, current pulses, microwave phase shift, etc.), the conceptual step of mapping a quantum state to a classical result is the same.
-   - Each row describes a distinct platform or approach, the typical **measurement mechanism**, and the **observable outcome** that corresponds to the qubit’s final state (often $(\lvert 0\rangle)$, $(\lvert 1\rangle)$, or some multi-qubit extension).   
+   - Each row describes a distinct platform or approach, the typical **measurement mechanism**, and the **observable outcome** that corresponds to the qubit’s final state (often $\lvert 0\rangle$, $\lvert 1\rangle$, or some multi-qubit extension).   
 
 5. **Measurement Fidelity & Qubit Readout**  
    - Designing a **high-fidelity measurement** is crucial for scalable quantum computing, ensuring that the classical outcome accurately reflects the qubit’s true state.  
