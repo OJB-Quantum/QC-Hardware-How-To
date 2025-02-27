@@ -762,7 +762,7 @@ Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit U
 
 ---
 
-### 
+### Experimental Schematic for a 2 Superconducting Fluxonium Chip  
 
 ![unnamed](https://github.com/user-attachments/assets/b05c2175-369f-4047-81e9-4348bb04d865)
 
