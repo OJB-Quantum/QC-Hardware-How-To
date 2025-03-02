@@ -888,12 +888,6 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 
 --- 
 
-![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-11.jpg?height=1232&width=1472&top_left_y=1086&top_left_x=321)
-> Detailed Schematic of the Measurement Configuration for a Quantum Processor Containing Two Single-Electron Spin Qubits from Quantum Dots
-(Watson et al., Nature, 2018).
-
---- 
-
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-12.jpg?height=849&width=1657&top_left_y=234&top_left_x=191)
 > Stencil Cut-Out [Left] vs. Lithography Exposure Mask [Right] (Onri Jay Benally) \& (Kumar et al., Synthesis of Inorganic Nanomaterials, 2018).
 
