@@ -811,14 +811,14 @@ February 2024
 
 ## Table of Contents
 
-I. Background \& Motivation.
-II. Fabrication Tools vs. 3D Printing.
-III. The Lithography Design Process (Including 3D Modeling \& Simulation).
-IV. Masked vs. Maskless Lithography (with Brief Overview of Deposition).
-V. Application Methods in Lithography Used for Quantum Devices.
-VI. Brief Overview of Packaging.
-VII. Conclusion.
-VIII. Examples of Hardware (Supplementary Images).
+- I. Background \& Motivation.
+- II. Fabrication Tools vs. 3D Printing.
+- III. The Lithography Design Process (Including 3D Modeling \& Simulation).
+- IV. Masked vs. Maskless Lithography (with Brief Overview of Deposition).
+- V. Application Methods in Lithography Used for Quantum Devices.
+- VI. Brief Overview of Packaging.
+- VII. Conclusion.
+- VIII. Examples of Hardware (Supplementary Images).
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-02.jpg?height=933&width=1804&top_left_y=1127&top_left_x=155)
 
@@ -884,94 +884,149 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 ### Supplementary Images:
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-11.jpg?height=592&width=1605&top_left_y=344&top_left_x=260)
-Overview of the Full Quantum Stack vs. the Engineering Cycle of Circuit Quantum Electrodynamics (cQED) Device (Gao at al., PRX Quantum, 2021).
+> Overview of the Full Quantum Stack vs. the Engineering Cycle of Circuit Quantum Electrodynamics (cQED) Device (Gao at al., PRX Quantum, 2021).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-11.jpg?height=1232&width=1472&top_left_y=1086&top_left_x=321)
-Detailed Schematic of the Measurement Configuration for a Quantum Processor Containing Two Single-Electron Spin Qubits from Quantum Dots
+> Detailed Schematic of the Measurement Configuration for a Quantum Processor Containing Two Single-Electron Spin Qubits from Quantum Dots
 (Watson et al., Nature, 2018).
 
+--- 
+
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-12.jpg?height=849&width=1657&top_left_y=234&top_left_x=191)
-Stencil Cut-Out [Left] vs. Lithography Exposure Mask [Right] (Onri Jay Benally) \& (Kumar et al., Synthesis of Inorganic Nanomaterials, 2018).
+> Stencil Cut-Out [Left] vs. Lithography Exposure Mask [Right] (Onri Jay Benally) \& (Kumar et al., Synthesis of Inorganic Nanomaterials, 2018).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-12.jpg?height=1055&width=1058&top_left_y=1202&top_left_x=531)
-Dark Field \& Light Field Images Taken Using a Scanning Transmission Electron Microscope (STEM). Shown is Crystalline Structure of Atoms From a SrTiO3 Thin Film Sample. The Colored Dots Represent Positions of Atoms. Green: Strontium, Red: Oxygen, \& Grey: Titanium. (Wikimedia Commons).
+> Dark Field \& Light Field Images Taken Using a Scanning Transmission Electron Microscope (STEM). Shown is Crystalline Structure of Atoms From a SrTiO3 Thin Film Sample. The Colored Dots Represent Positions of Atoms. Green: Strontium, Red: Oxygen, \& Grey: Titanium. (Wikimedia Commons).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-13.jpg?height=952&width=1679&top_left_y=326&top_left_x=261)
-Example of G-Code Used in Both Top-Down and Bottom-Up Manufacturing. Application Includes But is Not Limited to LASER Cutting, CNC Machining, and 3D Printing (howtomechatronics.com).
+> Example of G-Code Used in Both Top-Down and Bottom-Up Manufacturing. Application Includes But is Not Limited to LASER Cutting, CNC Machining, and 3D Printing (howtomechatronics.com).
 
-Reference Points Highlighted in Light Blue. Electron-Beam Lithography System [Left], Fused Deposition Modeling 3D Printer [Center], Computer Numerical Control Milling Machine [Right] (Onri Jay Benally) \& (Protolabs).
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-13.jpg?height=581&width=2033&top_left_y=1469&top_left_x=42)
+> Reference Points Highlighted in Light Blue. Electron-Beam Lithography System [Left], Fused Deposition Modeling 3D Printer [Center], Computer Numerical Control Milling Machine [Right] (Onri Jay Benally) \& (Protolabs).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=928&width=1963&top_left_y=254&top_left_x=73)
-Layout of a General Chipset Manufacturing Process (Ezratty, Understanding Quantum Technologies, 2022).
+> Layout of a General Chipset Manufacturing Process (Ezratty, Understanding Quantum Technologies, 2022).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=778&width=1977&top_left_y=1324&top_left_x=69)
-Example of a Quantum Chip Design Process Flow in Preparation for Direct-Write Electron-Beam Lithography Exposure (Onri Jay Benally).
+> Example of a Quantum Chip Design Process Flow in Preparation for Direct-Write Electron-Beam Lithography Exposure (Onri Jay Benally).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-15.jpg?height=969&width=2045&top_left_y=235&top_left_x=36)
-Collection of Unpatterned \& Patterned Spintronic Chips [Left]. Self-Portrait Containing a Raith EBPG 5000+ Maskless Electron-Beam Lithography System in the Background [Right] (Onri Jay Benally).
+> Collection of Unpatterned \& Patterned Spintronic Chips [Left]. Self-Portrait Containing a Raith EBPG 5000+ Maskless Electron-Beam Lithography System in the Background [Right] (Onri Jay Benally).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-16.jpg?height=1617&width=1630&top_left_y=254&top_left_x=253)
-Image Collection of Deposition, Etching, Lithography, and Testing Equipment From the (Nano Magnetism \& Quantum Spintronics Lab) \& (Minnesota Nano Center), Located at the University of Minnesota-Twin Cities, USA (Onri Jay Benally).
+> Image Collection of Deposition, Etching, Lithography, and Testing Equipment From the (Nano Magnetism \& Quantum Spintronics Lab) \& (Minnesota Nano Center), Located at the University of Minnesota-Twin Cities, USA (Onri Jay Benally).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-17.jpg?height=809&width=1952&top_left_y=235&top_left_x=81)
-Wide Shot of the Cryogenic Lab within the Quantum Device Lab (Google Quantum AI).
+> Wide Shot of the Cryogenic Lab within the Quantum Device Lab (Google Quantum AI).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-18.jpg?height=800&width=1639&top_left_y=237&top_left_x=213)
-Randomized Micropattern Example of a 2-Step Lithography Mask Drawing Performed in AutoCAD, Containing Rough \& Fine Alignment Markers (Onri Jay Benally).
+> Randomized Micropattern Example of a 2-Step Lithography Mask Drawing Performed in AutoCAD, Containing Rough \& Fine Alignment Markers (Onri Jay Benally).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-18.jpg?height=827&width=1010&top_left_y=1191&top_left_x=544)
-Example of a Multi-Step Lithography Pattern Layout of 6 Superconducting Qubits Converted from an Automated GDS Design File in Qiskit Metal to an AutoCAD Drawing for Inspection (Onri Jay Benally).
+> Example of a Multi-Step Lithography Pattern Layout of 6 Superconducting Qubits Converted from an Automated GDS Design File in Qiskit Metal to an AutoCAD Drawing for Inspection (Onri Jay Benally).
+
+--- 
 
 ![416465034-18b225b5-794a-4dae-8e5d-aaf4cfc6d73c](https://github.com/user-attachments/assets/5c2f1431-f005-4be9-9e6e-313cf2e21e57)
-Example of a Generic Crossbar Array Layout Shown as an AutoCAD Drawing with Tiny Square Alignment Markers Near the Corners of the Chip (Onri Jay Benally).
+> Example of a Generic Crossbar Array Layout Shown as an AutoCAD Drawing with Tiny Square Alignment Markers Near the Corners of the Chip (Onri Jay Benally).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-19.jpg?height=936&width=1646&top_left_y=1256&top_left_x=234)
-Two Fully Fabricated Samples That Employ Electron Spin-Dependent Quantum Tunneling for Efficient Classical Memory in Spintronic Devices Called Spin-Orbit Torque Magnetic Tunnel Junctions (SOT-MTJs). Applications Include but are Not Limited to Magnetic Random-Access Memory, Spin Logic Arrays, \& Spin-Based Oscillators (Onri Jay Benally).
+> Two Fully Fabricated Samples That Employ Electron Spin-Dependent Quantum Tunneling for Efficient Classical Memory in Spintronic Devices Called Spin-Orbit Torque Magnetic Tunnel Junctions (SOT-MTJs). Applications Include but are Not Limited to Magnetic Random-Access Memory, Spin Logic Arrays, \& Spin-Based Oscillators (Onri Jay Benally).
+
+--- 
 
 ![54160342209_9df8e2ae41_o](https://github.com/user-attachments/assets/70e0f76f-07ba-4c5c-869c-9cda288152ae)
-Example of a Superconducting Quantum Circuit Layout Prepared in KLayout and Subsequently Rendered with Raytracing Techniques in Blender (Onri Jay Benally).
+> Example of a Superconducting Quantum Circuit Layout Prepared in KLayout and Subsequently Rendered with Raytracing Techniques in Blender (Onri Jay Benally).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=936&width=1248&top_left_y=280&top_left_x=436)
-3D Model Cross-Section of An Integrated Device Containing Many Layers Of Deposited, Lithographed, Etched, \& Polished Metal (Conductors), Oxides, Nitrides, \& Semiconductors (Wikimedia Commons - KAIST).
+> 3D Model Cross-Section of An Integrated Device Containing Many Layers Of Deposited, Lithographed, Etched, \& Polished Metal (Conductors), Oxides, Nitrides, \& Semiconductors (Wikimedia Commons - KAIST).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=966&width=1273&top_left_y=1425&top_left_x=426)
-A Multi-Layered Application Specific Integrated Circuit on Silicon (IBM Research).
+> A Multi-Layered Application Specific Integrated Circuit on Silicon (IBM Research).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-22.jpg?height=1307&width=1441&top_left_y=233&top_left_x=342)
-3D Model of a Quantum Integrated Circuit (Veldhorst et al., Nat Commun, 2017).
+> 3D Model of a Quantum Integrated Circuit (Veldhorst et al., Nat Commun, 2017).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-23.jpg?height=1237&width=1253&top_left_y=262&top_left_x=393)
-A Portrait of Hans Christian Ørsted That Was Nanopatterned and Subsequently Scanned with an Atomic Force Microscope Probe on the Same Machine, a Heidelberg NanoFrazor ${ }^{\circledR}$ Scanning Thermal Probe Lithography System (Technical University of Denmark-Physics \& Heidelberg Instruments).
+> A Portrait of Hans Christian Ørsted That Was Nanopatterned and Subsequently Scanned with an Atomic Force Microscope Probe on the Same Machine, a Heidelberg NanoFrazor ${ }^{\circledR}$ Scanning Thermal Probe Lithography System (Technical University of Denmark-Physics \& Heidelberg Instruments).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-24.jpg?height=882&width=1101&top_left_y=258&top_left_x=493)
-Schematic of a Scanning Tunneling Microscope Used to Image the Topology of a Material or Device Surface at the Atomic Level
+> Schematic of a Scanning Tunneling Microscope Used to Image the Topology of a Material or Device Surface at the Atomic Level
 (Michael Schmid \& Grzegorz Pietrzak, CC BY-SA 2.0 at, https://commons.wikimedia.org/w/index.php?curid=89194170).
 
+--- 
+
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-24.jpg?height=993&width=1039&top_left_y=1387&top_left_x=565)
-A Desktop Scanning Tunneling Microscope (STM) Capable of Atomic-Level Resolution (Nanosurf).
+> A Desktop Scanning Tunneling Microscope (STM) Capable of Atomic-Level Resolution (Nanosurf).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-25.jpg?height=1115&width=1649&top_left_y=231&top_left_x=233)
-Setup of a Scanning Tunneling Microscope, Used to Capture Images of Single Atoms or Manipulate Their Position on a Substrate (IBM Research).
+> Setup of a Scanning Tunneling Microscope, Used to Capture Images of Single Atoms or Manipulate Their Position on a Substrate (IBM Research).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-26.jpg?height=1391&width=1519&top_left_y=237&top_left_x=300)
-Illustration and Images of a Nanoparticle-based Single-Electron Transistor (SET), with an Arrangement of Source, Drain, and Gate Electrodes. The Last Two Images on the Bottom Show Both Scanning \& Transmission Electron Micrographs of the Device (Bitton et al., Nat. Commun., 2017).
+> Illustration and Images of a Nanoparticle-based Single-Electron Transistor (SET), with an Arrangement of Source, Drain, and Gate Electrodes. The Last Two Images on the Bottom Show Both Scanning \& Transmission Electron Micrographs of the Device (Bitton et al., Nat. Commun., 2017).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-27.jpg?height=1408&width=1586&top_left_y=338&top_left_x=264)
-Chip Layout \& Wafer Fabricated by Complementary Metal Oxide Semiconductor (CMOS) Processes for Quantum Photonic Circuits (Bao et al., Nature Photonics, 2023).
+> Chip Layout \& Wafer Fabricated by Complementary Metal Oxide Semiconductor (CMOS) Processes for Quantum Photonic Circuits (Bao et al., Nature Photonics, 2023).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-28.jpg?height=765&width=1622&top_left_y=249&top_left_x=246)
-Example of Cascaded Mach-Zehnder Interferometers (MZIs) on a Cryogenically Compatible Quantum Photonics Chip. The Piezo-Optomechanical Components are Designed to Impart Strain on the Optical Waveguides for Chip Control. (Dong et al., Nat. Photon., 2021).
+> Example of Cascaded Mach-Zehnder Interferometers (MZIs) on a Cryogenically Compatible Quantum Photonics Chip. The Piezo-Optomechanical Components are Designed to Impart Strain on the Optical Waveguides for Chip Control. (Dong et al., Nat. Photon., 2021).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-28.jpg?height=955&width=1261&top_left_y=1371&top_left_x=432)
-A Close-Up of Gold Wire Bonds on an Oxford Surface Ion Trap Chip (Jeff Sherman, 2009).
+> A Close-Up of Gold Wire Bonds on an Oxford Surface Ion Trap Chip (Jeff Sherman, 2009).
+
+--- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-29.jpg?height=1557&width=1133&top_left_y=241&top_left_x=496)
-A Modular Cryogenic Circuit Board Containing Digital-To-Analog Converters \& Analog-ToDigital Converters, for Interfacing Solid-State Qubits with Commercially Available FieldProgrammable Gate Arrays (FPGAs). Its Purpose is Qubit Readout \& Control (Reilly, npj Quantum Inf, 2015).
+> A Modular Cryogenic Circuit Board Containing Digital-To-Analog Converters \& Analog-ToDigital Converters, for Interfacing Solid-State Qubits with Commercially Available FieldProgrammable Gate Arrays (FPGAs). Its Purpose is Qubit Readout \& Control (Reilly, npj Quantum Inf, 2015).
+
+--- 
 
 ![416463711-b38fc75a-c5b4-4ff9-8bf7-c634c6040223](https://github.com/user-attachments/assets/7a4f5462-d043-4d66-95d8-a0fe6004624d)
-Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
+> Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
 
 ___________________________________________________________________________________________________________________________________________
 
