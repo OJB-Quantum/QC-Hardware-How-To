@@ -592,7 +592,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 |---------------------------------------|------------------------------------------------------------|
 | **Requirements of Quantum Computing** | - Coherently Superpose or "Entangle" a large number of qubits <br> - Ability to address each qubit independently "local control" <br> - Fast gates "operations" before qubits decohere |
 | **Types of Qubits**                   | - **Stationary qubits**: Trapped/not in motion, easy to encode information, but hard to communicate <br> - **Flying qubits**: In motion by default, hard to encode information, but easy to communicate |
-| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, $\pi$-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
+| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, π-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
 | **Flying Qubits**                     | - Photons <br> - Domain walls <br> - Phonons? <br> - Polaritons? <br> - Plasmons? <br> - Magnons? |
 
 Adapted from: Reinke et al., *Phonon-Based Scalable Platform for Chip-Scale Quantum Computing*, AIP Advances 6, 122002 (2016)  
