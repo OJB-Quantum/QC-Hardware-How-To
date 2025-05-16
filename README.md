@@ -14,6 +14,8 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
+Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
+
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
 __________________________________________________________________________________________________________________________________________________
@@ -592,7 +594,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 |---------------------------------------|------------------------------------------------------------|
 | **Requirements of Quantum Computing** | **DiVincenzo's Criteria**: <br> - A scalable physical system with well-characterized qubit <br> - The ability to initialize the state of the qubits to a simple fiducial state <br> - Long relevant Quantum coherence times <br> - A "universal" set of quantum gates <br> - A qubit-specific measurement capability |
 | **Types of Qubits**                   | - **Stationary qubits**: Trapped/not in motion, easy to encode information, but hard to communicate <br> - **Flying qubits**: In motion by default, hard to encode information, but easy to communicate |
-| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, π-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
+| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, $\pi$-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
 | **Flying Qubits**                     | - Photons <br> - Domain walls <br> - Phonons? <br> - Polaritons? <br> - Plasmons? <br> - Magnons? |
 
 Adapted from: Reinke et al., *Phonon-Based Scalable Platform for Chip-Scale Quantum Computing*, AIP Advances 6, 122002 (2016)  
@@ -838,7 +840,8 @@ DiVincenzo Criteria:
 
 Physical qubits are a two-level system and can be made of solid-state or non-solid-state devices. This means that the single atoms or clusters of atoms or molecules being used to make a useful qubit can exist in either a solid form of matter or a non-solid (photons, in this case). Devices based on superconducting junctions, quantum dots, nitrogen vacancies, and topological systems are of the solid-state type. Here, solid-state quantum devices will be highlighted. (In the future, we can expect more quantum platforms made of different solid-state materials that are also compatible with the latest manufacturing techniques, so keep this in mind).
 
-In recent decades, nanofabrication techniques have made controllable quantum devices a reality, although quantum devices are not necessarily a sub-field of nanotechnology. It is widely acknowledged that device sizes from 1 to 100 nanometers (10 to 1,000 Ångstroms) are of the nanoscale. In this range, it is widely known that quantum effects are more likely to occur and are more observable in measurement. (Measurement is usually performed physically or converted into an electronic signal that can be easily recorded for analysis to confirm quantum behavior). As a result, many fabricated quantum devices are made of nanometer structures, typically in the vertical direction. One can make a quantum device that uses $<100$ nanometers of individual layer thickness in the vertical direction while having micrometer dimensions in the lateral direction or one with $<100$ nanometer dimensions for both vertical and lateral directions.
+In recent decades, nanofabrication techniques have made controllable quantum devices a reality, although quantum devices are not necessarily a sub-field of nanotechnology. It is widely acknowledged that device sizes from 1 to 100 nanometers ( 10 to 1,000 Ångstroms) are of the nanoscale. In this range, it is widely known that quantum effects are more likely to occur and are more observable in measurement. (Measurement is usually performed physically or converted into an electronic signal that can be easily recorded for analysis to confirm quantum behavior). As a result, many fabricated quantum devices are made of nanometer structures, typically in the vertical direction. One can make a quantum device that uses $<100$ nanometers of individual layer thickness
+in the vertical direction while having micrometer dimensions in the lateral direction or one with $<100$ nanometer dimensions for both vertical and lateral directions.
 
 For nanoscale features, optical (light) microscopes have difficulty in imaging, physically limited by the wavelength of light. Thus, an electron microscope or other specialized imaging system which uses wavelengths shorter than light are needed to properly view nanoscale objects while engineering a device.
 
@@ -879,8 +882,6 @@ By examining a close-up of atoms through an imaging system that supports atomic 
 It is useful to combine electron imaging with other surface analysis methods to doublecheck on how well atomic layers will adhere or interface with each other. Diffusion barriers, tunnel barriers, and blockades are also closely inspected using the above-mentioned techniques in solidstate nanostructures. These layers typically exist at device interfaces and serve the purpose of filtering out states or impurities that may move from region to region based on applied heat, voltage, current, field, etc. Therefore, it is worth performing a cross-sectional inspection of the multilayers before patterning and optionally after a prototype chip has been patterned.
 
 In conclusion, nanotechnology is a highly interdisciplinary STEM field that is applicable to quantum technology yet does not contain quantum as a specific sub-category. It is an indispensable tool for realizing the platforms that host quantum information systems and processing. On the other hand, quantum technology as a field does contain a sub-category in hardware that covers nanotechnology and its related applications. This is where quantum chips and devices are discussed. To build the chip hardware at the bottom of the quantum stack requires an understanding of manufacturing at the atomic and nanoscale. Precision control and fine tuning of systems are key ideas of the intersection between both technologies. They can be leveraged to meet the sustainability needs of tomorrow and the distant future.
-
---- 
 
 ### Supplementary Images:
 
