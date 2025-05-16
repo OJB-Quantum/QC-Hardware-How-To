@@ -14,6 +14,8 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
+Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
+
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
 __________________________________________________________________________________________________________________________________________________
