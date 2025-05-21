@@ -511,7 +511,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ---
 
-### Keywords & Terms To Look for When Reading a Technical Quantum-Related Article 
+### Keywords & Terms To Look for When Reading a Technical Quantum-Computing-Hardware-Related Article 
 
 | **Category**                  | **Keywords & Terms**                                      |
 |--------------------------------|----------------------------------------------------------|
