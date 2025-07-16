@@ -628,6 +628,7 @@ CRYOGENIC VESSELS
 │       ├─ Static/ Storage Dewar
 │       ├─ Transport Dewar (road/ air)
 │       └─ Open “bucket” Dewar (bench-top dip)
+│
 └─ Cryostats (instrumented cryogenic vessels, with active temperature control)
     ├─ Liquid-Filled Platforms [L]
     │   ├─ Bath Cryostat
