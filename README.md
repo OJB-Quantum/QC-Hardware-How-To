@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________________________
 
-Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://ojb-quantum.github.io/QC-Hardware-How-To/#supplementary-figures)
+Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
@@ -122,6 +122,10 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________
 
 ### An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+
+### A video playlist on quantum metrology is also available: [Quantum Metrology Review](https://youtube.com/playlist?list=PLbW5jviv4ckz60SxXDEnHL12NQ8-h0skk&si=xxxFNi2Q9gI1quCm)
+
+### A video playlist by Prof. Hiu Wong on quantum computing is available: [Quantum Computing Hardware and Architecture](https://youtube.com/playlist?list=PLnK6MrIqGXsL1KShnocSdwNSiKnBodpie&si=TweZXcEdzKICIju9)
 
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
@@ -613,6 +617,95 @@ Adapted from: Zou et al., *Quantum Computing on Magnetic Racetracks with Flying 
 Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+## Cryostats & Dilution Refrigerators on the Market
+```
+CRYOGENIC VESSELS
+├─ Passive Vessels (no active temperature control)
+│   └─ Dewar Flasks [L]         ← vacuum-insulated storage
+│       ├─ Static/ Storage Dewar
+│       ├─ Transport Dewar (road/ air)
+│       └─ Open “bucket” Dewar (bench-top dip)
+└─ Cryostats (instrumented cryogenic vessels, with active temperature control)
+    ├─ Liquid-Filled Platforms [L]
+    │   ├─ Bath Cryostat
+    │   │   ├─ LN₂ bath (~77 K)
+    │   │   └─ LHe bath (4.2 K; pumped 1 K pot)
+    │   └─ Continuous-Flow Cryostat (4 K – 300 K; fed from external Dewar)
+    ├─ Closed-Cycle Platforms “Dry” [D]
+    │   ├─ Gifford–McMahon (GM) head (≈ 2 – 4 K)
+    │   └─ Pulse-Tube (PT) head (≈ 2 – 4 K; low vibration)
+    └─ Ultra-Low-T Inserts (mount on any 2–4 K stage)
+        ├─ Dilution Refrigerator (DR) < 10 mK [D‡]
+        ├─ ADR/ PDR 50 – 100 mK [L/D]
+        ├─ ³He Sorption Cooler 250 – 400 mK [L/D]
+        └─ Pumped-⁴He 1 K Stage/ VTI [L/D]
+
+Legend  
+[L] Requires stored liquid cryogen 
+[D] Cryogen-free mechanical (GM or PT) cooler  
+[L/D] Available in both wet-dipstick and dry bolt-on versions  
+[D‡] > 90 % of new DRs ship cryogen-free; a few legacy wet dip-stick units still exist
+
+---
+
+Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels
+├─ Table-Top/ Insert  (< 0.5 m²)
+│   ├─ DR attocube  attoDRY-800/ -1100
+│   ├─ DR Cryogenic Ltd  STM-insert DRs (UHV tubes)
+│   └─ Dewar KGW-Isotherm lab borosilicate/ stainless hybrids  (< 30 L)
+│
+├─ Ultra-Compact Floor  (≈ 0.6 – 0.8 m²)
+│   ├─ DR Bluefors  Ultra-Compact LD  (≤ 300 mm plate)
+│   └─ Dewar Statebourne Cryolab & CryoCycl  LN₂ micro-bulk  (30 – 60 L)
+│
+├─ Compact Floor-Standing  (≈ 1 m²)
+│   ├─ DR  Bluefors  LD/ SD
+│   ├─ DR  FormFactor-HPD  JDry-400  ·  LF-400
+│   ├─ DR  Oxford Instruments  Proteox S
+│   ├─ DR  Quantum Design PPMS DynaCool + DR insert
+│   ├─ Non-DR  Quantum Design PPMS DynaCool without DR insert (standard option)
+│   ├─ Non-DR  Quantum Design PPMS VersaLab 
+│   ├─ Non-DR  Quantum Design MPMS-3 SQUID
+│   └─ Dewar Cryofab  CMSH  liquid-helium Dewars  (20 – 500 L)
+│
+├─ Large-Frame  (≥ 1 m²)
+│   ├─ DR   Bluefors  XLD/  XL
+│   ├─ DR   FormFactor-HPD  XLF-600
+│   ├─ DR   Oxford Instruments  Proteox MX/  LX
+│   ├─ DR   ICE Oxford  DRY-ICE Eden
+│   ├─ DR   Zero Point Cryogenics  Model L
+│   ├─ DR   Leiden Cryogenics  CF-CS-XXL/ 1 m plate
+│   └─ Dewar Wessington  PV/ TPV tanks  ·  Cryo Diffusion  LO/ CDB series  (> 1,000 L)
+│
+└─ Data-Center/ XXL  (> 1.4 m² · multi-PT stacks)
+    ├─ DR   Bluefors  KIDE  (1.6 m² flange)
+    ├─ DR   Cryoconcept  HEXA-DRY XXL  (Ø 800 mm)
+    ├─ DR   QuantumCTek  EZ-Q  (mass-production line)
+    ├─ DR   ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
+    └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
+
+DR: Dilution Refrigerator
+```
+
+#### Additional Notes on Passive Cryogenic Vessels
+| Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal/ safety constraints                                                                                                                                                                                                                    |
+| --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open “bucket” (wide‑mouth Dewar)**                            | LN₂, LAr (occasionally LO₂ for spot cleaning) | 77 K (LN₂)/ 87 K (LAr)                            | Violent bubbling on warm insertion; splash, frost & rapid O₂ enrichment; zero over‑pressure protection — must remain vented (ehs.lbl.gov)                                                                         |
+| **Static storage Dewar**<br>(bench or floor, non‑pressurized)   | LN₂, LAr, LO₂, **LHe (with LN₂ shield)**      | 4.2 K for LHe (inner can)<br>≈ 77 K for LN₂ shield | Multilayer insulation (MLI) plus <10⁻⁵ mbar vacuum to limit radiative & gaseous conduction loads; vented neck to avoid plug ice; shield‑fill adds ≈1 W latent load per litre (americanmagnetics.com, EHRS)                   |
+| **Transport Dewar/ ISO tank**<br>(road, sea, or air certified) | LN₂, **LHe**, LH₂ (ISO‑T75)                   | 4.2 K (LHe)/ 20.3 K (LH₂)                         | Must survive continuous vibration & shocks (ADR, IMDG, IATA); dual or triple pressure‑relief trains sized for full flash; seismic‑stop frame & slosh‑baffle for air cargo (Wessington, cryotherminc.com, ehs.lbl.gov) |
+
+†LO₂ and LH₂ add powerful oxidizer/flammability hazards and are therefore restricted to specially cleaned, oxygen‑compatible or hydrogen‑compatible hardware.
+*Temperature “floor” means the minimum bath temperature achievable at 1 atm with pure, saturated liquid of the listed cryogen(s).
+
+- Thermos (™) combines thermo‑ “heat” with the ‑s denoting a container.
+- Cryostat blends Greek kryos “icy cold” with -stat “standing-place,” literally “cold-standing device.”
+- A Dewar or Dewar flask is essentially an ultra-efficient, vacuum-insulated “thermos.” Dewar is named after its inventor, Sir James Dewar (1842-1923).
+- Open Dewars become impractical for helium because superfluid He-II (below 2.17 K) can “creep” up walls (Rollin film) and escape.
+- For millikelvin work you attach an insert (e.g., dilution refrigerator) to a 4 K flange.
+- Some modern laboratories skip stored liquids entirely by tying the “Cryostat” branch’s pulse-tube coolers straight to a helium-recovery compressor; nevertheless, Dewars are still ubiquitous for transport, purge, and backup.
 
 ---
 
