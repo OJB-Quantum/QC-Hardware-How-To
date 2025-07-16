@@ -687,6 +687,15 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
     ├─ DR   ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
     └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
 ```
+#### Additional Notes on Passive Cryogenic Vessels
+| Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal / safety constraints                                                                                                                                                                                                                    |
+| --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open “bucket” (wide‑mouth Dewar)**                            | LN₂, LAr (occasionally LO₂ for spot cleaning) | 77 K (LN₂) / 87 K (LAr)                            | Violent bubbling on warm insertion; splash, frost & rapid O₂ enrichment; zero over‑pressure protection — must remain vented (ehs.lbl.gov)                                                                         |
+| **Static storage Dewar**<br>(bench or floor, non‑pressurized)   | LN₂, LAr, LO₂, **LHe (with LN₂ shield)**      | 4.2 K for LHe (inner can)<br>≈ 77 K for LN₂ shield | Multilayer insulation (MLI) plus <10⁻⁵ mbar vacuum to limit radiative & gaseous conduction loads; vented neck to avoid plug ice; shield‑fill adds ≈1 W latent load per litre (americanmagnetics.com, EHRS)                   |
+| **Transport Dewar / ISO tank**<br>(road, sea, or air certified) | LN₂, **LHe**, LH₂ (ISO‑T75)                   | 4.2 K (LHe) / 20.3 K (LH₂)                         | Must survive continuous vibration & shocks (ADR, IMDG, IATA); dual or triple pressure‑relief trains sized for full flash; seismic‑stop frame & slosh‑baffle for air cargo (Wessington, cryotherminc.com, ehs.lbl.gov) |
+
+†LO₂ and LH₂ add powerful oxidizer/flammability hazards and are therefore restricted to specially cleaned, oxygen‑compatible or hydrogen‑compatible hardware.
+*Temperature “floor” means the minimum bath temperature achievable at 1 atm with pure, saturated liquid of the listed cryogen(s).
 
 ---
 
