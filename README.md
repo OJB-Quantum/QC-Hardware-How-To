@@ -705,7 +705,7 @@ DR: Dilution Refrigerator
 - Cryostat blends Greek kryos “icy cold” with -stat “standing-place,” literally “cold-standing device.”
 - A Dewar or Dewar flask is essentially an ultra-efficient, vacuum-insulated “thermos.” Dewar is named after its inventor, Sir James Dewar (1842-1923).
 - Open Dewars become impractical for helium because superfluid He-II (below 2.17 K) can “creep” up walls (Rollin film) and escape.
-- For millikelvin work you attach an insert (e.g., dilution refrigerator) to a 4 K flange.
+- For millikelvin work, you attach an insert (e.g., dilution refrigerator) to a 4 K flange.
 - Some modern laboratories skip stored liquids entirely by tying the “Cryostat” branch’s pulse-tube coolers straight to a helium-recovery compressor; nevertheless, Dewars are still ubiquitous for transport, purge, and backup.
 
 ---
