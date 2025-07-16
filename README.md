@@ -624,7 +624,7 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 ```
 CRYOGENIC VESSELS
 ├─ Passive Vessels (no active temperature control)
-│   └─ Dewar Flasks [L]     ← vacuum-insulated storage
+│   └─ Dewar Flasks [L]         ← vacuum-insulated storage
 │       ├─ Static/ Storage Dewar
 │       ├─ Transport Dewar (road/ air)
 │       └─ Open “bucket” Dewar (bench-top dip)
@@ -686,6 +686,8 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
     ├─ DR   QuantumCTek  EZ-Q  (mass-production line)
     ├─ DR   ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
     └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
+
+DR: Dilution Refrigerator
 ```
 #### Additional Notes on Passive Cryogenic Vessels
 | Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal / safety constraints                                                                                                                                                                                                                    |
