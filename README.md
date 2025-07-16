@@ -123,6 +123,8 @@ ________________________________________________________________________________
 
 ### An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
+### A video playlist on quantum metrology is also available: [Quantum Metrology Review](https://youtube.com/playlist?list=PLbW5jviv4ckz60SxXDEnHL12NQ8-h0skk&si=xxxFNi2Q9gI1quCm)
+
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
 | - |
