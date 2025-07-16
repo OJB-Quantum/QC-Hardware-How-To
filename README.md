@@ -689,6 +689,7 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
 
 DR: Dilution Refrigerator
 ```
+
 #### Additional Notes on Passive Cryogenic Vessels
 | Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal/ safety constraints                                                                                                                                                                                                                    |
 | --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -698,6 +699,13 @@ DR: Dilution Refrigerator
 
 †LO₂ and LH₂ add powerful oxidizer/flammability hazards and are therefore restricted to specially cleaned, oxygen‑compatible or hydrogen‑compatible hardware.
 *Temperature “floor” means the minimum bath temperature achievable at 1 atm with pure, saturated liquid of the listed cryogen(s).
+
+- Thermos (™) combines thermo‑ “heat” with the ‑s denoting a container.
+- Cryostat blends Greek kryos “icy cold” with -stat “standing-place,” literally “cold-standing device.”
+- A Dewar or Dewar flask is essentially an ultra-efficient, vacuum-insulated “thermos.” Dewar is named after its inventor, Sir James Dewar (1842-1923).
+- Open Dewars become impractical for helium because superfluid He-II (below 2.17 K) can “creep” up walls (Rollin film) and escape.
+- For millikelvin work you attach an insert (e.g., dilution refrigerator) to a 4 K flange.
+- Some modern laboratories skip stored liquids entirely by tying the “Cryostat” branch’s pulse-tube coolers straight to a helium-recovery compressor; nevertheless, Dewars are still ubiquitous for transport, purge, and backup.
 
 ---
 
