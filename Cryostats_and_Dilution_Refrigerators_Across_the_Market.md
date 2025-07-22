@@ -323,7 +323,7 @@ Thus both systems are cryogen-free dilution refrigerators, but they differ sharp
 | **High-Density Wiring (side-load or top-load)** | Bluefors calls the modular wiring loom “High-Density Wiring,” compatible with XLD. | Provides hundreds of coax/twisted-pair lines; resembles a metallic “chandelier.” |
 | **Colloquial “chandelier”** | Community photos and forum threads show the gold-plated wiring tree hanging from the mixing chamber. | Visual nickname, not a refrigeration stage. |
 
-## **Key idea:** the chandelier is **part of the wiring infrastructure**, not the refrigeration insert. You can call it a **high-density wiring chassis**, a modular loom that brings hundreds of coax, twisted-pair, optical fiber, or ribbon lines down to the mixing-chamber plate. In Bluefors systems the dilution unit is permanently integrated; users add or swap chandeliers (wiring modules, attenuators, filters) to suit qubit count, signal bandwidth, or device technology.
+> **Key idea:** the chandelier is **part of the wiring infrastructure**, not the refrigeration insert. You can call it a **high-density wiring chassis**, a modular loom that brings hundreds of coax, twisted-pair, optical fiber, or ribbon lines down to the mixing-chamber plate. In Bluefors systems the dilution unit is permanently integrated; users add or swap chandeliers (wiring modules, attenuators, filters) to suit qubit count, signal bandwidth, or device technology.
 
 ---
 
@@ -361,7 +361,6 @@ Thus both systems are cryogen-free dilution refrigerators, but they differ sharp
 | **UHV** | *Ultra-High Vacuum* | Vacuum environment (\<10⁻⁹ mbar) required by some millikelvin STMs and DR sample inserts |
 | **VTI** | *Variable-Temperature Insert* (pumped-⁴He “1 K pot”) | 0.8–1.2 K intercept for dense coax bundles before the mixing chamber |
 
-## 
 
 ## **Glossary of Special-Purpose Cryogenic Platforms**
 
