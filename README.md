@@ -511,7 +511,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ---
 
-## Supplementary Figures
+# Supplementary Figures
 
 ---
 
@@ -582,6 +582,25 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 
 ---
 
+### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
+
+Transistor: 
+• transconductance + varistor = transconductance + variable + resistor
+• transfer + resistor -> (widely accepted)
+
+Spintronics:
+• spin + transport + electronics
+• spin + electronics
+
+Qubits (nested, recursive portmanteau):
+• quantum + binary + digit
+• quantum + bit
+
+Qudits:
+• quantum + digit
+
+---
+
 ### Rough Zoology of All Physical Qubits
 
 ![image](https://github.com/user-attachments/assets/479a64ff-7595-417a-b239-84bd50bb4200)
@@ -635,7 +654,7 @@ Notes:
 - It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
 - Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
 - Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
-- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being used is greater than 2 possible outcomes. 
+- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being employed is greater than 2 possible outcomes. 
 
 ```
 
