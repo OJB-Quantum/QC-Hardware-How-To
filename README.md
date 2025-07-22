@@ -363,7 +363,7 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | **Lab**          | **Gallery Link**                                                                                                                     |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | IBM Research     | [https://www.flickr.com/photos/ibm_research_zurich/albums](https://www.flickr.com/photos/ibm_research_zurich/albums)                  |
-| ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/responsive/?q=gallery)                                  |
+| ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/gallery.html)                                  |
 | UWaterloo        | [https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours](https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours) |
 
 ---
@@ -823,7 +823,6 @@ DR: Dilution Refrigerator
 ```
 
 #### Additional Notes on Passive Cryogenic Vessels
-
 | Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal/ safety constraints                                                                                                                                                                                                                    |
 | --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Open “bucket” (wide‑mouth Dewar)**                            | LN₂, LAr (occasionally LO₂ for spot cleaning) | 77 K (LN₂)/ 87 K (LAr)                            | Violent bubbling on warm insertion; splash, frost & rapid O₂ enrichment; zero over‑pressure protection — must remain vented (ehs.lbl.gov)                                                                         |
