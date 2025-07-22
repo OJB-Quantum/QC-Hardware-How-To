@@ -600,7 +600,6 @@ Portmanteaus
 |
 └── Qudits
     └── quantum + digit
-
 ```
 
 ---
@@ -653,7 +652,6 @@ Qubit Classification Tree
       └─ Functional Role
          ├─ Data Qubit
          └─ Ancilla Qubit
-
 ```
 
 > Notes:
@@ -746,7 +744,6 @@ Qubit Architectures vs. Deployment Scale
   │   └─ Dual-rail photons, Hong-Ou-Mandel, teleportation demos
   └─ Superconducting flux qubits (annealing physics)
       └─ Non-stoquastic Hamiltonian & prime-factor test circuits
-
 ```
 
 ---
