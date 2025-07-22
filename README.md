@@ -585,19 +585,19 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 ### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
 
 Transistor: 
-• transconductance + varistor = transconductance + variable + resistor
-• transfer + resistor -> (widely accepted)
+- transconductance + varistor = transconductance + variable + resistor
+- transfer + resistor -> (widely accepted)
 
 Spintronics:
-• spin + transport + electronics
-• spin + electronics
+- spin + transport + electronics
+- spin + electronics
 
 Qubits (nested, recursive portmanteau):
-• quantum + binary + digit
-• quantum + bit
+- quantum + binary + digit
+- quantum + bit
 
 Qudits:
-• quantum + digit
+- quantum + digit
 
 ---
 
