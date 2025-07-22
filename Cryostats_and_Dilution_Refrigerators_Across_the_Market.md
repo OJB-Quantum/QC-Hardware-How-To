@@ -42,7 +42,7 @@ CRYOGENIC VESSELS
 * **\[L/D\]** Available in both wet-dipstick and dry bolt-on versions    
 * **\[D‡\]** \> 90 % of new DRs ship cryogen-free; a few legacy wet dip-stick units still exist
 
- 
+--- 
 
 ## **Europe-Based Leaders**
 
