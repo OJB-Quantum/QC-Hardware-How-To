@@ -133,11 +133,7 @@ CRYOGENIC VESSELS
 
 ### **Footnote on DR “wet” outliers**
 
-## **Dilution Refrigerator (D-only)** refers to \> 90 % of new DRs, which are PT- or GM-pre-cooled. Legacy dip-stick DRs for wet helium baths (e.g., Oxford Heliox VL) still exist but are rarely purchased for new builds. 
-
-## 
-
-##   
+> **Dilution Refrigerator (D-only)** refers to \> 90 % of new DRs, which are PT- or GM-pre-cooled. Legacy dip-stick DRs for wet helium baths (e.g., Oxford Heliox VL) still exist but are rarely purchased for new builds. 
 
 ## **Cryogenic Vendors**
 
@@ -193,8 +189,6 @@ Cryogenic Vendors
 
 **All systems above are cryogen-free (pulse-tube-pre-cooled) unless explicitly labelled “wet”  or “wet bath” (legacy Janis variants).** Vendors continue to offer bespoke wiring looms, optical access, vector magnets and gas-handling automation, allowing the same base frames to serve superconducting-qubit stacks, SNSPD arrays, cavity optomechanics and nano-SQUID STM.
 
-## 
-
 ## **Mind-Map of DR/ Non-DR/ Dewar Sizes (Form-Factors)** 
 
 Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels  
@@ -231,9 +225,7 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
     ├─ DR   Cryoconcept  HEXA-DRY XXL  (Ø 800 mm)  
     ├─ DR   QuantumCTek  EZ-Q  (mass-production line)  
     ├─ DR   ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026\)  
-    └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
-
-##     
+    └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels   
 
 ## **Mind-Map of Cryogenic Vessel Platforms** 
 
@@ -276,8 +268,6 @@ Cryogenic Platforms for Quantum/ Metrology
    ├─ Standard DR               (Mixed/ Balanced)  
    ├─ Large-Frame DR            (Industrial-leaning)  
    └─ Data-Center/ XXL DR      (Industrial-only)
-
-## 
 
 ## **Academic vs Industrial Usage Table**
 
