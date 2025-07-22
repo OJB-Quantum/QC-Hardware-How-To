@@ -288,8 +288,6 @@ Cryogenic Platforms for Quantum/ Metrology
 
 *Legend – “Academic-dominant” \= \>70 % of installed base in universities/public labs; “Industrial-leaning” \= roughly even but trending commercial; “Industrial-only” \= found almost exclusively in corporate fabs or government megaprojects.*
 
-## 
-
 ## **Choosing the Right Variant**
 
 * **≥1 K work** – pumped-⁴He or cryogen-free pulse-tube cryostats are cheapest and least complex.  
@@ -297,7 +295,7 @@ Cryogenic Platforms for Quantum/ Metrology
 * **50–100 mK stable “science-grade” base** – ADRs give motion-free cooling for space instruments; continuous ADRs are now hitting 50 mK nonstop.  
 * **Sub-50 mK, high wiring density (HDW), continuous uptime** – dilution refrigerators (and their KIDE-class big-siblings) are the *de facto* standard for quantum processors, SNSPD arrays, and precision Johnson-noise thermometry.
 
-**Comparison Between Familiar Compact vs. Large-Frame**   
+### Comparison Between Familiar Compact vs. Large-Frame**   
 **PT-Cooled Dilution Refrigerators**
 
 The **Quantum Design PPMS DynaCool** becomes a *compact* dilution refrigerator (≈ 1 m² footprint) when its 50 mK insert (aka DR insert) is installed. A single two-stage PT furnishes the 4 K stage, and a sealed ³He/⁴He loop cools from 300 K to ≈ 45 mK with no external dewars.
