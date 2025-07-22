@@ -511,7 +511,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ---
 
-## Supplementary Figures
+# Supplementary Figures
 
 ---
 
@@ -582,6 +582,30 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 
 ---
 
+### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
+
+```
+Portmanteaus
+├── Transistor
+|   ├── transconductance + varistor
+|   |   └── transconductance + variable + resistor
+|   └── transfer + resistor (widely accepted)
+|
+├── Spintronics
+|   ├── spin + transport + electronics
+|   └── spin + electronics
+|
+├── Qubits
+|   └── quantum + bit
+|       └── quantum + binary + digit
+|
+└── Qudits
+    └── quantum + digit
+
+```
+
+---
+
 ### Rough Zoology of All Physical Qubits
 
 ![image](https://github.com/user-attachments/assets/479a64ff-7595-417a-b239-84bd50bb4200)
@@ -591,6 +615,55 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 --- 
+
+### Classifications of Qubits
+
+```
+Qubit Classification Tree
+└─ Operating Regime
+   ├─ Noisy Intermediate-Scale Quantum (NISQ) Era
+   │  ├─ Abstraction Level
+   │  │  ├─ Physical Qubit
+   │  │  └─ Logical Qubit  (≈1 logical : 1 physical today)
+   │  ├─ Origin
+   │  │  ├─ Natural Qubit
+   │  │  └─ Synthetic Qubit
+   │  ├─ Spectral Control
+   │  │  ├─ Fixed-Frequency Qubit
+   │  │  └─ Tunable Qubit
+   │  ├─ Mobility
+   │  │  ├─ Stationary Qubit
+   │  │  └─ Flying Qubit
+   │  └─ Functional Role
+   │     ├─ Data Qubit
+   │     └─ Ancilla Qubit
+   |
+   └─ Fault-Tolerant (FT) Era
+      ├─ Abstraction Level
+      │  ├─ Physical Qubit
+      │  └─ Logical Qubit  (>1,000 physical per logical)
+      ├─ Origin
+      │  ├─ Natural Qubit
+      │  └─ Synthetic Qubit
+      ├─ Spectral Control
+      │  ├─ Fixed-Frequency Qubit
+      │  └─ Tunable Qubit
+      ├─ Mobility
+      │  ├─ Stationary Qubit
+      │  └─ Flying Qubit
+      └─ Functional Role
+         ├─ Data Qubit
+         └─ Ancilla Qubit
+
+Notes:
+- It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
+- Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
+- Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
+- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being employed is n ≥ 2 possible outcomes. 
+
+```
+
+---
 
 ### Stationary vs. Flying Qubits: 
 
@@ -620,7 +693,47 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 
 ---
 
+### Towards Deployment of Industry-Level Quantum Processors
+
+```
+Qubit Architectures vs. Deployment Scale
+├─ Large-scale/ Data-center-oriented (many traffic lanes)
+│  ├─ Superconducting transmon lattices
+│  │   ├─ IBM 127-qubit Eagle ➜ 1,386-qubit Kookaburra roadmap
+│  │   └─ Google 53-qubit Sycamore, Willow logical-qubit advance
+│  ├─ Neutral-atom arrays
+│  │   └─ QuEra Aquila 256-qubit Rydberg computer (scales to >1,000)
+│  ├─ Photonic cluster-state processors
+│  │   └─ PsiQuantum blueprint for ~10⁶ qubits in datacenter photonics
+│  ├─ Trapped-ion modular racks
+│  │   └─ IonQ Harmony & successor systems with all-to-all links
+│  ├─ Silicon spin-qubit tiles
+│  │   └─ Intel “Tunnel Falls” 12-qubit chip, CMOS foundry integration
+│  └─ Flux-qubit quantum annealers
+│      └─ D-Wave Advantage (>5,000 flux qubits, Pegasus/Zea topologies)
+|
+└─ Small-scale/ Academic-lab chips (few traffic lanes)
+  ├─ Fixed-frequency transmons on single dies
+  │   └─ Cross-resonance & sideband gates, 2-to-10-qubit testbeds
+  ├─ Fluxonium qubits
+  │   └─ >100 µs coherence; microwave-only CZ studies
+  ├─ NV-center diamond qubits
+  │   └─ Two-qubit entanglement & sensor-LASER hybrids
+  ├─ Semiconductor spin quantum dots
+  │   └─ 2-to-4-qubit Si/SiGe or MOS devices (TU Delft, UNSW/ Diraq)
+  ├─ Photonic linear-optics benches
+  │   └─ Dual-rail photons, Hong-Ou-Mandel, teleportation demos
+  └─ Superconducting flux qubits (annealing physics)
+      └─ Non-stoquastic Hamiltonian & prime-factor test circuits
+
+```
+
+---
+
 ## Cryostats & Dilution Refrigerators on the Market
+
+(For more information, see the following document: [Cryostat Market](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Cryostats_and_Dilution_Refrigerators_Across_the_Market.md#cryostats--dilution-refrigerators-across-the-market))
+
 ```
 CRYOGENIC VESSELS
 ├─ Passive Vessels (no active temperature control)
