@@ -14,6 +14,7 @@ Europe continues to ship the broadest catalog of Stock-Keeping Units (SKUs), an 
 
 Note: A cryostat is any vacuum-insulated vessel or assembly that maintains cryogenic temperatures by *any* cooling method—stored liquid nitrogen or helium, a mechanical Gifford-McMahon or pulse-tube cryocooler, a charcoal-pumped **³He** pot, an adiabatic demagnetization refrigerator (ADR) “salt-pill” stage, or a continuous **³He/⁴He** dilution loop. This inclusive definition embraces a standalone liquid-helium Dewar as the simplest cryostat, while every dilution refrigerator is a cryostat that incorporates the **³He/⁴He** mixing loop required for continuous operation below ≈ 100 mK. Intermediate temperature regimes (≈ 300 mK – 1 K) are spanned by plug-in **³He** sorption coolers, ADRs, pumped-**⁴He** variable-temperature inserts (VTIs), and low-vibration 1 K stages, each selected to balance vibration, duty-cycle, and capital or operating cost for a given quantum-hardware or precision-metrology experiment.
 
+```
 CRYOGENIC VESSELS  
 ├─ Passive Vessels (no active temperature control)  
 │   └─ Dewar Flasks \[L\]                                           ← vacuum-insulated storage  
@@ -41,6 +42,7 @@ CRYOGENIC VESSELS
 * **\[D\]** Cryogen-free mechanical (GM or PT) cooler    
 * **\[L/D\]** Available in both wet-dipstick and dry bolt-on versions    
 * **\[D‡\]** \> 90 % of new DRs ship cryogen-free; a few legacy wet dip-stick units still exist
+```
 
 --- 
 
@@ -137,6 +139,7 @@ CRYOGENIC VESSELS
 
 ## **Cryogenic Vendors**
 
+```
 Cryogenic Vendors    
 ├─ Europe Tier-1  
 │  ├─ Dilution Refrigerators  
@@ -177,6 +180,7 @@ Cryogenic Vendors
 
 * **\[D\]** cryogen-free (PT or GM pre-cooled), GM heads are rare in modern DRs; most large DRs are PT-cooled  
 * **\[L\]** requires stored liquid N₂/He
+```
 
 ## **Key Trends (mid-2025)**
 
@@ -191,6 +195,7 @@ Cryogenic Vendors
 
 ## **Mind-Map of DR/ Non-DR/ Dewar Sizes (Form-Factors)** 
 
+```
 Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels  
 ├─ **Table-Top/ Insert  (\< 0.5 m²)**  
 │   ├─ DR attocube  attoDRY-800/ \-1100  
@@ -226,9 +231,11 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
     ├─ DR   QuantumCTek  EZ-Q  (mass-production line)  
     ├─ DR   ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026\)  
     └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels   
+```
 
 ## **Mind-Map of Cryogenic Vessel Platforms** 
 
+```
 Cryogenic Platforms for Quantum/ Metrology  
 ├─ **4–300 K Range**  
 │  ├─ Bath Dewar (He-4)  
@@ -268,6 +275,7 @@ Cryogenic Platforms for Quantum/ Metrology
    ├─ Standard DR               (Mixed/ Balanced)  
    ├─ Large-Frame DR            (Industrial-leaning)  
    └─ Data-Center/ XXL DR      (Industrial-only)
+```
 
 ## **Academic vs Industrial Usage Table**
 
