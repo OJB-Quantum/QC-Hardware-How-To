@@ -6,19 +6,19 @@ Everything you need for quantum hardware engineering in the field.
 
 "In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates." - Onri Jay Benally
 
-_________________________________________________________________________________________________________________________________________________
+--- 
 
 **scatter (physics)**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
 
 **-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
-__________________________________________________________________________________________________________________________________________________
+---
 
 ### Serious Quantum Information Science & Technology Courses Online, Up to the Graduate Level:
 
@@ -47,7 +47,7 @@ ________________________________________________________________________________
 | Quantum Espresso Training                   | Paid       | [Quantum Espresso Training](https://www.udemy.com/course/quantum-espresso-softwaretraining)                     |
 
 
-____________________________________________________________________________________________________________________________________________________________________________
+---
 
 
 ### Another List for Serious Quantum Courses Online, Up to the Graduate Level, (Based on MIT OCW):
@@ -84,15 +84,14 @@ ________________________________________________________________________________
 | Relativistic Quantum Field Theory III            | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-325-relativistic-quantum-field-theory-iii-spring-2007) |
 | Modern Quantum Many-Body Physics for Condensed Matter Systems | [Modern Quantum Many-Body Physics](https://ocw.mit.edu/courses/8-513-modern-quantum-many-body-physics-for-condensed-matter-systems-fall-2021) |
 
-
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 | Click Below To Access Quantum Chip Gallery, TU Delft |
 | - |
 | [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
 | [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 | Some Example Google Colab Notebooks Authored by Onri |  |
 | ----------- | ----------------- |
@@ -105,7 +104,7 @@ ________________________________________________________________________________
 
 Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](https://nbviewer.org/github/OJB-Quantum/QC-Hardware-How-To/tree/main/Jupyter%20Notebook%20Scripts)
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 ### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally:
 
@@ -113,13 +112,13 @@ ________________________________________________________________________________
 
 [Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy).
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 ### A copy of the Nanofabrication Technology for Quantum Chips document, written by Onri Jay Benally: 
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
-________________________________________________________________________________________________________________________________
+--- 
 
 ### An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
@@ -403,12 +402,12 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | AEP 3610                                    | Introductory Quantum Mechanics                              |
 | AEP 3620                                    | Intermediate Quantum Mechanics                              |
 | AEP 4400                                    | Nonlinear & Quantum Optics                                  |
-| AEP 4500 / PHYS 4454                        | Introductory Solid State Physics                            |
+| AEP 4500/ PHYS 4454                         | Introductory Solid State Physics                            |
 | CHEM 7870                                   | Mathematical Methods of Physical Chemistry                  |
 | CHEM 7910                                   | Advanced Spectroscopy                                      |
 | CHEM 7930                                   | Quantum Mechanics I                                        |
-| CHEME 6860 / SYSEN 5860                     | Quantum Computing & Artificial Intelligence                 |
-| CS 4812 / PHYS 4481                         | Quantum Information Processing                              |
+| CHEME 6860/ SYSEN 5860                      | Quantum Computing & Artificial Intelligence                 |
+| CS 4812/ PHYS 4481                          | Quantum Information Processing                              |
 | ECE 4060                                    | Quantum Physics & Engineering                               |
 | ECE 4070                                    | Physics of Semiconductors & Nanostructures                 |
 | ECE 5310                                    | Quantum Optics for Photonics & Optoelectronics             |
@@ -420,7 +419,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | PHYS 3317                                   | Applications of Quantum Mechanics                          |
 | PHYS 4443                                   | Intermediate Quantum Mechanics                             |
 | PHYS 4444                                   | Introduction to Particle Physics                           |
-| PHYS 4410 / PHYS 6510                       | Advanced Experimental Physics                              |
+| PHYS 4410/ PHYS 6510                        | Advanced Experimental Physics                              |
 | PHYS 6572                                   | Quantum Mechanics I                                       |
 | PHYS 6574                                   | Applications of Quantum Mechanics II                      |
 | PHYS 7636                                   | Solid-State Physics II                                    |
@@ -655,12 +654,34 @@ Qubit Classification Tree
          ├─ Data Qubit
          └─ Ancilla Qubit
 
-Notes:
-- It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
-- Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
-- Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
-- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being employed is n ≥ 2 possible outcomes. 
+```
 
+> Notes:
+> - It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
+> - Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
+> - Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
+> - A qudit is a multilevel generalization of a qubit.
+> - If, and only if, all logical operations are confined to 2 of its levels, a qudit functions as a qubit and they may be referred to as one. 
+> - Once 3 or more levels participate in computation, the correct term is qudit (qutrit, ququart, etc.), not qubit.
+
+---
+
+### Qubit vs. Qudit
+
+| Concept                 | Qubit *(d = 2)*                                                          | General qudit *(d ≥ 3)*                                                           | Can it masquerade as a qubit?                            |
+| ----------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **State space**         | $\mathbb{C}^2$ superpositions $\alpha\lvert0\rangle+\beta\lvert1\rangle$ | $\mathbb{C}^d$ superpositions $\sum_{k=0}^{d-1}\alpha_k\lvert k\rangle$           | Yes, by restricting to a two‑level subspace              |
+| **Universal gate set**  | Single‑qubit rotations + two‑qubit entangler (e.g., CNOT)                | Single‑qudit rotations + two‑qudit entanglers (e.g., generalized SUM)             | Only if gates avoid leakage into levels ≥ 2              |
+| **Error model**         | Bit‑flip, phase‑flip, amplitude damping, etc.                            | Includes those **plus** leakage among higher levels                               | Must suppress or correct leakage                         |
+| **Encoding trade‑offs** | One physical qubit ↔ one logical qubit                                   | Fewer physical carriers per logical register; higher per‑qudit control complexity | Possible via subspace, subsystem, or stabilizer encoding |
+
+```
+Qudit-Related Relationships of Quantum Information Carriers
+└─ Terminology
+   ├─ Qubit = dimension‑2 qudit
+   ├─ Qutrit = dimension‑3 qudit
+   ├─ Ququart = dimension‑4 qudit
+   └─ Qudit = quantum digit (general dimension)
 ```
 
 ---
@@ -805,7 +826,6 @@ DR: Dilution Refrigerator
 ```
 
 #### Additional Notes on Passive Cryogenic Vessels
-
 | Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal/ safety constraints                                                                                                                                                                                                                    |
 | --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Open “bucket” (wide‑mouth Dewar)**                            | LN₂, LAr (occasionally LO₂ for spot cleaning) | 77 K (LN₂)/ 87 K (LAr)                            | Violent bubbling on warm insertion; splash, frost & rapid O₂ enrichment; zero over‑pressure protection — must remain vented (ehs.lbl.gov)                                                                         |
@@ -1011,7 +1031,7 @@ Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, 
 <https://doi.org/10.1063/5.0180987>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
-___________________________________________________________________________________________________________________________________________
+--- 
 
 # Nanotechnology Used for Quantum Chips 
 
@@ -1232,7 +1252,7 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 ![416463711-b38fc75a-c5b4-4ff9-8bf7-c634c6040223](https://github.com/user-attachments/assets/7a4f5462-d043-4d66-95d8-a0fe6004624d)
 > Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
 
-___________________________________________________________________________________________________________________________________________
+--- 
 
 ![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
 
@@ -1296,11 +1316,10 @@ ________________________________________________________________________________
 
 ![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
-___________________________________________________________________________________________________________________________________________
+--- 
 
 
 ## A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
 
 ![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
 
-___________________________________________________________________________________________________________________________________________
