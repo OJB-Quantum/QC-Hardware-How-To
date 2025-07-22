@@ -621,7 +621,8 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 ---
 
 ## Cryostats & Dilution Refrigerators on the Market
-(For more information, see the following document: [Cryostat Market](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Cryostats_and_Dilution_Refrigerators_Across_the_Market.md#cryostats--dilution-refrigerators-across-the-market)
+
+(For more information, see the following document: [Cryostat Market](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Cryostats_and_Dilution_Refrigerators_Across_the_Market.md#cryostats--dilution-refrigerators-across-the-market))
 
 ```
 CRYOGENIC VESSELS
