@@ -310,11 +310,11 @@ Cryogenic Platforms for Quantum/ Metrology
 **Comparison Between Familiar Compact vs. Large-Frame**   
 **PT-Cooled Dilution Refrigerators**
 
-## The **Quantum Design PPMS DynaCool** becomes a *compact* dilution refrigerator (≈ 1 m² footprint) when its 50 mK insert (aka DR insert) is installed. A single two-stage PT furnishes the 4 K stage, and a sealed ³He/⁴He loop cools from 300 K to ≈ 45 mK with no external dewars.
+The **Quantum Design PPMS DynaCool** becomes a *compact* dilution refrigerator (≈ 1 m² footprint) when its 50 mK insert (aka DR insert) is installed. A single two-stage PT furnishes the 4 K stage, and a sealed ³He/⁴He loop cools from 300 K to ≈ 45 mK with no external dewars.
 
-## The **Bluefors XLDsl** is a *large-frame* PT-cooled refrigerator with the dilution circuit factory-integrated. Its 500 mm mixing-chamber flange, dual-PT stack and ≥ 1,000 µW cooling power at 100 mK support up to 1,008 coax/twisted-pair/FPC/optical lines delivered by hot-swappable High-Density Wiring “chandeliers.” 
+The **Bluefors XLDsl** is a *large-frame* PT-cooled refrigerator with the dilution circuit factory-integrated. Its 500 mm mixing-chamber flange, dual-PT stack and ≥ 1,000 µW cooling power at 100 mK support up to 1,008 coax/twisted-pair/FPC/optical lines delivered by hot-swappable High-Density Wiring “chandeliers.” 
 
-## Thus both systems are cryogen-free dilution refrigerators, but they differ sharply in flange size, cooling power, wiring density and upgrade path rather than in the basic refrigeration principle.
+Thus both systems are cryogen-free dilution refrigerators, but they differ sharply in flange size, cooling power, wiring density and upgrade path rather than in the basic refrigeration principle.
 
 | Metric | PPMS DynaCool \+ DR Insert | Bluefors XLDsl |
 | ----- | ----- | ----- |
