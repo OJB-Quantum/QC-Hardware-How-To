@@ -832,12 +832,37 @@ DR: Dilution Refrigerator
 †LO₂ and LH₂ add powerful oxidizer/flammability hazards and are therefore restricted to specially cleaned, oxygen‑compatible or hydrogen‑compatible hardware.
 *Temperature “floor” means the minimum bath temperature achievable at 1 atm with pure, saturated liquid of the listed cryogen(s).
 
-- Thermos (™) combines thermo‑ “heat” with the ‑s denoting a container.
-- Cryostat blends Greek kryos “icy cold” with -stat “standing-place,” literally “cold-standing device.”
-- A Dewar or Dewar flask is essentially an ultra-efficient, vacuum-insulated “thermos.” Dewar is named after its inventor, Sir James Dewar (1842-1923).
+- **Thermos™**: commercial trademark (1904) for consumer Dewars (vacuum insulated flask); illustrates the generalization of the scientific invention.
+- **Cryostat**: a portmanteau of Greek **κρύος** (*kryos*, “frost”) \+ *\-stat* (“to make stand, hold”), literally “cold-keeper.”
+- **Dewar** or Dewar flask: is essentially an ultra-efficient, vacuum-insulated “thermos.” Dewar is named after its inventor, Sir James Dewar (1842-1923).
 - Open Dewars become impractical for helium because superfluid He-II (below 2.17 K) can “creep” up walls (Rollin film) and escape.
 - For millikelvin work, you attach an insert (e.g., dilution refrigerator) to a 4 K flange.
 - Some modern laboratories skip stored liquids entirely by tying the “Cryostat” branch’s pulse-tube coolers straight to a helium-recovery compressor; nevertheless, Dewars are still ubiquitous for transport, purge, and backup.
+- **Dilution** *(as in “dilution refrigerator”)*: from Latin **diluere** “to wash away/thin out,” via the French term “dilution”. In a dilution refrigerator the *thinning* of a **³He**\-rich phase into a **⁴He**\-rich phase at ≈ 0.87 K absorbs heat (enthalpy of mixing), allowing continuous cooling to **\<10 mK**. The idea was proposed by Heinz London (1951) and first realized experimentally by the Cambridge–Oxford collaboration in the early 1960s; the term “dilution refrigerator” cemented itself as the technology matured through the 1970s.
+
+---
+
+## What a “Chandelier” Really Is (With Some Examples)
+
+| Term | OEM language | Function |
+| ----- | ----- | ----- |
+| **XLDsl Dilution Refrigerator Measurement System** | Marketed as a *cryogen-free DR measurement system* with large experimental space. | The entire fridge—including still, heat-exchangers, mixing chamber—is already inside the vacuum can. |
+| **High-Density Wiring (side-load or top-load)** | Bluefors calls the modular wiring loom “High-Density Wiring,” compatible with XLD. | Provides hundreds of coax/twisted-pair lines; resembles a metallic “chandelier.” |
+| **Colloquial “chandelier”** | Community photos and forum threads show the gold-plated wiring tree hanging from the mixing chamber. | Visual nickname, not a refrigeration stage. |
+
+> **Key idea:** the chandelier is **part of the wiring infrastructure**, not the refrigeration insert. You can call it a **high-density wiring chassis**, a modular loom that brings hundreds of coax, twisted-pair, optical fiber, or ribbon lines down to the mixing-chamber plate. In Bluefors systems the dilution unit is permanently integrated; users add or swap chandeliers (wiring modules, attenuators, filters) to suit qubit count, signal bandwidth, or device technology.
+
+--- 
+
+## How to Tell an Insert from a Wiring Tree/ Chassis
+
+| Indicator | Dilution Refrigerator Insert | Wiring “Chandelier” |
+| ----- | ----- | ----- |
+| Contains still, heat-exchangers, mixing chamber | **Yes** | No |
+| Circulates ³He/⁴He mixture | **Yes** | No |
+| Must connect to gas-handling system | **Yes** | No |
+| Bolts to 50 mK plate; routes cables & attenuators | Optional plate on bottom | **Primary purpose** |
+| Delivered as stand-alone module for a pre-existing 4 K cryostat | DynaCool DR insert (dry) | N/A—comes with chassis |
 
 ---
 
@@ -1319,4 +1344,3 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 ## A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
 
 ![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
-
