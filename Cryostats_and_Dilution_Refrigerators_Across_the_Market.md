@@ -325,9 +325,7 @@ Cryogenic Platforms for Quantum/ Metrology
 | Base temperature | 45–50 mK | \< 10 mK |
 | Wiring capacity | ≤ 360 RF/DC lines | 1,008 HD lines |
 
-## ---
-
-## 
+---
 
 ## **What the Bluefors XLD “Chandelier” Really Is**
 
@@ -339,7 +337,7 @@ Cryogenic Platforms for Quantum/ Metrology
 
 ## **Key idea:** the chandelier is **part of the wiring infrastructure**, not the refrigeration insert. You can call it a **high-density wiring chassis**, a modular loom that brings hundreds of coax, twisted-pair, optical fiber, or ribbon lines down to the mixing-chamber plate. In Bluefors systems the dilution unit is permanently integrated; users add or swap chandeliers (wiring modules, attenuators, filters) to suit qubit count, signal bandwidth, or device technology.
 
-## ---
+---
 
 ## **How to Tell an Insert from a Wiring Tree/ Chassis**
 
