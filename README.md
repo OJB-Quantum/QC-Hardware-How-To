@@ -688,6 +688,41 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 
 ---
 
+### Towards Deployment of Industry-Level Quantum Processors
+
+```
+Qubit Architectures vs. Deployment Scale
+├─ Large-scale/ Data-center-oriented (many traffic lanes)
+│  ├─ Superconducting transmon lattices
+│  │   ├─ IBM 127-qubit Eagle ➜ 1,386-qubit Kookaburra roadmap
+│  │   └─ Google 53-qubit Sycamore, Willow logical-qubit advance
+│  ├─ Neutral-atom arrays
+│  │   └─ QuEra Aquila 256-qubit Rydberg computer (scales to >1,000)
+│  ├─ Photonic cluster-state processors
+│  │   └─ PsiQuantum blueprint for ~10⁶ qubits in datacenter photonics
+│  ├─ Trapped-ion modular racks
+│  │   └─ IonQ Harmony & successor systems with all-to-all links
+│  ├─ Silicon spin-qubit tiles
+│  │   └─ Intel “Tunnel Falls” 12-qubit chip, CMOS foundry integration
+│  └─ Flux-qubit quantum annealers
+│      └─ D-Wave Advantage (>5,000 flux qubits, Pegasus/Zea topologies)
+└─ Small-scale/ Academic-lab chips (few traffic lanes)
+   ├─ Fixed-frequency transmons on single dies
+   │   └─ Cross-resonance & sideband gates, 2-to-10-qubit testbeds
+   ├─ Fluxonium qubits
+   │   └─ >100 µs coherence; microwave-only CZ studies
+   ├─ NV-center diamond qubits
+   │   └─ Two-qubit entanglement & sensor-LASER hybrids
+   ├─ Semiconductor spin quantum dots
+   │   └─ 2-to-4-qubit Si/SiGe or MOS devices (TU Delft, UNSW/ Diraq)
+   ├─ Photonic linear-optics benches
+   │   └─ Dual-rail photons, Hong-Ou-Mandel, teleportation demos
+   └─ Superconducting flux qubits (annealing physics)
+       └─ Non-stoquastic Hamiltonian & prime-factor test circuits
+```
+
+---
+
 ## Cryostats & Dilution Refrigerators on the Market
 
 (For more information, see the following document: [Cryostat Market](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Cryostats_and_Dilution_Refrigerators_Across_the_Market.md#cryostats--dilution-refrigerators-across-the-market))
