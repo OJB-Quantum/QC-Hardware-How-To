@@ -596,8 +596,8 @@ Portmanteaus
 |   └── spin + electronics
 |
 ├── Qubits
-|   ├── quantum + bit
-|   |   └── quantum + binary + digit
+|   └── quantum + bit
+|       └── quantum + binary + digit
 |
 └── Qudits
     └── quantum + digit
