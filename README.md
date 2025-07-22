@@ -659,7 +659,7 @@ Notes:
 - It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
 - Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
 - Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
-- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being employed is greater than 2 possible outcomes. 
+- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being employed is n ≥ 2 possible outcomes. 
 
 ```
 
