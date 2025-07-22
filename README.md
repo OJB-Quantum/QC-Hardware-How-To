@@ -403,12 +403,12 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | AEP 3610                                    | Introductory Quantum Mechanics                              |
 | AEP 3620                                    | Intermediate Quantum Mechanics                              |
 | AEP 4400                                    | Nonlinear & Quantum Optics                                  |
-| AEP 4500 / PHYS 4454                        | Introductory Solid State Physics                            |
+| AEP 4500/ PHYS 4454                         | Introductory Solid State Physics                            |
 | CHEM 7870                                   | Mathematical Methods of Physical Chemistry                  |
 | CHEM 7910                                   | Advanced Spectroscopy                                      |
 | CHEM 7930                                   | Quantum Mechanics I                                        |
-| CHEME 6860 / SYSEN 5860                     | Quantum Computing & Artificial Intelligence                 |
-| CS 4812 / PHYS 4481                         | Quantum Information Processing                              |
+| CHEME 6860/ SYSEN 5860                      | Quantum Computing & Artificial Intelligence                 |
+| CS 4812/ PHYS 4481                          | Quantum Information Processing                              |
 | ECE 4060                                    | Quantum Physics & Engineering                               |
 | ECE 4070                                    | Physics of Semiconductors & Nanostructures                 |
 | ECE 5310                                    | Quantum Optics for Photonics & Optoelectronics             |
@@ -420,7 +420,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | PHYS 3317                                   | Applications of Quantum Mechanics                          |
 | PHYS 4443                                   | Intermediate Quantum Mechanics                             |
 | PHYS 4444                                   | Introduction to Particle Physics                           |
-| PHYS 4410 / PHYS 6510                       | Advanced Experimental Physics                              |
+| PHYS 4410/ PHYS 6510                        | Advanced Experimental Physics                              |
 | PHYS 6572                                   | Quantum Mechanics I                                       |
 | PHYS 6574                                   | Applications of Quantum Mechanics II                      |
 | PHYS 7636                                   | Solid-State Physics II                                    |
@@ -655,15 +655,15 @@ Qubit Classification Tree
          ├─ Data Qubit
          └─ Ancilla Qubit
 
-Notes:
+```
+
+> Notes:
 - It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
 - Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
 - Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
 - A qudit is a multilevel generalization of a qubit.
 - If, and only if, all logical operations are confined to 2 of its levels, a qudit functions as a qubit and they may be referred to as one. 
 - Once 3 or more levels participate in computation, the correct term is qudit (qutrit, ququart, etc.), not qubit.
-
-```
 
 ---
 
