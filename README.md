@@ -6,19 +6,19 @@ Everything you need for quantum hardware engineering in the field.
 
 "In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates." - Onri Jay Benally
 
-_________________________________________________________________________________________________________________________________________________
+--- 
 
 **scatter (physics)**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
 
 **-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
-__________________________________________________________________________________________________________________________________________________
+---
 
 ### Serious Quantum Information Science & Technology Courses Online, Up to the Graduate Level:
 
@@ -47,7 +47,7 @@ ________________________________________________________________________________
 | Quantum Espresso Training                   | Paid       | [Quantum Espresso Training](https://www.udemy.com/course/quantum-espresso-softwaretraining)                     |
 
 
-____________________________________________________________________________________________________________________________________________________________________________
+---
 
 
 ### Another List for Serious Quantum Courses Online, Up to the Graduate Level, (Based on MIT OCW):
@@ -84,15 +84,14 @@ ________________________________________________________________________________
 | Relativistic Quantum Field Theory III            | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-325-relativistic-quantum-field-theory-iii-spring-2007) |
 | Modern Quantum Many-Body Physics for Condensed Matter Systems | [Modern Quantum Many-Body Physics](https://ocw.mit.edu/courses/8-513-modern-quantum-many-body-physics-for-condensed-matter-systems-fall-2021) |
 
-
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 | Click Below To Access Quantum Chip Gallery, TU Delft |
 | - |
 | [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
 | [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 | Some Example Google Colab Notebooks Authored by Onri |  |
 | ----------- | ----------------- |
@@ -105,7 +104,7 @@ ________________________________________________________________________________
 
 Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](https://nbviewer.org/github/OJB-Quantum/QC-Hardware-How-To/tree/main/Jupyter%20Notebook%20Scripts)
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 ### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally:
 
@@ -113,13 +112,13 @@ ________________________________________________________________________________
 
 [Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy).
 
-__________________________________________________________________________________________________________________________________________________
+--- 
 
 ### A copy of the Nanofabrication Technology for Quantum Chips document, written by Onri Jay Benally: 
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
 
-________________________________________________________________________________________________________________________________
+--- 
 
 ### An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
@@ -601,7 +600,6 @@ Portmanteaus
 |
 └── Qudits
     └── quantum + digit
-
 ```
 
 ---
@@ -654,7 +652,6 @@ Qubit Classification Tree
       └─ Functional Role
          ├─ Data Qubit
          └─ Ancilla Qubit
-
 ```
 
 > Notes:
@@ -747,7 +744,6 @@ Qubit Architectures vs. Deployment Scale
   │   └─ Dual-rail photons, Hong-Ou-Mandel, teleportation demos
   └─ Superconducting flux qubits (annealing physics)
       └─ Non-stoquastic Hamiltonian & prime-factor test circuits
-
 ```
 
 ---
@@ -1032,7 +1028,7 @@ Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, 
 <https://doi.org/10.1063/5.0180987>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
-___________________________________________________________________________________________________________________________________________
+--- 
 
 # Nanotechnology Used for Quantum Chips 
 
@@ -1253,7 +1249,7 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 ![416463711-b38fc75a-c5b4-4ff9-8bf7-c634c6040223](https://github.com/user-attachments/assets/7a4f5462-d043-4d66-95d8-a0fe6004624d)
 > Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
 
-___________________________________________________________________________________________________________________________________________
+--- 
 
 ![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
 
@@ -1317,11 +1313,9 @@ ________________________________________________________________________________
 
 ![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
-___________________________________________________________________________________________________________________________________________
+--- 
 
 
 ## A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
 
 ![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
-
-___________________________________________________________________________________________________________________________________________
