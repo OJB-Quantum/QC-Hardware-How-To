@@ -584,20 +584,26 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 
 ### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
 
-Transistor: 
-- transconductance + varistor = transconductance + variable + resistor
-- transfer + resistor -> (widely accepted)
+```
+Portmanteaus
+├── Transistor
+|   ├── transconductance + varistor
+|   |   └── transconductance + variable + resistor
+|   └── transfer + resistor (widely accepted)
+|
+├── Spintronics
+|   ├── spin + transport + electronics
+|   └── spin + electronics
+|
+├── Qubits
+|   ├── quantum + bit
+|   |   └── quantum + binary + digit
+|
+└── Qudits
+    └── quantum + digit
 
-Spintronics:
-- spin + transport + electronics
-- spin + electronics
-
-Qubits (nested, recursive portmanteau):
-- quantum + binary + digit
-- quantum + bit
-
-Qudits:
-- quantum + digit
+ 
+```
 
 ---
 
@@ -706,19 +712,21 @@ Qubit Architectures vs. Deployment Scale
 │  │   └─ Intel “Tunnel Falls” 12-qubit chip, CMOS foundry integration
 │  └─ Flux-qubit quantum annealers
 │      └─ D-Wave Advantage (>5,000 flux qubits, Pegasus/Zea topologies)
+|
 └─ Small-scale/ Academic-lab chips (few traffic lanes)
-   ├─ Fixed-frequency transmons on single dies
-   │   └─ Cross-resonance & sideband gates, 2-to-10-qubit testbeds
-   ├─ Fluxonium qubits
-   │   └─ >100 µs coherence; microwave-only CZ studies
-   ├─ NV-center diamond qubits
-   │   └─ Two-qubit entanglement & sensor-LASER hybrids
-   ├─ Semiconductor spin quantum dots
-   │   └─ 2-to-4-qubit Si/SiGe or MOS devices (TU Delft, UNSW/ Diraq)
-   ├─ Photonic linear-optics benches
-   │   └─ Dual-rail photons, Hong-Ou-Mandel, teleportation demos
-   └─ Superconducting flux qubits (annealing physics)
-       └─ Non-stoquastic Hamiltonian & prime-factor test circuits
+  ├─ Fixed-frequency transmons on single dies
+  │   └─ Cross-resonance & sideband gates, 2-to-10-qubit testbeds
+  ├─ Fluxonium qubits
+  │   └─ >100 µs coherence; microwave-only CZ studies
+  ├─ NV-center diamond qubits
+  │   └─ Two-qubit entanglement & sensor-LASER hybrids
+  ├─ Semiconductor spin quantum dots
+  │   └─ 2-to-4-qubit Si/SiGe or MOS devices (TU Delft, UNSW/ Diraq)
+  ├─ Photonic linear-optics benches
+  │   └─ Dual-rail photons, Hong-Ou-Mandel, teleportation demos
+  └─ Superconducting flux qubits (annealing physics)
+      └─ Non-stoquastic Hamiltonian & prime-factor test circuits
+
 ```
 
 ---
