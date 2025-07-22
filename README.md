@@ -592,6 +592,50 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 
 --- 
 
+### Classifications of Qubits
+
+```
+Qubit Classification Tree
+└─ Operating Regime
+   ├─ Noisy Intermediate-Scale Quantum (NISQ) Era
+   │  ├─ Abstraction Level
+   │  │  ├─ Physical Qubit
+   │  │  └─ Logical Qubit  (≈1 logical : 1 physical today)
+   │  ├─ Origin
+   │  │  ├─ Natural Qubit
+   │  │  └─ Synthetic Qubit
+   │  ├─ Spectral Control
+   │  │  ├─ Fixed-Frequency Qubit
+   │  │  └─ Tunable Qubit
+   │  ├─ Mobility
+   │  │  ├─ Stationary Qubit
+   │  │  └─ Flying Qubit
+   │  └─ Functional Role
+   │     ├─ Data Qubit
+   │     └─ Ancilla Qubit
+   └─ Fault-Tolerant (FT) Era
+      ├─ Abstraction Level
+      │  ├─ Physical Qubit
+      │  └─ Logical Qubit  (>1,000 physical per logical)
+      ├─ Origin
+      │  ├─ Natural Qubit
+      │  └─ Synthetic Qubit
+      ├─ Spectral Control
+      │  ├─ Fixed-Frequency Qubit
+      │  └─ Tunable Qubit
+      ├─ Mobility
+      │  ├─ Stationary Qubit
+      │  └─ Flying Qubit
+      └─ Functional Role
+         ├─ Data Qubit
+         └─ Ancilla Qubit
+
+Note: It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically. Also, logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more. Meanwhile, some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
+Additionally, a quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being used is greater than 2 possible outcomes. 
+```
+
+---
+
 ### Stationary vs. Flying Qubits: 
 
 | **Category**                          | **Description**                                            |
