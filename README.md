@@ -659,8 +659,28 @@ Notes:
 - It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
 - Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
 - Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
-- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit, if the computational basis being employed is n ≥ 2 possible outcomes. 
+- A quantum digit (qudit) device with n-dimensional states can also be used as a drop-in replacement term for qubit if the computational basis being employed is n ≥ 3 possible outcomes. 
 
+```
+
+---
+
+### Qubit vs. Qudit
+
+| Concept                 | Qubit *(d = 2)*                                                          | General qudit *(d ≥ 3)*                                                           | Can it masquerade as a qubit?                            |
+| ----------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **State space**         | $\mathbb{C}^2$ superpositions $\alpha\lvert0\rangle+\beta\lvert1\rangle$ | $\mathbb{C}^d$ superpositions $\sum_{k=0}^{d-1}\alpha_k\lvert k\rangle$           | Yes, by restricting to a two‑level subspace              |
+| **Universal gate set**  | Single‑qubit rotations + two‑qubit entangler (e.g., CNOT)                | Single‑qudit rotations + two‑qudit entanglers (e.g., generalized SUM)             | Only if gates avoid leakage into levels ≥ 2              |
+| **Error model**         | Bit‑flip, phase‑flip, amplitude damping, etc.                            | Includes those **plus** leakage among higher levels                               | Must suppress or correct leakage                         |
+| **Encoding trade‑offs** | One physical qubit ↔ one logical qubit                                   | Fewer physical carriers per logical register; higher per‑qudit control complexity | Possible via subspace, subsystem, or stabilizer encoding |
+
+```
+Qudit-Related Relationships
+└─ Terminology
+   ├─ Qubit = dimension‑2 qudit
+   ├─ Qutrit = dimension‑3 qudit
+   ├─ Ququart = dimension‑4 qudit
+   └─ Qudit = quantum digit (general dimension)
 ```
 
 ---
