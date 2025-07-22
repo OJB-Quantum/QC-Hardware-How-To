@@ -613,6 +613,7 @@ Qubit Classification Tree
    │  └─ Functional Role
    │     ├─ Data Qubit
    │     └─ Ancilla Qubit
+   |
    └─ Fault-Tolerant (FT) Era
       ├─ Abstraction Level
       │  ├─ Physical Qubit
