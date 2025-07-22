@@ -658,12 +658,12 @@ Qubit Classification Tree
 ```
 
 > Notes:
-- It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
-- Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
-- Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
-- A qudit is a multilevel generalization of a qubit.
-- If, and only if, all logical operations are confined to 2 of its levels, a qudit functions as a qubit and they may be referred to as one. 
-- Once 3 or more levels participate in computation, the correct term is qudit (qutrit, ququart, etc.), not qubit.
+> - It is optional to group the listed qubits into the greater general category of processor qubits or memory qubits as well, which would expand the classification tree dramatically.
+> - Logical qubits for the fault-tolerant era are generally expected to be in large groups of 1,000 or more.
+> - Some IBM quantum architectures are experimenting with correction codes with fewer groups of qubits per logical qubit at this early stage.
+> - A qudit is a multilevel generalization of a qubit.
+> - If, and only if, all logical operations are confined to 2 of its levels, a qudit functions as a qubit and they may be referred to as one. 
+> - Once 3 or more levels participate in computation, the correct term is qudit (qutrit, ququart, etc.), not qubit.
 
 ---
 
