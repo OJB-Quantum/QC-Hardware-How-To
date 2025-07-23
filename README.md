@@ -721,7 +721,7 @@ Qubit Architectures vs. Deployment Scale
 │  │   ├─ IBM “Heron‑class” tunable‑coupler tiles  (modular roadmap)
 │  │   │   ├─ 133‑qubit Heron  r1/r2  chips (baseline fidelity node)
 │  │   │   ├─ Crossbill prototype: 3 Herons + on‑package m‑couplers
-│  │   │   ├─ 462‑qubit Flamingo module: l‑couplers for ~1 m links
+│  │   │   ├─ 462‑qubit Flamingo module: l‑couplers for ~1 meter links
 │  │   │   ├─ 1,386‑qubit Flamingo tri‑module demonstration (2026)
 │  │   │   ├─ Starling fault‑tolerant block (≈200 logical qubits, 10⁸ gates, 2029)
 │  │   │   └─ Blue Jay quantum‑centric supercomputer (≈2,000 logical qubits, 10⁹ gates, 2033)
@@ -746,7 +746,7 @@ Qubit Architectures vs. Deployment Scale
   ├─ NV‑center diamond qubits
   │   └─ Two‑qubit entanglement & sensor‑LASER hybrids
   ├─ Semiconductor spin quantum dots
-  │   └─ 2‑to‑4‑qubit Si/SiGe or MOS devices (TU Delft, UNSW / Diraq)
+  │   └─ 2‑to‑4‑qubit Si/SiGe or MOS devices (TU Delft, UNSW/ Diraq)
   ├─ Photonic linear‑optics benches
   │   └─ Dual‑rail photons, Hong‑Ou‑Mandel, teleportation demos
   └─ Superconducting flux qubits (annealing physics)
