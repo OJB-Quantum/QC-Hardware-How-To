@@ -716,34 +716,41 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 
 ```
 Qubit Architectures vs. Deployment Scale
-├─ Large-scale/ Data-center-oriented (many traffic lanes)
+├─ Large‑scale/ Data‑center‑oriented  (many traffic lanes)
 │  ├─ Superconducting transmon lattices
-│  │   ├─ IBM 127-qubit Eagle ➜ 1,386-qubit Kookaburra roadmap
-│  │   └─ Google 53-qubit Sycamore, Willow logical-qubit advance
-│  ├─ Neutral-atom arrays
-│  │   └─ QuEra Aquila 256-qubit Rydberg computer (scales to >1,000)
-│  ├─ Photonic cluster-state processors
+│  │   ├─ IBM “Heron‑class” tunable‑coupler tiles  (modular roadmap)
+│  │   │   ├─ 133‑qubit Heron  r1/r2  chips (baseline fidelity node)
+│  │   │   ├─ Crossbill prototype: 3 Herons + on‑package m‑couplers
+│  │   │   ├─ 462‑qubit Flamingo module: l‑couplers for ~1 m links
+│  │   │   ├─ 1,386‑qubit Flamingo tri‑module demonstration (2026)
+│  │   │   ├─ Starling fault‑tolerant block (≈200 logical qubits, 10⁸ gates, 2029)
+│  │   │   └─ Blue Jay quantum‑centric supercomputer (≈2,000 logical qubits, 10⁹ gates, 2033)
+│  │   ├─ IBM 127‑qubit Eagle  ➜ 1,386‑qubit Kookaburra (legacy multi‑chip)
+│  │   └─ Google 53‑qubit Sycamore, Willow logical‑qubit advance
+│  ├─ Neutral‑atom arrays
+│  │   └─ QuEra Aquila 256‑qubit Rydberg computer (scales to >1,000)
+│  ├─ Photonic cluster‑state processors
 │  │   └─ PsiQuantum blueprint for ~10⁶ qubits in datacenter photonics
-│  ├─ Trapped-ion modular racks
-│  │   └─ IonQ Harmony & successor systems with all-to-all links
-│  ├─ Silicon spin-qubit tiles
-│  │   └─ Intel “Tunnel Falls” 12-qubit chip, CMOS foundry integration
-│  └─ Flux-qubit quantum annealers
-│      └─ D-Wave Advantage (>5,000 flux qubits, Pegasus/Zea topologies)
+│  ├─ Trapped‑ion modular racks
+│  │   └─ IonQ Harmony & successor systems with all‑to‑all links
+│  ├─ Silicon spin‑qubit tiles
+│  │   └─ Intel “Tunnel Falls” 12‑qubit chip, CMOS foundry integration
+│  └─ Flux‑qubit quantum annealers
+│      └─ D‑Wave Advantage (>5,000 flux qubits, Pegasus/Zea topologies)
 |
-└─ Small-scale/ Academic-lab chips (few traffic lanes)
-  ├─ Fixed-frequency transmons on single dies
-  │   └─ Cross-resonance & sideband gates, 2-to-10-qubit testbeds
+└─ Small‑scale/ Academic‑lab chips  (few traffic lanes)
+  ├─ Fixed‑frequency transmons on single dies
+  │   └─ Cross‑resonance & sideband gates, 2‑to‑10‑qubit testbeds
   ├─ Fluxonium qubits
-  │   └─ >100 µs coherence; microwave-only CZ studies
-  ├─ NV-center diamond qubits
-  │   └─ Two-qubit entanglement & sensor-LASER hybrids
+  │   └─ >100 µs coherence; microwave‑only CZ studies
+  ├─ NV‑center diamond qubits
+  │   └─ Two‑qubit entanglement & sensor‑LASER hybrids
   ├─ Semiconductor spin quantum dots
-  │   └─ 2-to-4-qubit Si/SiGe or MOS devices (TU Delft, UNSW/ Diraq)
-  ├─ Photonic linear-optics benches
-  │   └─ Dual-rail photons, Hong-Ou-Mandel, teleportation demos
+  │   └─ 2‑to‑4‑qubit Si/SiGe or MOS devices (TU Delft, UNSW / Diraq)
+  ├─ Photonic linear‑optics benches
+  │   └─ Dual‑rail photons, Hong‑Ou‑Mandel, teleportation demos
   └─ Superconducting flux qubits (annealing physics)
-      └─ Non-stoquastic Hamiltonian & prime-factor test circuits
+      └─ Non‑stoquastic Hamiltonian & prime‑factor test circuits
 ```
 
 ---
@@ -898,15 +905,15 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 ### Physical Outcomes of Quantum Measurement
 
-| **Quantum Platform** | **Measurement Mechanism** | **Observable Outcome** | **Key Points / Notes** |
+| **Quantum Platform** | **Measurement Mechanism** | **Observable Outcome** | **Key Points/ Notes** |
 |-|-|-|-|
 | **Superconducting Qubits**            | **Dispersive Readout** <br> (cQED architecture) | - Shift in resonance frequency (phase/amplitude change of probe tone) <br> - Often measured via the readout resonators consisting of short superconducting transmission lines that are coupled to a feedline wired to an output, which is wired to a quantum-limited parametric amplifier and typically a high gain, high electron mobility transistor amplifier (HEMT), etc. | - Qubit and resonator are detuned (dispersive regime), leading to a qubit-state-dependent frequency shift $(\pm \chi)$. <br> - Detecting transmitted/reflected microwave signal reveals whether the qubit is in $\lvert 1\rangle$ or $\lvert 0\rangle$. <br> - The measurement “collapses” the qubit state, producing a classical result that can be digitized. | 
 | **Trapped Ions**                       | **Fluorescence Detection** <br> (e.g., electron shelving technique) | - Presence or absence of emitted photons (fluorescence) | - A laser tuned to an electronic transition lights up one qubit state (“bright”) while another remains dark. <br> - Counting photons above a threshold indicates $\lvert 1\rangle$ or $\lvert 0\rangle$, collapsing the ion’s internal state. <br> - Non-resonant states do not fluoresce, providing a clear binary readout. | 
-| **Semiconductor Spin Qubits**          | **Spin-Dependent Tunneling / Spin Blockade** | - Electron tunneling current or charge sensor signal | - In gate-defined quantum dots, measuring the spin state uses energy-selective tunneling (e.g., Pauli spin blockade). <br> - A charge sensor (quantum point contact or single-electron transistor) detects whether an electron tunnels, indicating spin-up vs. spin-down. <br> - This process effectively “collapses” the spin state upon measurement. | 
+| **Semiconductor Spin Qubits**          | **Spin-Dependent Tunneling/ Spin Blockade** | - Electron tunneling current or charge sensor signal | - In gate-defined quantum dots, measuring the spin state uses energy-selective tunneling (e.g., Pauli spin blockade). <br> - A charge sensor (quantum point contact or single-electron transistor) detects whether an electron tunnels, indicating spin-up vs. spin-down. <br> - This process effectively “collapses” the spin state upon measurement. | 
 | **NV Centers in Diamond**             | **Optical Fluorescence Readout** | - Photoluminescence intensity (count rate)                                                                                                 | - The spin state of the NV center (e.g., $(\lvert m_s = 0\rangle)$ vs. $(\lvert m_s = 1\rangle)$ affects the optical emission levels under laser illumination. <br> - Detecting the photoluminescence intensity indicates the spin state. <br> - Measurement collapses the NV center’s ground-state spin wave function into a definite eigenstate. |
-| **Photonic Qubits**                    | **Single-Photon Detection / Homodyne Measurement** | - Detector “click” (photon arrival) <br> or continuous variable amplitude/phase | - In single-photon approaches, a photon counter (e.g., avalanche photodiode, superconducting nanowire) registers a detection event, collapsing the photonic mode. <br> - In continuous-variable systems, homodyne or heterodyne detection measures quadratures of the electromagnetic field, giving classical measurement outcomes that reveal quantum state information. |
-| **Neutral Atoms / Rydberg Atoms**      | **State-Selective Resonant Imaging / Fluorescence** | - Photon emission or ionization detection | - Similar to trapped ions, a resonant laser can cause one hyperfine state to scatter photons (“bright”), while another remains dark. <br> - Rydberg atoms may also be ionized and detected in a channeltron or micro-channel plate detector. The presence/absence of an ion indicates the atomic state. <br> - The measurement outcome collapses the atomic qubit to a definite state in the chosen basis. |
-| **Superconducting Flux or Phase Qubits** | **Switching Current / Flux Detection** | - Change in the current-voltage characteristics of the readout circuit | - While cQED dispersive readout is common, some older or specialized superconducting designs measure flux qubits by detecting shifts in the SQUID magnetization or critical current. <br> - The wave function collapse is reflected in whether the circuit remains in a superconducting state or switches to a normal resistive state. |
+| **Photonic Qubits**                    | **Single-Photon Detection/ Homodyne Measurement** | - Detector “click” (photon arrival) <br> or continuous variable amplitude/phase | - In single-photon approaches, a photon counter (e.g., avalanche photodiode, superconducting nanowire) registers a detection event, collapsing the photonic mode. <br> - In continuous-variable systems, homodyne or heterodyne detection measures quadratures of the electromagnetic field, giving classical measurement outcomes that reveal quantum state information. |
+| **Neutral Atoms / Rydberg Atoms**      | **State-Selective Resonant Imaging/ Fluorescence** | - Photon emission or ionization detection | - Similar to trapped ions, a resonant laser can cause one hyperfine state to scatter photons (“bright”), while another remains dark. <br> - Rydberg atoms may also be ionized and detected in a channeltron or micro-channel plate detector. The presence/absence of an ion indicates the atomic state. <br> - The measurement outcome collapses the atomic qubit to a definite state in the chosen basis. |
+| **Superconducting Flux or Phase Qubits** | **Switching Current/ Flux Detection** | - Change in the current-voltage characteristics of the readout circuit | - While cQED dispersive readout is common, some older or specialized superconducting designs measure flux qubits by detecting shifts in the SQUID magnetization or critical current. <br> - The wave function collapse is reflected in whether the circuit remains in a superconducting state or switches to a normal resistive state. |
 
 > Expanded Explanation of Key Ideas: 
 
@@ -969,7 +976,7 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
-### Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit)
+### Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit or SQL)
 
 ![image](https://github.com/user-attachments/assets/d30050cf-7f06-4788-b7c9-a904dfb76649)
 
