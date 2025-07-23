@@ -989,22 +989,33 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 
 ### Cryogenic Amplifiers & Preamplifiers for Quantum Measurement
 
-| **Amplifier Type** | **Typical 3‑dB Bandwidth (BW)**                                         | **Drive (Pump) Power**                               | **Pump Frequency**                     |
-| ------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------- |
-| JPA                | Tens of MHz (5–50 MHz; ***up to ≈500 MHz*** with impedance engineering) | –30 to –20 dBm for 20 dB gain                        | ≈2 × f\_signal                         |
-| JTWPA              | Multi‑GHz (≈3 GHz span)                                                 | ***–15 dBm to +3 dBm*** on‑chip for 20 dB            | In‑band (phase‑matched, e.g., 7.2 GHz) |
-| KI‑TWPA            | 4–11 GHz (single stage 10–20 dB)                                        | ***–30 to –7 dBm*** depending on film & mixing order | Pump at high band edge (7–10 GHz)      |
-| NKPA               | Few‑MHz BW (gain‑BW ≈50–250 MHz)                                        | –68 to –87 dBm (42 dB gain)                          | Two pumps ±Δ around ω\_0               |
-| QCPA               | 1–2 MHz BW                                                              | ≈1 µW (–30 dBm)                                      | ≈2 × f\_signal (e.g., 740 MHz)         |
+| **Amplifier Type**                         | **Typical 3‑dB Bandwidth (BW)**                                                                    | **Drive (Pump) Power**                                                             | **Pump Frequency**                      |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------- |
+| JPA                                        | Tens of MHz (5–50 MHz; **up to ≈500 MHz** with impedance engineering)                              | –30 to –20 dBm for 20 dB gain                                                      | ≈ 2 × f<sub>signal</sub>                |
+| JTWPA                                      | Multi‑GHz (≈ 3 GHz span)                                                                           | **–15 dBm to +3 dBm** on‑chip for 20 dB                                            | In‑band (phase‑matched, e.g. 7.2 GHz)   |
+| KI‑TWPA                                    | 4–11 GHz (single stage 10–20 dB)                                                                   | **–30 to –7 dBm** (film‑ & mixing‑order dependent)                                 | Pump at high band edge (7–10 GHz)       |
+| NKPA                                       | Few‑MHz BW (gain‑BW ≈ 50–250 MHz)                                                                  | –68 to –87 dBm (42 dB gain)                                                        | Two pumps ±Δ around ω₀                  |
+| QCPA                                       | 1–2 MHz BW                                                                                         | ≈ 1 µW (–30 dBm)                                                                   | ≈ 2 × f<sub>signal</sub> (e.g. 740 MHz) |
+| **HEMT LNA (conventional cryogenic)**      | Multi‑GHz (e.g. 1–18 GHz usable to 22 GHz)                           | DC bias **≈ 20–50 mW** (1.2 V × 27 mA @ 4 K is typical)            | *None* – un‑pumped device               |
+| **HEMT LNA (advanced, Low Noise Factory)** | 4–8 GHz span (variants 0.3–14 GHz also available) | DC bias **≈ 7–15 mW** (0.6 V × 13 mA) | *None* – un‑pumped device               |
+
 
 > Acryonyms
+>
 > **dBm** – Decibels relative to 1 milliwatt
+>
 > **JPA** – Josephson Parametric Amplifier
+>
 > **JTWPA** – Josephson Traveling‑Wave Parametric Amplifier
+> 
 > **KI‑TWPA/ KIT** – Kinetic‑Inductance Traveling‑Wave Parametric Amplifier
+> 
 > **NKPA** – Nanobridge Kinetic‑Inductance Parametric Amplifier
+> 
 > **QCPA** – Quantum‑Capacitance Parametric Amplifier
+> 
 > **RPM** – Resonant Phase Matching
+> 
 > **3‑wave/ 4‑wave mixing** (3WM/ 4WM) – Parametric processes satisfying ωₚ = ωₛ + ωᵢ (3‑wave) or 2 ωₚ = ωₛ + ωᵢ (4‑wave)
 
 ---
