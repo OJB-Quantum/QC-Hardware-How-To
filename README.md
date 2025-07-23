@@ -712,7 +712,7 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 
 ---
 
-### Towards Deployment of Industry-Level Quantum Processors
+### Towards Deployment of Academic vs. Industry-Level Quantum Processors
 
 ```
 Qubit Architectures vs. Deployment Scale
