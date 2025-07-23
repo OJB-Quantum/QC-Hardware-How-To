@@ -360,11 +360,11 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 ## Quantum Hardware Lab Galleries
 
-| **Lab**          | **Gallery Link**                                                                                                                     |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| IBM Research     | [https://www.flickr.com/photos/ibm_research_zurich/albums](https://www.flickr.com/photos/ibm_research_zurich/albums)                  |
-| ETH Zurich       | [https://qudev.phys.ethz.ch/responsive/?q=gallery](https://qudev.phys.ethz.ch/gallery.html)                                  |
-| UWaterloo        | [https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours](https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours) |
+| **Lab**          | **Gallery Link**                                                                            |
+|------------------|---------------------------------------------------------------------------------------------|
+| IBM Research     | <https://www.flickr.com/photos/ibm_research_zurich/albums>                                  |
+| ETH Zurich       | <https://qudev.phys.ethz.ch/gallery.html>                                                   |
+| UWaterloo        | <https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours> |
 
 ---
 
