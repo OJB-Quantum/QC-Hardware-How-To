@@ -996,8 +996,8 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 | KI‑TWPA                                    | 4–11 GHz (single stage 10–20 dB)                                                                   | **–30 to –7 dBm** (film‑ & mixing‑order dependent)                                 | Pump at high band edge (7–10 GHz)       |
 | NKPA                                       | Few‑MHz BW (gain‑BW ≈ 50–250 MHz)                                                                  | –68 to –87 dBm (42 dB gain)                                                        | Two pumps ±Δ around ω₀                  |
 | QCPA                                       | 1–2 MHz BW                                                                                         | ≈ 1 µW (–30 dBm)                                                                   | ≈ 2 × f<sub>signal</sub> (e.g. 740 MHz) |
-| **HEMT LNA (conventional cryogenic)**      | Multi‑GHz (e.g. 1–18 GHz usable to 22 GHz)                           | DC bias **≈ 20–50 mW** (1.2 V × 27 mA @ 4 K is typical)            | *None* – un‑pumped device               |
-| **HEMT LNA (advanced, Low Noise Factory)** | 4–8 GHz span (variants 0.3–14 GHz also available) | DC bias **≈ 7–15 mW** (0.6 V × 13 mA) | *None* – un‑pumped device               |
+| HEMT LNA (conventional cryogenic)      | Multi‑GHz (e.g. 1–18 GHz usable to 22 GHz)                           | DC bias **≈ 20–50 mW** (1.2 V × 27 mA @ 4 K is typical)            | *None* – un‑pumped device               |
+| HEMT LNA (advanced, Low Noise Factory) | 4–8 GHz span (variants 0.3–14 GHz also available) | DC bias **≈ 7–15 mW** (0.6 V × 13 mA) | *None* – un‑pumped device               |
 
 
 > Acryonyms
