@@ -746,7 +746,7 @@ Qubit Architectures vs. Deployment Scale
   ├─ NV‑center diamond qubits
   │   └─ Two‑qubit entanglement & sensor‑LASER hybrids
   ├─ Semiconductor spin quantum dots
-  │   └─ 2‑to‑4‑qubit Si/SiGe or MOS devices (TU Delft, UNSW / Diraq)
+  │   └─ 2‑to‑4‑qubit Si/SiGe or MOS devices (TU Delft, UNSW/ Diraq)
   ├─ Photonic linear‑optics benches
   │   └─ Dual‑rail photons, Hong‑Ou‑Mandel, teleportation demos
   └─ Superconducting flux qubits (annealing physics)
