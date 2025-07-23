@@ -945,7 +945,7 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 ### Microwave & Baseband Control Requirements
 
-|  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) |
+|  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) | 
 | :---: | :---: | :---: |
 | Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns <br> 𝜋-pulse P_av: -80 to -60 dBm <br> Shaped envelope | 1Q Z gates, 2Q gates <br> 0.01-1 ~mA static/pulsed <br> Pulse duration: 10-500 ns <br> Resolution: ~nA |
 | Semiconductor Spin | Single spin Q: 1Q XY gates <br> Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to 1 𝜇s <br> 𝜋-pulse P_av: -60 to +0 dBm <br> Shaped envelope | Single spin Q: 2Q gates <br> S-T Q: XY gates, 2Q gates <br> E-O Q: XY gates, 2Q gates <br> 𝜇V-mV level signals <br> Pulse duration: ns-ms <br> 1 ns rise/fall |
@@ -984,6 +984,28 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry* Appl. Phys. Rev. 10, 021305 (2023)  
 <https://doi.org/10.1063/5.0088229>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### Cryogenic Amplifiers & Preamplifiers for Quantum Measurement
+
+| **Amplifier Type** | **Typical 3‑dB Bandwidth (BW)**                                         | **Drive (Pump) Power**                               | **Pump Frequency**                     |
+| ------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------- |
+| JPA                | Tens of MHz (5–50 MHz; ***up to ≈500 MHz*** with impedance engineering) | –30 to –20 dBm for 20 dB gain                        | ≈2 × f\_signal                         |
+| JTWPA              | Multi‑GHz (≈3 GHz span)                                                 | ***–15 dBm to +3 dBm*** on‑chip for 20 dB            | In‑band (phase‑matched, e.g., 7.2 GHz) |
+| KI‑TWPA            | 4–11 GHz (single stage 10–20 dB)                                        | ***–30 to –7 dBm*** depending on film & mixing order | Pump at high band edge (7–10 GHz)      |
+| NKPA               | Few‑MHz BW (gain‑BW ≈50–250 MHz)                                        | –68 to –87 dBm (42 dB gain)                          | Two pumps ±Δ around ω\_0               |
+| QCPA               | 1–2 MHz BW                                                              | ≈1 µW (–30 dBm)                                      | ≈2 × f\_signal (e.g., 740 MHz)         |
+
+> Acryonyms
+> **dBm** – Decibels relative to 1 milliwatt
+> **JPA** – Josephson Parametric Amplifier
+> **JTWPA** – Josephson Traveling‑Wave Parametric Amplifier
+> **KI‑TWPA/ KIT** – Kinetic‑Inductance Traveling‑Wave Parametric Amplifier
+> **NKPA** – Nanobridge Kinetic‑Inductance Parametric Amplifier
+> **QCPA** – Quantum‑Capacitance Parametric Amplifier
+> **RPM** – Resonant Phase Matching
+> **3‑wave/ 4‑wave mixing** (3WM/ 4WM) – Parametric processes satisfying ωₚ = ωₛ + ωᵢ (3‑wave) or 2 ωₚ = ωₛ + ωᵢ (4‑wave)
 
 ---
 
