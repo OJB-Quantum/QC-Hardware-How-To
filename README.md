@@ -999,6 +999,7 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 | HEMT LNA (conventional cryogenic)      | Multi‑GHz (e.g. 1–18 GHz usable to 22 GHz)                           | DC bias **≈ 20–50 mW** (1.2 V × 27 mA @ 4 K is typical)            | *None* – un‑pumped device               |
 | HEMT LNA (advanced, Low Noise Factory) | 4–8 GHz span (variants 0.3–14 GHz also available) | DC bias **≈ 7–15 mW** (0.6 V × 13 mA) | *None* – un‑pumped device               |
 
+> Note: A cryogenic HEMT LNA may be used by itself whenever a few‑kelvin noise temperature, octave‑wide bandwidth, and large dynamic range are sufficient; but for sub‑kelvin, near‑quantum‑limited measurements (qubit readout, axion searches, squeezed‑state detection) the HEMT is relegated to a second stage and is preceded by a parametric preamplifier (JPA, JTWPA, KI‑TWPA, NKPA, or QCPA) that sets the system noise floor.
 
 > Acryonyms
 >
