@@ -537,9 +537,9 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | 22 | Quanscient             | Tampere (FI) (remote‑friendly)                                             | **Yes**                   | Recruitment posts invite global applicants and emphasise remote flexibility.                                                             |
 
 Notes:
-- Many UK/EU ads phrase eligibility as “must already have the right to work”, which can be satisfied by a graduate visa or Blue‑Card—not necessarily nationality.
-- IBM, D‑Wave, Intel, and Google all advertise quantum‑hardware internships open to international PhD or master’s students, making them prime targets for early‑career applicants.
-- IMEC, Hitachi‑Cambridge, Toshiba Cambridge, QBlox, and Bluefors routinely sponsor visas or accept non‑EU nationals, reflecting the EU’s Horizon‑Europe funding rules that emphasize mobility.
+- UK/EU eligibility – Ads frequently say “must already have the right to work”; that requirement can normally be met via a UK Graduate‑visa, an EU Blue Card or other residence permits, not by nationality alone.
+- Internship openness – IBM and D‑Wave still market quantum‑hardware internships worldwide. Intel and Google list such internships but add “U.S.‑person or export‑licence” clauses, so availability for non‑citizens depends on export‑control clearance.
+- Visa sponsorship – IMEC, QBlox and Bluefors continue to sponsor or hire non‑EU nationals as standard practice. Hitachi‑ and Toshiba‑Cambridge welcome global applicants yet increasingly ask candidates to already hold UK work authorisation; sponsorship is considered case‑by‑case.
 
 ---
 
