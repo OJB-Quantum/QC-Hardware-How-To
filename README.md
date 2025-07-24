@@ -758,27 +758,39 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 
 ```
 Qubit Architectures vs. Deployment Scale
-├─ Large‑scale/ Data‑center‑oriented  (many traffic lanes)
+├─ Large‑scale/ Data‑center‑oriented  (≈10²–10⁶ physical qubits, many lanes)
 │  ├─ Superconducting transmon lattices
-│  │   ├─ IBM “Heron‑class” tunable‑coupler tiles  (modular roadmap)
-│  │   │   ├─ 133‑qubit Heron  r1/r2  chips (baseline fidelity node)
-│  │   │   ├─ Crossbill prototype: 3 Herons + on‑package m‑couplers
-│  │   │   ├─ 462‑qubit Flamingo module: l‑couplers for ~1 meter links
-│  │   │   ├─ 1,386‑qubit Flamingo tri‑module demonstration (2026)
-│  │   │   ├─ Starling fault‑tolerant block (≈200 logical qubits, 10⁸ gates, 2029)
-│  │   │   └─ Blue Jay quantum‑centric supercomputer (≈2,000 logical qubits, 10⁹ gates, 2033)
-│  │   ├─ IBM 127‑qubit Eagle  ➜ 1,386‑qubit Kookaburra (legacy multi‑chip)
-│  │   └─ Google 53‑qubit Sycamore, Willow logical‑qubit advance
+│  │   ├─ IBM “Heron‑class” tunable‑coupler tiles (modular roadmap) 
+│  │   │   ├─ 133‑qubit Heron r1/r2 chips (baseline fidelity node) 
+│  │   │   ├─ Crossbill prototype: 3 Herons + on‑package m‑couplers 
+│  │   │   ├─ 462‑qubit Flamingo module: l‑couplers for ~1 m links 
+│  │   │   ├─ 1,386‑qubit Flamingo tri‑module demonstration (2026) 
+│  │   │   ├─ Starling fault‑tolerant block (≈200 logical qubits, 10⁸ gates, 2029) 
+│  │   │   └─ Blue Jay quantum‑centric supercomputer (≈2,000 logical qubits, 10⁹ gates, 2033) 
+│  │   ├─ IBM 127‑qubit Eagle ➜ 1,386‑qubit Kookaburra (legacy multi‑chip)
+│  │   ├─ Rigetti modular tiles 
+│  │   │   ├─ 84‑qubit Ankaa‑3 (99.5 % CZ fidelity, 2024) 
+│  │   │   ├─ 36‑qubit chiplet prototype (halved error, Jul 2025) 
+│  │   │   └─ 336‑qubit Lyra target (narrow quantum advantage, 2026) 
+│  │   └─ Google Quantum AI 
+│  │       ├─ 53‑qubit Sycamore (2019)
+│  │       ├─ 105‑qubit Willow logical‑scaling chip (2024) 
+│  │       └─ Roadmap toward ~1 M physical qubits & fault-tolerance (~2033) 
 │  ├─ Neutral‑atom arrays
-│  │   └─ QuEra Aquila 256‑qubit Rydberg computer (scales to >1,000)
+│  │   ├─ QuEra Aquila 256‑qubit Rydberg computer (2022 cloud) 
+│  │   ├─ Atom Computing “Phoenix” 1,225‑qubit ytterbium array (2023) 
+│  │   └─ Pasqal roadmap to 10,000‑qubit array (2026) 
 │  ├─ Photonic cluster‑state processors
-│  │   └─ PsiQuantum blueprint for ~10⁶ qubits in datacenter photonics
+│  │   ├─ PsiQuantum Omega silicon‑photonics chiplets, mass‑fab (2025) 
+│  │   └─ Xanadu Borealis 216‑mode Gaussian‑boson‑sampler (2022) 
 │  ├─ Trapped‑ion modular racks
-│  │   └─ IonQ Harmony & successor systems with all‑to‑all links
+│  │   └─ IonQ Forte (35 algorithmic qubits) + cryptographically relevant quantum computer roadmap (2028) 
 │  ├─ Silicon spin‑qubit tiles
-│  │   └─ Intel “Tunnel Falls” 12‑qubit chip, CMOS foundry integration
+│  │   ├─ Intel “Tunnel Falls” 12‑qubit chip, 300 mm CMOS fab (2023) 
+│  │   ├─ Horse Ridge II 4 K cryo‑CMOS controller (wiring cutback) 
+│  │   └─ Pando Tree mK cryo‑CMOS fan‑out (10–20 mK stage) 
 │  └─ Flux‑qubit quantum annealers
-│      └─ D‑Wave Advantage (>5,000 flux qubits, Pegasus/Zea topologies)
+│      └─ D‑Wave Advantage2 (≈7,000 flux qubits, Zephyr topology, 2025 general availability) 
 |
 └─ Small‑scale/ Academic‑lab chips  (few traffic lanes)
   ├─ Fixed‑frequency transmons on single dies
