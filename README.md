@@ -508,7 +508,6 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | [Chicago Quantum Internships](https://chicagoquantum.org/education-and-training/internships)                            |
 | [QuantumGrad.com Jobs](https://www.quantumgrad.com/jobs)                                                                |
 
----
 
 **Major Player Quantum‑Hardware Employers, Internship/ Job Eligibility & Citizenship Notes:**
 
