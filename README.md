@@ -530,7 +530,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | 15 | Bluefors               | Helsinki (FI); Syracuse (US); Delft (NL); Tokyo (JP)                       | **Yes**                   | HQ highlights a “diverse team of 400+ professionals from **50 nations**.”                                                            |
 | 16 | Raith Nano             | Dortmund (DE); Best (NL)                                                   | **Yes**                   | Field‑service ad: “*In possession of an EU residence & working permit*.”                                                                 |
 | 17 | Nanoscribe             | Karlsruhe (DE)                                                             | **Yes**                   | German postings accept non‑EU applicants who secure a work visa.                                                                                         |
-| 18 | FormFactor             | Livermore (US); Dresden (DE)                                               | **Varies**                | Company has filed **82 H‑1B LCAs (2022‑24)**, but some ads say “U.S. work authorisation required.”                                     |
+| 18 | FormFactor             | Livermore (US); Dresden (DE)                                               | **Varies**                | Company has filed **82 H‑1B LCAs (2022‑24)**, but some ads say “U.S. work authorization required.”                                     |
 | 19 | Oxford Instruments     | Abingdon (UK); Concord (US)                                                | **Varies**                | UK listings: “Unable to provide visa sponsorship … must hold right to work in UK.”                                        |
 | 20 | Quantum Design         | San Diego (US)                                                             | **Yes**                   | Equal‑opportunity statement forbids discrimination “on account of … **citizenship**.”                                                   |
 | 21 | QBlox                  | Delft (NL); Boston (US)                                                    | **Yes**                   | Dutch HQ routinely sponsors non‑EU talent; U.S. ads follow standard visa rules.                                                      |
@@ -548,7 +548,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 Notes:
 - UK/EU eligibility – Ads frequently say “must already have the right to work”; that requirement can normally be met via a UK Graduate‑visa, an EU Blue Card or other residence permits, not by nationality alone.
 - Internship openness – IBM and D‑Wave still market quantum‑hardware internships worldwide. Intel and Google list such internships but add “U.S.‑person or export‑licence” clauses, so availability for non‑citizens depends on export‑control clearance.
-- Visa sponsorship – IMEC, QBlox and Bluefors continue to sponsor or hire non‑EU nationals as standard practice. Hitachi‑ and Toshiba‑Cambridge welcome global applicants yet increasingly ask candidates to already hold UK work authorisation; sponsorship is considered case‑by‑case.
+- Visa sponsorship – IMEC, QBlox and Bluefors continue to sponsor or hire non‑EU nationals as standard practice. Hitachi‑ and Toshiba‑Cambridge welcome global applicants yet increasingly ask candidates to already hold UK work authorization; sponsorship is considered case‑by‑case.
 
 ---
 
