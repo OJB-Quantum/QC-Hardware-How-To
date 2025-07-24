@@ -510,6 +510,42 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 
 ---
 
+**Major Player Quantum‑Hardware Employers, Internship/ Job Eligibility & Citizenship Notes:**
+
+| #  | Company                    | Key Quantum‑Hardware Sites That Post Jobs/ Internships                      | Accepts Non‑Citizens?† | Typical Citizenship/ Work‑Authorization Language (Examples)                                                                                                                    |
+| -- | -------------------------- | -------------------------------------------------------------------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | **IBM**                    | Yorktown Heights & Albany (US); Ehningen (DE); Kawasaki (JP); Bromont (CA) | **Yes**                | “International students … are eligible to apply for most roles.”                                                                                                   |
+| 2  | **Microsoft**              | Redmond (US); Delft (NL); Sydney (AU); Lyngby (DK)                         | **Yes**                | Must show *proof of citizenship, permanent residency,* or legal work authorisation in the posting country – not limited to U.S. citizens.               |
+| 3  | **Google (Quantum AI)**    | Santa Barbara/Goleta (US)                                                  | **Yes**                | Recent hardware‑integration listing has *no* citizenship clause, only degree/experience requirements.                                                            |
+| 4  | **Amazon (AWS CQC)**       | Pasadena (US)                                                              | **Yes**                | AWS device‑team adverts list technical criteria but omit citizenship restrictions, relying on standard U.S. work‑authorisation checks.                        |
+| 5  | **Intel**                  | Hillsboro (US); Delft (NL)                                                 | **Yes**                | Quantum‑computing intern ad focuses on PhD status and experience, not nationality.                                                                                 |
+| 6  | **Applied Materials**      | META Center, Santa Clara (US)                                              | **Yes**                | Corporate careers pages state global hiring; no quantum posting currently specifies citizenship limits (general export‑control carve‑outs may apply).     |
+| 7  | **IMEC**                   | Leuven (BE); Delft (NL)                                                    | **Yes**                | Quantum‑sensing researcher ad merely asks that candidates *“qualify for a Belgian work permit.”*                                                                     |
+| 8  | **Honeywell/ Quantinuum** | Broomfield (US); Cambridge (UK)                                            | **Varies**             | U.S. hardware‑installation roles require a **“U.S. person”** (citizen/green‑card/asylee) because of national‑security contracts; UK roles are open.  |
+| 9  | **Hitachi**                | Tokyo (JP); Hitachi‑Cambridge Lab (UK)                                     | **Yes**                | Open call invites applications for silicon‑spin‑qubit projects without citizenship wording.                                                            |
+| 10 | **Toshiba**                | Kawasaki (JP); Cambridge (UK)                                              | **Yes**                | Quantum‑technology division careers page promotes an international “talent community” with no nationality bar.                                              |
+| 11 | **NEC**                    | Tsukuba (JP)                                                               | **Varies**             | Corporate quantum‑computer R\&D is Japan‑based; roles typically require ability to work in Japan (ads cite Japanese language/work‑permit, not nationality).   |
+| 12 | **Fujitsu**                | Wako (JP) & joint RIKEN line                                               | **Yes**                | Researcher advert lists PhD + quantum background—citizenship not mentioned.                                                                               |
+| 13 | **D‑Wave**                 | Burnaby (CA); Palo Alto (US)                                               | **Yes**                | Careers site explicitly offers *internships and co‑ops* for students/graduates and lists remote options in Canada.                        |
+| 14 | **Bluefors**               | Helsinki (FI); Syracuse (US); Delft (NL); Tokyo (JP)                       | **Yes**                | HQ notes a *“diverse team of more than 400 professionals,”* open positions page has no citizenship block.                               |
+| 15 | **Raith Nano**             | Dortmund (DE); Best (NL)                                                   | **Yes**                | Engineering posts normally require EU work authorisation; no blanket nationality ban (company historically sponsors visas case‑by‑case).                                        |
+| 16 | **Nanoscribe**             | Karlsruhe (DE)                                                             | **Yes**                | German postings accept non‑EU candidates who secure a work visa (standard template).                                                                                 |
+| 17 | **FormFactor**             | Livermore (US); Dresden (DE); worldwide demo sites                         | **Varies**             | Firm *has sponsored H‑1B visas in prior years*, yet individual U.S. ads may say “U.S. work authorisation required.”                         |
+| 18 | **Oxford Instruments**     | Abingdon (UK); Concord (US)                                                | **Varies**             | Several UK posts state **“unable to provide visa sponsorship … must hold right to work in UK.”**                                  |
+| 19 | **Quantum Design**         | San Diego (US)                                                             | **Yes**                | Careers page affirms no discrimination “on account of … citizenship,” though recent data show limited visa filings.                          |
+| 20 | **QBlox**                  | Delft (NL); Boston (US)                                                    | **Yes**                | Dutch HQ routinely sponsors non‑EU hires; U.S. site follows standard work‑permit rules (open postings reflect this).                                              |
+| 21 | **Low Noise Factory**      | Gothenburg (SE)                                                            | **Yes**                | Swedish electronics maker’s listings seek cryo‑HEMT engineers; visa sponsorship considered for strong candidates.                                             |
+| 22 | **Quanscient**             | Tampere (FI)                                                               | **Yes**                | Finnish start‑up recruits globally for its quantum‑accelerated multiphysics team; adverts note remote flexibility.                                         |
+
+† “Accepts non‑citizens?” is distilled from publicly available job adverts or corporate policy statements; always check the specific posting because export‑control laws (ITAR/EAR), security clearance, or host‑country visa caps can override general practice.
+
+Notes:
+- Many UK/EU ads phrase eligibility as “must already have the right to work”, which can be satisfied by a graduate visa or Blue‑Card—not necessarily nationality.
+- IBM, D‑Wave, Intel, and Google all advertise quantum‑hardware internships open to international PhD or master’s students, making them prime targets for early‑career applicants.
+- IMEC, Hitachi‑Cambridge, Toshiba Cambridge, QBlox, and Bluefors routinely sponsor visas or accept non‑EU nationals, reflecting the EU’s Horizon‑Europe funding rules that emphasize mobility.
+
+---
+
 # Supplementary Figures
 
 ---
