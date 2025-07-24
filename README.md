@@ -1005,6 +1005,8 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 >
 > **dBm** – Decibels relative to 1 milliwatt
 >
+> **LNA** - Low Noise Amplifier
+>
 > **JPA** – Josephson Parametric Amplifier
 >
 > **JTWPA** – Josephson Traveling‑Wave Parametric Amplifier
