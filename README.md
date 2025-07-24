@@ -755,7 +755,7 @@ Qubit Architectures vs. Deployment Scale
 
 ---
 
-## Cryostats & Dilution Refrigerators on the Market
+### Cryostats & Dilution Refrigerators on the Market
 
 (For more information, see the following document: [Cryostat Market](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Cryostats_and_Dilution_Refrigerators_Across_the_Market.md#cryostats--dilution-refrigerators-across-the-market))
 
@@ -829,7 +829,7 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
 DR: Dilution Refrigerator
 ```
 
-#### Additional Notes on Passive Cryogenic Vessels
+### Additional Notes on Passive Cryogenic Vessels
 
 | Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal/ safety constraints                                                                                                                                                                                                                    |
 | --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -850,7 +850,7 @@ DR: Dilution Refrigerator
 
 ---
 
-## What a “Chandelier” Really Is (With Some Examples)
+### What a “Chandelier” Really Is (With Some Examples)
 
 | Term | OEM language | Function |
 | ----- | ----- | ----- |
