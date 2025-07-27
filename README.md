@@ -552,7 +552,7 @@ Notes:
 
 ---
 
-**Quantum‑Hardware Dissertation Output (US & Canada):**
+**Quantum Hardware Dissertation Output/ Number of Quantum Hardware Labs Per Listed University (US & Canada):**
 
 ```
 ├─ Tier 1 — Mega‑producers (≥ 7 per year)
