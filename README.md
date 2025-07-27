@@ -603,7 +603,7 @@ Notes:
     ├─ Univ. of New Mexico (CQuIC) ............. 3.0 ; 2 labs
     ├─ Université Laval ........................ 3.0 ; 2 labs
     ├─ UC Davis ................................ 3.0 ; 2 labs
-    ├─ University of Minnesota–Twin Cities ..... 2.8 ; 5 labs
+    ├─ University of Minnesota–Twin Cities ..... 2.8 ; ~5 labs
     ├─ University of Pittsburgh ................ 2.5 ; 3 labs
     └─ University of Victoria .................. 1.5 ; 2 labs
 ```
