@@ -566,8 +566,8 @@ Notes:
 │   └─ Stanford University (Stanford) .............................. 10.5 ; 6 labs
 │
 ├─ Tier 2 — Large producers (7 – 9 per year)
-│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ............  9.0 ; 6 labs
 │   ├─ University of Chicago (UChicago) .............................  9.0 ; 6 labs
+│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ............  9.0 ; 6 labs
 │   ├─ University of California, Santa Barbara (UCSB) ..............  9.0 ; 4 labs
 │   ├─ Princeton University (Princeton) ............................  7.5 ; 5 labs
 │   ├─ California Institute of Technology (Caltech) ................  7.5 ; 5 labs
