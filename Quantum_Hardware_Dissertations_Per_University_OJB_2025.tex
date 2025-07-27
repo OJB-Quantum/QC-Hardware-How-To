@@ -81,7 +81,7 @@
     \titlepage
 \end{frame}
 \note{
-    Good morning/afternoon. My name is Onri Jay Benally. Today, I'll present "Mapping the Quantum Hardware Academic Landscape," a significantly expanded survey. We're now looking at a 10-year period and including both Master's and PhD dissertations to get a fuller picture of talent generation in the U.S. and Canada.
+    Good morning/afternoon. My name is Onri Jay Benally. Today, I'll present "Mapping the Quantum Hardware Academic Landscape," a significantly expanded survey. We're looking at a 10-year period and including both Master's and PhD dissertations to get a fuller picture of talent generation in the U.S. and Canada.
 }
 
 %------------------------------------------------
@@ -230,11 +230,11 @@
             \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
             \midrule
             U. of Chicago & 6.0 & 3.0 & 9.0 & ~6 \\
+            U. of Colorado Boulder & 6.0 & 3.0 & 9.0 & ~6 \\
             UC Santa Barbara & 6.0 & 3.0 & 9.0 & ~4 \\
-            U. of Colorado (JILA) & 6.0 & 3.0 & 9.0 & ~6 \\
-            U. of Wisconsin & 5.0 & 2.5 & 7.5 & ~4 \\
             Princeton University & 5.0 & 2.5 & 7.5 & ~5 \\
             Caltech & 5.0 & 2.5 & 7.5 & ~5 \\
+            U. of Wisconsin-Madison & 5.0 & 2.5 & 7.5 & ~4 \\
             \bottomrule
         \end{tabularx}
     \end{table}
@@ -262,20 +262,18 @@
                 enlarge y limits={0.2},
                 xlabel={Avg. Annual Theses Output},
                 xmin=0,
-                symbolic y coords={Stanford, Harvard, UCBerkeley, Maryland, Yale, Waterloo, MIT},
+                symbolic y coords={Stanford, Harvard, Yale, UCBerkeley, Maryland, Waterloo, MIT},
                 ytick=data,
-                yticklabels={Stanford, Harvard, UC Berkeley, U. of Maryland, Yale, U. of Waterloo, MIT},
+                yticklabels={Stanford, Harvard, Yale, UC Berkeley, U. of Maryland, U. of Waterloo, MIT},
                 yticklabel style={align=right, font=\small},
                 legend style={at={(0.97,0.03)}, anchor=south east, legend columns=1, font=\small}
             ]
 
             % PhD data (blue bars)
-
-            \addplot coordinates {(7.0,Stanford) (7.0,Harvard) (8.0,UCBerkeley) (8.0,Maryland) (8.0,Yale) (9.0,Waterloo) (11.0,MIT)};
+            \addplot coordinates {(7.0,Stanford) (7.0,Harvard) (8.0,Yale) (8.0,UCBerkeley) (8.0,Maryland) (9.0,Waterloo) (11.0,MIT)};
 
             % Master's data (red bars) with centered data labels
-
-            \addplot+[nodes near coords, nodes near coords align=center] coordinates {(3.5,Stanford) (3.5,Harvard) (4.0,UCBerkeley) (4.0,Maryland) (4.0,Yale) (4.5,Waterloo) (5.5,MIT)};
+            \addplot+[nodes near coords, nodes near coords align=center] coordinates {(3.5,Stanford) (3.5,Harvard) (4.0,Yale) (4.0,UCBerkeley) (4.0,Maryland) (4.5,Waterloo) (5.5,MIT)};
             
             \legend{PhDs, Master's}
             \end{axis}
@@ -309,14 +307,14 @@
             \toprule
             \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
             \midrule
+            U. of British Columbia & 4.0 & 2.0 & 6.0 & ~12 \\
             U. de Sherbrooke (IQ) & 4.0 & 2.0 & 6.0 & ~11 \\
             U. of Toronto (CQIQC) & 4.0 & 2.0 & 6.0 & ~10 \\
             Duke University & 4.0 & 2.0 & 6.0 & ~4 \\
             U. of Michigan & 4.0 & 2.0 & 6.0 & ~4 \\
-            U. of British Columbia & 4.0 & 2.0 & 6.0 & ~12 \\
-            UIUC & 4.0 & 2.0 & 6.0 & ~3 \\
-            U. of Texas Austin & 4.0 & 2.0 & 6.0 & ~4 \\
+            U. of Texas at Austin & 4.0 & 2.0 & 6.0 & ~4 \\
             Cornell University & 4.0 & 2.0 & 6.0 & ~4 \\
+            UIUC & 4.0 & 2.0 & 6.0 & ~3 \\
             U. of Washington & 4.0 & 2.0 & 6.0 & ~3 \\
             \bottomrule
         \end{tabularx}
@@ -347,14 +345,14 @@
             \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
             \midrule
             McGill University & 3.0 & 1.5 & 4.5 & ~6 \\
+            U. of Calgary & 3.0 & 1.5 & 4.5 & ~5 \\
+            U. of Alberta & 3.0 & 1.5 & 4.5 & ~5 \\
             UCLA & 3.0 & 1.5 & 4.5 & ~3 \\
             Northwestern U. & 3.0 & 1.5 & 4.5 & ~3 \\
             Georgia Tech & 3.0 & 1.5 & 4.5 & ~3 \\
             UC San Diego & 3.0 & 1.5 & 4.5 & ~3 \\
-            U. of Calgary & 3.0 & 1.5 & 4.5 & ~5 \\
             Penn State University & 3.0 & 1.5 & 4.5 & ~3 \\
             Rice University & 3.0 & 1.5 & 4.5 & ~3 \\
-            U. of Alberta & 3.0 & 1.5 & 4.5 & ~5 \\
             \bottomrule
         \end{tabularx}
     \end{table}
@@ -383,9 +381,9 @@
             \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} \\
             \midrule
             U. of Waterloo (IQC) & 9.0 & 4.5 & 13.5 \\
+            U. of British Columbia & 4.0 & 2.0 & 6.0 \\
             U. de Sherbrooke (IQ) & 4.0 & 2.0 & 6.0 \\
             U. of Toronto (CQIQC) & 4.0 & 2.0 & 6.0 \\
-            U. of British Columbia & 4.0 & 2.0 & 6.0 \\
             McGill University & 3.0 & 1.5 & 4.5 \\
             U. of Calgary & 3.0 & 1.5 & 4.5 \\
             U. of Alberta & 3.0 & 1.5 & 4.5 \\
@@ -397,7 +395,7 @@
     \end{block}
 \end{frame}
 \note{
-    Let's revisit the Canadian institutions with our new data. The story is even more compelling. Waterloo's output is immense, and the strong showing from Sherbrooke, Toronto, UBC, and others highlights a national strategy that successfully cultivates talent at all levels, not just the doctoral level. This balanced approach is a significant strategic advantage.
+    Let's revisit the Canadian institutions with our new data. The story is even more compelling. Waterloo's output is immense, and the strong showing from UBC, Sherbrooke, Toronto, and others highlights a national strategy that successfully cultivates talent at all levels, not just the doctoral level. This balanced approach is a significant strategic advantage.
 }
 
 %------------------------------------------------
@@ -420,16 +418,16 @@
             \toprule
             \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
             \midrule
-            Columbia University & 2.0 & 1.0 & 3.0 & ~3 \\
-            U. of Rochester & 2.0 & 1.0 & 3.0 & ~2 \\
             Simon Fraser U. & 2.0 & 1.0 & 3.0 & ~4 \\
-            U. of Arizona & 2.0 & 1.0 & 3.0 & ~2 \\
-            Arizona State U. & 2.0 & 1.0 & 3.0 & ~3 \\ % ADDED ASU
+            Columbia University & 2.0 & 1.0 & 3.0 & ~3 \\
             U. de Montréal & 2.0 & 1.0 & 3.0 & ~3 \\
+            Arizona State U. & 2.0 & 1.0 & 3.0 & ~3 \\
+            U. of Rochester & 2.0 & 1.0 & 3.0 & ~2 \\
+            U. of Arizona & 2.0 & 1.0 & 3.0 & ~2 \\
             U. of New Mexico & 2.0 & 1.0 & 3.0 & ~2 \\
             Université Laval & 2.0 & 1.0 & 3.0 & ~2 \\
             UC Davis & 2.0 & 1.0 & 3.0 & ~2 \\
-            U. of Victoria & 1.0 & 0.5 & 1.5 & ~2 \\
+            U. of Pittsburgh & 1.7 & 0.8 & 2.5 & ~3 \\
             \bottomrule
         \end{tabularx}
     \end{table}
@@ -452,7 +450,7 @@
                     \vspace{1em}
                     \item \textbf{California:} \\ Bay Area (Stanford, Berkeley) and Southern California (Caltech, UCSB, UCLA).
                     \vspace{1em}
-                    \item \textbf{Midwest Hub:} \\ Chicago, Wisconsin, and UIUC form a strong regional cluster.
+                    \item \textbf{Midwest Hub:} \\ Chicago, Wisconsin, UIUC, and Minnesota form a strong regional cluster.
                 \end{itemize}
             \end{block}
         \end{column}
@@ -537,24 +535,22 @@
                 \midrule
                 MIT & 16.5 \\
                 U. of Waterloo & 13.5 \\
-                Yale University & 12.0 \\
                 U. of Maryland & 12.0 \\
                 UC Berkeley & 12.0 \\
+                Yale University & 12.0 \\
                 Harvard University & 10.5 \\
                 Stanford University & 10.5 \\
                 U. of Chicago & 9.0 \\
+                U. of Colorado Boulder & 9.0 \\
                 UC Santa Barbara & 9.0 \\
-                U. of Colorado & 9.0 \\
-                U. of Wisconsin & 7.5 \\
                 Princeton University & 7.5 \\
                 Caltech & 7.5 \\
+                U. of Wisconsin-Madison & 7.5 \\
+                U. of British Columbia & 6.0 \\
                 U. de Sherbrooke & 6.0 \\
                 U. of Toronto & 6.0 \\
                 Duke University & 6.0 \\
                 U. of Michigan & 6.0 \\
-                U. of British Columbia & 6.0 \\
-                UIUC & 6.0 \\
-                U. of Texas Austin & 6.0 \\
                 \bottomrule
             \end{tabularx}
         \end{column}
@@ -563,26 +559,30 @@
                 \toprule
                 \textbf{University} & {\textbf{Total/yr}} \\
                 \midrule
+                U. of Texas at Austin & 6.0 \\
                 Cornell University & 6.0 \\
+                UIUC & 6.0 \\
                 U. of Washington & 6.0 \\
                 McGill University & 4.5 \\
+                U. of Calgary & 4.5 \\
+                U. of Alberta & 4.5 \\
                 UCLA & 4.5 \\
                 Northwestern U. & 4.5 \\
                 Georgia Tech & 4.5 \\
                 UC San Diego & 4.5 \\
-                U. of Calgary & 4.5 \\
                 Penn State University & 4.5 \\
                 Rice University & 4.5 \\
-                U. of Alberta & 4.5 \\
-                Columbia University & 3.0 \\
-                U. of Rochester & 3.0 \\
                 Simon Fraser U. & 3.0 \\
-                U. of Arizona & 3.0 \\
-                Arizona State U. & 3.0 \\ 
+                Columbia University & 3.0 \\
                 U. de Montréal & 3.0 \\
+                Arizona State U. & 3.0 \\
+                U. of Rochester & 3.0 \\
+                U. of Arizona & 3.0 \\
                 U. of New Mexico & 3.0 \\
                 Université Laval & 3.0 \\
                 UC Davis & 3.0 \\
+                U. of Minnesota-TC & 2.8 \\
+                U. of Pittsburgh & 2.5 \\
                 U. of Victoria & 1.5 \\
                 \bottomrule
             \end{tabularx}
