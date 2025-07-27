@@ -552,55 +552,55 @@ Notes:
 
 ---
 
-## Quantum Hardware Thesis Output / Number of Labs per University (U.S. & Canada)
+## Quantum Hardware Thesis Output/ Number of Labs per University (U.S. & Canada)
 ### (Estimated Avg. Total Master’s + Ph.D. Theses per Year over 10 Years)
 
 ```
 ├─ Tier 1 — Mega‑producers (≥ 10 per year)
 │   ├─ Massachusetts Institute of Technology (MIT) .................. 16.5 ; 14 labs
-│   ├─ University of Waterloo (Institute for Quantum Computing—IQC)  13.5 ; 24 labs
-│   ├─ Yale University (Yale) ...................................... 12.0 ; 6 labs
-│   ├─ University of Maryland, College Park (UMD, Joint Quantum Institute—JQI) 12.0 ; 10 labs
+│   ├─ University of Waterloo (IQC) ................................. 13.5 ; 24 labs
+│   ├─ University of Maryland, College Park (UMD/ JQI) ............. 12.0 ; 10 labs
 │   ├─ University of California, Berkeley (UC Berkeley) ............ 12.0 ; 8 labs
+│   ├─ Yale University (Yale) ...................................... 12.0 ; 6 labs
 │   ├─ Harvard University (Harvard) ................................ 10.5 ; 7 labs
 │   └─ Stanford University (Stanford) .............................. 10.5 ; 6 labs
 │
 ├─ Tier 2 — Large producers (7 – 9 per year)
+│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ............  9.0 ; 6 labs
 │   ├─ University of Chicago (UChicago) .............................  9.0 ; 6 labs
 │   ├─ University of California, Santa Barbara (UCSB) ..............  9.0 ; 4 labs
-│   ├─ University of Colorado Boulder (CU Boulder, JILA) ...........  9.0 ; 6 labs
-│   ├─ University of Wisconsin–Madison (UW–Madison) ...............   7.5 ; 4 labs
 │   ├─ Princeton University (Princeton) ............................  7.5 ; 5 labs
-│   └─ California Institute of Technology (Caltech) ................  7.5 ; 5 labs
+│   ├─ California Institute of Technology (Caltech) ................  7.5 ; 5 labs
+│   └─ University of Wisconsin–Madison (UW‑Madison) ................  7.5 ; 4 labs
 │
 ├─ Tier 3 — Medium producers (4 – 6 per year)
-│   ├─ Université de Sherbrooke (Institut Quantique—IQ) ............  6.0 ; 11 labs
-│   ├─ University of Toronto (Centre for Quantum Information & Quantum Control—CQIQC) 6.0 ; 10 labs
-│   ├─ Duke University (Duke) .....................................  6.0 ; 4 labs
+│   ├─ University of British Columbia (UBC/ QMI) ...................  6.0 ; 12 labs
+│   ├─ Université de Sherbrooke (IQ) ...............................  6.0 ; 11 labs
+│   ├─ University of Toronto (CQIQC) ...............................  6.0 ; 10 labs
+│   ├─ Duke University (Duke) ......................................  6.0 ; 4 labs
 │   ├─ University of Michigan (U‑M) ................................  6.0 ; 4 labs
-│   ├─ University of British Columbia (UBC, Quantum Matter Institute—QMI) 6.0 ; 12 labs
-│   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  6.0 ; 3 labs
-│   ├─ University of Texas at Austin (UT Austin) ...................  6.0 ; 4 labs
+│   ├─ University of Texas at Austin (UT Austin) ...................  6.0 ; 4 labs
 │   ├─ Cornell University (Cornell) ................................  6.0 ; 4 labs
+│   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  6.0 ; 3 labs
 │   ├─ University of Washington (UW) ...............................  6.0 ; 3 labs
-│   ├─ McGill University (McGill) .................................. 4.5 ; 6 labs
+│   ├─ McGill University (McGill) .................................   4.5 ; 6 labs
+│   ├─ University of Calgary (UCalgary) ............................  4.5 ; 5 labs
+│   ├─ University of Alberta (UAlberta) ............................  4.5 ; 5 labs
 │   ├─ University of California, Los Angeles (UCLA) ................  4.5 ; 3 labs
 │   ├─ Northwestern University (Northwestern) ......................  4.5 ; 3 labs
 │   ├─ Georgia Institute of Technology (Georgia Tech) ..............  4.5 ; 3 labs
 │   ├─ University of California, San Diego (UC San Diego) ..........  4.5 ; 3 labs
-│   ├─ University of Calgary (UCalgary) ............................  4.5 ; 5 labs
 │   ├─ Pennsylvania State University (Penn State) ..................  4.5 ; 3 labs
-│   ├─ Rice University (Rice) ...................................... 4.5 ; 3 labs
-│   └─ University of Alberta (UAlberta) ............................  4.5 ; 5 labs
+│   └─ Rice University (Rice) ...................................... 4.5 ; 3 labs
 │
 └─ Tier 4 — Focused nodes (1 – 3 per year)
-    ├─ Columbia University (Columbia) ..............................  3.0 ; 3 labs
-    ├─ University of Rochester (U Rochester) .......................  3.0 ; 2 labs
     ├─ Simon Fraser University (SFU) ...............................  3.0 ; 4 labs
-    ├─ University of Arizona (UArizona) ............................  3.0 ; 2 labs
-    ├─ Arizona State University (ASU) ..............................  3.0 ; ~3 labs
+    ├─ Columbia University (Columbia) ..............................  3.0 ; 3 labs
     ├─ Université de Montréal (UdeM) ...............................  3.0 ; 3 labs
-    ├─ University of New Mexico (Center for Quantum Information & Control—CQuIC) 3.0 ; 2 labs
+    ├─ Arizona State University (ASU) ..............................  3.0 ; ~3 labs
+    ├─ University of Rochester (U Rochester) .......................  3.0 ; 2 labs
+    ├─ University of Arizona (UArizona) ............................  3.0 ; 2 labs
+    ├─ University of New Mexico (CQuIC) ............................  3.0 ; 2 labs
     ├─ Université Laval (Laval) ....................................  3.0 ; 2 labs
     ├─ University of California, Davis (UC Davis) ..................  3.0 ; 2 labs
     ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............   2.8 ; ~5 labs
