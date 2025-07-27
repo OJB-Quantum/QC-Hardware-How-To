@@ -44,7 +44,7 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 | Introduction to Quantum Transport           | Paid/Audit | [Introduction to Quantum Transport](https://www.edx.org/learn/electronics/purdue-university-introduction-to-quantum-transport) |
 | Quantum Transport                           | Paid/Audit | [Quantum Transport](https://www.edx.org/learn/nanotechnology/purdue-university-fundamentals-of-nanoelectronics-part-b-quantum-transport) |
 | Quantum Technology: Computing & Sensing, MicroMasters    | Paid/Audit | [Quantum Technology: Computing & Sensing](https://www.edx.org/masters/micromasters/purduex-quantum-technology-computing-and-sensin)           |
-| Quantum Espresso Training                   | Paid       | [Quantum Espresso Training](https://www.udemy.com/course/quantum-espresso-softwaretraining)                     |
+| Quantum Espresso Training                   | Paid       | [Quantum Espresso Training](https://www.udemy.com/courses/search/?q=quantum+espresso&src=sac&kw=quantum+espresso)                     |
 
 
 ---
