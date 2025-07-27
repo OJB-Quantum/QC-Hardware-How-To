@@ -148,7 +148,7 @@
 \begin{frame}
     \frametitle{A Four-Tier System}
     
-    With the inclusion of Master's theses (alongside PhD theses) and a 10-year timeframe, the tier thresholds can be adjusted to reflect higher total output numbers.
+    With the inclusion of Master's theses (alongside PhD theses) and a 10-year timeframe, the tier thresholds have been adjusted to reflect higher total output numbers.
 
     \begin{center}
     \begin{tabularx}{0.9\textwidth}{l >{\RaggedRight}X}
@@ -256,7 +256,7 @@
         \begin{tikzpicture}
             \begin{axis}[
                 xbar stacked,
-                width=0.8\textwidth, 
+                width=0.8\textwidth,
                 height=0.7\textheight,
                 bar width=15pt,
                 enlarge y limits={0.2},
@@ -268,10 +268,13 @@
                 yticklabel style={align=right, font=\small},
                 legend style={at={(0.97,0.03)}, anchor=south east, legend columns=1, font=\small}
             ]
+
             % PhD data (blue bars)
+
             \addplot coordinates {(7.0,Stanford) (7.0,Harvard) (8.0,UCBerkeley) (8.0,Maryland) (8.0,Yale) (9.0,Waterloo) (11.0,MIT)};
-            
+
             % Master's data (red bars) with centered data labels
+
             \addplot+[nodes near coords, nodes near coords align=center] coordinates {(3.5,Stanford) (3.5,Harvard) (4.0,UCBerkeley) (4.0,Maryland) (4.0,Yale) (4.5,Waterloo) (5.5,MIT)};
             
             \legend{PhDs, Master's}
@@ -421,6 +424,7 @@
             U. of Rochester & 2.0 & 1.0 & 3.0 & ~2 \\
             Simon Fraser U. & 2.0 & 1.0 & 3.0 & ~4 \\
             U. of Arizona & 2.0 & 1.0 & 3.0 & ~2 \\
+            Arizona State U. & 2.0 & 1.0 & 3.0 & ~3 \\ % ADDED ASU
             U. de Montréal & 2.0 & 1.0 & 3.0 & ~3 \\
             U. of New Mexico & 2.0 & 1.0 & 3.0 & ~2 \\
             Université Laval & 2.0 & 1.0 & 3.0 & ~2 \\
@@ -574,6 +578,7 @@
                 U. of Rochester & 3.0 \\
                 Simon Fraser U. & 3.0 \\
                 U. of Arizona & 3.0 \\
+                Arizona State U. & 3.0 \\ 
                 U. de Montréal & 3.0 \\
                 U. of New Mexico & 3.0 \\
                 Université Laval & 3.0 \\
