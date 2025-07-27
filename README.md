@@ -552,56 +552,58 @@ Notes:
 
 ---
 
-## Quantum Hardware Dissertation Output/ Number of Quantum Hardware Labs Per Listed University (US & Canada)
+## Quantum Hardware Thesis Output/ Number of Labs Per University (US & Canada)
+### (Estimated Avg. Total Master's & PhD Theses Per Year over 10 Years)
 
 ```
-├─ Tier 1 — Mega‑producers (≥ 7 per year)
-│   ├─ MIT .................................... 11 ; ~14 labs
-│   ├─ University of Waterloo (IQC) ............. 9 ; ~24 labs
-│   ├─ Yale University .......................... 8 ; 6  labs
-│   ├─ University of Maryland (JQI) ............. 8 ; 10 labs
-│   ├─ UC Berkeley .............................. 8 ; 8  labs
-│   ├─ Harvard University ....................... 7 ; 7  labs
-│   └─ Stanford University ...................... 7 ; 6  labs
+├─ Tier 1 — Mega-producers (≥ 10 per year)
+│   ├─ MIT .................................... 16.5 ; ~14 labs
+│   ├─ University of Waterloo (IQC) ............. 13.5 ; ~24 labs
+│   ├─ Yale University .......................... 12.0 ; 6   labs
+│   ├─ University of Maryland (JQI) ............. 12.0 ; 10  labs
+│   ├─ UC Berkeley .............................. 12.0 ; 8   labs
+│   ├─ Harvard University ....................... 10.5 ; 7   labs
+│   └─ Stanford University ...................... 10.5 ; 6   labs
 │
-├─ Tier 2 — Large producers (5 – 6 per year)
-│   ├─ University of Chicago .................... 6 ; 6 labs
-│   ├─ UC Santa Barbara (UCSB) .................. 6 ; 4 labs
-│   ├─ Univ. of Colorado Boulder (JILA) ......... 6 ; 6 labs
-│   ├─ Univ. of Wisconsin ‑ Madison ............. 5 ; 4 labs
-│   ├─ Princeton University ..................... 5 ; 5 labs
-│   └─ California Institute of Technology ....... 5 ; 5 labs
+├─ Tier 2 — Large producers (7–9 per year)
+│   ├─ University of Chicago .................... 9.0 ; 6 labs
+│   ├─ UC Santa Barbara (UCSB) .................. 9.0 ; 4 labs
+│   ├─ Univ. of Colorado Boulder (JILA) ......... 9.0 ; 6 labs
+│   ├─ Univ. of Wisconsin–Madison ............... 7.5 ; 4 labs
+│   ├─ Princeton University ..................... 7.5 ; 5 labs
+│   └─ California Institute of Technology ....... 7.5 ; 5 labs
 │
-├─ Tier 3 — Medium producers (3 – 4 per year)
-│   ├─ Université de Sherbrooke (IQ) ............ 4 ; 11 labs
-│   ├─ Univ. of Toronto (CQIQC) ................. 4 ; 10 labs
-│   ├─ Duke University .......................... 4 ; 4 labs
-│   ├─ University of Michigan ................... 4 ; 4 labs
-│   ├─ Univ. of British Columbia (QMI) .......... 4 ; 12 labs
-│   ├─ UIUC ..................................... 4 ; 3 labs
-│   ├─ Univ. of Texas Austin .................... 4 ; 4 labs
-│   ├─ Cornell University ....................... 4 ; 4 labs
-│   ├─ University of Washington ................. 4 ; 3 labs
-│   ├─ McGill University ........................ 3 ; 6 labs
-│   ├─ UCLA ..................................... 3 ; 3 labs
-│   ├─ Northwestern University .................. 3 ; 3 labs
-│   ├─ Georgia Tech ............................. 3 ; 3 labs
-│   ├─ UC San Diego ............................. 3 ; 3 labs
-│   ├─ University of Calgary .................... 3 ; 5 labs
-│   ├─ Penn State University .................... 3 ; 3 labs
-│   ├─ Rice University .......................... 3 ; 3 labs
-│   └─ University of Alberta .................... 3 ; 5 labs
+├─ Tier 3 — Medium producers (4–6 per year)
+│   ├─ Université de Sherbrooke (IQ) ............ 6.0 ; 11 labs
+│   ├─ Univ. of Toronto (CQIQC) ................. 6.0 ; 10 labs
+│   ├─ Duke University .......................... 6.0 ; 4  labs
+│   ├─ University of Michigan ................... 6.0 ; 4  labs
+│   ├─ Univ. of British Columbia (QMI) .......... 6.0 ; 12 labs
+│   ├─ UIUC ..................................... 6.0 ; 3  labs
+│   ├─ Univ. of Texas Austin .................... 6.0 ; 4  labs
+│   ├─ Cornell University ....................... 6.0 ; 4  labs
+│   ├─ University of Washington ................. 6.0 ; 3  labs
+│   ├─ McGill University ........................ 4.5 ; 6  labs
+│   ├─ UCLA ..................................... 4.5 ; 3  labs
+│   ├─ Northwestern University .................. 4.5 ; 3  labs
+│   ├─ Georgia Tech ............................. 4.5 ; 3  labs
+│   ├─ UC San Diego ............................. 4.5 ; 3  labs
+│   ├─ University of Calgary .................... 4.5 ; 5  labs
+│   ├─ Penn State University .................... 4.5 ; 3  labs
+│   ├─ Rice University .......................... 4.5 ; 3  labs
+│   └─ University of Alberta .................... 4.5 ; 5  labs
 │
-└─ Tier 4 — Focused nodes (1 – 2 per year)
-    ├─ Columbia University ....................... 2 ; 3 labs
-    ├─ University of Rochester ................... 2 ; 2 labs
-    ├─ Simon Fraser University ................... 2 ; 4 labs
-    ├─ University of Arizona ..................... 2 ; 2 labs
-    ├─ Université de Montréal .................... 2 ; 3 labs
-    ├─ Univ. of New Mexico (CQuIC) ............... 2 ; 2 labs
-    ├─ Université Laval .......................... 2 ; 2 labs
-    ├─ UC Davis .................................. 2 ; 2 labs
-    └─ University of Victoria .................... 1 ; 2 labs
+└─ Tier 4 — Focused nodes (1–3 per year)
+├─ Columbia University ...................... 3.0 ; 3 labs
+├─ University of Rochester .................. 3.0 ; 2 labs
+├─ Simon Fraser University .................. 3.0 ; 4 labs
+├─ University of Arizona .................... 3.0 ; 2 labs
+├─ Arizona State University ................. 3.0 ; ~3 labs
+├─ Université de Montréal ................... 3.0 ; 3 labs
+├─ Univ. of New Mexico (CQuIC) .............. 3.0 ; 2 labs
+├─ Université Laval ......................... 3.0 ; 2 labs
+├─ UC Davis ................................. 3.0 ; 2 labs
+└─ University of Victoria ................... 1.5 ; 2 labs
 ```
 
 ---
