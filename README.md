@@ -558,7 +558,7 @@ Notes:
 ```
 ├─ Tier 1 — High‑volume producers (≥ 5 per year)
 │   ├─ Massachusetts Institute of Technology (MIT) ..................  5.0 ; 14 labs
-│   ├─ University of Maryland, College Park (UMD / JQI) .............  5.5 ; 10 labs
+│   ├─ University of Maryland, College Park (UMD/ JQI) .............  5.5 ; 10 labs
 │   └─ Yale University (Yale) ......................................  6.0 ;  6 labs
 │
 ├─ Tier 2 — Moderate producers (3 – 4.9 per year)
@@ -573,9 +573,9 @@ Notes:
 │   └─ University of Chicago (UChicago) .............................  3.0 ;  6 labs
 │
 ├─ Tier 3 — Niche producers (1.5 – 2.9 per year)
-│   ├─ University of British Columbia (UBC / QMI) ...................  2.5 ; 12 labs
+│   ├─ University of British Columbia (UBC/ QMI) ...................  2.5 ; 12 labs
 │   ├─ University of Toronto (CQIQC) ................................  2.5 ; 10 labs
-│   ├─ University of Colorado Boulder (CU Boulder / JILA) ...........  2.5 ;  6 labs
+│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ...........  2.5 ;  6 labs
 │   ├─ Université de Sherbrooke (IQ) ................................  2.0 ; 11 labs
 │   ├─ University of Michigan (U‑M) .................................  2.0 ;  4 labs
 │   ├─ Duke University (Duke) .......................................  2.0 ;  4 labs
