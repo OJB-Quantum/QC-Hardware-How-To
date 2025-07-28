@@ -177,7 +177,7 @@ ________________________________________________________________________________
 
 This document is meant to provide some level of consolidation for those desiring to be involved with quantum hardware engineering. By doing one's best to maintain familiarity with these topics, it is possible to become one who designs, builds, tests, operates, and maintains real quantum machines - a quantum mechanic. Another possibility is to begin working on a doctorate degree in the associated field with these training resources on hand. There are many clickable links in this document, so it might be best to view it using a browser or PDF viewer.
 
-My decision to share these resources is because they have been useful to me in my PhD work. This has been a very interesting path for me as a tribesman from the Navaho Nation. Here is the path: carpenter → electric vehicle researcher → nanotechnologist → quantum mechanic.
+My decision to share these resources is because they have been useful to me in my PhD work. This has been a very interesting path for me as a tribesman from the Navaho Nation. Here is my personal path: carpenter → electric vehicle researcher → nanotechnologist → quantum mechanic.
 
 Please note that open access is a key theme held herein. Enjoy.  
 
