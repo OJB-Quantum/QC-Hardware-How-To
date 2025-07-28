@@ -793,6 +793,69 @@ Qudit-Related Relationships of Quantum Information Carriers
 | **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, $\pi$-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
 | **Flying Qubits**                     | - Photons <br> - Domain walls <br> - Phonons? <br> - Polaritons? <br> - Plasmons? <br> - Magnons? |
 
+```
+Quantum‑Information Carriers
+├─ Stationary Qubits (localized)
+│  ├─ Atom control
+│  │  ├─ Cold atoms
+│  │  │  ├─ Rydberg–Rydberg ► simulators, gates
+│  │  │  ├─ Ground–Rydberg interactions
+│  │  │  ├─ Nuclear‑spin qubits
+│  │  │  ├─ Hybrid atom–ion arrays
+│  │  │  ├─ Fermionic‑atom processors
+│  │  │  └─ Atom ensembles/ superatoms
+│  │  └─ Trapped ions
+│  │     ├─ Zeeman‑split qubits (10 MHz)
+│  │     ├─ Hyperfine qubits (GHz)
+│  │     ├─ Fine‑structure qubits (10 THz)
+│  │     ├─ Optical‑clock qubits (100 THz)
+│  │     ├─ Rydberg‑state ions
+│  │     ├─ Dual‑ion cooling/logic pairs
+│  │     ├─ Penning‑trap arrays
+│  │     ├─ Paul‑trap arrays
+│  │     └─ qCCD (quantum CCD) chains
+│  └─ Electrons control
+│     ├─ Superconductors (Josephson circuits)
+│     │  ├─ Charge qubits → **Transmon**
+│     │  ├─ Flux qubits  → **Fluxonium**
+│     │  ├─ Coaxmon variants
+│     │  ├─ Bosonic encodings
+│     │  │  ├─ GKP codes
+│     │  │  ├─ Cat‑qubits (Kerr‑cat, zero‑π)
+│     │  │  └─ Dual‑rail oscillators
+│     │  └─ π‑Josephson junction qubits
+│     ├─ Silicon/ SiGe/ GaAs
+│     │  ├─ Electron‑spin quantum dots
+│     │  ├─ Hole‑spin qubits
+│     │  ├─ Orbital‑spin qubits
+│     │  ├─ Donor electron & nuclear spins
+│     │  └─ Defect atoms in strained lattice
+│     ├─ Topological
+│     │  └─ Majorana‑fermion qubits
+│     ├─ Cavity vacancies/ color centers
+│     │  ├─ NV centers (diamond)
+│     │  └─ SiV, SnV, T/W/G/C centers, etc.
+│     └─ Magnetic & molecular spins
+│        ├─ Magnetic clusters (e.g., Fe₈)
+│        └─ Magnetic nanodisks (meron/skyrmion)
+| 
+└─ Flying Qubits (mobile)
+   ├─ Photons
+   │  ├─ Time‑bin/ frequency‑bin photons
+   │  ├─ Continuous‑variable (CV) encodings
+   │  │  ├─ CV cluster states
+   │  │  └─ Non‑Gaussian resource states
+   │  ├─ Cluster‑state MBQC
+   │  ├─ Coherent Ising machines
+   │  ├─ Boson sampling/ GBS
+   │  └─ Fusion‑based quantum computing
+   ├─ Flying electrons
+   ├─ Domain‑wall qubits (racetrack memory)
+   ├─ Phonon qubits (SAW, acoustic waveguides)
+   ├─ Exciton‑polariton qubits
+   ├─ Plasmon qubits (graphene, metallic)
+   └─ Magnon qubits (spin‑wave packets)
+```
 Adapted from: Reinke et al., *Phonon-Based Scalable Platform for Chip-Scale Quantum Computing*, AIP Advances 6, 122002 (2016)  
 <https://doi.org/10.1063/1.4972568>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
