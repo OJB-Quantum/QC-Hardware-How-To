@@ -557,7 +557,7 @@ Notes:
 
 ```
 ├─ Tier 1 — High‑volume producers (≥ 5 per year)
-│   ├─ Yale University (Yale) ......................................  6.0 ;  6 labs
+│   ├─ Yale University (Yale) ......................................  6.0 ;  ~6 labs
 │   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; 10 labs
 │   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; 14 labs
 │
