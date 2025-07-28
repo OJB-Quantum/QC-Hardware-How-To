@@ -1051,7 +1051,7 @@ Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, 
 
 ---
 
-### Towards Deployment of Academic vs. Industry-Level Quantum Processors
+### Towards Deployment of Industry-Level vs. Academic Quantum Processors
 
 ```
 Qubit Architectures vs. Deployment Scale
