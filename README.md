@@ -556,56 +556,56 @@ Notes:
 ### (Estimated Avg. Total Master’s + Ph.D. Theses per Year over 10 Years)
 
 ```
-├─ Tier 1 — Mega‑producers (≥ 10 per year)
-│   ├─ Massachusetts Institute of Technology (MIT) .................. 16.5 ; 14 labs
-│   ├─ University of Waterloo (IQC) ................................. 13.5 ; 24 labs
-│   ├─ University of Maryland, College Park (UMD/ JQI) ............. 12.0 ; 10 labs
-│   ├─ University of California, Berkeley (UC Berkeley) ............ 12.0 ; 8 labs
-│   ├─ Yale University (Yale) ...................................... 12.0 ; 6 labs
-│   ├─ Harvard University (Harvard) ................................ 10.5 ; 7 labs
-│   └─ Stanford University (Stanford) .............................. 10.5 ; 6 labs
+├─ Tier 1 — High‑volume producers (≥ 5 per year)
+│   ├─ Massachusetts Institute of Technology (MIT) ..................  5.0 ; 14 labs
+│   ├─ University of Maryland, College Park (UMD/ JQI) .............  5.5 ; 10 labs
+│   └─ Yale University (Yale) ......................................  6.0 ;  6 labs
 │
-├─ Tier 2 — Large producers (7 – 9 per year)
-│   ├─ University of Chicago (UChicago) .............................  9.0 ; 6 labs
-│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ............  9.0 ; 6 labs
-│   ├─ University of California, Santa Barbara (UCSB) ..............  9.0 ; 4 labs
-│   ├─ Princeton University (Princeton) ............................  7.5 ; 5 labs
-│   ├─ California Institute of Technology (Caltech) ................  7.5 ; 5 labs
-│   └─ University of Wisconsin–Madison (UW‑Madison) ................  7.5 ; 4 labs
+├─ Tier 2 — Moderate producers (3 – 4.9 per year)
+│   ├─ University of California, Berkeley (UC Berkeley) .............  4.5 ;  8 labs
+│   ├─ University of California, Santa Barbara (UCSB) ...............  4.0 ;  4 labs
+│   ├─ University of Waterloo (IQC) .................................  4.0 ; 24 labs
+│   ├─ Princeton University (Princeton) .............................  4.0 ;  5 labs
+│   ├─ Harvard University (Harvard) .................................  3.5 ;  7 labs
+│   ├─ Stanford University (Stanford) ...............................  3.5 ;  6 labs
+│   ├─ University of Wisconsin–Madison (UW‑Madison) .................  3.5 ;  4 labs
+│   ├─ California Institute of Technology (Caltech) .................  3.0 ;  5 labs
+│   └─ University of Chicago (UChicago) .............................  3.0 ;  6 labs
 │
-├─ Tier 3 — Medium producers (4 – 6 per year)
-│   ├─ University of British Columbia (UBC/ QMI) ...................  6.0 ; 12 labs
-│   ├─ Université de Sherbrooke (IQ) ...............................  6.0 ; 11 labs
-│   ├─ University of Toronto (CQIQC) ...............................  6.0 ; 10 labs
-│   ├─ Duke University (Duke) ......................................  6.0 ; 4 labs
-│   ├─ University of Michigan (U‑M) ................................  6.0 ; 4 labs
-│   ├─ University of Texas at Austin (UT Austin) ...................  6.0 ; 4 labs
-│   ├─ Cornell University (Cornell) ................................  6.0 ; 4 labs
-│   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  6.0 ; 3 labs
-│   ├─ University of Washington (UW) ...............................  6.0 ; 3 labs
-│   ├─ McGill University (McGill) .................................   4.5 ; 6 labs
-│   ├─ University of Calgary (UCalgary) ............................  4.5 ; 5 labs
-│   ├─ University of Alberta (UAlberta) ............................  4.5 ; 5 labs
-│   ├─ University of California, Los Angeles (UCLA) ................  4.5 ; 3 labs
-│   ├─ Northwestern University (Northwestern) ......................  4.5 ; 3 labs
-│   ├─ Georgia Institute of Technology (Georgia Tech) ..............  4.5 ; 3 labs
-│   ├─ University of California, San Diego (UC San Diego) ..........  4.5 ; 3 labs
-│   ├─ Pennsylvania State University (Penn State) ..................  4.5 ; 3 labs
-│   └─ Rice University (Rice) ...................................... 4.5 ; 3 labs
+├─ Tier 3 — Niche producers (1.5 – 2.9 per year)
+│   ├─ University of British Columbia (UBC/ QMI) ...................  2.5 ; 12 labs
+│   ├─ University of Toronto (CQIQC) ................................  2.5 ; 10 labs
+│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ...........  2.5 ;  6 labs
+│   ├─ Université de Sherbrooke (IQ) ................................  2.0 ; 11 labs
+│   ├─ University of Michigan (U‑M) .................................  2.0 ;  4 labs
+│   ├─ Duke University (Duke) .......................................  2.0 ;  4 labs
+│   ├─ University of Texas at Austin (UT Austin) ....................  2.0 ;  4 labs
+│   ├─ Cornell University (Cornell) .................................  2.0 ;  4 labs
+│   ├─ Rice University (Rice) ......................................  1.5 ;  3 labs
+│   ├─ Pennsylvania State University (Penn State) ...................  1.5 ;  3 labs
+│   ├─ Northwestern University (Northwestern) .......................  1.5 ;  3 labs
+│   ├─ Georgia Institute of Technology (Georgia Tech) ...............  1.5 ;  3 labs
+│   ├─ University of California, Los Angeles (UCLA) .................  1.5 ;  3 labs
+│   ├─ University of California, San Diego (UC San Diego) ...........  1.5 ;  3 labs
+│   ├─ University of Alberta (UAlberta) .............................  1.5 ;  5 labs
+│   ├─ University of Calgary (UCalgary) .............................  1.5 ;  5 labs
+│   ├─ McGill University (McGill) ..................................  1.5 ;  6 labs
+│   ├─ University of Illinois Urbana‑Champaign (UIUC) ...............  1.5 ;  3 labs
+│   ├─ University of Washington (UW) ................................  1.5 ;  3 labs
+│   └─ University of California, Davis (UC Davis) ...................  1.0 ;  2 labs
 │
-└─ Tier 4 — Focused nodes (1 – 3 per year)
-    ├─ Simon Fraser University (SFU) ...............................  3.0 ; 4 labs
-    ├─ Columbia University (Columbia) ..............................  3.0 ; 3 labs
-    ├─ Université de Montréal (UdeM) ...............................  3.0 ; 3 labs
-    ├─ Arizona State University (ASU) ..............................  3.0 ; ~3 labs
-    ├─ University of Rochester (U Rochester) .......................  3.0 ; 2 labs
-    ├─ University of Arizona (UArizona) ............................  3.0 ; 2 labs
-    ├─ University of New Mexico (CQuIC) ............................  3.0 ; 2 labs
-    ├─ Université Laval (Laval) ....................................  3.0 ; 2 labs
-    ├─ University of California, Davis (UC Davis) ..................  3.0 ; 2 labs
-    ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............   2.8 ; ~5 labs
-    ├─ University of Pittsburgh (Pitt) .............................  2.5 ; 3 labs
-    └─ University of Victoria (UVic) ...............................  1.5 ; 2 labs
+└─ Tier 4 — Emerging nodes (< 1.5 per year)
+    ├─ Simon Fraser University (SFU) ...............................  1.0 ;  4 labs
+    ├─ Columbia University (Columbia) ..............................  1.0 ;  3 labs
+    ├─ Université de Montréal (UdeM) ...............................  1.0 ;  3 labs
+    ├─ Arizona State University (ASU) ..............................  1.0 ;  3 labs
+    ├─ University of New Mexico (CQuIC) ............................  1.0 ;  2 labs
+    ├─ University of Rochester (U Rochester) .......................  1.0 ;  2 labs
+    ├─ University of Arizona (UArizona) ............................  1.0 ;  2 labs
+    ├─ Université Laval (Laval) ....................................  1.0 ;  2 labs
+    ├─ University of Minnesota–Twin Cities (UMN‑TC) ................  1.0 ;  ~5 labs
+    ├─ University of Pittsburgh (Pitt) .............................  1.0 ;  3 labs
+    └─ University of Victoria (UVic) ...............................  0.5 ;  2 labs
 ```
 
 ---
@@ -790,9 +790,70 @@ Qudit-Related Relationships of Quantum Information Carriers
 |---------------------------------------|------------------------------------------------------------|
 | **Requirements of Quantum Computing** | **DiVincenzo's Criteria**: <br> - A scalable physical system with well-characterized qubit <br> - The ability to initialize the state of the qubits to a simple fiducial state <br> - Long relevant Quantum coherence times <br> - A "universal" set of quantum gates <br> - A qubit-specific measurement capability |
 | **Types of Qubits**                   | - **Stationary qubits**: Trapped/not in motion, easy to encode information, but hard to communicate <br> - **Flying qubits**: In motion by default, hard to encode information, but easy to communicate |
-| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, $\pi$-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
-| **Flying Qubits**                     | - Photons <br> - Domain walls <br> - Phonons? <br> - Polaritons? <br> - Plasmons? <br> - Magnons? |
 
+```
+Quantum‑Information Carriers
+├─ Stationary Qubits (localized)
+│  ├─ Atom control
+│  │  ├─ Cold atoms
+│  │  │  ├─ Rydberg–Rydberg ► simulators, gates
+│  │  │  ├─ Ground–Rydberg interactions
+│  │  │  ├─ Nuclear‑spin qubits
+│  │  │  ├─ Hybrid atom–ion arrays
+│  │  │  ├─ Fermionic‑atom processors
+│  │  │  └─ Atom ensembles/ superatoms
+│  │  └─ Trapped ions
+│  │     ├─ Zeeman‑split qubits (10 MHz)
+│  │     ├─ Hyperfine qubits (GHz)
+│  │     ├─ Fine‑structure qubits (10 THz)
+│  │     ├─ Optical‑clock qubits (100 THz)
+│  │     ├─ Rydberg‑state ions
+│  │     ├─ Dual‑ion cooling/logic pairs
+│  │     ├─ Penning‑trap arrays
+│  │     ├─ Paul‑trap arrays
+│  │     └─ qCCD (quantum CCD) chains
+│  └─ Electrons control
+│     ├─ Superconductors (Josephson circuits)
+│     │  ├─ Charge qubits → Transmon
+│     │  ├─ Flux qubits  → Fluxonium
+│     │  ├─ Coaxmon variants
+│     │  ├─ Bosonic encodings
+│     │  │  ├─ GKP codes
+│     │  │  ├─ Cat‑qubits (Kerr‑cat, zero‑π)
+│     │  │  └─ Dual‑rail oscillators
+│     │  └─ π‑Josephson junction qubits
+│     ├─ Silicon/ SiGe/ GaAs
+│     │  ├─ Electron‑spin quantum dots
+│     │  ├─ Hole‑spin qubits
+│     │  ├─ Orbital‑spin qubits
+│     │  ├─ Donor electron & nuclear spins
+│     │  └─ Defect atoms in strained lattice
+│     ├─ Topological
+│     │  └─ Majorana‑fermion qubits
+│     ├─ Cavity vacancies/ color centers
+│     │  ├─ NV centers (diamond)
+│     │  └─ SiV, SnV, T/W/G/C centers, etc.
+│     └─ Magnetic & molecular spins
+│        ├─ Magnetic clusters (e.g., Fe₈)
+│        └─ Magnetic nanodisks (meron/skyrmion)
+| 
+└─ Flying Qubits (mobile)
+   ├─ Photons
+   │  ├─ Time‑bin/ frequency‑bin photons
+   │  ├─ Continuous‑variable (CV) encodings
+   │  │  ├─ CV cluster states
+   │  │  └─ Non‑Gaussian resource states
+   │  ├─ Cluster‑state MBQC
+   │  ├─ Coherent Ising machines
+   │  ├─ Boson sampling/ GBS
+   │  └─ Fusion‑based quantum computing
+   ├─ Flying electrons
+   ├─ Domain‑wall qubits (racetrack memory)
+   ├─ Phonon qubits (SAW, acoustic waveguides)
+   ├─ Exciton‑polariton qubits
+   ├─ Plasmon qubits (graphene, metallic)
+   └─ Magnon qubits (spin‑wave packets)
+```
 Adapted from: Reinke et al., *Phonon-Based Scalable Platform for Chip-Scale Quantum Computing*, AIP Advances 6, 122002 (2016)  
 <https://doi.org/10.1063/1.4972568>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
@@ -801,6 +862,13 @@ Adapted from: Zou et al., *Quantum Computing on Magnetic Racetracks with Flying 
 <https://doi.org/10.1103/PhysRevResearch.5.033166>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
+Borrowed from: Dorroh et al., *Theory of Quantum Computation With Magnetic Clusters*, IEEE Trans. Quantum Eng 1, 9076325 (2020)  
+<https://doi.org/10.1109/TQE.2020.2975765>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+Borrowed from: Xia et al., *Qubits based on merons in magnetic nanodisks*, Commun Mater 3, 88 (2022)  
+<https://doi.org/10.1038/s43246-022-00311-w>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ### Some Visualized Examples of Stationary & Flying Qubits: 
 
@@ -809,6 +877,78 @@ Adapted from: Zou et al., *Quantum Computing on Magnetic Racetracks with Flying 
 Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### Quantum Hardware & Quantum Adjacent Hardware Categories
+
+```
+Quantum Hardware + Quantum‑Adjacent Hardware
+├─ I.  Quantum‑Core Hardware
+│   ├─ A. Qubit Technologies
+│   │   ├─ 1. Superconducting Qubits
+│   │   │     • Transmon • Fluxonium • Flux qubit
+│   │   │     • Cavity‑protected (cat‑, binomial‑, GKP‑encoded)
+│   │   ├─ 2. Spin‑Based Qubits
+│   │   │   ├─ a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
+│   │   │   └─ b. Magnetic & Molecular Spins
+│   │   │        • Magnetic clusters (Fe₈, Mn₁₂, heterometallic rings, other candidates)
+│   │   │        • Magnetic nanodisks (meron/ skyrmion qubits)
+│   │   ├─ 3. Bosons (microwave photons, phonons, magnons)
+│   │   └─ 4. Topological/ Majorana Candidates
+│   ├─ B. Quantum Interconnects (“Buses”)
+│   │   ├─ 1. Planar Resonators (CPW λ/4, λ/2, lumped, stripline)
+│   │   ├─ 2. 3‑D Superconducting Cavities
+│   │   ├─ 3. Metamaterial Waveguides & Resonators
+│   │   ├─ 4. Photonic Waveguides & Ring‑resonator PICs
+│   │   └─ 5. Hybrid Quantum Transducers (electro‑optic, electro‑acoustic, magnonic)
+│   ├─ C. Quantum‑Limited & Quantum‑Enhanced Detectors
+│   │   ├─ 1. SNSPD
+│   │   ├─ 2. KID/ MKID
+│   │   ├─ 3. Josephson Photomultipliers (JPM) & Photonics
+│   │   └─ 4. Quantum‑optimised Bolometers/ Calorimeters
+│   ├─ D. Quantum Memories
+│   │   ├─ 1. Rare‑earth AFC crystals
+│   │   ├─ 2. Magnon memories
+│   │   ├─ 3. 3‑D Cat‑code cavities
+│   │   └─ 4. Nuclear‑spin ensembles
+│   └─ E. Quantum Photonic Integrated Circuits (QPICs)
+│       ├─ 1. SiN/ Si/ SiO₂ wafer‑scale
+│       ├─ 2. III‑V hybrids (GaAs, InP)
+│       └─ 3. Diamond & LiNbO₃
+│
+└─ II. Quantum‑Adjacent Hardware
+    ├─ A. Cryogenic Digital Control Logic
+    │   ├─ 1. Single‑Flux‑Quantum families  (RSFQ, RQL, AQFP, eSFQ)
+    │   ├─ 2. Deep‑Cryo CMOS (4 K)
+    │   └─ 3. Milli‑Kelvin CMOS (≤ 100 mK)
+    ├─ B. Cryogenic Mixed‑Signal & RF ICs
+    │   ├─ 1. Time‑interleaved DAC/ADC
+    │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
+    │   └─ 3. Cryo Class‑D Drivers/ Piezo
+    ├─ C. Cryogenic Amplifiers & Filters
+    │   ├─ a. mK Parametric Pre‑Amplifiers 
+    │   │     • Flux‑pumped JPA/JPC
+    │   │     • Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
+    │   │     • Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
+    │   │     • Nanobridge Kinetic Parametric Amplifier (NKPA)
+    │   │     • Quantum Capacitance Parametric Amplifier (QCPA)
+    │   ├─ b. 4 K HEMT LNAs (octave‑wide, high dynamic range)
+    │   ├─ 3. RF Isolators/ Circulators (ferrite or on‑chip)
+    │   └─ 4. Superconducting & SAW Filters
+    ├─ D. Cryogenic Packaging & Interconnect
+    │   ├─ 1. Flex‑print & interposer tiles
+    │   ├─ 2. 3‑D cavities w/ bump‑bond interconnect
+    │   ├─ 3. Coax/ waveguide/ stripline wiring (NbTi, Nb, CuNi)
+    │   ├─ 4. Optical fiber feedthroughs (1–4 K)
+    │   └─ 5. Magnetic & vibration shielding, radiation hardeners
+    └─ E. Cryogenic Memory & Storage
+        ├─ 1. SRAM (FinFET 14‑nm & 5‑nm cryo‑SRAM)
+        ├─ 2. Floating‑Body RAM (FBRAM) at 77 K
+        ├─ 3. Capacitor‑less eDRAM/ DRAM benchmarks (2T0C, 4 K)
+        ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
+        └─ 5. Spin‑orbit‑torque MRAM at 4 K
+```
 
 ---
 
@@ -1013,6 +1153,8 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 > Acryonyms
 >
 > **dBm** – Decibels relative to 1 milliwatt
+>
+> **HEMT** - High Electron Mobility Transistor
 >
 > **LNA** - Low Noise Amplifier
 >
