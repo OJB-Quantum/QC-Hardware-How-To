@@ -927,7 +927,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   ├─ 1. Time‑interleaved DAC/ADC
     │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
     │   └─ 3. Cryo Class‑D Drivers/ Piezo
-    ├─ C. Cryogenic Amplifiers & Filters
+    ├─ C. Cryogenic Amplifiers, Filters, & Passive Components
     │   ├─ 1. mK Parametric Pre‑Amplifiers 
     │   │     a. Flux‑pumped Josephson Parametric Amplifier/ Converter (JPA/JPC)
     │   │     b. Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
