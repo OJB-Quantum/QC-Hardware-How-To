@@ -886,17 +886,22 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 Quantum Hardware + Quantum‑Adjacent Hardware
 ├─ I.  Quantum‑Core Hardware
 │   ├─ A. Qubit Technologies
-│   │   ├─ 1. Superconducting      • Transmon • Fluxonium • Flux qubit
-│   │   │                           • Cat‑, Binomial‑, GKP‑encoded
-│   │   ├─ 2. Spins (Si/SiGe, GaAs, NV, donors)
-│   │   ├─ 3. Bosons (photons, phonons, magnons)
-│   │   └─ 4. Topological/ Majorana
+│   │   ├─ 1. Superconducting Qubits
+│   │   │     • Transmon • Fluxonium • Flux qubit
+│   │   │     • Cavity‑protected (cat‑, binomial‑, GKP‑encoded)
+│   │   ├─ 2. Spin‑Based Qubits
+│   │   │   ├─ a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
+│   │   │   └─ b. Magnetic & Molecular Spins
+│   │   │        • Magnetic clusters (Fe₈, Mn₁₂, heterometallic rings, other candidates)
+│   │   │        • Magnetic nanodisks (meron/ skyrmion qubits)
+│   │   ├─ 3. Bosons (microwave photons, phonons, magnons)
+│   │   └─ 4. Topological/ Majorana Candidates
 │   ├─ B. Quantum Interconnects (“Buses”)
 │   │   ├─ 1. Planar Resonators (CPW λ/4, λ/2, lumped, stripline)
 │   │   ├─ 2. 3‑D Superconducting Cavities
 │   │   ├─ 3. Metamaterial Waveguides & Resonators
 │   │   ├─ 4. Photonic Waveguides & Ring‑resonator PICs
-│   │   └─ 5. Hybrid Transducers (electro‑optic, electro‑acoustic, magnonic)
+│   │   └─ 5. Hybrid Quantum Transducers (electro‑optic, electro‑acoustic, magnonic)
 │   ├─ C. Quantum‑Limited & Quantum‑Enhanced Detectors
 │   │   ├─ 1. SNSPD
 │   │   ├─ 2. KID/ MKID
@@ -920,7 +925,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     ├─ B. Cryogenic Mixed‑Signal & RF ICs
     │   ├─ 1. Time‑interleaved DAC/ADC
     │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
-    │   └─ 3. Class‑D piezo/ audio drivers
+    │   └─ 3. Cryo Class‑D Drivers/ Piezo
     ├─ C. Cryogenic Amplifiers & Filters
     │   ├─ a. mK Parametric Pre‑Amplifiers 
     │   │     • Flux‑pumped JPA/JPC
