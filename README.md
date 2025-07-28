@@ -952,6 +952,29 @@ Quantum Hardware + Quantum‑Adjacent Hardware
 
 ---
 
+### Open Quantum Hardware Solutions 
+
+| **Category** | **Functionality** | **Examples** | 
+|:---:|:---|:---|
+| Projects | Processor Design | DASQA, KQCircuits, PainterQubits/Devices.jl, pyEPR, Qiskit Metal, QuCAT |
+| Projects | Simulation and diagnostics | KQCircuits, Pulser, Qiskit Metal, QuTiP, QuTiP-QIP, sc-qubits, Strawberry Fields |
+| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua $^{a}$, QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
+| Facilities | Remotely Accessible Labs $^{b}$ | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
+| Facilities | Testing (Testbeds) | Lawrence Berkeley National Lab's AQT, Open Quantum Design, Sandia National Labs' QSCOUT, Sherbrooke's Distriq DevTeQ, NQCC |
+| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare $^{c}$ |
+
+>$^{a}$ partially open-source  
+>$^{b}$ excluding commercial providers  
+>$^{c}$ private company with support for Qiskit Metal
+
+Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, APL Quantum 1, 011501 (2024)  
+<https://doi.org/10.1063/5.0180987>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+--- 
+
+---
+
 ### Towards Deployment of Academic vs. Industry-Level Quantum Processors
 
 ```
@@ -1154,7 +1177,7 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 >
 > **dBm** – Decibels relative to 1 milliwatt
 >
-> **HEMT** - High Electron Mobility Transistor
+> **HEMT** - High-Electron-Mobility Transistor
 >
 > **LNA** - Low Noise Amplifier
 >
@@ -1331,27 +1354,6 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
-
-### Quantum Hardware Categories 
-
-| **Category** | **Functionality** | **Examples** | 
-|:---:|:---|:---|
-| Projects | Processor Design | DASQA, KQCircuits, PainterQubits/Devices.jl, pyEPR, Qiskit Metal, QuCAT |
-| Projects | Simulation and diagnostics | KQCircuits, Pulser, Qiskit Metal, QuTiP, QuTiP-QIP, sc-qubits, Strawberry Fields |
-| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua $^{a}$, QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
-| Facilities | Remotely Accessible Labs $^{b}$ | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
-| Facilities | Testing (Testbeds) | Lawrence Berkeley National Lab's AQT, Open Quantum Design, Sandia National Labs' QSCOUT, Sherbrooke's Distriq DevTeQ, NQCC |
-| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare $^{c}$ |
-
->$^{a}$ partially open-source  
->$^{b}$ excluding commercial providers  
->$^{c}$ private company with support for Qiskit Metal
-
-Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, APL Quantum 1, 011501 (2024)  
-<https://doi.org/10.1063/5.0180987>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
---- 
 
 # Nanotechnology Used for Quantum Chips 
 
