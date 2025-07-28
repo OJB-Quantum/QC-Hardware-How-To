@@ -801,6 +801,13 @@ Adapted from: Zou et al., *Quantum Computing on Magnetic Racetracks with Flying 
 <https://doi.org/10.1103/PhysRevResearch.5.033166>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
+Borrowed from: Dorroh et al., *Theory of Quantum Computation With Magnetic Clusters*, IEEE Trans. Quantum Eng 1, 9076325 (2020)  
+<https://doi.org/10.1109/TQE.2020.2975765>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+Borrowed from: Xia et al., *Qubits based on merons in magnetic nanodisks*, Commun Mater 3, 88 (2022)  
+<https://doi.org/10.1038/s43246-022-00311-w>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ### Some Visualized Examples of Stationary & Flying Qubits: 
 
