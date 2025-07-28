@@ -907,7 +907,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
 │   │   ├─ 1. SNSPD
 │   │   ├─ 2. KID/ MKID
 │   │   ├─ 3. Josephson Photomultipliers (JPM) & Photonics
-│   │   └─ 4. Quantum‑optimised Bolometers/ Calorimeters
+│   │   └─ 4. Quantum‑optimized Bolometers/ Calorimeters
 │   ├─ D. Quantum Memories
 │   │   ├─ 1. Rare‑earth AFC crystals
 │   │   ├─ 2. Magnon memories
