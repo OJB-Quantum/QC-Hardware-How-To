@@ -929,7 +929,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   └─ 3. Cryo Class‑D Drivers/ Piezo
     ├─ C. Cryogenic Amplifiers & Filters
     │   ├─ 1. mK Parametric Pre‑Amplifiers 
-    │   │     a. Flux‑pumped JPA/JPC
+    │   │     a. Flux‑pumped Josephson Parametric Amplifier/ Converter (JPA/JPC)
     │   │     b. Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
     │   │     c. Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
     │   │     d. Nanobridge Kinetic Parametric Amplifier (NKPA)
