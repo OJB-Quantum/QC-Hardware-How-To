@@ -880,6 +880,73 @@ Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2
 
 ---
 
+### Quantum Hardware & Quantum Adjacent Hardware Categories
+
+```
+Quantum Hardware + Quantum‑Adjacent Hardware
+├─ I.  Quantum‑Core Hardware
+│   ├─ A. Qubit Technologies
+│   │   ├─ 1. Superconducting      • Transmon • Fluxonium • Flux qubit
+│   │   │                           • Cat‑, Binomial‑, GKP‑encoded
+│   │   ├─ 2. Spins (Si/SiGe, GaAs, NV, donors)
+│   │   ├─ 3. Bosons (photons, phonons, magnons)
+│   │   └─ 4. Topological/ Majorana
+│   ├─ B. Quantum Interconnects (“Buses”)
+│   │   ├─ 1. Planar Resonators (CPW λ/4, λ/2, lumped, stripline)
+│   │   ├─ 2. 3‑D Superconducting Cavities
+│   │   ├─ 3. Metamaterial Waveguides & Resonators
+│   │   ├─ 4. Photonic Waveguides & Ring‑resonator PICs
+│   │   └─ 5. Hybrid Transducers (electro‑optic, electro‑acoustic, magnonic)
+│   ├─ C. Quantum‑Limited & Quantum‑Enhanced Detectors
+│   │   ├─ 1. SNSPD
+│   │   ├─ 2. KID/ MKID
+│   │   ├─ 3. Josephson Photomultipliers (JPM) & Photonics
+│   │   └─ 4. Quantum‑optimised Bolometers/ Calorimeters
+│   ├─ D. Quantum Memories
+│   │   ├─ 1. Rare‑earth AFC crystals
+│   │   ├─ 2. Magnon memories
+│   │   ├─ 3. 3‑D Cat‑code cavities
+│   │   └─ 4. Nuclear‑spin ensembles
+│   └─ E. Quantum Photonic Integrated Circuits (QPICs)
+│       ├─ 1. SiN/ Si/ SiO₂ wafer‑scale
+│       ├─ 2. III‑V hybrids (GaAs, InP)
+│       └─ 3. Diamond & LiNbO₃
+│
+└─ II. Quantum‑Adjacent Hardware
+    ├─ A. Cryogenic Digital Control Logic
+    │   ├─ 1. Single‑Flux‑Quantum families  (RSFQ, RQL, AQFP, eSFQ)
+    │   ├─ 2. Deep‑Cryo CMOS (4 K)
+    │   └─ 3. Milli‑Kelvin CMOS (≤ 100 mK)
+    ├─ B. Cryogenic Mixed‑Signal & RF ICs
+    │   ├─ 1. Time‑interleaved DAC/ADC
+    │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
+    │   └─ 3. Class‑D piezo/ audio drivers
+    ├─ C. Cryogenic Amplifiers & Filters
+    │   ├─ a. mK Parametric Pre‑Amplifiers 
+    │   │     • Flux‑pumped JPA/JPC
+    │   │     • Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
+    │   │     • Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
+    │   │     • Niobium Kinetic Parametric Amplifier (NKPA)
+    │   │     • Quantum Capacitance Parametric Amplifier (QCPA)
+    │   ├─ b. 4 K HEMT LNAs (octave‑wide, high dynamic range)
+    │   ├─ 3. RF Isolators/ Circulators (ferrite or on‑chip)
+    │   └─ 4. Superconducting & SAW Filters
+    ├─ D. Cryogenic Packaging & Interconnect
+    │   ├─ 1. Flex‑print & interposer tiles
+    │   ├─ 2. 3‑D cavities w/ bump‑bond interconnect
+    │   ├─ 3. Coax/ waveguide/ stripline wiring (NbTi, Nb, CuNi)
+    │   ├─ 4. Optical fiber feedthroughs (1–4 K)
+    │   └─ 5. Magnetic & vibration shielding, radiation hardeners
+    └─ E. Cryogenic Memory & Storage
+        ├─ 1. SRAM (FinFET 14‑nm & 5‑nm cryo‑SRAM)
+        ├─ 2. Floating‑Body RAM (FBRAM) at 77 K
+        ├─ 3. Capacitor‑less eDRAM/ DRAM benchmarks (2T0C, 4 K)
+        ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
+        └─ 5. Spin‑orbit‑torque MRAM at 4 K
+```
+
+---
+
 ### Towards Deployment of Academic vs. Industry-Level Quantum Processors
 
 ```
@@ -1081,6 +1148,8 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 > Acryonyms
 >
 > **dBm** – Decibels relative to 1 milliwatt
+>
+> **HEMT** - High Electron Mobility Transistor
 >
 > **LNA** - Low Noise Amplifier
 >
