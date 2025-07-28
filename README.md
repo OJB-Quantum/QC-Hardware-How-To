@@ -557,55 +557,55 @@ Notes:
 
 ```
 ├─ Tier 1 — High‑volume producers (≥ 5 per year)
-│   ├─ Massachusetts Institute of Technology (MIT) ..................  5.0 ; 14 labs
-│   ├─ University of Maryland, College Park (UMD/ JQI) .............  5.5 ; 10 labs
-│   └─ Yale University (Yale) ......................................  6.0 ;  6 labs
+│   ├─ Yale University (Yale) ......................................  6.0 ;  6 labs
+│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; 10 labs
+│   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; 14 labs
 │
 ├─ Tier 2 — Moderate producers (3 – 4.9 per year)
-│   ├─ University of California, Berkeley (UC Berkeley) .............  4.5 ;  8 labs
-│   ├─ University of California, Santa Barbara (UCSB) ...............  4.0 ;  4 labs
-│   ├─ University of Waterloo (IQC) .................................  4.0 ; 24 labs
-│   ├─ Princeton University (Princeton) .............................  4.0 ;  5 labs
-│   ├─ Harvard University (Harvard) .................................  3.5 ;  7 labs
-│   ├─ Stanford University (Stanford) ...............................  3.5 ;  6 labs
-│   ├─ University of Wisconsin–Madison (UW‑Madison) .................  3.5 ;  4 labs
-│   ├─ California Institute of Technology (Caltech) .................  3.0 ;  5 labs
-│   └─ University of Chicago (UChicago) .............................  3.0 ;  6 labs
+│   ├─ University of California – Berkeley (UC Berkeley) ...........  4.5 ;  8 labs
+│   ├─ University of Waterloo (IQC) ................................  4.0 ; 24 labs
+│   ├─ Princeton University (Princeton) ............................  4.0 ;  5 labs
+│   ├─ University of California – Santa Barbara (UCSB) .............  4.0 ;  4 labs
+│   ├─ Harvard University (Harvard) ................................  3.5 ;  7 labs
+│   ├─ Stanford University (Stanford) ..............................  3.5 ;  6 labs
+│   ├─ University of Wisconsin–Madison (UW‑Madison) ................  3.5 ;  4 labs
+│   ├─ University of Chicago (UChicago) ............................  3.0 ;  6 labs
+│   └─ California Institute of Technology (Caltech) ................  3.0 ;  5 labs
 │
 ├─ Tier 3 — Niche producers (1.5 – 2.9 per year)
-│   ├─ University of British Columbia (UBC/ QMI) ...................  2.5 ; 12 labs
-│   ├─ University of Toronto (CQIQC) ................................  2.5 ; 10 labs
-│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ...........  2.5 ;  6 labs
-│   ├─ Université de Sherbrooke (IQ) ................................  2.0 ; 11 labs
-│   ├─ University of Michigan (U‑M) .................................  2.0 ;  4 labs
-│   ├─ Duke University (Duke) .......................................  2.0 ;  4 labs
-│   ├─ University of Texas at Austin (UT Austin) ....................  2.0 ;  4 labs
-│   ├─ Cornell University (Cornell) .................................  2.0 ;  4 labs
-│   ├─ Rice University (Rice) ......................................  1.5 ;  3 labs
-│   ├─ Pennsylvania State University (Penn State) ...................  1.5 ;  3 labs
-│   ├─ Northwestern University (Northwestern) .......................  1.5 ;  3 labs
-│   ├─ Georgia Institute of Technology (Georgia Tech) ...............  1.5 ;  3 labs
-│   ├─ University of California, Los Angeles (UCLA) .................  1.5 ;  3 labs
-│   ├─ University of California, San Diego (UC San Diego) ...........  1.5 ;  3 labs
-│   ├─ University of Alberta (UAlberta) .............................  1.5 ;  5 labs
-│   ├─ University of Calgary (UCalgary) .............................  1.5 ;  5 labs
+│   ├─ University of British Columbia (UBC/ QMI) ...................  2.5 ; 12 labs
+│   ├─ University of Toronto (CQIQC) ...............................  2.5 ; 10 labs
+│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ...........  2.5 ;  6 labs
+│   ├─ Université de Sherbrooke (IQ) ...............................  2.0 ; 11 labs
+│   ├─ University of Michigan (U‑M) ................................  2.0 ;  4 labs
+│   ├─ Duke University (Duke) ......................................  2.0 ;  4 labs
+│   ├─ University of Texas at Austin (UT Austin) ...................  2.0 ;  4 labs
+│   ├─ Cornell University (Cornell) ................................  2.0 ;  4 labs
 │   ├─ McGill University (McGill) ..................................  1.5 ;  6 labs
-│   ├─ University of Illinois Urbana‑Champaign (UIUC) ...............  1.5 ;  3 labs
-│   ├─ University of Washington (UW) ................................  1.5 ;  3 labs
-│   └─ University of California, Davis (UC Davis) ...................  1.0 ;  2 labs
+│   ├─ University of Alberta (UAlberta) ............................  1.5 ;  5 labs
+│   ├─ University of Calgary (UCalgary) ............................  1.5 ;  5 labs
+│   ├─ Rice University (Rice) ......................................  1.5 ;  3 labs
+│   ├─ Pennsylvania State University (Penn State) ..................  1.5 ;  3 labs
+│   ├─ Northwestern University (Northwestern) ......................  1.5 ;  3 labs
+│   ├─ Georgia Institute of Technology (Georgia Tech) ..............  1.5 ;  3 labs
+│   ├─ University of California – Los Angeles (UCLA) ...............  1.5 ;  3 labs
+│   ├─ University of California – San Diego (UC San Diego) .........  1.5 ;  3 labs
+│   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  1.5 ;  3 labs
+│   ├─ University of Washington (UW) ...............................  1.5 ;  3 labs
+│   └─ University of California – Davis (UC Davis) .................  1.0 ;  2 labs
 │
 └─ Tier 4 — Emerging nodes (< 1.5 per year)
-    ├─ Simon Fraser University (SFU) ...............................  1.0 ;  4 labs
-    ├─ Columbia University (Columbia) ..............................  1.0 ;  3 labs
-    ├─ Université de Montréal (UdeM) ...............................  1.0 ;  3 labs
-    ├─ Arizona State University (ASU) ..............................  1.0 ;  3 labs
-    ├─ University of New Mexico (CQuIC) ............................  1.0 ;  2 labs
-    ├─ University of Rochester (U Rochester) .......................  1.0 ;  2 labs
-    ├─ University of Arizona (UArizona) ............................  1.0 ;  2 labs
-    ├─ Université Laval (Laval) ....................................  1.0 ;  2 labs
-    ├─ University of Minnesota–Twin Cities (UMN‑TC) ................  1.0 ;  ~5 labs
-    ├─ University of Pittsburgh (Pitt) .............................  1.0 ;  3 labs
-    └─ University of Victoria (UVic) ...............................  0.5 ;  2 labs
+    ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............  1.0 ;  ~5 labs
+    ├─ Simon Fraser University (SFU) ..............................  1.0 ;  4 labs
+    ├─ Columbia University (Columbia) .............................  1.0 ;  3 labs
+    ├─ Université de Montréal (UdeM) ..............................  1.0 ;  3 labs
+    ├─ Arizona State University (ASU) .............................  1.0 ;  3 labs
+    ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  3 labs
+    ├─ University of Arizona (UArizona) ...........................  1.0 ;  2 labs
+    ├─ University of New Mexico (CQuIC) ...........................  1.0 ;  2 labs
+    ├─ University of Rochester (U Rochester) ......................  1.0 ;  2 labs
+    ├─ Université Laval (Laval) ...................................  1.0 ;  2 labs
+    └─ University of Victoria (UVic) ..............................  0.5 ;  2 labs
 ```
 
 ---
