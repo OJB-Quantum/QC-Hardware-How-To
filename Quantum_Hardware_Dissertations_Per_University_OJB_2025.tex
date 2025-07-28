@@ -138,80 +138,34 @@
 %------------------------------------------------
 % SLIDE 3: METHODOLOGY I: SCOPE
 %------------------------------------------------
-\begin{frame}[fragile]
-    \frametitle{Methodology I: Defining a Quantum-Hardware-Related Thesis}
-
-    \begin{block}{I. Quantum-Core Hardware}
-    \footnotesize
-    \begin{columns}[T,totalwidth=\textwidth]
-        \begin{column}{0.33\textwidth}
-            \textbf{A. Qubit Technologies}
-            \begin{itemize}
-                \item Superconducting
-                \item Spin-Based
-                \item Bosonic
-                \item Topological
-            \end{itemize}
-            \vspace{1em}
+\begin{frame}
+    \frametitle{Methodology I: Included Hardware Categories}
+    \begin{columns}[T]
+        \begin{column}{0.5\textwidth}
+            \begin{block}{Quantum-Core Hardware Examples}
+                \begin{itemize}
+                    \item \textbf{Qubit Technologies:} Superconducting (Transmon, Fluxonium), Spin-Based (NV Centers, Si/SiGe, donors, merons)
+                    \item \textbf{Quantum Interconnects:} 3D Superconducting Cavities, Metamaterial/ Photonic Waveguides
+                    \item \textbf{Quantum Detectors:} Superconducting Nanowire Detectors (SNSPDs), Microwave Kinetic‑Inductance Detectors (MKIDs)
+                    \item \textbf{Quantum Memories:} Rare-earth doped crystals, Magnon-based devices
+                \end{itemize}
+            \end{block}
         \end{column}
-        \begin{column}{0.33\textwidth}
-            \textbf{B. Quantum Interconnects}
-            \begin{itemize}
-                \item Planar/3D Resonators
-                \item Metamaterial/Photonic
-                \item Hybrid Transducers
-            \end{itemize}
-            \vspace{1em}
-            \textbf{C. Quantum Detectors}
-            \begin{itemize}
-                \item SNSPD, KID, JPM
-                \item Bolometers
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.33\textwidth}
-            \textbf{D. Quantum Memories}
-            \begin{itemize}
-                \item Rare-earth, Magnons
-                \item Cat-code cavities
-            \end{itemize}
-            \vspace{1em}
-            \textbf{E. Quantum Photonic ICs}
-            \begin{itemize}
-                \item SiN, III-V, etc.
-            \end{itemize}
+        \begin{column}{0.5\textwidth}
+            \begin{block}{Quantum-Adjacent Hardware Examples}
+                \begin{itemize}
+                    \item \textbf{Cryogenic Logic:} Single-Flux-Quantum (SFQ) circuits, Cryo-CMOS
+                    \item \textbf{Cryogenic Mixed-Signal/RF:} DAC/ADCs, \break RF Transceiver SoCs
+                    \item \textbf{Cryogenic Amplifiers:} Josephson Traveling Wave Parametric Amps (JTWPAs), HEMT LNAs
+                    \item \textbf{Cryogenic Memory:} Cryo-SRAM, Cryo-MRAM, Josephson Junction-based RAM
+                    \item \textbf{Cryogenic Passive Components:} On-Chip MW/RF Isolators \& Circulators
+                \end{itemize}
+            \end{block}
         \end{column}
     \end{columns}
-    \end{block}
-
-    \begin{block}{II. Quantum-Adjacent Hardware}
-    \footnotesize
-    \begin{columns}[T,totalwidth=\textwidth]
-        \begin{column}{0.33\textwidth}
-            \textbf{A. Cryo Digital Logic}
-            \begin{itemize}
-                \item SFQ Families
-                \item Cryo-CMOS
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.33\textwidth}
-            \textbf{C. Cryo Amps \& Filters}
-            \begin{itemize}
-                \item Parametric Amps
-                \item HEMT LNAs
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.33\textwidth}
-            \textbf{D. Cryo Packaging}
-            \begin{itemize}
-                \item Flex, interposers
-                \item Wiring, optical fibers
-            \end{itemize}
-        \end{column}
-    \end{columns}
-    \end{block}
 \end{frame}
 \note{
-    First, we established a very specific definition of a "hardware thesis." We went beyond just core qubits to include the critical adjacent hardware—from SFQ circuits to cryogenic packaging—that is essential for building a functional quantum computer. This ensures we are counting graduates who have tackled real-world engineering challenges.
+    At a high level, this means we counted everything from the qubits themselves to the specialized cryogenic electronics required to make them work. This provides a holistic view of the talent pool for building a complete quantum computing stack.
 }
 %------------------------------------------------
 % SLIDE 4: METHODOLOGY II: DATA SOURCING
@@ -326,8 +280,8 @@
             Harvard University & 3.5 & ~7 \\
             Stanford University & 3.5 & ~6 \\
             U. of Wisconsin-Madison & 3.5 & ~4 \\
-            Caltech & 3.0 & ~5 \\
             U. of Chicago & 3.0 & ~6 \\
+            Caltech & 3.0 & ~5 \\
             \bottomrule
         \end{tabularx}
     \end{table}
