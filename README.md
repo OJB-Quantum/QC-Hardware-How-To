@@ -814,8 +814,8 @@ Quantum‑Information Carriers
 │  │     └─ qCCD (quantum CCD) chains
 │  └─ Electrons control
 │     ├─ Superconductors (Josephson circuits)
-│     │  ├─ Charge qubits → **Transmon**
-│     │  ├─ Flux qubits  → **Fluxonium**
+│     │  ├─ Charge qubits → Transmon
+│     │  ├─ Flux qubits  → Fluxonium
 │     │  ├─ Coaxmon variants
 │     │  ├─ Bosonic encodings
 │     │  │  ├─ GKP codes
@@ -926,7 +926,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   │     • Flux‑pumped JPA/JPC
     │   │     • Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
     │   │     • Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
-    │   │     • Niobium Kinetic Parametric Amplifier (NKPA)
+    │   │     • Nanobridge Kinetic Parametric Amplifier (NKPA)
     │   │     • Quantum Capacitance Parametric Amplifier (QCPA)
     │   ├─ b. 4 K HEMT LNAs (octave‑wide, high dynamic range)
     │   ├─ 3. RF Isolators/ Circulators (ferrite or on‑chip)
