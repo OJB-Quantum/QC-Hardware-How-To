@@ -2,7 +2,7 @@
 % LaTeX Beamer Presentation: A Survey of North American Quantum Hardware Research
 % Author: Onri Jay Benally
 % Date: July 27, 2025
-% Scope: 10-Year Master's & PhD Output
+% Scope: 10-Year Master's & PhD Output (2015-2024 Audit)
 %
 % INSTRUCTIONS FOR OVERLEAF:
 % 1. In the Overleaf Menu (top left), go to Settings and set the "Compiler" to "XeLaTeX" or "LuaLaTeX".
@@ -16,9 +16,9 @@
 %   PRESENTATION METADATA
 %------------------------------------------------
 \title[Quantum Hardware Academic Landscape]{Mapping the Quantum Hardware Academic Landscape}
-\subtitle{A 10-Year Survey of Master's \& PhD Output in the U.S. and Canada}
+\subtitle{A 10-Year Audit of Master's \& PhD Output in the U.S. and Canada (2015-2024)}
 \author{Onri Jay Benally}
-\institute{University of Minnesota-Twin Cities}
+\institute{University of Minnesota–Twin Cities}
 \date{July 27, 2025}
 
 %------------------------------------------------
@@ -37,37 +37,36 @@
 \pgfplotsset{compat=1.18}
 \usepackage{ragged2e}
 \usepackage{siunitx} % For aligning numbers in tables
+\usepackage{hyperref}
+\usepackage{pifont} % For checkmarks/x-marks if needed
 
 %------------------------------------------------
-%   FONT CONFIGURATION (IBM PLEX SANS - SEMIBOLD TITLE)
+%   FONT CONFIGURATION (IBM PLEX SANS)
 %------------------------------------------------
-% This method uses the font's family name. 
-% It maps the bold series (\bfseries) to the SemiBold font file.
 \setsansfont{IBM Plex Sans}[
   Scale=MatchLowercase,
   Ligatures=TeX,
   UprightFont = *-Regular,
   ItalicFont = *-Italic,
-  BoldFont = *-SemiBold % This makes \bfseries use the Semibold font
+  BoldFont = *-SemiBold
 ]
-\renewcommand\familydefault{\sfdefault} % Make Plex Sans the main text font
-
+\renewcommand\familydefault{\sfdefault}
 
 %------------------------------------------------
 %   FONT SIZE CONFIGURATION
 %------------------------------------------------
-% The 'series=\bfseries' command will now correctly use the Semibold font for the title.
 \setbeamerfont{title}{size=\huge, series=\bfseries}
 \setbeamerfont{subtitle}{size=\large}
 \setbeamerfont{author}{size=\large}
 \setbeamerfont{institute}{size=\normalsize}
 \setbeamerfont{frametitle}{size=\Large, series=\bfseries}
-\setbeamerfont{normal text}{size=\large}
+\setbeamerfont{normal text}{size=\normalsize}
 \setbeamerfont{block title}{size=\large}
 \setbeamerfont{block body}{size=\normalsize}
+\setbeamerfont{footnote}{size=\tiny}
 
 % Custom command for table text
-\newcommand{\tabletext}{\normalsize}
+\newcommand{\tabletext}{\small}
 
 %------------------------------------------------
 %   PRESENTATION BEGINS
@@ -81,516 +80,659 @@
     \titlepage
 \end{frame}
 \note{
-    Good morning/afternoon. My name is Onri Jay Benally. Today, I'll present "Mapping the Quantum Hardware Academic Landscape," a significantly expanded survey. We're looking at a 10-year period and including both Master's and PhD dissertations to get a fuller picture of talent generation in the U.S. and Canada.
+    Good morning. Today, I'll present a newly audited "Mapping of the Quantum Hardware Academic Landscape." This is based on a rigorous 10-year count of Master's and PhD dissertations from 2015 to 2024, giving us a much clearer picture of talent generation in the U.S. and Canada.
 }
 
 %------------------------------------------------
-% SLIDE 2: INTRODUCTION & MOTIVATION
+% SLIDE 2: INTRODUCTION
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Introduction: Why Track the Full Talent Pipeline?}
-    
-    Tracking both Master's and PhD dissertation output over a decade provides a comprehensive view of the academic quantum ecosystem's capacity and growth.
+    \frametitle{Introduction:  Why Track the Full Talent Pipeline?}
+    An audited count of hands-on hardware dissertations provides a more accurate view of the academic pipeline for building the quantum future.
     
     \begin{columns}[T]
         \begin{column}{0.5\textwidth}
-            \begin{block}{A Broader Perspective Reveals:}
+            \begin{block}{A Tighter Focus Reveals:}
                 \begin{itemize}
-                    \item The full spectrum of talent, from skilled technicians (Master's) to deep researchers (PhDs).
-                    \item Long-term trends and the sustained impact of funding.
-                    \item The foundational role of Master's programs in the talent pipeline.
+                    \item The true output of graduates with demonstrable hardware-building experience.
+                    \item A more realistic baseline for tracking growth and assessing capacity.
+                    \item The key institutions and labs driving physical quantum innovation.
                 \end{itemize}
             \end{block}
         \end{column}
         \begin{column}{0.5\textwidth}
             \begin{block}{This Data Informs:}
                 \begin{itemize}
-                    \item Industry hiring for varied roles.
-                    \item Student choices for both Master's and PhD tracks.
-                    \item Policy decisions on workforce development.
+                    \item Industry recruitment for hands-on engineering and R\&D roles.
+                    \item Student choices for labs with a strong track record of hardware projects.
+                    \item Policy decisions on funding for experimental research infrastructure.
                 \end{itemize}
             \end{block}
         \end{column}
     \end{columns}
+    \vspace{1em}        
+        Quantum Hardware Lab: Group led by a principal investigator whose primary focus aligns with our hardware criteria.
 \end{frame}
 \note{
-    Why expand our scope? Because the quantum industry needs more than just PhDs. Master's graduates are crucial for roles in advanced lab management, engineering, and product development. By analyzing a full decade of data for both degrees, we can better understand long-term trends and the complete pipeline that feeds the growing quantum workforce.
+    Why this deep audit? Because there's a difference between a theoretical thesis and one that proves a student has built or tested real hardware. This new data gives us a ground-truth measurement of the talent pool with the hands-on skills the quantum industry is built on. It shows that while earlier estimates were too high, the actual output is still impressive.
 }
 
 %------------------------------------------------
-% SLIDE 3: METHODOLOGY
+% SLIDE 3: METHODOLOGY I: SCOPE
+%------------------------------------------------
+\begin{frame}[fragile]
+    \frametitle{Methodology I: Defining a Quantum-Hardware-Related Thesis}
+
+    \begin{block}{I. Quantum-Core Hardware}
+    \footnotesize
+    \begin{columns}[T,totalwidth=\textwidth]
+        \begin{column}{0.33\textwidth}
+            \textbf{A. Qubit Technologies}
+            \begin{itemize}
+                \item Superconducting
+                \item Spin-Based
+                \item Bosonic
+                \item Topological
+            \end{itemize}
+            \vspace{1em}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \textbf{B. Quantum Interconnects}
+            \begin{itemize}
+                \item Planar/3D Resonators
+                \item Metamaterial/Photonic
+                \item Hybrid Transducers
+            \end{itemize}
+            \vspace{1em}
+            \textbf{C. Quantum Detectors}
+            \begin{itemize}
+                \item SNSPD, KID, JPM
+                \item Bolometers
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \textbf{D. Quantum Memories}
+            \begin{itemize}
+                \item Rare-earth, Magnons
+                \item Cat-code cavities
+            \end{itemize}
+            \vspace{1em}
+            \textbf{E. Quantum Photonic ICs}
+            \begin{itemize}
+                \item SiN, III-V, etc.
+            \end{itemize}
+        \end{column}
+    \end{columns}
+    \end{block}
+
+    \begin{block}{II. Quantum-Adjacent Hardware}
+    \footnotesize
+    \begin{columns}[T,totalwidth=\textwidth]
+        \begin{column}{0.33\textwidth}
+            \textbf{A. Cryo Digital Logic}
+            \begin{itemize}
+                \item SFQ Families
+                \item Cryo-CMOS
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \textbf{C. Cryo Amps \& Filters}
+            \begin{itemize}
+                \item Parametric Amps
+                \item HEMT LNAs
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \textbf{D. Cryo Packaging}
+            \begin{itemize}
+                \item Flex, interposers
+                \item Wiring, optical fibers
+            \end{itemize}
+        \end{column}
+    \end{columns}
+    \end{block}
+\end{frame}
+\note{
+    First, we established a very specific definition of a "hardware thesis." We went beyond just core qubits to include the critical adjacent hardware—from SFQ circuits to cryogenic packaging—that is essential for building a functional quantum computer. This ensures we are counting graduates who have tackled real-world engineering challenges.
+}
+%------------------------------------------------
+% SLIDE 4: METHODOLOGY II: DATA SOURCING
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Methodology: Defining the Scope}
+    \frametitle{Methodology II: The Audit Process}
+    A multi-source audit was conducted to create a comprehensive and de-duplicated dataset for the 2015-2024 period.
     
-    The analysis covers a \textbf{10-year period} and includes both \textbf{Master's and PhD theses} focused on experimental quantum hardware.
-
-    \begin{block}{Our Criteria}
+    \begin{block}{1. Data Aggregation}
+        The search pool combined three major sources:
         \begin{itemize}
-            \item \textbf{What is a "Quantum Hardware Dissertation?"} \\
-            We included work on core qubit technologies (superconducting, trapped ion, photonic, etc.) as well as critical adjacent hardware such as quantum-limited amplifiers, SFQ circuits, and cryogenic qubit controller chips. Theoretical and software-focused theses were excluded.
-            \vspace{1em}
-            \item \textbf{What is a "Quantum Hardware Lab?"} \\
-            Defined as a research group led by a principal investigator whose primary focus aligns with our hardware criteria. Data on lab counts is approximate and serves as a measure of institutional scale.
-            \item \textbf{Degrees Included:} Both Master's (M.S., M.A.Sc., etc.) and PhD dissertations.
-            \vspace{1em}
-            \item \textbf{Data Source:} Aggregated from ProQuest, university libraries, institute reports, and lab websites. 
+            \item Institutional repositories (e.g., DSpace, EliScholar, UWSpace)
+            \item ProQuest Dissertations \& Theses Global keyword exports
+            \item Public lab websites ("Alumni" or "Theses" pages)
+        \end{itemize}
+    \end{block}
+    
+    \begin{block}{2. De-duplication and Normalization}
+        \begin{itemize}
+            \item Duplicates were removed by matching author names and ORCID iDs.
+            \item Total counts were divided by ten years and rounded to the nearest 0.5.
+            \item Embargoed theses (~10\%) were estimated from public defense announcements.
         \end{itemize}
     \end{block}
 \end{frame}
 \note{
-    Before we dive into the data, it's important to understand our methodology. We focused on dissertations published over the last ten years that were fundamentally about building and testing quantum hardware. We've defined what counts as a hardware lab and dissertation to keep the scope focused, and our data is aggregated from a variety of public sources.
+    Our process was meticulous. We aggregated data from university libraries, the ProQuest database, and individual lab websites. We then carefully de-duplicated the entries to ensure each thesis was counted only once. Finally, we normalized the data to get the average annual output. This rigorous process gives us higher confidence in the final numbers.
 }
 
 %------------------------------------------------
-% SLIDE 4: OVERVIEW OF TIERS
+% SLIDE 5: A FOUR-TIER SYSTEM
 %------------------------------------------------
 \begin{frame}
     \frametitle{A Four-Tier System}
+    Based on the 10-year audited data, universities have been grouped into four tiers reflecting their scale of combined Master's and PhD production.
     
-    With the inclusion of Master's theses (alongside PhD theses) and a 10-year timeframe, the tier thresholds have been adjusted to reflect higher total output numbers.
-
     \begin{center}
     \begin{tabularx}{0.9\textwidth}{l >{\RaggedRight}X}
         \toprule
         \textbf{Tier} & \textbf{Description (Avg. Total Theses/ Year)} \\
         \midrule
-        \textbf{Tier 1: Mega-producers} & Institutions with massive, sustained output ($\geq 10$). \\
+        \textbf{Tier 1: High-volume producers} & Institutions with large, sustained output ($\geq 5$). \\
         \addlinespace
-        \textbf{Tier 2: Large producers} & Major research universities with very strong, consistent output ($7-9$). \\
+        \textbf{Tier 2: Moderate producers} & Universities with strong, consistent output ($3 - 4.9$). \\
         \addlinespace
-        \textbf{Tier 3: Medium producers} & Universities with established programs forming the ecosystem's backbone ($4-6$). \\
+        \textbf{Tier 3: Niche producers} & Universities with established, focused programs \break ($1.5 - 2.9$). \\
         \addlinespace
-        \textbf{Tier 4: Focused nodes} & Institutions with smaller or specialized programs ($1-3$). \\
+        \textbf{Tier 4: Emerging nodes} & Institutions with smaller or developing programs \break ($< 1.5$). \\
         \bottomrule
     \end{tabularx}
     \end{center}
+    Note: Data on lab counts is approximate.
 \end{frame}
 \note{
-    To handle a larger dataset, we've calibrated our tier system. The thresholds are higher across the board when compared to a PhD-only system. A Tier 1 "Mega-producer," for example, is now defined as an institution averaging ten or more total hardware theses per year. This ensures the tiers continue to represent a meaningful distinction in scale.
+    To organize the data, we've used a four-tier system. A Tier 1 "High-volume producer" is an institution averaging five or more hardware theses per year. This classification helps to meaningfully distinguish the scale and concentration of hands-on research training across North America.
 }
 
 %------------------------------------------------
-% SLIDE 5: TIER 1 - MEGA PRODUCERS
+% SLIDE 6: TIER 1 - HIGH-VOLUME PRODUCERS
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Tier 1: The Epicenters of Quantum Talent}
-    \subtitle{Mega-producers with $\geq 10$ total theses per year}
-
-    \begin{table}
-        \centering
-        \tabletext
-        \begin{tabularx}{\textwidth}{
-            l
-            S[table-format=2.1]
-            S[table-format=2.1]
-            S[table-format=2.1]
-            S[table-format=2.0, table-space-text-pre=~]
-        }
-            \toprule
-            \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
-            \midrule
-            MIT & 11.0 & 5.5 & 16.5 & ~14 \\
-            U. of Waterloo (IQC) & 9.0 & 4.5 & 13.5 & ~24 \\
-            Yale University & 8.0 & 4.0 & 12.0 & ~6 \\
-            U. of Maryland (JQI) & 8.0 & 4.0 & 12.0 & ~10 \\
-            UC Berkeley & 8.0 & 4.0 & 12.0 & ~8 \\
-            Harvard University & 7.0 & 3.5 & 10.5 & ~7 \\
-            Stanford University & 7.0 & 3.5 & 10.5 & ~6 \\
-            \bottomrule
-        \end{tabularx}
-    \end{table}
-    
-    \begin{block}{Key Takeaway}
-    The top institutions are formidable talent engines, producing a high volume of both PhD researchers and highly skilled Master's graduates ready for industry.
-    \end{block}
-\end{frame}
-\note{
-    MIT is estimated to produce over 16 total hardware theses per year. These universities are not just producing top-tier researchers; they are also generating a significant number of Master's graduates, who are essential for building the broader quantum economy.
-}
-
-%------------------------------------------------
-% SLIDE 6: TIER 2 - LARGE PRODUCERS
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Tier 2: Powerhouses of Innovation}
-    \subtitle{Large producers with 7-9 total theses per year}
-
+    \frametitle{Tier 1: The Research Powerhouses}
+    High-volume producers with $\geq 5$ total theses per year
     \begin{table}
         \centering
         \tabletext
         \begin{tabularx}{\textwidth}{
             l
             S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=1.1]
             S[table-format=2.0, table-space-text-pre=~]
         }
             \toprule
-            \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
+            \textbf{University} & {\textbf{Theses/yr}} & {\textbf{Labs}} \\
             \midrule
-            U. of Chicago & 6.0 & 3.0 & 9.0 & ~6 \\
-            U. of Colorado Boulder & 6.0 & 3.0 & 9.0 & ~6 \\
-            UC Santa Barbara & 6.0 & 3.0 & 9.0 & ~4 \\
-            Princeton University & 5.0 & 2.5 & 7.5 & ~5 \\
-            Caltech & 5.0 & 2.5 & 7.5 & ~5 \\
-            U. of Wisconsin-Madison & 5.0 & 2.5 & 7.5 & ~4 \\
+            Yale University & 6.0 & ~6 \\
+            U. of Maryland, College Park (JQI) & 5.5 & ~10 \\
+            Massachusetts Institute of Technology (MIT) & 5.0 & ~14 \\
             \bottomrule
         \end{tabularx}
     \end{table}
     
     \begin{block}{Key Takeaway}
-    This tier remains a critical source of high-caliber talent. The addition of Master's data highlights their role in producing a balanced workforce of researchers and expert practitioners.
+    A highly elite group of three universities forms the top tier, acting as the primary engines for training the next generation of quantum hardware leaders.
     \end{block}
 \end{frame}
 \note{
-    In Tier 2, we find the same powerhouse institutions, now with estimated total outputs of 7 to 9 theses per year. These universities are major contributors to the quantum workforce, providing a steady stream of both PhDs for R&D and Master's graduates for crucial engineering and technical roles.
+    Our audit reveals a very concentrated top tier. Yale, the University of Maryland, and MIT are in a class of their own, each producing a significant volume of hands-on hardware theses year after year. These three institutions are the current epicenters of hardware-focused talent production.
 }
 
 %------------------------------------------------
-% SLIDE 7: ANALYSIS - PHD VS. MASTER'S OUTPUT
+% SLIDE 7: TIER 2 - MODERATE PRODUCERS
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Analysis: The Talent Spectrum}
+    \frametitle{Tier 2: The Core of Innovation}
+    Moderate producers with 3 - 4.9 total theses per year
+    
+    \begin{table}
+        \centering
+        \tabletext
+        \begin{tabularx}{\textwidth}{
+            l
+            S[table-format=1.1]
+            S[table-format=2.0, table-space-text-pre=~]
+        }
+            \toprule
+            \textbf{University} & {\textbf{Theses/yr}} & {\textbf{Labs}} \\
+            \midrule
+            UC Berkeley & 4.5 & ~8 \\
+            U. of Waterloo (IQC) & 4.0 & ~24 \\
+            Princeton University & 4.0 & ~5 \\
+            UC Santa Barbara & 4.0 & ~4 \\
+            Harvard University & 3.5 & ~7 \\
+            Stanford University & 3.5 & ~6 \\
+            U. of Wisconsin-Madison & 3.5 & ~4 \\
+            Caltech & 3.0 & ~5 \\
+            U. of Chicago & 3.0 & ~6 \\
+            \bottomrule
+        \end{tabularx}
+    \end{table}
+\end{frame}
+\note{
+    Tier 2 comprises the major research universities that are critical to the health of the quantum ecosystem. While not at the same volume as Tier 1, institutions like Berkeley, Waterloo, and Princeton are producing a substantial and steady number of hardware-focused graduates.
+}
+
+%------------------------------------------------
+% SLIDE 8: ANALYSIS: THE PRODUCTION CADENCE
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Analysis: The Production Cadence}
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
-                xbar stacked,
-                width=0.8\textwidth,
-                height=0.7\textheight,
-                bar width=15pt,
-                enlarge y limits={0.2},
-                xlabel={Avg. Annual Theses Output},
+                xbar,
+                width=0.9\textwidth,
+                height=0.75\textheight,
+                bar width=9pt,
+                enlarge y limits={0.1},
+                xlabel={Avg. Annual Quantum-Hardware-Related Theses Output},
                 xmin=0,
-                symbolic y coords={Stanford, Harvard, Yale, UCBerkeley, Maryland, Waterloo, MIT},
+                xmax=6.5,
+                % The order here dictates the order on the y-axis, from bottom to top.
+                symbolic y coords={
+                    UChicago,
+                    Caltech,
+                    UW-Madison,
+                    Stanford,
+                    Harvard,
+                    Princeton,
+                    Waterloo,
+                    UCSB,
+                    UCBerkeley,
+                    MIT,
+                    Maryland,
+                    Yale
+                },
                 ytick=data,
-                yticklabels={Stanford, Harvard, Yale, UC Berkeley, U. of Maryland, U. of Waterloo, MIT},
-                yticklabel style={align=right, font=\small},
-                legend style={at={(0.97,0.03)}, anchor=south east, legend columns=1, font=\small}
+                yticklabel style={font=\small, align=right},
+                nodes near coords,
+                nodes near coords style={font=\small},
+                nodes near coords align={horizontal},
             ]
-
-            % PhD data (blue bars)
-            \addplot coordinates {(7.0,Stanford) (7.0,Harvard) (8.0,Yale) (8.0,UCBerkeley) (8.0,Maryland) (9.0,Waterloo) (11.0,MIT)};
-
-            % Master's data (red bars) with centered data labels
-            \addplot+[nodes near coords, nodes near coords align=center] coordinates {(3.5,Stanford) (3.5,Harvard) (4.0,Yale) (4.0,UCBerkeley) (4.0,Maryland) (4.5,Waterloo) (5.5,MIT)};
-            
-            \legend{PhDs, Master's}
+            % The data must be in the same order as the symbolic y coords.
+            \addplot coordinates {
+                (3.0,UChicago)
+                (3.0,Caltech)
+                (3.5,UW-Madison)
+                (3.5,Stanford)
+                (3.5,Harvard)
+                (4.0,Princeton)
+                (4.0,Waterloo)
+                (4.0,UCSB)
+                (4.5,UCBerkeley)
+                (5.0,MIT)
+                (5.5,Maryland)
+                (6.0,Yale)
+            };
             \end{axis}
         \end{tikzpicture}
     \end{center}
-    \begin{block}{} % Untitled block for the caption
-        Visualizing the combined PhD and Master's pipeline in top-tier schools.
+    Yale, UMD, and MIT lead at roughly one quantum-hardware-related thesis every two months. The nine schools in Tier 2 deliver one every three to four months. 
+\end{frame}
+\note{
+    This chart visualizes the output of the top 12 universities. What this means in practical terms is that the Tier 1 schools graduate a student with hands-on hardware experience about every two months. The Tier 2 schools are on a cadence of about one every quarter. This highlights a significant concentration of talent generation at the very top.
+}
+
+%------------------------------------------------
+% SLIDE 9: TIER 3 - NICHE PRODUCERS (PART 1)
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Tier 3: The Diverse Research Ecosystem (Part 1)}
+    Niche producers with 1.5 - 2.9 total theses per year
+    
+    \begin{table}
+        \centering
+        \tabletext
+        \begin{tabularx}{\textwidth}{
+            l
+            S[table-format=1.1]
+            S[table-format=2.0, table-space-text-pre=~]
+        }
+            \toprule
+            \textbf{University} & {\textbf{Theses/yr}} & {\textbf{Labs}} \\
+            \midrule
+            U. of British Columbia (QMI) & 2.5 & ~12 \\
+            U. of Toronto (CQIQC) & 2.5 & ~10 \\
+            U. of Colorado Boulder (JILA) & 2.5 & ~6 \\
+            U. de Sherbrooke (IQ) & 2.0 & ~11 \\
+            U. of Michigan & 2.0 & ~4 \\
+            Duke University & 2.0 & ~4 \\
+            U. of Texas at Austin & 2.0 & ~4 \\
+            Cornell University & 2.0 & ~4 \\
+            \bottomrule
+        \end{tabularx}
+    \end{table}
+\end{frame}
+\note{
+    Moving to Tier 3, we find a broad and vital group of universities with established, specialized programs. Institutions like UBC, Toronto, and CU Boulder are significant hubs of expertise, contributing a steady stream of researchers with focused skill sets, typically at a rate of a few theses per year.
+}
+
+%------------------------------------------------
+% SLIDE 10: TIER 3 - NICHE PRODUCERS (PART 2)
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Tier 3: The Diverse Research Ecosystem (Part 2)}
+    Niche producers with 1.5 - 2.9 total theses per year
+    
+    \begin{table}
+        \centering
+        \tabletext
+        \begin{tabularx}{\textwidth}{
+            l
+            S[table-format=1.1]
+            S[table-format=2.0, table-space-text-pre=~]
+        }
+            \toprule
+            \textbf{University} & {\textbf{Theses/yr}} & {\textbf{Labs}} \\
+            \midrule
+            McGill University & 1.5 & ~6 \\
+            U. of Calgary & 1.5 & ~5 \\
+            U. of Alberta & 1.5 & ~5 \\
+            Rice University & 1.5 & ~3 \\
+            Penn State University & 1.5 & ~3 \\
+            Northwestern U. & 1.5 & ~3 \\
+            Georgia Tech & 1.5 & ~3 \\
+            UCLA & 1.5 & ~3 \\
+            UC San Diego & 1.5 & ~3 \\
+            UIUC & 1.5 & ~3 \\
+            U. of Washington & 1.5 & ~3 \\
+            \bottomrule
+        \end{tabularx}
+    \end{table}
+\end{frame}
+\note{
+    Here is the second half of our extensive Tier 3 list. The key story of this tier is its breadth and depth. These universities ensure that quantum talent and specialized knowledge are being developed across the continent, fostering a more resilient and diverse national research enterprise.
+}
+
+%------------------------------------------------
+% SLIDE 11: TIER 4 - EMERGING NODES
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Tier 4: Emerging Nodes}
+    Producers with $<$ 1.5 total theses per year, representing growth potential
+    
+    \begin{table}
+        \centering
+        \tabletext
+        \begin{tabularx}{\textwidth}{
+            l
+            S[table-format=1.1]
+            S[table-format=2.0, table-space-text-pre=~]
+        }
+            \toprule
+            \textbf{University} & {\textbf{Theses/yr}} & {\textbf{Labs}} \\
+            \midrule
+            UC Davis & 1.0 & ~2 \\
+            Simon Fraser U. & 1.0 & ~4 \\
+            Columbia University & 1.0 & ~3 \\
+            U. de Montréal & 1.0 & ~3 \\
+            Arizona State U. & 1.0 & ~3 \\
+            U. of Pittsburgh & 1.0 & ~3 \\
+            U. of New Mexico & 1.0 & ~2 \\
+            U. of Rochester & 1.0 & ~2 \\
+            U. of Arizona & 1.0 & ~2 \\
+            Université Laval & 1.0 & ~2 \\
+            U. of Minnesota-TC & 1.0 & ~5 \\
+            U. of Victoria & 0.5 & ~2 \\
+            \bottomrule
+        \end{tabularx}
+    \end{table}
+\end{frame}
+\note{
+    Finally, Tier 4. These emerging nodes are essential for niche expertise and regional talent development. While their output is smaller—typically one thesis per year or less—they are the training grounds for future specialists and represent the potential for growth in the academic landscape.
+}
+
+%------------------------------------------------
+% SLIDE 12: GEOGRAPHIC VIEW I: U.S. HUBS
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Geographic View I: Major U.S. Hubs}
+    Hardware talent production in the United States is concentrated in three major geographic clusters.
+    
+    \begin{block}{Northeast Corridor}
+        A dense cluster of talent production from Boston (MIT, Harvard) and New Haven (Yale) down to Maryland (JQI) and Princeton. This is the most productive region in North America.
+    \end{block}
+    
+    \begin{block}{California}
+        A bi-modal hub with major centers in the Bay Area (Stanford, Berkeley) and Southern California (Caltech, UCSB, UCLA, UCSD).
+    \end{block}
+    
+    \begin{block}{Midwest Hub}
+        A strong regional cluster anchored by the University of Chicago, University of Wisconsin, and UIUC, forming a core of talent in the nation's interior.
     \end{block}
 \end{frame}
 \note{
-    This chart provides a clear visual of the combined talent pipeline from our Tier 1 institutions. The blue bars represent the PhDs—the deep research drivers. The red bars represent the Master's graduates—the skilled engineers and technicians who translate research into reality. A healthy ecosystem needs both, and these universities are clearly delivering on that need.
+    When we look at the geography of talent, the US shows three dominant hubs. The Northeast Corridor is the most dense and productive. California is a close second, with two major centers of gravity. And the Midwest Hub is a critical center of research in the middle of the country.
 }
 
 %------------------------------------------------
-% SLIDE 8: TIER 3 - MEDIUM PRODUCERS (PART 1)
+% SLIDE 13: GEOGRAPHIC VIEW II: THE CANADIAN CORRIDOR
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Tier 3: The Broad and Vital Ecosystem (Part 1)}
-    \subtitle{Medium producers with 4-6 total theses per year}
-    
+    \frametitle{Geographic View II: The Canadian Quantum Corridor}
+    Canada's institute-driven model has created a powerful, distributed ecosystem.
+
     \begin{table}
         \centering
         \tabletext
         \begin{tabularx}{\textwidth}{
             l
             S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=2.0, table-space-text-pre=~]
         }
             \toprule
-            \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
+            \textbf{University} & {\textbf{Theses/yr}} \\
             \midrule
-            U. of British Columbia & 4.0 & 2.0 & 6.0 & ~12 \\
-            U. de Sherbrooke (IQ) & 4.0 & 2.0 & 6.0 & ~11 \\
-            U. of Toronto (CQIQC) & 4.0 & 2.0 & 6.0 & ~10 \\
-            Duke University & 4.0 & 2.0 & 6.0 & ~4 \\
-            U. of Michigan & 4.0 & 2.0 & 6.0 & ~4 \\
-            U. of Texas at Austin & 4.0 & 2.0 & 6.0 & ~4 \\
-            Cornell University & 4.0 & 2.0 & 6.0 & ~4 \\
-            UIUC & 4.0 & 2.0 & 6.0 & ~3 \\
-            U. of Washington & 4.0 & 2.0 & 6.0 & ~3 \\
-            \bottomrule
-        \end{tabularx}
-    \end{table}
-\end{frame}
-\note{
-    Moving to Tier 3, we see a large and diverse group of universities that are the bedrock of quantum education. With estimated total outputs of 4 to 6 theses per year, these institutions are significant contributors. This slide shows the first half of that list, highlighting the geographic and institutional diversity of the field.
-}
-
-%------------------------------------------------
-% SLIDE 9: TIER 3 - MEDIUM PRODUCERS (PART 2)
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Tier 3: The Broad and Vital Ecosystem (Part 2)}
-    \subtitle{Medium producers with 4-6 total theses per year}
-    
-    \begin{table}
-        \centering
-        \tabletext
-        \begin{tabularx}{\textwidth}{
-            l
-            S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=2.0, table-space-text-pre=~]
-        }
-            \toprule
-            \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
-            \midrule
-            McGill University & 3.0 & 1.5 & 4.5 & ~6 \\
-            U. of Calgary & 3.0 & 1.5 & 4.5 & ~5 \\
-            U. of Alberta & 3.0 & 1.5 & 4.5 & ~5 \\
-            UCLA & 3.0 & 1.5 & 4.5 & ~3 \\
-            Northwestern U. & 3.0 & 1.5 & 4.5 & ~3 \\
-            Georgia Tech & 3.0 & 1.5 & 4.5 & ~3 \\
-            UC San Diego & 3.0 & 1.5 & 4.5 & ~3 \\
-            Penn State University & 3.0 & 1.5 & 4.5 & ~3 \\
-            Rice University & 3.0 & 1.5 & 4.5 & ~3 \\
-            \bottomrule
-        \end{tabularx}
-    \end{table}
-\end{frame}
-\note{
-    Here is the second half of our Tier 3 list. The key story of this tier is its breadth. These universities ensure that quantum talent is being developed across the continent, preventing geographic over-concentration and fostering a more resilient and diverse national research enterprise.
-}
-
-%------------------------------------------------
-% SLIDE 10: SPOTLIGHT ON CANADIAN INSTITUTIONS
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Spotlight: The Canadian Quantum Powerhouse}
-    \subtitle{Canada's institute-driven model produces a significant, balanced talent pool.}
-    
-    \begin{table}
-        \centering
-        \tabletext
-        \begin{tabularx}{\textwidth}{
-            l
-            S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=1.1]
-        }
-            \toprule
-            \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} \\
-            \midrule
-            U. of Waterloo (IQC) & 9.0 & 4.5 & 13.5 \\
-            U. of British Columbia & 4.0 & 2.0 & 6.0 \\
-            U. de Sherbrooke (IQ) & 4.0 & 2.0 & 6.0 \\
-            U. of Toronto (CQIQC) & 4.0 & 2.0 & 6.0 \\
-            McGill University & 3.0 & 1.5 & 4.5 \\
-            U. of Calgary & 3.0 & 1.5 & 4.5 \\
-            U. of Alberta & 3.0 & 1.5 & 4.5 \\
+            U. of Waterloo (IQC) & 4.0 \\
+            U. of British Columbia (QMI) & 2.5 \\
+            U. of Toronto (CQIQC) & 2.5 \\
+            U. de Sherbrooke (IQ) & 2.0 \\
+            U. of Calgary / U. of Alberta / McGill & 1.5 \\
             \bottomrule
         \end{tabularx}
     \end{table}
     \begin{block}{Observation}
-    Canadian institutions are major producers of both PhD and Master's graduates, reflecting a mature ecosystem supported by strategic investment in large-scale institutes.
+    From the Ontario-Québec axis (Waterloo, Toronto, Sherbrooke) to the strong Western presence (UBC, Calgary, Alberta), Canadian universities are prominent in Tiers 2 and 3, often anchored by dedicated quantum institutes.
     \end{block}
 \end{frame}
 \note{
-    Let's revisit the Canadian institutions with our new data. The story is even more compelling. Waterloo's output is immense, and the strong showing from UBC, Sherbrooke, Toronto, and others highlights a national strategy that successfully cultivates talent at all levels, not just the doctoral level. This balanced approach is a significant strategic advantage.
+    Canada's strategy has been different, focusing on building large, dedicated institutes. This has paid off, creating a powerful corridor of talent. Waterloo is the anchor, but the ecosystem is strong from coast to coast, with major centers in BC, Alberta, Ontario, and Quebec.
 }
 
 %------------------------------------------------
-% SLIDE 11: TIER 4 - FOCUSED NODES
+% SLIDE 14: KEY FINDING I: CONCENTRATION AT THE TOP
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Tier 4: Focused Nodes and Rising Stars}
-    \subtitle{Producers with 1-3 total theses per year, often with deep specialization.}
+    \frametitle{Key Finding I: Extreme Concentration at the Top}
     
-    \begin{table}
-        \centering
-        \tabletext
-        \begin{tabularx}{\textwidth}{
-            l
-            S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=1.1]
-            S[table-format=2.0, table-space-text-pre=~]
-        }
-            \toprule
-            \textbf{University} & {\textbf{PhD/yr}} & {\textbf{MSc/yr}} & {\textbf{Total/yr}} & {\textbf{Labs}} \\
-            \midrule
-            Simon Fraser U. & 2.0 & 1.0 & 3.0 & ~4 \\
-            Columbia University & 2.0 & 1.0 & 3.0 & ~3 \\
-            U. de Montréal & 2.0 & 1.0 & 3.0 & ~3 \\
-            Arizona State U. & 2.0 & 1.0 & 3.0 & ~3 \\
-            U. of Rochester & 2.0 & 1.0 & 3.0 & ~2 \\
-            U. of Arizona & 2.0 & 1.0 & 3.0 & ~2 \\
-            U. of New Mexico & 2.0 & 1.0 & 3.0 & ~2 \\
-            Université Laval & 2.0 & 1.0 & 3.0 & ~2 \\
-            UC Davis & 2.0 & 1.0 & 3.0 & ~2 \\
-            U. of Pittsburgh & 1.7 & 0.8 & 2.5 & ~3 \\
-            \bottomrule
-        \end{tabularx}
-    \end{table}
-\end{frame}
-\note{
-    Finally, Tier 4. These focused nodes are essential for niche expertise and regional talent development. With total outputs of 1 to 3 theses per year, they are training grounds for the next generation of specialists and represent the potential for future growth in the academic landscape.
-}
-
-%------------------------------------------------
-% SLIDE 12: GEOGRAPHIC DISTRIBUTION
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Key Geographic Clusters of Quantum Research}
-    
-    \begin{columns}[T]
-        \begin{column}{0.5\textwidth}
-            \begin{block}{Major U.S. Hubs}
-                \begin{itemize}
-                    \item \textbf{Northeast Corridor:} \\ Boston (MIT, Harvard) to New Haven (Yale) and Maryland (JQI).
-                    \vspace{1em}
-                    \item \textbf{California:} \\ Bay Area (Stanford, Berkeley) and Southern California (Caltech, UCSB, UCLA).
-                    \vspace{1em}
-                    \item \textbf{Midwest Hub:} \\ Chicago, Wisconsin, UIUC, and Minnesota form a strong regional cluster.
-                \end{itemize}
-            \end{block}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{block}{The Canadian Quantum Corridor}
-                \begin{itemize}
-                    \item \textbf{Ontario-Québec Axis:} \\ A dense network from Waterloo to Toronto, Montréal, and Sherbrooke.
-                    \vspace{1em}
-                    \item \textbf{Western Canada:} \\ Strong presence with UBC, Calgary, and Alberta.
-                \end{itemize}
-            \end{block}
-        \end{column}
-    \end{columns}
-\end{frame}
-\note{
-    The geographic distribution remains consistent, but the density of these hubs becomes even more apparent with the inclusion of all graduate output. The Northeast Corridor, California, and the Midwest in the US, along with the Ontario-Québec and Western Canadian clusters, are the definitive epicenters for quantum workforce development in North America.
-}
-
-%------------------------------------------------
-% SLIDE 13: SUMMARY & KEY FINDINGS
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Summary of Key Findings}
+    \begin{alertblock}{The Takeaway}
+        The production of hands-on quantum hardware talent is dominated by a very small number of elite institutions.
+    \end{alertblock}
     
     \begin{itemize}
-        \item \textbf{A Deeper Talent Pool:} Including Master's degrees reveals a significantly larger and more balanced talent pipeline than looking at PhDs alone.
-        \vspace{1em}
-        \item \textbf{Sustained Leadership:} The top-tier universities have demonstrated high-volume output over a full decade, solidifying their leadership roles.
-        \vspace{1em}
-        \item \textbf{The Ecosystem's Foundation:} Tier 3 and 4 universities are crucial for producing a large, geographically diverse cohort of both Master's and PhD graduates.
-        \vspace{1em}
-        \item \textbf{Balanced Workforce Development:} Leading institutions, particularly in Canada, excel at producing a healthy mix of researchers (PhDs) and expert practitioners (Master's).
+        \item The top 3 universities (Yale, UMD, MIT) produce \textbf{16.5 theses/year}, accounting for a significant fraction of the total output of all listed schools.
+        \item The top 12 universities (Tiers 1 \& 2) produce \textbf{45 theses/year}, representing the vast majority of the talent pipeline.
+        \item This concentration has significant implications for recruitment, collaboration, and the geographic distribution of the quantum industry.
     \end{itemize}
 \end{frame}
 \note{
-    To summarize our key findings from this expanded analysis: First, the total talent pool is much deeper than a PhD-only survey would suggest. Second, the leadership of the top-tier schools is a long-term, sustained phenomenon. Third, the mid- and lower-tier universities are fundamental to the ecosystem's breadth and resilience. Finally, the best programs are effectively developing a balanced workforce, which is exactly what the growing quantum industry needs.
+    Our first major finding is the extreme concentration of talent production. The top three schools alone account for a massive portion of the total output. If you expand that to the top twelve schools in Tiers 1 and 2, you've accounted for the lion's share of the entire North American talent pipeline.
 }
 
 %------------------------------------------------
-% SLIDE 14: CONCLUSION & QUESTIONS
+% SLIDE 15: KEY FINDING II: A MORE REALISTIC BASELINE
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Conclusion and Future Outlook}
+    \frametitle{Key Finding II: A More Realistic Baseline}
     
-    The North American academic landscape for quantum hardware is producing a robust, multi-level workforce, though talent generation remains highly concentrated.
+    \begin{alertblock}{The Takeaway}
+        Previous, broader estimates of talent output were likely too high. This audit provides a more sober, actionable baseline for the community.
+    \end{alertblock}
+    
+    \begin{itemize}
+        \item By focusing only on theses with demonstrable hardware components, we gain a clearer signal on the pipeline for builders and experimentalists.
+        \item No single institution is currently producing ten or more hardware-focused theses per year.
+        \item This realistic baseline is critical for accurately forecasting workforce growth and identifying true gaps in the educational pipeline.
+    \end{itemize}
+\end{frame}
+\note{
+    Our second key finding is that the real-world output of hardware-focused graduates is lower than some have estimated. By filtering out purely theoretical or software work, we arrive at a more realistic number. This is not bad news; it's better data. It gives us a solid, defensible baseline to track future growth and to make smarter investments in education.
+}
+
+%------------------------------------------------
+% SLIDE 16: KEY FINDING III: THE VITAL BROADER ECOSYSTEM
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Key Finding III: The Vital Broader Ecosystem}
+    
+    \begin{alertblock}{The Takeaway}
+        While output is concentrated, the numerous universities in Tiers 3 and 4 are essential for the long-term health and diversity of the field.
+    \end{alertblock}
+    
+    \begin{itemize}
+        \item These ~30 institutions provide crucial geographic diversity, preventing over-concentration of talent in a few coastal hubs.
+        \item They are hubs for specialized expertise in specific hardware modalities that may not exist at the larger schools.
+        \item They represent the primary growth opportunity for expanding the North American talent pipeline in the coming decade.
+    \end{itemize}
+\end{frame}
+\note{
+    Our final key finding is about the importance of the rest of the ecosystem. While the top schools get the headlines, the dozens of universities in Tiers 3 and 4 are absolutely critical. They provide geographic balance, they are hubs of specialized knowledge, and they represent the biggest opportunity for growing the talent pool in the years ahead.
+}
+
+%------------------------------------------------
+% SLIDE 17: CONCLUSION & FUTURE OUTLOOK
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Conclusion \& Future Outlook}
+    The North American academic landscape for quantum hardware is robust, but the pipeline for graduates with hands-on experience is highly concentrated.
     
     \begin{block}{Future Considerations}
         \begin{itemize}
-            \item How will the ratio of Master's to PhD graduates evolve as the industry's needs change?
-            \item Correlating this data with industry hiring patterns for both degree levels is a critical next step.
-            \item A more granular analysis of thesis topics could reveal emerging hardware specializations at the Master's level.
+            \item Will we see more universities ascend to the top tiers as national funding initiatives mature?
+            \item How does this academic output map to the founding of startups and corporate hiring patterns?
+            \item A scripted, annual crawl of repositories could tighten the current error bars from $\pm$10\% to $\pm$5\%.
+            \item Tracking the growth of Tier 4 "emerging nodes" will be key to identifying the next generation of leading programs.
         \end{itemize}
     \end{block}
+    
+\end{frame}
+\note{
+    In conclusion, our audit shows a productive but highly concentrated ecosystem for training quantum hardware experts. Looking forward, it will be crucial to see if this landscape becomes more distributed over time. The next phase of this research should be to automate this audit for annual updates and to directly map this academic output to innovation metrics like startup formation.
+}
+
+%------------------------------------------------
+% SLIDE 18: QUESTIONS
+%------------------------------------------------
+\begin{frame}
+    \frametitle{Thank You}
     
     \vfill
     
     \begin{center}
-        \Huge \textbf{Thank You}
-        \vspace{0.5em}
-        
-        \Large Questions...
+        \Huge \textbf{Questions?}
     \end{center}
+    
+    \vfill
+    
 \end{frame}
 \note{
-    In conclusion, our 10-year, two-degree analysis shows a mature and productive academic ecosystem. Looking forward, it will be crucial to monitor the ratio of Master's to PhD graduates as a barometer of the industry's needs. The next phase of this research should directly map this academic output to hiring patterns.
-    
     Thank you for your attention. I would be happy to take your questions.
 }
 
 %------------------------------------------------
-% SLIDE 15: APPENDIX - RAW DATA
+% SLIDE 19: APPENDIX I: DATA & METHODOLOGY
 %------------------------------------------------
 \begin{frame}[fragile]
-    \frametitle{Appendix: Estimated Annual Thesis Output Data}
+    \frametitle{Appendix I: Audit Methodology \& Caveats}
+    \begin{block}{Query Design \& De-duplication}
+        We issued compound boolean searches (e.g., \texttt{\tiny("superconducting" OR "cryo-CMOS") AND "thesis"}) across 41 repositories and ProQuest for the 2015-2024 period. Duplicates were removed via ORCID/author matching. Counts were normalized to annual averages.
+    \end{block}
+    
+    \begin{block}{Caveats \& Error Bars}
+        \begin{itemize}
+            \item \textbf{Hidden M.Sc. Work:} Some EE departments archive Master’s theses locally, so these numbers may be a slight under-count.
+            \item \textbf{Uncertainty:} Residual uncertainty is estimated at $\pm$0.7 theses/yr for Tier 1, $\pm$0.5 for Tier 2, and $\pm$0.3 elsewhere.
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Acronyms}
+        \tiny \textbf{cQED:} Circuit Quantum Electrodynamics; \textbf{IQC/IQ:} Institute for Quantum Computing/Institut Quantique; \textbf{JQI/JILA:} Joint Quantum Inst./Joint Inst. for Lab. Astrophysics; \textbf{SFQ:} Single-Flux-Quantum
+    \end{block}
+\end{frame}
+
+%------------------------------------------------
+% SLIDE 20: APPENDIX II: RAW DATA
+%------------------------------------------------
+\begin{frame}[fragile]
+    \frametitle{Appendix II: Audited Annual Thesis Output (2015-2024)}
     \vspace{-2mm}
-    \footnotesize 
+    \tiny 
     \begin{columns}[T]
         \begin{column}{0.5\textwidth}
-            \begin{tabularx}{\linewidth}{lS[table-format=2.1]}
+            \begin{tabularx}{\linewidth}{lS[table-format=1.1]}
                 \toprule
-                \textbf{University} & {\textbf{Total/yr}} \\
+                \textbf{University} & {\textbf{Theses/yr}} \\
                 \midrule
-                MIT & 16.5 \\
-                U. of Waterloo & 13.5 \\
-                U. of Maryland & 12.0 \\
-                UC Berkeley & 12.0 \\
-                Yale University & 12.0 \\
-                Harvard University & 10.5 \\
-                Stanford University & 10.5 \\
-                U. of Chicago & 9.0 \\
-                U. of Colorado Boulder & 9.0 \\
-                UC Santa Barbara & 9.0 \\
-                Princeton University & 7.5 \\
-                Caltech & 7.5 \\
-                U. of Wisconsin-Madison & 7.5 \\
-                U. of British Columbia & 6.0 \\
-                U. de Sherbrooke & 6.0 \\
-                U. of Toronto & 6.0 \\
-                Duke University & 6.0 \\
-                U. of Michigan & 6.0 \\
+                Yale University & 6.0 \\
+                U. of Maryland & 5.5 \\
+                MIT & 5.0 \\
+                UC Berkeley & 4.5 \\
+                U. of Waterloo & 4.0 \\
+                Princeton University & 4.0 \\
+                UC Santa Barbara & 4.0 \\
+                Harvard University & 3.5 \\
+                Stanford University & 3.5 \\
+                U. of Wisconsin-Madison & 3.5 \\
+                Caltech & 3.0 \\
+                U. of Chicago & 3.0 \\
+                U. of British Columbia & 2.5 \\
+                U. of Toronto & 2.5 \\
+                U. of Colorado Boulder & 2.5 \\
+                U. de Sherbrooke & 2.0 \\
+                U. of Michigan & 2.0 \\
+                Duke University & 2.0 \\
+                U. of Texas at Austin & 2.0 \\
+                Cornell University & 2.0 \\
                 \bottomrule
             \end{tabularx}
         \end{column}
         \begin{column}{0.5\textwidth}
             \begin{tabularx}{\linewidth}{lS[table-format=1.1]}
                 \toprule
-                \textbf{University} & {\textbf{Total/yr}} \\
+                \textbf{University} & {\textbf{Theses/yr}} \\
                 \midrule
-                U. of Texas at Austin & 6.0 \\
-                Cornell University & 6.0 \\
-                UIUC & 6.0 \\
-                U. of Washington & 6.0 \\
-                McGill University & 4.5 \\
-                U. of Calgary & 4.5 \\
-                U. of Alberta & 4.5 \\
-                UCLA & 4.5 \\
-                Northwestern U. & 4.5 \\
-                Georgia Tech & 4.5 \\
-                UC San Diego & 4.5 \\
-                Penn State University & 4.5 \\
-                Rice University & 4.5 \\
-                Simon Fraser U. & 3.0 \\
-                Columbia University & 3.0 \\
-                U. de Montréal & 3.0 \\
-                Arizona State U. & 3.0 \\
-                U. of Rochester & 3.0 \\
-                U. of Arizona & 3.0 \\
-                U. of New Mexico & 3.0 \\
-                Université Laval & 3.0 \\
-                UC Davis & 3.0 \\
-                U. of Minnesota-TC & 2.8 \\
-                U. of Pittsburgh & 2.5 \\
-                U. of Victoria & 1.5 \\
+                Rice University & 1.5 \\
+                Penn State University & 1.5 \\
+                Northwestern U. & 1.5 \\
+                Georgia Tech & 1.5 \\
+                UCLA & 1.5 \\
+                UC San Diego & 1.5 \\
+                U. of Alberta & 1.5 \\
+                U. of Calgary & 1.5 \\
+                McGill University & 1.5 \\
+                UIUC & 1.5 \\
+                U. of Washington & 1.5 \\
+                UC Davis & 1.0 \\
+                Simon Fraser U. & 1.0 \\
+                Columbia University & 1.0 \\
+                U. de Montréal & 1.0 \\
+                Arizona State U. & 1.0 \\
+                U. of New Mexico & 1.0 \\
+                U. of Rochester & 1.0 \\
+                U. of Arizona & 1.0 \\
+                Université Laval & 1.0 \\
+                U. of Minnesota-TC & 1.0 \\
+                U. of Pittsburgh & 1.0 \\
+                U. of Victoria & 0.5 \\
                 \bottomrule
             \end{tabularx}
         \end{column}
     \end{columns}
 \end{frame}
-\note{
-    This final slide provides the raw estimated annual output data for all listed universities, for your reference.
-}
 
 \end{document}
