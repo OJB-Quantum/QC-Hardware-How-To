@@ -854,6 +854,7 @@ Quantum‑Information Carriers
    ├─ Plasmon qubits (graphene, metallic)
    └─ Magnon qubits (spin‑wave packets)
 ```
+
 Adapted from: Reinke et al., *Phonon-Based Scalable Platform for Chip-Scale Quantum Computing*, AIP Advances 6, 122002 (2016)  
 <https://doi.org/10.1063/1.4972568>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
@@ -927,13 +928,14 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
     │   └─ 3. Cryo Class‑D Drivers/ Piezo
     ├─ C. Cryogenic Amplifiers & Filters
-    │   ├─ a. mK Parametric Pre‑Amplifiers 
-    │   │     • Flux‑pumped JPA/JPC
-    │   │     • Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
-    │   │     • Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
-    │   │     • Nanobridge Kinetic Parametric Amplifier (NKPA)
-    │   │     • Quantum Capacitance Parametric Amplifier (QCPA)
-    │   ├─ b. 4 K HEMT LNAs (octave‑wide, high dynamic range)
+    │   ├─ 1. mK Parametric Pre‑Amplifiers 
+    │   │     a. Flux‑pumped JPA/JPC
+    │   │     b. Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
+    │   │     c. Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
+    │   │     d. Nanobridge Kinetic Parametric Amplifier (NKPA)
+    │   │     e. Quantum Capacitance Parametric Amplifier (QCPA)
+    │   │     f. SNAIL‑based Parametric Amplifier (SPA/ SNAIL‑TWPA)
+    │   ├─ 2. 4 K HEMT LNAs (octave‑wide, high dynamic range)
     │   ├─ 3. RF Isolators/ Circulators (ferrite or on‑chip)
     │   └─ 4. Superconducting & SAW Filters
     ├─ D. Cryogenic Packaging & Interconnect
@@ -949,6 +951,45 @@ Quantum Hardware + Quantum‑Adjacent Hardware
         ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
         └─ 5. Spin‑orbit‑torque MRAM at 4 K
 ```
+
+> Acronym Glossary for the Hardware‑Taxonomy Tree
+> 
+> **AFC** – *Atomic Frequency Comb* (multiplexed rare‑earth quantum‑memory protocol) 
+> **AQFP** – *Adiabatic Quantum‑Flux‑Parametron* (ultra‑low‑energy superconducting logic family) 
+> **ADC** – *Analog‑to‑Digital Converter* (mixed‑signal front‑end building block)
+> **AQFP** – *Adiabatic Quantum‑Flux Parametron* 
+> **CPW** – *Coplanar Waveguide* (planar superconducting resonator geometry)
+> **CMOS** – *Complementary Metal‑Oxide‑Semiconductor* (mainstream semiconductor process)
+> **DAC** – *Digital‑to‑Analog Converter* (mixed‑signal front‑end building block)
+> **eDRAM** – *Embedded Dynamic Random‑Access Memory* (capacitor‑less or 2T0C variants at cryo‑T)
+> **eSFQ** – *Energy‑Efficient Single‑Flux‑Quantum* logic (bias‑resistor‑free RSFQ derivative) 
+> **FinFET** – *Fin Field‑Effect Transistor* (multigate CMOS device) 
+> **GKP** – *Gottesman‑Kitaev‑Preskill* bosonic code (grid cat qubit)
+> **HEMT LNA** – *High‑Electron‑Mobility Transistor Low‑Noise Amplifier* (4 K second‑stage amplifier)
+> **ICs** – *Integrated Circuits*
+> **JPA** – *Josephson Parametric Amplifier* (λ/4 or lumped resonant pre‑amp) 
+> **JPC** – *Josephson Parametric Converter* (non‑degenerate three‑wave mixer)
+> **JPM** – *Josephson Photomultiplier* (microwave single‑photon detector) 
+> **JTWPA** – *Josephson Traveling‑Wave Parametric Amplifier* 
+> **KID/ MKID** – *Kinetic‑Inductance Detector/ Microwave Kinetic‑Inductance Detector* 
+> **KI‑TWPA** – *Kinetic‑Inductance Traveling‑Wave Parametric Amplifier* 
+> **LNA** – *Low‑Noise Amplifier*
+> **MRAM** – *Magnetoresistive Random‑Access Memory*
+> **NKPA** – *Nanobridge Kinetic Parametric Amplifier* 
+> **NV** – *Nitrogen‑Vacancy* colour centre (diamond spin qubit)
+> **PIC/ QPIC** – *(Quantum) Photonic Integrated Circuit*
+> **QCPA** – *Quantum Capacitance Parametric Amplifier* 
+> **RQL** – *Reciprocal Quantum Logic* (AC‑powered SFQ logic family) 
+> **RSFQ** – *Rapid Single‑Flux‑Quantum* logic (classical picosecond digital logic) 
+> **SAW** – *Surface‑Acoustic Wave* (piezoelectric filter technology)
+> **SiN/ Si/ SiO₂** – *Silicon Nitride/ Silicon / Silicon‑Dioxide* photonic platforms
+> **SNAIL** – *Superconducting Nonlinear Asymmetric Inductive eLement* (tunable χ³ dipole) 
+> **SPA** – *SNAIL Parametric Amplifier* (resonant three‑wave mixer) 
+> **SNSPD** – *Superconducting Nanowire Single‑Photon Detector* 
+> **SoC** – *System‑on‑Chip* (monolithic mixed‑signal controller)
+> **SRAM** – *Static Random‑Access Memory*
+> **SNAIL‑TWPA** – *Traveling‑Wave Parametric Amplifier built from SNAIL unit cells* (see SPA lineage)
+> **TWPA** – *Traveling‑Wave Parametric Amplifier* (generic umbrella for JTWPA, KI‑TWPA, etc.)
 
 ---
 
@@ -1173,26 +1214,17 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 
 > Note: A cryogenic HEMT LNA may be used by itself whenever a few‑kelvin noise temperature, octave‑wide bandwidth, and large dynamic range are sufficient; but for sub‑kelvin, near‑quantum‑limited measurements (qubit readout, axion searches, squeezed‑state detection) the HEMT is relegated to a second stage and is preceded by a parametric preamplifier (JPA, JTWPA, KI‑TWPA, NKPA, or QCPA) that sets the system noise floor.
 
-> Acryonyms
+> Related Acryonyms
 >
 > **dBm** – Decibels relative to 1 milliwatt
->
 > **HEMT** - High-Electron-Mobility Transistor
->
 > **LNA** - Low Noise Amplifier
->
 > **JPA** – Josephson Parametric Amplifier
->
 > **JTWPA** – Josephson Traveling‑Wave Parametric Amplifier
-> 
 > **KI‑TWPA/ KIT** – Kinetic‑Inductance Traveling‑Wave Parametric Amplifier
-> 
 > **NKPA** – Nanobridge Kinetic‑Inductance Parametric Amplifier
-> 
 > **QCPA** – Quantum‑Capacitance Parametric Amplifier
-> 
 > **RPM** – Resonant Phase Matching
-> 
 > **3‑wave/ 4‑wave mixing** (3WM/ 4WM) – Parametric processes satisfying ωₚ = ωₛ + ωᵢ (3‑wave) or 2 ωₚ = ωₛ + ωᵢ (4‑wave)
 
 ---
