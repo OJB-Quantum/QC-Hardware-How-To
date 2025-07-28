@@ -558,7 +558,7 @@ Notes:
 ```
 ├─ Tier 1 — High‑volume producers (≥ 5 per year)
 │   ├─ Yale University (Yale) ......................................  6.0 ;  6 labs
-│   ├─ University of Maryland – College Park (UMD/ JQI) ...........  5.5 ; 10 labs
+│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; 10 labs
 │   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; 14 labs
 │
 ├─ Tier 2 — Moderate producers (3 – 4.9 per year)
@@ -573,18 +573,18 @@ Notes:
 │   └─ California Institute of Technology (Caltech) ................  3.0 ;  5 labs
 │
 ├─ Tier 3 — Niche producers (1.5 – 2.9 per year)
-│   ├─ University of British Columbia (UBC/ QMI) ..................  2.5 ; 12 labs
+│   ├─ University of British Columbia (UBC/ QMI) ...................  2.5 ; 12 labs
 │   ├─ University of Toronto (CQIQC) ...............................  2.5 ; 10 labs
-│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ..........  2.5 ;  6 labs
+│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ...........  2.5 ;  6 labs
 │   ├─ Université de Sherbrooke (IQ) ...............................  2.0 ; 11 labs
 │   ├─ University of Michigan (U‑M) ................................  2.0 ;  4 labs
 │   ├─ Duke University (Duke) ......................................  2.0 ;  4 labs
 │   ├─ University of Texas at Austin (UT Austin) ...................  2.0 ;  4 labs
 │   ├─ Cornell University (Cornell) ................................  2.0 ;  4 labs
-│   ├─ McGill University (McGill) .................................  1.5 ;  6 labs
+│   ├─ McGill University (McGill) ..................................  1.5 ;  6 labs
 │   ├─ University of Alberta (UAlberta) ............................  1.5 ;  5 labs
 │   ├─ University of Calgary (UCalgary) ............................  1.5 ;  5 labs
-│   ├─ Rice University (Rice) .....................................  1.5 ;  3 labs
+│   ├─ Rice University (Rice) ......................................  1.5 ;  3 labs
 │   ├─ Pennsylvania State University (Penn State) ..................  1.5 ;  3 labs
 │   ├─ Northwestern University (Northwestern) ......................  1.5 ;  3 labs
 │   ├─ Georgia Institute of Technology (Georgia Tech) ..............  1.5 ;  3 labs
@@ -592,7 +592,7 @@ Notes:
 │   ├─ University of California – San Diego (UC San Diego) .........  1.5 ;  3 labs
 │   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  1.5 ;  3 labs
 │   ├─ University of Washington (UW) ...............................  1.5 ;  3 labs
-│   └─ University of California – Davis (UC Davis) ................  1.0 ;  2 labs
+│   └─ University of California – Davis (UC Davis) .................  1.0 ;  2 labs
 │
 └─ Tier 4 — Emerging nodes (< 1.5 per year)
     ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............  1.0 ;  ~5 labs
