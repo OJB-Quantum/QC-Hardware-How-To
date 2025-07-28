@@ -591,8 +591,7 @@ Notes:
 │   ├─ University of California – Los Angeles (UCLA) ...............  1.5 ;  3 labs
 │   ├─ University of California – San Diego (UC San Diego) .........  1.5 ;  3 labs
 │   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  1.5 ;  3 labs
-│   ├─ University of Washington (UW) ...............................  1.5 ;  3 labs
-│   └─ University of California – Davis (UC Davis) .................  1.0 ;  2 labs
+│   └─ University of Washington (UW) ...............................  1.5 ;  3 labs
 │
 └─ Tier 4 — Emerging nodes (< 1.5 per year)
     ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............  1.0 ;  ~5 labs
@@ -601,6 +600,7 @@ Notes:
     ├─ Université de Montréal (UdeM) ..............................  1.0 ;  3 labs
     ├─ Arizona State University (ASU) .............................  1.0 ;  3 labs
     ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  3 labs
+    ├─ University of California – Davis (UC Davis) ................  1.0 ;  2 labs
     ├─ University of Arizona (UArizona) ...........................  1.0 ;  2 labs
     ├─ University of New Mexico (CQuIC) ...........................  1.0 ;  2 labs
     ├─ University of Rochester (U Rochester) ......................  1.0 ;  2 labs
