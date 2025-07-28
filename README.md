@@ -790,8 +790,6 @@ Qudit-Related Relationships of Quantum Information Carriers
 |---------------------------------------|------------------------------------------------------------|
 | **Requirements of Quantum Computing** | **DiVincenzo's Criteria**: <br> - A scalable physical system with well-characterized qubit <br> - The ability to initialize the state of the qubits to a simple fiducial state <br> - Long relevant Quantum coherence times <br> - A "universal" set of quantum gates <br> - A qubit-specific measurement capability |
 | **Types of Qubits**                   | - **Stationary qubits**: Trapped/not in motion, easy to encode information, but hard to communicate <br> - **Flying qubits**: In motion by default, hard to encode information, but easy to communicate |
-| **Stationary Qubits**                 | - Trapped atoms <br> - Trapped ions <br> - Josephson junctions, $\pi$-Josephson junctions <br> - Quantum dots <br> - Defect atoms (donor/acceptor) in a strained matrix <br> - Nitrogen vacancies in Diamond <br> - Magnetic clusters <br> - Magnetic nanodisks |
-| **Flying Qubits**                     | - Photons <br> - Domain walls <br> - Phonons? <br> - Polaritons? <br> - Plasmons? <br> - Magnons? |
 
 ```
 Quantum‑Information Carriers
