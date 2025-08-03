@@ -100,7 +100,8 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 | Coulomb Diamonds & Blockade Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Coulomb_Blockades_and_Coulomb_Diamonds.ipynb) |
 | Quantum-Limited Parametric Amplification Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Parametric_Amplification_Plot.ipynb) |
 | Transverse Electromagnetic Wave Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Transverse_Electromagnetic_Wave_Visualization.ipynb) |
-| Pulse Shapes and Envelopes Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Pulse_Shapes_and_Envelopes_Visualization.ipynb)
+| Pulse Shapes and Envelopes Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Pulse_Shapes_and_Envelopes_Visualization.ipynb) |
+| Temperature Dependence of CPW Resonator Sweeps| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Temperature_Dependence_of_CPW_Resonator_Sweeps.ipynb)
 
 Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](https://nbviewer.org/github/OJB-Quantum/QC-Hardware-How-To/tree/main/Jupyter%20Notebook%20Scripts)
 
@@ -557,7 +558,7 @@ Notes:
 
 ```
 ├─ Tier 1 — High‑volume producers (≥ 5 per year)
-│   ├─ Yale University (Yale) ......................................  6.0 ;  6 labs
+│   ├─ Yale University (Yale) ......................................  6.0 ;  ~6 labs
 │   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; 10 labs
 │   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; 14 labs
 │
@@ -927,7 +928,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   ├─ 1. Time‑interleaved DAC/ADC
     │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
     │   └─ 3. Cryo Class‑D Drivers/ Piezo
-    ├─ C. Cryogenic Amplifiers & Filters
+    ├─ C. Cryogenic Amplifiers, Filters, & Passive Components
     │   ├─ 1. mK Parametric Pre‑Amplifiers 
     │   │     a. Flux‑pumped Josephson Parametric Amplifier/ Converter (JPA/JPC)
     │   │     b. Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
