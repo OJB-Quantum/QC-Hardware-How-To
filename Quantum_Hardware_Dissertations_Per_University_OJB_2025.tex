@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % LaTeX Beamer Presentation: A Survey of North American Quantum Hardware Research
 % Author: Onri Jay Benally
-% Date: July 27, 2025
+% Original Date: July 27, 2025
 % Scope: 10-Year Master's & PhD Output (2015-2024 Audit)
 %
 % INSTRUCTIONS FOR OVERLEAF:
@@ -19,7 +19,7 @@
 \subtitle{A 10-Year Audit of Master's \& PhD Output in the U.S. and Canada (2015-2024)}
 \author{Onri Jay Benally}
 \institute{University of Minnesota–Twin Cities}
-\date{July 27, 2025}
+\date{August 15, 2025}
 
 %------------------------------------------------
 %   THEME AND STYLING
@@ -135,8 +135,36 @@
     \vspace{1em}        
         Quantum Hardware Lab: Group led by a principal investigator whose primary focus aligns with our hardware criteria.
 \end{frame}
+
 %------------------------------------------------
-% SLIDE 3: METHODOLOGY I: SCOPE
+% SLIDE 3.1: Quantum-Hardware-Applicable Degrees
+%------------------------------------------------
+\begin{frame}[t]
+  \frametitle{Quantum-Hardware-Applicable Degrees (Non-Exhaustive)}
+  \centering
+  {%
+    \tabletext
+    \setlength{\tabcolsep}{6pt}%
+    \renewcommand{\arraystretch}{1.2}%
+    \begin{tabularx}{\linewidth}{>{\RaggedRight\arraybackslash}X >{\RaggedRight\arraybackslash}X}
+      \toprule
+      \textbf{Degree} & \textbf{Degree} \\
+      \midrule
+      Physics (Experimental or Applied)       & Computer Engineering \\
+      Quantum Science \& Engineering          & Chemistry \\
+      Quantum Technology                      & Chemical Engineering \\
+      Engineering Physics                     & Physical Chemistry \\
+      Electrical Engineering                  & Systems Engineering \\
+      Electrical \& Computer Engineering      & Mechanical Engineering \\
+      Materials Science                       & Nanoscience \\
+      Materials Science \& Engineering        & Nanoengineering \\
+      \bottomrule
+    \end{tabularx}
+  }%
+\end{frame}
+
+%------------------------------------------------
+% SLIDE 3.2: METHODOLOGY I: SCOPE
 %------------------------------------------------
 \begin{frame}
     \frametitle{Methodology I: Included Hardware Categories}
@@ -617,6 +645,42 @@
 }
 
 %------------------------------------------------
+% SLIDE 18.1: License (CC-BY-4.0) — Open Access
+%------------------------------------------------
+\begin{frame}[t]
+  \frametitle{License \& Open Access}
+
+  \centering
+  {\Large \textbf{Open Access}}\\[0.4em]
+  {\small This presentation is distributed under the
+  \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International (CC BY 4.0)} license.}
+
+  \vspace{0.8em}
+  {%
+    \setlength{\tabcolsep}{6pt}%
+    \renewcommand{\arraystretch}{1.2}%
+    \begin{minipage}{0.94\linewidth}
+      \begin{block}{CC BY 4.0 Summary}
+        {\tabletext
+        \begin{tabularx}{\linewidth}{>{\RaggedRight\arraybackslash}X >{\RaggedRight\arraybackslash}X}
+          \toprule
+          \textbf{You may} & \textbf{Conditions} \\
+          \midrule
+          \ding{51} \, Share — copy and redistribute the material in any medium or format. \newline
+          \ding{51} \, Adapt — remix, transform, and build upon the material, for any purpose, even commercially.
+          &
+          \ding{51} \, Attribution — give appropriate credit, provide a link to the license, and indicate if changes were made. \newline
+          \ding{51} \, No additional restrictions — do not apply legal terms or technological measures that legally restrict others from doing anything the license permits. \\
+          \bottomrule
+        \end{tabularx}
+        }
+      \end{block}
+    \end{minipage}
+  }%
+  
+\end{frame}
+
+%------------------------------------------------
 % SLIDE 19: APPENDIX I: DATA & METHODOLOGY
 %------------------------------------------------
 \begin{frame}[fragile]
@@ -706,5 +770,7 @@
         \end{column}
     \end{columns}
 \end{frame}
+
+
 
 \end{document}
