@@ -12,9 +12,17 @@ Everything you need for quantum hardware engineering in the field.
 
 **-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
 
+---
+
+### Translation of "Quantum Computer" into Navajo by Onri Jay Benally
+
+| English Term       | Navaho/ Navajo Term                            | Literal Meaning in English                              |
+|--------------------|------------------------------------------------|---------------------------------------------------------|
+| quantum computer   | béésh tʼáá 'aníí 'á'ádaatʼéhígíí nitsékeesí   | Metal or piece of metal that thinks at a truly fundamental level |
+
 --- 
 
-Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
+## Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
@@ -101,7 +109,8 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 | Quantum-Limited Parametric Amplification Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Parametric_Amplification_Plot.ipynb) |
 | Transverse Electromagnetic Wave Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Transverse_Electromagnetic_Wave_Visualization.ipynb) |
 | Pulse Shapes and Envelopes Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Pulse_Shapes_and_Envelopes_Visualization.ipynb) |
-| Temperature Dependence of CPW Resonator Sweeps| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Temperature_Dependence_of_CPW_Resonator_Sweeps.ipynb)
+| Temperature Dependence of Coplanar Waveguide (CPW) Resonator Sweeps| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Temperature_Dependence_of_CPW_Resonator_Sweeps.ipynb) |
+| Coplanar Waveguide (CPW) Kinetic Inductance Simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/CPW_Kinetic_Inductance_Simulation.ipynb)|
 
 Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](https://nbviewer.org/github/OJB-Quantum/QC-Hardware-How-To/tree/main/Jupyter%20Notebook%20Scripts)
 
@@ -951,7 +960,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
         ├─ 2. Floating‑Body RAM (FBRAM) at 77 K
         ├─ 3. Capacitor‑less eDRAM/ DRAM benchmarks (2T0C, 4 K)
         ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
-        └─ 5. Spin‑orbit‑torque MRAM at 4 K
+        └─ 5. Spin‑orbit‑torque (SOT) MRAM at 4 K
 ```
 
 > Acronym Glossary for the Hardware‑Taxonomy Tree
