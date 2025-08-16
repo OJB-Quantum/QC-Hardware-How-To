@@ -952,7 +952,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
         ├─ 2. Floating‑Body RAM (FBRAM) at 77 K
         ├─ 3. Capacitor‑less eDRAM/ DRAM benchmarks (2T0C, 4 K)
         ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
-        └─ 5. Spin‑orbit‑torque MRAM at 4 K
+        └─ 5. Spin‑orbit‑torque (SOT) MRAM at 4 K
 ```
 
 > Acronym Glossary for the Hardware‑Taxonomy Tree
