@@ -14,7 +14,7 @@ Everything you need for quantum hardware engineering in the field.
 
 ---
 
-### Translation of "Quantum Computer" into Navajo by Onri Jay Benally (O.J.B.)
+### Translation of "Quantum Computer" into Navajo by Onri Jay Benally
 
 | English Term       | Navaho/ Navajo Term                            | Literal Meaning in English                              |
 |--------------------|------------------------------------------------|---------------------------------------------------------|
