@@ -12,9 +12,17 @@ Everything you need for quantum hardware engineering in the field.
 
 **-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
 
+---
+
+### Translation of "Quantum Computer" into Navajo by Onri Jay Benally (O.J.B.) [Example]
+
+| English Term       | Navaho/ Navajo Term                            | Literal Meaning in English                              |
+|--------------------|------------------------------------------------|---------------------------------------------------------|
+| quantum computer   | béésh tʼáá 'aníí 'á'ádaatʼéhígíí nitsékeesí   | Metal or piece of metal that thinks at a truly fundamental level |
+
 --- 
 
-Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
+## Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
