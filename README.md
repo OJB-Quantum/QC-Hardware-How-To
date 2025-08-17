@@ -951,7 +951,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   └─ 4. Superconducting & SAW Filters
     ├─ D. Cryogenic Packaging & Interconnect
     │   ├─ 1. Flex‑print & interposer tiles
-    │   ├─ 2. 3‑D cavities w/ bump‑bond interconnect
+    │   ├─ 2. 3-D cavities & cryogenic bump-bonds/ interconnects
     │   ├─ 3. Coax/ waveguide/ stripline wiring (NbTi, Nb, CuNi)
     │   ├─ 4. Optical fiber feedthroughs (1–4 K)
     │   └─ 5. Magnetic & vibration shielding, radiation hardeners
