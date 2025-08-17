@@ -1224,7 +1224,7 @@ DR: Dilution Refrigerator
 
 --- 
 
-## How to Tell an Insert from a Wiring Tree/ Chassis
+### How to Tell an Insert from a Wiring Tree/ Chassis
 
 | Indicator | Dilution Refrigerator Insert | Wiring “Chandelier” |
 | ----- | ----- | ----- |
@@ -1233,6 +1233,38 @@ DR: Dilution Refrigerator
 | Must connect to gas-handling system | **Yes** | No |
 | Bolts to 50 mK plate; routes cables & attenuators | Optional plate on bottom | **Primary purpose** |
 | Delivered as stand-alone module for a pre-existing 4 K cryostat | DynaCool DR insert (dry) | N/A—comes with chassis |
+
+---
+
+### Do I need Cryogenic Equipment for My Quantum Photonic Chip?
+
+```
+├─ A) Are you talking about a QUANTUM PHOTONIC QUBIT CHIP?
+│    ├─ A1) Encoding & detection path: DISCRETE-VARIABLE (single photons)?
+│    │    ├─ A1.i) Are superconducting detectors (SNSPD/TES) ON-CHIP or CO-PACKAGED?
+│    │    │    ├─ YES → Plan CRYOGENICS (≈0.1–4 K). Also avoid thermo-optic tuning; use Pockels/magneto-optic/phase-change.
+│    │    │    └─ NO  → Go to A1.ii.
+│    │    ├─ A1.ii) Are you using near-deterministic QD single-photon SOURCES on-chip/co-packaged?
+│    │    │    ├─ YES → Plan CRYOGENICS (≈4–10 K). Processor often rides in same cryostat.
+│    │    │    └─ NO  → Go to A1.iii.
+│    │    ├─ A1.iii) Are DETECTORS external and warm-compatible (Si/GeSi SPADs; InGaAs SPADs with TEC)?
+│    │    │    ├─ YES → Processor CAN stay ROOM TEMPERATURE (stabilize with small TEC if needed).
+│    │    │    └─ NO  → If external detectors are SNSPDs, only the detector rack is cold; processor can still be ROOM TEMPERATURE.
+│    │
+│    └─ A2) Encoding & detection path: CONTINUOUS-VARIABLE (squeezed states + homodyne)?
+│         ├─ Sources and balanced-homodyne detectors are ROOM TEMPERATURE by default.
+│         └─ Only plan CRYOGENICS if co-integrating cold peripherals (e.g., rare-earth memories) or if your system choice is to
+│            co-locate everything to cut fiber coupling loss into a cryostat.
+│
+└─ B) Are you talking about a NON-QUBIT QUANTUM INTEGRATED CIRCUIT?
+     ├─ B1) Quantum communications TRANSMITTERS, linear-optics processors, quantum sensors (no on-chip cryo parts)?
+     │    └─ ROOM TEMPERATURE (standard hermetic/TEC packages).
+     ├─ B2) Photonic READOUT for superconducting electronics (e.g., 4 K data links) or on-chip SNSPD arrays for sensing?
+     │    └─ Plan CRYOGENICS; use cryo-compatible EO modulators (LN/BTO), not thermo-optic heaters.
+     └─ B3) Memories/interfaces:
+          ├─ Rare-earth–doped solid-state memories → CRYOGENICS (few kelvin).
+          └─ Warm-vapor (alkali) memories → ROOM TEMPERATURE, with bandwidth/noise trade-offs.
+```
 
 ---
 
