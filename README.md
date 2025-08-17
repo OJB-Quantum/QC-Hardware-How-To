@@ -1236,7 +1236,7 @@ DR: Dilution Refrigerator
 
 ---
 
-### Do I need Cryogenic Equipment for My Quantum Photonic Chip?
+### Do I Need Cryogenic Equipment for My Quantum Photonic Chip (If I Have One)?
 
 ```
 ├─ A) Are you talking about a QUANTUM PHOTONIC QUBIT CHIP?
