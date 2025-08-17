@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % LaTeX Beamer Presentation: A Survey of North American Quantum Hardware Research
 % Author: Onri Jay Benally
-% Original Date: July 27, 2025
+% Date: July 27, 2025
 % Scope: 10-Year Master's & PhD Output (2015-2024 Audit)
 %
 % INSTRUCTIONS FOR OVERLEAF:
@@ -39,6 +39,26 @@
 \usepackage{siunitx} % For aligning numbers in tables
 \usepackage{hyperref}
 \usepackage{pifont} % For checkmarks/x-marks if needed
+\usepackage{adjustbox}
+\usepackage{alltt}
+
+% TikZ + PGFPlots setup
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning,fit,backgrounds}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% Preamble (safe helper)
+\tikzset{
+  hub label/.style={fill=white, fill opacity=0.86, text opacity=1,
+                    draw=black, line width=0.2pt, rounded corners=1pt,
+                    inner sep=1.2pt, font=\scriptsize},
+  hub dot/.style={circle, fill=black, draw=white, line width=0.2pt, minimum size=2pt, inner sep=0pt}
+}
+\newcommand{\HubLabel}[3]{%
+  \node[hub dot] at (#1,#2) {};
+  \node[hub label, anchor=west, xshift=0.9ex] at (#1,#2) {#3};
+}
 
 %------------------------------------------------
 %   FONT CONFIGURATION (IBM PLEX SANS)
@@ -65,8 +85,23 @@
 \setbeamerfont{block body}{size=\normalsize}
 \setbeamerfont{footnote}{size=\tiny}
 
+% Adjustable content size knob for specific slides
+\newcommand{\MethodologyBodySize}{\scriptsize} % change to \small | \footnotesize | \scriptsize | \tiny
+
 % Custom command for table text
 \newcommand{\tabletext}{\small}
+
+%---
+% For Unicode-safe monospace and scalable ASCII blocks
+\IfFontExistsTF{IBM Plex Mono}{
+  \setmonofont{IBM Plex Mono}[Scale=MatchLowercase, Ligatures=NoCommon]
+}{
+  \IfFontExistsTF{DejaVu Sans Mono}{
+    \setmonofont{DejaVu Sans Mono}[Scale=MatchLowercase]
+  }{
+    \setmonofont{Noto Sans Mono}[Scale=MatchLowercase]
+  }
+}
 
 %------------------------------------------------
 %   PRESENTATION BEGINS
@@ -164,37 +199,146 @@
 \end{frame}
 
 %------------------------------------------------
-% SLIDE 3.2: METHODOLOGY I: SCOPE
+% SLIDE 3.2: METHODOLOGY I: SCOPE  (adjustable, smaller contents)
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Methodology I: Included Hardware Categories}
-    \begin{columns}[T]
-        \begin{column}{0.5\textwidth}
-            \begin{block}{Quantum-Core Hardware Examples}
-                \begin{itemize}
-                    \item \textbf{Qubit Technologies:} Superconducting (Transmon, Fluxonium), Spin-Based (NV Centers, Si/SiGe, donors, merons)
-                    \item \textbf{Quantum Interconnects:} 3D Superconducting Cavities, Metamaterial/ Photonic Waveguides
-                    \item \textbf{Quantum Detectors:} Superconducting Nanowire Detectors (SNSPDs), Microwave Kinetic‑Inductance Detectors (MKIDs)
-                    \item \textbf{Quantum Memories:} Rare-earth doped crystals, Magnon-based devices
-                \end{itemize}
-            \end{block}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{block}{Quantum-Adjacent Hardware Examples}
-                \begin{itemize}
-                    \item \textbf{Cryogenic Logic:} Single-Flux-Quantum (SFQ) circuits, Cryo-CMOS
-                    \item \textbf{Cryogenic Mixed-Signal/RF:} DAC/ADCs, \break RF Transceiver SoCs
-                    \item \textbf{Cryogenic Amplifiers:} Josephson Traveling Wave Parametric Amps (JTWPAs), HEMT LNAs
-                    \item \textbf{Cryogenic Memory:} Cryo-SRAM, Cryo-MRAM, Josephson Junction-based RAM
-                    \item \textbf{Cryogenic Passive Components:} On-Chip MW/RF Isolators \& Circulators
-                \end{itemize}
-            \end{block}
-        \end{column}
+  \frametitle{Methodology I: Included Hardware Categories}
+
+  % Scope the font tweaks to THIS frame only
+  {%
+    % Set Beamer fonts for the main contents to the adjustable knob
+    \setbeamerfont{normal text}{size=\MethodologyBodySize}
+    \setbeamerfont{block body}{size=\MethodologyBodySize}
+    \setbeamerfont{itemize/enumerate body}{size=\MethodologyBodySize}
+    \setbeamerfont{itemize/enumerate subbody}{size=\MethodologyBodySize}
+
+    % Also apply the size to any stray text outside blocks
+    \MethodologyBodySize
+
+    \begin{columns}[T,totalwidth=\textwidth]
+      \begin{column}{0.5\textwidth}
+        \begin{block}{Quantum-Core Hardware Examples}
+          \begin{itemize}
+            \item \textbf{Qubit Technologies:} Superconducting (Transmon, Fluxonium), Spin-Based (NV Centers, Si/SiGe, donors, merons)
+            \item \textbf{Quantum Interconnects:} 3D Superconducting Cavities, Metamaterial/ Photonic Waveguides
+            \item \textbf{Quantum Detectors:} Superconducting Nanowire Detectors (SNSPDs), Microwave Kinetic‑Inductance Detectors (MKIDs)
+            \item \textbf{Quantum Memories:} Rare-earth doped crystals, Magnon-based devices
+          \end{itemize}
+        \end{block}
+      \end{column}
+      \begin{column}{0.5\textwidth}
+        \begin{block}{Quantum-Adjacent Hardware Examples}
+          \begin{itemize}
+            \item \textbf{Cryogenic Logic:} Single-Flux-Quantum (SFQ) circuits, Cryo-CMOS
+            \item \textbf{Cryogenic Mixed-Signal/RF:} DAC/ADCs, \break RF Transceiver SoCs
+            \item \textbf{Cryogenic Amplifiers:} Josephson Traveling Wave Parametric Amps (JTWPAs), HEMT LNAs
+            \item \textbf{Cryogenic Memory:} Cryo-SRAM, Cryo-MRAM, Josephson Junction-based RAM
+            \item \textbf{Cryogenic Passive Components:} On-Chip MW/RF Isolators \& Circulators
+          \end{itemize}
+        \end{block}
+      \end{column}
     \end{columns}
+  }% end scoped size changes
+
 \end{frame}
-\note{
-    At a high level, this means we counted everything from the qubits themselves to the specialized cryogenic electronics required to make them work. This provides a holistic view of the talent pool for building a complete quantum computing stack.
-}
+
+% SLIDE 3.3 
+%---
+\begin{frame}[fragile,t]
+  \frametitle{Quantum Hardware + Quantum-Adjacent Hardware (Comprehensive)}
+  \setlength{\columnsep}{6pt}
+
+  \begin{columns}[T,onlytextwidth]
+
+    % ---------------- LEFT: Quantum-Core Hardware ----------------
+    \begin{column}{0.5\textwidth}
+      \begin{adjustbox}{max totalsize={\linewidth}{0.75\textheight}, keepaspectratio}
+        \begin{minipage}{\linewidth}
+          \ttfamily\fontsize{6.6pt}{8.0pt}\selectfont
+\begin{alltt}
++-- I. Quantum-Core Hardware
+|   +-- A. Qubit Technologies
+|   |   +-- 1. Superconducting Qubits
+|   |   |    - Transmon, Fluxonium, Flux qubit
+|   |   |    - Cavity-protected (cat, binomial, GKP-encoded)
+|   |   +-- 2. Spin-Based Qubits
+|   |   |   +-- a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
+|   |   |   +-- b. Magnetic and Molecular Spins
+|   |   |       - Magnetic clusters (Fe8, Mn12, heterometallic rings, other candidates)
+|   |   |       - Magnetic nanodisks (meron/skyrmion qubits)
+|   |   +-- 3. Bosons (microwave photons, phonons, magnons)
+|   |   +-- 4. Topological/Majorana Candidates
+|   +-- B. Quantum Interconnects ("Buses")
+|   |   +-- 1. Planar Resonators (CPW lambda/4, lambda/2, lumped, stripline)
+|   |   +-- 2. 3-D Superconducting Cavities
+|   |   +-- 3. Metamaterial Waveguides & Resonators
+|   |   +-- 4. Photonic Waveguides & Ring-resonator PICs
+|   |   +-- 5. Hybrid Quantum Transducers (electro-optic, electro-acoustic, magnonic)
+|   +-- C. Quantum-Limited & Quantum-Enhanced Detectors
+|   |   +-- 1. SNSPD
+|   |   +-- 2. KID/MKID
+|   |   +-- 3. Josephson Photomultipliers (JPM) & Photonics
+|   |   +-- 4. Quantum-optimized Bolometers/Calorimeters
+|   +-- D. Quantum Memories
+|   |   +-- 1. Rare-earth AFC crystals
+|   |   +-- 2. Magnon memories
+|   |   +-- 3. 3-D Cat-code cavities
+|   |   +-- 4. Nuclear-spin ensembles
+|   +-- E. Quantum Photonic Integrated Circuits (QPICs)
+|       +-- 1. SiN/Si/SiO2 wafer-scale
+|       +-- 2. III-V hybrids (GaAs, InP)
+|       +-- 3. Diamond & LiNbO3
+\end{alltt}
+        \end{minipage}
+      \end{adjustbox}
+    \end{column}
+
+    % ---------------- RIGHT: Quantum-Adjacent Hardware ----------------
+    \begin{column}{0.5\textwidth}
+      \begin{adjustbox}{max totalsize={\linewidth}{0.75\textheight}, keepaspectratio}
+        \begin{minipage}{\linewidth}
+          \ttfamily\fontsize{6.6pt}{8.0pt}\selectfont
+\begin{alltt}
++-- II. Quantum-Adjacent Hardware
+    +-- A. Cryogenic Digital Control Logic
+    |   +-- 1. Single-Flux-Quantum families (RSFQ, RQL, AQFP, eSFQ)
+    |   +-- 2. Deep-Cryo CMOS (4 K)
+    |   +-- 3. Milli-Kelvin CMOS (<= 100 mK)
+    +-- B. Cryogenic Mixed-Signal & RF ICs
+    |   +-- 1. Time-interleaved DAC/ADC
+    |   +-- 2. RF Transceiver SoCs (2-18 GHz I/Q)
+    |   +-- 3. Cryo Class-D Drivers/Piezo
+    +-- C. Cryogenic Amplifiers, Filters, & Passive Components
+    |   +-- 1. mK Parametric Pre-Amplifiers
+    |   |    a. Flux-pumped Josephson Parametric Amplifier/Converter (JPA/JPC)
+    |   |    b. Josephson Traveling-Wave Parametric Amplifier (JTWPA)
+    |   |    c. Kinetic-Inductance Traveling-Wave Parametric Amplifier (KI-TWPA)
+    |   |    d. Nanobridge Kinetic Parametric Amplifier (NKPA)
+    |   |    e. Quantum Capacitance Parametric Amplifier (QCPA)
+    |   |    f. SNAIL-based Parametric Amplifier (SPA/SNAIL-TWPA)
+    |   +-- 2. 4 K HEMT LNAs (octave-wide, high dynamic range)
+    |   +-- 3. RF Isolators/Circulators (ferrite or on-chip)
+    |   +-- 4. Superconducting & SAW Filters
+    +-- D. Cryogenic Packaging & Interconnect
+    |   +-- 1. Flex-print & interposer tiles
+    |   +-- 2. 3-D cavities & cryogenic bump-bonds/ interconnects
+    |   +-- 3. Coax/waveguide/stripline wiring (NbTi, Nb, CuNi)
+    |   +-- 4. Optical fiber feedthroughs (1-4 K)
+    |   +-- 5. Magnetic & vibration shielding, radiation hardeners
+    +-- E. Cryogenic Memory & Storage
+        +-- 1. SRAM (FinFET 14-nm & 5-nm cryo-SRAM)
+        +-- 2. Floating-Body RAM (FBRAM) at 77 K
+        +-- 3. Capacitor-less eDRAM/DRAM benchmarks (2T0C, 4 K)
+        +-- 4. JJ-based RAM (JJ-RAM, JMRAM)
+        +-- 5. Spin-orbit-torque (SOT) MRAM at 4 K
+\end{alltt}
+        \end{minipage}
+      \end{adjustbox}
+    \end{column}
+
+  \end{columns}
+\end{frame}
+
 %------------------------------------------------
 % SLIDE 4: METHODOLOGY II: DATA SOURCING
 %------------------------------------------------
@@ -532,7 +676,7 @@
             U. of British Columbia (QMI) & 2.5 \\
             U. of Toronto (CQIQC) & 2.5 \\
             U. de Sherbrooke (IQ) & 2.0 \\
-            U. of Calgary / U. of Alberta / McGill & 1.5 \\
+            U. of Calgary/ U. of Alberta/ McGill & 1.5 \\
             \bottomrule
         \end{tabularx}
     \end{table}
@@ -543,6 +687,115 @@
 \note{
     Canada's strategy has been different, focusing on building large, dedicated institutes. This has paid off, creating a powerful corridor of talent. Waterloo is the anchor, but the ecosystem is strong from coast to coast, with major centers in BC, Alberta, Ontario, and Quebec.
 }
+
+%================================================
+% SLIDE X: Geographic View — Hubs & Corridor (boxed to page margins)
+%================================================
+\begin{frame}[t]
+  \frametitle{Geographic View: Major U.S. Hubs and the Canadian Corridor}
+
+  % ===== knobs you can edit =====
+  \newcommand{\HubFontSize}{\scriptsize}  % \tiny | \scriptsize | \footnotesize
+  \newcommand{\LeftLabelShiftX}{2.5cm}    % pushes left-side labels further left
+  \newcommand{\DotSize}{0.7pt}            % marker size (small, solid, no stroke)
+  % Dot nudges (GLOBAL). Units are normalized fractions of map width/height.
+  \newcommand{\DotShiftX}{0.05}
+  \newcommand{\DotShiftY}{-0.07}
+
+  \centering
+  % ---- HARD CONSTRAINTS: keep figure inside slide text area ----
+  \begin{adjustbox}{center, max width=\linewidth, max height=.78\textheight}
+    \begin{minipage}{0.98\linewidth}
+      \centering
+
+      \begin{tikzpicture}
+        % Background basemap image (must exist in project root)
+        \node[anchor=south west, inner sep=0] (img) at (0,0)
+          {\includegraphics[width=\linewidth, height=.78\textheight, keepaspectratio]{US and Canada.png}};
+
+        % Normalized coordinate system tied to the image box
+        \begin{scope}[x={(img.south east)}, y={(img.north west)}]
+          \tikzset{
+            % Dot = "citydot" style (solid black, no outline)
+            hubdot/.style={circle, fill=black, draw=none, inner sep=\DotSize},
+            % Label callouts
+            callout/.style={fill=white, fill opacity=0.7, text opacity=1,
+                            draw=black, line width=0.25pt, rounded corners=1pt,
+                            inner sep=2pt, font=\HubFontSize, align=left},
+            % Hairline connectors
+            connector/.style={draw=black!45, thin, shorten <=1pt, shorten >=1pt},
+            % Shift all left-side labels equally left
+            leftshift/.style={xshift=-\LeftLabelShiftX}
+          }
+
+          % Helper: place a dot at normalized (x,y) plus global normalized nudges
+          \newcommand{\PlaceDot}[3]{%
+            \coordinate (#1base) at (#2,#3);
+            \node[hubdot] (#1) at ($(#1base)+(\DotShiftX,\DotShiftY)$) {};
+          }
+
+          %==================== DOTS (normalized coordinates) ====================
+          % Tuned to sit on land in the provided PNG.
+          \PlaceDot{BC}{0.285}{0.552}      % Vancouver (BC)
+          \PlaceDot{AB}{0.365}{0.560}      % Calgary/Edmonton centroid (AB)
+          \PlaceDot{ONQC}{0.68}{0.470}    % Ontario–Québec corridor centroid
+          \PlaceDot{BA}{0.25}{0.408}      % Bay Area (CA)
+          \PlaceDot{SC}{0.285}{0.338}      % Southern California (CA)
+          \PlaceDot{MW}{0.56}{0.390}      % Midwest hub centroid
+          \PlaceDot{NE}{0.682}{0.405}      % Northeast corridor centroid
+
+          %==================== LABELS + CONNECTORS ====================
+
+          % --- Western Canada (left) ---
+          \node[callout, leftshift, anchor=west, text width=0.22\linewidth] (BCbox) at (0.085,0.605)
+            {\textbf{Western Canada}\\Vancouver: UBC, SFU};
+          \draw[connector] (BCbox.east) -- (BC);
+
+          % --- Alberta Corridor (custom: up 1.5 cm, left 2.5 cm) ---
+          \node[callout, anchor=west, text width=0.22\linewidth,
+                xshift=-2.5cm, yshift=1.5cm] (ABbox) at (0.58,0.545)
+            {\textbf{Alberta Corridor}\\Calgary, Edmonton};
+          \draw[connector] (AB) -- (ABbox.west);
+
+          % --- Ontario–Québec Corridor (right) ---
+          \node[callout, anchor=west, text width=0.28\linewidth] (ONQCbox) at (0.80,0.64)
+            {\textbf{Ontario–Québec Corridor}\\
+             Waterloo (IQC), Toronto (CQIQC),\\
+             Montréal (McGill, U.\ de Montréal),\\
+             Sherbrooke (IQ),\break Québec City (Université Laval)};
+          \draw[connector] (ONQC) -- (ONQCbox.west);
+
+          % --- California — Bay Area (left) ---
+          \node[callout, leftshift, anchor=west, text width=0.22\linewidth] (BAbox) at (0.10,0.44)
+            {\textbf{California — Bay Area}\\Berkeley, Stanford};
+          \draw[connector] (BAbox.east) -- (BA);
+
+          % --- California — Southern (left) ---
+          \node[callout, leftshift, anchor=west, text width=0.24\linewidth] (SCbox) at (0.10,0.28)
+            {\textbf{California — Southern}\\Caltech, UCLA, UCSB, UCSD};
+          \draw[connector] (SCbox.east) -- (SC);
+
+          % --- Midwest Hub (custom: down 1.5 cm, left 2.7 cm) ---
+          \node[callout, anchor=west, text width=0.26\linewidth,
+                xshift=-2.7cm, yshift=-1.5cm] (MWbox) at (0.60,0.34)
+            {\textbf{Midwest Hub}\\
+             Chicago (UChicago), Madison (UW),\\
+             Urbana–Champaign (UIUC),\break Ann Arbor (U.\ Michigan)};
+          \draw[connector] (MW) -- (MWbox.west);
+
+          % --- Northeast Corridor (right) ---
+          \node[callout, anchor=west, text width=0.29\linewidth] (NEbox) at (0.80,0.22)
+            {\textbf{Northeast Corridor}\\
+             Boston (MIT, Harvard),\break New Haven (Yale),\\
+             Princeton, College Park (UMD JQI)};
+          \draw[connector] (NE) -- (NEbox.west);
+
+        \end{scope}
+      \end{tikzpicture}
+
+    \end{minipage}
+  \end{adjustbox}
+\end{frame}
 
 %------------------------------------------------
 % SLIDE 14: KEY FINDING I: CONCENTRATION AT THE TOP
