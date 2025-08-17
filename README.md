@@ -1060,8 +1060,6 @@ Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, 
 
 --- 
 
----
-
 ### Towards Deployment of Industry-Level vs. Academic Quantum Processors
 
 ```
@@ -1265,6 +1263,8 @@ DR: Dilution Refrigerator
           ├─ Rare-earth–doped solid-state memories → CRYOGENICS (few kelvin).
           └─ Warm-vapor (alkali) memories → ROOM TEMPERATURE, with bandwidth/noise trade-offs.
 ```
+
+> Note: Integrating superconducting detectors on the chip is a sufficient reason to put the whole chip under cryogenic conditions, but it is not the only one; cryogenic sources/ memories, loss-minimizing co-location, hybrid architectures can lead to the same design choice. If none of those are on-chip, the processor itself normally runs just fine at room temperature.
 
 ---
 
