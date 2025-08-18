@@ -136,6 +136,8 @@ Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](htt
 
 ### A video playlist by Prof. Hiu Wong on quantum computing is available: [Quantum Computing Hardware and Architecture](https://youtube.com/playlist?list=PLnK6MrIqGXsL1KShnocSdwNSiKnBodpie&si=TweZXcEdzKICIju9)
 
+### A video playlist by Prof. Hiu Wong on cryogenic nanoelectronics is available: [Cryogenic Nanoelectronics](https://youtube.com/playlist?list=PLnK6MrIqGXsKFEAg4E_JVK1A1OeBb88qD&si=a3Lp33dmoi_UzMen)
+
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
 | - |
