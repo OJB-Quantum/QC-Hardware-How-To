@@ -1121,26 +1121,27 @@ Qubit Architectures vs. Deployment Scale
 
 ```
 CRYOGENIC VESSELS
-├─ Passive Vessels (no active temperature control)
-│   └─ Dewar Flasks [L]         ← vacuum-insulated storage
+├─ Passive Vessels (no active temp control)
+│   └─ Dewars [vacuum-insulated storage]
 │       ├─ Static/ Storage Dewar
 │       ├─ Transport Dewar (road/ air)
-│       └─ Open “bucket” Dewar (bench-top dip)
+│       └─ Open "bucket" Dewar (bench-top dip)
 │
-└─ Cryostats (instrumented cryogenic vessels, with active temperature control)
+└─ Cryostats (active temp control)
     ├─ Liquid-Filled Platforms [L]
     │   ├─ Bath Cryostat
-    │   │   ├─ LN₂ bath (~77 K)
+    │   │   ├─ LN2 bath (~77 K)
     │   │   └─ LHe bath (4.2 K; pumped 1 K pot)
     │   └─ Continuous-Flow Cryostat (4 K – 300 K; fed from external Dewar)
-    ├─ Closed-Cycle Platforms “Dry” [D]
+    ├─ Closed-Cycle Platforms "Dry" [D]
     │   ├─ Gifford–McMahon (GM) head (≈ 2 – 4 K)
     │   └─ Pulse-Tube (PT) head (≈ 2 – 4 K; low vibration)
+    │       └─ Dilution Refrigerator (< 10 mK)
     └─ Ultra-Low-T Inserts (mount on any 2–4 K stage)
-        ├─ Dilution Refrigerator (DR) < 10 mK [D‡]
-        ├─ ADR/ PDR 50 – 100 mK [L/D]
-        ├─ ³He Sorption Cooler 250 – 400 mK [L/D]
-        └─ Pumped-⁴He 1 K Stage/ VTI [L/D]
+        ├─ DR inserts
+        ├─ ADR/ PDR 50 – 100 mK
+        ├─ 3He Sorption Cooler 250 – 400 mK
+        └─ Pumped-4He 1 K Stage/ VTI
 
 Legend  
 [L] Requires stored liquid cryogen 
@@ -1150,43 +1151,47 @@ Legend
 
 ---
 
-Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels
+Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels 
 ├─ Table-Top/ Insert  (< 0.5 m²)
-│   ├─ DR attocube  attoDRY-800/ -1100
-│   ├─ DR Cryogenic Ltd  STM-insert DRs (UHV tubes)
-│   └─ Dewar KGW-Isotherm lab borosilicate/ stainless hybrids  (< 30 L)
+│   ├─ DR  attocube  attoDRY-800/ -1100
+│   ├─ DR  Cryogenic Ltd  STM-insert DRs (UHV tubes)
+│   └─ Dewar  KGW-Isotherm  lab borosilicate/ stainless hybrids  (< 30 L)
 │
 ├─ Ultra-Compact Floor  (≈ 0.6 – 0.8 m²)
-│   ├─ DR Bluefors  Ultra-Compact LD  (≤ 300 mm plate)
-│   └─ Dewar Statebourne Cryolab & CryoCycl  LN₂ micro-bulk  (30 – 60 L)
+│   ├─ DR  Bluefors  Ultra-Compact LD  (≤ 300 mm plate)
+│   ├─ DR  Maybell  The Fridge  (≤ 10 mK; > 500 µW @ 100 mK; > 35 L below MXC; compact square footprint)
+│   └─ Dewar  Statebourne Cryolab & CryoCycl  LN₂ micro-bulk  (30 – 60 L)
 │
 ├─ Compact Floor-Standing  (≈ 1 m²)
 │   ├─ DR  Bluefors  LD/ SD
 │   ├─ DR  FormFactor-HPD  JDry-400  ·  LF-400
 │   ├─ DR  Oxford Instruments  Proteox S
-│   ├─ DR  Quantum Design PPMS DynaCool + DR insert
-│   ├─ Non-DR  Quantum Design PPMS DynaCool without DR insert (standard option)
-│   ├─ Non-DR  Quantum Design PPMS VersaLab 
-│   ├─ Non-DR  Quantum Design MPMS-3 SQUID
-│   └─ Dewar Cryofab  CMSH  liquid-helium Dewars  (20 – 500 L)
+│   ├─ DR  Quantum Design  PPMS DynaCool + DR insert
+│   ├─ Non-DR  Quantum Design  PPMS DynaCool  (no DR insert)
+│   ├─ Non-DR  Quantum Design  VersaLab 
+│   ├─ Non-DR  Quantum Design  MPMS-3 SQUID
+│   └─ Dewar  Cryofab  CMSH  liquid-helium Dewars  (20 – 500 L)
 │
 ├─ Large-Frame  (≥ 1 m²)
-│   ├─ DR   Bluefors  XLD/  XL
-│   ├─ DR   FormFactor-HPD  XLF-600
-│   ├─ DR   Oxford Instruments  Proteox MX/  LX
-│   ├─ DR   ICE Oxford  DRY-ICE Eden
-│   ├─ DR   Zero Point Cryogenics  Model L
-│   ├─ DR   Leiden Cryogenics  CF-CS-XXL/ 1 m plate
-│   └─ Dewar Wessington  PV/ TPV tanks  ·  Cryo Diffusion  LO/ CDB series  (> 1,000 L)
+│   ├─ DR  Bluefors  XLD/  XL
+│   ├─ DR  FormFactor-HPD  XLF-600
+│   ├─ DR  Oxford Instruments  Proteox MX/  LX
+│   ├─ DR  ICE Oxford  DRY-ICE Eden
+│   ├─ DR  Zero Point Cryogenics  Model L
+│   ├─ DR  Leiden Cryogenics  CF-CS-XXL/ 1 m plate
+│   ├─ DR  Maybell  The Big Fridge  (> 130 L below MXC)
+│   └─ Dewar  Wessington  PV/ TPV tanks  ·  Cryo Diffusion  LO/ CDB series  (> 1,000 L)
 │
 └─ Data-Center/ XXL  (> 1.4 m² · multi-PT stacks)
-    ├─ DR   Bluefors  KIDE  (1.6 m² flange)
-    ├─ DR   Cryoconcept  HEXA-DRY XXL  (Ø 800 mm)
-    ├─ DR   QuantumCTek  EZ-Q  (mass-production line)
-    ├─ DR   ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
-    └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
+    ├─ DR  Bluefors  KIDE  (1.6 m² flange)
+    ├─ DR  Cryoconcept  HEXA-DRY XXL  (Ø 800 mm)
+    ├─ DR  QuantumCTek  EZ-Q  (mass-production line)
+    ├─ DR  ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
+    └─ Dewar  Taiyo Nippon Sanso  bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
 
 DR: Dilution Refrigerator
+MXC: Mixing Chamber
+
 ```
 
 ### Additional Notes on Passive Cryogenic Vessels
