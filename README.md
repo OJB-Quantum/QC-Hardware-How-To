@@ -1336,12 +1336,22 @@ Borrowed from: Kiene et al., *A 1-GS/s 6–8-b Cryo-CMOS SAR ADC for Quantum Com
 
 ---
 
-## Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware
+### Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware
 
 ![image](https://github.com/user-attachments/assets/e525afbd-cd91-4301-b9b1-8803e8be0685)
 
 Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry*, Appl. Phys. Rev. 10, 021305 (2023)  
 <https://doi.org/10.1063/5.0088229>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
+
+<img width="2945" height="1399" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080" />
+
+Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 674 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
