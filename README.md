@@ -1191,7 +1191,6 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
 
 DR: Dilution Refrigerator
 MXC: Mixing Chamber
-
 ```
 
 ### Additional Notes on Passive Cryogenic Vessels
