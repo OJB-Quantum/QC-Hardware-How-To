@@ -1122,26 +1122,26 @@ Qubit Architectures vs. Deployment Scale
 ```
 CRYOGENIC VESSELS
 ├─ Passive Vessels (no active temp control)
-│   └─ Dewars [vacuum-insulated storage]
-│       ├─ Static/ Storage Dewar
-│       ├─ Transport Dewar (road/ air)
-│       └─ Open "bucket" Dewar (bench-top dip)
+│   └─ Dewars [L] [vacuum-insulated storage]
+│       ├─ Static/ Storage Dewar [L]
+│       ├─ Transport Dewar (road/ air) [L]
+│       └─ Open "bucket" Dewar (bench-top dip) [L]
 │
 └─ Cryostats (active temp control)
     ├─ Liquid-Filled Platforms [L]
-    │   ├─ Bath Cryostat
-    │   │   ├─ LN2 bath (~77 K)
-    │   │   └─ LHe bath (4.2 K; pumped 1 K pot)
-    │   └─ Continuous-Flow Cryostat (4 K – 300 K; fed from external Dewar)
+    │   ├─ Bath Cryostat [L]
+    │   │   ├─ LN2 bath (~77 K) [L]
+    │   │   └─ LHe bath (4.2 K; pumped 1 K pot) [L]
+    │   └─ Continuous-Flow Cryostat (4 K – 300 K; fed from external Dewar) [L]
     ├─ Closed-Cycle Platforms "Dry" [D]
-    │   ├─ Gifford–McMahon (GM) head (≈ 2 – 4 K)
-    │   └─ Pulse-Tube (PT) head (≈ 2 – 4 K; low vibration)
-    │       └─ Dilution Refrigerator (< 10 mK)
+    │   ├─ Gifford–McMahon (GM) head (≈ 2 – 4 K) [D]
+    │   └─ Pulse-Tube (PT) head (≈ 2 – 4 K; low vibration) [D]
+    │       └─ Dilution Refrigerator (< 10 mK) [D‡]
     └─ Ultra-Low-T Inserts (mount on any 2–4 K stage)
-        ├─ DR inserts
-        ├─ ADR/ PDR 50 – 100 mK
-        ├─ 3He Sorption Cooler 250 – 400 mK
-        └─ Pumped-4He 1 K Stage/ VTI
+        ├─ DR inserts [L/D]
+        ├─ ADR/ PDR 50 – 100 mK [L/D]
+        ├─ 3He Sorption Cooler 250 – 400 mK [L/D]
+        └─ Pumped-4He 1 K Stage/ VTI [L/D]
 
 Legend  
 [L] Requires stored liquid cryogen 
