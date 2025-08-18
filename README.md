@@ -951,7 +951,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   └─ 4. Superconducting & SAW Filters
     ├─ D. Cryogenic Packaging & Interconnect
     │   ├─ 1. Flex‑print & interposer tiles
-    │   ├─ 2. 3‑D cavities w/ bump‑bond interconnect
+    │   ├─ 2. 3-D cavities w/ cryogenic bump-bonds/ interconnectss
     │   ├─ 3. Coax/ waveguide/ stripline wiring (NbTi, Nb, CuNi)
     │   ├─ 4. Optical fiber feedthroughs (1–4 K)
     │   └─ 5. Magnetic & vibration shielding, radiation hardeners
@@ -1121,26 +1121,27 @@ Qubit Architectures vs. Deployment Scale
 
 ```
 CRYOGENIC VESSELS
-├─ Passive Vessels (no active temperature control)
-│   └─ Dewar Flasks [L]         ← vacuum-insulated storage
-│       ├─ Static/ Storage Dewar
-│       ├─ Transport Dewar (road/ air)
-│       └─ Open “bucket” Dewar (bench-top dip)
+├─ Passive Vessels (no active temp control)
+│   └─ Dewars [L] [vacuum-insulated storage]
+│       ├─ Static/ Storage Dewar [L]
+│       ├─ Transport Dewar (road/ air) [L]
+│       └─ Open "bucket" Dewar (bench-top dip) [L]
 │
-└─ Cryostats (instrumented cryogenic vessels, with active temperature control)
+└─ Cryostats (active temp control)
     ├─ Liquid-Filled Platforms [L]
-    │   ├─ Bath Cryostat
-    │   │   ├─ LN₂ bath (~77 K)
-    │   │   └─ LHe bath (4.2 K; pumped 1 K pot)
-    │   └─ Continuous-Flow Cryostat (4 K – 300 K; fed from external Dewar)
-    ├─ Closed-Cycle Platforms “Dry” [D]
-    │   ├─ Gifford–McMahon (GM) head (≈ 2 – 4 K)
-    │   └─ Pulse-Tube (PT) head (≈ 2 – 4 K; low vibration)
+    │   ├─ Bath Cryostat [L]
+    │   │   ├─ LN2 bath (~77 K) [L]
+    │   │   └─ LHe bath (4.2 K; pumped 1 K pot) [L]
+    │   └─ Continuous-Flow Cryostat (4 K – 300 K; fed from external Dewar) [L]
+    ├─ Closed-Cycle Platforms "Dry" [D]
+    │   ├─ Gifford–McMahon (GM) head (≈ 2 – 4 K) [D]
+    │   └─ Pulse-Tube (PT) head (≈ 2 – 4 K; low vibration) [D]
+    │       └─ Dilution Refrigerator (< 10 mK) [D‡]
     └─ Ultra-Low-T Inserts (mount on any 2–4 K stage)
-        ├─ Dilution Refrigerator (DR) < 10 mK [D‡]
+        ├─ DR inserts [L/D]
         ├─ ADR/ PDR 50 – 100 mK [L/D]
-        ├─ ³He Sorption Cooler 250 – 400 mK [L/D]
-        └─ Pumped-⁴He 1 K Stage/ VTI [L/D]
+        ├─ 3He Sorption Cooler 250 – 400 mK [L/D]
+        └─ Pumped-4He 1 K Stage/ VTI [L/D]
 
 Legend  
 [L] Requires stored liquid cryogen 
@@ -1150,43 +1151,46 @@ Legend
 
 ---
 
-Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels
+Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels 
 ├─ Table-Top/ Insert  (< 0.5 m²)
-│   ├─ DR attocube  attoDRY-800/ -1100
-│   ├─ DR Cryogenic Ltd  STM-insert DRs (UHV tubes)
-│   └─ Dewar KGW-Isotherm lab borosilicate/ stainless hybrids  (< 30 L)
+│   ├─ DR  attocube  attoDRY-800/ -1100
+│   ├─ DR  Cryogenic Ltd  STM-insert DRs (UHV tubes)
+│   └─ Dewar  KGW-Isotherm  lab borosilicate/ stainless hybrids  (< 30 L)
 │
 ├─ Ultra-Compact Floor  (≈ 0.6 – 0.8 m²)
-│   ├─ DR Bluefors  Ultra-Compact LD  (≤ 300 mm plate)
-│   └─ Dewar Statebourne Cryolab & CryoCycl  LN₂ micro-bulk  (30 – 60 L)
+│   ├─ DR  Bluefors  Ultra-Compact LD  (≤ 300 mm plate)
+│   ├─ DR  Maybell  The Fridge  (≤ 10 mK; > 500 µW @ 100 mK; > 35 L below MXC; compact square footprint)
+│   └─ Dewar  Statebourne Cryolab & CryoCycl  LN₂ micro-bulk  (30 – 60 L)
 │
 ├─ Compact Floor-Standing  (≈ 1 m²)
 │   ├─ DR  Bluefors  LD/ SD
 │   ├─ DR  FormFactor-HPD  JDry-400  ·  LF-400
 │   ├─ DR  Oxford Instruments  Proteox S
-│   ├─ DR  Quantum Design PPMS DynaCool + DR insert
-│   ├─ Non-DR  Quantum Design PPMS DynaCool without DR insert (standard option)
-│   ├─ Non-DR  Quantum Design PPMS VersaLab 
-│   ├─ Non-DR  Quantum Design MPMS-3 SQUID
-│   └─ Dewar Cryofab  CMSH  liquid-helium Dewars  (20 – 500 L)
+│   ├─ DR  Quantum Design  PPMS DynaCool + DR insert
+│   ├─ Non-DR  Quantum Design  PPMS DynaCool  (no DR insert)
+│   ├─ Non-DR  Quantum Design  VersaLab 
+│   ├─ Non-DR  Quantum Design  MPMS-3 SQUID
+│   └─ Dewar  Cryofab  CMSH  liquid-helium Dewars  (20 – 500 L)
 │
 ├─ Large-Frame  (≥ 1 m²)
-│   ├─ DR   Bluefors  XLD/  XL
-│   ├─ DR   FormFactor-HPD  XLF-600
-│   ├─ DR   Oxford Instruments  Proteox MX/  LX
-│   ├─ DR   ICE Oxford  DRY-ICE Eden
-│   ├─ DR   Zero Point Cryogenics  Model L
-│   ├─ DR   Leiden Cryogenics  CF-CS-XXL/ 1 m plate
-│   └─ Dewar Wessington  PV/ TPV tanks  ·  Cryo Diffusion  LO/ CDB series  (> 1,000 L)
+│   ├─ DR  Bluefors  XLD/  XL
+│   ├─ DR  FormFactor-HPD  XLF-600
+│   ├─ DR  Oxford Instruments  Proteox MX/  LX
+│   ├─ DR  ICE Oxford  DRY-ICE Eden
+│   ├─ DR  Zero Point Cryogenics  Model L
+│   ├─ DR  Leiden Cryogenics  CF-CS-XXL/ 1 m plate
+│   ├─ DR  Maybell  The Big Fridge  (> 130 L below MXC)
+│   └─ Dewar  Wessington  PV/ TPV tanks  ·  Cryo Diffusion  LO/ CDB series  (> 1,000 L)
 │
 └─ Data-Center/ XXL  (> 1.4 m² · multi-PT stacks)
-    ├─ DR   Bluefors  KIDE  (1.6 m² flange)
-    ├─ DR   Cryoconcept  HEXA-DRY XXL  (Ø 800 mm)
-    ├─ DR   QuantumCTek  EZ-Q  (mass-production line)
-    ├─ DR   ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
-    └─ Dewar Taiyo Nippon Sanso bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
+    ├─ DR  Bluefors  KIDE  (1.6 m² flange)
+    ├─ DR  Cryoconcept  HEXA-DRY XXL  (Ø 800 mm)
+    ├─ DR  QuantumCTek  EZ-Q  (mass-production line)
+    ├─ DR  ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
+    └─ Dewar  Taiyo Nippon Sanso  bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
 
 DR: Dilution Refrigerator
+MXC: Mixing Chamber
 ```
 
 ### Additional Notes on Passive Cryogenic Vessels
@@ -1336,12 +1340,22 @@ Borrowed from: Kiene et al., *A 1-GS/s 6–8-b Cryo-CMOS SAR ADC for Quantum Com
 
 ---
 
-## Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware
+### Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware
 
 ![image](https://github.com/user-attachments/assets/e525afbd-cd91-4301-b9b1-8803e8be0685)
 
 Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry*, Appl. Phys. Rev. 10, 021305 (2023)  
 <https://doi.org/10.1063/5.0088229>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+---
+
+### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
+
+<img width="2945" height="1399" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080" />
+
+Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 674 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
 ---
