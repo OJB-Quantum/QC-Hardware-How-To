@@ -130,9 +130,9 @@ Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](htt
 
 --- 
 
-- An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+- An extended version of the playlist on quantum hardware engineering is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
-- A video playlist on quantum metrology is also available: [Quantum Metrology Review](https://youtube.com/playlist?list=PLbW5jviv4ckz60SxXDEnHL12NQ8-h0skk&si=xxxFNi2Q9gI1quCm)
+- A video playlist on quantum metrology is available: [Quantum Metrology Review](https://youtube.com/playlist?list=PLbW5jviv4ckz60SxXDEnHL12NQ8-h0skk&si=xxxFNi2Q9gI1quCm)
 
 - A video playlist by Prof. Hiu Wong on quantum computing is available: [Quantum Computing Hardware and Architecture](https://youtube.com/playlist?list=PLnK6MrIqGXsL1KShnocSdwNSiKnBodpie&si=TweZXcEdzKICIju9)
 
