@@ -365,7 +365,6 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Interactive Quantum Computing Education Tools | [https://www.iqmacademy.com/play](https://www.iqmacademy.com/play) |
 | Quantum Phenomena Visualization | [https://toutestquantique.fr/en](https://toutestquantique.fr/en) |
 
-
 ---
 
 # Chapter 4
@@ -569,13 +568,13 @@ Notes:
 
 ```
 ├─ Tier 1 — High‑volume producers (≥ 5 per year)
-│   ├─ Yale University (Yale) ......................................  6.0 ;  ~6 labs
-│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; 10 labs
-│   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; 14 labs
+│   ├─ Yale University (Yale) ......................................  6.0 ;  ~7 labs
+│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; ~12 labs
+│   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; ~15 labs
 │
 ├─ Tier 2 — Moderate producers (3 – 4.9 per year)
-│   ├─ University of California – Berkeley (UC Berkeley) ...........  4.5 ;  8 labs
-│   ├─ University of Waterloo (IQC) ................................  4.0 ; 24 labs
+│   ├─ University of California – Berkeley (UC Berkeley) ...........  4.5 ;  9 labs
+│   ├─ University of Waterloo (IQC) ................................  4.0 ; ~22 labs
 │   ├─ Princeton University (Princeton) ............................  4.0 ;  5 labs
 │   ├─ University of California – Santa Barbara (UCSB) .............  4.0 ;  4 labs
 │   ├─ Harvard University (Harvard) ................................  3.5 ;  7 labs
@@ -606,12 +605,12 @@ Notes:
 │   └─ University of Washington (UW) ...............................  1.5 ;  3 labs
 │
 └─ Tier 4 — Emerging nodes (< 1.5 per year)
+    ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  ~5 labs
     ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............  1.0 ;  ~5 labs
     ├─ Simon Fraser University (SFU) ..............................  1.0 ;  4 labs
     ├─ Columbia University (Columbia) .............................  1.0 ;  3 labs
     ├─ Université de Montréal (UdeM) ..............................  1.0 ;  3 labs
     ├─ Arizona State University (ASU) .............................  1.0 ;  3 labs
-    ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  3 labs
     ├─ University of California – Davis (UC Davis) ................  1.0 ;  2 labs
     ├─ University of Arizona (UArizona) ...........................  1.0 ;  2 labs
     ├─ University of New Mexico (CQuIC) ...........................  1.0 ;  2 labs
