@@ -619,6 +619,8 @@ Notes:
     └─ University of Victoria (UVic) ..............................  0.5 ;  2 labs
 ```
 
+> Note: Recently, the University of Pittsburgh, University of Chicago, and University of Colorado-Boulder have really began to grow their infrastructure for quantum hardware-related research. So, expect these 3 to move up in the tier list very quickly in the near future.
+
 ---
 
 # Supplementary Figures
