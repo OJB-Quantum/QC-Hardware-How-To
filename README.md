@@ -1155,10 +1155,10 @@ Legend
 ---
 
 Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels 
-├─ Table‑Top / Insert  (< 0.5 m²)
-│   ├─ DR     attocube           attoDRY‑800 / ‑1100
+├─ Table‑Top/ Insert  (< 0.5 m²)
+│   ├─ DR     attocube           attoDRY‑800/ ‑1100
 │   ├─ DR     Cryogenic Ltd      STM‑insert DRs (UHV tubes)
-│   └─ Dewar  KGW‑Isotherm       lab borosilicate / stainless hybrids  (< 30 L)
+│   └─ Dewar  KGW‑Isotherm       lab borosilicate/ stainless hybrids  (< 30 L)
 │
 ├─ Ultra‑Compact Floor  (≈ 0.6 – 0.8 m²)
 │   ├─ DR     Bluefors           Ultra‑Compact LD  (≤ 300 mm plate)
@@ -1178,14 +1178,14 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
 ├─ Large‑Frame  (≥ 1 m²)
 │   ├─ DR     Bluefors           XLD / XL
 │   ├─ DR     FormFactor‑HPD     XLF‑600
-│   ├─ DR     Oxford Instruments Proteox MX / LX
+│   ├─ DR     Oxford Instruments Proteox MX/ LX
 │   ├─ DR     ICE Oxford         DRY‑ICE Eden
 │   ├─ DR     Zero Point Cryogenics  Model L
-│   ├─ DR     Leiden Cryogenics  CF‑CS‑XXL / 1 m plate
+│   ├─ DR     Leiden Cryogenics  CF‑CS‑XXL/ 1 m plate
 │   ├─ DR     Maybell            The Big Fridge  (> 130 L below MXC)
 │   └─ Dewar  Wessington PV / TPV tanks · Cryo Diffusion LO / CDB series  (> 1,000 L)
 │
-└─ Data‑Center / XXL  (> 1.4 m² · multi‑PT stacks)
+└─ Data‑Center/ XXL  (> 1.4 m² · multi‑PT stacks)
     ├─ DR     Bluefors           KIDE  (1.6 m² flange)
     ├─ DR     Cryoconcept        HEXA‑DRY XXL  (Ø 800 mm)
     ├─ DR     Oxford Instruments ProteoxQX  (≥ 3 m tall, ≳ 1.5 m wide accessible workspace; 4–6 SIs; connectable modules)
