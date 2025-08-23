@@ -1452,7 +1452,7 @@ Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computin
 <img width="3345" height="2074" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad" />
 
 
-> This figure highlights the digital and analog components of qubit control and readout. It is important to note that proper manipulation of physical qubits involves analog carrier waves that can be encoded with programmable waveforms with low noise and phase control. 
+> This figure highlights the digital and analog components of qubit control and readout for cryogenic ASICs. Digitally, an SPI‑linked sequencer and waveform memory program the amplitude, phase, frequency, and timing of pulses. Analog‑wise, two DAC channels create baseband I and Q envelopes that are filtered and mixed with a low‑phase‑noise local oscillator (I/Q modulation) to produce the microwave XY drive; a separate DAC provides Z‑bias control; and a reflective readout chain transmits a probe tone, then amplifies, down‑converts, filters, and digitizes the return for qubit‑state discrimination. It is important to note that accurate qubit manipulation  relies on low phase noise, low jitter, calibrated I/Q balance, and low‑distortion analog buffering throughout the signal path. 
 
 Borrowed from: Guo et al., *Cryogenic CMOS RF Circuits: A Promising Approach for Large-Scale Quantum Computing*, IEEE TSCII, 71, 3 (2024)  
 <https://doi.org/10.1109/TCSII.2023.3333540>  
