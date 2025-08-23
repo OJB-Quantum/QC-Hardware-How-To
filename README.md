@@ -848,7 +848,7 @@ Quantum‑Information Carriers
 │     │  ├─ NV centers (diamond)
 │     │  └─ SiV, SnV, T/W/G/C centers, etc.
 │     └─ Magnetic & molecular spins
-│        ├─ Magnetic clusters (e.g., Fe₈)
+│        ├─ Magnetic clusters (e.g., Fe₈, Mn₁₂, heterometallic rings, other candidates)
 │        └─ Magnetic nanodisks (meron/skyrmion)
 | 
 └─ Flying Qubits (mobile)
