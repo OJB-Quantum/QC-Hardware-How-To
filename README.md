@@ -1447,6 +1447,18 @@ Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computin
 
 ---
 
+### Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture
+
+<img width="3345" height="2074" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad" />
+
+> This figure highlights the digital and analog components of qubit and control. It is important to note that proper manipulation of physical qubits involves analog carrier waves that can be encoded with programmable waveforms with low noise and phase control. 
+
+Borrowed from: Guo et al., *Cryogenic CMOS RF Circuits: A Promising Approach for Large-Scale Quantum Computing*, IEEE TSCII, 71, 3 (2024)  
+<https://doi.org/10.1109/TCSII.2023.3333540>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+
+---
+
 ### A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators 
 
 ![Screenshot 2025-02-01 031533](https://github.com/user-attachments/assets/644776d7-0761-4ab9-ac54-34c5c7ec43af)
