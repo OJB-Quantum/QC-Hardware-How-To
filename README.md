@@ -1503,6 +1503,72 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 <https://doi.org/10.1109/JMW.2020.3034071>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
 
+--- 
+
+### Quantum Device Fabrication Slide Presentation Preview
+
+![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
+
+![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
+
+![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
+
+![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
+
+![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
+
+![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
+
+![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
+
+![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
+
+![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
+
+![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
+
+![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
+
+![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
+
+![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
+
+![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
+
+![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
+
+![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
+
+![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
+
+![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
+
+![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
+
+![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
+
+![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
+
+![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
+
+![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
+
+![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
+
+![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
+
+![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
+
+![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
+
+![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
+
+![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
+
+![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
+
+![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
+
 ---
 
 # Nanotechnology Used for Quantum Chips 
@@ -1724,69 +1790,6 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 ![416463711-b38fc75a-c5b4-4ff9-8bf7-c634c6040223](https://github.com/user-attachments/assets/7a4f5462-d043-4d66-95d8-a0fe6004624d)
 > Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
 
---- 
-
-![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
-
-![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
-
-![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
-
-![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
-
-![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
-
-![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
-
-![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
-
-![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
-
-![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
-
-![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
-
-![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
-
-![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
-
-![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
-
-![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
-
-![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
-
-![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
-
-![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
-
-![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
-
-![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
-
-![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
-
-![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
-
-![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
-
-![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
-
-![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
-
-![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
-
-![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
-
-![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
-
-![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
-
-![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
-
-![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
-
-![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
 --- 
 
