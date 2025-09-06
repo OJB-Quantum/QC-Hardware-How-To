@@ -563,7 +563,7 @@ Notes:
 
 ---
 
-## Quantum Hardware Thesis Output/ Number of Labs per University (U.S. & Canada)
+## Quantum Hardware + Quantum Adjacent Hardware Thesis Output/ Number of Labs per University (U.S. & Canada)
 ### (Estimated Avg. Total Master’s + Ph.D. Theses per Year over 10 Years)
 
 ```
