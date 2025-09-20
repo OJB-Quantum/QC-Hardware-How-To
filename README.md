@@ -28,10 +28,9 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 ---
 
-### Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output:
+### Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output (as of 2025):
 
 <img width="3800" height="auto" alt="491879170-f784cb74-ac86-49c5-9d6d-5ffed0d62882" src="https://github.com/user-attachments/assets/80a9ee1e-eea5-4d7f-a84f-f5769463fbd4" />
-
 
 > See here for related quantum hardware dissertation rankings in the US and Canada: <https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#quantum-hardware--quantum-adjacent-hardware-thesis-outputnumberoflabs-per-university-uscanada>
 
