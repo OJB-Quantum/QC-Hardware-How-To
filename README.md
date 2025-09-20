@@ -28,6 +28,12 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 ---
 
+### Major Quantum Research Hubs with High Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output:
+
+<img width="3839" height="auto" alt="image" src="https://github.com/user-attachments/assets/598d7004-16b1-4fe0-b7b6-dd3ff65d4edd" />
+
+---
+
 ### Serious Quantum Information Science & Technology Courses Online, Up to the Graduate Level:
 
 | **Name or Title**                      | **Cost** | **Link**                                                                 |
