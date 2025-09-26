@@ -1089,10 +1089,19 @@ Qubit Architectures vs. Deployment Scale
 │  │   │   ├─ 84‑qubit Ankaa‑3 (99.5 % CZ fidelity, 2024) 
 │  │   │   ├─ 36‑qubit chiplet prototype (halved error, Jul 2025) 
 │  │   │   └─ 336‑qubit Lyra target (narrow quantum advantage, 2026) 
-│  │   └─ Google Quantum AI 
-│  │       ├─ 53‑qubit Sycamore (2019)
-│  │       ├─ 105‑qubit Willow logical‑scaling chip (2024) 
-│  │       └─ Roadmap toward ~1 M physical qubits & fault-tolerance (~2033) 
+│  │   ├─ Google Quantum AI 
+│  │   │   ├─ 53‑qubit Sycamore (2019)
+│  │   │   ├─ 105‑qubit Willow logical‑scaling chip (2024) 
+│  │   │   └─ Roadmap toward ~1 M physical qubits & fault‑tolerance (~2033) 
+│  │   └─ Fujitsu–RIKEN superconducting platform (hybrid AI‑HPC)
+│  │       ├─ 256‑qubit RQC–Fujitsu machine, external access via hybrid platform (Q1 FY2025)
+│  │       ├─ 1,000‑qubit facility under construction (availability target: FY2026)
+│  │       └─ ≥10,000‑qubit development program, system completion targeted around 2030, aligned with FugakuNEXT AI‑HPC
+│  ├─ Superconducting bosonic/cat‑code processors (oscillator‑encoded)
+│  │   └─ AWS Center for Quantum Computing (Caltech)
+│  │       ├─ Ocelot cat‑qubit chip (Nature‑reported, Feb 2025); hardware‑efficient QEC with up to ~90% lower overhead vs. conventional approaches    
+│  │       ├─ Blueprint: concatenated cat codes + repetition/surface code stack (arXiv→PRX Quantum, 2020→2022)
+│  │       └─ First AWS‑built systems intended to go live on Amazon Braket at AWS’s Pasadena facility (data‑center cloud orientation)
 │  ├─ Neutral‑atom arrays
 │  │   ├─ QuEra Aquila 256‑qubit Rydberg computer (2022 cloud) 
 │  │   ├─ Atom Computing “Phoenix” 1,225‑qubit ytterbium array (2023) 
@@ -1101,7 +1110,7 @@ Qubit Architectures vs. Deployment Scale
 │  │   ├─ PsiQuantum Omega silicon‑photonics chiplets, mass‑fab (2025) 
 │  │   └─ Xanadu Borealis 216‑mode Gaussian‑boson‑sampler (2022) 
 │  ├─ Trapped‑ion modular racks
-│  │   └─ IonQ Forte (35 algorithmic qubits) + cryptographically relevant quantum computer roadmap (2028) 
+│  │   └─ IonQ Forte (35 algorithmic qubits) + cryptographically relevant quantum computer roadmap (2028)        
 │  ├─ Silicon spin‑qubit tiles
 │  │   ├─ Intel “Tunnel Falls” 12‑qubit chip, 300 mm CMOS fab (2023) 
 │  │   ├─ Horse Ridge II 4 K cryo‑CMOS controller (wiring cutback) 
