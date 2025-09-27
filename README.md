@@ -28,6 +28,14 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 ---
 
+### Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output (as of 2025):
+
+<img width="3800" height="auto" alt="491879170-f784cb74-ac86-49c5-9d6d-5ffed0d62882" src="https://github.com/user-attachments/assets/80a9ee1e-eea5-4d7f-a84f-f5769463fbd4" />
+
+> See here for related quantum hardware dissertation rankings in the US and Canada: <https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#quantum-hardware--quantum-adjacent-hardware-thesis-outputnumberoflabs-per-university-uscanada>
+
+---
+
 ### Serious Quantum Information Science & Technology Courses Online, Up to the Graduate Level:
 
 | **Name or Title**                      | **Cost** | **Link**                                                                 |
@@ -130,11 +138,13 @@ Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](htt
 
 --- 
 
-### An extended version of the video playlists below is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
+- An extended version of the playlist on quantum hardware engineering is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
-### A video playlist on quantum metrology is also available: [Quantum Metrology Review](https://youtube.com/playlist?list=PLbW5jviv4ckz60SxXDEnHL12NQ8-h0skk&si=xxxFNi2Q9gI1quCm)
+- A video playlist on quantum metrology is available: [Quantum Metrology Review](https://youtube.com/playlist?list=PLbW5jviv4ckz60SxXDEnHL12NQ8-h0skk&si=xxxFNi2Q9gI1quCm)
 
-### A video playlist by Prof. Hiu Wong on quantum computing is available: [Quantum Computing Hardware and Architecture](https://youtube.com/playlist?list=PLnK6MrIqGXsL1KShnocSdwNSiKnBodpie&si=TweZXcEdzKICIju9)
+- A video playlist by Prof. Hiu Wong on quantum computing is available: [Quantum Computing Hardware and Architecture](https://youtube.com/playlist?list=PLnK6MrIqGXsL1KShnocSdwNSiKnBodpie&si=TweZXcEdzKICIju9)
+
+- A video playlist by Prof. Hiu Wong on cryogenic nanoelectronics is available: [Cryogenic Nanoelectronics](https://youtube.com/playlist?list=PLnK6MrIqGXsKFEAg4E_JVK1A1OeBb88qD&si=a3Lp33dmoi_UzMen)
 
 
 | 12 Critical Quantum Hardware Videos – Explanation of the Physical System: | 
@@ -363,7 +373,6 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Interactive Quantum Computing Education Tools | [https://www.iqmacademy.com/play](https://www.iqmacademy.com/play) |
 | Quantum Phenomena Visualization | [https://toutestquantique.fr/en](https://toutestquantique.fr/en) |
 
-
 ---
 
 # Chapter 4
@@ -562,18 +571,18 @@ Notes:
 
 ---
 
-## Quantum Hardware Thesis Output/ Number of Labs per University (U.S. & Canada)
+## Quantum Hardware + Quantum Adjacent Hardware Thesis Output/ Number of Labs per University (U.S. & Canada)
 ### (Estimated Avg. Total Master’s + Ph.D. Theses per Year over 10 Years)
 
 ```
 ├─ Tier 1 — High‑volume producers (≥ 5 per year)
-│   ├─ Yale University (Yale) ......................................  6.0 ;  ~6 labs
-│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; 10 labs
-│   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; 14 labs
+│   ├─ Yale University (Yale) ......................................  6.0 ;  ~7 labs
+│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; ~12 labs
+│   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; ~15 labs
 │
 ├─ Tier 2 — Moderate producers (3 – 4.9 per year)
-│   ├─ University of California – Berkeley (UC Berkeley) ...........  4.5 ;  8 labs
-│   ├─ University of Waterloo (IQC) ................................  4.0 ; 24 labs
+│   ├─ University of California – Berkeley (UC Berkeley) ...........  4.5 ;  9 labs
+│   ├─ University of Waterloo (IQC) ................................  4.0 ; ~22 labs
 │   ├─ Princeton University (Princeton) ............................  4.0 ;  5 labs
 │   ├─ University of California – Santa Barbara (UCSB) .............  4.0 ;  4 labs
 │   ├─ Harvard University (Harvard) ................................  3.5 ;  7 labs
@@ -604,12 +613,12 @@ Notes:
 │   └─ University of Washington (UW) ...............................  1.5 ;  3 labs
 │
 └─ Tier 4 — Emerging nodes (< 1.5 per year)
+    ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  ~5 labs
     ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............  1.0 ;  ~5 labs
     ├─ Simon Fraser University (SFU) ..............................  1.0 ;  4 labs
     ├─ Columbia University (Columbia) .............................  1.0 ;  3 labs
     ├─ Université de Montréal (UdeM) ..............................  1.0 ;  3 labs
     ├─ Arizona State University (ASU) .............................  1.0 ;  3 labs
-    ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  3 labs
     ├─ University of California – Davis (UC Davis) ................  1.0 ;  2 labs
     ├─ University of Arizona (UArizona) ...........................  1.0 ;  2 labs
     ├─ University of New Mexico (CQuIC) ...........................  1.0 ;  2 labs
@@ -617,6 +626,8 @@ Notes:
     ├─ Université Laval (Laval) ...................................  1.0 ;  2 labs
     └─ University of Victoria (UVic) ..............................  0.5 ;  2 labs
 ```
+
+> Note: Recently, the University of Pittsburgh, University of Chicago, Arizona State University, and University of Colorado-Boulder have started to dramatically scale their infrastructure for quantum hardware-related research. So, expect these 4 to move up in the tier list very quickly in the near future.
 
 ---
 
@@ -845,7 +856,7 @@ Quantum‑Information Carriers
 │     │  ├─ NV centers (diamond)
 │     │  └─ SiV, SnV, T/W/G/C centers, etc.
 │     └─ Magnetic & molecular spins
-│        ├─ Magnetic clusters (e.g., Fe₈)
+│        ├─ Magnetic clusters (e.g., Fe₈, Mn₁₂, heterometallic rings, other candidates)
 │        └─ Magnetic nanodisks (meron/skyrmion)
 | 
 └─ Flying Qubits (mobile)
@@ -1078,10 +1089,19 @@ Qubit Architectures vs. Deployment Scale
 │  │   │   ├─ 84‑qubit Ankaa‑3 (99.5 % CZ fidelity, 2024) 
 │  │   │   ├─ 36‑qubit chiplet prototype (halved error, Jul 2025) 
 │  │   │   └─ 336‑qubit Lyra target (narrow quantum advantage, 2026) 
-│  │   └─ Google Quantum AI 
-│  │       ├─ 53‑qubit Sycamore (2019)
-│  │       ├─ 105‑qubit Willow logical‑scaling chip (2024) 
-│  │       └─ Roadmap toward ~1 M physical qubits & fault-tolerance (~2033) 
+│  │   ├─ Google Quantum AI 
+│  │   │   ├─ 53‑qubit Sycamore (2019)
+│  │   │   ├─ 105‑qubit Willow logical‑scaling chip (2024) 
+│  │   │   └─ Roadmap toward ~1 M physical qubits & fault‑tolerance (~2033) 
+│  │   └─ Fujitsu–RIKEN superconducting platform (hybrid AI‑HPC)
+│  │       ├─ 256‑qubit RQC–Fujitsu machine, external access via hybrid platform (Q1 FY2025)
+│  │       ├─ 1,000‑qubit facility under construction (availability target: FY2026)
+│  │       └─ ≥10,000‑qubit development program, system completion targeted around 2030, aligned with FugakuNEXT AI‑HPC
+│  ├─ Superconducting bosonic/cat‑code processors (oscillator‑encoded)
+│  │   └─ AWS Center for Quantum Computing (Caltech)
+│  │       ├─ Ocelot cat‑qubit chip (Nature‑reported, Feb 2025); hardware‑efficient QEC with up to ~90% lower overhead vs. conventional approaches    
+│  │       ├─ Blueprint: concatenated cat codes + repetition/surface code stack (arXiv→PRX Quantum, 2020→2022)
+│  │       └─ First AWS‑built systems intended to go live on Amazon Braket at AWS’s Pasadena facility (data‑center cloud orientation)
 │  ├─ Neutral‑atom arrays
 │  │   ├─ QuEra Aquila 256‑qubit Rydberg computer (2022 cloud) 
 │  │   ├─ Atom Computing “Phoenix” 1,225‑qubit ytterbium array (2023) 
@@ -1090,7 +1110,7 @@ Qubit Architectures vs. Deployment Scale
 │  │   ├─ PsiQuantum Omega silicon‑photonics chiplets, mass‑fab (2025) 
 │  │   └─ Xanadu Borealis 216‑mode Gaussian‑boson‑sampler (2022) 
 │  ├─ Trapped‑ion modular racks
-│  │   └─ IonQ Forte (35 algorithmic qubits) + cryptographically relevant quantum computer roadmap (2028) 
+│  │   └─ IonQ Forte (35 algorithmic qubits) + cryptographically relevant quantum computer roadmap (2028)        
 │  ├─ Silicon spin‑qubit tiles
 │  │   ├─ Intel “Tunnel Falls” 12‑qubit chip, 300 mm CMOS fab (2023) 
 │  │   ├─ Horse Ridge II 4 K cryo‑CMOS controller (wiring cutback) 
@@ -1152,42 +1172,43 @@ Legend
 ---
 
 Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired Dewar Vessels 
-├─ Table-Top/ Insert  (< 0.5 m²)
-│   ├─ DR  attocube  attoDRY-800/ -1100
-│   ├─ DR  Cryogenic Ltd  STM-insert DRs (UHV tubes)
-│   └─ Dewar  KGW-Isotherm  lab borosilicate/ stainless hybrids  (< 30 L)
+├─ Table‑Top/ Insert  (< 0.5 m²)
+│   ├─ DR     attocube           attoDRY‑800/ ‑1100
+│   ├─ DR     Cryogenic Ltd      STM‑insert DRs (UHV tubes)
+│   └─ Dewar  KGW‑Isotherm       lab borosilicate/ stainless hybrids  (< 30 L)
 │
-├─ Ultra-Compact Floor  (≈ 0.6 – 0.8 m²)
-│   ├─ DR  Bluefors  Ultra-Compact LD  (≤ 300 mm plate)
-│   ├─ DR  Maybell  The Fridge  (≤ 10 mK; > 500 µW @ 100 mK; > 35 L below MXC; compact square footprint)
-│   └─ Dewar  Statebourne Cryolab & CryoCycl  LN₂ micro-bulk  (30 – 60 L)
+├─ Ultra‑Compact Floor  (≈ 0.6 – 0.8 m²)
+│   ├─ DR     Bluefors           Ultra‑Compact LD  (≤ 300 mm plate)
+│   ├─ DR     Maybell            The Fridge  (≤ 10 mK; > 500 µW @ 100 mK; > 35 L below MXC)
+│   └─ Dewar  Statebourne Cryolab & CryoCycl  LN₂ micro‑bulk  (30 – 60 L)
 │
-├─ Compact Floor-Standing  (≈ 1 m²)
-│   ├─ DR  Bluefors  LD/ SD
-│   ├─ DR  FormFactor-HPD  JDry-400  ·  LF-400
-│   ├─ DR  Oxford Instruments  Proteox S
-│   ├─ DR  Quantum Design  PPMS DynaCool + DR insert
-│   ├─ Non-DR  Quantum Design  PPMS DynaCool  (no DR insert)
-│   ├─ Non-DR  Quantum Design  VersaLab 
-│   ├─ Non-DR  Quantum Design  MPMS-3 SQUID
-│   └─ Dewar  Cryofab  CMSH  liquid-helium Dewars  (20 – 500 L)
+├─ Compact Floor‑Standing  (≈ 1 m²)
+│   ├─ DR     Bluefors           LD / SD
+│   ├─ DR     FormFactor‑HPD     JDry‑400 · LF‑400
+│   ├─ DR     Oxford Instruments Proteox S
+│   ├─ DR     Quantum Design     PPMS DynaCool + DR insert
+│   ├─ Non‑DR Quantum Design     PPMS DynaCool  (no DR insert)
+│   ├─ Non‑DR Quantum Design     VersaLab
+│   ├─ Non‑DR Quantum Design     MPMS‑3 SQUID
+│   └─ Dewar  Cryofab            CMSH liquid‑helium Dewars  (20 – 500 L)
 │
-├─ Large-Frame  (≥ 1 m²)
-│   ├─ DR  Bluefors  XLD/  XL
-│   ├─ DR  FormFactor-HPD  XLF-600
-│   ├─ DR  Oxford Instruments  Proteox MX/  LX
-│   ├─ DR  ICE Oxford  DRY-ICE Eden
-│   ├─ DR  Zero Point Cryogenics  Model L
-│   ├─ DR  Leiden Cryogenics  CF-CS-XXL/ 1 m plate
-│   ├─ DR  Maybell  The Big Fridge  (> 130 L below MXC)
-│   └─ Dewar  Wessington  PV/ TPV tanks  ·  Cryo Diffusion  LO/ CDB series  (> 1,000 L)
+├─ Large‑Frame  (≥ 1 m²)
+│   ├─ DR     Bluefors           XLD / XL
+│   ├─ DR     FormFactor‑HPD     XLF‑600
+│   ├─ DR     Oxford Instruments Proteox MX/ LX
+│   ├─ DR     ICE Oxford         DRY‑ICE Eden
+│   ├─ DR     Zero Point Cryogenics  Model L
+│   ├─ DR     Leiden Cryogenics  CF‑CS‑XXL/ 1 m plate
+│   ├─ DR     Maybell            The Big Fridge  (> 130 L below MXC)
+│   └─ Dewar  Wessington PV / TPV tanks · Cryo Diffusion LO / CDB series  (> 1,000 L)
 │
-└─ Data-Center/ XXL  (> 1.4 m² · multi-PT stacks)
-    ├─ DR  Bluefors  KIDE  (1.6 m² flange)
-    ├─ DR  Cryoconcept  HEXA-DRY XXL  (Ø 800 mm)
-    ├─ DR  QuantumCTek  EZ-Q  (mass-production line)
-    ├─ DR  ULVAC  next-gen DR  (IBM co-design, slated ≥ 2026)
-    └─ Dewar  Taiyo Nippon Sanso  bulk LN₂ tanks  ·  Sumitomo (SHI) GM-precooled LHe vessels
+└─ Data‑Center/ XXL  (> 1.4 m² · multi‑PT stacks)
+    ├─ DR     Bluefors           KIDE  (1.6 m² flange)
+    ├─ DR     Cryoconcept        HEXA‑DRY XXL  (Ø 800 mm)
+    ├─ DR     Oxford Instruments ProteoxQX  (≥ 3 m tall, ≳ 1.5 m wide accessible workspace; 4–6 SIs; connectable modules)
+    ├─ DR     QuantumCTek        EZ‑Q  (mass‑production line)
+    ├─ DR     ULVAC              next‑gen DR  (IBM co‑design, slated ≥ 2026)
+    └─ Dewar  Taiyo Nippon Sanso bulk LN₂ tanks · Sumitomo (SHI) GM‑precooled LHe vessels
 
 DR: Dilution Refrigerator
 MXC: Mixing Chamber
@@ -1198,7 +1219,7 @@ MXC: Mixing Chamber
 | Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal/ safety constraints                                                                                                                                                                                                                    |
 | --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Open “bucket” (wide‑mouth Dewar)**                            | LN₂, LAr (occasionally LO₂ for spot cleaning) | 77 K (LN₂)/ 87 K (LAr)                            | Violent bubbling on warm insertion; splash, frost & rapid O₂ enrichment; zero over‑pressure protection — must remain vented (ehs.lbl.gov)                                                                         |
-| **Static storage Dewar**<br>(bench or floor, non‑pressurized)   | LN₂, LAr, LO₂, **LHe (with LN₂ shield)**      | 4.2 K for LHe (inner can)<br>≈ 77 K for LN₂ shield | Multilayer insulation (MLI) plus <10⁻⁵ mbar vacuum to limit radiative & gaseous conduction loads; vented neck to avoid plug ice; shield‑fill adds ≈1 W latent load per litre (americanmagnetics.com, EHRS)                   |
+| **Static storage Dewar**<br>(bench or floor, non‑pressurized)   | LN₂, LAr, LO₂, **LHe (with LN₂ shield)**      | 4.2 K for LHe (inner can)<br>≈ 77 K for LN₂ shield | Multilayer insulation (MLI) plus <10⁻⁵ mbar vacuum to limit radiative & gaseous conduction loads; vented neck to avoid plug ice; shield‑fill adds ≈1 W latent load per liter (americanmagnetics.com, EHRS)                   |
 | **Transport Dewar/ ISO tank**<br>(road, sea, or air certified) | LN₂, **LHe**, LH₂ (ISO‑T75)                   | 4.2 K (LHe)/ 20.3 K (LH₂)                         | Must survive continuous vibration & shocks (ADR, IMDG, IATA); dual or triple pressure‑relief trains sized for full flash; seismic‑stop frame & slosh‑baffle for air cargo (Wessington, cryotherminc.com, ehs.lbl.gov) |
 
 †LO₂ and LH₂ add powerful oxidizer/flammability hazards and are therefore restricted to specially cleaned, oxygen‑compatible or hydrogen‑compatible hardware.
@@ -1218,7 +1239,7 @@ MXC: Mixing Chamber
 
 | Term | OEM language | Function |
 | ----- | ----- | ----- |
-| **XLDsl Dilution Refrigerator Measurement System** | Marketed as a *cryogen-free DR measurement system* with large experimental space. | The entire fridge—including still, heat-exchangers, mixing chamber—is already inside the vacuum can. |
+| **XLDsl Dilution Refrigerator Measurement System** | Marketed as a *cryogen-free DR measurement system* with large experimental space. | The entire fridge (including still, heat-exchangers, mixing chamber) is already inside the vacuum can. |
 | **High-Density Wiring (side-load or top-load)** | Bluefors calls the modular wiring loom “High-Density Wiring,” compatible with XLD. | Provides hundreds of coax/twisted-pair lines; resembles a metallic “chandelier.” |
 | **Colloquial “chandelier”** | Community photos and forum threads show the gold-plated wiring tree hanging from the mixing chamber. | Visual nickname, not a refrigeration stage. |
 
@@ -1443,6 +1464,19 @@ Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computin
 
 ---
 
+### Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture
+
+<img width="3345" height="2074" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad" />
+
+
+> This figure highlights the digital and analog components of qubit control and readout for cryogenic ASICs. Digitally, an SPI‑linked sequencer and waveform memory program the amplitude, phase, frequency, and timing of pulses. Analog‑wise, two DAC channels create baseband I and Q envelopes that are filtered and mixed with a low‑phase‑noise local oscillator (I/Q modulation) to produce the microwave XY drive; a separate DAC provides Z‑bias control; and a reflective readout chain transmits a probe tone, then amplifies, down‑converts, filters, and digitizes the return for qubit‑state discrimination. It is important to note that accurate qubit manipulation  relies on low phase noise, low jitter, calibrated I/Q balance, and low‑distortion analog buffering throughout the signal path. 
+
+Borrowed from: Guo et al., *Cryogenic CMOS RF Circuits: A Promising Approach for Large-Scale Quantum Computing*, IEEE TSCII, 71, 3 (2024)  
+<https://doi.org/10.1109/TCSII.2023.3333540>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+
+---
+
 ### A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators 
 
 ![Screenshot 2025-02-01 031533](https://github.com/user-attachments/assets/644776d7-0761-4ab9-ac54-34c5c7ec43af)
@@ -1485,6 +1519,72 @@ Borrowed from: Moskalenko et al., *High Fidelity Two-Qubit Gates on Fluxoniums U
 Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
 <https://doi.org/10.1109/JMW.2020.3034071>  
 [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+
+--- 
+
+### Quantum Device Fabrication Slide Presentation Preview
+
+![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
+
+![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
+
+![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
+
+![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
+
+![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
+
+![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
+
+![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
+
+![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
+
+![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
+
+![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
+
+![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
+
+![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
+
+![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
+
+![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
+
+![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
+
+![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
+
+![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
+
+![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
+
+![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
+
+![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
+
+![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
+
+![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
+
+![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
+
+![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
+
+![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
+
+![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
+
+![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
+
+![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
+
+![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
+
+![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
+
+![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
 ---
 
@@ -1707,69 +1807,6 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 ![416463711-b38fc75a-c5b4-4ff9-8bf7-c634c6040223](https://github.com/user-attachments/assets/7a4f5462-d043-4d66-95d8-a0fe6004624d)
 > Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
 
---- 
-
-![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
-
-![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
-
-![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
-
-![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
-
-![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
-
-![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
-
-![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
-
-![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
-
-![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
-
-![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
-
-![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
-
-![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
-
-![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
-
-![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
-
-![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
-
-![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
-
-![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
-
-![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
-
-![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
-
-![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
-
-![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
-
-![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
-
-![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
-
-![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
-
-![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
-
-![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
-
-![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
-
-![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
-
-![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
-
-![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
-
-![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
 
 --- 
 
