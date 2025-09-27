@@ -1373,7 +1373,7 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 ### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
 
-<img width="2945" height="1399" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080" />
+<img width="2945" height="auto" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080" />
 
 Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 674 (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
@@ -1466,7 +1466,7 @@ Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computin
 
 ### Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture
 
-<img width="3345" height="2074" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad" />
+<img width="3345" height="auto" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad" />
 
 
 > This figure highlights the digital and analog components of qubit control and readout for cryogenic ASICs. Digitally, an SPI‑linked sequencer and waveform memory program the amplitude, phase, frequency, and timing of pulses. Analog‑wise, two DAC channels create baseband I and Q envelopes that are filtered and mixed with a low‑phase‑noise local oscillator (I/Q modulation) to produce the microwave XY drive; a separate DAC provides Z‑bias control; and a reflective readout chain transmits a probe tone, then amplifies, down‑converts, filters, and digitizes the return for qubit‑state discrimination. It is important to note that accurate qubit manipulation  relies on low phase noise, low jitter, calibrated I/Q balance, and low‑distortion analog buffering throughout the signal path. 
