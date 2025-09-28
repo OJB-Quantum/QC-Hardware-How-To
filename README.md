@@ -1800,7 +1800,7 @@ In conclusion, nanotechnology is a highly interdisciplinary STEM field that is a
 --- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-29.jpg?height=1557&width=1133&top_left_y=241&top_left_x=496)
-> A Modular Cryogenic Circuit Board Containing Digital-To-Analog Converters \& Analog-ToDigital Converters, for Interfacing Solid-State Qubits with Commercially Available FieldProgrammable Gate Arrays (FPGAs). Its Purpose is Qubit Readout \& Control (Reilly, npj Quantum Inf, 2015).
+> A Modular Cryogenic Circuit Board Containing Digital-To-Analog Converters \& Analog-ToDigital Converters, for Interfacing Solid-State Qubits with Commercially Available Field-Programmable Gate Arrays (FPGAs). Its Purpose is Qubit Readout \& Control (Reilly, npj Quantum Inf, 2015).
 
 --- 
 
