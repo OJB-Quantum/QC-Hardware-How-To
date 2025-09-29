@@ -1217,7 +1217,7 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 ---
 
-### Illustrative 
+### Illustrative Example of How to Think About The Outcome of Qubits Based on Their Classification
 
 | Model                    | Target p |  Shots |  (Successes) | (Failures) | Successes Fraction <br>(Observed p) | Wilson CI <br>95% Low | Wilson CI <br>95% High | CI Width <br> (95%)| Required <br>Shots for ±2% | Required <br>Shots for ±1% | Required <br>Shots for ±0.5% | Illustrative <br>Cost (USD) |
 | :----------------------- | -------: | -----: | -----: | ----: | ---------: | -----: | ------: | -------: | --------: | --------: | ----------: | ---------: |
@@ -1226,6 +1226,12 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 | Fault-tolerant (logical) |     0.90 | 10,000 |  9,013 |   987 |     0.9013 | 0.8956 |  0.9067 |   0.0111 |       865 |     3,458 |      13,830 |     \$0.60 |
 | Topologically protected  |     0.98 | 10,000 |  9,797 |   203 |     0.9797 | 0.9769 |  0.9822 |   0.0053 |       189 |       753 |       3,011 |     \$0.60 |
 | Ideal qubit              |     1.00 | 10,000 | 10,000 |     0 |     1.0000 | 0.9996 |  1.0000 |   0.0004 |         1 |         1 |           1 |     \$0.60 |
+
+- Toy working qubit - Simple demonstrator; about half shots meet the criterion.
+- NISQ qubit - Noisy Intermediate-Scale Quantum device; modest success rate above chance.
+- Fault-tolerant (logical) - Error-corrected logical qubit; high single-shot success probability.
+- Topologically protected - Intrinsic protection; very high single-shot success probability.
+- Ideal qubit - Theoretical perfect qubit; always successful in a single shot.
 
 ---
 
