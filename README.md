@@ -1242,8 +1242,8 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 | Mechanism | What protects information | Characteristic scaling | What you tune | Practical caveats |
 | :--- | :--- | :--- | :--- | :--- |
-| Active faulttolerant QEC (e.g., bicycle code) | Repeated syndrome extraction + decoding; logical information is spread over many qubits | $\begin{aligned}& \text { For } p<p_{\text {th }} \text {, } \\& p_L \sim e^{-\alpha(p)} d \\& \text { (often fit as } \\& \left.A\left(p / p_{\text {th }}\right)^{(d+1) / 2}\right)\end{aligned}$ | Lower physical error rate $p$; raise code distance $d$ | Requires fast, reliable measurements and decoding; overhead is large but scaling is systematic. |
-| Passive topological protection (hardware) | Non-local ground-state manifold (e.g., Majorana/anyons) | Ground-state splitting $\Delta E(L) \propto e^{-L / \xi} ;$ thermal errors $\propto e^{-\Delta / k T}$ | Increase separation $L$; increase gap $\Delta$; reduce temperature $T$ | Quasiparticle poisoning not automatically suppressed; finite-size hybridization. 2 D self-correction is a no-go at finite $T \rightarrow$ often paired with active QEC. |
+| **Active fault-tolerant QEC** (e.g., bicycle code) | Repeated syndrome extraction + decoding; logical information is spread over many qubits | For $p < p_{\text{th}}$, $p_L \sim e^{-\alpha(p) d}$ <br>(often fit as $A(p / p_{\text{th}})^{(d+1) / 2}$) | Lower physical error rate $p$; raise code distance $d$ | Requires fast, reliable measurements and decoding; overhead is large but scaling is systematic. |
+| **Passive topological protection** (hardware) | Non-local ground-state manifold <br>(e.g., Majorana/anyons) | Ground-state splitting $\Delta E(L) \propto e^{-L / \xi}$; thermal errors $\propto e^{-\Delta / k T}$ | Increase separation $L$; increase gap $\Delta$; reduce temperature $T$ | Quasiparticle poisoning not automatically suppressed; finite-size hybridization.<br>2D self-correction is a <br>no-go at finite $T \rightarrow$ often paired with active QEC. |
 
 Yoder et al., *The surface code with a twist*, Quantum 1, 2 (2017)  
 <https://doi.org/10.22331/q-2017-04-25-2>  
@@ -1288,31 +1288,31 @@ Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance wit
 <https://doi.org/10.1103/PRXQuantum.1.020318>  
 <https://creativecommons.org/licenses/by-nc-nd/4.0/>  
 
-Sung et al., “Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler,” Physical Review X 11, 021058 (2021)   
+Sung et al., *Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler*, Physical Review X 11, 021058 (2021)   
 <https://doi.org/10.1103/PhysRevX.11.021058>   
 <https://creativecommons.org/licenses/by/3.0/>   
 
-Song et al., “Continuous-variable geometric phase and its manipulation for quantum computation in a superconducting circuit,” Nature Communications 8, 1061 (2017)  
+Song et al., *Continuous-variable geometric phase and its manipulation for quantum computation in a superconducting circuit*, Nature Communications 8, 1061 (2017)  
 <https://doi.org/10.1038/s41467-017-01156-5>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Barron et al., “Microwave-based arbitrary CPHASE gates for transmon qubits,” Scientific Reports 10, 15206 (2020)  
+Barron et al., *Microwave-based arbitrary CPHASE gates for transmon qubits*, Scientific Reports 10, 15206 (2020)  
 <https://doi.org/10.1038/s41598-020-66939-x>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Zhang et al., “Tunable Inductive Coupler for High-Fidelity Gates Between Fluxonium Qubits,” PRX Quantum 5, 020326 (2024)  
+Zhang et al., *Tunable Inductive Coupler for High-Fidelity Gates Between Fluxonium Qubits*, PRX Quantum 5, 020326 (2024)  
 <https://doi.org/10.1103/PRXQuantum.5.020326>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Grzesiak et al., “Efficient arbitrary simultaneously entangling gates on a trapped-ion quantum computer,” Nature Communications 11, 2963 (2020)  
+Grzesiak et al., *Efficient arbitrary simultaneously entangling gates on a trapped-ion quantum computer*, Nature Communications 11, 2963 (2020)  
 <https://doi.org/10.1038/s41467-020-16790-9>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Low et al., “Practical trapped-ion protocols for universal qudit-based quantum computing,” Physical Review Research 2, 033128 (2020)  
+Low et al., *Practical trapped-ion protocols for universal qudit-based quantum computing*, Physical Review Research 2, 033128 (2020)  
 <https://doi.org/10.1103/PhysRevResearch.2.033128>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Henriet et al., “Quantum computing with neutral atoms,” Quantum 4, 327 (2020)  
+Henriet et al., *Quantum computing with neutral atoms*, Quantum 4, 327 (2020)  
 <https://doi.org/10.22331/q-2020-09-21-327>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
