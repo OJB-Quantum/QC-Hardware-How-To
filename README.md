@@ -1891,6 +1891,17 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 
 --- 
 
+### Example of Required Steps to Compute Molecular Energies (Mapped to 2 Physical Qubits) 
+
+<img width="3763" height="auto" alt="image" src="https://github.com/user-attachments/assets/ae3ca23e-e89e-4dae-955b-b9eb94613868" />
+
+Adapted from: O’Malley et al., *Scalable Quantum Simulation of Molecular Energies*, Phys. Rev. X, 6 031007 (2016)  
+<https://doi.org/10.1103/PhysRevX.6.031007>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+
+---
+
 ### Quantum Device Fabrication Slide Presentation Preview
 
 ![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
