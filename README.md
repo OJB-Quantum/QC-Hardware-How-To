@@ -1371,6 +1371,17 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 
 ---
 
+### Placement & Purpose of Mixer Hardware Components 
+
+| Task                        | What the mixer does                                               | Typical placement                 | Common issues                                | Standard mitigations                            | 
+| --------------------------- | ----------------------------------------------------------------- | --------------------------------- | -------------------------------------------- | ----------------------------------------------- | 
+| Up-conversion for gates     | Translates $I/Q$ baseband to microwave SSB near $\omega_\text{q}$ | AWG → I/Q mixer → microwave chain | LO leakage, image tone, gain/phase imbalance | I/Q calibration, digital SSB, predistortion     |
+| Down-conversion for readout | Translates resonator output to IF/baseband for ADC                | LNA → mixer → IF chain → ADC      | Phase drift, DC offsets, conversion loss     | Phase-coherent LOs, offset nulling, calibration |
+| Mixer calibration           | Measures/compensates amplitude/phase imbalance, offsets           | Both control and readout paths    | Time/frequency drift                         | Routine recalibration, temperature control      |
+| Alternatives/adjacent       | Direct RF from RFSoC, or double-superhet                          | Controller front-ends             | Complexity vs. spurs, latency                | Integrated digital DSP, careful LO plan         |       
+
+---
+
 ### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
 
 <img width="2945" height="auto" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080" />
