@@ -895,14 +895,17 @@ Qubit-as-Mode
 │  G) Mode orthogonality & interferometric isolation (photonic/flying-mode encodings)
 │  H) Dispersion-/bandgap-engineered quasiparticles (frequency–k isolation)
 │  I) Spin-texture doublets (prospective; texture-defined manifolds)
+│
 ├─ Control & readout (pick mechanisms appropriate to each row)
 │  ├─ Microwaves/flux (SC circuits) → dispersive cQED
 │  ├─ Lasers (ions/atoms) → fluorescence, shelving
 │  ├─ Photonics → interferometers + detectors
-│  └─ Magnetization fields & spin textures (spintronics) → STT/SOT/VCMA, TMR/GMR, AHE/THE, MOKE, ISHE, FMR/BLS    
+│  └─ Magnetization fields & spin textures (spintronics) → STT/SOT/VCMA, TMR/GMR, AHE/THE, MOKE, ISHE, FMR/BLS
+│ 
 ├─ Coherence engineering (T1, T2 ≫ t_gate, t_read)
 │  ├─ Materials & surfaces, filtering, shielding; sweet spots; dynamical decoupling
 │  └─ From physical quality → QEC thresholds (surface code, bicycle/QLDPC, cat/GKP hybrids)
+│
 └─ Scale-up
    ├─ Connectivity graphs & couplers/buses
    ├─ Calibration stability & crosstalk control
