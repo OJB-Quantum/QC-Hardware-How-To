@@ -1242,8 +1242,8 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 | Mechanism | What protects information | Characteristic scaling | What you tune | Practical caveats |
 | :--- | :--- | :--- | :--- | :--- |
-| Active faulttolerant QEC (e.g., bicycle code) | Repeated syndrome extraction + decoding; logical information is spread over many qubits | $\begin{aligned}& \text { For } p<p_{\text {th }} \text {, } \\& p_L \sim e^{-\alpha(p)} d \\& \text { (often fit as } \\& \left.A\left(p / p_{\text {th }}\right)^{(d+1) / 2}\right)\end{aligned}$ | Lower physical error rate $p$; raise code distance $d$ | Requires fast, reliable measurements and decoding; overhead is large but scaling is systematic. |
-| Passive topological protection (hardware) | Non-local ground-state manifold (e.g., Majorana/anyons) | Ground-state splitting $\Delta E(L) \propto e^{-L / \xi} ;$ thermal errors $\propto e^{-\Delta / k T}$ | Increase separation $L$; increase gap $\Delta$; reduce temperature $T$ | Quasiparticle poisoning not automatically suppressed; finite-size hybridization. 2 D self-correction is a no-go at finite $T \rightarrow$ often paired with active QEC. |
+| Active fault-tolerant QEC (e.g., bicycle code) | Repeated syndrome extraction + decoding; logical information is spread over many qubits | For $p<p_{\text {th }}$, $p_L \sim e^{-\alpha(p)} d$ (often fit as $\left.A\left(p / p_{\text {th }}\right)^{(d+1) / 2}\right)$ | Lower physical error rate $p$; raise code distance $d$ | Requires fast, reliable measurements and decoding; overhead is large but scaling is systematic. |
+| Passive topological protection (hardware) | Non-local ground-state manifold (e.g., Majorana/anyons) | Ground-state splitting $\Delta E(L) \propto e^{-L / \xi} ;$ thermal errors $\propto e^{-\Delta / k T}$ | Increase separation $L$; increase gap $\Delta$; reduce temperature $T$ | Quasiparticle poisoning not automatically suppressed; finite-size hybridization. 2D self-correction is a no-go at finite $T \rightarrow$ often paired with active QEC. |
 
 Yoder et al., *The surface code with a twist*, Quantum 1, 2 (2017)  
 <https://doi.org/10.22331/q-2017-04-25-2>  
