@@ -1217,6 +1217,18 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 ---
 
+### Illustrative 
+
+| Model                    | Target p |  Shots |  (Successes) | (Failures) | Successes Fraction <br>(Observed p) | Wilson CI <br>95% Low | Wilson CI <br>95% High | CI Width <br> (95%)| Required <br>Shots for ±2% | Required <br>Shots for ±1% | Required <br>Shots for ±0.5% | Illustrative <br>Cost (USD) |
+| :----------------------- | -------: | -----: | -----: | ----: | ---------: | -----: | ------: | -------: | --------: | --------: | ----------: | ---------: |
+| Toy working qubit        |     0.50 | 10,000 |  5,025 | 4,975 |     0.5025 | 0.4927 |  0.5123 |   0.0196 |     2,401 |     9,604 |      38,415 |     \$0.60 |
+| NISQ qubit               |     0.60 | 10,000 |  6,010 | 3,990 |     0.6010 | 0.5914 |  0.6105 |   0.0191 |     2,305 |     9,220 |      36,878 |     \$0.60 |
+| Fault-tolerant (logical) |     0.90 | 10,000 |  9,013 |   987 |     0.9013 | 0.8956 |  0.9067 |   0.0111 |       865 |     3,458 |      13,830 |     \$0.60 |
+| Topologically protected  |     0.98 | 10,000 |  9,797 |   203 |     0.9797 | 0.9769 |  0.9822 |   0.0053 |       189 |       753 |       3,011 |     \$0.60 |
+| Ideal qubit              |     1.00 | 10,000 | 10,000 |     0 |     1.0000 | 0.9996 |  1.0000 |   0.0004 |         1 |         1 |           1 |     \$0.60 |
+
+---
+
 ### Entanglement Mediators for Qubits
 
 ```
@@ -1246,41 +1258,41 @@ Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance wit
 <https://doi.org/10.1103/PRXQuantum.1.020318>  
 <https://creativecommons.org/licenses/by-nc-nd/4.0/>  
 
-Sung, Y. et al., “Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler,” Physical Review X 11, 021058 (2021)   
+Sung et al., “Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler,” Physical Review X 11, 021058 (2021)   
 <https://doi.org/10.1103/PhysRevX.11.021058>   
 <https://creativecommons.org/licenses/by/3.0/>   
 
-Song, C. et al., “Continuous-variable geometric phase and its manipulation for quantum computation in a superconducting circuit,” Nature Communications 8, 1061 (2017)  
+Song et al., “Continuous-variable geometric phase and its manipulation for quantum computation in a superconducting circuit,” Nature Communications 8, 1061 (2017)  
 <https://doi.org/10.1038/s41467-017-01156-5>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Barron, G. S. et al., “Microwave-based arbitrary CPHASE gates for transmon qubits,” Scientific Reports 10, 15206 (2020)  
+Barron et al., “Microwave-based arbitrary CPHASE gates for transmon qubits,” Scientific Reports 10, 15206 (2020)  
 <https://doi.org/10.1038/s41598-020-66939-x>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Zhang, H. et al., “Tunable Inductive Coupler for High-Fidelity Gates Between Fluxonium Qubits,” PRX Quantum 5, 020326 (2024)  
+Zhang et al., “Tunable Inductive Coupler for High-Fidelity Gates Between Fluxonium Qubits,” PRX Quantum 5, 020326 (2024)  
 <https://doi.org/10.1103/PRXQuantum.5.020326>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Grzesiak, N. et al., “Efficient arbitrary simultaneously entangling gates on a trapped-ion quantum computer,” Nature Communications 11, 2963 (2020)  
+Grzesiak et al., “Efficient arbitrary simultaneously entangling gates on a trapped-ion quantum computer,” Nature Communications 11, 2963 (2020)  
 <https://doi.org/10.1038/s41467-020-16790-9>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Low, P. J. et al., “Practical trapped-ion protocols for universal qudit-based quantum computing,” Physical Review Research 2, 033128 (2020)  
+Low et al., “Practical trapped-ion protocols for universal qudit-based quantum computing,” Physical Review Research 2, 033128 (2020)  
 <https://doi.org/10.1103/PhysRevResearch.2.033128>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Henriet, L. et al., “Quantum computing with neutral atoms,” Quantum 4, 327 (2020)  
+Henriet et al., “Quantum computing with neutral atoms,” Quantum 4, 327 (2020)  
 <https://doi.org/10.22331/q-2020-09-21-327>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Pompili, M. et al., *Experimental demonstration of entanglement delivery using a quantum network stack*, npj Quantum Information 8, 121 (2022)  
+Pompili et al., *Experimental demonstration of entanglement delivery using a quantum network stack*, npj Quantum Information 8, 121 (2022)  
 <https://doi.org/10.1038/s41534-022-00631-2>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Ma̧dzik, M. T. et al., *Conditional quantum operation of two exchange-coupled donors in silicon*, Nature Communications 12, 181 (2021)  https://doi.org/10.1038/s41467-020-20424-5  <https://creativecommons.org/licenses/by/4.0/>  
+Ma̧dzik et al., *Conditional quantum operation of two exchange-coupled donors in silicon*, Nature Communications 12, 181 (2021)  https://doi.org/10.1038/s41467-020-20424-5  <https://creativecommons.org/licenses/by/4.0/>  
 
-Harvey-Collard, P. et al., *Coherent Spin–Spin Coupling Mediated by Virtual Microwave Photons*, Physical Review X 12, 021026 (2022)  https://doi.org/10.1103/PhysRevX.12.021026  <https://creativecommons.org/licenses/by/3.0/>  
+Harvey-Collard et al., *Coherent Spin–Spin Coupling Mediated by Virtual Microwave Photons*, Physical Review X 12, 021026 (2022)  https://doi.org/10.1103/PhysRevX.12.021026  <https://creativecommons.org/licenses/by/3.0/>  
 
 ---
 
@@ -1294,6 +1306,34 @@ The **entangling term is ($Z \otimes X$)**: the target’s rotation about ($X$) 
 Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance with Optimized Rotary Echoes*, PRX Quantum 1, 020318 (2020)  
 <https://doi.org/10.1103/PRXQuantum.1.020318>  
 <https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+---
+
+### Quantum Computing That Can Be Achieved Without Nanofabrication  
+
+| Qubit carrier (microscopic) | Gate mechanism | Typical "lab-bench" hardware (macroscopic) | Measurement |
+| :--- | :--- | :--- | :--- |
+| Liquid-state NMR (nuclear spins in molecules floating in a beaker) | RF pulse sequences implement universal gates on nuclear spins | Commercial NMR spectrometer, 10-30 MHz RF coils; no vacuum, no cryogenics if you use a permanent-magnet benchtop unit | Inductive voltage in same RF coil (macroscopic signal from $\gtrsim 10^{18}$ molecules) |
+| Trapped ions (e.g. ${ }^{40} \mathrm{Ca}^{+},{ }^{171} \mathrm{Yb}^{+}$) | Laser-driven stimulated-Raman or Mølmer-Sørensen gates | Millimetre-scale metal-rod Paul trap, tabletop lasers ( $\sim 100 \mu \mathrm{~m}$ beam waist), vacuum at $10^{-9} \mathrm{mbar}$ | Fluorescence counted by photomultiplier/APD |
+| Neutral atoms in optical tweezers / optical lattices | Rydberg blockade or spin-exchange gates | Commercial diode lasers & objective lens; glass vacuum cell; spatial-light-modulator for tweezer array | Fluorescence imaging onto a CCD |
+| Linear-optics quantum computing | Hong-Ou-Mandel interference; waveplate phase shifters | Off-the-shelf mirrors, beamsplitters, Pockels cells, optical fibres | Single-photon avalanche diodes |
+| NV centres in bulk diamond | Microwave pulses + optical spinselective shelving | One diamond crystal; microwave stripline printed on FR-4; 532 nm laser; roomtemperature operation | Spin-dependent fluorescence into an objective |
+
+> Key limitation is solid-state scalability and lack of strong on-chip coupling.
+
+---
+
+### Quantum Computing That Can Be Achieved With Nanofabrication  
+
+| Feature | Description |
+| :--- | :--- |
+| DiVincenzo Criteria + Precision Apparatus + Memory (classical + quantum) | The foundational requirements for a scalable quantum system: the DiVincenzo criteria, high-precision measurement/control apparatus, and both classical and quantum memories. |
+| System Stack | Microscopic qubit carrier (programmable 2-level atom [natural or synthetic]) $\rightarrow$ apparatus $\rightarrow$ control/sampling (mixed-signal components) $\rightarrow$ memories. |
+| Embedded Chip Components | All layers except the qubit carrier are chip-integrated, enabling precise control/observation and the ability to tie thousands to millions of qubits into a fault-tolerant system. |
+| On-Chip Metrology | Integrated, real-time quantum-adjacent device health monitoring for in-situ metrology and device-level diagnostics. |
+| Quantum Memory $\leftrightarrow$ Transducer Coupling | Fabricated quantum memories interface with quantum transducers to enable long-range QPU-to-QPU coupling (entanglement bus) for modular quantum computing architectures. |
+
+> Key advantage is solid-state scalability and strong on-chip coupling.
 
 ---
 
@@ -1590,7 +1630,7 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 
 ### Dilution Fridge Measurement System & Schematic
 
-![image](https://github.com/user-attachments/assets/6e57a5c9-0f27-4e92-9552-5b37df7676f7) 
+<img width="2813" height="auto" alt="image" src="https://github.com/user-attachments/assets/902b3696-3cef-4c76-b179-0a418ca128d8" />
 
 Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale Superconducting Circuit Systems*, EPJ Quantum Technol. 6, 2 (2019)  
 <https://doi.org/10.1140/epjqt/s40507-019-0072-0>  
@@ -1746,6 +1786,15 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
+### Advanced Quantum Computers Are Controlled Using 2 Approaches 
+
+| Controller Type | Full Name | Description |
+| :--- | :--- | :--- |
+| CryoFPGA | Cryogenic Field Programmable Gate Array | A reconfigurable logic device designed to operate at cryogenic temperatures, used for flexible signal processing and control of qubits. |
+| Cryo-ASIC | Cryogenic Application Specific Integrated Circuit | A custom-designed integrated circuit optimized for cryogenic operation, tailored for efficient and lowpower qubit control and readout. |
+
+---
+
 ### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture 
 
 <img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88" />
@@ -1765,7 +1814,29 @@ Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computin
 
 Borrowed from: Guo et al., *Cryogenic CMOS RF Circuits: A Promising Approach for Large-Scale Quantum Computing*, IEEE TSCII, 71, 3 (2024)  
 <https://doi.org/10.1109/TCSII.2023.3333540>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+---
+
+### A Coupled Coplanar Waveguide Resonator (Elbow) 
+
+<img width="3779" height="auto" alt="image" src="https://github.com/user-attachments/assets/f6265556-115d-478d-9b63-f9d029397321" />
+
+Adapted from Sweetnam et al., *Simulating the behaviour of travelling wave superconducting parametric amplifiers using a commercial circuit simulator*, Supercond. Sci. Technol. 35 095011 (2022)  
+<https://iopscience.iop.org/article/10.1088/1361-6668/ac850b>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+--- 
+
+### Linear & Non-Linear Elements of a Superconducting Qubit
+
+<img width="3707" height="auto" alt="image" src="https://github.com/user-attachments/assets/d857c81b-811b-4359-b385-d85af19e502a" />
+
+> This is one way to physically simulate or mimic the excitation of a single atom.
+
+Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE J. Microw. 1, 1 (2021)  
+<https://doi.org/10.1109/JMW.2020.3034071>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
 
 ---
 
