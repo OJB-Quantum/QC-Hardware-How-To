@@ -1288,31 +1288,31 @@ Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance wit
 <https://doi.org/10.1103/PRXQuantum.1.020318>  
 <https://creativecommons.org/licenses/by-nc-nd/4.0/>  
 
-Sung et al., “Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler,” Physical Review X 11, 021058 (2021)   
+Sung et al., *Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler*, Physical Review X 11, 021058 (2021)   
 <https://doi.org/10.1103/PhysRevX.11.021058>   
 <https://creativecommons.org/licenses/by/3.0/>   
 
-Song et al., “Continuous-variable geometric phase and its manipulation for quantum computation in a superconducting circuit,” Nature Communications 8, 1061 (2017)  
+Song et al., *Continuous-variable geometric phase and its manipulation for quantum computation in a superconducting circuit*, Nature Communications 8, 1061 (2017)  
 <https://doi.org/10.1038/s41467-017-01156-5>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Barron et al., “Microwave-based arbitrary CPHASE gates for transmon qubits,” Scientific Reports 10, 15206 (2020)  
+Barron et al., *Microwave-based arbitrary CPHASE gates for transmon qubits*, Scientific Reports 10, 15206 (2020)  
 <https://doi.org/10.1038/s41598-020-66939-x>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Zhang et al., “Tunable Inductive Coupler for High-Fidelity Gates Between Fluxonium Qubits,” PRX Quantum 5, 020326 (2024)  
+Zhang et al., *Tunable Inductive Coupler for High-Fidelity Gates Between Fluxonium Qubits*, PRX Quantum 5, 020326 (2024)  
 <https://doi.org/10.1103/PRXQuantum.5.020326>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Grzesiak et al., “Efficient arbitrary simultaneously entangling gates on a trapped-ion quantum computer,” Nature Communications 11, 2963 (2020)  
+Grzesiak et al., *Efficient arbitrary simultaneously entangling gates on a trapped-ion quantum computer*, Nature Communications 11, 2963 (2020)  
 <https://doi.org/10.1038/s41467-020-16790-9>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Low et al., “Practical trapped-ion protocols for universal qudit-based quantum computing,” Physical Review Research 2, 033128 (2020)  
+Low et al., *Practical trapped-ion protocols for universal qudit-based quantum computing*, Physical Review Research 2, 033128 (2020)  
 <https://doi.org/10.1103/PhysRevResearch.2.033128>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
-Henriet et al., “Quantum computing with neutral atoms,” Quantum 4, 327 (2020)  
+Henriet et al., *Quantum computing with neutral atoms*, Quantum 4, 327 (2020)  
 <https://doi.org/10.22331/q-2020-09-21-327>  
 <https://creativecommons.org/licenses/by/4.0/>  
 
