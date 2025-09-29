@@ -1238,6 +1238,27 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 ---
 
+### Top 2 Qubit Regimes in the Long Term 
+
+| Mechanism | What protects information | Characteristic scaling | What you tune | Practical caveats |
+| :--- | :--- | :--- | :--- | :--- |
+| Active faulttolerant QEC (e.g., bicycle code) | Repeated syndrome extraction + decoding; logical information is spread over many qubits | $\begin{aligned}& \text { For } p<p_{\text {th }} \text {, } \\& p_L \sim e^{-\alpha(p)} d \\& \text { (often fit as } \\& \left.A\left(p / p_{\text {th }}\right)^{(d+1) / 2}\right)\end{aligned}$ | Lower physical error rate $p$; raise code distance $d$ | Requires fast, reliable measurements and decoding; overhead is large but scaling is systematic. |
+| Passive topological protection (hardware) | Non-local ground-state manifold (e.g., Majorana/anyons) | Ground-state splitting $\Delta E(L) \propto e^{-L / \xi} ;$ thermal errors $\propto e^{-\Delta / k T}$ | Increase separation $L$; increase gap $\Delta$; reduce temperature $T$ | Quasiparticle poisoning not automatically suppressed; finite-size hybridization. 2 D self-correction is a no-go at finite $T \rightarrow$ often paired with active QEC. |
+
+Yoder et al., *The surface code with a twist*, Quantum 1, 2 (2017)  
+<https://doi.org/10.22331/q-2017-04-25-2>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+Bravyi et al., *High-threshold and low-overhead fault-tolerant quantum memory*, Nature 627, 778–782 (2024)  
+<https://doi.org/10.1038/s41586-024-07107-7>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+Lahtinen et al., *A Short Introduction to Topological Quantum Computation*, SciPost Phys. 3, 021 (2017)  
+<https://scipost.org/SciPostPhys.3.3.021>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+---
+
 ### Entanglement Mediators for Qubits
 
 ```
@@ -1323,7 +1344,7 @@ Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance wit
 | Qubit carrier (microscopic) | Gate mechanism | Typical "lab-bench" hardware (macroscopic) | Measurement |
 | :--- | :--- | :--- | :--- |
 | Liquid-state NMR (nuclear spins in molecules floating in a beaker) | RF pulse sequences implement universal gates on nuclear spins | Commercial NMR spectrometer, 10-30 MHz RF coils; no vacuum, no cryogenics if you use a permanent-magnet benchtop unit | Inductive voltage in same RF coil (macroscopic signal from $\gtrsim 10^{18}$ molecules) |
-| Trapped ions (e.g. ${ }^{40} \mathrm{Ca}^{+},{ }^{171} \mathrm{Yb}^{+}$) | Laser-driven stimulated-Raman or Mølmer-Sørensen gates | Millimetre-scale metal-rod Paul trap, tabletop lasers ( $\sim 100 \mu \mathrm{~m}$ beam waist), vacuum at $10^{-9} \mathrm{mbar}$ | Fluorescence counted by photomultiplier/APD |
+| Trapped ions (e.g. ${ }^{40} \mathrm{Ca}^{+},{ }^{171} \mathrm{Yb}^{+}$) | Laser-driven stimulated-Raman or Mølmer-Sørensen gates | Millimeter-scale metal-rod Paul trap, tabletop lasers ( $\sim 100 \mu \mathrm{~m}$ beam waist), vacuum at $10^{-9} \mathrm{mbar}$ | Fluorescence counted by photomultiplier/APD |
 | Neutral atoms in optical tweezers / optical lattices | Rydberg blockade or spin-exchange gates | Commercial diode lasers & objective lens; glass vacuum cell; spatial-light-modulator for tweezer array | Fluorescence imaging onto a CCD |
 | Linear-optics quantum computing | Hong-Ou-Mandel interference; waveplate phase shifters | Off-the-shelf mirrors, beamsplitters, Pockels cells, optical fibres | Single-photon avalanche diodes |
 | NV centres in bulk diamond | Microwave pulses + optical spinselective shelving | One diamond crystal; microwave stripline printed on FR-4; 532 nm laser; roomtemperature operation | Spin-dependent fluorescence into an objective |
