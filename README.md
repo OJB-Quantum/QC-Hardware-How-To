@@ -1380,6 +1380,19 @@ Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Ref
 | Mixer calibration           | Measures/compensates amplitude/phase imbalance, offsets           | Both control and readout paths    | Time/frequency drift                         | Routine recalibration, temperature control      |
 | Alternatives/adjacent       | Direct RF from RFSoC, or double-superhet                          | Controller front-ends             | Complexity vs. spurs, latency                | Integrated digital DSP, careful LO plan         |       
 
+```
+Frequency Translation in Quantum Control
+├─ Up-conversion (control)
+│  ├─ Baseband I/Q → I/Q mixer + LO → SSB at ωq
+│  └─ Calibrate: LO leak, image, imbalance
+├─ Down-conversion (readout)
+│  ├─ Cavity tone + LO → IF/baseband
+│  └─ Demodulate → integrate → state decision
+└─ Evolving stacks
+   ├─ RFSoC direct-RF (QICK) → fewer analog mixers
+   └─ Double-superhet vs pure I/Q → spur/noise trade-offs
+```
+
 ---
 
 ### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
