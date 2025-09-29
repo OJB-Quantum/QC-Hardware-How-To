@@ -1242,7 +1242,58 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
    └─ CV squeezing     →  Gaussian entanglers                → MBQC two‑mode ops
 ```
 
+Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance with Optimized Rotary Echoes*, PRX Quantum 1, 020318 (2020)  
+<https://doi.org/10.1103/PRXQuantum.1.020318>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
 
+Sung, Y. et al., “Realization of High-Fidelity CZ and ZZ-Free iSWAP Gates with a Tunable Coupler,” Physical Review X 11, 021058 (2021)   
+<https://doi.org/10.1103/PhysRevX.11.021058>   
+<https://creativecommons.org/licenses/by/3.0/>   
+
+Song, C. et al., “Continuous-variable geometric phase and its manipulation for quantum computation in a superconducting circuit,” Nature Communications 8, 1061 (2017)  
+<https://doi.org/10.1038/s41467-017-01156-5>  
+<https://creativecommons.org/licenses/by/4.0/>  
+
+Barron, G. S. et al., “Microwave-based arbitrary CPHASE gates for transmon qubits,” Scientific Reports 10, 15206 (2020)  
+<https://doi.org/10.1038/s41598-020-66939-x>  
+<https://creativecommons.org/licenses/by/4.0/>  
+
+Zhang, H. et al., “Tunable Inductive Coupler for High-Fidelity Gates Between Fluxonium Qubits,” PRX Quantum 5, 020326 (2024)  
+<https://doi.org/10.1103/PRXQuantum.5.020326>  
+<https://creativecommons.org/licenses/by/4.0/>  
+
+Grzesiak, N. et al., “Efficient arbitrary simultaneously entangling gates on a trapped-ion quantum computer,” Nature Communications 11, 2963 (2020)  
+<https://doi.org/10.1038/s41467-020-16790-9>  
+<https://creativecommons.org/licenses/by/4.0/>  
+
+Low, P. J. et al., “Practical trapped-ion protocols for universal qudit-based quantum computing,” Physical Review Research 2, 033128 (2020)  
+<https://doi.org/10.1103/PhysRevResearch.2.033128>  
+<https://creativecommons.org/licenses/by/4.0/>  
+
+Henriet, L. et al., “Quantum computing with neutral atoms,” Quantum 4, 327 (2020)  
+<https://doi.org/10.22331/q-2020-09-21-327>  
+<https://creativecommons.org/licenses/by/4.0/>  
+
+Pompili, M. et al., *Experimental demonstration of entanglement delivery using a quantum network stack*, npj Quantum Information 8, 121 (2022)  
+<https://doi.org/10.1038/s41534-022-00631-2>  
+<https://creativecommons.org/licenses/by/4.0/>  
+
+Ma̧dzik, M. T. et al., *Conditional quantum operation of two exchange-coupled donors in silicon*, Nature Communications 12, 181 (2021)  https://doi.org/10.1038/s41467-020-20424-5  <https://creativecommons.org/licenses/by/4.0/>  
+
+Harvey-Collard, P. et al., *Coherent Spin–Spin Coupling Mediated by Virtual Microwave Photons*, Physical Review X 12, 021026 (2022)  https://doi.org/10.1103/PhysRevX.12.021026  <https://creativecommons.org/licenses/by/3.0/>  
+
+---
+
+### Example of a Cross-Resonance Used to Entangle Some Types of Superconducting Qubit Platforms
+
+Two weakly anharmonic oscillators (transmons) with bare frequencies ($\omega_c$) (control) and ($\omega_t$) (target), anharmonicities ($\alpha_{c,t} < 0$), and a static transverse coupling ($J$). You drive the **control** at ($\omega_d \approx \omega_t$) with complex envelope ($\Omega(t)e^{i\phi}$). In the dispersive, weak-drive limit, a Schrieffer–Wolff treatment in the doubly rotating frame yields an **effective two-qubit Hamiltonian** dominated by
+$$H_\text{CR}/\hbar \approx \frac{1}{2}\Omega_{ZX}(t) Z \otimes X + \frac{1}{2}\Omega_{IX}(t) I \otimes X + \frac{1}{2}\Omega_{IY}(t) I \otimes Y + \frac{1}{2}\zeta_{ZZ} Z \otimes Z + \cdots$$
+The **entangling term is ($Z \otimes X$)**: the target’s rotation about ($X$) depends on the control’s ($Z$) state. To leading order, $\Omega_{ZX} \propto J\,\Omega(t)\left(\frac{1}{\Delta_{ct}}-\frac{1}{\Delta_{ct}+\alpha_t}\right)$, with detuning $\Delta_{ct} = \omega_c - \omega_t$. Unwanted single-qubit terms ($I \otimes X$, $I \otimes Y$, $Z \otimes I$) and static ($Z \otimes Z$) accompany ($Z \otimes X$) and must be **canceled or echoed**. Calibrations (two-tone cancellation on the target, echoed CR sequences, virtual-$Z$ clean-up) isolate ($Z \otimes X$), so a pulse of duration ($\tau$) implements $\exp[-i(\Omega_{ZX}\tau/2) Z \otimes X]$. Choosing $\Omega_{ZX}\tau = \pi/2$ yields a native $\text{ZX}_{\pi/2}$, which compiles to **CNOT** with local rotations. State-of-the-art calibrations reach **>99% two-qubit randomized-benchmarking fidelities** on fixed-frequency devices.
+
+
+Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance with Optimized Rotary Echoes*, PRX Quantum 1, 020318 (2020)  
+<https://doi.org/10.1103/PRXQuantum.1.020318>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
 
 ---
 
