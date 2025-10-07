@@ -1816,7 +1816,7 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ---
 
-### Advanced Quantum Computers Are Controlled Using 2 Approaches 
+### Advanced Quantum Computers Are Controlled Using 2 Main Approaches 
 
 | Controller Type | Full Name | Description |
 | :--- | :--- | :--- |
@@ -1867,6 +1867,14 @@ Adapted from Sweetnam et al., *Simulating the behaviour of travelling wave super
 Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE J. Microw. 1, 1 (2021)  
 <https://doi.org/10.1109/JMW.2020.3034071>  
 <https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+---
+
+### Mechanism-Agnostic Elements of a Qubit
+
+<img width="2354" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ecbf991-25c7-4f1a-ac78-786b150ebe2a" />
+
+> These are various ways to physically simulate nature manipulating and using  natural or synthesized quantum objects.
 
 ---
 
