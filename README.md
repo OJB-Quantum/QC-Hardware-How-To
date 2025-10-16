@@ -1238,6 +1238,13 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 ---
 
+### Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits
+
+<img width="3057" height="auto" alt="image" src="https://github.com/user-attachments/assets/85936c44-8fc7-40e8-96a3-4fc010c57495" />
+
+
+---
+
 ### Top 2 Qubit Regimes in the Long Term 
 
 | Mechanism | What protects information | Characteristic scaling | What you tune | Practical caveats |
