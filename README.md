@@ -18,7 +18,7 @@ Everything you need for quantum hardware engineering in the field.
 
 | English Term       | Navaho/ Navajo Term                            | Literal Meaning in English                              |
 |--------------------|------------------------------------------------|---------------------------------------------------------|
-| quantum computer   | béésh tʼáá 'aníí 'á'ádaatʼéhígíí nitsékeesí   | Metal or piece of metal that thinks at a truly fundamental level |
+| quantum computer   | béésh t'áá 'aníí 'á'ádaatʼéhígíí nitsékeesí | Metal or piece of metal that thinks at a truly fundamental level |
 
 --- 
 
