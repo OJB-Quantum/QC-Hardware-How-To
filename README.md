@@ -18,7 +18,7 @@ Everything you need for quantum hardware engineering in the field.
 
 | English Term       | Navaho/ Navajo Term                            | Literal Meaning in English                              |
 |--------------------|------------------------------------------------|---------------------------------------------------------|
-| quantum computer   | béésh tʼáá 'aníí 'á'ádaatʼéhígíí nitsékeesí   | Metal or piece of metal that thinks at a truly fundamental level |
+| quantum computer   | béésh t'áá 'aníí 'á'ádaatʼéhígíí nitsékeesí | Metal or piece of metal that thinks at a truly fundamental level |
 
 --- 
 
@@ -643,7 +643,7 @@ Notes:
 | **Measurement & Readout**         | Readout, Read Out, Read-out, Dependent, Reference, Convert, Converter, ADC, DAC                            |
 | **Signal Processing & Control**   | Modulate, Pulse, Formulated, Power, Port                                                                   |
 | **Quantum States & Behavior**     | Ground, Flying, Static, Stationary, State Classification                                                   |
-| **Fabrication & Manufacturing**   | Fabrication, Yield, Manufacture, Foundry, Compatible                                                       |
+| **Fabrication & Manufacturing**   | Fabrication, Yield, Manufacture, Foundry, Compatible, Hero Device                                          |
 | **Clarity & Verification**        | Clear, Correct, Resilient                                                                                  |
 | **Quantum Interactions**          | Couple, Coupling, Entangle                                                                                 |
 | **Logical & Structural Concepts** | Prerequisite, Implement, Implemented, Implementation, Integrated, Agnostic                                 |
