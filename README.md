@@ -1598,7 +1598,7 @@ MXC: Mixing Chamber
 
 ---
 
-### 3 Common Cryogenic Equipment Use for Quantum and Low Temperature Experiments 
+### 3 Common Cryogenic Equipment Formfactors Employed for Quantum & Low Temperature Experiments 
 
 <img width="3222" height="auto" alt="image" src="https://github.com/user-attachments/assets/a1addc43-f16a-4869-962a-d62424f96ff1" />
 
