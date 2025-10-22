@@ -1803,7 +1803,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 
 --- 
 
-### Comparison Between Bose-Einstein Condensates, Supeconducting Transmons, & Superconducting Linear Coplanar Waveguide Resonators
+### Comparison Between Bose-Einstein Condensates, Superconducting Transmons, & Superconducting Linear Coplanar Waveguide Resonators
 
 | Aspect | Bose–Einstein Condensate (BEC) | Nonlinear JJ qubit (transmon) | Linear CPW resonator |
 | :----------------------------------------------- | :-------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
