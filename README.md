@@ -1294,7 +1294,7 @@ Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
 │       ├─ Frequency agility via electrostatic gating (semiconductor JJ)
 │       └─ Syndrome extraction, parity checks, and cavity SNAP orchestration
 └─ Classical Control & RAM
-    ├─ Cryo-CMOS SRAM/ FBRAM/ MRAM/ GC-eDRAM near 4-12K; microcode/ waveform cache
+    ├─ Cryo-CMOS SRAM/ FBRAM/ MRAM/ GC-eDRAM near 4-12 K; microcode/ waveform cache
     ├─ Single-Flux-Quantum Digital (4 K stage; higher-integration families)
     │   ├─ RSFQ (DC-biased; ultrafast legacy baseline; static-power overhead); reference-grade timing/ waveform source or local clocks
     │   ├─ eSFQ/ ERSFQ (DC-biased, zero static power; preferred for scalable SFQ logic & SFQ-DACs/ JAWS)
