@@ -1266,6 +1266,41 @@ Lahtinen et al., *A Short Introduction to Topological Quantum Computation*, SciP
 
 ---
 
+### An Example Architecture of How a Fault-Tolerant Heterogenous/ Hybrid Quantum System Could Look Like
+
+```
+Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
+├─ Main QPU: Neutral-Atom (Rydberg/tweezer)
+│   ├─ Fast parallel CZ gates (~99.5%); long coherence (≈12.6 s, hyperfine)
+│   ├─ Reconfigurable layouts; mid-circuit measurement & erasure
+│   └─ On-chip nanophotonics for coupling/imaging
+├─ Co-Processor: Quantum Photonic IC (QPIC)
+│   ├─ Time-bin/ cluster-state generation; fusion operations
+│   ├─ Waveguide arrays, thin-film LiNbO₃ modulators, PNR detectors
+│   └─ Fiber network to other racks/ fridges
+├─ Translator(s): μw ↔ optical
+│   ├─ Electro-optic (LiNbO₃), opto-mechanical, Rydberg ensembles
+│   ├─ Targets: internal η ≥ 0.1–0.5, added noise ≲ 1 photon
+│   └─ With JPA/JTWPA preamps, pump-noise filtering
+├─ Quantum Memory: Superconducting Cat (bosonic)
+│   ├─ Passive bit-flip suppression (noise bias)
+│   ├─ Repetition-cat outer code; bias-preserving gates (SNAP-enabled)
+│   └─ Logical store/refresh; interface to ancilla
+├─ Ancilla Layer: Transmons (tight to cat memories & readout)
+│   ├─ Microwave-tunable Transmon (all-microwave, fixed-freq)
+│   │   ├─ Effective ZZ/CZ tuning via microwave dressing (MAP/ CR/ MATC-style)
+│   │   └─ Flux-noise immunity; no DC-flux lines; compatible with fixed-freq layouts
+│   └─ Voltage-tunable Transmon (Advanced gatemon)
+│       ├─ Frequency agility via electrostatic gating (semiconductor JJ)
+│       └─ Syndrome extraction, parity checks, and cavity SNAP orchestration
+└─ Classical Control & RAM
+    ├─ Cryo-CMOS SRAM/ FBRAM/ MRAM/ GC-eDRAM near 4-12K; microcode/ waveform cache
+    └─ Compiler for biased/erasure noise and transduction-aware routing
+
+```
+
+---
+
 ### Entanglement Mediators for Qubits
 
 ```
