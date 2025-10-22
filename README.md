@@ -1281,7 +1281,7 @@ Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
 ├─ Translator(s): μw ↔ optical
 │   ├─ Electro-optic (LiNbO₃), opto-mechanical, Rydberg ensembles
 │   ├─ Targets: internal η ≥ 0.1–0.5, added noise ≲ 1 photon
-│   └─ With JPA/JTWPA preamps, pump-noise filtering
+│   └─ With JPA/ JTWPA pre-amps (paramps), pump-noise filtering
 ├─ Quantum Memory: Superconducting Cat (bosonic)
 │   ├─ Passive bit-flip suppression (noise bias)
 │   ├─ Repetition-cat outer code; bias-preserving gates (SNAP-enabled)
@@ -1290,7 +1290,7 @@ Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
 │   ├─ Microwave-tunable Transmon (all-microwave, fixed-freq)
 │   │   ├─ Effective ZZ/ CZ tuning via microwave dressing (MAP/ CR/ MATC-style)
 │   │   └─ Flux-noise immunity; no DC-flux lines; compatible with fixed-freq layouts
-│   └─ Voltage-tunable Transmon (Advanced gatemon)
+│   └─ Voltage-tunable Transmon (advanced gatemon)
 │       ├─ Frequency agility via electrostatic gating (semiconductor JJ)
 │       └─ Syndrome extraction, parity checks, and cavity SNAP orchestration
 └─ Classical Control & RAM
