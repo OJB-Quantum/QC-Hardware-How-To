@@ -1266,7 +1266,7 @@ Lahtinen et al., *A Short Introduction to Topological Quantum Computation*, SciP
 
 ---
 
-### An Example Architecture of How a Fault-Tolerant Heterogenous/ Hybrid Quantum System Could Look Like
+### An Example Architecture of How a Fault-Tolerant Heterogenous/ Hybrid Quantum System Could Look Like (By Onri)
 
 ```
 Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
