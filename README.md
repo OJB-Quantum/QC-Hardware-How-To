@@ -1270,10 +1270,10 @@ Lahtinen et al., *A Short Introduction to Topological Quantum Computation*, SciP
 
 ```
 Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
-├─ Main QPU: Neutral-Atom (Rydberg/tweezer)
+├─ Main QPU: Neutral-Atom (Rydberg/ tweezer)
 │   ├─ Fast parallel CZ gates (~99.5%); long coherence (≈12.6 s, hyperfine)
 │   ├─ Reconfigurable layouts; mid-circuit measurement & erasure
-│   └─ On-chip nanophotonics for coupling/imaging
+│   └─ On-chip nanophotonics for coupling/ imaging
 ├─ Co-Processor: Quantum Photonic IC (QPIC)
 │   ├─ Time-bin/ cluster-state generation; fusion operations
 │   ├─ Waveguide arrays, thin-film LiNbO₃ modulators, PNR detectors
@@ -1285,18 +1285,22 @@ Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
 ├─ Quantum Memory: Superconducting Cat (bosonic)
 │   ├─ Passive bit-flip suppression (noise bias)
 │   ├─ Repetition-cat outer code; bias-preserving gates (SNAP-enabled)
-│   └─ Logical store/refresh; interface to ancilla
+│   └─ Logical store/ refresh; interface to ancilla
 ├─ Ancilla Layer: Transmons (tight to cat memories & readout)
 │   ├─ Microwave-tunable Transmon (all-microwave, fixed-freq)
-│   │   ├─ Effective ZZ/CZ tuning via microwave dressing (MAP/ CR/ MATC-style)
+│   │   ├─ Effective ZZ/ CZ tuning via microwave dressing (MAP/ CR/ MATC-style)
 │   │   └─ Flux-noise immunity; no DC-flux lines; compatible with fixed-freq layouts
 │   └─ Voltage-tunable Transmon (Advanced gatemon)
 │       ├─ Frequency agility via electrostatic gating (semiconductor JJ)
 │       └─ Syndrome extraction, parity checks, and cavity SNAP orchestration
 └─ Classical Control & RAM
     ├─ Cryo-CMOS SRAM/ FBRAM/ MRAM/ GC-eDRAM near 4-12K; microcode/ waveform cache
-    └─ Compiler for biased/erasure noise and transduction-aware routing
-
+    ├─ Single-Flux-Quantum Digital (4 K stage; higher-integration families)
+    │   ├─ RSFQ (DC-biased; ultrafast legacy baseline; static-power overhead); reference-grade timing/ waveform source or local clocks
+    │   ├─ eSFQ/ ERSFQ (DC-biased, zero static power; preferred for scalable SFQ logic & SFQ-DACs/ JAWS)
+    │   └─ RQL (AC-powered; no on-chip static power; multi-phase AC clock/ power; AC/ DC converters as needed)
+    │       • SFQ-based AWG/ DAC for qubit drive (JAWS); isolate to mitigate quasiparticles; near-deterministic timing
+    └─ Compiler for biased/ erasure noise and transduction-aware routing
 ```
 
 ---
