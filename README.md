@@ -1238,6 +1238,13 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 ---
 
+### Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits
+
+<img width="3057" height="auto" alt="image" src="https://github.com/user-attachments/assets/85936c44-8fc7-40e8-96a3-4fc010c57495" />
+
+
+---
+
 ### Top 2 Qubit Regimes in the Long Term 
 
 | Mechanism | What protects information | Characteristic scaling | What you tune | Practical caveats |
@@ -1256,6 +1263,41 @@ Bravyi et al., *High-threshold and low-overhead fault-tolerant quantum memory*, 
 Lahtinen et al., *A Short Introduction to Topological Quantum Computation*, SciPost Phys. 3, 021 (2017)  
 <https://scipost.org/SciPostPhys.3.3.021>  
 <https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+
+---
+
+### An Example Architecture of How a Fault-Tolerant Heterogenous/ Hybrid Quantum System Could Look Like
+
+```
+Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
+├─ Main QPU: Neutral-Atom (Rydberg/tweezer)
+│   ├─ Fast parallel CZ gates (~99.5%); long coherence (≈12.6 s, hyperfine)
+│   ├─ Reconfigurable layouts; mid-circuit measurement & erasure
+│   └─ On-chip nanophotonics for coupling/imaging
+├─ Co-Processor: Quantum Photonic IC (QPIC)
+│   ├─ Time-bin/ cluster-state generation; fusion operations
+│   ├─ Waveguide arrays, thin-film LiNbO₃ modulators, PNR detectors
+│   └─ Fiber network to other racks/ fridges
+├─ Translator(s): μw ↔ optical
+│   ├─ Electro-optic (LiNbO₃), opto-mechanical, Rydberg ensembles
+│   ├─ Targets: internal η ≥ 0.1–0.5, added noise ≲ 1 photon
+│   └─ With JPA/JTWPA preamps, pump-noise filtering
+├─ Quantum Memory: Superconducting Cat (bosonic)
+│   ├─ Passive bit-flip suppression (noise bias)
+│   ├─ Repetition-cat outer code; bias-preserving gates (SNAP-enabled)
+│   └─ Logical store/refresh; interface to ancilla
+├─ Ancilla Layer: Transmons (tight to cat memories & readout)
+│   ├─ Microwave-tunable Transmon (all-microwave, fixed-freq)
+│   │   ├─ Effective ZZ/CZ tuning via microwave dressing (MAP/ CR/ MATC-style)
+│   │   └─ Flux-noise immunity; no DC-flux lines; compatible with fixed-freq layouts
+│   └─ Voltage-tunable Transmon (Advanced gatemon)
+│       ├─ Frequency agility via electrostatic gating (semiconductor JJ)
+│       └─ Syndrome extraction, parity checks, and cavity SNAP orchestration
+└─ Classical Control & RAM
+    ├─ Cryo-CMOS SRAM/ FBRAM/ MRAM/ GC-eDRAM near 4-12K; microcode/ waveform cache
+    └─ Compiler for biased/erasure noise and transduction-aware routing
+
+```
 
 ---
 
@@ -1761,7 +1803,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 
 --- 
 
-### Comparison Between Bose-Einstein Condensates, Supeconducting Transmons, & Superconducting Linear Coplanar Waveguide Resonators
+### Comparison Between Bose-Einstein Condensates, Superconducting Transmons, & Superconducting Linear Coplanar Waveguide Resonators
 
 | Aspect | Bose–Einstein Condensate (BEC) | Nonlinear JJ qubit (transmon) | Linear CPW resonator |
 | :----------------------------------------------- | :-------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
