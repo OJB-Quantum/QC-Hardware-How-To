@@ -22,6 +22,10 @@ Everything you need for quantum hardware engineering in the field.
 
 --- 
 
+"To understand quantum hardware is to study and practice quantum metrology, metrology, and manufacturing (with a heavy focus on nanotechnology, vacuum technology, and cryogenics)." - Onri Jay Benally
+
+---
+
 ## Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
