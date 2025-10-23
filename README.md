@@ -4,13 +4,22 @@
 
 Everything you need for quantum hardware engineering in the field.
 
-"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates." - Onri Jay Benally
+"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. To develop expertise in quantum hardware is to study and practice quantum metrology, metrology, and manufacturing (with a heavy focus on nanotechnology, vacuum technology, and cryogenics)." - Onri Jay Benally
 
 --- 
 
 **scatter (physics)**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
 
 **-ometry**: "The action, process, technique, or art of measuring" — *Oxford English Dictionary*
+
+**metrology**: "the scientific study of measurement" — *Oxford Learner’s Dictionaries*
+
+**-ology**: "Forming nouns with the sense ‘the science or discipline of (what is indicated by the first element)" — **Oxford English Dictionary*
+
+**quantum**: "Latin, neuter of quantus 'how much'." — *Merriam-Webster*
+
+**quantum (physics)**: "The minimum amount by which certain properties, such as energy or angular momentum, of a system can change." — *Oxford Reference*
+
 
 ---
 
@@ -21,10 +30,6 @@ Everything you need for quantum hardware engineering in the field.
 | quantum computer   | béésh t'áá 'aníí 'á'ádaatʼéhígíí nitsékeesí | Metal or piece of metal that thinks at a truly fundamental level |
 
 --- 
-
-"To understand quantum hardware is to study and practice quantum metrology, metrology, and manufacturing (with a heavy focus on nanotechnology, vacuum technology, and cryogenics)." - Onri Jay Benally
-
----
 
 ## Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
