@@ -124,7 +124,7 @@ Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](htt
 
 --- 
 
-### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally:
+### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally (will be updated soon):
 
 [Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
 
