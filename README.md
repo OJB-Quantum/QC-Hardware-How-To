@@ -79,7 +79,6 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 | **Course Name**                                   | **Link**                                                                 |
 |---------------------------------------------------|--------------------------------------------------------------------------|
-| Quantum Computation                               | [Quantum Computation](https://ocw.mit.edu/courses/18-435j-quantum-computation-fall-2003)                       |
 | Introductory Quantum Mechanics I                  | [Introductory Quantum Mechanics I](https://ocw.mit.edu/courses/5-73-introductory-quantum-mechanics-i-fall-2005) |
 | Introductory Quantum Mechanics II                 | [Introductory Quantum Mechanics II](https://ocw.mit.edu/courses/5-74-introductory-quantum-mechanics-ii-spring-2009) |
 | Quantum Mechanics I                               | [Quantum Mechanics I](https://ocw.mit.edu/courses/5-73-quantum-mechanics-i-fall-2018)                          |
@@ -89,6 +88,7 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 | Quantum Information Science                       | [Quantum Information Science](https://ocw.mit.edu/courses/mas-865j-quantum-information-science-spring-2006)    |
 | Quantum Information Science I                    | [Quantum Information Science I](https://ocw.mit.edu/courses/8-370x-quantum-information-science-i-spring-2018)  |
 | Quantum Information Science II                   | [Quantum Information Science II](https://ocw.mit.edu/courses/8-371x-quantum-information-science-ii-spring-2018)|
+| Quantum Computation                               | [Quantum Computation](https://ocw.mit.edu/courses/18-435j-quantum-computation-fall-2003)                       |
 | Applied Quantum & Statistical Physics            | [Applied Quantum & Statistical Physics](https://ocw.mit.edu/courses/6-728-applied-quantum-and-statistical-physics-fall-2006) |
 | Computational Quantum Mechanics of Molecular & Extended Systems | [Computational Quantum Mechanics of Molecular & Extended Systems](https://ocw.mit.edu/courses/10-675j-computational-quantum-mechanics-of-molecular-and-extended-systems-fall-2004) |
 | Quantum Optical Communication                    | [Quantum Optical Communication](https://ocw.mit.edu/courses/6-453-quantum-optical-communication-fall-2016/) |
