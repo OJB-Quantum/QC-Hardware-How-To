@@ -1611,6 +1611,7 @@ MXC: Mixing Chamber
 
 <img width="3222" height="auto" alt="image" src="https://github.com/user-attachments/assets/a1addc43-f16a-4869-962a-d62424f96ff1" />
 
+> Created and rendered by Onri Jay Benally using Blender 4.5 (2025)
 
 ---
 
