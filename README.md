@@ -39,7 +39,7 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 ### Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output (as of 2025):
 
-<img width="3800" height="auto" alt="491879170-f784cb74-ac86-49c5-9d6d-5ffed0d62882" src="https://github.com/user-attachments/assets/80a9ee1e-eea5-4d7f-a84f-f5769463fbd4" />
+<img width="3800" height="auto" alt="491879170-f784cb74-ac86-49c5-9d6d-5ffed0d62882" src="https://github.com/user-attachments/assets/80a9ee1e-eea5-4d7f-a84f-f5769463fbd4"/>
 
 > See here for related quantum hardware dissertation rankings in the US and Canada: <https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#quantum-hardware--quantum-adjacent-hardware-thesis-outputnumberoflabs-per-university-uscanada>
 
@@ -564,7 +564,7 @@ Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.ed
 | 21 | QBlox                  | Delft (NL); Boston (US)                                                    | **Yes**                   | Dutch HQ routinely sponsors non‑EU talent; U.S. ads follow standard visa rules.                                                      |
 | 22 | Low Noise Factory      | Gothenburg (SE)                                                            | **Yes**                   | 2024 job brochure notes a “diverse team from **12 countries**, English spoken at work.”                                         |
 | 23 | Quanscient             | Tampere (FI) (remote‑friendly)                                             | **Yes**                   | Recruitment posts invite global applicants and emphasise remote flexibility.                                                             |
-| 24 | VTT Technical Research Centre | Espoo /FI (Micronova fab & *Helmi* mK lab)                         | **Yes**                | “Help with work and residence permit applications … guidance with taxes and social security.”                              |
+| 24 | VTT Technical Research Centre | Espoo/FI (Micronova fab & *Helmi* mK lab)                         | **Yes**                | “Help with work and residence permit applications … guidance with taxes and social security.”                              |
 | 25 | Keysight Technologies         | Santa Rosa (US HQ); Colorado Springs (Cryo‑RF fab); Böblingen (DE) | **Varies**             | Some ads: “Visa sponsorship **not** available”; others: “Visa sponsorship **available**.”  |
 | 26 | Rohde & Schwarz               | Munich (DE HQ); Columbia (MD, US); Singapore design centre         | **Varies**             | H‑1B data confirm sponsorship history; postings often state local work‑permit requirement.                  |
 | 27 | Lake Shore Cryotronics | Westerville (OH, US HQ & fab); Woburn (MA, US cryostat plant); worldwide sales hubs incl. Darmstadt (DE) & Shanghai (CN)          | **Varies**                | Several U.S. postings state **“This position is not eligible for VISA sponsorship.”**  — yet the firm has filed H‑1B petitions in prior years                             |
@@ -1249,7 +1249,7 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 ### Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits
 
-<img width="3057" height="auto" alt="image" src="https://github.com/user-attachments/assets/85936c44-8fc7-40e8-96a3-4fc010c57495" />
+<img width="3057" height="auto" alt="image" src="https://github.com/user-attachments/assets/85936c44-8fc7-40e8-96a3-4fc010c57495"/>
 
 
 ---
@@ -1258,8 +1258,8 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 | Mechanism | What protects information | Characteristic scaling | What you tune | Practical caveats |
 | :--- | :--- | :--- | :--- | :--- |
-| **Active fault-tolerant QEC** (e.g., bicycle code) | Repeated syndrome extraction + decoding; logical information is spread over many qubits | For $p < p_{\text{th}}$, $p_L \sim e^{-\alpha(p) d}$ <br>(often fit as $A(p / p_{\text{th}})^{(d+1) / 2}$) | Lower physical error rate $p$; raise code distance $d$ | Requires fast, reliable measurements and decoding; overhead is large but scaling is systematic. |
-| **Passive topological protection** (hardware) | Non-local ground-state manifold <br>(e.g., Majorana/anyons) | Ground-state splitting $\Delta E(L) \propto e^{-L / \xi}$; thermal errors $\propto e^{-\Delta / k T}$ | Increase separation $L$; increase gap $\Delta$; reduce temperature $T$ | Quasiparticle poisoning not automatically suppressed; finite-size hybridization.<br>2D self-correction is a <br>no-go at finite $T \rightarrow$ often paired with active QEC. |
+| **Active fault-tolerant QEC** (e.g., bicycle code) | Repeated syndrome extraction + decoding; logical information is spread over many qubits | For $p < p_{\text{th}}$, $p_L \sim e^{-\alpha(p) d}$ <br>(often fit as $A(p/ p_{\text{th}})^{(d+1)/ 2}$) | Lower physical error rate $p$; raise code distance $d$ | Requires fast, reliable measurements and decoding; overhead is large but scaling is systematic. |
+| **Passive topological protection** (hardware) | Non-local ground-state manifold <br>(e.g., Majorana/anyons) | Ground-state splitting $\Delta E(L) \propto e^{-L/ \xi}$; thermal errors $\propto e^{-\Delta/ k T}$ | Increase separation $L$; increase gap $\Delta$; reduce temperature $T$ | Quasiparticle poisoning not automatically suppressed; finite-size hybridization.<br>2D self-correction is a <br>no-go at finite $T \rightarrow$ often paired with active QEC. |
 
 Yoder et al., *The surface code with a twist*, Quantum 1, 2 (2017)  
 <https://doi.org/10.22331/q-2017-04-25-2>  
@@ -1321,7 +1321,7 @@ Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
 │  ├─ Cross‑Resonance →  ZX (drive‑induced dispersive) → CNOT/eCR
 │  ├─ Tunable Coupler  →  exchange/ZZ (flux or parametric) → CZ, iSWAP, fSim
 │  ├─ Bus‑RIP         →  dispersive ZZ (driven resonator) → CZ, multi‑qubit phase
-│  └─ MAP/CCR         →  engineered higher‑levels / exchange → CPHASE, iSWAP
+│  └─ MAP/CCR         →  engineered higher‑levels/ exchange → CPHASE, iSWAP
 ├─ Trapped Ions
 │  ├─ Mølmer–Sørensen →  XX/YY (spin‑dep. force via phonons) → CNOT‑equiv.
 │  └─ Cirac–Zoller    →  sideband‑mediated (phonon bus)     → CNOT
@@ -1400,7 +1400,7 @@ Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance wit
 | :--- | :--- | :--- | :--- |
 | Liquid-state NMR (nuclear spins in molecules floating in a beaker) | RF pulse sequences implement universal gates on nuclear spins | Commercial NMR spectrometer, 10-30 MHz RF coils; no vacuum, no cryogenics if you use a permanent-magnet benchtop unit | Inductive voltage in same RF coil (macroscopic signal from $\gtrsim 10^{18}$ molecules) |
 | Trapped ions (e.g. ${ }^{40} \mathrm{Ca}^{+},{ }^{171} \mathrm{Yb}^{+}$) | Laser-driven stimulated-Raman or Mølmer-Sørensen gates | Millimeter-scale metal-rod Paul trap, tabletop lasers ( $\sim 100 \mu \mathrm{~m}$ beam waist), vacuum at $10^{-9} \mathrm{mbar}$ | Fluorescence counted by photomultiplier/APD |
-| Neutral atoms in optical tweezers / optical lattices | Rydberg blockade or spin-exchange gates | Commercial diode lasers & objective lens; glass vacuum cell; spatial-light-modulator for tweezer array | Fluorescence imaging onto a CCD |
+| Neutral atoms in optical tweezers/ optical lattices | Rydberg blockade or spin-exchange gates | Commercial diode lasers & objective lens; glass vacuum cell; spatial-light-modulator for tweezer array | Fluorescence imaging onto a CCD |
 | Linear-optics quantum computing | Hong-Ou-Mandel interference; waveplate phase shifters | Off-the-shelf mirrors, beamsplitters, Pockels cells, optical fibres | Single-photon avalanche diodes |
 | NV centres in bulk diamond | Microwave pulses + optical spinselective shelving | One diamond crystal; microwave stripline printed on FR-4; 532 nm laser; roomtemperature operation | Spin-dependent fluorescence into an objective |
 
@@ -1555,7 +1555,7 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
 │   └─ Dewar  Statebourne Cryolab & CryoCycl  LN₂ micro‑bulk  (30 – 60 L)
 │
 ├─ Compact Floor‑Standing  (≈ 1 m²)
-│   ├─ DR     Bluefors           LD / SD
+│   ├─ DR     Bluefors           LD/ SD
 │   ├─ DR     FormFactor‑HPD     JDry‑400 · LF‑400
 │   ├─ DR     Oxford Instruments Proteox S
 │   ├─ DR     Quantum Design     PPMS DynaCool + DR insert
@@ -1565,14 +1565,14 @@ Form-Factor Families ─ Dilution Refrigerators/ Non-Dilution Cryostats/ Paired 
 │   └─ Dewar  Cryofab            CMSH liquid‑helium Dewars  (20 – 500 L)
 │
 ├─ Large‑Frame  (≥ 1 m²)
-│   ├─ DR     Bluefors           XLD / XL
+│   ├─ DR     Bluefors           XLD/ XL
 │   ├─ DR     FormFactor‑HPD     XLF‑600
 │   ├─ DR     Oxford Instruments Proteox MX/ LX
 │   ├─ DR     ICE Oxford         DRY‑ICE Eden
 │   ├─ DR     Zero Point Cryogenics  Model L
 │   ├─ DR     Leiden Cryogenics  CF‑CS‑XXL/ 1 m plate
 │   ├─ DR     Maybell            The Big Fridge  (> 130 L below MXC)
-│   └─ Dewar  Wessington PV / TPV tanks · Cryo Diffusion LO / CDB series  (> 1,000 L)
+│   └─ Dewar  Wessington PV/ TPV tanks · Cryo Diffusion LO/ CDB series  (> 1,000 L)
 │
 └─ Data‑Center/ XXL  (> 1.4 m² · multi‑PT stacks)
     ├─ DR     Bluefors           KIDE  (1.6 m² flange)
@@ -1609,7 +1609,7 @@ MXC: Mixing Chamber
 
 ### 3 Common Cryogenic Equipment Formfactors Employed for Quantum & Low Temperature Experiments 
 
-<img width="3222" height="auto" alt="image" src="https://github.com/user-attachments/assets/a1addc43-f16a-4869-962a-d62424f96ff1" />
+<img width="3222" height="auto" alt="image" src="https://github.com/user-attachments/assets/a1addc43-f16a-4869-962a-d62424f96ff1"/>
 
 > Created and rendered by Onri Jay Benally using Blender 4.5 (2025)
 
@@ -1723,7 +1723,7 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 
 ### Dilution Fridge Measurement System & Schematic
 
-<img width="2813" height="auto" alt="image" src="https://github.com/user-attachments/assets/902b3696-3cef-4c76-b179-0a418ca128d8" />
+<img width="2813" height="auto" alt="image" src="https://github.com/user-attachments/assets/902b3696-3cef-4c76-b179-0a418ca128d8"/>
 
 Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale Superconducting Circuit Systems*, EPJ Quantum Technol. 6, 2 (2019)  
 <https://doi.org/10.1140/epjqt/s40507-019-0072-0>  
@@ -1777,7 +1777,7 @@ Frequency Translation in Quantum Control
 
 ### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
 
-<img width="2945" height="auto" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080" />
+<img width="2945" height="auto" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080"/>
 
 Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 674 (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
@@ -1794,7 +1794,7 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, 
 | **Semiconductor Spin Qubits**          | **Spin-Dependent Tunneling/ Spin Blockade** | - Electron tunneling current or charge sensor signal | - In gate-defined quantum dots, measuring the spin state uses energy-selective tunneling (e.g., Pauli spin blockade). <br> - A charge sensor (quantum point contact or single-electron transistor) detects whether an electron tunnels, indicating spin-up vs. spin-down. <br> - This process effectively “collapses” the spin state upon measurement. | 
 | **NV Centers in Diamond**             | **Optical Fluorescence Readout** | - Photoluminescence intensity (count rate)                                                                                                 | - The spin state of the NV center (e.g., $(\lvert m_s = 0\rangle)$ vs. $(\lvert m_s = 1\rangle)$ affects the optical emission levels under laser illumination. <br> - Detecting the photoluminescence intensity indicates the spin state. <br> - Measurement collapses the NV center’s ground-state spin wave function into a definite eigenstate. |
 | **Photonic Qubits**                    | **Single-Photon Detection/ Homodyne Measurement** | - Detector “click” (photon arrival) <br> or continuous variable amplitude/phase | - In single-photon approaches, a photon counter (e.g., avalanche photodiode, superconducting nanowire) registers a detection event, collapsing the photonic mode. <br> - In continuous-variable systems, homodyne or heterodyne detection measures quadratures of the electromagnetic field, giving classical measurement outcomes that reveal quantum state information. |
-| **Neutral Atoms / Rydberg Atoms**      | **State-Selective Resonant Imaging/ Fluorescence** | - Photon emission or ionization detection | - Similar to trapped ions, a resonant laser can cause one hyperfine state to scatter photons (“bright”), while another remains dark. <br> - Rydberg atoms may also be ionized and detected in a channeltron or micro-channel plate detector. The presence/absence of an ion indicates the atomic state. <br> - The measurement outcome collapses the atomic qubit to a definite state in the chosen basis. |
+| **Neutral Atoms/ Rydberg Atoms**      | **State-Selective Resonant Imaging/ Fluorescence** | - Photon emission or ionization detection | - Similar to trapped ions, a resonant laser can cause one hyperfine state to scatter photons (“bright”), while another remains dark. <br> - Rydberg atoms may also be ionized and detected in a channeltron or micro-channel plate detector. The presence/absence of an ion indicates the atomic state. <br> - The measurement outcome collapses the atomic qubit to a definite state in the chosen basis. |
 | **Superconducting Flux or Phase Qubits** | **Switching Current/ Flux Detection** | - Change in the current-voltage characteristics of the readout circuit | - While cQED dispersive readout is common, some older or specialized superconducting designs measure flux qubits by detecting shifts in the SQUID magnetization or critical current. <br> - The wave function collapse is reflected in whether the circuit remains in a superconducting state or switches to a normal resistive state. |
 
 > Expanded Explanation of Key Ideas: 
@@ -1890,7 +1890,7 @@ Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Si
 
 ### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture 
 
-<img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88" />
+<img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88"/>
 
 Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computing Applications*, IEEE J. Solid-State Circuits, 53, 1 (2018)  
 <https://doi.org/10.1109/JSSC.2017.2737549>  
@@ -1900,7 +1900,7 @@ Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computin
 
 ### Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture
 
-<img width="3345" height="auto" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad" />
+<img width="3345" height="auto" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad"/>
 
 
 > This figure highlights the digital and analog components of qubit control and readout for cryogenic ASICs. Digitally, an SPI‑linked sequencer and waveform memory program the amplitude, phase, frequency, and timing of pulses. Analog‑wise, two DAC channels create baseband I and Q envelopes that are filtered and mixed with a low‑phase‑noise local oscillator (I/Q modulation) to produce the microwave XY drive; a separate DAC provides Z‑bias control; and a reflective readout chain transmits a probe tone, then amplifies, down‑converts, filters, and digitizes the return for qubit‑state discrimination. It is important to note that accurate qubit manipulation  relies on low phase noise, low jitter, calibrated I/Q balance, and low‑distortion analog buffering throughout the signal path. 
@@ -1913,7 +1913,7 @@ Borrowed from: Guo et al., *Cryogenic CMOS RF Circuits: A Promising Approach for
 
 ### A Coupled Coplanar Waveguide Resonator (Elbow) 
 
-<img width="3779" height="auto" alt="image" src="https://github.com/user-attachments/assets/f6265556-115d-478d-9b63-f9d029397321" />
+<img width="3779" height="auto" alt="image" src="https://github.com/user-attachments/assets/f6265556-115d-478d-9b63-f9d029397321"/>
 
 Adapted from Sweetnam et al., *Simulating the behaviour of travelling wave superconducting parametric amplifiers using a commercial circuit simulator*, Supercond. Sci. Technol. 35 095011 (2022)  
 <https://iopscience.iop.org/article/10.1088/1361-6668/ac850b>  
@@ -1923,7 +1923,7 @@ Adapted from Sweetnam et al., *Simulating the behaviour of travelling wave super
 
 ### Linear & Non-Linear Elements of a Superconducting Qubit
 
-<img width="3707" height="auto" alt="image" src="https://github.com/user-attachments/assets/d857c81b-811b-4359-b385-d85af19e502a" />
+<img width="3707" height="auto" alt="image" src="https://github.com/user-attachments/assets/d857c81b-811b-4359-b385-d85af19e502a"/>
 
 > This is one way to physically simulate or mimic the excitation of a single atom.
 
@@ -1935,7 +1935,7 @@ Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE J. Microw. 
 
 ### Mechanism-Agnostic Elements of a Qubit
 
-<img width="2354" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ecbf991-25c7-4f1a-ac78-786b150ebe2a" />
+<img width="2354" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ecbf991-25c7-4f1a-ac78-786b150ebe2a"/>
 
 > These are various ways to physically simulate nature manipulating and using  natural or synthesized quantum objects.
 
@@ -1988,7 +1988,7 @@ Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of
 
 ### Example of Required Steps to Compute Molecular Energies (Mapped to 2 Physical Qubits) 
 
-<img width="3763" height="auto" alt="image" src="https://github.com/user-attachments/assets/ae3ca23e-e89e-4dae-955b-b9eb94613868" />
+<img width="3763" height="auto" alt="image" src="https://github.com/user-attachments/assets/ae3ca23e-e89e-4dae-955b-b9eb94613868"/>
 
 Adapted from: O’Malley et al., *Scalable Quantum Simulation of Molecular Energies*, Phys. Rev. X, 6 031007 (2016)  
 <https://doi.org/10.1103/PhysRevX.6.031007>  
