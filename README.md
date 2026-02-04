@@ -1937,7 +1937,7 @@ Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE J. Microw. 
 
 <img width="2354" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ecbf991-25c7-4f1a-ac78-786b150ebe2a"/>
 
-> These are various ways to physically simulate nature manipulating and using  natural or synthesized quantum objects.
+> These are various ways to physically simulate nature manipulating and using  natural or synthesized quantum objects. Figure by Onri Jay Benally.
 
 ---
 
