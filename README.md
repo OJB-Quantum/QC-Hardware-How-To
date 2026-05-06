@@ -4,7 +4,7 @@
 
 Everything you need for quantum hardware engineering in the field.
 
-"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. To develop expertise in quantum hardware is to study and practice quantum metrology, metrology, automation, and manufacturing (with a heavy focus on nanotechnology, vacuum technology, and cryogenics)." - Onri Jay Benally
+"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, RF/LASER electronics, analog electronics, and advanced manufacturing, with particular emphasis on nanotechnology, vacuum technology, cryogenics, and device-level quantum transport when the hardware platform requires it." - Onri Jay Benally
 
 --- 
 
@@ -30,6 +30,10 @@ Everything you need for quantum hardware engineering in the field.
 | quantum computer   | béésh t'áá 'aníí 'á'ádaatʼéhígíí nitsékeesí | Metal or piece of metal that thinks at a truly fundamental level |
 
 --- 
+
+<img width="2213" height="1511" alt="image" src="https://github.com/user-attachments/assets/b83db606-8cd8-4600-ad98-45cbfb429b88" />
+
+---
 
 ## Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
