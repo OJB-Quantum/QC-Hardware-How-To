@@ -2,7 +2,7 @@
 
 ---
 
-## **Shortcut into Quantum Hardware Engineering: By Onri Jay Benally**
+## **Shortcut into Quantum Hardware Engineering - By Onri Jay Benally**
 
 | **Topic** | **Details** |
 |-----------|-------------|
