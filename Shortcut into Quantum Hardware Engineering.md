@@ -1,4 +1,8 @@
-### **Shortcut into Quantum Hardware Engineering: By Onri Jay Benally**
+"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, RF/LASER electronics, analog electronics, and advanced manufacturing (with particular emphasis on nanotechnology, vacuum technology, and cryogenics)." - Onri Jay Benally
+
+---
+
+## **Shortcut into Quantum Hardware Engineering: By Onri Jay Benally**
 
 | **Topic** | **Details** |
 |-----------|-------------|
