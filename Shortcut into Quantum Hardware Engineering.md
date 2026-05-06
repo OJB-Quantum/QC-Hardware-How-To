@@ -8,7 +8,7 @@
 |-----------|-------------|
 | Start with a 3D modeling & linguistics framework | May involve a custom keywords glossary. |
 | Spectroscopy or "scatterometry" | Involves probing something without physical contact. |
-| Topics covered | Materials science & engineering, quantum metrology, quantum transport, quantum optics, quantum electronic design automation. |
+| Topics covered | Materials science & engineering, precision measurement, automation, RF/LASER electronics, analog electronics, quantum metrology, quantum transport, quantum optics, quantum information, quantum electronic design automation. |
 | Electronic filters | Know how they are configured, designed, & what they look like. |
 | Filter components | Understand what they are made of. |
 | Passive vs active filters | Know the difference. |
