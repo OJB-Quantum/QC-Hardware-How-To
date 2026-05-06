@@ -4,7 +4,7 @@
 
 Everything you need for quantum hardware engineering in the field.
 
-"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, radio/LASER electronics, and advanced manufacturing (with a heavy focus on nanotechnology, vacuum technology, and cryogenics)." - Onri Jay Benally
+"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, radio/LASER electronics, analog electronics, and advanced manufacturing (with a heavy focus on nanotechnology, vacuum technology, and cryogenics)." - Onri Jay Benally
 
 --- 
 
