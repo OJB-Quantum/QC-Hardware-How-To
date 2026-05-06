@@ -31,7 +31,7 @@ Everything you need for quantum hardware engineering in the field.
 
 --- 
 
-
+<img width="2213" height="1511" alt="image" src="https://github.com/user-attachments/assets/b83db606-8cd8-4600-ad98-45cbfb429b88" />
 
 ---
 
