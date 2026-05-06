@@ -31,6 +31,10 @@ Everything you need for quantum hardware engineering in the field.
 
 --- 
 
+<img width="1540" height="1549" alt="image" src="https://github.com/user-attachments/assets/75c111ff-9a21-4348-8ffd-b96e0cb2f49d" />
+
+---
+
 ## Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
