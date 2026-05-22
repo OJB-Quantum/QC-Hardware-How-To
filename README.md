@@ -1318,26 +1318,177 @@ Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
 ### Entanglement Mediators for Qubits
 
 ```
-├─ Superconducting
-│  ├─ Cross‑Resonance →  ZX (drive‑induced dispersive) → CNOT/eCR
-│  ├─ Tunable Coupler  →  exchange/ZZ (flux or parametric) → CZ, iSWAP, fSim
-│  ├─ Bus‑RIP         →  dispersive ZZ (driven resonator) → CZ, multi‑qubit phase
-│  └─ MAP/CCR         →  engineered higher‑levels/ exchange → CPHASE, iSWAP
+├─ Superconducting Circuits
+│  ├─ Direct capacitive/ inductive coupling [Processor-scale]
+│  │  ├─ Cross-resonance drive
+│  │  │  → effective ZX/ IX/ ZZ Hamiltonian terms
+│  │  │  → CNOT, echoed CR, parity gates
+│  │  ├─ Static exchange coupling
+│  │  │  → XX + YY exchange with residual ZZ
+│  │  │  → iSWAP, √iSWAP, fSim-like gates
+│  │  └─ Microwave-activated conditional phase
+│  │     → driven avoided crossings/ higher-level dressing
+│  │     → CZ, CPHASE
+│  ├─ Tunable coupler circuits [Processor-scale]
+│  │  ├─ Flux-tunable coupler
+│  │  │  → tunable exchange and tunable ZZ
+│  │  │  → CZ, iSWAP, fSim, ZZ-free iSWAP
+│  │  ├─ Parametric coupler drive
+│  │  │  → frequency-converted exchange
+│  │  │  → iSWAP, bSWAP, fSim
+│  │  └─ Multi-qubit tunable coupler network
+│  │     → engineered higher-order interactions
+│  │     → CCZ, parity gates, multi-qubit phases
+│  ├─ Microwave resonator bus/ circuit QED bus [Processor-scale]
+│  │  ├─ Dispersive virtual-photon bus
+│  │  │  → state-dependent frequency shifts and virtual exchange
+│  │  │  → CZ, iSWAP-like, multi-qubit phase
+│  │  ├─ Resonator-induced phase gate
+│  │  │  → driven bus resonator produces state-dependent phases
+│  │  │  → CZ, multi-qubit phase, GHZ preparation
+│  │  └─ Bosonic cavity bus
+│  │     → shared oscillator mode as memory or coupler
+│  │     → controlled phase, state transfer, modular links
+│  └─ Higher-level/ multi-level transmon engineering [Processor-scale]
+│     ├─ MAP-style microwave activation
+│     │  → dressed-state conditional phase through noncomputational levels
+│     │  → CPHASE, CZ
+│     └─ CCR/ related all-microwave schemes
+│        → cross-driven exchange-like terms
+│        → iSWAP, SWAP, parity-style interactions
+│
 ├─ Trapped Ions
-│  ├─ Mølmer–Sørensen →  XX/YY (spin‑dep. force via phonons) → CNOT‑equiv.
-│  └─ Cirac–Zoller    →  sideband‑mediated (phonon bus)     → CNOT
-├─ Neutral Atoms
-│  └─ Rydberg blockade → Ising‑like ZZ (vdW shift)           → CZ/CNOT
-├─ Semiconductor Spins
-│  ├─ Exchange J(V)    →  Heisenberg/Ising‑like              → CZ/CNOT/(√)iSWAP
-│  ├─ Capacitive       →  dipole‑dipole (charge‑assisted)    → CZ/iSWAP‑like
-│  └─ cQED resonator   →  exchange via virtual photons       → iSWAP/fSim
-├─ NV Centers
-│  ├─ Spin–photon link →  heralded entanglement              → Bell/parity ops
-│  └─ Dipolar (local)  →  secular dipole terms               → CZ/SWAP‑like
-└─ Photonics
-   ├─ Linear optics    →  measurement‑induced nonlinearity   → CZ/CNOT (prob.)
-   └─ CV squeezing     →  Gaussian entanglers                → MBQC two‑mode ops
+│  ├─ Collective motional phonon bus [Processor-scale]
+│  │  ├─ Mølmer-Sørensen gate
+│  │  │  → spin-dependent force through shared motional modes
+│  │  │  → XX/ YY entanglers, CNOT-equivalent gates
+│  │  ├─ Geometric phase gate
+│  │  │  → closed phase-space loop conditioned on spin state
+│  │  │  → ZZ/ XX phase gates
+│  │  └─ Cirac-Zoller sideband gate
+│  │     → Experimentallicit phonon excitation and de-excitation
+│  │     → CNOT
+│  ├─ Microwave/ magnetic-gradient motional coupling [Experimental]
+│  │  → electronic or microwave drive couples spin to motion
+│  │  → MS-like and geometric phase gates
+│  └─ Photonic remote entanglement between ion modules [Experimental]
+│     → spin-photon entanglement plus heralding
+│     → Bell pairs, remote gates, modular networking
+│
+├─ Neutral Atoms and Rydberg Arrays
+│  ├─ Rydberg blockade [Processor-scale]
+│  │  → van der Waals/ dipole blockade produces conditional excitation
+│  │  → CZ, CNOT, multi-qubit blockade gates
+│  ├─ Rydberg dressing [Experimental/Emerging]
+│  │  → weak Rydberg admixture gives tunable Ising interactions
+│  │  → analog entanglers, Ising gates, simulation-native gates
+│  ├─ Resonant dipole-dipole Rydberg exchange [Experimental]
+│  │  → Förster-tuned exchange between Rydberg states
+│  │  → iSWAP-like and XY interactions
+│  └─ Atom motion/ collisional phase in optical tweezers or lattices [Experimental/Emerging]
+│     → controlled overlap or geometric phase accumulation
+│     → SWAP-like and √SWAP-like entanglers
+│
+├─ Semiconductor Spin Qubits
+│  ├─ Exchange coupling J(V) [Processor-scale]
+│  │  ├─ Gate-defined quantum dots
+│  │  │  → Heisenberg exchange/ conditional spin rotations
+│  │  │  → CZ, CNOT, √SWAP, iSWAP-like gates
+│  │  └─ Donor spin qubits
+│  │     → donor-donor electron exchange and hyperfine-resolved control
+│  │     → controlled rotations, CNOT-like gates
+│  ├─ Capacitive/ charge-assisted coupling [Experimental/Emerging]
+│  │  → electric dipole interaction through charge admixture
+│  │  → CZ, CPHASE, iSWAP-like gates
+│  ├─ Superconducting resonator/ microwave photon bus [Experimental/Emerging]
+│  │  → real or virtual microwave photons couple distant spins or charge-spin hybrids
+│  │  → state transfer, long-range exchange, iSWAP-like gates
+│  ├─ Floating-gate or metallic interconnect coupling [Emerging]
+│  │  → mediated Coulomb interaction through shared conductor
+│  │  → CPHASE-style gates
+│  └─ Acoustic/ SAW-mediated coupling [Emerging]
+│     → piezoelectric phonons carry spin-charge information
+│     → state transfer and remote entanglement proposals
+│
+├─ Defect Centers and Solid-State Spin Registers
+│  ├─ Local dipolar spin-spin coupling [Experimental]
+│  │  ├─ NV electron spin to nearby nuclear spins
+│  │  │  → hyperfine-mediated register operations
+│  │  │  → CPHASE, SWAP-like gates
+│  │  └─ Electron-electron dipolar coupling
+│  │     → secular dipolar interaction
+│  │     → CZ/ controlled-rotation gates
+│  ├─ Optical spin-photon interface [Experimental]
+│  │  → spin-photon entanglement plus photon interference
+│  │  → heralded Bell pairs, remote parity gates, network links
+│  ├─ Cavity-enhanced optical interface [Experimental/Emerging]
+│  │  → Purcell-enhanced emission and improved indistinguishability
+│  │  → faster heralded entanglement and modular gates
+│  ├─ Phononic/ strain coupling [Emerging]
+│  │  → acoustic modes couple orbital or spin-strain transitions
+│  │  → state transfer, spin-spin coupling, transduction
+│  └─ Magnonic coupling to ordered magnets [Experimental/Emerging]
+│     → spin-wave modes couple separated defect spins
+│     → magnon-mediated NV-NV coupling, state transfer, entanglement proposals
+│
+├─ Photonic Quantum Computing
+│  ├─ Linear optics with measurement-induced nonlinearity [Processor-scale]
+│  │  → beamsplitters, phase shifters, ancilla photons, photon counting
+│  │  → probabilistic CZ/ CNOT, fusion gates
+│  ├─ Photonic cluster-state/ fusion-based computing [Processor-scale/Emerging]
+│  │  → entangled graph states plus adaptive measurements
+│  │  → MBQC gates, fusion networks, logical entanglers
+│  ├─ Continuous-variable squeezing [Experimental/Processor-scale]
+│  │  → two-mode squeezing and Gaussian cluster states
+│  │  → CV controlled-phase, teleportation gates, MBQC primitives
+│  ├─ Integrated nonlinear photonics [Experimental/Emerging]
+│  │  → χ(2), χ(3), four-wave mixing, spontaneous parametric Processor-scaleesses
+│  │  → entangled photon-pair sources, cluster-state generation
+│  └─ Matter-photon interfaces [Experimental/Emerging]
+│     → emitter-photon entanglement and photon interference
+│     → remote Bell pairs, modular entanglement links
+│
+├─ Acoustic and Phononic Buses Beyond Ion Motion
+│  ├─ Surface acoustic wave (SAW) bus [Experimental/Emerging]
+│  │  → itinerant microwave-frequency phonons couple remote qubits
+│  │  → state transfer, remote entanglement, delay-line links
+│  ├─ Bulk acoustic/ phononic cavity bus [Experimental/Emerging]
+│  │  → localized mechanical modes hybridize with qubits
+│  │  → state storage, exchange gates, transduction
+│  └─ Optomechanical or electromechanical transduction [Emerging]
+│     → microwave-optical-phonon conversion
+│     → modular links between microwave qubits and photonic networks
+│
+├─ Hybrid Quantum Magnonics
+│  ├─ Cavity magnonics [Experimental]
+│  │  → ferromagnetic resonance mode hybridizes with microwave photons
+│  │  → magnon-photon polaritons, state transfer, dispersive coupling
+│  ├─ Superconducting-qubit–magnon interface [Experimental/Emerging]
+│  │  → transmon couples to magnon mode through microwave cavity or inductive channel
+│  │  → magnon-resolved spectroscopy, state transfer, proposed gates
+│  ├─ Magnon-mediated superconducting-qubit bus [Emerging]
+│  │  → virtual magnon exchange between qubits through a magnetic element
+│  │  → CZ/ iSWAP-like gates, tunable long-range coupling
+│  ├─ Nanomagnonic cavity for spin defects [Emerging]
+│  │  → confined spin-wave modes couple to localized spin emitters
+│  │  → spin-spin entanglement, quantum memory, state transfer
+│  ├─ NV/ color-center magnon bus [Experimental/Emerging]
+│  │  → YIG or patterned magnetic waveguide mediates defect-defect coupling
+│  │  → long-range NV-NV coupling, heralded or virtual-magnon protocols
+│  └─ Magnon transduction layer [Emerging]
+│     → magnon-photon, magnon-phonon, magnon-spin conversion
+│     → microwave-optical links, quantum memories, nonreciProcessor-scaleal interconnects
+│
+└─ Topological and Anyonic Architectures
+   ├─ Anyon braiding [Experimental/Emerging]
+   │  → non-Abelian exchange statistics implement protected unitary operations
+   │  → braiding gates, topological entanglers
+   ├─ Majorana-network parity measurements [Emerging]
+   │  → fermion-parity constraints mediate entanglement
+   │  → parity gates, measurement-based topological operations
+   └─ Hybrid topological-superconducting couplers [Emerging]
+      → superconducting islands, charge sensing, and parity readout
+      → protected readout-mediated entanglement proposals
 ```
 
 Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance with Optimized Rotary Echoes*, PRX Quantum 1, 020318 (2020)  
