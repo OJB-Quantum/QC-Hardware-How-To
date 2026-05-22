@@ -217,10 +217,6 @@ Please note that open access is a key theme held herein. Enjoy.
 
 – Onri
 
-![](https://cdn.mathpix.com/cropped/2025_01_16_d72777393d0d68fddefcg-02.jpg?height=633&width=643&top_left_y=990&top_left_x=741)
-
-**Scan QR code to access digital downloadable version.**
-
 ---
 
 ## Creative Commons License
