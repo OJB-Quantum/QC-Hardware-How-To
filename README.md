@@ -709,6 +709,28 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 
 ---
 
+### Terminology for Quantum Information Capabilities
+
+| Term | Definition |
+| - | - |
+| **Quantum-enhanced**    | Uses coherence, squeezing, entanglement, or another quantum resource to improve a specified metric relative to a defined classical or conventional baseline, such as sensitivity, precision, accuracy, security, or solution quality. ([Nature][1])                                                                          |
+| **Quantum-accelerated** | Uses a quantum processor to reduce computational complexity, runtime, or time to solution for a task or subroutine relative to a stated classical method. The acceleration may be theoretical, projected, or experimentally measured. ([IBM Research][2])                                                                    |
+| **Quantum-limited**     | Operates at the irreducible noise, sensitivity, estimation-error, or added-noise bound imposed by quantum mechanics for a defined device, observable, resource count, and measurement model. ([APS Link][3])                                                                                                                 |
+| **Quantum-coherent**    | Preserves well-defined phase relationships among quantum amplitudes long enough to support interference, entanglement, gate operations, sensing, or quantum-state transfer. ([Nature][4])                                                                                                                                    |
+| **Quantum utility**     | Produces scientifically or practically useful quantum results at a scale and accuracy beyond straightforward brute-force classical treatment, without requiring verified superiority over every optimized classical method. ([Nature][5])                                                                                    |
+| **Quantum advantage**   | Establishes superior quantum performance over a relevant classical alternative for a specified task and metric under a fair resource comparison. Practical quantum advantage additionally requires a useful application. ([Nature][6])                                                                                       |
+| **Quantum supremacy**   | Historical term for demonstrating that a quantum processor can complete a well-defined computation that is practically infeasible for classical computers, even when the computation has little immediate practical value. *Quantum computational advantage* is now often used for the same general milestone. ([Nature][7]) |
+
+[1]: https://www.nature.com/articles/s41567-024-02619-5 "Quantum-enhanced metrology with large Fock states"
+[2]: https://research.ibm.com/blog/accelerating-qpus-with-gpus "A glimpse at computing's quantum-centric future"
+[3]: https://link.aps.org/doi/10.1103/PhysRevApplied.21.064052 "Selective single- and double-mode quantum-limited amplifier"
+[4]: https://www.nature.com/nature-index/topics/l4/quantum-coherence-and-phase-transitions-in-josephson-junctions "Quantum Coherence and Phase Transitions in Josephson ..."
+[5]: https://www.nature.com/articles/s41586-023-06096-3 "Evidence for the utility of quantum computing before fault ..."
+[6]: https://www.nature.com/articles/s41586-022-04725-x "Quantum computational advantage with a programmable ..."
+[7]: https://www.nature.com/articles/s41586-019-1666-5 "Quantum supremacy using a programmable ..."
+
+---
+
 ### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
 
 ```
