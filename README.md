@@ -1248,21 +1248,42 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 ---
 
-### Illustrative Example of How to Think About The Outcome of Qubits Based on Their Classification
+### Illustrative Example of How to Think About the Outcome of Qubits Based on Their Classification
 
-| Model                    | Target p |  Shots |  (Successes) | (Failures) | Successes Fraction <br>(Observed p) | Wilson CI <br>95% Low | Wilson CI <br>95% High | CI Width <br> (95%)| Required <br>Shots for ±2% | Required <br>Shots for ±1% | Required <br>Shots for ±0.5% | Illustrative <br>Cost (USD) |
-| :----------------------- | -------: | -----: | -----: | ----: | ---------: | -----: | ------: | -------: | --------: | --------: | ----------: | ---------: |
-| Toy working qubit        |     0.50 | 10,000 |  5,025 | 4,975 |     0.5025 | 0.4927 |  0.5123 |   0.0196 |     2,401 |     9,604 |      38,415 |     \$0.60 |
-| NISQ qubit               |     0.60 | 10,000 |  6,010 | 3,990 |     0.6010 | 0.5914 |  0.6105 |   0.0191 |     2,305 |     9,220 |      36,878 |     \$0.60 |
-| Fault-tolerant (logical) |     0.90 | 10,000 |  9,013 |   987 |     0.9013 | 0.8956 |  0.9067 |   0.0111 |       865 |     3,458 |      13,830 |     \$0.60 |
-| Topologically protected  |     0.98 | 10,000 |  9,797 |   203 |     0.9797 | 0.9769 |  0.9822 |   0.0053 |       189 |       753 |       3,011 |     \$0.60 |
-| Ideal qubit              |     1.00 | 10,000 | 10,000 |     0 |     1.0000 | 0.9996 |  1.0000 |   0.0004 |         1 |         1 |           1 |     \$0.60 |
+In this example, \(p\) is the probability that one experimental shot satisfies a predefined success criterion. It is separate from gate fidelity, readout fidelity, state fidelity, circuit fidelity, and logical error rate.
 
-- Toy working qubit - Simple demonstrator; about half shots meet the criterion.
-- NISQ qubit - Noisy Intermediate-Scale Quantum device; modest success rate above chance.
-- Fault-tolerant (logical) - Error-corrected logical qubit; high single-shot success probability.
-- Topologically protected - Intrinsic protection; very high single-shot success probability.
-- Ideal qubit - Theoretical perfect qubit; always successful in a single shot.
+| Model                         | Target p |  Shots | Successes | Failures | Success Fraction <br>(Observed p) | Wilson CI <br>95% Low | Wilson CI <br>95% High | CI Width <br>(95%) | Required <br>Shots for ±2% | Required <br>Shots for ±1% | Required <br>Shots for ±0.5% | Illustrative <br>Cost (USD) |
+| :---------------------------- | -------: | -----: | --------: | -------: | --------------------------------: | --------------------: | ---------------------: | -------------------: | --------------------------: | --------------------------: | ----------------------------: | ----------------------------: |
+| Toy working qubit             |     0.50 | 10,000 |     5,025 |    4,975 |                            0.5025 |                0.4927 |                 0.5123 |               0.0196 |                       2,401 |                       9,604 |                        38,415 |                        \$0.60 |
+| NISQ qubit                    |     0.60 | 10,000 |     6,010 |    3,990 |                            0.6010 |                0.5914 |                 0.6106 |               0.0192 |                       2,305 |                       9,220 |                        36,879 |                        \$0.60 |
+| Near-term quantum             |     0.70 | 10,000 |     7,008 |    2,992 |                            0.7008 |                0.6917 |                 0.7097 |               0.0179 |                       2,017 |                       8,068 |                        32,269 |                        \$0.60 |
+| Advanced near-term quantum    |     0.80 | 10,000 |     8,006 |    1,994 |                            0.8006 |                0.7927 |                 0.8083 |               0.0157 |                       1,537 |                       6,147 |                        24,586 |                        \$0.60 |
+| Fault-tolerant logical qubit  |     0.90 | 10,000 |     9,013 |      987 |                            0.9013 |                0.8953 |                 0.9070 |               0.0117 |                         865 |                       3,458 |                        13,830 |                        \$0.60 |
+| Topologically protected qubit |     0.98 | 10,000 |     9,797 |      203 |                            0.9797 |                0.9767 |                 0.9823 |               0.0055 |                         189 |                         753 |                         3,012 |                        \$0.60 |
+| Ideal qubit                   |     1.00 | 10,000 |    10,000 |        0 |                            1.0000 |                0.9996 |                 1.0000 |               0.0004 |                           1 |                           1 |                             1 |                        \$0.60 |
+
+- **Toy working qubit:** A minimal demonstrator for which approximately half of the shots satisfy the selected success criterion.
+- **NISQ qubit:** A noisy physical qubit used in shallow circuits with limited coherence, imperfect gates, and limited error suppression.
+- **Near-term quantum:** An improved NISQ-era system using stronger calibration, error suppression, error mitigation, dynamic circuits, and application-oriented workflows. Full logical fault tolerance remains outside this regime.
+- **Advanced near-term quantum:** A transitional regime involving higher-fidelity physical qubits, repeated error detection, deeper circuits, small error-detected codes, or early logical-qubit demonstrations. Sustained scalable fault-tolerant operation has yet to be reached.
+- **Fault-tolerant logical qubit:** An error-corrected logical qubit supported by repeated syndrome extraction, active decoding, and logical operations whose error rates remain below the applicable fault-tolerance threshold.
+- **Topologically protected qubit:** A qubit whose encoding provides intrinsic suppression of selected local error mechanisms. Control, readout, poisoning, leakage, and residual nonlocal errors can still influence the measured success probability.
+- **Ideal qubit:** A theoretical abstraction with perfect preparation, control, coherence, gate execution, and measurement.
+
+The Wilson score interval is calculated from the observed successes and failures. The required-shot estimates use
+
+\[
+n =
+\left\lceil
+\frac{z_{0.975}^{2}p(1-p)}{\epsilon^{2}}
+\right\rceil,
+\qquad
+z_{0.975}=1.959964,
+\]
+
+where \(\epsilon\) is the requested absolute half-width.
+
+The cost column assumes a fixed illustrative price of \$0.60 per 10,000 shots, equivalent to \$0.00006 per shot. The ideal-qubit row treats \(p=1\) as a theoretical axiom. Empirical validation of an unknown probability would require many observations despite recording zero failures.
 
 ---
 
