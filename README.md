@@ -1855,39 +1855,57 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 
 ### Common Cryogenic Amplifiers & Preamplifiers for Quantum Measurement
 
-| **Amplifier Type**                         | **Typical 3‑dB Bandwidth (BW)**                                                                    | **Drive (Pump) Power**                                                             | **Pump Frequency**                      |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------- |
-| JPA                                        | Tens of MHz (5–50 MHz; **up to ≈500 MHz** with impedance engineering)                              | –30 to –20 dBm for 20 dB gain                                                      | ≈ 2 × f<sub>signal</sub>                |
-| JTWPA                                      | Multi‑GHz (≈ 3 GHz span)                                                                           | **–15 dBm to +3 dBm** on‑chip for 20 dB                                            | In‑band (phase‑matched, e.g. 7.2 GHz)   |
-| KI‑TWPA                                    | 4–11 GHz (single stage 10–20 dB)                                                                   | **–30 to –7 dBm** (film‑ & mixing‑order dependent)                                 | Pump at high band edge (7–10 GHz)       |
-| NKPA                                       | Few‑MHz BW (gain‑BW ≈ 50–250 MHz)                                                                  | –68 to –87 dBm (42 dB gain)                                                        | Two pumps ±Δ around ω₀                  |
-| QCPA                                       | 1–2 MHz BW                                                                                         | ≈ 1 µW (–30 dBm)                                                                   | ≈ 2 × f<sub>signal</sub> (e.g. 740 MHz) |
-| HEMT LNA (conventional cryogenic)      | Multi‑GHz (e.g. 1–18 GHz usable to 22 GHz)                           | DC bias **≈ 20–50 mW** (1.2 V × 27 mA @ 4 K is typical)            | *None* – un‑pumped device               |
-| HEMT LNA (advanced, Low Noise Factory) | 4–8 GHz span (variants 0.3–14 GHz also available) | DC bias **≈ 7–15 mW** (0.6 V × 13 mA) | *None* – un‑pumped device               |
+| **Amplifier Type** | **Typical 3-dB Bandwidth (BW)** | **Drive/ Pump Power** | **Pump Frequency/ Mixing Condition** |
+| ------------------ | ------------------------------- | ---------------------- | ------------------------------------- |
+| JPA | ≈5–50 MHz for conventional resonant devices; ≈200–640 MHz near 20 dB with impedance engineering; ≈700 MHz demonstrated at 15 dB | ≈−72 to −40 dBm at the cold or device plane in representative flux-pumped devices; strongly dependent on coupling and topology | Flux-pumped 3WM: f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub>; degenerate operation gives f<sub>p</sub> ≈ 2f<sub>s</sub>. Current-pumped 4WM: 2f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub>, with f<sub>p</sub> near the resonator band |
+| JTWPA | ≈3–5 GHz instantaneous span at ≈15–20+ dB in representative devices; 3–11 GHz coverage excluding a 43 MHz phase-matching stopband reported in a 2026 preprint | ≈−75 to −70 dBm at the JTWPA input in representative calibrated Josephson devices | Usually in-band 4WM: 2f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub>; representative f<sub>p</sub> ≈ 6–10 GHz. Three-wave-mixing variants use f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub> |
+| SNAIL PA/ SPA, resonator-based | ≈30–50 MHz for conventional SPAs; ≈150–600 MHz with impedance matching; 250 MHz at 20 dB and 600 MHz above 15 dB have been demonstrated | ≈−70 to −40 dBm at the device pump port in representative designs; one 600 MHz system reports +2.2 dBm at the room-temperature source before cryogenic attenuation | 3WM: f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub>; degenerate operation gives f<sub>p</sub> ≈ 2f<sub>s</sub>. Representative pumps are ≈9–11 GHz for ≈4.5–5.5 GHz signals |
+| KI-TWPA/ KIT | ≈2–6 GHz reported total gain span; examples include 3.5–5.5 GHz, 4–8 GHz, and two ≈2 GHz-wide gain lobes around an 11.56 GHz pump | ≈−30 to −8 dBm at the device input; film, geometry, dc bias, and mixing order strongly affect the required power | DC-biased 3WM: f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub>, often above the signal band, such as ≈8.9 GHz. 4WM: 2f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub>, with reported pumps near 10.6–11.56 GHz |
+| Nanobridge KPA/ NKPA | 3.1 MHz at 24 dB gain; reported gain-bandwidth product ≈59–74 MHz depending on operating point; peak gain 42 dB | ≈−87 dBm reported two-tone drive level | Two pumps symmetrically placed around the resonator, f<sub>p1,p2</sub> = f<sub>0</sub> ± 133.5 MHz; signal and gain are centered at their mean; f<sub>0</sub> ≈ 7.45 GHz |
+| Quantum-Dot PA/ QDPA | ≈0.6 MHz at 15 dB in an optimized 2022 design; a 2022 prototype demonstrated −3 to +3 dB. | −70 to −47 dBm in a 2022 experiment; −68.3 dBm at the room-temperature source in the 2026 DQD SAPA | 2022 gate-pumped device: f<sub>p</sub> ≈ 2f<sub>s</sub>, with 3.627 GHz pump for f<sub>s</sub> = 1.8135 GHz. 2026 DQD SAPA: near-degenerate 4WM with f<sub>p</sub> − f<sub>s</sub> ≈ 5 kHz near 5.194 GHz |
+| JJ-FET/ JoFET PA | ≈4–6 MHz at >20 dB gain | ≈−118 to −80 dBm at the device input in reported Al–InAs implementations; coupling and device participation account for much of this range | In-band 4WM: 2f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub>; reported f<sub>p</sub> ≈ 5.8–7.56 GHz |
+| QCPA | ≈1–2 MHz at 20–30 dB gain; up to ≈4 MHz at lower gain | −26.4 to −24.8 dBm, corresponding to ≈2.3–3.3 µW | f<sub>p</sub> ≈ 2f<sub>s</sub>; 740.170 MHz pump for f<sub>s</sub> = 370.085 MHz |
+| HEMT LNA, conventional cryogenic | Multi-GHz, such as 1–18 GHz usable to 22 GHz | DC bias ≈20–50 mW, with 1.2 V × 27 mA at 4 K as a representative operating point | *None*; unpumped device |
+| HEMT LNA, advanced Low Noise Factory | 4–8 GHz span; variants covering approximately 0.3–14 GHz are also available | DC bias ≈7–15 mW, with 0.6 V × 13 mA as a representative operating point | *None*; unpumped device |
 
-> Note: A cryogenic HEMT LNA may be used by itself whenever a few‑kelvin noise temperature, octave‑wide bandwidth, and large dynamic range are sufficient; but for sub‑kelvin, near‑quantum‑limited measurements (qubit readout, axion searches, squeezed‑state detection) the HEMT is relegated to a second stage and is preceded by a parametric preamplifier (JPA, JTWPA, KI‑TWPA, NKPA, or QCPA) that sets the system noise floor.
 
-> Related Acryonyms
+> **QDPA and QCPA distinction:** Both device classes exploit a voltage-dependent quantum capacitance. The QDPA uses a discrete quantum-dot transition as its nonlinear element, whereas the reported QCPA uses the gate-controlled quantum capacitance of a two-dimensional electron gas.
+
+> Note: A cryogenic HEMT LNA may be used by itself whenever a few‑kelvin noise temperature, octave‑wide bandwidth, and large dynamic range are sufficient; but for sub‑kelvin, near‑quantum‑limited measurements (qubit readout, axion searches, squeezed‑state detection) the HEMT is relegated to a second stage and is preceded by a parametric preamplifier (JPA, JTWPA, KI‑TWPA, NKPA, or QCPA) that sets the system noise floor.
+
+> Related Acronyms
 >
-> **dBm** – Decibels relative to 1 milliwatt
-> 
-> **HEMT** - High-Electron-Mobility Transistor
+> **dBm** – Decibels relative to 1 milliwatt
 >
-> **LNA** - Low Noise Amplifier
+> **HEMT** – High-Electron-Mobility Transistor
+>
+> **LNA** – Low-Noise Amplifier
 >
 > **JPA** – Josephson Parametric Amplifier
 >
-> **JTWPA** – Josephson Traveling‑Wave Parametric Amplifier
+> **JTWPA** – Josephson Traveling-Wave Parametric Amplifier
 >
-> **KI‑TWPA/ KIT** – Kinetic‑Inductance Traveling‑Wave Parametric Amplifier
+> **SNAIL** – Superconducting Nonlinear Asymmetric Inductive eLement
 >
-> **NKPA** – Nanobridge Kinetic‑Inductance Parametric Amplifier
+> **SPA** – SNAIL Parametric Amplifier
 >
-> **QCPA** – Quantum‑Capacitance Parametric Amplifier
+> **KI-TWPA/ KIT** – Kinetic-Inductance Traveling-Wave Parametric Amplifier
 >
-> **RPM** – Resonant Phase Matching
+> **NKPA** – Nanobridge Kinetic-Inductance Parametric Amplifier
 >
-> **3‑wave/ 4‑wave mixing** (3WM/ 4WM) – Parametric processes satisfying ωₚ = ωₛ + ωᵢ (3‑wave) or 2 ωₚ = ωₛ + ωᵢ (4‑wave)
+> **QDPA** – Quantum-Dot Parametric Amplifier
+>
+> **DQD** – Double Quantum Dot
+>
+> **SAPA** – Single-Atom Parametric Amplifier
+>
+> **JJ-FET/ JoFET** – Josephson-Junction Field-Effect Transistor / Josephson Field-Effect Transistor
+>
+> **QCPA** – Quantum-Capacitance Parametric Amplifier
+>
+> **RPM** – Resonant Phase Matching
+>
+> **3WM/ 4WM** – Three-wave/ four-wave mixing, satisfying f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub> for 3WM or 2f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub> for 4WM
 
 ---
 
