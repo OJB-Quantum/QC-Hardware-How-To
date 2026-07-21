@@ -1255,23 +1255,7 @@ Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)
 
 In this evaluation, $p$ represents the probability that a single experimental shot satisfies a predefined success criterion. This quantity is strictly distinct from conventional measures, including gate fidelity, readout fidelity, state fidelity, circuit fidelity, and the logical error rate.
 
-| Model | Target $p$ | Shots | Successes | Failures | Success Fraction <br>
-
-<br>(Observed $p$) | Wilson CI <br>
-
-<br>95% Low | Wilson CI <br>
-
-<br>95% High | CI Width <br>
-
-<br>(95%) | Required <br>
-
-<br>Shots for ±2% | Required <br>
-
-<br>Shots for ±1% | Required <br>
-
-<br>Shots for ±0.5% | Illustrative <br>
-
-<br>Cost (USD) |
+| Model | Target $p$ | Shots | Successes | Failures | Success Fraction <br>(Observed $p$) | Wilson CI <br> 95% Low | Wilson CI <br> 95% High | CI Width <br> (95%) | Required <br>Shots for ±2% | Required <br> Shots for ±1% | Required <br> Shots for ±0.5% | Illustrative <br> Cost (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Toy working qubit | 0.50 | 10,000 | 5,025 | 4,975 | 0.5025 | 0.4927 | 0.5123 | 0.0196 | 2,401 | 9,604 | 38,415 | $0.60 |
 | NISQ qubit | 0.60 | 10,000 | 6,010 | 3,990 | 0.6010 | 0.5914 | 0.6106 | 0.0192 | 2,305 | 9,220 | 36,879 | $0.60 |
