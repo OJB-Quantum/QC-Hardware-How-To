@@ -1281,11 +1281,19 @@ where $\epsilon$ denotes the requested absolute half width.
 
 The cost column assumes a fixed illustrative price of $0.60 per 10,000 shots, which is equivalent to $0.00006 per shot. The ideal qubit row treats $p=1$ as a theoretical axiom, because empirical validation of an unknown probability requires numerous observations despite recording zero failures.
 
+<img width="2850" height="auto" alt="Untitled" src="https://github.com/user-attachments/assets/5bc52e49-3fe2-44d9-a0ce-f973b5aa8ada" />
+
+
 ---
 
 ### Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits
 
 <img width="3057" height="auto" alt="image" src="https://github.com/user-attachments/assets/85936c44-8fc7-40e8-96a3-4fc010c57495"/>
+
+
+### Illustrative Example of Rabi Dynamics for Various Classes of Qubits Mentioned
+
+<img width="3519" height="auto" alt="Untitled" src="https://github.com/user-attachments/assets/98359b3c-7313-401d-92f8-70d3f5bcaa92" />
 
 
 ---
@@ -1311,7 +1319,7 @@ Lahtinen et al., *A Short Introduction to Topological Quantum Computation*, SciP
 
 ---
 
-### An Example Architecture of How a Fault-Tolerant Heterogenous/ Hybrid Quantum System Could Look Like (By Onri)
+### An Example Architecture of How a Fault-Tolerant Heterogeneous/ Hybrid Quantum System Could Look Like (By Onri)
 
 ```
 Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
