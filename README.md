@@ -4,7 +4,7 @@
 
 Everything you need for quantum hardware engineering in the field.
 
-"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, RF/LASER electronics, analog electronics, and advanced manufacturing, with particular emphasis on nanotechnology, vacuum technology, cryogenics, and device-level quantum transport when the hardware platform requires it." - Onri Jay Benally
+"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, RF/LASER electronics, analog electronics, and advanced manufacturing, with particular emphasis on nanotechnology, vacuum technology, cryogenics, and device-level quantum transport." - Onri Jay Benally
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
@@ -248,7 +248,7 @@ To view a copy of this license, visit [http://creativecommons.org/licenses/by/4.
 
 Free tools for designing, simulating, & analyzing quantum/nano devices:
 
-| **Tool**                                                                           | **URL**                                                                                                                                                                                              |
+| **Tool**                                                                           | **URL**                                                                                    |
 |------------------------------------------------------------------------------------|--------------------|
 | Semiconductor Process & Device Simulation (SILVACO, browser-based)                 | [https://nanohub.org/resources/silvacotcad](https://nanohub.org/resources/silvacotcad)                                                                                                               |
 | KLayout, Pattern Generation & Layout, Direct-Download                              | [https://www.klayout.de/build.html](https://www.klayout.de/build.html)                                                                                                                               |
@@ -394,6 +394,7 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | IBM Research     | <https://www.flickr.com/photos/ibm_research_zurich/albums>                                  |
 | ETH Zurich       | <https://qudev.phys.ethz.ch/gallery>                                                   |
 | UWaterloo        | <https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours> |
+| QSysArch         | <https://qsysarch.com/qpu> |
 
 ---
 
