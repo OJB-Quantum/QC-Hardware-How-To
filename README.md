@@ -248,7 +248,7 @@ To view a copy of this license, visit [http://creativecommons.org/licenses/by/4.
 
 Free tools for designing, simulating, & analyzing quantum/nano devices:
 
-| **Tool**                                                                           | **URL**                                                                                                                                                                                              |
+| **Tool**                                                                           | **URL**                                                                                    |
 |------------------------------------------------------------------------------------|--------------------|
 | Semiconductor Process & Device Simulation (SILVACO, browser-based)                 | [https://nanohub.org/resources/silvacotcad](https://nanohub.org/resources/silvacotcad)                                                                                                               |
 | KLayout, Pattern Generation & Layout, Direct-Download                              | [https://www.klayout.de/build.html](https://www.klayout.de/build.html)                                                                                                                               |
@@ -394,6 +394,7 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | IBM Research     | <https://www.flickr.com/photos/ibm_research_zurich/albums>                                  |
 | ETH Zurich       | <https://qudev.phys.ethz.ch/gallery>                                                   |
 | UWaterloo        | <https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours> |
+| QSysArch         | <https://qsysarch.com/qpu> |
 
 ---
 
