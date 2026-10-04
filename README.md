@@ -1185,8 +1185,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
 │   │   │     • Cavity‑protected (cat‑, binomial‑, GKP‑encoded)
 │   │   │     • Andreev pair qubits
 │   │   │     • Superconducting Dayem bridge qubits
-│   │   │     • Nanowire qubits (S-Sm-S, topological-insulator weak link, 
-│   │   │       ferromagnetic weak link, nonlinear kinetic inductance)
+│   │   │     • Nanowire qubits (S-Semiconductor-S, topological materials weak link [TI, semimetal], ferromagnetic weak link, nonlinear kinetic inductance)
 │   │   ├─ 2. Spin‑Based Qubits
 │   │   │   ├─ a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
 │   │   │   │     • Andreev spin qubits
@@ -1251,6 +1250,8 @@ Quantum Hardware + Quantum‑Adjacent Hardware
         ├─ 5. Spin‑orbit‑torque (SOT) MRAM at 4 K
         └─ 6. Nano Cryotron memory cells
 ```
+
+#### Variations of Transmons and Other Related -mons
 
 ```
 Transmon family and transmon-derived extensions
@@ -1380,6 +1381,8 @@ Transmon family and transmon-derived extensions
 >
 > **SNAIL‑TWPA** – *Traveling‑Wave Parametric Amplifier built from SNAIL unit cells* (see SPA lineage)
 >
+> **TI** - *Topological Insulator*
+> 
 > **TWPA** – *Traveling‑Wave Parametric Amplifier* (generic umbrella for JTWPA, KI‑TWPA, etc.)
 
 ---
