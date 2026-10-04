@@ -354,14 +354,6 @@ Portmanteaus
 
 [Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy).
 
-<a id="creative-commons-license"></a>
-
-#### Creative Commons License
-
-This work is licensed under the Creative Commons Attribution 4.0 International License.  
-To view a copy of this license, visit [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/) or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
-![](https://cdn.mathpix.com/cropped/2025_01_16_d72777393d0d68fddefcg-02.jpg?height=129&width=342&top_left_y=2055&top_left_x=889)
 
 [Back to navigation](#quick-jump-navigation)
 
