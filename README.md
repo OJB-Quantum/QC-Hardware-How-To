@@ -735,6 +735,107 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 
 ---
 
+### Various Types of Quanta
+
+```
+Quanta in Physics (Each = "quantum of" some field or excitation)
+├─ 1. Electromagnetic & Optical Fields
+│   ├─ 1.1 Photon — quantum of the electromagnetic field
+│   ├─ 1.2 Polariton family — quantum of strongly coupled light–matter field
+│   │    ├─ 1.2.1 Exciton-polariton (microcavities, 2-D semiconductors)
+│   │    ├─ 1.2.2 Phonon-polariton (polar dielectrics; IR)
+│   │    ├─ 1.2.3 Magnon-polariton (microwave cavity + magnet)
+│   │    └─ 1.2.4 Plasmon-polariton (surface plasmon + photon; SPP, Tamm)
+│   └─ 1.3 Plasmon — quantum of plasma (collective charge-density) oscillation
+│
+├─ 2. Vibrational, Lattice, and Fluid Interfaces
+│   ├─ 2.1 Phonon — quantum of lattice vibration (acoustic/optical)
+│   ├─ 2.2 Polaron — electron dressed by lattice polarization (quasiparticle)
+│   ├─ 2.3 Roton — quantum of finite-k density excitation minimum (superfluid He-4)
+│   └─ 2.4 Ripplon — quantum of a surface capillary wave (e.g., He surface)
+│
+├─ 3. Spin & Magnetic Systems
+│   ├─ 3.1 Magnon — quantum of a spin wave
+│   ├─ 3.2 Spinon — fractionalized spin excitation (often 1-D)
+│   ├─ 3.3 Triplon — triplet excitation in dimerized/ladder magnets
+│   └─ 3.4 Paramagnon — damped spin-fluctuation near magnetic criticality
+│
+├─ 4. Coupled or Hybrid Matter Quanta
+│   ├─ 4.1 Exciton — bound electron–hole pair (neutral bosonic quasiparticle)
+│   │    ├─ 4.1.1 Trion (charged exciton)
+│   │    ├─ 4.1.2 Biexciton (exciton molecule)
+│   │    └─ 4.1.3 Rydberg exciton (high-n)
+│   ├─ 4.2 Plexciton — plasmon–exciton hybrid (nanogaps, metasurfaces)
+│   └─ 4.3 Phonoriton — phonon–photon–exciton triple hybrid (select regimes)
+│
+├─ 5. Superconductivity & Broken-Symmetry Collective Modes
+│   ├─ 5.1 Cooper pair — paired electrons (charge 2e) as the superfluid boson
+│   ├─ 5.2 Anderson–Bogoliubov phase mode/ Josephson plasma (phase oscillation)
+│   ├─ 5.3 Quantum phase slip (QPS) — 2π phase-tunneling event in nanowires
+│   ├─ 5.4 Bogolon — Bogoliubov quasiparticle in a condensate
+│   ├─ 5.5 Higgs/Amplitudon — amplitude mode of the order parameter
+│   └─ 5.6 Leggett mode — interband relative-phase oscillation (multiband SCs)
+│
+├─ 6. Strongly Correlated Electrons (Spin–Charge–Orbital Separation)
+│   ├─ 6.1 Holon/Chargon — charge-only excitation
+│   ├─ 6.2 Doublon — doubly occupied site excitation (Hubbard systems)
+│   ├─ 6.3 Orbiton — orbital excitation
+│   └─ 6.4 Plasmaron — electron–plasmon composite quasiparticle
+│
+├─ 7. Topological & Emergent Quasiparticles
+│   ├─ 7.1 Anyons (Abelian and non-Abelian; 2-D topological order)
+│   ├─ 7.2 Majorana zero modes (Ising anyons in topological superconductors)
+│   ├─ 7.3 Fractons (restricted-mobility excitations)
+│   └─ 7.4 Emergent magnetic monopoles (spin-ice materials)
+│
+└─ 8. High-Energy Gauge & Gravitational Fields (completeness)
+    ├─ 8.1 Gluon — quantum of the color gauge field (QCD)
+    ├─ 8.2 W± / Z⁰ — quanta of the weak gauge fields
+    └─ 8.3 Graviton† — quantum of the gravitational field (hypothetical)
+```
+
+```
+“Quantum of …” Naming Family
+├─ A. Fundamental Gauge-Field Quanta
+│   ├─ Photon       – electromagnetic field                      (spin-1)
+│   ├─ Gluon        – color (strong-force) gauge field           (spin-1)
+│   ├─ W±/ Z⁰ bosons – weak-interaction gauge fields            (spin-1)
+│   └─ Graviton†    – gravitational field (hypothetical)         (spin-2)
+│
+├─ B. Condensed-Matter Collective Quanta
+│   ├─ Lattice/ Elastic
+│   │   ├─ Phonon   – lattice vibration (acoustic/ optical)  
+│   │   ├─ Roton    – ripplon-like excitation in superfluid He-4
+│   │   └─ Bogolon  – Bogoliubov sound mode in a superfluid
+│   ├─ Spin & Magnetism
+│   │   ├─ Magnon   – spin-wave excitation 
+│   │   ├─ Triplon  – triplet spin excitation in dimers
+│   │   └─ Spinon   – fractional spin excitation (1-D chains)
+│   ├─ Charge & Plasma
+│   │   ├─ Plasmon  – plasma (charge-density) oscillation 
+│   │   ├─ Polaron  – electron dressed by a phonon cloud
+│   │   └─ Dropleton – correlated e-h “quantum droplet” 
+│   └─ Orbital/ Topological
+│       ├─ Orbiton  – orbital angular-momentum excitation
+│       └─ Anyon    – topological quasiparticle in 2-D (fractional statistics)
+│
+├─ C. Hybrid Light–Matter Quanta
+│   ├─ Exciton          – bound electron-hole pair 
+│   ├─ Polariton Family (strong-coupling hybrids)
+│   │   ├─ Exciton-polariton   (photon ↔ exciton)
+│   │   ├─ Phonon-polariton    (photon ↔ infrared phonon)
+│   │   ├─ Magnon-polariton    (microwave photon ↔ magnon)
+│   │   └─ Plasmon-polariton   (photon ↔ surface plasmon)
+│   └─ Plexciton         – plasmon ↔ exciton hybrid
+│
+└─ D. Superconducting & Many-Body Charge Quanta
+    ├─ Cooper pair   – paired electrons (charge 2e) in a superconductor
+    ├─ Josephson quantum – 2π phase-slip across a weak link
+    └─ Higgs mode    – amplitude oscillation of an order parameter
+```
+
+---
+
 ### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
 
 ```
@@ -1082,8 +1183,13 @@ Quantum Hardware + Quantum‑Adjacent Hardware
 │   │   ├─ 1. Superconducting Qubits
 │   │   │     • Transmon • Fluxonium • Flux qubit
 │   │   │     • Cavity‑protected (cat‑, binomial‑, GKP‑encoded)
+│   │   │     • Andreev pair qubits
+│   │   │     • Superconducting Dayem bridge qubits
+│   │   │     • Nanowire qubits (S-Sm-S, topological-insulator weak link, 
+│   │   │       ferromagnetic weak link, nonlinear kinetic inductance)
 │   │   ├─ 2. Spin‑Based Qubits
 │   │   │   ├─ a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
+│   │   │   │     • Andreev spin qubits
 │   │   │   └─ b. Magnetic & Molecular Spins
 │   │   │        • Magnetic clusters (Fe₈, Mn₁₂, heterometallic rings, other candidates)
 │   │   │        • Magnetic nanodisks (meron/ skyrmion qubits)
@@ -1114,7 +1220,8 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     ├─ A. Cryogenic Digital Control Logic
     │   ├─ 1. Single‑Flux‑Quantum families  (RSFQ, RQL, AQFP, eSFQ)
     │   ├─ 2. Deep‑Cryo CMOS (4 K)
-    │   └─ 3. Milli‑Kelvin CMOS (≤ 100 mK)
+    │   ├─ 3. Milli‑Kelvin CMOS (≤ 100 mK)
+    │   └─ 4. Nano Cryotrons (Superconducting nanowire switches)
     ├─ B. Cryogenic Mixed‑Signal & RF ICs
     │   ├─ 1. Time‑interleaved DAC/ADC
     │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
@@ -1141,7 +1248,64 @@ Quantum Hardware + Quantum‑Adjacent Hardware
         ├─ 2. Floating‑Body RAM (FBRAM) at 77 K
         ├─ 3. Capacitor‑less eDRAM/ DRAM benchmarks (2T0C, 4 K)
         ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
-        └─ 5. Spin‑orbit‑torque (SOT) MRAM at 4 K
+        ├─ 5. Spin‑orbit‑torque (SOT) MRAM at 4 K
+        └─ 6. Nano Cryotron memory cells
+```
+
+```
+Transmon family and transmon-derived extensions
+│
+├── Original capacitively shunted Cooper-pair-box transmon
+│   └── Reference architecture; outside the 30-entry count
+│
+├── Geometry, flux control, coupling, and packaging
+│   ├── [01] Split transmon/ SQUID transmon                         [E]
+│   ├── [02] 3D transmon                                            [E]
+│   ├── [03] Xmon                                                  [E]
+│   │   └── [04] gmon                                              [E]
+│   ├── [05] Concentric transmon                                   [E]
+│   ├── [06] Coaxmon                                               [E]
+│   ├── [07] Starmon                                               [E]
+│   ├── [08] 8-mon                                                 [E]
+│   └── [09] Flipmon                                               [E]
+│
+├── Junction, weak-link, and capacitor engineering
+│   ├── [10] Gatemon                                               [E]
+│   │   ├── InAs nanowire implementations
+│   │   ├── Planar InAs implementations
+│   │   ├── Ge/Si nanowire and planar Ge implementations
+│   │   ├── Graphene implementations
+│   │   ├── Sn/InAs implementations
+│   │   └── Carbon-nanotube implementations
+│   │
+│   ├── [11] Mergemon/ merged-element transmon (MET)               [E]
+│   │   ├── [12] FinMET                                          [C/T]
+│   │   └── Fully crystalline van der Waals MET implementations
+│   │
+│   ├── [13] Planaron                                              [S]
+│   ├── [14] Ferrotransmon/ Ferromon                                   [T]
+│   └── [15] FEmon/ ferroelectric transmon                         [T]
+│
+├── Multimode and coupled-transmon circuit architectures
+│   ├── [16] Tunable-coupling qubit (TCQ) and Dimon family           [E]
+│   ├── [17] Trimon                                                [E]
+│   ├── [18] Transmon molecule                                     [E]
+│   ├── [19] P-mon                                                 [E]
+│   └── [20] Weakly tunable qubit (WTQ)                             [E]
+│
+├── Engineered inductive and Josephson potentials
+│   ├── [21] Kinemon                                               [E]
+│   ├── [22] NMon                                                  [T]
+│   ├── [23] d-mon                                                 [T]
+│   ├── [24] SNAILmon                                              [E]
+│   ├── [25] Flowermon                                             [T]
+│   └── [26] Altermon                                              [T]
+│
+├── Fermionic-parity and spin-hybrid extensions
+    ├── [27] Top-transmon                                          [T]
+    ├── [28] Majorana-transmon                                     [T]
+    ├── [29] Kitmon                                                [T]
+    └── [30] Spinmon                                               [T]
 ```
 
 > Acronym Glossary for the Hardware‑Taxonomy Tree
