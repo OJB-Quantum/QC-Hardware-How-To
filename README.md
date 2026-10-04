@@ -1180,8 +1180,13 @@ Quantum Hardware + Quantum‑Adjacent Hardware
 │   │   ├─ 2. Spin‑Based Qubits
 │   │   │   ├─ a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
 │   │   │   │     • Andreev spin qubits
-│   │   │   └─ b. Magnetic & Molecular Spins
-│   │   │        • Magnetic clusters (Fe₈, Mn₁₂, heterometallic rings, other candidates)
+│   │   │   ├─ b. Molecular Orbital Qubits
+│   │   │   │   ├─ 1. Cluster Qubits (Magnetic & Non-magnetic)
+│   │   │   │   │     • Magnetic clusters (Fe₈, Mn₁₂, heterometallic rings, & other candidates)
+│   │   │   │   │     • Non-magnetic clusters (Au & other candidates)
+│   │   │   │   ├─ 2. Clock-Transition Molecular Qubits
+│   │   │   │   └─ 3. Ensemble Qubits
+│   │   │   └─ c. Magnetic Nanostructures
 │   │   │        • Magnetic nanodisks (meron/ skyrmion qubits)
 │   │   ├─ 3. Bosons (microwave photons, phonons, magnons)
 │   │   └─ 4. Topological/ Majorana Candidates
@@ -1225,7 +1230,7 @@ Quantum Hardware + Quantum‑Adjacent Hardware
     │   │     e. Quantum Capacitance Parametric Amplifier (QCPA)
     │   │     f. SNAIL‑based Parametric Amplifier (SPA/ SNAIL‑TWPA)
     │   ├─ 2. 4 K HEMT LNAs (octave‑wide, high dynamic range)
-    │   ├─ 3. RF Isolators/ Circulators (ferrite or on‑chip)
+    │   ├─ 3. RF Isolators/ Circulators (ferrite or on-chip)
     │   └─ 4. Superconducting & SAW Filters
     ├─ D. Cryogenic Packaging & Interconnect
     │   ├─ 1. Flex‑print & interposer tiles
