@@ -1808,11 +1808,11 @@ Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, 
 | --- | --- | --- |
 | C | Customer-accessible system or offering | Cloud access, procurement, or partner agreements may be required. |
 | R | Research demonstration or testbed | Applies to the demonstrated implementation or protocol, rather than unrestricted access to every reported capability. |
-| T | Announced target | An announced date does not establish completed deployment or demonstrated performance. |
-| CLOUD | Remote execution | Hardware is hosted by the provider. |
-| SITE | Customer or institutional installation | An offering does not establish that every proposed installation is operating. |
+| T | Announced target | Announced date doesn't imply completed deployment or demonstrated performance. |
+| CLOUD | Remote execution | Hardware is hosted by the provider. | 
+| SITE | Customer or institutional installation | Not every proposed installation is operating. |
 | LAB | Research apparatus | Register size and physical infrastructure are separate quantities. |
-| FACILITY | Facility-oriented deployment | Does not itself establish fault-tolerant computation. |
+| FACILITY | Facility-oriented deployment | Not fault-tolerant computation. |
 
 ```
 Qubit Architectures × Computational Readiness × Deployment
@@ -1990,7 +1990,7 @@ Qubit Architectures × Computational Readiness × Deployment
          ├─ Boson-sampling experiments: sampling tasks rather than universal gate sets
          └─ Linear optics with suitable sources, detection, and feedforward:
             universal quantum-computing schemes, subject to implementation resources
-```            
+```       
 
 ---
 
