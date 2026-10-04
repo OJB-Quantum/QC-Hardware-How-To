@@ -4,11 +4,205 @@
 
 Everything you need for quantum hardware engineering in the field.
 
-"In a sense, the physical realization of a quantum computer is an automated 'scatterometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, RF/LASER electronics, analog electronics, and advanced manufacturing, with particular emphasis on nanotechnology, vacuum technology, cryogenics, and device-level quantum transport." - Onri Jay Benally
+"In a sense, the physical realization of a quantum computer is an automated 'scatter-ometry' of quantum logic gates. Quantum hardware expertise emerges from the coupled practice of quantum optics, quantum metrology, quantum information, precision measurement, automation, RF/LASER electronics, analog electronics, and advanced manufacturing, with particular emphasis on nanotechnology, vacuum technology, cryogenics, and device-level quantum transport." - Onri Jay Benally
 
 Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.com/OJB-Quantum/QC-Hardware-How-To)
 
---- 
+<a id="zone-1-the-gateway"></a>
+
+## Zone 1: The Gateway
+
+<a id="quick-jump-navigation"></a>
+
+### Quick-Jump Navigation
+
+| Start here | Destination |
+| --- | --- |
+| Explore the disciplines behind quantum hardware expertise | [Expertise tree](#quantum-hardware-expertise-tree) |
+| Find universities, courses, training, and a curriculum example | [The Learning Path](#zone-2-the-learning-path) |
+| Look up qubits, device physics, control, readout, and cryogenics | [The Hardware Encyclopedia](#zone-3-the-hardware-encyclopedia) |
+| Browse the existing hardware figures | [Supplementary Figures: Reference Gallery](#supplementary-figures) |
+| Find cryostat suppliers and form factors | [Cryostats & Dilution Refrigerators](#cryostat-market) |
+| Follow fabrication, design tools, and coding resources | [The Engineering Manual](#zone-4-the-engineering-manual) |
+| Find career resources and employer eligibility notes | [Career & Industry](#career-and-industry) |
+
+<a id="table-of-contents"></a>
+
+<a id="contents"></a>
+
+#### Table of Contents
+
+<details>
+<summary><b>Expand the complete table of contents</b></summary>
+
+- [Zone 1: The Gateway](#zone-1-the-gateway)
+  - [Purpose, Philosophy & Quantum Hardware Expertise](#purpose-and-expertise)
+    - [Everything You Need for Experimental Quantum Hardware Engineering](#experimental-quantum-hardware-engineering)
+    - [Quantum Hardware Expertise Tree](#quantum-hardware-expertise-tree)
+    - [1st & 2nd Quantum Revolution](#quantum-revolutions)
+  - [Linguistic Foundations & Technical Terminology](#linguistic-foundations)
+    - [Scatterometry, Metrology & Quantum](#scatterometry-and-metrology)
+    - [Translation of "Quantum Computer" into Navajo by Onri Jay Benally](#navajo-translation)
+    - [Example of Linguistics Applied to Quantum Hardware Terminology](#linguistics-and-dispersive-terminology)
+    - [Portmanteaus for Transistor, Spintronics, Qubits, & Qudits](#portmanteaus)
+    - [Keywords & Terms To Look for When Reading a Technical Quantum-Computing-Hardware-Related Article](#technical-reading-keywords)
+  - [Quick-Start & Document Resources](#quick-start-and-resources)
+    - [Shortcut into Quantum Hardware Engineering - By Onri Jay Benally](#shortcut-into-quantum-hardware-engineering)
+    - [Experimental Quantum Hardware Engineering Booklet - By Onri Jay Benally](#experimental-hardware-booklet)
+    - [Creative Commons License](#creative-commons-license)
+
+- [Zone 2: The Learning Path](#zone-2-the-learning-path)
+  - [Research Hubs & Academic Pathways](#research-hubs-and-academic-pathways)
+    - [Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output (as of 2025)](#major-academic-quantum-research-hubs)
+    - [Quantum Hardware + Quantum Adjacent Hardware Thesis Output / Number of Labs per University (U.S. & Canada)](#thesis-output-and-labs)
+    - [Quantum-Applicable Degrees: BS to PhD](#quantum-applicable-degrees)
+    - [Quantum Hardware Lab & Chip Galleries](#quantum-hardware-lab-galleries)
+  - [Curated Online Courses](#curated-online-courses)
+    - [Quantum Information Science & Technology Courses and Programs, Up to the Graduate Level](#quantum-courses-and-programs)
+    - [MIT OpenCourseWare Deep Dive, Up to the Graduate Level](#mit-ocw-deep-dive)
+  - [Suggested Roadmap](#suggested-roadmap)
+    - [Quantum Science Curriculum Example - Cornell](#quantum-science-curriculum-example)
+  - [Training Videos](#training-videos)
+    - [Featured Quantum Hardware & Control Videos](#featured-hardware-training-videos)
+    - [Open Access Lectures & Tutorials, Up to the Graduate Level](#open-access-lectures-and-tutorials)
+  - [Books & References](#books-and-references)
+    - [Free or Open Access Literature & More, Up to the Graduate Level](#open-access-literature)
+
+- [Zone 3: The Hardware Encyclopedia](#zone-3-the-hardware-encyclopedia)
+  - [Supplementary Figures: Reference Gallery](#supplementary-figures)
+  - [A. Quantum Information Theory & Physics Foundations](#quantum-information-and-physics)
+    - [Terminology for Quantum Information Capabilities](#quantum-information-capabilities)
+    - [Various Types of Quanta](#types-of-quanta)
+    - [Rough Zoology of All Physical Qubits](#qubit-zoology)
+    - [Classifications of Qubits](#qubit-classifications)
+    - [Qubit vs. Qudit](#qubit-versus-qudit)
+    - [Stationary vs. Flying Qubits](#stationary-versus-flying-qubits)
+    - [Some Visualized Examples of Stationary & Flying Qubits](#stationary-and-flying-qubit-examples)
+    - [Example of Required Steps to Compute Molecular Energies (Mapped to 2 Physical Qubits)](#molecular-energy-computation-example)
+  - [B. Hardware Taxonomy, Device Physics & Logic](#hardware-taxonomy-device-physics-and-logic)
+    - [Quantum Hardware & Quantum Adjacent Hardware Categories](#quantum-hardware-and-adjacent-hardware)
+    - [Variations of Transmons and Other Related -mons](#transmon-family)
+    - [Acronym Glossary for the Hardware-Taxonomy Tree](#hardware-taxonomy-acronym-glossary)
+    - [Practical Requirements to Implement Qubits](#practical-qubit-requirements)
+    - [Mechanism-Agnostic Elements of a Qubit](#mechanism-agnostic-qubit-elements)
+    - [Linear & Non-Linear Elements of a Superconducting Qubit](#superconducting-qubit-elements)
+    - [A Coupled Coplanar Waveguide Resonator (Elbow)](#coupled-cpw-resonator)
+    - [Comparison Between Bose-Einstein Condensates, Superconducting Transmons, & Superconducting Linear Coplanar Waveguide Resonators](#bec-transmon-and-cpw-comparison)
+    - [A Truly Perfect Qubit](#determinism-and-perfect-qubit)
+    - [Illustrative Example Detailing the Outcome of Qubits Based on Their Classification](#qubit-classification-outcomes)
+    - [Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits](#single-to-multi-shot-success-rates)
+    - [Illustrative Example of Rabi Dynamics for Various Classes of Qubits Mentioned](#rabi-dynamics-by-qubit-class)
+    - [Top 2 Qubit Regimes in the Long Term](#long-term-qubit-regimes)
+    - [An Example Architecture of How a Fault-Tolerant Heterogeneous/ Hybrid Quantum System Could Look Like (By Onri)](#fault-tolerant-hybrid-architecture)
+    - [Entanglement Mediators for Qubits](#entanglement-mediators)
+    - [Example of a Cross-Resonance Used to Entangle Some Types of Superconducting Qubit Platforms](#cross-resonance)
+    - [Towards Deployment of Industry-Level vs. Academic Quantum Processors](#industry-and-academic-processor-deployment)
+  - [C. The Control & Readout Stack](#control-and-readout-stack)
+    - [Microwave & Baseband Control Requirements](#microwave-and-baseband-control)
+    - [Typical Carrier Frequencies Used by Some of the Primary Qubit Technologies for Control & Readout](#carrier-frequencies)
+    - [Placement & Purpose of Mixer Hardware Components](#mixer-placement-and-purpose)
+    - [Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware](#reflection-transmission-and-emission-setups)
+    - [Homodyne Measurement, Heterodyne Measurement, & Photon Counting](#homodyne-heterodyne-and-photon-counting)
+    - [Physical Outcomes of Quantum Measurement](#quantum-measurement-outcomes)
+    - [Qubit Rabi Oscillations & Their Fourier Transform](#rabi-oscillations-and-fourier-transform)
+    - [Advanced Quantum Computers Are Controlled Using 2 Main Approaches](#cryo-fpga-and-cryo-asic)
+    - [Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture](#cryo-cmos-controller-architecture)
+    - [Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture](#cryo-asic-controller-architecture)
+    - [A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators](#six-transmon-chip)
+    - [Experimental Schematic for the 6 Superconducting Transmon Chip](#six-transmon-experimental-schematic)
+    - [Experimental Schematic for a 2 Superconducting Fluxonium Chip](#two-fluxonium-experimental-schematic)
+    - [A Simplified  Experimental Schematic for a Tunable 2 Superconducting Transmon Chip](#two-tunable-transmon-experimental-schematic)
+  - [D. Cryogenics & Signal Conditioning](#cryogenics-and-signal-conditioning)
+    - [Cryostats & Dilution Refrigerators on the Market](#cryostat-market)
+    - [Additional Notes on Passive Cryogenic Vessels](#passive-cryogenic-vessels)
+    - [3 Common Cryogenic Equipment Formfactors Employed for Quantum & Low Temperature Experiments](#cryogenic-equipment-form-factors)
+    - [What a “Chandelier” Really Is (With Some Examples)](#cryogenic-chandelier)
+    - [How to Tell an Insert from a Wiring Tree/ Chassis](#dilution-insert-versus-wiring-tree)
+    - [Do I Need Cryogenic Equipment for My Quantum Photonic Chip (If I Have One)?](#quantum-photonic-chip-cryogenics)
+    - [Dilution Fridge Measurement System & Schematic](#dilution-fridge-measurement-system)
+    - [Cryogenic Dewar-Based Measurement System Using a Dipstick](#dewar-and-dipstick-measurement-system)
+    - [Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit or SQL)](#quantum-noise-limits-and-sql)
+    - [Common Cryogenic Amplifiers & Preamplifiers for Quantum Measurement](#cryogenic-amplifiers)
+    - [A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator](#dilution-refrigerator-noise-equations)
+
+- [Zone 4: The Engineering Manual](#zone-4-the-engineering-manual)
+  - [Nanofabrication Guide](#nanofabrication-guide)
+    - [Quantum Computing That Can Be Achieved Without Nanofabrication](#quantum-computing-without-nanofabrication)
+    - [Quantum Computing That Can Be Achieved With Nanofabrication](#quantum-computing-with-nanofabrication)
+    - [Nanotechnology Used for Quantum Chips](#nanotechnology-used-for-quantum-chips)
+    - [Background & Motivation](#fabrication-background-and-motivation)
+    - [Masked vs. Maskless Lithography & Application Methods](#masked-and-maskless-lithography)
+    - [Top-Down & Bottom-Up Manufacturing](#top-down-and-bottom-up-manufacturing)
+    - [Thin-Film Deposition & Stack Engineering](#thin-film-deposition)
+    - [The Lithography Design Process](#lithography-design-process)
+    - [Packaging, 3D Printing & CNC Manufacturing Interfaces](#packaging-and-manufacturing-interfaces)
+    - [A General Process Flow for Fabricating Quantum Chips Using a Top-Down Method](#top-down-fabrication-process-flow)
+    - [Fabrication Analogies & Atomic-Resolution Inspection](#fabrication-analogies-and-atomic-inspection)
+    - [Nanotechnology Conclusion](#nanotechnology-conclusion)
+    - [Nanofabrication Supplementary Images](#nanofabrication-supplementary-images)
+    - [Quantum Device Fabrication Slide Presentation Preview](#fabrication-slide-preview)
+    - [Nanofabrication Technology for Quantum Chips Document - By Onri Jay Benally](#nanofabrication-document)
+  - [Design Tools & Engineering Code](#design-tools-and-engineering-code)
+    - [Open Access Quantum Device Tools](#open-access-quantum-device-tools)
+    - [Open Quantum Hardware Solutions](#open-quantum-hardware-solutions)
+    - [Example Google Colab Notebooks - By Onri Jay Benally](#example-colab-notebooks)
+    - [Most Useful Coding Topics for Hardware Engineers](#most-useful-coding-topics-for-hardware-engineers)
+  - [Career & Industry](#career-and-industry)
+    - [The Quantum Workforce & Relevant Skills](#quantum-workforce-and-skills)
+    - [Quantum Career Opportunities](#quantum-career-opportunities)
+    - [Major Player Quantum-Hardware Employers, Internship / Job Eligibility & Citizenship Notes](#major-player-quantum-hardware-employers)
+
+</details>
+
+<a id="purpose-and-expertise"></a>
+
+### Purpose, Philosophy & Quantum Hardware Expertise
+
+<a id="experimental-quantum-hardware-engineering"></a>
+
+#### Everything You Need for Experimental Quantum Hardware Engineering
+
+**University of Minnesota**
+
+**Onri Jay Benally**  
+
+This document is meant to provide some level of consolidation for those desiring to be involved with quantum hardware engineering. By doing one's best to maintain familiarity with these topics, it is possible to become one who designs, builds, tests, operates, and maintains real quantum machines - a quantum mechanic. Another possibility is to begin working on a doctorate degree in the associated field with these training resources on hand. There are many clickable links in this document, so it might be best to view it using a browser or PDF viewer.
+
+My decision to share these resources is because they have been useful to me in my PhD work. This has been a very interesting path for me as a tribesman from the Navaho Nation. Here is my personal path: carpenter → electric vehicle researcher → nanotechnologist → quantum mechanic.
+
+Please note that open access is a key theme held herein. Enjoy.  
+
+– Onri
+
+<a id="quantum-hardware-expertise-tree"></a>
+
+#### Quantum Hardware Expertise Tree
+
+<img width="2213" height="auto" alt="Quantum hardware expertise tree: disciplines and sub-topical knowledge" src="https://github.com/user-attachments/assets/b83db606-8cd8-4600-ad98-45cbfb429b88" />
+
+> Quantum hardware expertise: disciplines and sub-topical knowledge.
+
+<a id="quantum-revolutions"></a>
+
+<a id="1st--2nd-quantum-revolution"></a>
+
+#### 1st & 2nd Quantum Revolution
+
+![unnamed (3)](https://github.com/user-attachments/assets/408ffd80-ea3c-4b19-bca7-2028e5dc4d04)
+
+> 1st & 2nd Quantum Revolution.
+
+Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="linguistic-foundations"></a>
+
+### Linguistic Foundations & Technical Terminology
+
+<a id="scatterometry-and-metrology"></a>
+
+#### Scatterometry, Metrology & Quantum
 
 **scatter (physics)**: "The scattering of light, other electromagnetic radiation, or particles" — *Oxford English Dictionary*
 
@@ -22,49 +216,297 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 **quantum (physics)**: "The minimum amount by which certain properties, such as energy or angular momentum, of a system can change." — *Oxford Reference*
 
+<a id="navajo-translation"></a>
 
----
+<a id="translation-of-quantum-computer-into-navajo-by-onri-jay-benally"></a>
 
-### Translation of "Quantum Computer" into Navajo by Onri Jay Benally
+#### Translation of "Quantum Computer" into Navajo by Onri Jay Benally
 
 | English Term       | Navaho/ Navajo Term                            | Literal Meaning in English                              |
 |--------------------|------------------------------------------------|---------------------------------------------------------|
 | quantum computer   | béésh t'áá 'aníí 'á'ádaatʼéhígíí nitsékeesí | Metal or piece of metal that thinks at a truly fundamental level |
 
---- 
+<a id="linguistics-and-dispersive-terminology"></a>
 
-<img width="2213" height="auto" alt="image" src="https://github.com/user-attachments/assets/b83db606-8cd8-4600-ad98-45cbfb429b88" />
+<a id="example-of-linguistics-applied-to-quantum-hardware-terminology"></a>
+
+#### Example of Linguistics Applied to Quantum Hardware Terminology
+
+<a id="etymology--linguistic-insight"></a>
+
+<a id="context-in-superconductivity"></a>
+
+> Breakdown of the term **dispersion** and its connection to the **dispersive regime**, first from an etymological and linguistic perspective, followed by its application in superconductivity.
+
+**Etymology & Linguistic Insight**
+
+| **Term**         | **Etymology & Linguistic Insight** |
+|------------------|-----------------------------------|
+| **Dispersion**   | - Derived from **Latin** *dispersio*, from *dispergere* ("to scatter, spread out"). <br> - *Dis-* ("apart") + *spargere* ("to scatter, sprinkle") → meaning "to spread apart or distribute." <br> - Commonly refers to the process of separation or spreading in various contexts: optics, fluid dynamics, and waves. |
+| **Dispersive**   | - Adjective form of **dispersion**, indicating a system or medium where different components (e.g., waves, particles) separate due to frequency-dependent properties. <br> - In physics, this refers to how different frequencies propagate at different speeds, leading to *wave dispersion*. |
+| **Regime**       | - From **Latin** *regimen* ("rule, system, guidance"), related to *regere* ("to guide, direct, rule"). <br> - Indicates a domain or system characterized by a particular set of governing rules. |
+
+**Linguistic Insight:**  
+
+- The root meanings emphasize the **spreading or separation** of components (dispersion) under specific **rules or conditions** (regime).  
+- Thus, a **dispersive regime** is a domain where wave-like entities (e.g., electromagnetic waves, phonons, quasiparticles) experience **frequency-dependent separation** governed by a particular system.
+
+**Context in Superconductivity**
+
+| **Concept**                | **Description** |
+|----------------------------|----------------|
+| **Dispersion in superconductivity** | Refers to the relationship between the energy and momentum of excitations (e.g., quasiparticles, plasmons, phonons, or collective modes) in a superconducting system. This dispersion relation determines how these excitations propagate. |
+| **Dispersive regime**       | A regime where the propagation characteristics of these excitations strongly depend on frequency. In superconducting circuits, this typically arises when the system exhibits **nonlinear interactions**, leading to frequency-dependent phase shifts and group velocity variations. |
+| **Example: Josephson junctions** | In superconducting circuits, Josephson junctions exhibit a **dispersive regime** where the nonlinear inductance causes frequency-dependent shifts in resonance conditions, critical for quantum computing and readout of superconducting qubits. |
+| **Example: Microwave resonators** | Superconducting microwave resonators interact with qubits via dispersive coupling, shifting their resonance frequency depending on the qubit state—a fundamental principle of circuit quantum electrodynamics (cQED). |
+
+**Key Takeaway:**  
+
+- The dispersive regime in superconducting systems **exploits frequency-dependent interactions** to enable **state-dependent measurements, non-demolition readout, and coherent quantum control** in quantum computing.
+
+<a id="portmanteaus"></a>
+
+<a id="portmanteaus-for-transistor-spintronics-qubits--qudits"></a>
+
+#### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
+
+```
+Portmanteaus
+├── Transistor
+|   ├── transconductance + varistor
+|   |   └── transconductance + variable + resistor
+|   └── transfer + resistor (widely accepted)
+|
+├── Spintronics
+|   ├── spin + transport + electronics
+|   └── spin + electronics
+|
+├── Qubits
+|   └── quantum + bit
+|       └── quantum + binary + digit
+|
+└── Qudits
+    └── quantum + digit
+```
+
+<a id="technical-reading-keywords"></a>
+
+<a id="keywords--terms-to-look-for-when-reading-a-technical-quantum-computing-hardware-related-article"></a>
+
+#### Keywords & Terms To Look for When Reading a Technical Quantum-Computing-Hardware-Related Article
+
+| **Category**                      | **Keywords & Terms**                                                                                       |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Quantum System Dynamics**       | Drive, Excite, Qubit, Resonance, Coherence, Transition, State Transition, Rabi Frequency, Rabi Oscillation |
+| **Measurement & Readout**         | Readout, Read Out, Read-out, Dependent, Reference, Convert, Converter, ADC, DAC                            |
+| **Signal Processing & Control**   | Modulate, Pulse, Formulated, Power, Port                                                                   |
+| **Quantum States & Behavior**     | Ground, Flying, Static, Stationary, State Classification                                                   |
+| **Fabrication & Manufacturing**   | Fabrication, Yield, Manufacture, Foundry, Compatible, Hero Device                                          |
+| **Clarity & Verification**        | Clear, Correct, Resilient                                                                                  |
+| **Quantum Interactions**          | Couple, Coupling, Entangle                                                                                 |
+| **Logical & Structural Concepts** | Prerequisite, Implement, Implemented, Implementation, Integrated, Agnostic                                 |
+| **Analysis & Justification**      | Compare, Compared, Justification, Justified, Motivation                                                    |
+
+<a id="quick-start-and-resources"></a>
+
+### Quick-Start & Document Resources
+
+<a id="shortcut-into-quantum-hardware-engineering"></a>
+
+#### Shortcut into Quantum Hardware Engineering - By Onri Jay Benally
+
+| **Topic** | **Details** |
+|-----------|-------------|
+| Start with a 3D modeling & linguistics framework | May involve a custom keywords glossary. |
+| Spectroscopy or "scatterometry" | Involves probing something without physical contact. |
+| Topics covered | Materials science & engineering, precision measurement, automation, RF/LASER electronics, analog electronics, quantum metrology, quantum transport, quantum optics, quantum information, quantum electronic design automation. |
+| Electronic filters | Know how they are configured, designed, & what they look like. |
+| Filter components | Understand what they are made of. |
+| Passive vs active filters | Know the difference. |
+| Optical, microwave, & RF isolators | Understand the differences among isolators, circulators, & mixers. |
+| Amplifiers | Be aware of room temperature & cryogenic amplifiers & their materials. |
+| Amplifier noise types | Thermal, shot, external, quantum. |
+| Signal manipulation | Know how a signal curve or response is manipulated. |
+| Signal triggering | Know how signals are triggered. |
+| Impedance matching | Understand how many ohms are required. |
+| Smith chart | Know how it works. |
+| Resistors | Understand their many purposes. |
+| Multiphase power | Know what it means. |
+| Resonators | Understand what a resonator & resonator cavity is. |
+| Equipment | Vector network & spectrum analyzers, arbitrary waveform generators, signal generators. |
+| Oscillator circuit | Know its role in voltage fluctuation or AC. |
+| Inverter circuit | Understand DC to AC conversion. |
+| Rectifier circuit | Understand AC to DC conversion. |
+| Signal filtering | High-pass, low-pass, band-pass, band-stop filter circuits/crossover networks. |
+| Comparator circuit | Understand threshold indicators. |
+| Logic gates | Know their basic functions (e.g., calculator). |
+| PID controller | Understand closed-loop control for self-balancing. |
+| Feed forward controller | Understand open-loop control as a self-balancing alternative. |
+| Bonus project | Build a simple electronic audio amplifier device (similar components to quantum systems). |
+
+<a id="experimental-hardware-booklet"></a>
+
+#### Experimental Quantum Hardware Engineering Booklet - By Onri Jay Benally
+
+**Will be updated soon.**
+
+[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
+
+[Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy).
+
+<a id="creative-commons-license"></a>
+
+#### Creative Commons License
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.  
+To view a copy of this license, visit [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/) or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+![](https://cdn.mathpix.com/cropped/2025_01_16_d72777393d0d68fddefcg-02.jpg?height=129&width=342&top_left_y=2055&top_left_x=889)
+
+[Back to navigation](#quick-jump-navigation)
 
 ---
 
-## Click to skip straight to the quantum hardware figures: [Supplementary Figures](https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#supplementary-figures)
+<a id="zone-2-the-learning-path"></a>
 
----
+## Zone 2: The Learning Path
 
-### Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output (as of 2025):
+<a id="research-hubs-and-academic-pathways"></a>
+
+### Research Hubs & Academic Pathways
+
+<a id="major-academic-quantum-research-hubs"></a>
+
+<a id="major-academic-quantum-research-hubs-with-high-volume-graduate-quantum-hardware--quantum-adjacent-hardware-dissertation-output-as-of-2025"></a>
+
+#### Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output (as of 2025)
 
 <img width="3800" height="auto" alt="491879170-f784cb74-ac86-49c5-9d6d-5ffed0d62882" src="https://github.com/user-attachments/assets/80a9ee1e-eea5-4d7f-a84f-f5769463fbd4"/>
 
-> See here for related quantum hardware dissertation rankings in the US and Canada: <https://github.com/OJB-Quantum/QC-Hardware-How-To?tab=readme-ov-file#quantum-hardware--quantum-adjacent-hardware-thesis-outputnumberoflabs-per-university-uscanada>
+> See here for related quantum hardware dissertation rankings in the US and Canada: [Thesis Output & Number of Labs](#thesis-output-and-labs)
 
----
+<a id="thesis-output-and-labs"></a>
 
-### Serious Quantum Information Science & Technology Courses Online, Up to the Graduate Level:
+<a id="quantum-hardware--quantum-adjacent-hardware-thesis-output-number-of-labs-per-university-us--canada"></a>
 
-| **Name or Title**                      | **Cost** | **Link**                                                                 |
-|----------------------------------------|----------|--------------------------------------------------------------------------|
+#### Quantum Hardware + Quantum Adjacent Hardware Thesis Output / Number of Labs per University (U.S. & Canada)
+
+<details>
+<summary><b>Expand the U.S. and Canada thesis-output tiers</b></summary>
+
+**Estimated Avg. Total Master’s + Ph.D. Theses per Year over 10 Years**
+
+```
+├─ Tier 1 — High‑volume producers (≥ 5 per year)
+│   ├─ Yale University (Yale) ......................................  6.0 ;  ~7 labs
+│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; ~12 labs
+│   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; ~15 labs
+│
+├─ Tier 2 — Moderate producers (3 – 4.9 per year)
+│   ├─ University of California – Berkeley (UC Berkeley) ...........  4.5 ;  9 labs
+│   ├─ University of Waterloo (IQC) ................................  4.0 ; ~22 labs
+│   ├─ Princeton University (Princeton) ............................  4.0 ;  5 labs
+│   ├─ University of California – Santa Barbara (UCSB) .............  4.0 ;  4 labs
+│   ├─ Harvard University (Harvard) ................................  3.5 ;  7 labs
+│   ├─ Stanford University (Stanford) ..............................  3.5 ;  6 labs
+│   ├─ University of Wisconsin–Madison (UW‑Madison) ................  3.5 ;  4 labs
+│   ├─ University of Chicago (UChicago) ............................  3.0 ;  6 labs
+│   └─ California Institute of Technology (Caltech) ................  3.0 ;  5 labs
+│
+├─ Tier 3 — Niche producers (1.5 – 2.9 per year)
+│   ├─ University of British Columbia (UBC/ QMI) ...................  2.5 ; 12 labs
+│   ├─ University of Toronto (CQIQC) ...............................  2.5 ; 10 labs
+│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ...........  2.5 ;  6 labs
+│   ├─ Université de Sherbrooke (IQ) ...............................  2.0 ; 11 labs
+│   ├─ University of Michigan (U‑M) ................................  2.0 ;  4 labs
+│   ├─ Duke University (Duke) ......................................  2.0 ;  4 labs
+│   ├─ University of Texas at Austin (UT Austin) ...................  2.0 ;  4 labs
+│   ├─ Cornell University (Cornell) ................................  2.0 ;  4 labs
+│   ├─ McGill University (McGill) ..................................  1.5 ;  6 labs
+│   ├─ University of Alberta (UAlberta) ............................  1.5 ;  5 labs
+│   ├─ University of Calgary (UCalgary) ............................  1.5 ;  5 labs
+│   ├─ Rice University (Rice) ......................................  1.5 ;  3 labs
+│   ├─ Pennsylvania State University (Penn State) ..................  1.5 ;  3 labs
+│   ├─ Northwestern University (Northwestern) ......................  1.5 ;  3 labs
+│   ├─ Georgia Institute of Technology (Georgia Tech) ..............  1.5 ;  3 labs
+│   ├─ University of California – Los Angeles (UCLA) ...............  1.5 ;  3 labs
+│   ├─ University of California – San Diego (UC San Diego) .........  1.5 ;  3 labs
+│   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  1.5 ;  3 labs
+│   └─ University of Washington (UW) ...............................  1.5 ;  3 labs
+│
+└─ Tier 4 — Emerging nodes (< 1.5 per year)
+    ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  ~5 labs
+    ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............  1.0 ;  ~5 labs
+    ├─ Simon Fraser University (SFU) ..............................  1.0 ;  4 labs
+    ├─ Columbia University (Columbia) .............................  1.0 ;  3 labs
+    ├─ Université de Montréal (UdeM) ..............................  1.0 ;  3 labs
+    ├─ Arizona State University (ASU) .............................  1.0 ;  3 labs
+    ├─ University of California – Davis (UC Davis) ................  1.0 ;  2 labs
+    ├─ University of Arizona (UArizona) ...........................  1.0 ;  2 labs
+    ├─ University of New Mexico (CQuIC) ...........................  1.0 ;  2 labs
+    ├─ University of Rochester (U Rochester) ......................  1.0 ;  2 labs
+    ├─ Université Laval (Laval) ...................................  1.0 ;  2 labs
+    └─ University of Victoria (UVic) ..............................  0.5 ;  2 labs
+```
+
+> Note: Recently, the University of Pittsburgh, University of Chicago, Arizona State University, and University of Colorado-Boulder have started to dramatically scale their infrastructure for quantum hardware-related research. So, expect these 4 to move up in the tier list very quickly in the near future.
+
+</details>
+
+<a id="quantum-applicable-degrees"></a>
+
+#### Quantum-Applicable Degrees: BS to PhD
+
+**Non-Exhaustive List**
+
+|      |  |
+| :--- | :--- |
+| Physics (Experimental or Applied) | Computer Engineering |
+| Quantum Science & Engineering | Chemistry |
+| Quantum Technology | Chemical Engineering |
+| Engineering Physics | Physical Chemistry |
+| Electrical Engineering | Systems Engineering |
+| Electrical & Computer Engineering | Mechanical Engineering |
+| Materials Science | Nanoscience |
+| Materials Science & Engineering | Nanoengineering |
+|  |  |
+
+<a id="quantum-hardware-lab-galleries"></a>
+
+#### Quantum Hardware Lab & Chip Galleries
+
+| **Lab**          | **Gallery Link**                                                                            |
+|------------------|-|
+| IBM Research     | <https://www.flickr.com/photos/ibm_research_zurich/albums>                                  |
+| ETH Zurich       | <https://qudev.phys.ethz.ch/gallery>                                                   |
+| UWaterloo        | <https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours> |
+
+| Click Below To Access Quantum Chip Gallery, TU Delft |
+| - |
+| [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
+| [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
+| [QSysArch](https://qsysarch.com/qpu) |
+
+<a id="curated-online-courses"></a>
+
+### Curated Online Courses
+
+<a id="quantum-courses-and-programs"></a>
+
+<a id="serious-quantum-information-science--technology-courses-online-up-to-the-graduate-level"></a>
+
+<a id="paid-quantum-programs-can-be-audited-for-free"></a>
+
+#### Quantum Information Science & Technology Courses and Programs, Up to the Graduate Level
+
+| **Course or Program** | **Cost** | **Link** |
+| --- | --- | --- |
 | School of Quantum, QuTech, TU Delft    | Free     | [QuTech Academy](https://www.qutube.nl)                                  |
 | IQM Academy, IQM                       | Free     | [IQM Academy](https://www.iqmacademy.com)                                |
 | IBM Quantum Learning, IBM              | Free     | [IBM Quantum Learning](https://learning.quantum.ibm.com)                 |
 | Quantum Computing for Natural Sciences, Open HPI, IBM Quantum | Free     | [Quantum Computing for Natural Sciences](https://open.hpi.de/courses/qc-nature2023) |
 | Quantum Machine Learning, Open HPI, IBM Quantum               | Free     | [Quantum Machine Learning](https://open.hpi.de/courses/qc-machineLearning2023) |
 | Topology in Condensed Matter, TU Delft | Free     | [Topology in Condensed Matter](https://topocondmat.org/index.html)       |
-
-
-### Paid Quantum Programs (Can Be Audited for Free):
-
-| **Course Name**                              | **Cost**   | **Link**                                                                 |
-|---------------------------------------------|------------|--------------------------------------------------------------------------|
 | Hardware of a Quantum Computer              | Paid/Audit | [Hardware of a Quantum Computer](https://www.edx.org/learn/quantum-computing/delft-university-of-technology-the-hardware-of-a-quantum-computer) |
 | Machine Learning for Semiconductor Devices  | Paid/Audit | [Machine Learning for Semiconductor Quantum Devices](https://www.edx.org/learn/machine-learning/delft-university-of-technology-machine-learning-for-semiconductor-quantum-devices) |
 | Professional Certificate, Quantum 301       | Paid/Audit | [Quantum 301](https://www.edx.org/certificates/professional-certificate/delftx-quantum-301-quantum-computing-with-semiconductor-technology) |
@@ -75,11 +517,14 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 | Quantum Technology: Computing & Sensing, MicroMasters    | Paid/Audit | [Quantum Technology: Computing & Sensing](https://www.edx.org/masters/micromasters/purduex-quantum-technology-computing-and-sensin)           |
 | Quantum Espresso Training                   | Paid       | [Quantum Espresso Training](https://www.udemy.com/courses/search/?q=quantum+espresso&src=sac&kw=quantum+espresso)                     |
 
+<a id="mit-ocw-deep-dive"></a>
 
----
+<a id="another-list-for-serious-quantum-courses-online-up-to-the-graduate-level-based-on-mit-ocw"></a>
 
+#### MIT OpenCourseWare Deep Dive, Up to the Graduate Level
 
-### Another List for Serious Quantum Courses Online, Up to the Graduate Level, (Based on MIT OCW):
+<details>
+<summary><b>Expand the MIT OCW course list</b></summary>
 
 | **Course Name**                                   | **Link**                                                                 |
 |---------------------------------------------------|--------------------------------------------------------------------------|
@@ -114,44 +559,62 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 | Relativistic Quantum Field Theory III            | [Relativistic Quantum Field Theory III](https://ocw.mit.edu/courses/8-325-relativistic-quantum-field-theory-iii-spring-2007) |
 | Modern Quantum Many-Body Physics for Condensed Matter Systems | [Modern Quantum Many-Body Physics](https://ocw.mit.edu/courses/8-513-modern-quantum-many-body-physics-for-condensed-matter-systems-fall-2021) |
 
---- 
+</details>
 
-| Click Below To Access Quantum Chip Gallery, TU Delft |
-| - |
-| [Quantum Integrated Circuits](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits/chip-gallery) |
-| [More from the Chip Gallery](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-integrated-circuits) |
-| [QSysArch](https://qsysarch.com/qpu) |
+<a id="suggested-roadmap"></a>
 
---- 
+### Suggested Roadmap
 
-| Some Example Google Colab Notebooks Authored by Onri |  |
-| ----------- | ----------------- |
-| Josephson Junction Tunneling Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Quantum_Tunneling_Prediction.ipynb) |
-| Josephson Junction Fraunhofer Pattern | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Fraunhofer_Pattern.ipynb) |
-| Coulomb Diamonds & Blockade Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Coulomb_Blockades_and_Coulomb_Diamonds.ipynb) |
-| Quantum-Limited Parametric Amplification Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Parametric_Amplification_Plot.ipynb) |
-| Transverse Electromagnetic Wave Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Transverse_Electromagnetic_Wave_Visualization.ipynb) |
-| Pulse Shapes and Envelopes Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Pulse_Shapes_and_Envelopes_Visualization.ipynb) |
-| Temperature Dependence of Coplanar Waveguide (CPW) Resonator Sweeps| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Temperature_Dependence_of_CPW_Resonator_Sweeps.ipynb) |
-| Coplanar Waveguide (CPW) Kinetic Inductance Simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/CPW_Kinetic_Inductance_Simulation.ipynb)|
+<a id="quantum-science-curriculum-example"></a>
 
-Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](https://nbviewer.org/github/OJB-Quantum/QC-Hardware-How-To/tree/main/Jupyter%20Notebook%20Scripts)
+#### Quantum Science Curriculum Example - Cornell
 
---- 
+Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.edu/education)
 
-### A copy of the Experimental Quantum Hardware Engineering booklet, written by Onri Jay Benally (will be updated soon):
+| **Courses**                                 |                                                             |
+|---------------------------------------------|-------------------------------------------------------------|
+| AEP 1200                                    | Introduction to Nanoscience & Nanoengineering               |
+| AEP 2550                                    | Engineering Quantum Information Hardware                    |
+| AEP 3100                                    | Introductory Quantum Computing                              |
+| AEP 3610                                    | Introductory Quantum Mechanics                              |
+| AEP 3620                                    | Intermediate Quantum Mechanics                              |
+| AEP 4400                                    | Nonlinear & Quantum Optics                                  |
+| AEP 4500/ PHYS 4454                         | Introductory Solid State Physics                            |
+| CHEM 7870                                   | Mathematical Methods of Physical Chemistry                  |
+| CHEM 7910                                   | Advanced Spectroscopy                                      |
+| CHEM 7930                                   | Quantum Mechanics I                                        |
+| CHEME 6860/ SYSEN 5860                      | Quantum Computing & Artificial Intelligence                 |
+| CS 4812/ PHYS 4481                          | Quantum Information Processing                              |
+| ECE 4060                                    | Quantum Physics & Engineering                               |
+| ECE 4070                                    | Physics of Semiconductors & Nanostructures                 |
+| ECE 5310                                    | Quantum Optics for Photonics & Optoelectronics             |
+| ECE 5330                                    | Semiconductor Optoelectronics                              |
+| MSE 5720                                    | Computational Materials Science                             |
+| MSE 6050                                    | Physics of Semiconductors & Nanostructures                 |
+| PHYS 2214                                   | Physics III: Oscillations, Waves, & Quantum Physics         |
+| PHYS 3316                                   | Basics of Quantum Mechanics                                |
+| PHYS 3317                                   | Applications of Quantum Mechanics                          |
+| PHYS 4443                                   | Intermediate Quantum Mechanics                             |
+| PHYS 4444                                   | Introduction to Particle Physics                           |
+| PHYS 4410/ PHYS 6510                        | Advanced Experimental Physics                              |
+| PHYS 6572                                   | Quantum Mechanics I                                       |
+| PHYS 6574                                   | Applications of Quantum Mechanics II                      |
+| PHYS 7636                                   | Solid-State Physics II                                    |
+| PHYS 7645                                   | Introduction to the Standard Model of Particle Physics    |
+| PHYS 7651                                   | Relativistic Quantum Field Theory I                       |
+| PHYS 7652                                   | Relativistic Quantum Field Theory II                      |
+| PHYS 7654                                   | Basic Training in Condensed Matter Physics                |
 
-[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Everything%20You%20Need%20for%20Quantum%20Hardware%20Engineering.pdf). 
+<a id="training-videos"></a>
 
-[Click here for the Overleaf version](https://www.overleaf.com/read/xmrssbbxhsxy).
+### Training Videos
 
---- 
+<a id="featured-hardware-training-videos"></a>
 
-### A copy of the Nanofabrication Technology for Quantum Chips document, written by Onri Jay Benally: 
+#### Featured Quantum Hardware & Control Videos
 
-[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
-
---- 
+<details>
+<summary><b>Expand the featured playlists and equipment videos</b></summary>
 
 - An extended version of the playlist on quantum hardware engineering is available: [Quantum Hardware Engineering](https://youtube.com/playlist?list=PLbW5jviv4ckyjq-7YkZWeBwASv83XP2iL&si=K7sNuWY8_DCH77vP)
 
@@ -202,74 +665,14 @@ Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](htt
 | [Advanced Microwave Topics for Quantum Physicists, Tabor Electronics](https://youtu.be/k7O8dEVtUcY?si=fo_ZIqWvgdIcHii7) |
 | [Supporting the Development of Quantum/Superconducting Applications, Amphenol Ardent Concepts](https://youtu.be/vf6BXr6CszM?si=AVSBA7o56DsQzpEY) |
 
+</details>
 
-__________________________________________________________________________________________________________________________________________________
+<a id="open-access-lectures-and-tutorials"></a>
 
-# Everything You Need for Experimental Quantum Hardware Engineering  
-**University of Minnesota**
+#### Open Access Lectures & Tutorials, Up to the Graduate Level
 
-**Onri Jay Benally**  
-
-This document is meant to provide some level of consolidation for those desiring to be involved with quantum hardware engineering. By doing one's best to maintain familiarity with these topics, it is possible to become one who designs, builds, tests, operates, and maintains real quantum machines - a quantum mechanic. Another possibility is to begin working on a doctorate degree in the associated field with these training resources on hand. There are many clickable links in this document, so it might be best to view it using a browser or PDF viewer.
-
-My decision to share these resources is because they have been useful to me in my PhD work. This has been a very interesting path for me as a tribesman from the Navaho Nation. Here is my personal path: carpenter → electric vehicle researcher → nanotechnologist → quantum mechanic.
-
-Please note that open access is a key theme held herein. Enjoy.  
-
-– Onri
-
----
-
-## Creative Commons License
-
-This work is licensed under the Creative Commons Attribution 4.0 International License.  
-To view a copy of this license, visit [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/) or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
-![](https://cdn.mathpix.com/cropped/2025_01_16_d72777393d0d68fddefcg-02.jpg?height=129&width=342&top_left_y=2055&top_left_x=889)
-
----
-
-# Contents
-
-1. Open Access Quantum Device Tools  
-2. Training Videos  
-3. Books & References  
-4. Quantum Hardware Lab Galleries  
-5. Quantum-Applicable Degrees: BS to PhD  
-6. Quantum Science Curriculum Example  
-7. Shortcut into Quantum Hardware Engineering  
-8. Most Useful Coding Topics for Hardware Engineers  
-9. Quantum Career Opportunities  
-
----
-
-# Chapter 1
-
-## Open Access Quantum Device Tools
-
-Free tools for designing, simulating, & analyzing quantum/nano devices:
-
-| **Tool**                                                                           | **URL**                                                                                    |
-|------------------------------------------------------------------------------------|--------------------|
-| Semiconductor Process & Device Simulation (SILVACO, browser-based)                 | [https://nanohub.org/resources/silvacotcad](https://nanohub.org/resources/silvacotcad)                                                                                                               |
-| KLayout, Pattern Generation & Layout, Direct-Download                              | [https://www.klayout.de/build.html](https://www.klayout.de/build.html)                                                                                                                               |
-| Elmer FEM, Multiphysics Simulation Tool, Direct-Download                           | [https://www.csc.fi/web/elmer/binaries](https://www.csc.fi/web/elmer/binaries)                                                                                                                       |
-| COMSOL Superconducting Simulation Tool, Browser-Based                              | [https://aurora.epfl.ch/app-lib](https://aurora.epfl.ch/app-lib)                                                                                                                                     |
-| scQubits, Superconducting Qubit Simulation Tool, Python-Based                      | [https://scqubits.readthedocs.io/en/v3.2/index.html](https://scqubits.readthedocs.io/en/v3.2/index.html)                                                                                             |
-| JosephsonCircuits, Superconducting Circuit Simulation Tool, Julia-Based            |  [https://github.com/kpobrien/JosephsonCircuits.jl](https://github.com/kpobrien/JosephsonCircuits.jl) |
-| QTCAD, Spin Qubit Design/Simulation/Analysis, Python-Based                         | [https://docs.nanoacademic.com/qtcad/introduction](https://docs.nanoacademic.com/qtcad/introduction)                                                                                                   |
-| Qiskit Metal, Quantum Device & Circuit Design/Analysis, GUI & Python-Based         | [https://github.com/qiskit-community/qiskit-metal#qiskit-metal](https://github.com/qiskit-community/qiskit-metal#qiskit-metal)                    |
-| KQCircuits, Quantum Device & Circuit Design, KLayout GUI Python-Based              | [https://iqm-finland.github.io/KQCircuits](https://iqm-finland.github.io/KQCircuits) |
-| Quantum Photonic Gate Array Simulation, Python-Based                               | [https://github.com/fancompute/qpga#quantum-programmable-gate-arrays](https://github.com/fancompute/qpga#quantum-programmable-gate-arrays)                                                           |
-| Quantum Photonics Design/Simulation/Fabrication, Analysis, Python-Based            | [https://github.com/SiEPIC/SiEPIC-Tools#siepic-tools](https://github.com/SiEPIC/SiEPIC-Tools#siepic-tools)                                                                                           |
-| Qubit Design & Fabrication Example (applies codes to run lithography machines...)  | [https://github.com/OJB-Quantum/Qiskit-Metal-to-Litho#qiskit-metal-to-litho](https://github.com/OJB-Quantum/Qiskit-Metal-to-Litho#qiskit-metal-to-litho)                                              |
-| GitHub Usage Tutorial                                                              | [https://github.com/OJB-Quantum/How-to-GitHub#how-to-use-github](https://github.com/OJB-Quantum/How-to-GitHub#how-to-use-github)                                                                     |
-
----
-
-# Chapter 2
-
-## Training Videos
+<details>
+<summary><b>Expand the training-video resource tables</b></summary>
 
 Related Open Access Lectures & Tutorials (Up to Graduate Level):
 
@@ -322,11 +725,20 @@ Related Open Access Lectures & Tutorials (Up to Graduate Level):
 | Blender Basics for Scientists (Dr. Joseph G. Manion)                           | [https://youtube.com/playlist?list=PLcKSD7d0T-HBmOH-NYYgMgVX1LZF72K-3&si=K-Q0r_ntgwmQmV0o](https://youtube.com/playlist?list=PLcKSD7d0T-HBmOH-NYYgMgVX1LZF72K-3&si=K-Q0r_ntgwmQmV0o) |
 | Quantum Chip Rendering Tutorials (Onri Jay Benally)                            | [https://youtube.com/playlist?list=PLbW5jviv4ckwvvhSjwONc6pa-glNdI6vg&si=k91iBjwjTF4Spp6z](https://youtube.com/playlist?list=PLbW5jviv4ckwvvhSjwONc6pa-glNdI6vg&si=k91iBjwjTF4Spp6z) |
 
----
+</details>
 
-# Chapter 3
+<a id="books-and-references"></a>
 
-## Books & References
+### Books & References
+
+<a id="open-access-literature"></a>
+
+<a id="books--references"></a>
+
+#### Free or Open Access Literature & More, Up to the Graduate Level
+
+<details>
+<summary><b>Expand the literature and visualization resources</b></summary>
 
 Free or Open Access Literature & More (Up to Graduate Level):
 
@@ -384,333 +796,64 @@ Free or Open Access Literature & More (Up to Graduate Level):
 | Interactive Quantum Computing Education Tools | [https://www.iqmacademy.com/play](https://www.iqmacademy.com/play) |
 | Quantum Phenomena Visualization | [https://toutestquantique.fr/en](https://toutestquantique.fr/en) |
 
----
+</details>
 
-# Chapter 4
-
-## Quantum Hardware Lab Galleries
-
-| **Lab**          | **Gallery Link**                                                                            |
-|------------------|-|
-| IBM Research     | <https://www.flickr.com/photos/ibm_research_zurich/albums>                                  |
-| ETH Zurich       | <https://qudev.phys.ethz.ch/gallery>                                                   |
-| UWaterloo        | <https://uwaterloo.ca/quantum-nano-fabrication-and-characterization-facility/virtual-tours> |
+[Back to navigation](#quick-jump-navigation)
 
 ---
 
-# Chapter 5
+<a id="zone-3-the-hardware-encyclopedia"></a>
 
-## Quantum-Applicable Degrees: BS to PhD
+## Zone 3: The Hardware Encyclopedia
 
-### (Non-Exhaustive List)
+<a id="supplementary-figures"></a>
 
-|      |  |
-| :--- | :--- |
-| Physics (Experimental or Applied) | Computer Engineering |
-| Quantum Science & Engineering | Chemistry |
-| Quantum Technology | Chemical Engineering |
-| Engineering Physics | Physical Chemistry |
-| Electrical Engineering | Systems Engineering |
-| Electrical & Computer Engineering | Mechanical Engineering |
-| Materials Science | Nanoscience |
-| Materials Science & Engineering | Nanoengineering |
-|  |  |
+### Supplementary Figures: Reference Gallery
 
----
+| Reference area | Figure or gallery | Jump |
+| --- | --- | --- |
+| Purpose, Philosophy & Quantum Hardware Expertise | Quantum Hardware Expertise Tree | [View](#quantum-hardware-expertise-tree) |
+| Purpose, Philosophy & Quantum Hardware Expertise | 1st & 2nd Quantum Revolution | [View](#quantum-revolutions) |
+| Research Hubs & Academic Pathways | Major Academic Quantum Research Hubs with High-Volume Graduate Quantum Hardware + Quantum Adjacent Hardware Dissertation Output (as of 2025) | [View](#major-academic-quantum-research-hubs) |
+| Quantum Information Theory & Physics Foundations | Rough Zoology of All Physical Qubits | [View](#qubit-zoology) |
+| Quantum Information Theory & Physics Foundations | Some Visualized Examples of Stationary & Flying Qubits | [View](#stationary-and-flying-qubit-examples) |
+| Quantum Information Theory & Physics Foundations | Example of Required Steps to Compute Molecular Energies (Mapped to 2 Physical Qubits) | [View](#molecular-energy-computation-example) |
+| Hardware Taxonomy, Device Physics & Logic | Mechanism-Agnostic Elements of a Qubit | [View](#mechanism-agnostic-qubit-elements) |
+| Hardware Taxonomy, Device Physics & Logic | Linear & Non-Linear Elements of a Superconducting Qubit | [View](#superconducting-qubit-elements) |
+| Hardware Taxonomy, Device Physics & Logic | A Coupled Coplanar Waveguide Resonator (Elbow) | [View](#coupled-cpw-resonator) |
+| Hardware Taxonomy, Device Physics & Logic | Illustrative Example Detailing the Outcome of Qubits Based on Their Classification | [View](#qubit-classification-outcomes) |
+| Hardware Taxonomy, Device Physics & Logic | Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits | [View](#single-to-multi-shot-success-rates) |
+| Hardware Taxonomy, Device Physics & Logic | Illustrative Example of Rabi Dynamics for Various Classes of Qubits Mentioned | [View](#rabi-dynamics-by-qubit-class) |
+| The Control & Readout Stack | Microwave & Baseband Control Requirements | [View](#microwave-and-baseband-control) |
+| The Control & Readout Stack | Typical Carrier Frequencies Used by Some of the Primary Qubit Technologies for Control & Readout | [View](#carrier-frequencies) |
+| The Control & Readout Stack | Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware | [View](#reflection-transmission-and-emission-setups) |
+| The Control & Readout Stack | Homodyne Measurement, Heterodyne Measurement, & Photon Counting | [View](#homodyne-heterodyne-and-photon-counting) |
+| The Control & Readout Stack | Qubit Rabi Oscillations & Their Fourier Transform | [View](#rabi-oscillations-and-fourier-transform) |
+| The Control & Readout Stack | Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture | [View](#cryo-cmos-controller-architecture) |
+| The Control & Readout Stack | Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture | [View](#cryo-asic-controller-architecture) |
+| The Control & Readout Stack | A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators | [View](#six-transmon-chip) |
+| The Control & Readout Stack | Experimental Schematic for the 6 Superconducting Transmon Chip | [View](#six-transmon-experimental-schematic) |
+| The Control & Readout Stack | Experimental Schematic for a 2 Superconducting Fluxonium Chip | [View](#two-fluxonium-experimental-schematic) |
+| The Control & Readout Stack | A Simplified  Experimental Schematic for a Tunable 2 Superconducting Transmon Chip | [View](#two-tunable-transmon-experimental-schematic) |
+| Cryogenics & Signal Conditioning | 3 Common Cryogenic Equipment Formfactors Employed for Quantum & Low Temperature Experiments | [View](#cryogenic-equipment-form-factors) |
+| Cryogenics & Signal Conditioning | Dilution Fridge Measurement System & Schematic | [View](#dilution-fridge-measurement-system) |
+| Cryogenics & Signal Conditioning | Cryogenic Dewar-Based Measurement System Using a Dipstick | [View](#dewar-and-dipstick-measurement-system) |
+| Cryogenics & Signal Conditioning | Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit or SQL) | [View](#quantum-noise-limits-and-sql) |
+| Cryogenics & Signal Conditioning | A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator | [View](#dilution-refrigerator-noise-equations) |
+| Nanofabrication Guide | Background & Motivation | [View](#fabrication-background-and-motivation) |
+| Nanofabrication Guide | Nanofabrication Supplementary Images | [View](#nanofabrication-supplementary-images) |
+| Nanofabrication Guide | Quantum Device Fabrication Slide Presentation Preview | [View](#fabrication-slide-preview) |
+| Career & Industry | The Quantum Workforce & Relevant Skills | [View](#quantum-workforce-and-skills) |
 
-# Chapter 6
+<a id="quantum-information-and-physics"></a>
 
-## Quantum Science Curriculum Example
+### A. Quantum Information Theory & Physics Foundations
 
-Adapted From: [https://quantum.cornell.edu/education](https://quantum.cornell.edu/education)
+<a id="quantum-information-capabilities"></a>
 
-| **Courses**                                 |                                                             |
-|---------------------------------------------|-------------------------------------------------------------|
-| AEP 1200                                    | Introduction to Nanoscience & Nanoengineering               |
-| AEP 2550                                    | Engineering Quantum Information Hardware                    |
-| AEP 3100                                    | Introductory Quantum Computing                              |
-| AEP 3610                                    | Introductory Quantum Mechanics                              |
-| AEP 3620                                    | Intermediate Quantum Mechanics                              |
-| AEP 4400                                    | Nonlinear & Quantum Optics                                  |
-| AEP 4500/ PHYS 4454                         | Introductory Solid State Physics                            |
-| CHEM 7870                                   | Mathematical Methods of Physical Chemistry                  |
-| CHEM 7910                                   | Advanced Spectroscopy                                      |
-| CHEM 7930                                   | Quantum Mechanics I                                        |
-| CHEME 6860/ SYSEN 5860                      | Quantum Computing & Artificial Intelligence                 |
-| CS 4812/ PHYS 4481                          | Quantum Information Processing                              |
-| ECE 4060                                    | Quantum Physics & Engineering                               |
-| ECE 4070                                    | Physics of Semiconductors & Nanostructures                 |
-| ECE 5310                                    | Quantum Optics for Photonics & Optoelectronics             |
-| ECE 5330                                    | Semiconductor Optoelectronics                              |
-| MSE 5720                                    | Computational Materials Science                             |
-| MSE 6050                                    | Physics of Semiconductors & Nanostructures                 |
-| PHYS 2214                                   | Physics III: Oscillations, Waves, & Quantum Physics         |
-| PHYS 3316                                   | Basics of Quantum Mechanics                                |
-| PHYS 3317                                   | Applications of Quantum Mechanics                          |
-| PHYS 4443                                   | Intermediate Quantum Mechanics                             |
-| PHYS 4444                                   | Introduction to Particle Physics                           |
-| PHYS 4410/ PHYS 6510                        | Advanced Experimental Physics                              |
-| PHYS 6572                                   | Quantum Mechanics I                                       |
-| PHYS 6574                                   | Applications of Quantum Mechanics II                      |
-| PHYS 7636                                   | Solid-State Physics II                                    |
-| PHYS 7645                                   | Introduction to the Standard Model of Particle Physics    |
-| PHYS 7651                                   | Relativistic Quantum Field Theory I                       |
-| PHYS 7652                                   | Relativistic Quantum Field Theory II                      |
-| PHYS 7654                                   | Basic Training in Condensed Matter Physics                |
+<a id="terminology-for-quantum-information-capabilities"></a>
 
----
-
-# Chapter 7
-
-## **Shortcut into Quantum Hardware Engineering - By Onri Jay Benally**
-
-| **Topic** | **Details** |
-|-----------|-------------|
-| Start with a 3D modeling & linguistics framework | May involve a custom keywords glossary. |
-| Spectroscopy or "scatterometry" | Involves probing something without physical contact. |
-| Topics covered | Materials science & engineering, precision measurement, automation, RF/LASER electronics, analog electronics, quantum metrology, quantum transport, quantum optics, quantum information, quantum electronic design automation. |
-| Electronic filters | Know how they are configured, designed, & what they look like. |
-| Filter components | Understand what they are made of. |
-| Passive vs active filters | Know the difference. |
-| Optical, microwave, & RF isolators | Understand the differences among isolators, circulators, & mixers. |
-| Amplifiers | Be aware of room temperature & cryogenic amplifiers & their materials. |
-| Amplifier noise types | Thermal, shot, external, quantum. |
-| Signal manipulation | Know how a signal curve or response is manipulated. |
-| Signal triggering | Know how signals are triggered. |
-| Impedance matching | Understand how many ohms are required. |
-| Smith chart | Know how it works. |
-| Resistors | Understand their many purposes. |
-| Multiphase power | Know what it means. |
-| Resonators | Understand what a resonator & resonator cavity is. |
-| Equipment | Vector network & spectrum analyzers, arbitrary waveform generators, signal generators. |
-| Oscillator circuit | Know its role in voltage fluctuation or AC. |
-| Inverter circuit | Understand DC to AC conversion. |
-| Rectifier circuit | Understand AC to DC conversion. |
-| Signal filtering | High-pass, low-pass, band-pass, band-stop filter circuits/crossover networks. |
-| Comparator circuit | Understand threshold indicators. |
-| Logic gates | Know their basic functions (e.g., calculator). |
-| PID controller | Understand closed-loop control for self-balancing. |
-| Feed forward controller | Understand open-loop control as a self-balancing alternative. |
-| Bonus project | Build a simple electronic audio amplifier device (similar components to quantum systems). |
-
----
-
-# Chapter 8
-
-## Most Useful Coding Topics for Hardware Engineers
-
-| Topic                                                             |
-|-------------------------------------------------------------------|
-| Library installation                                              |
-| Syntax & commenting                                               |
-| Curve fitting, direct parameterization, & mesh parameterization   |
-| Automation scripting                                              |
-| Data management & data structures                                 |
-| Parallel processing & accelerated computing techniques            |
-| Interpolation & extrapolation                                     |
-| Linear regression, polynomial regression, moving average regression, & other regression models  |
-| Signal processing                                                 |
-| Noise plots                                                       |
-| Manual debugging                                                  |
-
----
-
-# Chapter 9
-
-## Quantum Career Opportunities
-
-**Quantum Job Resources (Hardware & Software):**
-
-| **URLs**                                                                                                                 |
-|-------------------------------------------------------------------------------------------------------------------------|
-| [Youtube: "Quantum Jobs" overview video](https://www.youtube.com/watch?v=7dfw8k2p1to)                                   |
-| [IEEE Paper on Quantum Roles & Skills](https://ieeexplore.ieee.org/document/9733176)                                    |
-| [IBM Tech Tech Potato Quantum Jobs](http://ibm.techtechpotato.com)                                                      |
-| [Chicago Quantum Resources](https://chicagoquantum.org/resources)                                                       |
-| [Quantiki Jobs](https://www.quantiki.org/jobs)                                                                          |
-| [Quantum Computing Jobs (Russ Fein)](https://medium.com/@russfein/quantum-computing-jobs-5e67f72fb113)                  |
-| [Quantum Economic Development Consortium (QED-C) Jobs](https://quantumconsortium.org/quantum-jobs)                      |
-| [Global Quantum Leap Opportunities](https://www.globalquantumleap.org/quantum-opportunities-1)                          |
-| [Chicago Quantum Internships](https://chicagoquantum.org/education-and-training/internships)                            |
-| [QuantumGrad.com Jobs](https://www.quantumgrad.com/jobs)                                                                |
-
-
-**Major Player Quantum‑Hardware Employers, Internship/ Job Eligibility & Citizenship Notes:**
-
-| #  | Company                | Key Quantum‑HW Hiring Sites (2025)                                         | **Accepts Non‑Citizens?** | Representative Citizenship/ Work‑Authorization Wording\*                                                                                                |
-| -- | ---------------------- | -------------------------------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1  | IBM                    | Yorktown Heights & Albany (US); Ehningen (DE); Kawasaki (JP); Bromont (CA) | **Yes**                   | “International students … are eligible to apply for most roles.”                                                                            |
-| 2  | Microsoft              | Redmond (US); Delft (NL); Sydney (AU); Lyngby (DK)                         | **Yes**                   | “Provide proof of citizenship, permanent residency, or other legal right to work in the posting country.”                  |
-| 3  | Google (Quantum AI)    | Santa Barbara/Goleta (US)                                                  | **Varies**                | “Applicants must be a U.S. citizen, national, permanent resident, or **eligible for an export‑control license**.”                         |
-| 4  | Amazon (AWS CQC)       | Pasadena (US)                                                              | **Varies**                | “Due to applicable export‑control laws … candidates must be a U.S. person **or** able to obtain a U.S. export license.”                |
-| 5  | Intel                  | Hillsboro (US); Delft (NL)                                                 | **Varies**                | Several U.S. quantum‑R\&D adverts state “**U.S. citizenship required**” for export reasons, while Dutch internships have no such clause.  |
-| 6 | Rigetti Computing             | Berkeley (US); Abingdon (UK)                                       | **Varies**             | “U.S. citizenship or U.S. visa/immigration status **may be required** for certain positions due to export control.”       |
-| 7  | Applied Materials      | META Center, Santa Clara (US)                                              | **Varies**                | “Successful candidates must be *eligible to lawfully receive export‑controlled information*, without the company seeking a license.”      |
-| 8  | IMEC                   | Leuven (BE); Delft (NL)                                                    | **Yes**                   | Posts ask only that applicants “qualify for a Belgian work permit.”                                                                           |
-| 9  | Honeywell/ Quantinuum | Broomfield (US); Cambridge (UK)                                            | **Varies**                | U.S. hardware roles require “U.S. person” and exclude PRC/RUS nationals; UK lab open globally.                                               |
-| 10  | Hitachi                | Tokyo (JP); Hitachi‑Cambridge Lab (UK)                                     | **Yes**                   | Cambridge collaboration adverts list degree & skills only—no nationality bar.                                                            |
-| 11 | Toshiba                | Kawasaki (JP); Cambridge (UK)                                              | **Yes**                   | Careers site promotes an international “talent community” without citizenship limits.                                                     |
-| 12 | NEC                    | Tsukuba (JP)                                                               | **Varies**                | Agency listings stress “ability to work in Japan”; several note **no visa sponsorship**.                                                 |
-| 13 | Fujitsu                | Wako (JP) & RIKEN line                                                     | **Yes**                   | Quantum‑research adverts focus on PhD + device skills; nationality absent.                                                                |
-| 14 | D‑Wave                 | Burnaby (CA); Palo Alto (US)                                               | **Yes**                   | Careers page offers “internships and co‑ops” to students worldwide, including remote.                                              |
-| 15 | Bluefors               | Helsinki (FI); Syracuse (US); Delft (NL); Tokyo (JP)                       | **Yes**                   | HQ highlights a “diverse team of 400+ professionals from **50 nations**.”                                                            |
-| 16 | Raith Nano             | Dortmund (DE); Best (NL)                                                   | **Yes**                   | Field‑service ad: “*In possession of an EU residence & working permit*.”                                                                 |
-| 17 | Nanoscribe             | Karlsruhe (DE)                                                             | **Yes**                   | German postings accept non‑EU applicants who secure a work visa.                                                                                         |
-| 18 | FormFactor             | Livermore (US); Dresden (DE)                                               | **Varies**                | Company has filed **82 H‑1B LCAs (2022‑24)**, but some ads say “U.S. work authorization required.”                                     |
-| 19 | Oxford Instruments     | Abingdon (UK); Concord (US)                                                | **Varies**                | UK listings: “Unable to provide visa sponsorship … must hold right to work in UK.”                                        |
-| 20 | Quantum Design         | San Diego (US)                                                             | **Yes**                   | Equal‑opportunity statement forbids discrimination “on account of … **citizenship**.”                                                   |
-| 21 | QBlox                  | Delft (NL); Boston (US)                                                    | **Yes**                   | Dutch HQ routinely sponsors non‑EU talent; U.S. ads follow standard visa rules.                                                      |
-| 22 | Low Noise Factory      | Gothenburg (SE)                                                            | **Yes**                   | 2024 job brochure notes a “diverse team from **12 countries**, English spoken at work.”                                         |
-| 23 | Quanscient             | Tampere (FI) (remote‑friendly)                                             | **Yes**                   | Recruitment posts invite global applicants and emphasise remote flexibility.                                                             |
-| 24 | VTT Technical Research Centre | Espoo/FI (Micronova fab & *Helmi* mK lab)                         | **Yes**                | “Help with work and residence permit applications … guidance with taxes and social security.”                              |
-| 25 | Keysight Technologies         | Santa Rosa (US HQ); Colorado Springs (Cryo‑RF fab); Böblingen (DE) | **Varies**             | Some ads: “Visa sponsorship **not** available”; others: “Visa sponsorship **available**.”  |
-| 26 | Rohde & Schwarz               | Munich (DE HQ); Columbia (MD, US); Singapore design centre         | **Varies**             | H‑1B data confirm sponsorship history; postings often state local work‑permit requirement.                  |
-| 27 | Lake Shore Cryotronics | Westerville (OH, US HQ & fab); Woburn (MA, US cryostat plant); worldwide sales hubs incl. Darmstadt (DE) & Shanghai (CN)          | **Varies**                | Several U.S. postings state **“This position is not eligible for VISA sponsorship.”**  — yet the firm has filed H‑1B petitions in prior years                             |
-| 28 | TOPTICA Photonics      | Gräfelfing (DE HQ & R\&D); Victor (NY, US); Fuchū (Tokyo, JP); Shanghai (CN)  | **Yes**                   | Careers page markets “jobs in Germany **and worldwide**,” while U.S. subsidiary has certified H‑1B LCAs for photonics engineers                               |
-| 29 | Zurich Instruments     | Zürich (CH HQ); Waltham (MA, US); Shanghai (CN); Tokyo (JP)                                                | **Yes**                   | “We benefit from highly‑skilled individuals … from **more than a dozen countries**.”  U.S. arm has recent H‑1B certifications for quantum‑control scientists  |
-
-† Remember that export‑control checks (EAR/ITAR) or local security clearances can still override the headline.
-
-Notes:
-- UK/EU eligibility – Ads frequently say “must already have the right to work”; that requirement can normally be met via a UK Graduate‑visa, an EU Blue Card or other residence permits, not by nationality alone.
-- Internship openness – IBM and D‑Wave still market quantum‑hardware internships worldwide. Intel and Google list such internships but add “U.S.‑person or export‑licence” clauses, so availability for non‑citizens depends on export‑control clearance.
-- Visa sponsorship – IMEC, QBlox and Bluefors continue to sponsor or hire non‑EU nationals as standard practice. Hitachi‑ and Toshiba‑Cambridge welcome global applicants yet increasingly ask candidates to already hold UK work authorization; sponsorship is considered case‑by‑case.
-
----
-
-## Quantum Hardware + Quantum Adjacent Hardware Thesis Output/ Number of Labs per University (U.S. & Canada)
-### (Estimated Avg. Total Master’s + Ph.D. Theses per Year over 10 Years)
-
-```
-├─ Tier 1 — High‑volume producers (≥ 5 per year)
-│   ├─ Yale University (Yale) ......................................  6.0 ;  ~7 labs
-│   ├─ University of Maryland – College Park (UMD/ JQI) ............  5.5 ; ~12 labs
-│   └─ Massachusetts Institute of Technology (MIT) .................  5.0 ; ~15 labs
-│
-├─ Tier 2 — Moderate producers (3 – 4.9 per year)
-│   ├─ University of California – Berkeley (UC Berkeley) ...........  4.5 ;  9 labs
-│   ├─ University of Waterloo (IQC) ................................  4.0 ; ~22 labs
-│   ├─ Princeton University (Princeton) ............................  4.0 ;  5 labs
-│   ├─ University of California – Santa Barbara (UCSB) .............  4.0 ;  4 labs
-│   ├─ Harvard University (Harvard) ................................  3.5 ;  7 labs
-│   ├─ Stanford University (Stanford) ..............................  3.5 ;  6 labs
-│   ├─ University of Wisconsin–Madison (UW‑Madison) ................  3.5 ;  4 labs
-│   ├─ University of Chicago (UChicago) ............................  3.0 ;  6 labs
-│   └─ California Institute of Technology (Caltech) ................  3.0 ;  5 labs
-│
-├─ Tier 3 — Niche producers (1.5 – 2.9 per year)
-│   ├─ University of British Columbia (UBC/ QMI) ...................  2.5 ; 12 labs
-│   ├─ University of Toronto (CQIQC) ...............................  2.5 ; 10 labs
-│   ├─ University of Colorado Boulder (CU Boulder/ JILA) ...........  2.5 ;  6 labs
-│   ├─ Université de Sherbrooke (IQ) ...............................  2.0 ; 11 labs
-│   ├─ University of Michigan (U‑M) ................................  2.0 ;  4 labs
-│   ├─ Duke University (Duke) ......................................  2.0 ;  4 labs
-│   ├─ University of Texas at Austin (UT Austin) ...................  2.0 ;  4 labs
-│   ├─ Cornell University (Cornell) ................................  2.0 ;  4 labs
-│   ├─ McGill University (McGill) ..................................  1.5 ;  6 labs
-│   ├─ University of Alberta (UAlberta) ............................  1.5 ;  5 labs
-│   ├─ University of Calgary (UCalgary) ............................  1.5 ;  5 labs
-│   ├─ Rice University (Rice) ......................................  1.5 ;  3 labs
-│   ├─ Pennsylvania State University (Penn State) ..................  1.5 ;  3 labs
-│   ├─ Northwestern University (Northwestern) ......................  1.5 ;  3 labs
-│   ├─ Georgia Institute of Technology (Georgia Tech) ..............  1.5 ;  3 labs
-│   ├─ University of California – Los Angeles (UCLA) ...............  1.5 ;  3 labs
-│   ├─ University of California – San Diego (UC San Diego) .........  1.5 ;  3 labs
-│   ├─ University of Illinois Urbana‑Champaign (UIUC) ..............  1.5 ;  3 labs
-│   └─ University of Washington (UW) ...............................  1.5 ;  3 labs
-│
-└─ Tier 4 — Emerging nodes (< 1.5 per year)
-    ├─ University of Pittsburgh (Pitt) ............................  1.0 ;  ~5 labs
-    ├─ University of Minnesota–Twin Cities (UMN‑TC) ...............  1.0 ;  ~5 labs
-    ├─ Simon Fraser University (SFU) ..............................  1.0 ;  4 labs
-    ├─ Columbia University (Columbia) .............................  1.0 ;  3 labs
-    ├─ Université de Montréal (UdeM) ..............................  1.0 ;  3 labs
-    ├─ Arizona State University (ASU) .............................  1.0 ;  3 labs
-    ├─ University of California – Davis (UC Davis) ................  1.0 ;  2 labs
-    ├─ University of Arizona (UArizona) ...........................  1.0 ;  2 labs
-    ├─ University of New Mexico (CQuIC) ...........................  1.0 ;  2 labs
-    ├─ University of Rochester (U Rochester) ......................  1.0 ;  2 labs
-    ├─ Université Laval (Laval) ...................................  1.0 ;  2 labs
-    └─ University of Victoria (UVic) ..............................  0.5 ;  2 labs
-```
-
-> Note: Recently, the University of Pittsburgh, University of Chicago, Arizona State University, and University of Colorado-Boulder have started to dramatically scale their infrastructure for quantum hardware-related research. So, expect these 4 to move up in the tier list very quickly in the near future.
-
----
-
-# Supplementary Figures
-
----
-
-### Keywords & Terms To Look for When Reading a Technical Quantum-Computing-Hardware-Related Article
-
-| **Category**                      | **Keywords & Terms**                                                                                       |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Quantum System Dynamics**       | Drive, Excite, Qubit, Resonance, Coherence, Transition, State Transition, Rabi Frequency, Rabi Oscillation |
-| **Measurement & Readout**         | Readout, Read Out, Read-out, Dependent, Reference, Convert, Converter, ADC, DAC                            |
-| **Signal Processing & Control**   | Modulate, Pulse, Formulated, Power, Port                                                                   |
-| **Quantum States & Behavior**     | Ground, Flying, Static, Stationary, State Classification                                                   |
-| **Fabrication & Manufacturing**   | Fabrication, Yield, Manufacture, Foundry, Compatible, Hero Device                                          |
-| **Clarity & Verification**        | Clear, Correct, Resilient                                                                                  |
-| **Quantum Interactions**          | Couple, Coupling, Entangle                                                                                 |
-| **Logical & Structural Concepts** | Prerequisite, Implement, Implemented, Implementation, Integrated, Agnostic                                 |
-| **Analysis & Justification**      | Compare, Compared, Justification, Justified, Motivation                                                    |
-
-
---- 
-
-### Example of Linguistics Applied to Quantum Hardware Terminology
-
-> Breakdown of the term **dispersion** and its connection to the **dispersive regime**, first from an etymological and linguistic perspective, followed by its application in superconductivity.
-
-#### **Etymology & Linguistic Insight**
-
-| **Term**         | **Etymology & Linguistic Insight** |
-|------------------|-----------------------------------|
-| **Dispersion**   | - Derived from **Latin** *dispersio*, from *dispergere* ("to scatter, spread out"). <br> - *Dis-* ("apart") + *spargere* ("to scatter, sprinkle") → meaning "to spread apart or distribute." <br> - Commonly refers to the process of separation or spreading in various contexts: optics, fluid dynamics, and waves. |
-| **Dispersive**   | - Adjective form of **dispersion**, indicating a system or medium where different components (e.g., waves, particles) separate due to frequency-dependent properties. <br> - In physics, this refers to how different frequencies propagate at different speeds, leading to *wave dispersion*. |
-| **Regime**       | - From **Latin** *regimen* ("rule, system, guidance"), related to *regere* ("to guide, direct, rule"). <br> - Indicates a domain or system characterized by a particular set of governing rules. |
-
-**Linguistic Insight:**  
-- The root meanings emphasize the **spreading or separation** of components (dispersion) under specific **rules or conditions** (regime).  
-- Thus, a **dispersive regime** is a domain where wave-like entities (e.g., electromagnetic waves, phonons, quasiparticles) experience **frequency-dependent separation** governed by a particular system.
-
-#### **Context in Superconductivity**
-
-| **Concept**                | **Description** |
-|----------------------------|----------------|
-| **Dispersion in superconductivity** | Refers to the relationship between the energy and momentum of excitations (e.g., quasiparticles, plasmons, phonons, or collective modes) in a superconducting system. This dispersion relation determines how these excitations propagate. |
-| **Dispersive regime**       | A regime where the propagation characteristics of these excitations strongly depend on frequency. In superconducting circuits, this typically arises when the system exhibits **nonlinear interactions**, leading to frequency-dependent phase shifts and group velocity variations. |
-| **Example: Josephson junctions** | In superconducting circuits, Josephson junctions exhibit a **dispersive regime** where the nonlinear inductance causes frequency-dependent shifts in resonance conditions, critical for quantum computing and readout of superconducting qubits. |
-| **Example: Microwave resonators** | Superconducting microwave resonators interact with qubits via dispersive coupling, shifting their resonance frequency depending on the qubit state—a fundamental principle of circuit quantum electrodynamics (cQED). |
-
-**Key Takeaway:**  
-- The dispersive regime in superconducting systems **exploits frequency-dependent interactions** to enable **state-dependent measurements, non-demolition readout, and coherent quantum control** in quantum computing.
-
----
-
-### The Quantum Workforce & Relevant Skills
-
-![image](https://github.com/user-attachments/assets/983672b5-2a26-4cd9-8abf-a0123a1d717d)
-
-Borrowed from: 
-Hughes et al., *Assessing the Needs of the Quantum Industry*, 2109.03601, p. 4 (2021)  
-<https://doi.org/10.48550/arXiv.2109.03601>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
----
-
-### 1st & 2nd Quantum Revolution
-
-![unnamed (3)](https://github.com/user-attachments/assets/408ffd80-ea3c-4b19-bca7-2028e5dc4d04)
-
-Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (2024)  
-<https://doi.org/10.48550/arXiv.2111.15352>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
----
-
-### Terminology for Quantum Information Capabilities
+#### Terminology for Quantum Information Capabilities
 
 | Term                    | Definition                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -733,42 +876,133 @@ Borrowed from: Ezratty, *Understanding Quantum Technologies*, 2111.15352, p. 7 (
 [8]: https://arxiv.org/abs/2602.14699 "Qute: Towards Quantum-Native Database"
 [9]: https://arxiv.org/abs/2606.08276 "QnRL: Quantum-Native Reinforcement Learning"
 
----
+<a id="types-of-quanta"></a>
 
-### Portmanteaus for Transistor, Spintronics, Qubits, & Qudits
+<a id="various-types-of-quanta"></a>
+
+#### Various Types of Quanta
+
+<details>
+<summary><b>Expand the quanta family trees</b></summary>
 
 ```
-Portmanteaus
-├── Transistor
-|   ├── transconductance + varistor
-|   |   └── transconductance + variable + resistor
-|   └── transfer + resistor (widely accepted)
-|
-├── Spintronics
-|   ├── spin + transport + electronics
-|   └── spin + electronics
-|
-├── Qubits
-|   └── quantum + bit
-|       └── quantum + binary + digit
-|
-└── Qudits
-    └── quantum + digit
+Quanta in Physics (Each = "quantum of" some field or excitation)
+├─ 1. Electromagnetic & Optical Fields
+│   ├─ 1.1 Photon — quantum of the electromagnetic field
+│   ├─ 1.2 Polariton family — quantum of strongly coupled light–matter field
+│   │    ├─ 1.2.1 Exciton-polariton (microcavities, 2-D semiconductors)
+│   │    ├─ 1.2.2 Phonon-polariton (polar dielectrics; IR)
+│   │    ├─ 1.2.3 Magnon-polariton (microwave cavity + magnet)
+│   │    └─ 1.2.4 Plasmon-polariton (surface plasmon + photon; SPP, Tamm)
+│   └─ 1.3 Plasmon — quantum of plasma (collective charge-density) oscillation
+│
+├─ 2. Vibrational, Lattice, and Fluid Interfaces
+│   ├─ 2.1 Phonon — quantum of lattice vibration (acoustic/optical)
+│   ├─ 2.2 Polaron — electron dressed by lattice polarization (quasiparticle)
+│   ├─ 2.3 Roton — quantum of finite-k density excitation minimum (superfluid He-4)
+│   └─ 2.4 Ripplon — quantum of a surface capillary wave (e.g., He surface)
+│
+├─ 3. Spin & Magnetic Systems
+│   ├─ 3.1 Magnon — quantum of a spin wave
+│   ├─ 3.2 Spinon — fractionalized spin excitation (often 1-D)
+│   ├─ 3.3 Triplon — triplet excitation in dimerized/ladder magnets
+│   └─ 3.4 Paramagnon — damped spin-fluctuation near magnetic criticality
+│
+├─ 4. Coupled or Hybrid Matter Quanta
+│   ├─ 4.1 Exciton — bound electron–hole pair (neutral bosonic quasiparticle)
+│   │    ├─ 4.1.1 Trion (charged exciton)
+│   │    ├─ 4.1.2 Biexciton (exciton molecule)
+│   │    └─ 4.1.3 Rydberg exciton (high-n)
+│   ├─ 4.2 Plexciton — plasmon–exciton hybrid (nanogaps, metasurfaces)
+│   └─ 4.3 Phonoriton — phonon–photon–exciton triple hybrid (select regimes)
+│
+├─ 5. Superconductivity & Broken-Symmetry Collective Modes
+│   ├─ 5.1 Cooper pair — paired electrons (charge 2e) as the superfluid boson
+│   ├─ 5.2 Anderson–Bogoliubov phase mode/ Josephson plasma (phase oscillation)
+│   ├─ 5.3 Quantum phase slip (QPS) — 2π phase-tunneling event in nanowires
+│   ├─ 5.4 Bogolon — Bogoliubov quasiparticle in a condensate
+│   ├─ 5.5 Higgs/Amplitudon — amplitude mode of the order parameter
+│   └─ 5.6 Leggett mode — interband relative-phase oscillation (multiband SCs)
+│
+├─ 6. Strongly Correlated Electrons (Spin–Charge–Orbital Separation)
+│   ├─ 6.1 Holon/Chargon — charge-only excitation
+│   ├─ 6.2 Doublon — doubly occupied site excitation (Hubbard systems)
+│   ├─ 6.3 Orbiton — orbital excitation
+│   └─ 6.4 Plasmaron — electron–plasmon composite quasiparticle
+│
+├─ 7. Topological & Emergent Quasiparticles
+│   ├─ 7.1 Anyons (Abelian and non-Abelian; 2-D topological order)
+│   ├─ 7.2 Majorana zero modes (Ising anyons in topological superconductors)
+│   ├─ 7.3 Fractons (restricted-mobility excitations)
+│   └─ 7.4 Emergent magnetic monopoles (spin-ice materials)
+│
+└─ 8. High-Energy Gauge & Gravitational Fields (completeness)
+    ├─ 8.1 Gluon — quantum of the color gauge field (QCD)
+    ├─ 8.2 W± / Z⁰ — quanta of the weak gauge fields
+    └─ 8.3 Graviton† — quantum of the gravitational field (hypothetical)
 ```
 
----
+```
+“Quantum of …” Naming Family
+├─ A. Fundamental Gauge-Field Quanta
+│   ├─ Photon       – electromagnetic field                      (spin-1)
+│   ├─ Gluon        – color (strong-force) gauge field           (spin-1)
+│   ├─ W±/ Z⁰ bosons – weak-interaction gauge fields            (spin-1)
+│   └─ Graviton†    – gravitational field (hypothetical)         (spin-2)
+│
+├─ B. Condensed-Matter Collective Quanta
+│   ├─ Lattice/ Elastic
+│   │   ├─ Phonon   – lattice vibration (acoustic/ optical)  
+│   │   ├─ Roton    – ripplon-like excitation in superfluid He-4
+│   │   └─ Bogolon  – Bogoliubov sound mode in a superfluid
+│   ├─ Spin & Magnetism
+│   │   ├─ Magnon   – spin-wave excitation 
+│   │   ├─ Triplon  – triplet spin excitation in dimers
+│   │   └─ Spinon   – fractional spin excitation (1-D chains)
+│   ├─ Charge & Plasma
+│   │   ├─ Plasmon  – plasma (charge-density) oscillation 
+│   │   ├─ Polaron  – electron dressed by a phonon cloud
+│   │   └─ Dropleton – correlated e-h “quantum droplet” 
+│   └─ Orbital/ Topological
+│       ├─ Orbiton  – orbital angular-momentum excitation
+│       └─ Anyon    – topological quasiparticle in 2-D (fractional statistics)
+│
+├─ C. Hybrid Light–Matter Quanta
+│   ├─ Exciton          – bound electron-hole pair 
+│   ├─ Polariton Family (strong-coupling hybrids)
+│   │   ├─ Exciton-polariton   (photon ↔ exciton)
+│   │   ├─ Phonon-polariton    (photon ↔ infrared phonon)
+│   │   ├─ Magnon-polariton    (microwave photon ↔ magnon)
+│   │   └─ Plasmon-polariton   (photon ↔ surface plasmon)
+│   └─ Plexciton         – plasmon ↔ exciton hybrid
+│
+└─ D. Superconducting & Many-Body Charge Quanta
+    ├─ Cooper pair   – paired electrons (charge 2e) in a superconductor
+    ├─ Josephson quantum – 2π phase-slip across a weak link
+    └─ Higgs mode    – amplitude oscillation of an order parameter
+```
 
-### Rough Zoology of All Physical Qubits
+</details>
+
+<a id="qubit-zoology"></a>
+
+<a id="rough-zoology-of-all-physical-qubits"></a>
+
+#### Rough Zoology of All Physical Qubits
 
 ![image](https://github.com/user-attachments/assets/479a64ff-7595-417a-b239-84bd50bb4200)
 
+> Rough Zoology of All Physical Qubits.
+
 Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 355 (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
---- 
+<a id="qubit-classifications"></a>
 
-### Classifications of Qubits
+<a id="classifications-of-qubits"></a>
+
+#### Classifications of Qubits
 
 ```
 Qubit Classification Tree
@@ -816,9 +1050,11 @@ Qubit Classification Tree
 > - If, and only if, all logical operations are confined to 2 of its levels, a qudit functions as a qubit and they may be referred to as one. 
 > - Once 3 or more levels participate in computation, the correct term is qudit (qutrit, ququart, etc.), not qubit.
 
----
+<a id="qubit-versus-qudit"></a>
 
-### Qubit vs. Qudit
+<a id="qubit-vs-qudit"></a>
+
+#### Qubit vs. Qudit
 
 | Concept                 | Qubit *(d = 2)*                                                          | General qudit *(d ≥ 3)*                                                           | Can it masquerade as a qubit?                            |
 | ----------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -836,9 +1072,11 @@ Qudit-Related Relationships of Quantum Information Carriers
    └─ Qudit = quantum digit (general dimension)
 ```
 
----
+<a id="stationary-versus-flying-qubits"></a>
 
-### Stationary vs. Flying Qubits: 
+<a id="stationary-vs-flying-qubits"></a>
+
+#### Stationary vs. Flying Qubits
 
 | **Category**                          | **Description**                                            |
 |---------------------------------------|------------------------------------------------------------|
@@ -909,11 +1147,290 @@ Quantum‑Information Carriers
    └─ Magnon qubits (spin‑wave packets)
 ```
 
-***
+<a id="stationary-and-flying-qubit-examples"></a>
 
-### Practical Requirements to Implement Qubits
+<a id="some-visualized-examples-of-stationary--flying-qubits"></a>
 
-#### Brief Version
+#### Some Visualized Examples of Stationary & Flying Qubits
+
+![Flying vs  Stationary Qubits](https://github.com/user-attachments/assets/7cd9f9ee-07e8-4ded-a5c4-d8f4b272ed9c)
+
+> Some Visualized Examples of Stationary & Flying Qubits.
+
+Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="molecular-energy-computation-example"></a>
+
+<a id="example-of-required-steps-to-compute-molecular-energies-mapped-to-2-physical-qubits"></a>
+
+#### Example of Required Steps to Compute Molecular Energies (Mapped to 2 Physical Qubits)
+
+<img width="3763" height="auto" alt="image" src="https://github.com/user-attachments/assets/ae3ca23e-e89e-4dae-955b-b9eb94613868"/>
+
+> Example of Required Steps to Compute Molecular Energies (Mapped to 2 Physical Qubits).
+
+Adapted from: O’Malley et al., *Scalable Quantum Simulation of Molecular Energies*, Phys. Rev. X, 6 031007 (2016)  
+<https://doi.org/10.1103/PhysRevX.6.031007>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>
+
+<a id="hardware-taxonomy-device-physics-and-logic"></a>
+
+### B. Hardware Taxonomy, Device Physics & Logic
+
+<a id="quantum-hardware-and-adjacent-hardware"></a>
+
+<a id="quantum-hardware--quantum-adjacent-hardware-categories"></a>
+
+#### Quantum Hardware & Quantum Adjacent Hardware Categories
+
+<details>
+<summary><b>Expand the core and adjacent hardware taxonomy</b></summary>
+
+```
+Quantum Hardware + Quantum‑Adjacent Hardware
+├─ I.  Quantum‑Core Hardware
+│   ├─ A. Qubit Technologies
+│   │   ├─ 1. Superconducting Qubits
+│   │   │     • Transmon • Fluxonium • Flux qubit
+│   │   │     • Cavity‑protected (cat‑, binomial‑, GKP‑encoded)
+│   │   │     • Andreev pair qubits
+│   │   │     • Superconducting Dayem bridge qubits
+│   │   │     • Nanowire qubits (S-Semiconductor-S, topological materials weak link [TI, semimetal], ferromagnetic weak link, nonlinear kinetic inductance)
+│   │   ├─ 2. Spin‑Based Qubits
+│   │   │   ├─ a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
+│   │   │   │     • Andreev spin qubits
+│   │   │   └─ b. Magnetic & Molecular Spins
+│   │   │        • Magnetic clusters (Fe₈, Mn₁₂, heterometallic rings, other candidates)
+│   │   │        • Magnetic nanodisks (meron/ skyrmion qubits)
+│   │   ├─ 3. Bosons (microwave photons, phonons, magnons)
+│   │   └─ 4. Topological/ Majorana Candidates
+│   ├─ B. Quantum Interconnects (“Buses”)
+│   │   ├─ 1. Planar Resonators (CPW λ/4, λ/2, lumped, stripline)
+│   │   ├─ 2. 3‑D Superconducting Cavities
+│   │   ├─ 3. Metamaterial Waveguides & Resonators
+│   │   ├─ 4. Photonic Waveguides & Ring‑resonator PICs
+│   │   └─ 5. Hybrid Quantum Transducers (electro‑optic, electro‑acoustic, magnonic)
+│   ├─ C. Quantum‑Limited & Quantum‑Enhanced Detectors
+│   │   ├─ 1. SNSPD
+│   │   ├─ 2. KID/ MKID
+│   │   ├─ 3. Josephson Photomultipliers (JPM) & Photonics
+│   │   └─ 4. Quantum‑optimized Bolometers/ Calorimeters
+│   ├─ D. Quantum Memories
+│   │   ├─ 1. Rare‑earth AFC crystals
+│   │   ├─ 2. Magnon memories
+│   │   ├─ 3. 3‑D Cat‑code cavities
+│   │   └─ 4. Nuclear‑spin ensembles
+│   └─ E. Quantum Photonic Integrated Circuits (QPICs)
+│       ├─ 1. SiN/ Si/ SiO₂ wafer‑scale
+│       ├─ 2. III‑V hybrids (GaAs, InP)
+│       └─ 3. Diamond & LiNbO₃
+│
+└─ II. Quantum‑Adjacent Hardware
+    ├─ A. Cryogenic Digital Control Logic
+    │   ├─ 1. Single‑Flux‑Quantum families  (RSFQ, RQL, AQFP, eSFQ)
+    │   ├─ 2. Deep‑Cryo CMOS (4 K)
+    │   ├─ 3. Milli‑Kelvin CMOS (≤ 100 mK)
+    │   └─ 4. Nano Cryotrons (Superconducting nanowire switches)
+    ├─ B. Cryogenic Mixed‑Signal & RF ICs
+    │   ├─ 1. Time‑interleaved DAC/ADC
+    │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
+    │   └─ 3. Cryo Class‑D Drivers/ Piezo
+    ├─ C. Cryogenic Amplifiers, Filters, & Passive Components
+    │   ├─ 1. mK Parametric Pre‑Amplifiers 
+    │   │     a. Flux‑pumped Josephson Parametric Amplifier/ Converter (JPA/JPC)
+    │   │     b. Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
+    │   │     c. Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
+    │   │     d. Nanobridge Kinetic Parametric Amplifier (NKPA)
+    │   │     e. Quantum Capacitance Parametric Amplifier (QCPA)
+    │   │     f. SNAIL‑based Parametric Amplifier (SPA/ SNAIL‑TWPA)
+    │   ├─ 2. 4 K HEMT LNAs (octave‑wide, high dynamic range)
+    │   ├─ 3. RF Isolators/ Circulators (ferrite or on‑chip)
+    │   └─ 4. Superconducting & SAW Filters
+    ├─ D. Cryogenic Packaging & Interconnect
+    │   ├─ 1. Flex‑print & interposer tiles
+    │   ├─ 2. 3-D cavities w/ cryogenic bump-bonds/ interconnects
+    │   ├─ 3. Coax/ waveguide/ stripline wiring (NbTi, Nb, CuNi)
+    │   ├─ 4. Optical fiber feedthroughs (1–4 K)
+    │   └─ 5. Magnetic & vibration shielding, radiation hardeners
+    └─ E. Cryogenic Memory & Storage
+        ├─ 1. SRAM (FinFET 14‑nm & 5‑nm cryo‑SRAM)
+        ├─ 2. Floating‑Body RAM (FBRAM) at 77 K
+        ├─ 3. Capacitor‑less eDRAM/ DRAM benchmarks (2T0C, 4 K)
+        ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
+        ├─ 5. Spin‑orbit‑torque (SOT) MRAM at 4 K
+        └─ 6. Nano Cryotron memory cells
+```
+
+</details>
+
+<a id="transmon-family"></a>
+
+<a id="variations-of-transmons-and-other-related--mons"></a>
+
+#### Variations of Transmons and Other Related -mons
+
+<details>
+<summary><b>Expand the detailed transmon family taxonomy</b></summary>
+
+```
+Transmon family and transmon-derived extensions
+│
+├── Original capacitively shunted Cooper-pair-box transmon
+│   └── Reference architecture; outside the 30-entry count
+│
+├── Geometry, flux control, coupling, and packaging
+│   ├── [01] Split transmon/ SQUID transmon                         [E]
+│   ├── [02] 3D transmon                                            [E]
+│   ├── [03] Xmon                                                  [E]
+│   │   └── [04] gmon                                              [E]
+│   ├── [05] Concentric transmon                                   [E]
+│   ├── [06] Coaxmon                                               [E]
+│   ├── [07] Starmon                                               [E]
+│   ├── [08] 8-mon                                                 [E]
+│   └── [09] Flipmon                                               [E]
+│
+├── Junction, weak-link, and capacitor engineering
+│   ├── [10] Gatemon                                               [E]
+│   │   ├── InAs nanowire implementations
+│   │   ├── Planar InAs implementations
+│   │   ├── Ge/Si nanowire and planar Ge implementations
+│   │   ├── Graphene implementations
+│   │   ├── Sn/InAs implementations
+│   │   └── Carbon-nanotube implementations
+│   │
+│   ├── [11] Mergemon/ merged-element transmon (MET)               [E]
+│   │   ├── [12] FinMET                                          [C/T]
+│   │   └── Fully crystalline van der Waals MET implementations
+│   │
+│   ├── [13] Planaron                                              [S]
+│   ├── [14] Ferrotransmon/ Ferromon                                   [T]
+│   └── [15] FEmon/ ferroelectric transmon                         [T]
+│
+├── Multimode and coupled-transmon circuit architectures
+│   ├── [16] Tunable-coupling qubit (TCQ) and Dimon family           [E]
+│   ├── [17] Trimon                                                [E]
+│   ├── [18] Transmon molecule                                     [E]
+│   ├── [19] P-mon                                                 [E]
+│   └── [20] Weakly tunable qubit (WTQ)                             [E]
+│
+├── Engineered inductive and Josephson potentials
+│   ├── [21] Kinemon                                               [E]
+│   ├── [22] NMon                                                  [T]
+│   ├── [23] d-mon                                                 [T]
+│   ├── [24] SNAILmon                                              [E]
+│   ├── [25] Flowermon                                             [T]
+│   └── [26] Altermon                                              [T]
+│
+├── Fermionic-parity and spin-hybrid extensions
+    ├── [27] Top-transmon                                          [T]
+    ├── [28] Majorana-transmon                                     [T]
+    ├── [29] Kitmon                                                [T]
+    └── [30] Spinmon                                               [T]
+```
+
+</details>
+
+<a id="hardware-taxonomy-acronym-glossary"></a>
+
+#### Acronym Glossary for the Hardware-Taxonomy Tree
+
+<details>
+<summary><b>Expand the hardware-taxonomy acronym glossary</b></summary>
+
+> Acronym Glossary for the Hardware‑Taxonomy Tree
+> 
+> **AFC** – *Atomic Frequency Comb* (multiplexed rare‑earth quantum‑memory protocol)
+> 
+> **AQFP** – *Adiabatic Quantum‑Flux‑Parametron* (ultra‑low‑energy superconducting logic family) 
+>
+> **ADC** – *Analog‑to‑Digital Converter* (mixed‑signal front‑end building block)
+>
+> **AQFP** – *Adiabatic Quantum‑Flux Parametron* 
+>
+> **CPW** – *Coplanar Waveguide* (planar superconducting resonator geometry)
+>
+> **CMOS** – *Complementary Metal‑Oxide‑Semiconductor* (mainstream semiconductor process)
+>
+> **DAC** – *Digital‑to‑Analog Converter* (mixed‑signal front‑end building block)
+>
+> **eDRAM** – *Embedded Dynamic Random‑Access Memory* (capacitor‑less or 2T0C variants at cryo‑T)
+>
+> **eSFQ** – *Energy‑Efficient Single‑Flux‑Quantum* logic (bias‑resistor‑free RSFQ derivative) 
+>
+> **FinFET** – *Fin Field‑Effect Transistor* (multigate CMOS device) 
+>
+> **GKP** – *Gottesman‑Kitaev‑Preskill* bosonic code (grid cat qubit)
+>
+> **HEMT LNA** – *High‑Electron‑Mobility Transistor Low‑Noise Amplifier* (4 K second‑stage amplifier)
+>
+> **ICs** – *Integrated Circuits*
+>
+> **JPA** – *Josephson Parametric Amplifier* (λ/4 or lumped resonant pre‑amp) 
+>
+> **JPC** – *Josephson Parametric Converter* (non‑degenerate three‑wave mixer)
+>
+> **JPM** – *Josephson Photomultiplier* (microwave single‑photon detector) 
+>
+> **JTWPA** – *Josephson Traveling‑Wave Parametric Amplifier* 
+>
+> **KID/ MKID** – *Kinetic‑Inductance Detector/ Microwave Kinetic‑Inductance Detector* 
+>
+> **KI‑TWPA** – *Kinetic‑Inductance Traveling‑Wave Parametric Amplifier* 
+>
+> **LNA** – *Low‑Noise Amplifier*
+>
+> **MRAM** – *Magnetoresistive Random‑Access Memory*
+>
+> **NKPA** – *Nanobridge Kinetic Parametric Amplifier* 
+>
+> **NV** – *Nitrogen‑Vacancy* colour centre (diamond spin qubit)
+>
+> **PIC/ QPIC** – *(Quantum) Photonic Integrated Circuit*
+>
+> **QCPA** – *Quantum Capacitance Parametric Amplifier* 
+>
+> **RQL** – *Reciprocal Quantum Logic* (AC‑powered SFQ logic family) 
+>
+> **RSFQ** – *Rapid Single‑Flux‑Quantum* logic (classical picosecond digital logic) 
+>
+> **SAW** – *Surface‑Acoustic Wave* (piezoelectric filter technology)
+>
+> **SiN/ Si/ SiO₂** – *Silicon Nitride/ Silicon/ Silicon‑Dioxide* photonic platforms
+>
+> **SNAIL** – *Superconducting Nonlinear Asymmetric Inductive eLement* (tunable χ³ dipole) 
+>
+> **SPA** – *SNAIL Parametric Amplifier* (resonant three‑wave mixer) 
+>
+> **SNSPD** – *Superconducting Nanowire Single‑Photon Detector* 
+>
+> **SoC** – *System‑on‑Chip* (monolithic mixed‑signal controller)
+>
+> **SRAM** – *Static Random‑Access Memory*
+>
+> **SNAIL‑TWPA** – *Traveling‑Wave Parametric Amplifier built from SNAIL unit cells* (see SPA lineage)
+>
+> **TI** - *Topological Insulator*
+> 
+> **TWPA** – *Traveling‑Wave Parametric Amplifier* (generic umbrella for JTWPA, KI‑TWPA, etc.)
+
+</details>
+
+<a id="practical-qubit-requirements"></a>
+
+<a id="practical-requirements-to-implement-qubits"></a>
+
+#### Practical Requirements to Implement Qubits
+
+<a id="brief-version"></a>
+
+<a id="extended-version"></a>
+
+<details>
+<summary><b>Expand the brief and extended qubit requirements</b></summary>
+
+**Brief Version**
 
 ```
 Qubit-as-Mode
@@ -944,7 +1461,7 @@ Qubit-as-Mode
    └─ Logical qubits via codes (surface, QLDPC/bicycle, cat/GKP hybrids)
 ```
 
-#### Extended Version
+**Extended Version**
 
 ```
 Qubit-as-Mode
@@ -1061,166 +1578,76 @@ Borrowed from: Dorroh et al., *Theory of Quantum Computation With Magnetic Clust
 
 Borrowed from: Xia et al., *Qubits based on merons in magnetic nanodisks*, Commun Mater 3, 88 (2022)  
 <https://doi.org/10.1038/s43246-022-00311-w>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-### Some Visualized Examples of Stationary & Flying Qubits: 
+</details>
 
-![Flying vs  Stationary Qubits](https://github.com/user-attachments/assets/7cd9f9ee-07e8-4ded-a5c4-d8f4b272ed9c)
+<a id="mechanism-agnostic-qubit-elements"></a>
 
-Borrowed from: *Understanding Quantum Technologies*, arXiv 2111.15352, p. 256 (2024)  
-<https://doi.org/10.48550/arXiv.2111.15352>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+<a id="mechanism-agnostic-elements-of-a-qubit"></a>
 
----
+#### Mechanism-Agnostic Elements of a Qubit
 
-### Quantum Hardware & Quantum Adjacent Hardware Categories
+<img width="2354" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ecbf991-25c7-4f1a-ac78-786b150ebe2a"/>
 
-```
-Quantum Hardware + Quantum‑Adjacent Hardware
-├─ I.  Quantum‑Core Hardware
-│   ├─ A. Qubit Technologies
-│   │   ├─ 1. Superconducting Qubits
-│   │   │     • Transmon • Fluxonium • Flux qubit
-│   │   │     • Cavity‑protected (cat‑, binomial‑, GKP‑encoded)
-│   │   ├─ 2. Spin‑Based Qubits
-│   │   │   ├─ a. Semiconductor Spins (Si/SiGe, GaAs, donors, NV)
-│   │   │   └─ b. Magnetic & Molecular Spins
-│   │   │        • Magnetic clusters (Fe₈, Mn₁₂, heterometallic rings, other candidates)
-│   │   │        • Magnetic nanodisks (meron/ skyrmion qubits)
-│   │   ├─ 3. Bosons (microwave photons, phonons, magnons)
-│   │   └─ 4. Topological/ Majorana Candidates
-│   ├─ B. Quantum Interconnects (“Buses”)
-│   │   ├─ 1. Planar Resonators (CPW λ/4, λ/2, lumped, stripline)
-│   │   ├─ 2. 3‑D Superconducting Cavities
-│   │   ├─ 3. Metamaterial Waveguides & Resonators
-│   │   ├─ 4. Photonic Waveguides & Ring‑resonator PICs
-│   │   └─ 5. Hybrid Quantum Transducers (electro‑optic, electro‑acoustic, magnonic)
-│   ├─ C. Quantum‑Limited & Quantum‑Enhanced Detectors
-│   │   ├─ 1. SNSPD
-│   │   ├─ 2. KID/ MKID
-│   │   ├─ 3. Josephson Photomultipliers (JPM) & Photonics
-│   │   └─ 4. Quantum‑optimized Bolometers/ Calorimeters
-│   ├─ D. Quantum Memories
-│   │   ├─ 1. Rare‑earth AFC crystals
-│   │   ├─ 2. Magnon memories
-│   │   ├─ 3. 3‑D Cat‑code cavities
-│   │   └─ 4. Nuclear‑spin ensembles
-│   └─ E. Quantum Photonic Integrated Circuits (QPICs)
-│       ├─ 1. SiN/ Si/ SiO₂ wafer‑scale
-│       ├─ 2. III‑V hybrids (GaAs, InP)
-│       └─ 3. Diamond & LiNbO₃
-│
-└─ II. Quantum‑Adjacent Hardware
-    ├─ A. Cryogenic Digital Control Logic
-    │   ├─ 1. Single‑Flux‑Quantum families  (RSFQ, RQL, AQFP, eSFQ)
-    │   ├─ 2. Deep‑Cryo CMOS (4 K)
-    │   └─ 3. Milli‑Kelvin CMOS (≤ 100 mK)
-    ├─ B. Cryogenic Mixed‑Signal & RF ICs
-    │   ├─ 1. Time‑interleaved DAC/ADC
-    │   ├─ 2. RF Transceiver SoCs (2–18 GHz I/Q)
-    │   └─ 3. Cryo Class‑D Drivers/ Piezo
-    ├─ C. Cryogenic Amplifiers, Filters, & Passive Components
-    │   ├─ 1. mK Parametric Pre‑Amplifiers 
-    │   │     a. Flux‑pumped Josephson Parametric Amplifier/ Converter (JPA/JPC)
-    │   │     b. Josephson Traveling‑Wave Parametric Amplifier (JTWPA)
-    │   │     c. Kinetic‑Inductance Traveling-Wave Parametric Amplifier (KI‑TWPA)
-    │   │     d. Nanobridge Kinetic Parametric Amplifier (NKPA)
-    │   │     e. Quantum Capacitance Parametric Amplifier (QCPA)
-    │   │     f. SNAIL‑based Parametric Amplifier (SPA/ SNAIL‑TWPA)
-    │   ├─ 2. 4 K HEMT LNAs (octave‑wide, high dynamic range)
-    │   ├─ 3. RF Isolators/ Circulators (ferrite or on‑chip)
-    │   └─ 4. Superconducting & SAW Filters
-    ├─ D. Cryogenic Packaging & Interconnect
-    │   ├─ 1. Flex‑print & interposer tiles
-    │   ├─ 2. 3-D cavities w/ cryogenic bump-bonds/ interconnects
-    │   ├─ 3. Coax/ waveguide/ stripline wiring (NbTi, Nb, CuNi)
-    │   ├─ 4. Optical fiber feedthroughs (1–4 K)
-    │   └─ 5. Magnetic & vibration shielding, radiation hardeners
-    └─ E. Cryogenic Memory & Storage
-        ├─ 1. SRAM (FinFET 14‑nm & 5‑nm cryo‑SRAM)
-        ├─ 2. Floating‑Body RAM (FBRAM) at 77 K
-        ├─ 3. Capacitor‑less eDRAM/ DRAM benchmarks (2T0C, 4 K)
-        ├─ 4. JJ‑based RAM (JJ‑RAM, JMRAM)
-        └─ 5. Spin‑orbit‑torque (SOT) MRAM at 4 K
-```
+> These are various ways to physically simulate nature manipulating and using  natural or synthesized quantum objects. Figure by Onri Jay Benally.
 
-> Acronym Glossary for the Hardware‑Taxonomy Tree
-> 
-> **AFC** – *Atomic Frequency Comb* (multiplexed rare‑earth quantum‑memory protocol)
-> 
-> **AQFP** – *Adiabatic Quantum‑Flux‑Parametron* (ultra‑low‑energy superconducting logic family) 
->
-> **ADC** – *Analog‑to‑Digital Converter* (mixed‑signal front‑end building block)
->
-> **AQFP** – *Adiabatic Quantum‑Flux Parametron* 
->
-> **CPW** – *Coplanar Waveguide* (planar superconducting resonator geometry)
->
-> **CMOS** – *Complementary Metal‑Oxide‑Semiconductor* (mainstream semiconductor process)
->
-> **DAC** – *Digital‑to‑Analog Converter* (mixed‑signal front‑end building block)
->
-> **eDRAM** – *Embedded Dynamic Random‑Access Memory* (capacitor‑less or 2T0C variants at cryo‑T)
->
-> **eSFQ** – *Energy‑Efficient Single‑Flux‑Quantum* logic (bias‑resistor‑free RSFQ derivative) 
->
-> **FinFET** – *Fin Field‑Effect Transistor* (multigate CMOS device) 
->
-> **GKP** – *Gottesman‑Kitaev‑Preskill* bosonic code (grid cat qubit)
->
-> **HEMT LNA** – *High‑Electron‑Mobility Transistor Low‑Noise Amplifier* (4 K second‑stage amplifier)
->
-> **ICs** – *Integrated Circuits*
->
-> **JPA** – *Josephson Parametric Amplifier* (λ/4 or lumped resonant pre‑amp) 
->
-> **JPC** – *Josephson Parametric Converter* (non‑degenerate three‑wave mixer)
->
-> **JPM** – *Josephson Photomultiplier* (microwave single‑photon detector) 
->
-> **JTWPA** – *Josephson Traveling‑Wave Parametric Amplifier* 
->
-> **KID/ MKID** – *Kinetic‑Inductance Detector/ Microwave Kinetic‑Inductance Detector* 
->
-> **KI‑TWPA** – *Kinetic‑Inductance Traveling‑Wave Parametric Amplifier* 
->
-> **LNA** – *Low‑Noise Amplifier*
->
-> **MRAM** – *Magnetoresistive Random‑Access Memory*
->
-> **NKPA** – *Nanobridge Kinetic Parametric Amplifier* 
->
-> **NV** – *Nitrogen‑Vacancy* colour centre (diamond spin qubit)
->
-> **PIC/ QPIC** – *(Quantum) Photonic Integrated Circuit*
->
-> **QCPA** – *Quantum Capacitance Parametric Amplifier* 
->
-> **RQL** – *Reciprocal Quantum Logic* (AC‑powered SFQ logic family) 
->
-> **RSFQ** – *Rapid Single‑Flux‑Quantum* logic (classical picosecond digital logic) 
->
-> **SAW** – *Surface‑Acoustic Wave* (piezoelectric filter technology)
->
-> **SiN/ Si/ SiO₂** – *Silicon Nitride/ Silicon/ Silicon‑Dioxide* photonic platforms
->
-> **SNAIL** – *Superconducting Nonlinear Asymmetric Inductive eLement* (tunable χ³ dipole) 
->
-> **SPA** – *SNAIL Parametric Amplifier* (resonant three‑wave mixer) 
->
-> **SNSPD** – *Superconducting Nanowire Single‑Photon Detector* 
->
-> **SoC** – *System‑on‑Chip* (monolithic mixed‑signal controller)
->
-> **SRAM** – *Static Random‑Access Memory*
->
-> **SNAIL‑TWPA** – *Traveling‑Wave Parametric Amplifier built from SNAIL unit cells* (see SPA lineage)
->
-> **TWPA** – *Traveling‑Wave Parametric Amplifier* (generic umbrella for JTWPA, KI‑TWPA, etc.)
+<a id="superconducting-qubit-elements"></a>
 
----
+<a id="linear--non-linear-elements-of-a-superconducting-qubit"></a>
 
-### A Truly Perfect Qubit
+#### Linear & Non-Linear Elements of a Superconducting Qubit
+
+<img width="3707" height="auto" alt="image" src="https://github.com/user-attachments/assets/d857c81b-811b-4359-b385-d85af19e502a"/>
+
+> This is one way to physically simulate or mimic the excitation of a single atom.
+
+Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE J. Microw. 1, 1 (2021)  
+<https://doi.org/10.1109/JMW.2020.3034071>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>
+
+<a id="coupled-cpw-resonator"></a>
+
+<a id="a-coupled-coplanar-waveguide-resonator-elbow"></a>
+
+#### A Coupled Coplanar Waveguide Resonator (Elbow)
+
+<img width="3779" height="auto" alt="image" src="https://github.com/user-attachments/assets/f6265556-115d-478d-9b63-f9d029397321"/>
+
+> A Coupled Coplanar Waveguide Resonator (Elbow).
+
+Adapted from Sweetnam et al., *Simulating the behaviour of travelling wave superconducting parametric amplifiers using a commercial circuit simulator*, Supercond. Sci. Technol. 35 095011 (2022)  
+<https://iopscience.iop.org/article/10.1088/1361-6668/ac850b>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>
+
+<a id="bec-transmon-and-cpw-comparison"></a>
+
+<a id="comparison-between-bose-einstein-condensates-superconducting-transmons--superconducting-linear-coplanar-waveguide-resonators"></a>
+
+#### Comparison Between Bose-Einstein Condensates, Superconducting Transmons, & Superconducting Linear Coplanar Waveguide Resonators
+
+| Aspect | Bose–Einstein Condensate (BEC) | Nonlinear JJ qubit (transmon) | Linear CPW resonator |
+| :----------------------------------------------- | :-------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| **Physical carriers** | Neutral atoms (bosons) | Circuit’s superconducting phase across a JJ (plasma mode of Cooper pairs) | Microwave photons in a distributed superconducting cavity |
+| **Underlying order parameter** | $\Psi=\sqrt{n}e^{i\theta}$ (global $U(1)$ broken) | Superconducting $\Delta e^{i\theta}$ (phase mode gapped by Anderson–Higgs); circuit degree $\hat\varphi$ | No broken symmetry of the photon field; <br>harmonic cavity mode $a,a^\dagger$ in a superconducting environment |
+| **Governing equation/ Hamiltonian** | Gross–Pitaevskii equation; Bogoliubov theory for excitations | $H=4E_C(\hat n-n_g)^2-E_J\cos\hat\varphi$ → weakly anharmonic oscillator; $\omega_{10} \approx \frac{\sqrt{8E_JE_C}}{\hbar}-\frac{E_C}{\hbar}$ | $H=\hbar\omega_r\big(a^\dagger a+\tfrac12\big)$ (harmonic) |
+| **Collective low‑energy modes** | Bogoliubov phonons <br>(gapless as $k \to 0$) | Localized **plasma** oscillations; levels $\lvert0\rangle,\lvert1\rangle,\lvert2\rangle,\dots$ with weak anharmonicity | Photons $\lvert n\rangle$ in standing‑wave modes; <br>strictly harmonic spacing |
+| **Josephson physics** | Yes, across weak links in atomtronic circuits; oscillations & self‑trapping | Foundational: $E_J$ sets the nonlinearity | Indirect: CPW provides the linear EM environment coupling to JJ qubits |
+| **Goldstone/ phase mode** | **Gapless** (sound) | **Gapped** to plasma frequency (Anderson–Higgs in a charged condensate) | Not applicable (no spontaneous symmetry breaking of the cavity field) |
+| **“Is it a condensate?”** | **Yes**—thermodynamic condensation of atoms | **No**—these are quantized circuit modes built on a BCS condensate | **No** for standard CPWs (photons lack an equilibrium chemical potential); **Yes** in dye‑microcavity photon BEC platforms |
+| **Typical excitation scale** | **Hz–kHz** (trap & sound‑set; Bragg phonons in the kHz range) | $\omega_{10}/2\pi \sim 4–8$ GHz (device‑dependent) | $\omega_r/2\pi \sim 2–10$ GHz; internal $Q$ commonly $10^5–10^6$, $>10^6$ achievable |
+| **Representative states ($\lvert\cdot\rangle$)** | Collective modes, $\lvert\text{phonon }k\rangle$ | $\lvert0\rangle,\lvert1\rangle,\lvert2\rangle$ (qubit subspace $\lvert0\rangle,\lvert1\rangle$) | $\lvert n\rangle$, coherent $\lvert\alpha\rangle$, stabilized cat states |
+| **Open‑access anchors** | Dalfovo–Giorgini–Pitaevskii–Stringari (RMP); Bragg phonons | Koch **et al.** (transmon) + Shimano–Tsuji (Higgs/phase) | Göppl (CPW resonators), Blais **et al.** (cQED), Klaers/Weitz (photon BEC) |
+
+- BEC vs nonlinear JJ‑qubit excitations: similar only at the level of macroscopic phase and coherence inherited from broken‑symmetry order parameters; different in that BEC is a true thermodynamic condensation of particles with Bogoliubov phonons, whereas qubit excitations are anharmonic plasma modes of a superconducting circuit whose phase mode is gapped and whose “two‑levelness” is engineered.
+
+- BEC vs linear CPW resonator excitations: again, shared bosonic coherence but no equilibrium condensation in a standard CPW because photons lack a chemical potential; nonetheless, photonic BEC exists in dye microcavities, and engineered reservoirs in circuit QED now offer a path toward circuit‑photon quantum fluids with BEC‑like features.
+
+<a id="determinism-and-perfect-qubit"></a>
+
+<a id="a-truly-perfect-qubit"></a>
+
+#### A Truly Perfect Qubit
 
 ```
 "Determinism" in Quantum Computing
@@ -1248,11 +1675,13 @@ Neumaier, *The Born Rule—100 Years Ago and Today*, Entropy 27(4), 415 (2025)
 
 Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, (2024)  
 <https://doi.org/10.48550/arXiv.2111.15352>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
----
+<a id="qubit-classification-outcomes"></a>
 
-### Illustrative Example Detailing the Outcome of Qubits Based on Their Classification
+<a id="illustrative-example-detailing-the-outcome-of-qubits-based-on-their-classification"></a>
+
+#### Illustrative Example Detailing the Outcome of Qubits Based on Their Classification
 
 In this evaluation, $p$ represents the probability that a single experimental shot satisfies a predefined success criterion. This quantity is strictly distinct from conventional measures, including gate fidelity, readout fidelity, state fidelity, circuit fidelity, and the logical error rate.
 
@@ -1284,22 +1713,33 @@ The cost column assumes a fixed illustrative price of $0.60 per 10,000 shots, wh
 
 <img width="2850" height="auto" alt="Untitled" src="https://github.com/user-attachments/assets/5bc52e49-3fe2-44d9-a0ce-f973b5aa8ada" />
 
+> Illustrative Example Detailing the Outcome of Qubits Based on Their Classification.
 
----
+<a id="single-to-multi-shot-success-rates"></a>
 
-### Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits
+<a id="illustrative-example-of-single-to-multi-shot-success-rates-for-qubits"></a>
+
+#### Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits
 
 <img width="3057" height="auto" alt="image" src="https://github.com/user-attachments/assets/85936c44-8fc7-40e8-96a3-4fc010c57495"/>
 
+> Illustrative Example of Single-to-Multi-Shot Success Rates for Qubits.
 
-### Illustrative Example of Rabi Dynamics for Various Classes of Qubits Mentioned
+<a id="rabi-dynamics-by-qubit-class"></a>
+
+<a id="illustrative-example-of-rabi-dynamics-for-various-classes-of-qubits-mentioned"></a>
+
+#### Illustrative Example of Rabi Dynamics for Various Classes of Qubits Mentioned
 
 <img width="3519" height="auto" alt="Untitled" src="https://github.com/user-attachments/assets/98359b3c-7313-401d-92f8-70d3f5bcaa92" />
 
+> Illustrative Example of Rabi Dynamics for Various Classes of Qubits Mentioned.
 
----
+<a id="long-term-qubit-regimes"></a>
 
-### Top 2 Qubit Regimes in the Long Term 
+<a id="top-2-qubit-regimes-in-the-long-term"></a>
+
+#### Top 2 Qubit Regimes in the Long Term
 
 | Mechanism | What protects information | Characteristic scaling | What you tune | Practical caveats |
 | :--- | :--- | :--- | :--- | :--- |
@@ -1316,11 +1756,16 @@ Bravyi et al., *High-threshold and low-overhead fault-tolerant quantum memory*, 
 
 Lahtinen et al., *A Short Introduction to Topological Quantum Computation*, SciPost Phys. 3, 021 (2017)  
 <https://scipost.org/SciPostPhys.3.3.021>  
-<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>
 
----
+<a id="fault-tolerant-hybrid-architecture"></a>
 
-### An Example Architecture of How a Fault-Tolerant Heterogeneous/ Hybrid Quantum System Could Look Like (By Onri)
+<a id="an-example-architecture-of-how-a-fault-tolerant-heterogeneous-hybrid-quantum-system-could-look-like-by-onri"></a>
+
+#### An Example Architecture of How a Fault-Tolerant Heterogeneous/ Hybrid Quantum System Could Look Like (By Onri)
+
+<details>
+<summary><b>Expand the heterogeneous quantum-system architecture</b></summary>
 
 ```
 Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
@@ -1357,9 +1802,16 @@ Heterogeneous Quantum Computer (Architected for Fault-Tolerant Compatibility)
     └─ Compiler for biased/ erasure noise and transduction-aware routing
 ```
 
----
+</details>
 
-### Entanglement Mediators for Qubits
+<a id="entanglement-mediators"></a>
+
+<a id="entanglement-mediators-for-qubits"></a>
+
+#### Entanglement Mediators for Qubits
+
+<details>
+<summary><b>Expand the entanglement-mediator tree and references</b></summary>
 
 ```
 ├─ Superconducting Circuits
@@ -1573,11 +2025,15 @@ Pompili et al., *Experimental demonstration of entanglement delivery using a qua
 
 Ma̧dzik et al., *Conditional quantum operation of two exchange-coupled donors in silicon*, Nature Communications 12, 181 (2021)  https://doi.org/10.1038/s41467-020-20424-5  <https://creativecommons.org/licenses/by/4.0/>  
 
-Harvey-Collard et al., *Coherent Spin–Spin Coupling Mediated by Virtual Microwave Photons*, Physical Review X 12, 021026 (2022)  https://doi.org/10.1103/PhysRevX.12.021026  <https://creativecommons.org/licenses/by/3.0/>  
+Harvey-Collard et al., *Coherent Spin–Spin Coupling Mediated by Virtual Microwave Photons*, Physical Review X 12, 021026 (2022)  https://doi.org/10.1103/PhysRevX.12.021026  <https://creativecommons.org/licenses/by/3.0/>
 
----
+</details>
 
-### Example of a Cross-Resonance Used to Entangle Some Types of Superconducting Qubit Platforms
+<a id="cross-resonance"></a>
+
+<a id="example-of-a-cross-resonance-used-to-entangle-some-types-of-superconducting-qubit-platforms"></a>
+
+#### Example of a Cross-Resonance Used to Entangle Some Types of Superconducting Qubit Platforms
 
 Two weakly anharmonic oscillators (transmons) with bare frequencies ($\omega_c$) (control) and ($\omega_t$) (target), anharmonicities ($\alpha_{c,t} < 0$), and a static transverse coupling ($J$). You drive the **control** at ($\omega_d \approx \omega_t$) with complex envelope ($\Omega(t)e^{i\phi}$). In the dispersive, weak-drive limit, a Schrieffer–Wolff treatment in the doubly rotating frame yields an **effective two-qubit Hamiltonian** dominated by
 $$H_\text{CR}/\hbar \approx \frac{1}{2}\Omega_{ZX}(t) Z \otimes X + \frac{1}{2}\Omega_{IX}(t) I \otimes X + \frac{1}{2}\Omega_{IY}(t) I \otimes Y + \frac{1}{2}\zeta_{ZZ} Z \otimes Z + \cdots$$
@@ -1586,60 +2042,16 @@ The **entangling term is ($Z \otimes X$)**: the target’s rotation about ($X$) 
 
 Sundaresan et al., *Reducing Unitary and Spectator Errors in Cross Resonance with Optimized Rotary Echoes*, PRX Quantum 1, 020318 (2020)  
 <https://doi.org/10.1103/PRXQuantum.1.020318>  
-<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>
 
----
+<a id="industry-and-academic-processor-deployment"></a>
 
-### Quantum Computing That Can Be Achieved Without Nanofabrication  
+<a id="towards-deployment-of-industry-level-vs-academic-quantum-processors"></a>
 
-| Qubit carrier (microscopic) | Gate mechanism | Typical "lab-bench" hardware (macroscopic) | Measurement |
-| :--- | :--- | :--- | :--- |
-| Liquid-state NMR (nuclear spins in molecules floating in a beaker) | RF pulse sequences implement universal gates on nuclear spins | Commercial NMR spectrometer, 10-30 MHz RF coils; no vacuum, no cryogenics if you use a permanent-magnet benchtop unit | Inductive voltage in same RF coil (macroscopic signal from $\gtrsim 10^{18}$ molecules) |
-| Trapped ions (e.g. ${ }^{40} \mathrm{Ca}^{+},{ }^{171} \mathrm{Yb}^{+}$) | Laser-driven stimulated-Raman or Mølmer-Sørensen gates | Millimeter-scale metal-rod Paul trap, tabletop lasers ( $\sim 100 \mu \mathrm{~m}$ beam waist), vacuum at $10^{-9} \mathrm{mbar}$ | Fluorescence counted by photomultiplier/APD |
-| Neutral atoms in optical tweezers/ optical lattices | Rydberg blockade or spin-exchange gates | Commercial diode lasers & objective lens; glass vacuum cell; spatial-light-modulator for tweezer array | Fluorescence imaging onto a CCD |
-| Linear-optics quantum computing | Hong-Ou-Mandel interference; waveplate phase shifters | Off-the-shelf mirrors, beamsplitters, Pockels cells, optical fibres | Single-photon avalanche diodes |
-| NV centres in bulk diamond | Microwave pulses + optical spinselective shelving | One diamond crystal; microwave stripline printed on FR-4; 532 nm laser; roomtemperature operation | Spin-dependent fluorescence into an objective |
+#### Towards Deployment of Industry-Level vs. Academic Quantum Processors
 
-> Key limitation is solid-state scalability and lack of strong on-chip coupling.
-
----
-
-### Quantum Computing That Can Be Achieved With Nanofabrication  
-
-| Feature | Description |
-| :--- | :--- |
-| DiVincenzo Criteria + Precision Apparatus + Memory (classical + quantum) | The foundational requirements for a scalable quantum system: the DiVincenzo criteria, high-precision measurement/control apparatus, and both classical and quantum memories. |
-| System Stack | Microscopic qubit carrier (programmable 2-level atom [natural or synthetic]) $\rightarrow$ apparatus $\rightarrow$ control/sampling (mixed-signal components) $\rightarrow$ memories. |
-| Embedded Chip Components | All layers except the qubit carrier are chip-integrated, enabling precise control/observation and the ability to tie thousands to millions of qubits into a fault-tolerant system. |
-| On-Chip Metrology | Integrated, real-time quantum-adjacent device health monitoring for in-situ metrology and device-level diagnostics. |
-| Quantum Memory $\leftrightarrow$ Transducer Coupling | Fabricated quantum memories interface with quantum transducers to enable long-range QPU-to-QPU coupling (entanglement bus) for modular quantum computing architectures. |
-
-> Key advantage is solid-state scalability and strong on-chip coupling.
-
----
-
-### Open Quantum Hardware Solutions 
-
-| **Category** | **Functionality** | **Examples** | 
-|:---:|:---|:---|
-| Projects | Processor Design | DASQA, KQCircuits, PainterQubits/Devices.jl, pyEPR, Qiskit Metal, QuCAT |
-| Projects | Simulation and diagnostics | KQCircuits, Pulser, Qiskit Metal, QuTiP, QuTiP-QIP, sc-qubits, Strawberry Fields |
-| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua $^{a}$, QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
-| Facilities | Remotely Accessible Labs $^{b}$ | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
-| Facilities | Testing (Testbeds) | Lawrence Berkeley National Lab's AQT, Open Quantum Design, Sandia National Labs' QSCOUT, Sherbrooke's Distriq DevTeQ, NQCC |
-| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare $^{c}$ |
-
->$^{a}$ partially open-source  
->$^{b}$ excluding commercial providers  
->$^{c}$ private company with support for Qiskit Metal
-
-Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, APL Quantum 1, 011501 (2024)  
-<https://doi.org/10.1063/5.0180987>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
---- 
-
-### Towards Deployment of Industry-Level vs. Academic Quantum Processors
+<details>
+<summary><b>Expand the processor deployment-scale tree</b></summary>
 
 ```
 Qubit Architectures vs. Deployment Scale
@@ -1701,9 +2113,273 @@ Qubit Architectures vs. Deployment Scale
       └─ Non‑stoquastic Hamiltonian & prime‑factor test circuits
 ```
 
----
+</details>
 
-### Cryostats & Dilution Refrigerators on the Market
+<a id="control-and-readout-stack"></a>
+
+### C. The Control & Readout Stack
+
+<a id="microwave-and-baseband-control"></a>
+
+<a id="microwave--baseband-control-requirements"></a>
+
+#### Microwave & Baseband Control Requirements
+
+|  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) | 
+| :---: | :---: | :---: |
+| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns <br> 𝜋-pulse P_av: -80 to -60 dBm <br> Shaped envelope | 1Q Z gates, 2Q gates <br> 0.01-1 ~mA static/pulsed <br> Pulse duration: 10-500 ns <br> Resolution: ~nA |
+| Semiconductor Spin | Single spin Q: 1Q XY gates <br> Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to 1 𝜇s <br> 𝜋-pulse P_av: -60 to +0 dBm <br> Shaped envelope | Single spin Q: 2Q gates <br> S-T Q: XY gates, 2Q gates <br> E-O Q: XY gates, 2Q gates <br> 𝜇V-mV level signals <br> Pulse duration: ns-ms <br> 1 ns rise/fall |
+| Trapped Ion | 1Q XY & Z gates, 2Q gates <br> Carrier: 5-20 MHz, 1-12.6 GHz <br> Pulse duration: 1-500 𝜇s <br> 𝜋-pulse P_av: 0 to 45 dBm <br> Rectangular envelope | Qubit state control typically not performed at baseband | 
+
+Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
+<https://doi.org/10.1109/JMW.2020.3034071>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="carrier-frequencies"></a>
+
+<a id="typical-carrier-frequencies-used-by-some-of-the-primary-qubit-technologies-for-control--readout"></a>
+
+#### Typical Carrier Frequencies Used by Some of the Primary Qubit Technologies for Control & Readout
+
+<details>
+<summary><b>Expand the carrier-frequency reference figure</b></summary>
+
+![Carrier Frequencies](https://github.com/user-attachments/assets/f6a49b0f-2251-4d22-a72b-f05f05c2ace6)
+
+> Typical Carrier Frequencies Used by Some of the Primary Qubit Technologies for Control & Readout.
+
+Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
+<https://doi.org/10.1109/JMW.2020.3034071>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</details>
+
+<a id="mixer-placement-and-purpose"></a>
+
+<a id="placement--purpose-of-mixer-hardware-components"></a>
+
+#### Placement & Purpose of Mixer Hardware Components
+
+| Task                        | What the mixer does                                               | Typical placement                 | Common issues                                | Standard mitigations                            | 
+| --------------------------- | ----------------------------------------------------------------- | --------------------------------- | -------------------------------------------- | ----------------------------------------------- | 
+| Up-conversion for gates     | Translates $I/Q$ baseband to microwave SSB near $\omega_\text{q}$ | AWG → I/Q mixer → microwave chain | LO leakage, image tone, gain/phase imbalance | I/Q calibration, digital SSB, predistortion     |
+| Down-conversion for readout | Translates resonator output to IF/baseband for ADC                | LNA → mixer → IF chain → ADC      | Phase drift, DC offsets, conversion loss     | Phase-coherent LOs, offset nulling, calibration |
+| Mixer calibration           | Measures/compensates amplitude/phase imbalance, offsets           | Both control and readout paths    | Time/frequency drift                         | Routine recalibration, temperature control      |
+| Alternatives/adjacent       | Direct RF from RFSoC, or double-superhet                          | Controller front-ends             | Complexity vs. spurs, latency                | Integrated digital DSP, careful LO plan         |       
+
+```
+Frequency Translation in Quantum Control
+├─ Up-conversion (control)
+│  ├─ Baseband I/Q → I/Q mixer + LO → SSB at ωq
+│  └─ Calibrate: LO leak, image, imbalance
+├─ Down-conversion (readout)
+│  ├─ Cavity tone + LO → IF/baseband
+│  └─ Demodulate → integrate → state decision
+└─ Evolving stacks
+   ├─ RFSoC direct-RF (QICK) → fewer analog mixers
+   └─ Double-superhet vs pure I/Q → spur/noise trade-offs
+```
+
+<a id="reflection-transmission-and-emission-setups"></a>
+
+<a id="basic-reflection-transmission--emission-measurement-setup-schematics-for-quantum-hardware"></a>
+
+#### Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware
+
+![image](https://github.com/user-attachments/assets/e525afbd-cd91-4301-b9b1-8803e8be0685)
+
+> Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware.
+
+Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry*, Appl. Phys. Rev. 10, 021305 (2023)  
+<https://doi.org/10.1063/5.0088229>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="homodyne-heterodyne-and-photon-counting"></a>
+
+<a id="homodyne-measurement-heterodyne-measurement--photon-counting"></a>
+
+#### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
+
+<img width="2945" height="auto" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080"/>
+
+> Homodyne Measurement, Heterodyne Measurement, & Photon Counting.
+
+Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 674 (2024)  
+<https://doi.org/10.48550/arXiv.2111.15352>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="quantum-measurement-outcomes"></a>
+
+<a id="physical-outcomes-of-quantum-measurement"></a>
+
+#### Physical Outcomes of Quantum Measurement
+
+<details>
+<summary><b>Expand the platform-by-platform readout comparison</b></summary>
+
+| **Quantum Platform** | **Measurement Mechanism** | **Observable Outcome** | **Key Points/ Notes** |
+|-|-|-|-|
+| **Superconducting Qubits**            | **Dispersive Readout** <br> (cQED architecture) | - Shift in resonance frequency (phase/amplitude change of probe tone) <br> - Often measured via the readout resonators consisting of short superconducting transmission lines that are coupled to a feedline wired to an output, which is wired to a quantum-limited parametric amplifier and typically a high gain, high electron mobility transistor amplifier (HEMT), etc. | - Qubit and resonator are detuned (dispersive regime), leading to a qubit-state-dependent frequency shift $(\pm \chi)$. <br> - Detecting transmitted/reflected microwave signal reveals whether the qubit is in $\lvert 1\rangle$ or $\lvert 0\rangle$. <br> - The measurement “collapses” the qubit state, producing a classical result that can be digitized. | 
+| **Trapped Ions**                       | **Fluorescence Detection** <br> (e.g., electron shelving technique) | - Presence or absence of emitted photons (fluorescence) | - A laser tuned to an electronic transition lights up one qubit state (“bright”) while another remains dark. <br> - Counting photons above a threshold indicates $\lvert 1\rangle$ or $\lvert 0\rangle$, collapsing the ion’s internal state. <br> - Non-resonant states do not fluoresce, providing a clear binary readout. | 
+| **Semiconductor Spin Qubits**          | **Spin-Dependent Tunneling/ Spin Blockade** | - Electron tunneling current or charge sensor signal | - In gate-defined quantum dots, measuring the spin state uses energy-selective tunneling (e.g., Pauli spin blockade). <br> - A charge sensor (quantum point contact or single-electron transistor) detects whether an electron tunnels, indicating spin-up vs. spin-down. <br> - This process effectively “collapses” the spin state upon measurement. | 
+| **NV Centers in Diamond**             | **Optical Fluorescence Readout** | - Photoluminescence intensity (count rate)                                                                                                 | - The spin state of the NV center (e.g., $(\lvert m_s = 0\rangle)$ vs. $(\lvert m_s = 1\rangle)$ affects the optical emission levels under laser illumination. <br> - Detecting the photoluminescence intensity indicates the spin state. <br> - Measurement collapses the NV center’s ground-state spin wave function into a definite eigenstate. |
+| **Photonic Qubits**                    | **Single-Photon Detection/ Homodyne Measurement** | - Detector “click” (photon arrival) <br> or continuous variable amplitude/phase | - In single-photon approaches, a photon counter (e.g., avalanche photodiode, superconducting nanowire) registers a detection event, collapsing the photonic mode. <br> - In continuous-variable systems, homodyne or heterodyne detection measures quadratures of the electromagnetic field, giving classical measurement outcomes that reveal quantum state information. |
+| **Neutral Atoms/ Rydberg Atoms**      | **State-Selective Resonant Imaging/ Fluorescence** | - Photon emission or ionization detection | - Similar to trapped ions, a resonant laser can cause one hyperfine state to scatter photons (“bright”), while another remains dark. <br> - Rydberg atoms may also be ionized and detected in a channeltron or micro-channel plate detector. The presence/absence of an ion indicates the atomic state. <br> - The measurement outcome collapses the atomic qubit to a definite state in the chosen basis. |
+| **Superconducting Flux or Phase Qubits** | **Switching Current/ Flux Detection** | - Change in the current-voltage characteristics of the readout circuit | - While cQED dispersive readout is common, some older or specialized superconducting designs measure flux qubits by detecting shifts in the SQUID magnetization or critical current. <br> - The wave function collapse is reflected in whether the circuit remains in a superconducting state or switches to a normal resistive state. |
+
+> Expanded Explanation of Key Ideas: 
+
+1. **Wave Function Collapse**  
+   - In the Copenhagen interpretation, a quantum system (e.g., a qubit) is described by a superposition of states until it is measured.  
+   - **Collapse** means the superposition is projected into an eigenstate of the measured observable, producing a classical result.  
+
+2. **Dispersive Readout (Superconducting)**  
+   - The qubit–resonator system is designed so the qubit’s state modifies the resonator frequency slightly (the dispersive shift, $(\chi)$.  
+   - A microwave probe tone is sent through or reflected from the resonator, and the measured amplitude or phase shift reveals whether the qubit was $\lvert 0\rangle$ or $\lvert 1\rangle$.
+
+3. **Variety of Measurement Mechanisms**  
+   - **Trapped Ions**: Laser-induced fluorescence, where one qubit state fluoresces strongly and the other does not.  
+   - **Semiconductor Spin Qubits**: Charge sensing or spin blockade, often measured via a quantum point contact or single-electron transistor.  
+   - **NV Centers**: Optical readout of spin states via photoluminescence differences.  
+   - **Photonic Qubits**: Single-photon counters or homodyne detection, collapsing the photonic state.  
+   - **Neutral Atoms**: Fluorescence or ionization detection for Rydberg states.  
+
+4. **Outcome vs. Interpretation**  
+   - Although each platform’s **physical outcome** is different (fluorescence photons, current pulses, microwave phase shift, etc.), the conceptual step of mapping a quantum state to a classical result is the same.
+   - Each row describes a distinct platform or approach, the typical **measurement mechanism**, and the **observable outcome** that corresponds to the qubit’s final state (often $\lvert 0\rangle$, $\lvert 1\rangle$, or some multi-qubit extension).   
+
+5. **Measurement Fidelity & Qubit Readout**  
+   - Designing a **high-fidelity measurement** is crucial for scalable quantum computing, ensuring that the classical outcome accurately reflects the qubit’s true state.  
+   - Techniques like **Josephson parametric amplification** in superconducting circuits reduce measurement noise, enabling single-shot readout.
+
+</details>
+
+<a id="rabi-oscillations-and-fourier-transform"></a>
+
+<a id="qubit-rabi-oscillations--their-fourier-transform"></a>
+
+#### Qubit Rabi Oscillations & Their Fourier Transform
+
+![image](https://github.com/user-attachments/assets/21906699-f307-4b34-84bb-398453ca107a)  
+
+> Qubit Rabi Oscillations & Their Fourier Transform.
+
+Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*, J Low Temp Phys 189, 60–75 (2017)  
+<https://doi.org/10.1007/s10909-017-1787-x>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="cryo-fpga-and-cryo-asic"></a>
+
+<a id="advanced-quantum-computers-are-controlled-using-2-main-approaches"></a>
+
+#### Advanced Quantum Computers Are Controlled Using 2 Main Approaches
+
+| Controller Type | Full Name | Description |
+| :--- | :--- | :--- |
+| CryoFPGA | Cryogenic Field Programmable Gate Array | A reconfigurable logic device designed to operate at cryogenic temperatures, used for flexible signal processing and control of qubits. |
+| Cryo-ASIC | Cryogenic Application Specific Integrated Circuit | A custom-designed integrated circuit optimized for cryogenic operation, tailored for efficient and lowpower qubit control and readout. |
+
+<a id="cryo-cmos-controller-architecture"></a>
+
+<a id="block-diagram-of-an-embedded-cryogenic-complementary-metal-oxide-semiconductor-cryo-cmos-qubit-controller--readout-architecture"></a>
+
+#### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture
+
+<img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88"/>
+
+> Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture.
+
+Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computing Applications*, IEEE J. Solid-State Circuits, 53, 1 (2018)  
+<https://doi.org/10.1109/JSSC.2017.2737549>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="cryo-asic-controller-architecture"></a>
+
+<a id="block-diagram-of-an-embedded-cryogenic-application-specific-integrated-circuit-cryo-asic-qubit-controller--readout-architecture"></a>
+
+#### Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture
+
+<img width="3345" height="auto" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad"/>
+
+
+> This figure highlights the digital and analog components of qubit control and readout for cryogenic ASICs. Digitally, an SPI‑linked sequencer and waveform memory program the amplitude, phase, frequency, and timing of pulses. Analog‑wise, two DAC channels create baseband I and Q envelopes that are filtered and mixed with a low‑phase‑noise local oscillator (I/Q modulation) to produce the microwave XY drive; a separate DAC provides Z‑bias control; and a reflective readout chain transmits a probe tone, then amplifies, down‑converts, filters, and digitizes the return for qubit‑state discrimination. It is important to note that accurate qubit manipulation  relies on low phase noise, low jitter, calibrated I/Q balance, and low‑distortion analog buffering throughout the signal path. 
+
+Borrowed from: Guo et al., *Cryogenic CMOS RF Circuits: A Promising Approach for Large-Scale Quantum Computing*, IEEE TSCII, 71, 3 (2024)  
+<https://doi.org/10.1109/TCSII.2023.3333540>  
+<https://creativecommons.org/licenses/by-nc-nd/4.0/>
+
+<a id="six-transmon-chip"></a>
+
+<a id="a-6-superconducting-transmon-chip-with-individual-drive-lines--readout-resonators"></a>
+
+#### A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators
+
+![Screenshot 2025-02-01 031533](https://github.com/user-attachments/assets/644776d7-0761-4ab9-ac54-34c5c7ec43af)
+
+> *Corresponding colors for figure*  
+> Green: readout line  
+> Blue: readout resonator  
+> Yellow: drive line or capacitor  
+> Note: Bolometer chip is shown on the lower right.  
+
+Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
+<https://doi.org/10.1038/s41928-024-01147-7>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="six-transmon-experimental-schematic"></a>
+
+<a id="experimental-schematic-for-the-6-superconducting-transmon-chip"></a>
+
+#### Experimental Schematic for the 6 Superconducting Transmon Chip
+
+![Screenshot 2025-02-01 042032](https://github.com/user-attachments/assets/f9dcb57c-fbe6-4d1d-844b-88d5467d245b) 
+
+> Experimental Schematic for the 6 Superconducting Transmon Chip.
+
+Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
+<https://doi.org/10.1038/s41928-024-01147-7>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="two-fluxonium-experimental-schematic"></a>
+
+<a id="experimental-schematic-for-a-2-superconducting-fluxonium-chip"></a>
+
+#### Experimental Schematic for a 2 Superconducting Fluxonium Chip
+
+![unnamed](https://github.com/user-attachments/assets/b05c2175-369f-4047-81e9-4348bb04d865)
+
+> Experimental Schematic for a 2 Superconducting Fluxonium Chip.
+
+Borrowed from: Moskalenko et al., *High Fidelity Two-Qubit Gates on Fluxoniums Using a Tunable Coupler*. npj Quantum Inf 8, 130 (2022)  
+<https://doi.org/10.1038/s41534-022-00644-x> 
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="two-tunable-transmon-experimental-schematic"></a>
+
+<a id="a-simplified--experimental-schematic-for-a-tunable-2-superconducting-transmon-chip"></a>
+
+#### A Simplified  Experimental Schematic for a Tunable 2 Superconducting Transmon Chip
+
+![unnamed (5)](https://github.com/user-attachments/assets/41bf15d3-d9cb-42f6-bd6f-81c93cffbf58) 
+
+> A Simplified  Experimental Schematic for a Tunable 2 Superconducting Transmon Chip.
+
+Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
+<https://doi.org/10.1109/JMW.2020.3034071>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="cryogenics-and-signal-conditioning"></a>
+
+### D. Cryogenics & Signal Conditioning
+
+<a id="cryostat-market"></a>
+
+<a id="cryostats--dilution-refrigerators-on-the-market"></a>
+
+#### Cryostats & Dilution Refrigerators on the Market
+
+<details>
+<summary><b>Expand the cryostat and dilution-refrigerator supplier tree</b></summary>
 
 (For more information, see the following document: [Cryostat Market](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Cryostats_and_Dilution_Refrigerators_Across_the_Market.md#cryostats--dilution-refrigerators-across-the-market))
 
@@ -1782,7 +2458,13 @@ DR: Dilution Refrigerator
 MXC: Mixing Chamber
 ```
 
-### Additional Notes on Passive Cryogenic Vessels
+</details>
+
+<a id="passive-cryogenic-vessels"></a>
+
+<a id="additional-notes-on-passive-cryogenic-vessels"></a>
+
+#### Additional Notes on Passive Cryogenic Vessels
 
 | Passive‑vessel subtype                                          | Common cryogens†                              | Practical temperature floor\*                      | Core thermal/ safety constraints                                                                                                                                                                                                                    |
 | --------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1801,17 +2483,21 @@ MXC: Mixing Chamber
 - Some modern laboratories skip stored liquids entirely by tying the “Cryostat” branch’s pulse-tube coolers straight to a helium-recovery compressor; nevertheless, Dewars are still ubiquitous for transport, purge, and backup.
 - **Dilution** *(as in “dilution refrigerator”)*: from Latin **diluere** “to wash away/thin out,” via the French term “dilution”. In a dilution refrigerator the *thinning* of a **³He**\-rich phase into a **⁴He**\-rich phase at ≈ 0.87 K absorbs heat (enthalpy of mixing), allowing continuous cooling to **\<10 mK**. The idea was proposed by Heinz London (1951) and first realized experimentally by the Cambridge–Oxford collaboration in the early 1960s; the term “dilution refrigerator” cemented itself as the technology matured through the 1970s.
 
----
+<a id="cryogenic-equipment-form-factors"></a>
 
-### 3 Common Cryogenic Equipment Formfactors Employed for Quantum & Low Temperature Experiments 
+<a id="3-common-cryogenic-equipment-formfactors-employed-for-quantum--low-temperature-experiments"></a>
+
+#### 3 Common Cryogenic Equipment Formfactors Employed for Quantum & Low Temperature Experiments
 
 <img width="3222" height="auto" alt="image" src="https://github.com/user-attachments/assets/a1addc43-f16a-4869-962a-d62424f96ff1"/>
 
 > Created and rendered by Onri Jay Benally using Blender 4.5 (2025)
 
----
+<a id="cryogenic-chandelier"></a>
 
-### What a “Chandelier” Really Is (With Some Examples)
+<a id="what-a-chandelier-really-is-with-some-examples"></a>
+
+#### What a “Chandelier” Really Is (With Some Examples)
 
 | Term | OEM language | Function |
 | ----- | ----- | ----- |
@@ -1821,9 +2507,11 @@ MXC: Mixing Chamber
 
 > **Key idea:** the chandelier is **part of the wiring infrastructure**, not the refrigeration insert. You can call it a **high-density wiring chassis**, a modular loom that brings hundreds of coax, twisted-pair, optical fiber, or ribbon lines down to the mixing-chamber plate. In Bluefors systems the dilution unit is permanently integrated; users add or swap chandeliers (wiring modules, attenuators, filters) to suit qubit count, signal bandwidth, or device technology.
 
---- 
+<a id="dilution-insert-versus-wiring-tree"></a>
 
-### How to Tell an Insert from a Wiring Tree/ Chassis
+<a id="how-to-tell-an-insert-from-a-wiring-tree-chassis"></a>
+
+#### How to Tell an Insert from a Wiring Tree/ Chassis
 
 | Indicator | Dilution Refrigerator Insert | Wiring “Chandelier” |
 | ----- | ----- | ----- |
@@ -1833,9 +2521,11 @@ MXC: Mixing Chamber
 | Bolts to 50 mK plate; routes cables & attenuators | Optional plate on bottom | **Primary purpose** |
 | Delivered as stand-alone module for a pre-existing 4 K cryostat | DynaCool DR insert (dry) | N/A—comes with chassis |
 
----
+<a id="quantum-photonic-chip-cryogenics"></a>
 
-### Do I Need Cryogenic Equipment for My Quantum Photonic Chip (If I Have One)?
+<a id="do-i-need-cryogenic-equipment-for-my-quantum-photonic-chip-if-i-have-one"></a>
+
+#### Do I Need Cryogenic Equipment for My Quantum Photonic Chip (If I Have One)?
 
 ```
 ├─ A) Are you talking about a QUANTUM PHOTONIC QUBIT CHIP?
@@ -1867,19 +2557,56 @@ MXC: Mixing Chamber
 
 > Note: Integrating superconducting detectors on the chip is a sufficient reason to put the whole chip under cryogenic conditions, but it is not the only one; cryogenic sources/ memories, loss-minimizing co-location, hybrid architectures can lead to the same design choice. If none of those are on-chip, the processor itself normally runs just fine at room temperature.
 
----
+<a id="dilution-fridge-measurement-system"></a>
 
-### Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit or SQL)
+<a id="dilution-fridge-measurement-system--schematic"></a>
+
+#### Dilution Fridge Measurement System & Schematic
+
+<img width="2813" height="auto" alt="image" src="https://github.com/user-attachments/assets/902b3696-3cef-4c76-b179-0a418ca128d8"/>
+
+> Dilution Fridge Measurement System & Schematic.
+
+Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale Superconducting Circuit Systems*, EPJ Quantum Technol. 6, 2 (2019)  
+<https://doi.org/10.1140/epjqt/s40507-019-0072-0>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="dewar-and-dipstick-measurement-system"></a>
+
+<a id="cryogenic-dewar-based-measurement-system-using-a-dipstick"></a>
+
+#### Cryogenic Dewar-Based Measurement System Using a Dipstick
+
+![image](https://github.com/user-attachments/assets/8e356ae7-db5d-4d43-adaf-6649869f8918)
+
+> Cryogenic Dewar-Based Measurement System Using a Dipstick.
+
+Borrowed from: Kiene et al., *A 1-GS/s 6–8-b Cryo-CMOS SAR ADC for Quantum Computing*, IEEE J. Solid-State Circuits 58, 7 10036483 (2023)  
+<https://doi.org/10.1109/JSSC.2023.3237603>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="quantum-noise-limits-and-sql"></a>
+
+<a id="highlighted-quantum-noise-limits-for-amplification-including-the-standard-quantum-limit-or-sql"></a>
+
+#### Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit or SQL)
 
 ![image](https://github.com/user-attachments/assets/d30050cf-7f06-4788-b7c9-a904dfb76649)
 
+> Highlighted Quantum Noise Limits for Amplification (Including the Standard Quantum Limit or SQL).
+
 Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry* Appl. Phys. Rev. 10, 021305 (2023)  
 <https://doi.org/10.1063/5.0088229>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
----
+<a id="cryogenic-amplifiers"></a>
 
-### Common Cryogenic Amplifiers & Preamplifiers for Quantum Measurement
+<a id="common-cryogenic-amplifiers--preamplifiers-for-quantum-measurement"></a>
+
+#### Common Cryogenic Amplifiers & Preamplifiers for Quantum Measurement
+
+<details>
+<summary><b>Expand the master cryogenic-amplifier table and glossary</b></summary>
 
 | **Amplifier Type** | **Typical 3-dB Bandwidth (BW)** | **Drive/ Pump Power** | **Pump Frequency/ Mixing Condition** |
 | ------------------ | ------------------------------- | ---------------------- | ------------------------------------- |
@@ -1933,366 +2660,73 @@ Adapted from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Refl
 >
 > **3WM/ 4WM** – Three-wave/ four-wave mixing, satisfying f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub> for 3WM or 2f<sub>p</sub> = f<sub>s</sub> + f<sub>i</sub> for 4WM
 
----
+</details>
 
-### Dilution Fridge Measurement System & Schematic
+<a id="dilution-refrigerator-noise-equations"></a>
 
-<img width="2813" height="auto" alt="image" src="https://github.com/user-attachments/assets/902b3696-3cef-4c76-b179-0a418ca128d8"/>
+<a id="a-sample-of-equations--formulas-for-noise-types-in-a-dilution-refrigerator"></a>
 
-Adapted from: Krinner et al., *Engineering Cryogenic Setups for 100-qubit Scale Superconducting Circuit Systems*, EPJ Quantum Technol. 6, 2 (2019)  
-<https://doi.org/10.1140/epjqt/s40507-019-0072-0>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+#### A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
 
----
+![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
 
-### Cryogenic Dewar-Based Measurement System Using a Dipstick
+> A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator.
 
-![image](https://github.com/user-attachments/assets/8e356ae7-db5d-4d43-adaf-6649869f8918)
-
-Borrowed from: Kiene et al., *A 1-GS/s 6–8-b Cryo-CMOS SAR ADC for Quantum Computing*, IEEE J. Solid-State Circuits 58, 7 10036483 (2023)  
-<https://doi.org/10.1109/JSSC.2023.3237603>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+[Back to navigation](#quick-jump-navigation)
 
 ---
 
-### Basic Reflection, Transmission, & Emission Measurement Setup Schematics for Quantum Hardware
+<a id="zone-4-the-engineering-manual"></a>
 
-![image](https://github.com/user-attachments/assets/e525afbd-cd91-4301-b9b1-8803e8be0685)
+## Zone 4: The Engineering Manual
 
-Borrowed from: Vigneau et al., *Probing Quantum Devices with Radio-Frequency Reflectometry*, Appl. Phys. Rev. 10, 021305 (2023)  
-<https://doi.org/10.1063/5.0088229>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+<a id="nanofabrication-guide"></a>
 
----
+### Nanofabrication Guide
 
-### Placement & Purpose of Mixer Hardware Components 
+<a id="quantum-computing-without-nanofabrication"></a>
 
-| Task                        | What the mixer does                                               | Typical placement                 | Common issues                                | Standard mitigations                            | 
-| --------------------------- | ----------------------------------------------------------------- | --------------------------------- | -------------------------------------------- | ----------------------------------------------- | 
-| Up-conversion for gates     | Translates $I/Q$ baseband to microwave SSB near $\omega_\text{q}$ | AWG → I/Q mixer → microwave chain | LO leakage, image tone, gain/phase imbalance | I/Q calibration, digital SSB, predistortion     |
-| Down-conversion for readout | Translates resonator output to IF/baseband for ADC                | LNA → mixer → IF chain → ADC      | Phase drift, DC offsets, conversion loss     | Phase-coherent LOs, offset nulling, calibration |
-| Mixer calibration           | Measures/compensates amplitude/phase imbalance, offsets           | Both control and readout paths    | Time/frequency drift                         | Routine recalibration, temperature control      |
-| Alternatives/adjacent       | Direct RF from RFSoC, or double-superhet                          | Controller front-ends             | Complexity vs. spurs, latency                | Integrated digital DSP, careful LO plan         |       
+<a id="quantum-computing-that-can-be-achieved-without-nanofabrication"></a>
 
-```
-Frequency Translation in Quantum Control
-├─ Up-conversion (control)
-│  ├─ Baseband I/Q → I/Q mixer + LO → SSB at ωq
-│  └─ Calibrate: LO leak, image, imbalance
-├─ Down-conversion (readout)
-│  ├─ Cavity tone + LO → IF/baseband
-│  └─ Demodulate → integrate → state decision
-└─ Evolving stacks
-   ├─ RFSoC direct-RF (QICK) → fewer analog mixers
-   └─ Double-superhet vs pure I/Q → spur/noise trade-offs
-```
+#### Quantum Computing That Can Be Achieved Without Nanofabrication
 
----
+| Qubit carrier (microscopic) | Gate mechanism | Typical "lab-bench" hardware (macroscopic) | Measurement |
+| :--- | :--- | :--- | :--- |
+| Liquid-state NMR (nuclear spins in molecules floating in a beaker) | RF pulse sequences implement universal gates on nuclear spins | Commercial NMR spectrometer, 10-30 MHz RF coils; no vacuum, no cryogenics if you use a permanent-magnet benchtop unit | Inductive voltage in same RF coil (macroscopic signal from $\gtrsim 10^{18}$ molecules) |
+| Trapped ions (e.g. ${ }^{40} \mathrm{Ca}^{+},{ }^{171} \mathrm{Yb}^{+}$) | Laser-driven stimulated-Raman or Mølmer-Sørensen gates | Millimeter-scale metal-rod Paul trap, tabletop lasers ( $\sim 100 \mu \mathrm{~m}$ beam waist), vacuum at $10^{-9} \mathrm{mbar}$ | Fluorescence counted by photomultiplier/APD |
+| Neutral atoms in optical tweezers/ optical lattices | Rydberg blockade or spin-exchange gates | Commercial diode lasers & objective lens; glass vacuum cell; spatial-light-modulator for tweezer array | Fluorescence imaging onto a CCD |
+| Linear-optics quantum computing | Hong-Ou-Mandel interference; waveplate phase shifters | Off-the-shelf mirrors, beamsplitters, Pockels cells, optical fibres | Single-photon avalanche diodes |
+| NV centres in bulk diamond | Microwave pulses + optical spinselective shelving | One diamond crystal; microwave stripline printed on FR-4; 532 nm laser; roomtemperature operation | Spin-dependent fluorescence into an objective |
 
-### Homodyne Measurement, Heterodyne Measurement, & Photon Counting
+> Key limitation is solid-state scalability and lack of strong on-chip coupling.
 
-<img width="2945" height="auto" alt="Homodyning and Heterodyning" src="https://github.com/user-attachments/assets/0571cae2-2156-4f16-81ce-e43318b39080"/>
+<a id="quantum-computing-with-nanofabrication"></a>
 
-Borrowed from: Ezratty, *Understanding Quantum Technologies*, arXiv 2111.15352, p. 674 (2024)  
-<https://doi.org/10.48550/arXiv.2111.15352>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+<a id="quantum-computing-that-can-be-achieved-with-nanofabrication"></a>
 
----
+#### Quantum Computing That Can Be Achieved With Nanofabrication
 
-### Physical Outcomes of Quantum Measurement
+| Feature | Description |
+| :--- | :--- |
+| DiVincenzo Criteria + Precision Apparatus + Memory (classical + quantum) | The foundational requirements for a scalable quantum system: the DiVincenzo criteria, high-precision measurement/control apparatus, and both classical and quantum memories. |
+| System Stack | Microscopic qubit carrier (programmable 2-level atom [natural or synthetic]) $\rightarrow$ apparatus $\rightarrow$ control/sampling (mixed-signal components) $\rightarrow$ memories. |
+| Embedded Chip Components | All layers except the qubit carrier are chip-integrated, enabling precise control/observation and the ability to tie thousands to millions of qubits into a fault-tolerant system. |
+| On-Chip Metrology | Integrated, real-time quantum-adjacent device health monitoring for in-situ metrology and device-level diagnostics. |
+| Quantum Memory $\leftrightarrow$ Transducer Coupling | Fabricated quantum memories interface with quantum transducers to enable long-range QPU-to-QPU coupling (entanglement bus) for modular quantum computing architectures. |
 
-| **Quantum Platform** | **Measurement Mechanism** | **Observable Outcome** | **Key Points/ Notes** |
-|-|-|-|-|
-| **Superconducting Qubits**            | **Dispersive Readout** <br> (cQED architecture) | - Shift in resonance frequency (phase/amplitude change of probe tone) <br> - Often measured via the readout resonators consisting of short superconducting transmission lines that are coupled to a feedline wired to an output, which is wired to a quantum-limited parametric amplifier and typically a high gain, high electron mobility transistor amplifier (HEMT), etc. | - Qubit and resonator are detuned (dispersive regime), leading to a qubit-state-dependent frequency shift $(\pm \chi)$. <br> - Detecting transmitted/reflected microwave signal reveals whether the qubit is in $\lvert 1\rangle$ or $\lvert 0\rangle$. <br> - The measurement “collapses” the qubit state, producing a classical result that can be digitized. | 
-| **Trapped Ions**                       | **Fluorescence Detection** <br> (e.g., electron shelving technique) | - Presence or absence of emitted photons (fluorescence) | - A laser tuned to an electronic transition lights up one qubit state (“bright”) while another remains dark. <br> - Counting photons above a threshold indicates $\lvert 1\rangle$ or $\lvert 0\rangle$, collapsing the ion’s internal state. <br> - Non-resonant states do not fluoresce, providing a clear binary readout. | 
-| **Semiconductor Spin Qubits**          | **Spin-Dependent Tunneling/ Spin Blockade** | - Electron tunneling current or charge sensor signal | - In gate-defined quantum dots, measuring the spin state uses energy-selective tunneling (e.g., Pauli spin blockade). <br> - A charge sensor (quantum point contact or single-electron transistor) detects whether an electron tunnels, indicating spin-up vs. spin-down. <br> - This process effectively “collapses” the spin state upon measurement. | 
-| **NV Centers in Diamond**             | **Optical Fluorescence Readout** | - Photoluminescence intensity (count rate)                                                                                                 | - The spin state of the NV center (e.g., $(\lvert m_s = 0\rangle)$ vs. $(\lvert m_s = 1\rangle)$ affects the optical emission levels under laser illumination. <br> - Detecting the photoluminescence intensity indicates the spin state. <br> - Measurement collapses the NV center’s ground-state spin wave function into a definite eigenstate. |
-| **Photonic Qubits**                    | **Single-Photon Detection/ Homodyne Measurement** | - Detector “click” (photon arrival) <br> or continuous variable amplitude/phase | - In single-photon approaches, a photon counter (e.g., avalanche photodiode, superconducting nanowire) registers a detection event, collapsing the photonic mode. <br> - In continuous-variable systems, homodyne or heterodyne detection measures quadratures of the electromagnetic field, giving classical measurement outcomes that reveal quantum state information. |
-| **Neutral Atoms/ Rydberg Atoms**      | **State-Selective Resonant Imaging/ Fluorescence** | - Photon emission or ionization detection | - Similar to trapped ions, a resonant laser can cause one hyperfine state to scatter photons (“bright”), while another remains dark. <br> - Rydberg atoms may also be ionized and detected in a channeltron or micro-channel plate detector. The presence/absence of an ion indicates the atomic state. <br> - The measurement outcome collapses the atomic qubit to a definite state in the chosen basis. |
-| **Superconducting Flux or Phase Qubits** | **Switching Current/ Flux Detection** | - Change in the current-voltage characteristics of the readout circuit | - While cQED dispersive readout is common, some older or specialized superconducting designs measure flux qubits by detecting shifts in the SQUID magnetization or critical current. <br> - The wave function collapse is reflected in whether the circuit remains in a superconducting state or switches to a normal resistive state. |
+> Key advantage is solid-state scalability and strong on-chip coupling.
 
-> Expanded Explanation of Key Ideas: 
+<a id="nanotechnology-used-for-quantum-chips"></a>
 
-1. **Wave Function Collapse**  
-   - In the Copenhagen interpretation, a quantum system (e.g., a qubit) is described by a superposition of states until it is measured.  
-   - **Collapse** means the superposition is projected into an eigenstate of the measured observable, producing a classical result.  
-
-2. **Dispersive Readout (Superconducting)**  
-   - The qubit–resonator system is designed so the qubit’s state modifies the resonator frequency slightly (the dispersive shift, $(\chi)$.  
-   - A microwave probe tone is sent through or reflected from the resonator, and the measured amplitude or phase shift reveals whether the qubit was $\lvert 0\rangle$ or $\lvert 1\rangle$.
-
-3. **Variety of Measurement Mechanisms**  
-   - **Trapped Ions**: Laser-induced fluorescence, where one qubit state fluoresces strongly and the other does not.  
-   - **Semiconductor Spin Qubits**: Charge sensing or spin blockade, often measured via a quantum point contact or single-electron transistor.  
-   - **NV Centers**: Optical readout of spin states via photoluminescence differences.  
-   - **Photonic Qubits**: Single-photon counters or homodyne detection, collapsing the photonic state.  
-   - **Neutral Atoms**: Fluorescence or ionization detection for Rydberg states.  
-
-4. **Outcome vs. Interpretation**  
-   - Although each platform’s **physical outcome** is different (fluorescence photons, current pulses, microwave phase shift, etc.), the conceptual step of mapping a quantum state to a classical result is the same.
-   - Each row describes a distinct platform or approach, the typical **measurement mechanism**, and the **observable outcome** that corresponds to the qubit’s final state (often $\lvert 0\rangle$, $\lvert 1\rangle$, or some multi-qubit extension).   
-
-5. **Measurement Fidelity & Qubit Readout**  
-   - Designing a **high-fidelity measurement** is crucial for scalable quantum computing, ensuring that the classical outcome accurately reflects the qubit’s true state.  
-   - Techniques like **Josephson parametric amplification** in superconducting circuits reduce measurement noise, enabling single-shot readout.
-
---- 
-
-### Comparison Between Bose-Einstein Condensates, Superconducting Transmons, & Superconducting Linear Coplanar Waveguide Resonators
-
-| Aspect | Bose–Einstein Condensate (BEC) | Nonlinear JJ qubit (transmon) | Linear CPW resonator |
-| :----------------------------------------------- | :-------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
-| **Physical carriers** | Neutral atoms (bosons) | Circuit’s superconducting phase across a JJ (plasma mode of Cooper pairs) | Microwave photons in a distributed superconducting cavity |
-| **Underlying order parameter** | $\Psi=\sqrt{n}e^{i\theta}$ (global $U(1)$ broken) | Superconducting $\Delta e^{i\theta}$ (phase mode gapped by Anderson–Higgs); circuit degree $\hat\varphi$ | No broken symmetry of the photon field; <br>harmonic cavity mode $a,a^\dagger$ in a superconducting environment |
-| **Governing equation/ Hamiltonian** | Gross–Pitaevskii equation; Bogoliubov theory for excitations | $H=4E_C(\hat n-n_g)^2-E_J\cos\hat\varphi$ → weakly anharmonic oscillator; $\omega_{10} \approx \frac{\sqrt{8E_JE_C}}{\hbar}-\frac{E_C}{\hbar}$ | $H=\hbar\omega_r\big(a^\dagger a+\tfrac12\big)$ (harmonic) |
-| **Collective low‑energy modes** | Bogoliubov phonons <br>(gapless as $k \to 0$) | Localized **plasma** oscillations; levels $\lvert0\rangle,\lvert1\rangle,\lvert2\rangle,\dots$ with weak anharmonicity | Photons $\lvert n\rangle$ in standing‑wave modes; <br>strictly harmonic spacing |
-| **Josephson physics** | Yes, across weak links in atomtronic circuits; oscillations & self‑trapping | Foundational: $E_J$ sets the nonlinearity | Indirect: CPW provides the linear EM environment coupling to JJ qubits |
-| **Goldstone/ phase mode** | **Gapless** (sound) | **Gapped** to plasma frequency (Anderson–Higgs in a charged condensate) | Not applicable (no spontaneous symmetry breaking of the cavity field) |
-| **“Is it a condensate?”** | **Yes**—thermodynamic condensation of atoms | **No**—these are quantized circuit modes built on a BCS condensate | **No** for standard CPWs (photons lack an equilibrium chemical potential); **Yes** in dye‑microcavity photon BEC platforms |
-| **Typical excitation scale** | **Hz–kHz** (trap & sound‑set; Bragg phonons in the kHz range) | $\omega_{10}/2\pi \sim 4–8$ GHz (device‑dependent) | $\omega_r/2\pi \sim 2–10$ GHz; internal $Q$ commonly $10^5–10^6$, $>10^6$ achievable |
-| **Representative states ($\lvert\cdot\rangle$)** | Collective modes, $\lvert\text{phonon }k\rangle$ | $\lvert0\rangle,\lvert1\rangle,\lvert2\rangle$ (qubit subspace $\lvert0\rangle,\lvert1\rangle$) | $\lvert n\rangle$, coherent $\lvert\alpha\rangle$, stabilized cat states |
-| **Open‑access anchors** | Dalfovo–Giorgini–Pitaevskii–Stringari (RMP); Bragg phonons | Koch **et al.** (transmon) + Shimano–Tsuji (Higgs/phase) | Göppl (CPW resonators), Blais **et al.** (cQED), Klaers/Weitz (photon BEC) |
-
-- BEC vs nonlinear JJ‑qubit excitations: similar only at the level of macroscopic phase and coherence inherited from broken‑symmetry order parameters; different in that BEC is a true thermodynamic condensation of particles with Bogoliubov phonons, whereas qubit excitations are anharmonic plasma modes of a superconducting circuit whose phase mode is gapped and whose “two‑levelness” is engineered.
-
-- BEC vs linear CPW resonator excitations: again, shared bosonic coherence but no equilibrium condensation in a standard CPW because photons lack a chemical potential; nonetheless, photonic BEC exists in dye microcavities, and engineered reservoirs in circuit QED now offer a path toward circuit‑photon quantum fluids with BEC‑like features.
-
----
-
-### Microwave & Baseband Control Requirements
-
-|  | Microwave Control <br> ![image](https://github.com/user-attachments/assets/ca4fda5d-2cd1-4201-ab96-6656b4e8d8e9) | Baseband Control <br> ![image](https://github.com/user-attachments/assets/0a6d833b-43e6-409d-a166-613ef7d5e343) | 
-| :---: | :---: | :---: |
-| Superconducting (Transmon) | 1Q XY gates, 2Q gates <br> Carrier: 4-8 GHz <br> Pulse duration: 10-30 ns <br> 𝜋-pulse P_av: -80 to -60 dBm <br> Shaped envelope | 1Q Z gates, 2Q gates <br> 0.01-1 ~mA static/pulsed <br> Pulse duration: 10-500 ns <br> Resolution: ~nA |
-| Semiconductor Spin | Single spin Q: 1Q XY gates <br> Carrier: 0.1-50 GHz <br> Pulse duration: 10 ns to 1 𝜇s <br> 𝜋-pulse P_av: -60 to +0 dBm <br> Shaped envelope | Single spin Q: 2Q gates <br> S-T Q: XY gates, 2Q gates <br> E-O Q: XY gates, 2Q gates <br> 𝜇V-mV level signals <br> Pulse duration: ns-ms <br> 1 ns rise/fall |
-| Trapped Ion | 1Q XY & Z gates, 2Q gates <br> Carrier: 5-20 MHz, 1-12.6 GHz <br> Pulse duration: 1-500 𝜇s <br> 𝜋-pulse P_av: 0 to 45 dBm <br> Rectangular envelope | Qubit state control typically not performed at baseband | 
-
-Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
-<https://doi.org/10.1109/JMW.2020.3034071>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
----
-
-### Typical Carrier Frequencies Used by Some of the Primary Qubit Technologies for Control & Readout
-
-![Carrier Frequencies](https://github.com/user-attachments/assets/f6a49b0f-2251-4d22-a72b-f05f05c2ace6)
-
-Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
-<https://doi.org/10.1109/JMW.2020.3034071>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
----
-
-### Qubit Rabi Oscillations & Their Fourier Transform 
-
-![image](https://github.com/user-attachments/assets/21906699-f307-4b34-84bb-398453ca107a)  
-
-Borrowed from: George et al., *Multiplexing Superconducting Qubit Circuit for Single Microwave Photon Generation*, J Low Temp Phys 189, 60–75 (2017)  
-<https://doi.org/10.1007/s10909-017-1787-x>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
----
-
-### Advanced Quantum Computers Are Controlled Using 2 Main Approaches 
-
-| Controller Type | Full Name | Description |
-| :--- | :--- | :--- |
-| CryoFPGA | Cryogenic Field Programmable Gate Array | A reconfigurable logic device designed to operate at cryogenic temperatures, used for flexible signal processing and control of qubits. |
-| Cryo-ASIC | Cryogenic Application Specific Integrated Circuit | A custom-designed integrated circuit optimized for cryogenic operation, tailored for efficient and lowpower qubit control and readout. |
-
----
-
-### Block Diagram of an Embedded Cryogenic Complementary Metal Oxide Semiconductor (Cryo-CMOS) Qubit Controller & Readout Architecture 
-
-<img width="1151" alt="Cryo-CMOS Qubit Controller" src="https://github.com/user-attachments/assets/85b3a695-844d-4b68-842f-40f4d2caff88"/>
-
-Adapted from: Patra et al., *Cryo-CMOS Circuits and Systems for Quantum Computing Applications*, IEEE J. Solid-State Circuits, 53, 1 (2018)  
-<https://doi.org/10.1109/JSSC.2017.2737549>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
-
----
-
-### Block Diagram of an Embedded Cryogenic Application Specific Integrated Circuit (Cryo-ASIC) Qubit Controller & Readout Architecture
-
-<img width="3345" height="auto" alt="image" src="https://github.com/user-attachments/assets/263bac62-dcca-4f3d-8258-b9672ceea9ad"/>
-
-
-> This figure highlights the digital and analog components of qubit control and readout for cryogenic ASICs. Digitally, an SPI‑linked sequencer and waveform memory program the amplitude, phase, frequency, and timing of pulses. Analog‑wise, two DAC channels create baseband I and Q envelopes that are filtered and mixed with a low‑phase‑noise local oscillator (I/Q modulation) to produce the microwave XY drive; a separate DAC provides Z‑bias control; and a reflective readout chain transmits a probe tone, then amplifies, down‑converts, filters, and digitizes the return for qubit‑state discrimination. It is important to note that accurate qubit manipulation  relies on low phase noise, low jitter, calibrated I/Q balance, and low‑distortion analog buffering throughout the signal path. 
-
-Borrowed from: Guo et al., *Cryogenic CMOS RF Circuits: A Promising Approach for Large-Scale Quantum Computing*, IEEE TSCII, 71, 3 (2024)  
-<https://doi.org/10.1109/TCSII.2023.3333540>  
-<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
-
----
-
-### A Coupled Coplanar Waveguide Resonator (Elbow) 
-
-<img width="3779" height="auto" alt="image" src="https://github.com/user-attachments/assets/f6265556-115d-478d-9b63-f9d029397321"/>
-
-Adapted from Sweetnam et al., *Simulating the behaviour of travelling wave superconducting parametric amplifiers using a commercial circuit simulator*, Supercond. Sci. Technol. 35 095011 (2022)  
-<https://iopscience.iop.org/article/10.1088/1361-6668/ac850b>  
-<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
-
---- 
-
-### Linear & Non-Linear Elements of a Superconducting Qubit
-
-<img width="3707" height="auto" alt="image" src="https://github.com/user-attachments/assets/d857c81b-811b-4359-b385-d85af19e502a"/>
-
-> This is one way to physically simulate or mimic the excitation of a single atom.
-
-Adapted from: Bardin et al., *Microwaves in Quantum Computing*, IEEE J. Microw. 1, 1 (2021)  
-<https://doi.org/10.1109/JMW.2020.3034071>  
-<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
-
----
-
-### Mechanism-Agnostic Elements of a Qubit
-
-<img width="2354" height="auto" alt="image" src="https://github.com/user-attachments/assets/0ecbf991-25c7-4f1a-ac78-786b150ebe2a"/>
-
-> These are various ways to physically simulate nature manipulating and using  natural or synthesized quantum objects. Figure by Onri Jay Benally.
-
----
-
-### A 6 Superconducting Transmon Chip with Individual Drive Lines & Readout Resonators 
-
-![Screenshot 2025-02-01 031533](https://github.com/user-attachments/assets/644776d7-0761-4ab9-ac54-34c5c7ec43af)
-
-> *Corresponding colors for figure*  
-> Green: readout line  
-> Blue: readout resonator  
-> Yellow: drive line or capacitor  
-> Note: Bolometer chip is shown on the lower right.  
-
-Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
-<https://doi.org/10.1038/s41928-024-01147-7>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
-
-### Experimental Schematic for the 6 Superconducting Transmon Chip 
-
-![Screenshot 2025-02-01 042032](https://github.com/user-attachments/assets/f9dcb57c-fbe6-4d1d-844b-88d5467d245b) 
-
-Borrowed from: Gunyhó et al., *Single-Shot Readout of a Superconducting Qubit Using a Thermal Detector*, Nat Electron 7, 288–298 (2024)  
-<https://doi.org/10.1038/s41928-024-01147-7>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
-
----
-
-### Experimental Schematic for a 2 Superconducting Fluxonium Chip  
-
-![unnamed](https://github.com/user-attachments/assets/b05c2175-369f-4047-81e9-4348bb04d865)
-
-Borrowed from: Moskalenko et al., *High Fidelity Two-Qubit Gates on Fluxoniums Using a Tunable Coupler*. npj Quantum Inf 8, 130 (2022)  
-<https://doi.org/10.1038/s41534-022-00644-x> 
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
-
----
-
-### A Simplified  Experimental Schematic for a Tunable 2 Superconducting Transmon Chip 
-
-![unnamed (5)](https://github.com/user-attachments/assets/41bf15d3-d9cb-42f6-bd6f-81c93cffbf58) 
-
-Borrowed from: Bardin et al., *Microwaves in Quantum Computing*, IEEE Journal of Microwaves 1, 1 9318753 (2021)  
-<https://doi.org/10.1109/JMW.2020.3034071>  
-[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
-
---- 
-
-### Example of Required Steps to Compute Molecular Energies (Mapped to 2 Physical Qubits) 
-
-<img width="3763" height="auto" alt="image" src="https://github.com/user-attachments/assets/ae3ca23e-e89e-4dae-955b-b9eb94613868"/>
-
-Adapted from: O’Malley et al., *Scalable Quantum Simulation of Molecular Energies*, Phys. Rev. X, 6 031007 (2016)  
-<https://doi.org/10.1103/PhysRevX.6.031007>  
-<https://creativecommons.org/licenses/by-nc-nd/4.0/>  
-
-
----
-
-### Quantum Device Fabrication Slide Presentation Preview
-
-![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
-
-![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
-
-![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
-
-![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
-
-![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
-
-![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
-
-![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
-
-![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
-
-![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
-
-![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
-
-![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
-
-![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
-
-![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
-
-![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
-
-![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
-
-![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
-
-![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
-
-![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
-
-![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
-
-![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
-
-![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
-
-![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
-
-![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
-
-![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
-
-![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
-
-![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
-
-![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
-
-![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
-
-![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
-
-![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
-
-![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
-
----
-
-# Nanotechnology Used for Quantum Chips 
+#### Nanotechnology Used for Quantum Chips
 
 Onri Jay Benally
 
 February 2024
 
-## Table of Contents
+<a id="fabrication-background-and-motivation"></a>
 
-- I. Background \& Motivation.
-- II. Fabrication Tools vs. 3D Printing.
-- III. The Lithography Design Process (Including 3D Modeling \& Simulation).
-- IV. Masked vs. Maskless Lithography (with Brief Overview of Deposition).
-- V. Application Methods in Lithography Used for Quantum Devices.
-- VI. Brief Overview of Packaging.
-- VII. Conclusion.
-- VIII. Examples of Hardware (Supplementary Images).
+#### Background & Motivation
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-02.jpg?height=933&width=1804&top_left_y=1127&top_left_x=155)
 
@@ -2317,25 +2751,47 @@ in the vertical direction while having micrometer dimensions in the lateral dire
 
 For nanoscale features, optical (light) microscopes have difficulty in imaging, physically limited by the wavelength of light. Thus, an electron microscope or other specialized imaging system which uses wavelengths shorter than light are needed to properly view nanoscale objects while engineering a device.
 
+<a id="masked-and-maskless-lithography"></a>
+
+#### Masked vs. Maskless Lithography & Application Methods
+
 The word "lithography" comes from the German word "lithographie," a combination of the ancient Greek words líthos, meaning "stone," and gráphein, meaning "to write." In the context of nanotechnology manufacturing, lithography is referred to as the development of so-called oneand two-dimensional structures. Here, at least one of its dimensions is in the nanometer range. Lithography allows one to copy patterns from computer generated designs onto an underlying substrate with a compatible adhesion layer. (A substrate is a type of supporting foundation, usually a wafer, while an adhesion layer promotes bonding between the substrate and film of interest). There are two sub-categories of lithography: masked and maskless. One may also hear the term direct-write, which refers to maskless exposure techniques. The masked exposure technique is basically like using a stencil, which allows one to draw designs repeatedly onto a surface by guiding a writing source through cut-out patterns.
 
 General lithography is further divided into photolithography, electron-beam lithography, X-ray and extreme ultraviolet lithography, focused ion beam lithography and neutral atom beam lithography, soft lithography, colloidal lithography, nanopattern/ imprinting lithography, scanning (thermal) probe lithography, atomic force microscope lithography, etc. Each method involves energy exposure to a specific area with either the help of beam control systems or a patterned mask.
 
+<a id="top-down-and-bottom-up-manufacturing"></a>
+
+#### Top-Down & Bottom-Up Manufacturing
+
 The two approaches for general manufacturing are called top-down, which involves cutting away pieces of a bulk material, and bottom-up, which involves growing or assembling atoms and molecules into larger structures. These two methods are applied in nanofabrication. Since thin film etching is a top-down process, while thin film growth and nanomolding is a bottom-up process, lithography is considered to be a hybrid method since it can use either or both processes. Nanomanipulation and nanoimprinting are examples of mostly bottom-up fabrication techniques. Dry (physical) etching and wet (chemical) etching methods correlate to anisotropic and isotropic profiles, respectively. (A profile or side profile is referred to as a cross-sectional view).
 
+<a id="thin-film-deposition"></a>
+
+#### Thin-Film Deposition & Stack Engineering
+
 Vacuum deposition chambers, their support systems, and interfaces can be seen in fabrication laboratories virtually everywhere. The two main types of deposition chambers are physical vapor deposition and chemical vapor deposition. These systems support the growth of material multilayers on sample substrates, such as $\mathrm{SiO}_{2}$ or MgO wafers. Common deposition techniques include sputtering, molecular beam epitaxy, atomic layer deposition, electroplating, and electron-beam evaporation, just to name a few. Each has its own advantages and disadvantages in terms of cost, complexity, reliability, scalability, application, and deposition rates. One may also hear the term stack engineering, which refers to the research and development on the improvement of thin film performance. Additionally, lithography, deposition, and etching of thin films can be predicted or simulated with physics-informed modeling using premade paid software or a scientific programming language such as Python. (Examples can be found on the GitHub platform). The computed results can then be 3D animated and analyzed to help inform parameters used on real nanofabrication equipment, with the added benefit of cost-savings.
+
+<a id="lithography-design-process"></a>
+
+#### The Lithography Design Process
 
 Improving nanotechnology manufacturing methods enables innovative approaches for solving quantum hardware problems every day. To develop quantum devices, it usually begins
 with an idea on paper, where a device circuit or cross-sectional diagram of one eventually will become a real chip. One may choose to hand draw the ideas. Then, once the overall device function is principally understood, it can be translated to a software design application, such as Autodesk AutoCAD. Geometries can be modified and drawn to-scale on the software so that layers of the chip can overlap, interface, or connect with each other as intended. In more complicated designs, the steps can be programmed and automated using layout processing software.
 
 From here, the design can easily be converted into a machine code by exporting specific file formats, with coordinates that a lithography machine can understand. The converted design file creates a virtually marked pathway to guide or control the beam or write head in a lithography machine. However, before it is uploaded for lithography, it should pass inspection for quality assurance and troubleshooting. Afterwards, the final machine code for patterning can be uploaded. From here, a prepared sample containing necessary (thin film) material layers for devices can be loaded for proper lithography alignment and exposure for polymerization.
 
+<a id="packaging-and-manufacturing-interfaces"></a>
+
+#### Packaging, 3D Printing & CNC Manufacturing Interfaces
+
 When the initial lithography step is completed, the sample will be ready for etching, followed by deposition and planarization of required dielectrics, metals, or non-metal layers until the devices are finished and ready for testing. Sometimes, an extra step to add a device to a larger chip architecture or packaging is performed, including wire bonding. In the many pictures of quantum devices and processors you may find by means of the internet or in books, the exposed wire bonds and leads can be seen connecting the chip to its packaging. It is the typical appearance of a finished test sample. For industrial-scale quantum device samples that are being mass manufactured, wire bonded components are sealed within the packaging, like the case with classical semiconductor chips. For high-density quantum chips, the packaging interface may
 involve bump bonding with superconducting metal that remains malleable under cryogenic conditions, such as indium for example.
 
 Notice that the general process described above is very similar to the scenario for 3D printing or computer numerical control (CNC) machining. (It involves design files that are converted into G-codes, which guide the printer or milling heads to their locations on a printing or milling stage, using $\mathrm{X}-\mathrm{Y}-\mathrm{Z}$ coordinates. Coordinates are just the numerical values that are mapped out on a surface, layer-by-layer).
 
-A General Process Flow for Fabricating Quantum Chips Using a Top-Down Method 
+<a id="top-down-fabrication-process-flow"></a>
+
+#### A General Process Flow for Fabricating Quantum Chips Using a Top-Down Method
 
 Part 1: 
 Idea for Device(s) $\rightarrow$ Hand Drawing of Device(s) (Top-Down/ Cross-Section View) $\rightarrow$ Layout Preparation ('Blueprint') $\rightarrow$ Design Inspection $\rightarrow$ Material Selection for Sample Layers $\rightarrow$ Deposit Sample Materials (Thin Films) on Substrate.
@@ -2347,159 +2803,453 @@ Part 3:
 Electrode Contact Deposition $\rightarrow$ Post Processing, Wire Bonding, \& Packaging $\rightarrow$ Device Testing.
 > (Note: an inspection process is typically implemented at the end of each step).
 
+<a id="fabrication-analogies-and-atomic-inspection"></a>
+
+#### Fabrication Analogies & Atomic-Resolution Inspection
+
 If one wanted to visualize the engineering of atoms into nanostructures that can support quantum information systems, below are some ideas for intuition. The entire fabrication process is like preparing a multi-layered bakery item (e.g., cake), which gets sliced up into pieces and sculpted into arbitrary 3D shapes. (In the supplementary images, you can see an example of how a cake is formed into unique shapes by this description). Another analogy for the process of nanofabrication is the stacking of LEGO bricks, which too can be separated into groups of unique shapes. As a metaphor, each individual brick is the representation of an atom, some of which are slightly larger than others, yet still interlinkable overall.
 
 By examining a close-up of atoms through an imaging system that supports atomic resolution modes, one can observe arrangements of dots. These dots displayed on such a microscope (e.g., transmission electron microscope or scanning tunneling microscope) are more like representations of atoms, based on the interaction of electrons around each atom with the beam or probe being used to scan a sample. Although you cannot distinguish between individual electrons or components of the nuclei in each atom being scanned in the microscope, it is possible to measure things like interatomic spacing and crystallinity. In other words, one can choose to inspect nanostructures of fabricated samples using atomic resolution imaging techniques to check on how organized or unorganized its atoms are.
 
 It is useful to combine electron imaging with other surface analysis methods to doublecheck on how well atomic layers will adhere or interface with each other. Diffusion barriers, tunnel barriers, and blockades are also closely inspected using the above-mentioned techniques in solidstate nanostructures. These layers typically exist at device interfaces and serve the purpose of filtering out states or impurities that may move from region to region based on applied heat, voltage, current, field, etc. Therefore, it is worth performing a cross-sectional inspection of the multilayers before patterning and optionally after a prototype chip has been patterned.
 
+<a id="nanotechnology-conclusion"></a>
+
+#### Nanotechnology Conclusion
+
 In conclusion, nanotechnology is a highly interdisciplinary STEM field that is applicable to quantum technology yet does not contain quantum as a specific sub-category. It is an indispensable tool for realizing the platforms that host quantum information systems and processing. On the other hand, quantum technology as a field does contain a sub-category in hardware that covers nanotechnology and its related applications. This is where quantum chips and devices are discussed. To build the chip hardware at the bottom of the quantum stack requires an understanding of manufacturing at the atomic and nanoscale. Precision control and fine tuning of systems are key ideas of the intersection between both technologies. They can be leveraged to meet the sustainability needs of tomorrow and the distant future.
 
-### Supplementary Images:
+<a id="nanofabrication-supplementary-images"></a>
+
+<a id="supplementary-images"></a>
+
+#### Nanofabrication Supplementary Images
+
+<details>
+<summary><b>Expand the fabrication and hardware reference image gallery</b></summary>
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-11.jpg?height=592&width=1605&top_left_y=344&top_left_x=260)
 > Overview of the Full Quantum Stack vs. the Engineering Cycle of Circuit Quantum Electrodynamics (cQED) Device (Gao at al., PRX Quantum, 2021).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-12.jpg?height=849&width=1657&top_left_y=234&top_left_x=191)
 > Stencil Cut-Out [Left] vs. Lithography Exposure Mask [Right] (Onri Jay Benally) \& (Kumar et al., Synthesis of Inorganic Nanomaterials, 2018).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-12.jpg?height=1055&width=1058&top_left_y=1202&top_left_x=531)
 > Dark Field \& Light Field Images Taken Using a Scanning Transmission Electron Microscope (STEM). Shown is Crystalline Structure of Atoms From a SrTiO3 Thin Film Sample. The Colored Dots Represent Positions of Atoms. Green: Strontium, Red: Oxygen, \& Grey: Titanium. (Wikimedia Commons).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-13.jpg?height=952&width=1679&top_left_y=326&top_left_x=261)
 > Example of G-Code Used in Both Top-Down and Bottom-Up Manufacturing. Application Includes But is Not Limited to LASER Cutting, CNC Machining, and 3D Printing (howtomechatronics.com).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-13.jpg?height=581&width=2033&top_left_y=1469&top_left_x=42)
 > Reference Points Highlighted in Light Blue. Electron-Beam Lithography System [Left], Fused Deposition Modeling 3D Printer [Center], Computer Numerical Control Milling Machine [Right] (Onri Jay Benally) \& (Protolabs).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=928&width=1963&top_left_y=254&top_left_x=73)
 > Layout of a General Chipset Manufacturing Process (Ezratty, Understanding Quantum Technologies, 2022).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-14.jpg?height=778&width=1977&top_left_y=1324&top_left_x=69)
 > Example of a Quantum Chip Design Process Flow in Preparation for Direct-Write Electron-Beam Lithography Exposure (Onri Jay Benally).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-15.jpg?height=969&width=2045&top_left_y=235&top_left_x=36)
 > Collection of Unpatterned \& Patterned Spintronic Chips [Left]. Self-Portrait Containing a Raith EBPG 5000+ Maskless Electron-Beam Lithography System in the Background [Right] (Onri Jay Benally).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-16.jpg?height=1617&width=1630&top_left_y=254&top_left_x=253)
 > Image Collection of Deposition, Etching, Lithography, and Testing Equipment From the (Nano Magnetism \& Quantum Spintronics Lab) \& (Minnesota Nano Center), Located at the University of Minnesota-Twin Cities, USA (Onri Jay Benally).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-17.jpg?height=809&width=1952&top_left_y=235&top_left_x=81)
 > Wide Shot of the Cryogenic Lab within the Quantum Device Lab (Google Quantum AI).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-18.jpg?height=800&width=1639&top_left_y=237&top_left_x=213)
 > Randomized Micropattern Example of a 2-Step Lithography Mask Drawing Performed in AutoCAD, Containing Rough \& Fine Alignment Markers (Onri Jay Benally).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-18.jpg?height=827&width=1010&top_left_y=1191&top_left_x=544)
 > Example of a Multi-Step Lithography Pattern Layout of 6 Superconducting Qubits Converted from an Automated GDS Design File in Qiskit Metal to an AutoCAD Drawing for Inspection (Onri Jay Benally).
 
---- 
 
 ![416465034-18b225b5-794a-4dae-8e5d-aaf4cfc6d73c](https://github.com/user-attachments/assets/5c2f1431-f005-4be9-9e6e-313cf2e21e57)
 > Example of a Generic Crossbar Array Layout Shown as an AutoCAD Drawing with Tiny Square Alignment Markers Near the Corners of the Chip (Onri Jay Benally).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-19.jpg?height=936&width=1646&top_left_y=1256&top_left_x=234)
 > Two Fully Fabricated Samples That Employ Electron Spin-Dependent Quantum Tunneling for Efficient Classical Memory in Spintronic Devices Called Spin-Orbit Torque Magnetic Tunnel Junctions (SOT-MTJs). Applications Include but are Not Limited to Magnetic Random-Access Memory, Spin Logic Arrays, \& Spin-Based Oscillators (Onri Jay Benally).
 
---- 
 
 ![54160342209_9df8e2ae41_o](https://github.com/user-attachments/assets/70e0f76f-07ba-4c5c-869c-9cda288152ae)
 > Example of a Superconducting Quantum Circuit Layout Prepared in KLayout and Subsequently Rendered with Raytracing Techniques in Blender (Onri Jay Benally).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=936&width=1248&top_left_y=280&top_left_x=436)
 > 3D Model Cross-Section of An Integrated Device Containing Many Layers Of Deposited, Lithographed, Etched, \& Polished Metal (Conductors), Oxides, Nitrides, \& Semiconductors (Wikimedia Commons - KAIST).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-21.jpg?height=966&width=1273&top_left_y=1425&top_left_x=426)
 > A Multi-Layered Application Specific Integrated Circuit on Silicon (IBM Research).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-22.jpg?height=1307&width=1441&top_left_y=233&top_left_x=342)
 > 3D Model of a Quantum Integrated Circuit (Veldhorst et al., Nat Commun, 2017).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-23.jpg?height=1237&width=1253&top_left_y=262&top_left_x=393)
 > A Portrait of Hans Christian Ørsted That Was Nanopatterned and Subsequently Scanned with an Atomic Force Microscope Probe on the Same Machine, a Heidelberg NanoFrazor ${ }^{\circledR}$ Scanning Thermal Probe Lithography System (Technical University of Denmark-Physics \& Heidelberg Instruments).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-24.jpg?height=882&width=1101&top_left_y=258&top_left_x=493)
 > Schematic of a Scanning Tunneling Microscope Used to Image the Topology of a Material or Device Surface at the Atomic Level
 (Michael Schmid \& Grzegorz Pietrzak, CC BY-SA 2.0 at, https://commons.wikimedia.org/w/index.php?curid=89194170).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-24.jpg?height=993&width=1039&top_left_y=1387&top_left_x=565)
 > A Desktop Scanning Tunneling Microscope (STM) Capable of Atomic-Level Resolution (Nanosurf).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-25.jpg?height=1115&width=1649&top_left_y=231&top_left_x=233)
 > Setup of a Scanning Tunneling Microscope, Used to Capture Images of Single Atoms or Manipulate Their Position on a Substrate (IBM Research).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-26.jpg?height=1391&width=1519&top_left_y=237&top_left_x=300)
 > Illustration and Images of a Nanoparticle-based Single-Electron Transistor (SET), with an Arrangement of Source, Drain, and Gate Electrodes. The Last Two Images on the Bottom Show Both Scanning \& Transmission Electron Micrographs of the Device (Bitton et al., Nat. Commun., 2017).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-27.jpg?height=1408&width=1586&top_left_y=338&top_left_x=264)
 > Chip Layout \& Wafer Fabricated by Complementary Metal Oxide Semiconductor (CMOS) Processes for Quantum Photonic Circuits (Bao et al., Nature Photonics, 2023).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-28.jpg?height=765&width=1622&top_left_y=249&top_left_x=246)
 > Example of Cascaded Mach-Zehnder Interferometers (MZIs) on a Cryogenically Compatible Quantum Photonics Chip. The Piezo-Optomechanical Components are Designed to Impart Strain on the Optical Waveguides for Chip Control. (Dong et al., Nat. Photon., 2021).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-28.jpg?height=955&width=1261&top_left_y=1371&top_left_x=432)
 > A Close-Up of Gold Wire Bonds on an Oxford Surface Ion Trap Chip (Jeff Sherman, 2009).
 
---- 
 
 ![](https://cdn.mathpix.com/cropped/2025_02_25_0af6ffed4af9259db68eg-29.jpg?height=1557&width=1133&top_left_y=241&top_left_x=496)
 > A Modular Cryogenic Circuit Board Containing Digital-To-Analog Converters \& Analog-To-Digital Converters, for Interfacing Solid-State Qubits with Commercially Available Field-Programmable Gate Arrays (FPGAs). Its Purpose is Qubit Readout \& Control (Reilly, npj Quantum Inf, 2015).
 
---- 
 
 ![416463711-b38fc75a-c5b4-4ff9-8bf7-c634c6040223](https://github.com/user-attachments/assets/7a4f5462-d043-4d66-95d8-a0fe6004624d)
 > Example of a Compact Sub-Kelvin Measurement Configuration Using Commercially Available Complementary Metal Oxide (CMOS) Multiplexer (Wuetz et al., npj Quantum Inf, 2020).
 
+</details>
 
---- 
+<a id="fabrication-slide-preview"></a>
 
+<a id="quantum-device-fabrication-slide-presentation-preview"></a>
 
-## A Sample of Equations & Formulas for Noise Types in a Dilution Refrigerator
+#### Quantum Device Fabrication Slide Presentation Preview
 
-![mathpix 2025-01-16 08-17-03](https://github.com/user-attachments/assets/f79d4be9-054e-4bb5-b635-2f2743734005)
+<details>
+<summary><b>Expand the 31-slide fabrication presentation preview</b></summary>
+
+![Quantum Chip Fabrication Tutorial-01](https://github.com/user-attachments/assets/9acbd889-7ea9-4065-8ea7-b5db7445dc24)
+
+> Quantum Device Fabrication Slide 01.
+
+![Quantum Chip Fabrication Tutorial-02](https://github.com/user-attachments/assets/3d8d2a71-62cd-4005-bebd-f8602546327d)
+
+> Quantum Device Fabrication Slide 02.
+
+![Quantum Chip Fabrication Tutorial-03](https://github.com/user-attachments/assets/3d859160-e3da-485d-99d9-389ee941f774)
+
+> Quantum Device Fabrication Slide 03.
+
+![Quantum Chip Fabrication Tutorial-04](https://github.com/user-attachments/assets/fa476242-20eb-4f2d-b38b-9527231671e7)
+
+> Quantum Device Fabrication Slide 04.
+
+![Quantum Chip Fabrication Tutorial-05](https://github.com/user-attachments/assets/2e23749c-e04a-4cfe-9038-8126c339773d)
+
+> Quantum Device Fabrication Slide 05.
+
+![Quantum Chip Fabrication Tutorial-06](https://github.com/user-attachments/assets/b1c08f34-ba24-4098-baac-695b98824bd9)
+
+> Quantum Device Fabrication Slide 06.
+
+![Quantum Chip Fabrication Tutorial-07](https://github.com/user-attachments/assets/aa54b632-7cb9-4a96-b2dd-b96f44d7fbcf)
+
+> Quantum Device Fabrication Slide 07.
+
+![Quantum Chip Fabrication Tutorial-08](https://github.com/user-attachments/assets/7a32ca1f-9c8b-475b-a0de-3711c2792d05)
+
+> Quantum Device Fabrication Slide 08.
+
+![Quantum Chip Fabrication Tutorial-09](https://github.com/user-attachments/assets/c44daf7e-d6f5-40e5-8ce6-5b572021a98f)
+
+> Quantum Device Fabrication Slide 09.
+
+![Quantum Chip Fabrication Tutorial-10](https://github.com/user-attachments/assets/61cfdfda-4887-4e42-a312-0e8f43c316f4)
+
+> Quantum Device Fabrication Slide 10.
+
+![Quantum Chip Fabrication Tutorial-11](https://github.com/user-attachments/assets/257bd40b-9284-42a5-827c-f7b66dd885cc)
+
+> Quantum Device Fabrication Slide 11.
+
+![Quantum Chip Fabrication Tutorial-12](https://github.com/user-attachments/assets/7a6c94cb-6357-4572-b130-3faa18a66b44)
+
+> Quantum Device Fabrication Slide 12.
+
+![Quantum Chip Fabrication Tutorial-13](https://github.com/user-attachments/assets/4f063d0a-6328-48d2-b80d-06448024bd0c)
+
+> Quantum Device Fabrication Slide 13.
+
+![Quantum Chip Fabrication Tutorial-14](https://github.com/user-attachments/assets/579b1bbc-e9bd-4d88-ab8a-e0bfd18796c6)
+
+> Quantum Device Fabrication Slide 14.
+
+![Quantum Chip Fabrication Tutorial-15](https://github.com/user-attachments/assets/712822aa-595a-4196-a8bb-afbc0c68dd1a)
+
+> Quantum Device Fabrication Slide 15.
+
+![Quantum Chip Fabrication Tutorial-16](https://github.com/user-attachments/assets/179f00e0-79f2-44a6-83bb-3095fa72ccc9)
+
+> Quantum Device Fabrication Slide 16.
+
+![Quantum Chip Fabrication Tutorial-17](https://github.com/user-attachments/assets/2090e54d-328e-4b51-a13c-8aed461321b3)
+
+> Quantum Device Fabrication Slide 17.
+
+![Quantum Chip Fabrication Tutorial-18](https://github.com/user-attachments/assets/09775b6c-89f6-4f9b-8866-de5ca92d375c)
+
+> Quantum Device Fabrication Slide 18.
+
+![Quantum Chip Fabrication Tutorial-19](https://github.com/user-attachments/assets/9b3c8584-074c-4cb1-bc6c-2dd35fd44287)
+
+> Quantum Device Fabrication Slide 19.
+
+![Quantum Chip Fabrication Tutorial-20](https://github.com/user-attachments/assets/a5988cef-e6e2-4564-a441-a1a8373bafd8)
+
+> Quantum Device Fabrication Slide 20.
+
+![Quantum Chip Fabrication Tutorial-21](https://github.com/user-attachments/assets/c45c0b76-3b7b-4a13-a179-19a00c9a63d1)
+
+> Quantum Device Fabrication Slide 21.
+
+![Quantum Chip Fabrication Tutorial-22](https://github.com/user-attachments/assets/d5ef351e-f56d-4f20-a151-e89a87306333)
+
+> Quantum Device Fabrication Slide 22.
+
+![Quantum Chip Fabrication Tutorial-23](https://github.com/user-attachments/assets/ad8d5a8b-2643-4867-8c76-6b5c5a18cd06)
+
+> Quantum Device Fabrication Slide 23.
+
+![Quantum Chip Fabrication Tutorial-24](https://github.com/user-attachments/assets/956fc457-0441-4ba4-80fc-216dec550229)
+
+> Quantum Device Fabrication Slide 24.
+
+![Quantum Chip Fabrication Tutorial-25](https://github.com/user-attachments/assets/4d492357-c830-47b9-bdbb-fefd54710e99)
+
+> Quantum Device Fabrication Slide 25.
+
+![Quantum Chip Fabrication Tutorial-26](https://github.com/user-attachments/assets/f7e2facf-bd4e-4a8e-b05b-17fa6ac3c15a)
+
+> Quantum Device Fabrication Slide 26.
+
+![Quantum Chip Fabrication Tutorial-27](https://github.com/user-attachments/assets/dbce1511-50dc-486f-a3a4-b1b98829335e)
+
+> Quantum Device Fabrication Slide 27.
+
+![Quantum Chip Fabrication Tutorial-28](https://github.com/user-attachments/assets/bd08903f-8329-479c-b2a4-ecdc522cb502)
+
+> Quantum Device Fabrication Slide 28.
+
+![Quantum Chip Fabrication Tutorial-29](https://github.com/user-attachments/assets/4cae8504-7b63-4b50-92c4-00236ef478b3)
+
+> Quantum Device Fabrication Slide 29.
+
+![Quantum Chip Fabrication Tutorial-30](https://github.com/user-attachments/assets/077b0373-e1ae-4fa6-a3dc-96d38a6fa101)
+
+> Quantum Device Fabrication Slide 30.
+
+![Quantum Chip Fabrication Tutorial-31](https://github.com/user-attachments/assets/840c245f-1519-475f-8440-9767e2f6855a)
+
+> Quantum Device Fabrication Slide 31.
+
+</details>
+
+<a id="nanofabrication-document"></a>
+
+#### Nanofabrication Technology for Quantum Chips Document - By Onri Jay Benally
+
+[Click here for the PDF version](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Nanofabrication%20Technology%20Used%20for%20Quantum%20Chips%20by%20Onri_.pdf).
+
+<a id="design-tools-and-engineering-code"></a>
+
+### Design Tools & Engineering Code
+
+<a id="open-access-quantum-device-tools"></a>
+
+#### Open Access Quantum Device Tools
+
+Free tools for designing, simulating, & analyzing quantum/nano devices:
+
+| **Tool**                                                                           | **URL**                                                                                    |
+|------------------------------------------------------------------------------------|--------------------|
+| Semiconductor Process & Device Simulation (SILVACO, browser-based)                 | [https://nanohub.org/resources/silvacotcad](https://nanohub.org/resources/silvacotcad)                                                                                                               |
+| KLayout, Pattern Generation & Layout, Direct-Download                              | [https://www.klayout.de/build.html](https://www.klayout.de/build.html)                                                                                                                               |
+| Elmer FEM, Multiphysics Simulation Tool, Direct-Download                           | [https://www.csc.fi/web/elmer/binaries](https://www.csc.fi/web/elmer/binaries)                                                                                                                       |
+| COMSOL Superconducting Simulation Tool, Browser-Based                              | [https://aurora.epfl.ch/app-lib](https://aurora.epfl.ch/app-lib)                                                                                                                                     |
+| scQubits, Superconducting Qubit Simulation Tool, Python-Based                      | [https://scqubits.readthedocs.io/en/v3.2/index.html](https://scqubits.readthedocs.io/en/v3.2/index.html)                                                                                             |
+| JosephsonCircuits, Superconducting Circuit Simulation Tool, Julia-Based            |  [https://github.com/kpobrien/JosephsonCircuits.jl](https://github.com/kpobrien/JosephsonCircuits.jl) |
+| QTCAD, Spin Qubit Design/Simulation/Analysis, Python-Based                         | [https://docs.nanoacademic.com/qtcad/introduction](https://docs.nanoacademic.com/qtcad/introduction)                                                                                                   |
+| Qiskit Metal, Quantum Device & Circuit Design/Analysis, GUI & Python-Based         | [https://github.com/qiskit-community/qiskit-metal#qiskit-metal](https://github.com/qiskit-community/qiskit-metal#qiskit-metal)                    |
+| KQCircuits, Quantum Device & Circuit Design, KLayout GUI Python-Based              | [https://iqm-finland.github.io/KQCircuits](https://iqm-finland.github.io/KQCircuits) |
+| Quantum Photonic Gate Array Simulation, Python-Based                               | [https://github.com/fancompute/qpga#quantum-programmable-gate-arrays](https://github.com/fancompute/qpga#quantum-programmable-gate-arrays)                                                           |
+| Quantum Photonics Design/Simulation/Fabrication, Analysis, Python-Based            | [https://github.com/SiEPIC/SiEPIC-Tools#siepic-tools](https://github.com/SiEPIC/SiEPIC-Tools#siepic-tools)                                                                                           |
+| Qubit Design & Fabrication Example (applies codes to run lithography machines...)  | [https://github.com/OJB-Quantum/Qiskit-Metal-to-Litho#qiskit-metal-to-litho](https://github.com/OJB-Quantum/Qiskit-Metal-to-Litho#qiskit-metal-to-litho)                                              |
+| GitHub Usage Tutorial                                                              | [https://github.com/OJB-Quantum/How-to-GitHub#how-to-use-github](https://github.com/OJB-Quantum/How-to-GitHub#how-to-use-github)                                                                     |
+
+<a id="open-quantum-hardware-solutions"></a>
+
+#### Open Quantum Hardware Solutions
+
+| **Category** | **Functionality** | **Examples** | 
+|:---:|:---|:---|
+| Projects | Processor Design | DASQA, KQCircuits, PainterQubits/Devices.jl, pyEPR, Qiskit Metal, QuCAT |
+| Projects | Simulation and diagnostics | KQCircuits, Pulser, Qiskit Metal, QuTiP, QuTiP-QIP, sc-qubits, Strawberry Fields |
+| Projects | Control and data acquisition | ARTIQ, Duke-ARTIQ, Qua $^{a}$, QCoDeS, QICK, Quantify, QubiC, Qudi, qupulse, Sinara Open Hardware |
+| Facilities | Remotely Accessible Labs $^{b}$ | Forschungszentrum Jülich through OpenSuperQ, Quantum Inspire |
+| Facilities | Testing (Testbeds) | Lawrence Berkeley National Lab's AQT, Open Quantum Design, Sandia National Labs' QSCOUT, Sherbrooke's Distriq DevTeQ, NQCC |
+| Facilities | Fabrication (Foundries) | LPS Qubit Collaboratory, UCSB quantum foundry, QuantWare $^{c}$ |
+
+>$^{a}$ partially open-source  
+>$^{b}$ excluding commercial providers  
+>$^{c}$ private company with support for Qiskit Metal
+
+Adapted from: Shammah, et al., *Open Hardware Solutions in Quantum Technology*, APL Quantum 1, 011501 (2024)  
+<https://doi.org/10.1063/5.0180987>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="example-colab-notebooks"></a>
+
+#### Example Google Colab Notebooks - By Onri Jay Benally
+
+| Some Example Google Colab Notebooks Authored by Onri |  |
+| ----------- | ----------------- |
+| Josephson Junction Tunneling Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Quantum_Tunneling_Prediction.ipynb) |
+| Josephson Junction Fraunhofer Pattern | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Fraunhofer_Pattern.ipynb) |
+| Coulomb Diamonds & Blockade Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Coulomb_Blockades_and_Coulomb_Diamonds.ipynb) |
+| Quantum-Limited Parametric Amplification Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Parametric_Amplification_Plot.ipynb) |
+| Transverse Electromagnetic Wave Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Transverse_Electromagnetic_Wave_Visualization.ipynb) |
+| Pulse Shapes and Envelopes Visualization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Pulse_Shapes_and_Envelopes_Visualization.ipynb) |
+| Temperature Dependence of Coplanar Waveguide (CPW) Resonator Sweeps| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/Temperature_Dependence_of_CPW_Resonator_Sweeps.ipynb) |
+| Coplanar Waveguide (CPW) Kinetic Inductance Simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/CPW_Kinetic_Inductance_Simulation.ipynb)|
+
+Click here to render the notebooks in the browser: [Jupyter Notebook Viewer](https://nbviewer.org/github/OJB-Quantum/QC-Hardware-How-To/tree/main/Jupyter%20Notebook%20Scripts)
+
+<a id="most-useful-coding-topics-for-hardware-engineers"></a>
+
+#### Most Useful Coding Topics for Hardware Engineers
+
+| Topic                                                             |
+|-------------------------------------------------------------------|
+| Library installation                                              |
+| Syntax & commenting                                               |
+| Curve fitting, direct parameterization, & mesh parameterization   |
+| Automation scripting                                              |
+| Data management & data structures                                 |
+| Parallel processing & accelerated computing techniques            |
+| Interpolation & extrapolation                                     |
+| Linear regression, polynomial regression, moving average regression, & other regression models  |
+| Signal processing                                                 |
+| Noise plots                                                       |
+| Manual debugging                                                  |
+
+<a id="career-and-industry"></a>
+
+### Career & Industry
+
+<a id="quantum-workforce-and-skills"></a>
+
+<a id="the-quantum-workforce--relevant-skills"></a>
+
+#### The Quantum Workforce & Relevant Skills
+
+![image](https://github.com/user-attachments/assets/983672b5-2a26-4cd9-8abf-a0123a1d717d)
+
+> The Quantum Workforce & Relevant Skills.
+
+Borrowed from: 
+Hughes et al., *Assessing the Needs of the Quantum Industry*, 2109.03601, p. 4 (2021)  
+<https://doi.org/10.48550/arXiv.2109.03601>  
+[https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+<a id="quantum-career-opportunities"></a>
+
+#### Quantum Career Opportunities
+
+**Quantum Job Resources (Hardware & Software):**
+
+| **URLs**                                                                                                                 |
+|-------------------------------------------------------------------------------------------------------------------------|
+| [Youtube: "Quantum Jobs" overview video](https://www.youtube.com/watch?v=7dfw8k2p1to)                                   |
+| [IEEE Paper on Quantum Roles & Skills](https://ieeexplore.ieee.org/document/9733176)                                    |
+| [IBM Tech Tech Potato Quantum Jobs](http://ibm.techtechpotato.com)                                                      |
+| [Chicago Quantum Resources](https://chicagoquantum.org/resources)                                                       |
+| [Quantiki Jobs](https://www.quantiki.org/jobs)                                                                          |
+| [Quantum Computing Jobs (Russ Fein)](https://medium.com/@russfein/quantum-computing-jobs-5e67f72fb113)                  |
+| [Quantum Economic Development Consortium (QED-C) Jobs](https://quantumconsortium.org/quantum-jobs)                      |
+| [Global Quantum Leap Opportunities](https://www.globalquantumleap.org/quantum-opportunities-1)                          |
+| [Chicago Quantum Internships](https://chicagoquantum.org/education-and-training/internships)                            |
+| [QuantumGrad.com Jobs](https://www.quantumgrad.com/jobs)                                                                |
+
+<a id="major-player-quantum-hardware-employers"></a>
+
+#### Major Player Quantum-Hardware Employers, Internship / Job Eligibility & Citizenship Notes
+
+<details>
+<summary><b>Expand the employer, work-authorization, and citizenship table</b></summary>
+
+| #  | Company                | Key Quantum‑HW Hiring Sites (2025)                                         | **Accepts Non‑Citizens?** | Representative Citizenship/ Work‑Authorization Wording\*                                                                                                |
+| -- | ---------------------- | -------------------------------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | IBM                    | Yorktown Heights & Albany (US); Ehningen (DE); Kawasaki (JP); Bromont (CA) | **Yes**                   | “International students … are eligible to apply for most roles.”                                                                            |
+| 2  | Microsoft              | Redmond (US); Delft (NL); Sydney (AU); Lyngby (DK)                         | **Yes**                   | “Provide proof of citizenship, permanent residency, or other legal right to work in the posting country.”                  |
+| 3  | Google (Quantum AI)    | Santa Barbara/Goleta (US)                                                  | **Varies**                | “Applicants must be a U.S. citizen, national, permanent resident, or **eligible for an export‑control license**.”                         |
+| 4  | Amazon (AWS CQC)       | Pasadena (US)                                                              | **Varies**                | “Due to applicable export‑control laws … candidates must be a U.S. person **or** able to obtain a U.S. export license.”                |
+| 5  | Intel                  | Hillsboro (US); Delft (NL)                                                 | **Varies**                | Several U.S. quantum‑R\&D adverts state “**U.S. citizenship required**” for export reasons, while Dutch internships have no such clause.  |
+| 6 | Rigetti Computing             | Berkeley (US); Abingdon (UK)                                       | **Varies**             | “U.S. citizenship or U.S. visa/immigration status **may be required** for certain positions due to export control.”       |
+| 7  | Applied Materials      | META Center, Santa Clara (US)                                              | **Varies**                | “Successful candidates must be *eligible to lawfully receive export‑controlled information*, without the company seeking a license.”      |
+| 8  | IMEC                   | Leuven (BE); Delft (NL)                                                    | **Yes**                   | Posts ask only that applicants “qualify for a Belgian work permit.”                                                                           |
+| 9  | Honeywell/ Quantinuum | Broomfield (US); Cambridge (UK)                                            | **Varies**                | U.S. hardware roles require “U.S. person” and exclude PRC/RUS nationals; UK lab open globally.                                               |
+| 10  | Hitachi                | Tokyo (JP); Hitachi‑Cambridge Lab (UK)                                     | **Yes**                   | Cambridge collaboration adverts list degree & skills only—no nationality bar.                                                            |
+| 11 | Toshiba                | Kawasaki (JP); Cambridge (UK)                                              | **Yes**                   | Careers site promotes an international “talent community” without citizenship limits.                                                     |
+| 12 | NEC                    | Tsukuba (JP)                                                               | **Varies**                | Agency listings stress “ability to work in Japan”; several note **no visa sponsorship**.                                                 |
+| 13 | Fujitsu                | Wako (JP) & RIKEN line                                                     | **Yes**                   | Quantum‑research adverts focus on PhD + device skills; nationality absent.                                                                |
+| 14 | D‑Wave                 | Burnaby (CA); Palo Alto (US)                                               | **Yes**                   | Careers page offers “internships and co‑ops” to students worldwide, including remote.                                              |
+| 15 | Bluefors               | Helsinki (FI); Syracuse (US); Delft (NL); Tokyo (JP)                       | **Yes**                   | HQ highlights a “diverse team of 400+ professionals from **50 nations**.”                                                            |
+| 16 | Raith Nano             | Dortmund (DE); Best (NL)                                                   | **Yes**                   | Field‑service ad: “*In possession of an EU residence & working permit*.”                                                                 |
+| 17 | Nanoscribe             | Karlsruhe (DE)                                                             | **Yes**                   | German postings accept non‑EU applicants who secure a work visa.                                                                                         |
+| 18 | FormFactor             | Livermore (US); Dresden (DE)                                               | **Varies**                | Company has filed **82 H‑1B LCAs (2022‑24)**, but some ads say “U.S. work authorization required.”                                     |
+| 19 | Oxford Instruments     | Abingdon (UK); Concord (US)                                                | **Varies**                | UK listings: “Unable to provide visa sponsorship … must hold right to work in UK.”                                        |
+| 20 | Quantum Design         | San Diego (US)                                                             | **Yes**                   | Equal‑opportunity statement forbids discrimination “on account of … **citizenship**.”                                                   |
+| 21 | QBlox                  | Delft (NL); Boston (US)                                                    | **Yes**                   | Dutch HQ routinely sponsors non‑EU talent; U.S. ads follow standard visa rules.                                                      |
+| 22 | Low Noise Factory      | Gothenburg (SE)                                                            | **Yes**                   | 2024 job brochure notes a “diverse team from **12 countries**, English spoken at work.”                                         |
+| 23 | Quanscient             | Tampere (FI) (remote‑friendly)                                             | **Yes**                   | Recruitment posts invite global applicants and emphasise remote flexibility.                                                             |
+| 24 | VTT Technical Research Centre | Espoo/FI (Micronova fab & *Helmi* mK lab)                         | **Yes**                | “Help with work and residence permit applications … guidance with taxes and social security.”                              |
+| 25 | Keysight Technologies         | Santa Rosa (US HQ); Colorado Springs (Cryo‑RF fab); Böblingen (DE) | **Varies**             | Some ads: “Visa sponsorship **not** available”; others: “Visa sponsorship **available**.”  |
+| 26 | Rohde & Schwarz               | Munich (DE HQ); Columbia (MD, US); Singapore design centre         | **Varies**             | H‑1B data confirm sponsorship history; postings often state local work‑permit requirement.                  |
+| 27 | Lake Shore Cryotronics | Westerville (OH, US HQ & fab); Woburn (MA, US cryostat plant); worldwide sales hubs incl. Darmstadt (DE) & Shanghai (CN)          | **Varies**                | Several U.S. postings state **“This position is not eligible for VISA sponsorship.”**  — yet the firm has filed H‑1B petitions in prior years                             |
+| 28 | TOPTICA Photonics      | Gräfelfing (DE HQ & R\&D); Victor (NY, US); Fuchū (Tokyo, JP); Shanghai (CN)  | **Yes**                   | Careers page markets “jobs in Germany **and worldwide**,” while U.S. subsidiary has certified H‑1B LCAs for photonics engineers                               |
+| 29 | Zurich Instruments     | Zürich (CH HQ); Waltham (MA, US); Shanghai (CN); Tokyo (JP)                                                | **Yes**                   | “We benefit from highly‑skilled individuals … from **more than a dozen countries**.”  U.S. arm has recent H‑1B certifications for quantum‑control scientists  |
+
+† Remember that export‑control checks (EAR/ITAR) or local security clearances can still override the headline.
+
+Notes:
+
+- UK/EU eligibility – Ads frequently say “must already have the right to work”; that requirement can normally be met via a UK Graduate‑visa, an EU Blue Card or other residence permits, not by nationality alone.
+- Internship openness – IBM and D‑Wave still market quantum‑hardware internships worldwide. Intel and Google list such internships but add “U.S.‑person or export‑licence” clauses, so availability for non‑citizens depends on export‑control clearance.
+- Visa sponsorship – IMEC, QBlox and Bluefors continue to sponsor or hire non‑EU nationals as standard practice. Hitachi‑ and Toshiba‑Cambridge welcome global applicants yet increasingly ask candidates to already hold UK work authorization; sponsorship is considered case‑by‑case.
+
+</details>
+
+[Back to navigation](#quick-jump-navigation)
