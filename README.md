@@ -877,61 +877,60 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 ```text
 Quanta in Physics (Each = "quantum of" some field or excitation)
-├─ 1. Electromagnetic & Optical Fields 
-│  ├─ 1.1 Photon — quantum of the electromagnetic field 
-│  ├─ 1.2 Polariton family — quantum of strongly coupled light–matter field 
-│  │  ├─ 1.2.1 Exciton-polariton (microcavities, 2-D semiconductors)
-│  │  ├─ 1.2.2 Phonon-polariton (polar dielectrics; IR)
-│  │  ├─ 1.2.3 Magnon-polariton (microwave cavity + magnet)
-│  │  └─ 1.2.4 Plasmon-polariton (surface plasmon + photon; SPP, Tamm)
-│  └─ 1.3 Plasmon — quantum of plasma (collective charge-density) oscillation
+├─ 1. Electromagnetic & Optical Fields
+│   ├─ 1.1 Photon — quantum of the electromagnetic field
+│   ├─ 1.2 Polariton family — quantum of strongly coupled light–matter field
+│   │    ├─ 1.2.1 Exciton-polariton (microcavities, 2-D semiconductors)
+│   │    ├─ 1.2.2 Phonon-polariton (polar dielectrics; IR)
+│   │    ├─ 1.2.3 Magnon-polariton (microwave cavity + magnet)
+│   │    └─ 1.2.4 Plasmon-polariton (surface plasmon + photon; SPP, Tamm)
+│   └─ 1.3 Plasmon — quantum of plasma (collective charge-density) oscillation
 │
 ├─ 2. Vibrational, Lattice, and Fluid Interfaces
-│  ├─ 2.1 Phonon — quantum of lattice vibration (acoustic/optical)
-│  ├─ 2.2 Polaron — electron dressed by lattice polarization (quasiparticle)
-│  ├─ 2.3 Roton — quantum of finite-k density excitation minimum (superfluid He-4)
-│  └─ 2.4 Ripplon — quantum of a surface capillary wave (e.g., He surface)
+│   ├─ 2.1 Phonon — quantum of lattice vibration (acoustic/optical)
+│   ├─ 2.2 Polaron — electron dressed by lattice polarization (quasiparticle)
+│   ├─ 2.3 Roton — quantum of finite-k density excitation minimum (superfluid He-4)
+│   └─ 2.4 Ripplon — quantum of a surface capillary wave (e.g., He surface)
 │
 ├─ 3. Spin & Magnetic Systems
-│  ├─ 3.1 Magnon — quantum of a spin wave
-│  ├─ 3.2 Spinon — fractionalized spin excitation (often 1-D)
-│  ├─ 3.3 Triplon — triplet excitation in dimerized/ladder magnets
-│  └─ 3.4 Paramagnon — damped spin-fluctuation near magnetic criticality
+│   ├─ 3.1 Magnon — quantum of a spin wave
+│   ├─ 3.2 Spinon — fractionalized spin excitation (often 1-D)
+│   ├─ 3.3 Triplon — triplet excitation in dimerized/ladder magnets
+│   └─ 3.4 Paramagnon — damped spin-fluctuation near magnetic criticality
 │
 ├─ 4. Coupled or Hybrid Matter Quanta
-│  ├─ 4.1 Exciton — bound electron–hole pair (neutral bosonic quasiparticle)
-│  │  ├─ 4.1.1 Trion (charged exciton)
-│  │  ├─ 4.1.2 Biexciton (exciton molecule)
-│  │  └─ 4.1.3 Rydberg exciton (high-n)
-│  ├─ 4.2 Plexciton — plasmon–exciton hybrid (nanogaps, metasurfaces)
-│  └─ 4.3 Phonoriton — phonon–photon–exciton triple hybrid (select regimes)
+│   ├─ 4.1 Exciton — bound electron–hole pair (neutral bosonic quasiparticle)
+│   │    ├─ 4.1.1 Trion (charged exciton)
+│   │    ├─ 4.1.2 Biexciton (exciton molecule)
+│   │    └─ 4.1.3 Rydberg exciton (high-n)
+│   ├─ 4.2 Plexciton — plasmon–exciton hybrid (nanogaps, metasurfaces)
+│   └─ 4.3 Phonoriton — phonon–photon–exciton triple hybrid (select regimes)
 │
 ├─ 5. Superconductivity & Broken-Symmetry Collective Modes
-│  ├─ 5.1 Cooper pair — paired electrons (charge 2e) as the superfluid boson
-│  ├─ 5.2 Anderson–Bogoliubov phase mode/ Josephson plasma (phase oscillation)
-│  ├─ 5.3 Quantum phase slip (QPS) — 2π phase-tunneling event in nanowires
-│  ├─ 5.4 Bogolon — Bogoliubov quasiparticle in a condensate
-│  ├─ 5.5 Higgs/Amplitudon — amplitude mode of the order parameter
-│  └─ 5.6 Leggett mode — interband relative-phase oscillation (multiband SCs)
+│   ├─ 5.1 Cooper pair — paired electrons (charge 2e) as the superfluid boson
+│   ├─ 5.2 Anderson–Bogoliubov phase mode/ Josephson plasma (phase oscillation)
+│   ├─ 5.3 Quantum phase slip (QPS) — 2π phase-tunneling event in nanowires
+│   ├─ 5.4 Bogolon — Bogoliubov quasiparticle in a condensate
+│   ├─ 5.5 Higgs/Amplitudon — amplitude mode of the order parameter
+│   └─ 5.6 Leggett mode — interband relative-phase oscillation (multiband SCs)
 │
 ├─ 6. Strongly Correlated Electrons (Spin–Charge–Orbital Separation)
-│  ├─ 6.1 Holon/Chargon — charge-only excitation
-│  ├─ 6.2 Doublon — doubly occupied site excitation (Hubbard systems)
-│  ├─ 6.3 Orbiton — orbital excitation
-│  └─ 6.4 Plasmaron — electron–plasmon composite quasiparticle
+│   ├─ 6.1 Holon/Chargon — charge-only excitation
+│   ├─ 6.2 Doublon — doubly occupied site excitation (Hubbard systems)
+│   ├─ 6.3 Orbiton — orbital excitation
+│   └─ 6.4 Plasmaron — electron–plasmon composite quasiparticle
 │
 ├─ 7. Topological & Emergent Quasiparticles
-│  ├─ 7.1 Anyons (Abelian and non-Abelian; 2-D topological order)
-│  ├─ 7.2 Majorana zero modes (Ising anyons in topological superconductors)
-│  ├─ 7.3 Fractons (restricted-mobility excitations)
-│  └─ 7.4 Emergent magnetic monopoles (spin-ice materials)
+│   ├─ 7.1 Anyons (Abelian and non-Abelian; 2-D topological order)
+│   ├─ 7.2 Majorana zero modes (Ising anyons in topological superconductors)
+│   ├─ 7.3 Fractons (restricted-mobility excitations)
+│   └─ 7.4 Emergent magnetic monopoles (spin-ice materials)
 │
 └─ 8. High-Energy Gauge & Gravitational Fields (completeness)
-   ├─ 8.1 Gluon — quantum of the color gauge field (QCD)
-   ├─ 8.2 W±/ Z⁰ — quanta of the weak gauge fields
-   └─ 8.3 Graviton† — quantum of the gravitational field (hypothetical)
+    ├─ 8.1 Gluon — quantum of the color gauge field (QCD)
+    ├─ 8.2 W± / Z⁰ — quanta of the weak gauge fields
+    └─ 8.3 Graviton† — quantum of the gravitational field (hypothetical)
 ```
-
 
 ```text
 “Quantum of …” Naming Family
