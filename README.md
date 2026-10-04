@@ -877,9 +877,9 @@ Free or Open Access Literature & More (Up to Graduate Level):
 
 ```text
 Quanta in Physics (Each = "quantum of" some field or excitation)
-├─ 1. Electromagnetic & Optical Fields
-│   ├─ 1.1 Photon — quantum of the electromagnetic field
-│   ├─ 1.2 Polariton family — quantum of strongly coupled light–matter field
+├─ 1. Electromagnetic & Optical Fields 
+│   ├─ 1.1 Photon — quantum of the electromagnetic field 
+│   ├─ 1.2 Polariton family — quantum of strongly coupled light–matter field 
 │   │    ├─ 1.2.1 Exciton-polariton (microcavities, 2-D semiconductors)
 │   │    ├─ 1.2.2 Phonon-polariton (polar dielectrics; IR)
 │   │    ├─ 1.2.3 Magnon-polariton (microwave cavity + magnet)
@@ -928,9 +928,10 @@ Quanta in Physics (Each = "quantum of" some field or excitation)
 │
 └─ 8. High-Energy Gauge & Gravitational Fields (completeness)
     ├─ 8.1 Gluon — quantum of the color gauge field (QCD)
-    ├─ 8.2 W± / Z⁰ — quanta of the weak gauge fields
+    ├─ 8.2 W±/ Z⁰ — quanta of the weak gauge fields
     └─ 8.3 Graviton† — quantum of the gravitational field (hypothetical)
 ```
+
 
 ```text
 “Quantum of …” Naming Family
