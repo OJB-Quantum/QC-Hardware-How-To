@@ -124,6 +124,8 @@ Primary URL for the repository: [OJB-Quantum/QC-Hardware-How-To](https://github.
 
 --- 
 
+### Some Interesting Illustrative Colab Notebooks for Quantum Hardware Education
+
 | Some Example Google Colab Notebooks Authored by Onri |  |
 | ----------- | ----------------- |
 | Josephson Junction Tunneling Prediction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/QC-Hardware-How-To/blob/main/Jupyter%20Notebook%20Scripts/JJ_Quantum_Tunneling_Prediction.ipynb) |
