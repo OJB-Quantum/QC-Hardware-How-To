@@ -801,7 +801,7 @@ Quanta in Physics (Each = "quantum of" some field or excitation)
 │   ├─ W±/ Z⁰ bosons – weak-interaction gauge fields            (spin-1)
 │   └─ Graviton†    – gravitational field (hypothetical)         (spin-2)
 │
-├─ B. Condensed-Matter Collective Quanta
+├─ B. Condensed-Matter Collective Quanta (Quasiparticles)
 │   ├─ Lattice/ Elastic
 │   │   ├─ Phonon   – lattice vibration (acoustic/ optical)  
 │   │   ├─ Roton    – ripplon-like excitation in superfluid He-4
@@ -813,14 +813,15 @@ Quanta in Physics (Each = "quantum of" some field or excitation)
 │   ├─ Charge & Plasma
 │   │   ├─ Plasmon  – plasma (charge-density) oscillation 
 │   │   ├─ Polaron  – electron dressed by a phonon cloud
-│   │   └─ Dropleton – correlated e-h “quantum droplet” 
+│   │   ├─ Exciton  – bound electron-hole pair 
+│   │   └─ Holon    – fractional charge excitation (1-D chains)
 │   └─ Orbital/ Topological
 │       ├─ Orbiton  – orbital angular-momentum excitation
-│       └─ Anyon    – topological quasiparticle in 2-D (fractional statistics)
+│       ├─ Anyon    – topological quasiparticle in 2-D (fractional statistics)
+│       └─ Majorana – zero-mode topological quasiparticle
 │
-├─ C. Hybrid Light–Matter Quanta
-│   ├─ Exciton          – bound electron-hole pair 
-│   ├─ Polariton Family (strong-coupling hybrids)
+├─ C. Hybrid Light–Matter Quanta (Strong Coupling)
+│   ├─ Polariton Family (photon ↔ matter excitation)
 │   │   ├─ Exciton-polariton   (photon ↔ exciton)
 │   │   ├─ Phonon-polariton    (photon ↔ infrared phonon)
 │   │   ├─ Magnon-polariton    (microwave photon ↔ magnon)
@@ -829,8 +830,8 @@ Quanta in Physics (Each = "quantum of" some field or excitation)
 │
 └─ D. Superconducting & Many-Body Charge Quanta
     ├─ Cooper pair   – paired electrons (charge 2e) in a superconductor
-    ├─ Josephson quantum – 2π phase-slip across a weak link
-    └─ Higgs mode    – amplitude oscillation of an order parameter
+    ├─ Fluxon         – quantized magnetic flux vortex
+    └─ Higgs mode     – amplitude oscillation of an order parameter
 ```
 
 ---
