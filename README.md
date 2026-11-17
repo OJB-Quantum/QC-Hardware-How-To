@@ -1258,19 +1258,19 @@ Quantum Hardware + Quantum‑Adjacent Hardware
         └─ 6. Nano Cryotron memory cells
 ```
 
-#### Variations of Transmons and Other Related -mons
+#### Variations of Transmons and Other Related -mons (Transmon Family)
 
 ```
-Transmon family and transmon-derived extensions
+Transmon family, transmon-derived extensions, and related quarton circuits
 │
 ├── Original capacitively shunted Cooper-pair-box transmon
-│   └── Reference architecture; outside the 30-entry count
+│   └── Reference architecture; outside the numbered count
 │
 ├── Geometry, flux control, coupling, and packaging
-│   ├── [01] Split transmon/ SQUID transmon                         [E]
-│   ├── [02] 3D transmon                                            [E]
-│   ├── [03] Xmon                                                  [E]
-│   │   └── [04] gmon                                              [E]
+│   ├── [01] Split transmon / SQUID transmon                        [E]
+│   ├── [02] 3D transmon                                           [E]
+│   ├── [03] Xmon                                                 [E]
+│   │   └── [04] gmon                                             [E]
 │   ├── [05] Concentric transmon                                   [E]
 │   ├── [06] Coaxmon                                               [E]
 │   ├── [07] Starmon                                               [E]
@@ -1286,20 +1286,22 @@ Transmon family and transmon-derived extensions
 │   │   ├── Sn/InAs implementations
 │   │   └── Carbon-nanotube implementations
 │   │
-│   ├── [11] Mergemon/ merged-element transmon (MET)               [E]
+│   ├── [11] Mergemon / merged-element transmon (MET)               [E]
 │   │   ├── [12] FinMET                                          [C/T]
 │   │   └── Fully crystalline van der Waals MET implementations
 │   │
 │   ├── [13] Planaron                                              [S]
-│   ├── [14] Ferrotransmon/ Ferromon                                   [T]
-│   └── [15] FEmon/ ferroelectric transmon                         [T]
+│   ├── [14] Ferrotransmon / Ferromon                               [T]
+│   └── [15] FEmon / ferroelectric transmon                         [T]
 │
 ├── Multimode and coupled-transmon circuit architectures
 │   ├── [16] Tunable-coupling qubit (TCQ) and Dimon family           [E]
 │   ├── [17] Trimon                                                [E]
 │   ├── [18] Transmon molecule                                     [E]
 │   ├── [19] P-mon                                                 [E]
-│   └── [20] Weakly tunable qubit (WTQ)                             [E]
+│   ├── [20] Weakly tunable qubit (WTQ)                             [E]
+│   └── Quarton-coupled transmon implementations                    [E]
+│       └── Quarton-mediated nonlinear coupling between transmons
 │
 ├── Engineered inductive and Josephson potentials
 │   ├── [21] Kinemon                                               [E]
@@ -1310,10 +1312,17 @@ Transmon family and transmon-derived extensions
 │   └── [26] Altermon                                              [T]
 │
 ├── Fermionic-parity and spin-hybrid extensions
-    ├── [27] Top-transmon                                          [T]
-    ├── [28] Majorana-transmon                                     [T]
-    ├── [29] Kitmon                                                [T]
-    └── [30] Spinmon                                               [T]
+│   ├── [27] Top-transmon                                          [T]
+│   ├── [28] Majorana-transmon                                     [T]
+│   ├── [29] Kitmon                                                [T]
+│   └── [30] Spinmon                                               [T]
+│
+└── Related flux-qubit architectures with engineered potentials
+    └── [31] Quarton / quarton flux qubit                           [E]
+        ├── Nearly quartic potential at the operating point
+        ├── Positive anharmonicity
+        └── Vertically stacked Josephson-junction-array
+            implementations                                       [E]
 ```
 
 > Acronym Glossary for the Hardware‑Taxonomy Tree
