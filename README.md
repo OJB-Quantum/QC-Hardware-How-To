@@ -889,9 +889,12 @@ Qubit Classification Tree
    │  ├─ Mobility
    │  │  ├─ Stationary Qubit
    │  │  └─ Flying Qubit
-   │  └─ Functional Role
-   │     ├─ Data Qubit
-   │     └─ Ancilla Qubit
+   │  ├─ Functional Role
+   │  │  ├─ Data Qubit
+   │  │  └─ Ancilla Qubit
+   │  └─ State Encoding
+   │     ├─ Discrete-Variable Qubit
+   │     └─ Continuous-Variable Qubit
    |
    └─ Fault-Tolerant (FT) Era
       ├─ Abstraction Level
@@ -906,9 +909,12 @@ Qubit Classification Tree
       ├─ Mobility
       │  ├─ Stationary Qubit
       │  └─ Flying Qubit
-      └─ Functional Role
-         ├─ Data Qubit
-         └─ Ancilla Qubit
+      ├─ Functional Role
+      │  ├─ Data Qubit
+      │  └─ Ancilla Qubit
+      └─ State Encoding
+         ├─ Discrete-Variable Qubit
+         └─ Continuous-Variable Qubit
 ```
 
 > Notes:
